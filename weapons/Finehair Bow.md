@@ -9,4 +9,4 @@
 
 ### FEATURE
 
-**_Reliable:_** +1 to attack rolls
+**_+1 to attack rolls Reliable:_** <no value>

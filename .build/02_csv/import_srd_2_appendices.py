@@ -29,10 +29,12 @@ def compact(text: str) -> str:
         "\ue548": "8", "\ue549": "9",
     })
     text = (text or "").translate(glyph_digits)
+    text = text.replace("−", "-").replace("\u00a0", " ")
     text = re.sub(r"\s+", " ", text).strip()
     # Some ligatures are emitted by the PDF as a partial word followed by a
     # space (for example, "fl esh").
-    return re.sub(r"\b(fi|fl)\s+([a-z])", r"\1\2", text)
+    text = re.sub(r"\b(fi|fl)\s+([a-z])", r"\1\2", text)
+    return re.sub(r"\bT\s+argets\b", "Targets", text)
 
 
 def adversary_name(text: str) -> str:
@@ -158,18 +160,128 @@ def armor_rows(pdf) -> list[dict[str, str]]:
     return records
 
 
+def weapon_rows(pdf) -> list[dict[str, str]]:
+    """Read the primary, secondary, and combat-wheelchair weapon tables.
+
+    The PDF has no stable table ruling, but its columns are positioned
+    consistently.  Treat the line containing the Trait as a record anchor;
+    wrapped names and feature copy are then bounded by the next anchor.
+    """
+    traits = {"Agility", "Strength", "Finesse", "Instinct", "Presence", "Knowledge", "Spellcast"}
+    ranges = {"Melee", "Close", "Far", "Very Close", "Very Far"}
+    records: list[dict[str, str]] = []
+
+    def parse_page(page, columns, state):
+        lines = [words for words in table_lines(page) if any(word["top"] < page.height - 45 for word in words)]
+        anchors = []
+        section_breaks = []
+        category, tier, damage_type = state
+        for index, words in enumerate(lines):
+            plain = compact(" ".join(word["text"] for word in words))
+            if "PRIMARY WEAPON TABLES" in plain:
+                category = "Primary"
+            elif "SECONDARY WEAPON TABLES" in plain:
+                category = "Secondary"
+            match = re.match(r"TIER ([1-4]) ", plain)
+            if match:
+                tier = match.group(1)
+            if plain == "Physical Weapons":
+                damage_type = "Physical"
+            elif plain == "Magic Weapons":
+                damage_type = "Magical"
+            if plain.startswith("TIER ") or plain in {"Physical Weapons", "Magic Weapons"} or "SECONDARY WEAPON TABLES" in plain:
+                section_breaks.append(index)
+
+            header = {word["text"]: word["x0"] for word in words}
+            if {"Trait", "Range", "Damage", "Burden", "Feature"} <= header.keys():
+                columns = {key.lower(): header[key] for key in ("Trait", "Range", "Damage", "Burden", "Feature")}
+
+            active_columns = columns
+
+            def cell(left, right):
+                return compact(" ".join(word["text"] for word in words if left - 3 <= word["x0"] < right - 3))
+
+            trait = cell(active_columns["trait"], active_columns["range"])
+            weapon_range = cell(active_columns["range"], active_columns["damage"])
+            damage = cell(active_columns["damage"], active_columns["burden"])
+            burden = cell(active_columns["burden"], active_columns["feature"])
+            if re.fullmatch(r"d\d+(?:\+\d+)?", damage) and index + 1 < len(lines):
+                next_damage = compact(" ".join(word["text"] for word in lines[index + 1] if active_columns["damage"] - 3 <= word["x0"] < active_columns["burden"] - 3))
+                if next_damage in {"phy", "mag", "phy/mag"}:
+                    damage = f"{damage} {next_damage}"
+            if trait in traits and weapon_range in ranges and re.fullmatch(r"d\d+(?:\+\d+)? (?:phy|mag|phy/mag)", damage) and burden in {"One-Handed", "Two-Handed"}:
+                anchors.append((index, category, tier, damage_type, trait, weapon_range, damage, burden, active_columns))
+
+        for anchor_index, anchor in enumerate(anchors):
+            start, category, tier, damage_type, trait, weapon_range, damage, burden, active_columns = anchor
+            end = anchors[anchor_index + 1][0] if anchor_index + 1 < len(anchors) else len(lines)
+            end = min([end, *[section for section in section_breaks if section > start]])
+            segment = lines[start:end]
+            name = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] < active_columns["trait"] - 2))
+            feature = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] >= active_columns["feature"] - 2))
+            if not name or not category or not tier or not damage_type:
+                continue
+            actual_damage_type = damage_type if category == "Primary" else ("Magical" if damage.endswith("mag") else "Physical")
+            row = {"Name": name, "Primary or Secondary": category, "Tier": tier, "Physical or Magical": actual_damage_type, "Trait": trait, "Range": weapon_range, "Damage": damage, "Burden": burden}
+            if ":" in feature:
+                feature_name, feature_text = feature.split(":", 1)
+                row["Feature 1 Name"] = compact(feature_name)
+                row["Feature 1 Text"] = compact(feature_text)
+            records.append(row)
+        return category, tier, damage_type
+
+    state = ("", "", "")
+    # PDF pages 56–69 contain the main weapon tables.
+    for page_no in range(55, 69):
+        state = parse_page(pdf.pages[page_no], {"trait": 120, "range": 174, "damage": 226, "burden": 292, "feature": 357}, state)
+
+    # The wheelchair tables include a Tier column and use a shifted layout.
+    for page_no in range(69, 71):
+        page = pdf.pages[page_no]
+        lines = [words for words in table_lines(page) if any(word["top"] < page.height - 45 for word in words)]
+        anchors = []
+        section_breaks = []
+        for index, words in enumerate(lines):
+            if compact(" ".join(word["text"] for word in words)) == "Arcane Frame Models":
+                section_breaks.append(index)
+            def cell(left, right):
+                return compact(" ".join(word["text"] for word in words if left <= word["x0"] < right))
+            tier = cell(128, 162)
+            trait = cell(162, 203)
+            weapon_range = cell(203, 251)
+            damage = cell(251, 308)
+            burden = cell(308, 371)
+            if tier in {"1", "2", "3", "4"} and trait in traits and weapon_range in ranges and re.fullmatch(r"d\d+(?:\+\d+)? (?:phy|mag)", damage) and burden in {"One-Handed", "Two-Handed"}:
+                anchors.append((index, tier, trait, weapon_range, damage, burden))
+        for anchor_index, anchor in enumerate(anchors):
+            start, tier, trait, weapon_range, damage, burden = anchor
+            end = anchors[anchor_index + 1][0] if anchor_index + 1 < len(anchors) else len(lines)
+            end = min([end, *[section for section in section_breaks if section > start]])
+            segment = lines[start:end]
+            name = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] < 127))
+            feature = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] >= 371))
+            row = {"Name": name, "Primary or Secondary": "Primary", "Tier": tier, "Physical or Magical": "Magical" if damage.endswith("mag") else "Physical", "Trait": trait, "Range": weapon_range, "Damage": damage, "Burden": burden}
+            if ":" in feature:
+                feature_name, feature_text = feature.split(":", 1)
+                row["Feature 1 Name"] = compact(feature_name)
+                row["Feature 1 Text"] = compact(feature_text)
+            records.append(row)
+    return records
+
+
 def main() -> None:
     with pdfplumber.open(PDF) as pdf:
         items = loot_rows(pdf, range(74, 79))
         consumables = loot_rows(pdf, range(79, 86))
         foes = adversaries(pdf)
         armor = armor_rows(pdf)
-    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150 or len(armor) != 69:
-        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}, armor={len(armor)}")
-    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes), ("armor.csv", armor)):
+        weapons = weapon_rows(pdf)
+    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150 or len(armor) != 69 or len(weapons) < 250:
+        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}, armor={len(armor)}, weapons={len(weapons)}")
+    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes), ("armor.csv", armor), ("weapons.csv", weapons)):
         with (CSV / filename).open(newline="") as fh: header = next(csv.reader(fh))
         write_rows(filename, header, rows)
-    print(f"imported {len(items)} items, {len(consumables)} consumables, {len(foes)} adversaries, and {len(armor)} armor entries")
+    print(f"imported {len(items)} items, {len(consumables)} consumables, {len(foes)} adversaries, {len(armor)} armor entries, and {len(weapons)} weapons")
 
 
 if __name__ == "__main__":

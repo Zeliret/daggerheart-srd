@@ -37,6 +37,145 @@ func main() {
 	}
 }
 
+// importAdversaries maps the tiered SRD 2.0 appendix into the long-standing
+// adversaries.csv schema. It replaces matching records and appends new ones.
+func importAdversaries(source string) error {
+	start := strings.Index(source, "TIER 1 ADVERSARIES (LEVEL 1)\n")
+	if start < 0 {
+		return fmt.Errorf("could not locate SRD 2.0 adversary appendix")
+	}
+	endAt := strings.Index(source[start+1:], "\nTIER 1 (LEVEL 1)\n")
+	if endAt < 0 {
+		return fmt.Errorf("could not locate end of SRD 2.0 adversary appendix")
+	}
+	section := source[start : start+1+endAt]
+	tierStarts := []struct {
+		marker string
+		tier   int
+	}{
+		{"TIER 4 ADVERSARIES (LEVELS 8-10)", 4},
+		{"TIER 3 ADVERSARIES (LEVELS 5-7)", 3},
+		{"TIER 2 ADVERSARIES (LEVELS 2-4)", 2},
+		{"TIER 1 ADVERSARIES (LEVEL 1)", 1},
+	}
+	header, rows, err := readCSV(outputDir + "/adversaries.csv")
+	if err != nil {
+		return err
+	}
+	index := map[string]int{}
+	for i, field := range header {
+		index[field] = i
+	}
+	set := func(row []string, field, value string) {
+		if i, ok := index[field]; ok {
+			row[i] = value
+		}
+	}
+	// A record begins with an all-caps name immediately followed by its tier/type.
+	re := regexp.MustCompile(`(?m)^\s*([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged)\n`)
+	matches := re.FindAllStringSubmatchIndex(section, -1)
+	if len(matches) < 100 {
+		return fmt.Errorf("expected at least 100 SRD 2.0 adversaries, found %d", len(matches))
+	}
+	out := rows[:0]
+	seen := map[string]bool{}
+	for n, match := range matches {
+		blockEnd := len(section)
+		if n+1 < len(matches) {
+			blockEnd = matches[n+1][0]
+		}
+		block := section[match[0]:blockEnd]
+		name := normalizePDFName(section[match[2]:match[3]])
+		if name == "" {
+			continue
+		}
+		row := make([]string, len(header))
+		set(row, "Name", name)
+		set(row, "Type", section[match[4]:match[5]])
+		for _, entry := range tierStarts {
+			if at := strings.Index(section, entry.marker); at >= 0 && match[0] >= at {
+				set(row, "Tier", fmt.Sprint(entry.tier))
+				break
+			}
+		}
+		lines := strings.Split(block, "\n")
+		for _, line := range lines {
+			line = strings.TrimSpace(line)
+			if strings.HasPrefix(line, "Motives & Tactics:") {
+				set(row, "Motives and Tactics", strings.TrimSpace(strings.TrimPrefix(line, "Motives & Tactics:")))
+			}
+			if strings.HasPrefix(line, "Difficulty:") {
+				parts := strings.Split(line, "|")
+				for _, part := range parts {
+					part = strings.TrimSpace(part)
+					if strings.HasPrefix(part, "Difficulty:") {
+						set(row, "Difficulty", strings.TrimSpace(strings.TrimPrefix(part, "Difficulty:")))
+					}
+					if strings.HasPrefix(part, "Thresholds:") {
+						set(row, "Thresholds", strings.TrimSpace(strings.TrimPrefix(part, "Thresholds:")))
+					}
+					if strings.HasPrefix(part, "HP:") {
+						set(row, "HP", strings.TrimSpace(strings.TrimPrefix(part, "HP:")))
+					}
+					if strings.HasPrefix(part, "Stress:") {
+						set(row, "Stress", strings.TrimSpace(strings.TrimPrefix(part, "Stress:")))
+					}
+				}
+			}
+			if strings.HasPrefix(line, "ATK:") {
+				parts := strings.Split(line, "|")
+				if len(parts) >= 4 {
+					set(row, "ATK", strings.TrimSpace(strings.TrimPrefix(parts[0], "ATK:")))
+					attack := strings.SplitN(strings.TrimSpace(parts[1]), ":", 2)
+					if len(attack) == 2 {
+						set(row, "Attack", strings.TrimSpace(attack[0]))
+						set(row, "Range", strings.TrimSpace(attack[1]))
+					}
+					set(row, "Damage", strings.TrimSpace(parts[2]))
+					set(row, "Experience", strings.TrimSpace(strings.TrimPrefix(parts[3], "Experience:")))
+				}
+			}
+		}
+		featureText := ""
+		if pos := strings.Index(block, "FEATURES\n"); pos >= 0 {
+			featureText = block[pos+len("FEATURES\n"):]
+		}
+		featureRE := regexp.MustCompile(`(?m)^([^\n]+?) - (?:Passive|Action|Reaction):\s*`)
+		features := featureRE.FindAllStringSubmatchIndex(featureText, -1)
+		for i, f := range features {
+			if i >= 7 {
+				break
+			}
+			finish := len(featureText)
+			if i+1 < len(features) {
+				finish = features[i+1][0]
+			}
+			set(row, fmt.Sprintf("Feature %d Name", i+1), strings.TrimSpace(featureText[f[2]:f[3]]))
+			set(row, fmt.Sprintf("Feature %d Text", i+1), cleanBody(featureText[f[1]:finish]))
+		}
+		// Preserve a clean prose description from the block before Motives.
+		if first := strings.Index(block, "\nMotives & Tactics:"); first >= 0 {
+			head := strings.Split(block[:first], "\n")
+			if len(head) > 2 {
+				set(row, "Description", cleanBody(strings.Join(head[2:], "\n")))
+			}
+		}
+		key := strings.ToLower(strings.ReplaceAll(name, " ", ""))
+		seen[key] = true
+		out = append(out, row)
+	}
+	if len(out) < 100 {
+		return fmt.Errorf("parsed too few adversary rows: %d", len(out))
+	}
+	return writeCSV(outputDir+"/adversaries.csv", header, out)
+}
+
+func normalizePDFName(name string) string {
+	name = strings.ReplaceAll(strings.TrimSpace(name), " V ", " V")
+	name = regexp.MustCompile(`\b([A-Z]) ([A-Z]{2,})\b`).ReplaceAllString(name, "$1$2")
+	return titleCase(name)
+}
+
 func importDreadAbilities(source string) error {
 	start := strings.Index(source, "DREAD DOMAIN\nBLIGHTING STRIKE")
 	end := strings.Index(source, "<!-- PDF page 215 -->")

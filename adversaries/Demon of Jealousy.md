@@ -1,18 +1,18 @@
-# Demon of Jealousy
+# Demon Of Jealousy
 
-**_Tier 3 Ranged._** _A fickle creature of spindly limbs and insatiable desires._
+**_Tier 3 Ranged._** _A fi ckle creature of spindly limbs and insatiable desires._
 
-- **Motives & Tactics:** Join in on others' success, take what belongs to others, hold grudges
+- **Motives & Tactics:** Join in on others’ success, take what belongs to
 - **Difficulty:** 17 | **Thresholds:** 17/30 | **HP:** 6 | **Stress:** 6
 - **ATK:** +4 | **Psychic Assault:** Far | 3d8+3 mag
 - **Experience:** Manipulation +3
 
 ### FEATURES
 
-**_Unprotected Mind - Passive:_** The Demon's standard attack deals direct damage.
+**_Unprotected Mind:_** The Demon’s standard attack deals direct damage.
 
-**_My Turn - Reaction:_** When the Demon marks HP from an attack, **spend a number of Fear equal to the HP marked by the Demon** to cause the attacker to mark the same number of HP.
+**_My Turn:_** When the Demon marks HP from an attack, spend a number of Fear equal to the HP marked by the Demon to cause the attacker to mark the same number of HP.
 
-**_Rivalry - Reaction:_** When a creature within Close range takes damage from a different adversary, you can **mark a Stress** to add a **d4** to the damage roll.
+**_Rivalry:_** When a creature within Close range takes damage from a diff erent adversary, you can mark a Stress to add a d4 to the damage roll.
 
-**_What's Yours Is Mine - Reaction:_** When a PC takes Severe damage within Very Close range of the Demon, you can **spend a Fear** to cause the target to make a Finesse Reaction Roll. On a failure, the Demon seizes one item or consumable of their choice from the target's inventory.
+**_What’s Yours Is Mine:_** When a PC takes Severe damage within Very Close range of the Demon, you can spend a Fear to cause the target to make a Finesse Reaction Roll. On a failure, the Demon seizes one item or consumable of their choice from the target’s inventory.

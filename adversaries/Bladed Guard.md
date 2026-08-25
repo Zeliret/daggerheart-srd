@@ -1,14 +1,14 @@
 # Bladed Guard
 
-**_Tier 1 Standard._** _An armored guard bearing a sword and shield painted in the settlement's colors._
+**_Tier 1 Standard._** _An armored guard bearing a sword and shield painted in the settlement’s colors._
 
-- **Motives & Tactics:** Arrest, close gates, make it through the day, pin down
+- **Motives & Tactics:** Arrest, close gates, make it through the day,
 - **Difficulty:** 12 | **Thresholds:** 5/9 | **HP:** 5 | **Stress:** 2
 - **ATK:** +1 | **Longsword:** Melee | 1d6+1 phy
 - **Experience:** Local Knowledge +3
 
 ### FEATURES
 
-**_Shield Wall - Passive:_** A creature who tries to move within Very Close range of the Guard must succeed on an Agility Roll. If additional Bladed Guards are standing in a line alongside the first, and each is within Melee range of another guard in the line, the Difficulty increases by the total number of guards in that line.
+**_Shield Wall:_** A creature who tries to move within Very Close range of the Guard must succeed on an Agility Roll. If additional Bladed Guards are standing in a line alongside the fi rst, and each is within Melee range of another guard in the line, the Diffi culty increases by the total number of guards in that line.
 
-**_Detain - Action:_** Make an attack against a target within Very Close range. On a success, **mark a Stress** to _Restrain_ the target until they break free with a successful attack, Finesse Roll, or Strength Roll.
+**_Detain:_** Make an attack against a target within Very Close range. On a success, mark a Stress to Restrain the target until they break free with a successful attack, Finesse Roll, or Strength Roll.

@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Slow - Passive:_** When you spotlight the Zombie and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the Zombie and they have a token on their stat block, clear the token and they can act.
+**_Slow:_** When you spotlight the Zombie and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Zombie and they have a token on their stat block, clear the token and they can act.
 
-**_Rend Asunder - Action:_** Make a standard attack with advantage against a target the Zombie has _Restrained_. On a success, the attack deals direct damage.
+**_Rend Asunder:_** Make a standard attack with advantage against a target the Zombie has Restrained. On a success, the attack deals direct damage.
 
-**_Rip and Tear - Reaction:_** When the Zombies makes a successful standard attack, you can **mark a Stress** to temporarily _Restrain_ the target and force them to mark 2 Stress.
+**_Rip and Tear:_** When the Zombies makes a successful standard attack, you can mark a Stress to temporarily Restrain the target and force them to mark 2 Stress.

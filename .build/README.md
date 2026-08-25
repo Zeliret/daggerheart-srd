@@ -27,6 +27,7 @@ And then a lot of manual markdown cleanup...
     # from the 1.0 Marker output. Run the SRD 2.0 importer first, then the
     # normal CSV -> JSON -> Markdown stages.
     go run .build/02_csv/import_srd_2.go
+    python3 .build/02_csv/import_srd_2_appendices.py
     go run .build/03_json/extract_from_csv.go
     go run .build/04_md/extract_from_json.go
 

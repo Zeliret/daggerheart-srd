@@ -1,6 +1,6 @@
 # Spellblade
 
-**_Tier 1 Leader._** _A mercenary combining swordplay and magic to deadly effect._
+**_Tier 1 Leader._** _A mercenary combining swordplay and magic to deadly eff ect._
 
 - **Motives & Tactics:** Blast, command, endure
 - **Difficulty:** 14 | **Thresholds:** 8/14 | **HP:** 6 | **Stress:** 3
@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Arcane Steel - Passive:_** Damage dealt by the Spellblade's standard attack is considered both physical and magic.
+**_Arcane Steel:_** Damage dealt by the Spellblade’s standard attack is considered both physical and magic.
 
-**_Suppressing Blast - Action:_** **Mark a Stress** and target a group within Far range. All targets must succeed on an Agility Reaction Roll or take **1d8+2** magic damage. You gain a Fear for each target who marked HP from this attack.
+**_Suppressing Blast:_** Mark a Stress and target a group within Far range. All targets must succeed on an Agility Reaction Roll or take 1d8+2 magic damage. You gain a Fear for each target who marked HP from this attack.
 
-**_Move as a Unit - Action:_** **Spend 2 Fear** to spotlight up to five allies within Far range.
+**_Move as a Unit:_** Spend 2 Fear to spotlight up to fi ve allies within Far range.
 
-**_Momentum - Reaction:_** When the Spellblade makes a successful attack against a PC, you gain a Fear.
+**_Momentum:_** When the Spellblade makes a successful attack against a PC, you gain a Fear. 110 Daggerheart SRD

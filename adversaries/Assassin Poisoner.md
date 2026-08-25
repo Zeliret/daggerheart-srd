@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Grindletooth Venom - Passive:_** Targets who mark HP from the Assassin's attacks are _Vulnerable_ until they clear a HP.
+**_Grindletooth Venom:_** Targets who mark HP from the Assassin’s attacks are Vulnerable until they clear a HP.
 
-**_Out of Nowhere - Passive:_** The Assassin has advantage on attacks if they are _Hidden_.
+**_Out of Nowhere:_** The Assassin has advantage on attacks if they are Hidden.
 
-**_Fumigation - Action:_** Drop a smoke bomb that fills the air within Close range with smoke, _Dizzying_ all targets in this area. _Dizzied_ targets have disadvantage on their next action roll, then clear the condition.
+**_Fumigation:_** Drop a smoke bomb that fi lls the air within Close range with smoke, Dizzying all targets in this area. Dizzied targets have disadvantage on their next action roll, then clear the condition. 114 Daggerheart SRD

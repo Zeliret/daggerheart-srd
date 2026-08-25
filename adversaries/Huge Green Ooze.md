@@ -2,17 +2,17 @@
 
 **_Tier 3 Skulk._** _A translucent green mound of acid taller than most humans._
 
-- **Motives & Tactics:** Camouflage, creep up, envelop, multiply
+- **Motives & Tactics:** Camoufl age, creep up, envelop, multiply
 - **Difficulty:** 15 | **Thresholds:** 15/30 | **HP:** 7 | **Stress:** 4
 - **ATK:** +3 | **Ooze Appendage:** Melee | 3d8+1 mag
 - **Experience:** Blend In +3
 
 ### FEATURES
 
-**_Slow - Passive:_** When you spotlight the Ooze and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the Ooze and they have a token on their stat block, clear the token and they can act.
+**_Slow:_** When you spotlight the Ooze and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Ooze and they have a token on their stat block, clear the token and they can act.
 
-**_Acidic Form - Passive:_** When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.
+**_Acidic Form:_** When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefi ts (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.
 
-**_Envelop - Action:_** Make an attack against a target within Melee range. On a success, the Ooze _Envelops_ them and the target must mark 2 Stress. While _Enveloped_, the target must mark an additional Stress every time they make an action roll. When the Ooze takes Severe damage, all _Enveloped_ targets are freed and the condition is cleared.
+**_Envelop:_** Make an attack against a target within Melee range. On a success, the Ooze Envelops them and the target must mark 2 Stress. While Enveloped, the target must mark an additional Stress every time they make an action roll. When the Ooze takes Severe damage, all Enveloped targets are freed and the condition is cleared.
 
-**_Split - Reaction:_** When the Ooze has 4 or more HP marked, you can **spend a Fear** to split them into two Green Oozes (with no marked HP or Stress). Immediately spotlight both of them.
+**_Split:_** When the Ooze has 4 or more HP marked, you can spend a Fear to split them into two Green Oozes (with no marked HP or Stress). Immediately spotlight both of them.

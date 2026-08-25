@@ -1,14 +1,14 @@
 # Spectral Archer
 
-**_Tier 2 Ranged._** _A ghostly fighter with an ethereal bow, unable to move on while their charge is vulnerable._
+**_Tier 2 Ranged._** _A ghostly fi ghter with an ethereal bow, unable to move on while their charge is vulnerable._
 
-- **Motives & Tactics:** Move through solid objects, stay out of the fray, rehash old battles
+- **Motives & Tactics:** Move through solid objects, stay out of the
 - **Difficulty:** 13 | **Thresholds:** 6/14 | **HP:** 3 | **Stress:** 3
 - **ATK:** +3 | **Longbow:** Far | 2d10+2 phy
 - **Experience:** Ancient Knowledge +2
 
 ### FEATURES
 
-**_Ghost - Passive:_** The Archer has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
+**_Ghost:_** The Archer has resistance to physical damage. Mark a Stress to move up to Close range through solid objects.
 
-**_Pick Your Target - Action:_** **Spend a Fear** to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes **2d8+12** physical damage.
+**_Pick Your Target:_** Spend a Fear to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes 2d8+12 physical damage.

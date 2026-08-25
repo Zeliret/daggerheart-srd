@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Reinforce - Action:_** **Mark a Stress** to move into Melee range of an ally and make a standard attack against a target within Very Close range. On a success, deal **2d10+2** physical damage and the ally can clear a Stress.
+**_Reinforce:_** Mark a Stress to move into Melee range of an ally and make a standard attack against a target within Very Close range. On a success, deal 2d10+2 physical damage and the ally can clear a Stress.
 
-**_Vassal's Loyalty - Reaction:_** When the Soldier is within Very Close range of a knight or other noble who would take damage, you can **mark a Stress** to move into Melee range of them and take the damage instead.
+**_Vassal’s Loyalty:_** When the Soldier is within Very Close range of a knight or other noble who would take damage, you can mark a Stress to move into Melee range of them and take the damage instead. 118 Daggerheart SRD

@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Flying - Passive:_** While flying, the Bat gains a +3 bonus to their Difficulty.
+**_Flying:_** While fl ying, the Bat gains a +3 bonus to their Diffi culty.
 
-**_Screech - Action:_** **Mark a Stress** to send a high-pitch screech out toward all targets in front of the Bat within Far range. Those targets must mark **1d4** Stress.
+**_Screech:_** Mark a Stress to send a high-pitch screech out toward all targets in front of the Bat within Far range. Those targets must mark 1d4 Stress.
 
-**_Guardian - Reaction:_** When an allied Vampire marks HP, you can **mark a Stress** to fly into Melee range of the attacker and make an attack with advantage against them. On a success, deal **2d6+2** physical damage.
+**_Guardian:_** When an allied Vampire marks HP, you can mark a Stress to fl y into Melee range of the attacker and make an attack with advantage against them. On a success, deal 2d6+2 physical damage.

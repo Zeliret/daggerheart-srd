@@ -8,16 +8,16 @@
 
 ### FEATURES
 
-**_Relentless (4) - Passive:_** The Flickerfly can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (4):_** The Flickerfl y can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Never Misses - Passive:_** When the Flickerfly makes an attack, the target's Evasion is halved against the attack.
+**_Never Misses:_** When the Flickerfl y makes an attack, the target’s Evasion is halved against the attack.
 
-**_Deadly Flight - Passive:_** While flying, the Flickerfly can move up to Far range instead of Close range before taking an action.
+**_Deadly Flight:_** While fl ying, the Flickerfl y can move up to Far range instead of Close range before taking an action.
 
-**_Whirlwind - Action:_** **Spend a Fear** to whirl, making an attack against all targets within Very Close range. Targets the Flickerfly succeeds against take **3d8** direct physical damage.
+**_Whirlwind:_** Spend a Fear to whirl, making an attack against all targets within Very Close range. Targets the Flickerfl y succeeds against take 3d8 direct physical damage.
 
-**_Mind Dance - Action:_** **Mark a Stress** to create a magically dazzling display that grapples the minds of nearby foes. All targets within Close range must make an Instinct Reaction Roll. For each target who failed, you gain a Fear and the Flickerfly learns one of the target's fears.
+**_Mind Dance:_** Mark a Stress to create a magically dazzling display that grapples the minds of nearby foes. All targets within Close range must make an Instinct Reaction Roll. For each target who failed, you gain a Fear and the Flickerfl y learns one of the target’s fears.
 
-**_Hallucinatory Breath - Reaction: Countdown (Loop 1d6):_** When the Flickerfly takes damage for the first time, activate the countdown. When it triggers, the Flickerfly breathes hallucinatory gas on all targets in front of them up to Far range. Targets must make an Instinct Reaction Roll or be tormented by fearful hallucinations. Targets whose fears are known to the Flickerfly have disadvantage on this roll. Targets who fail lose 2 Hope and take **3d8+3** direct magic damage.
+**_Hallucinatory Breath:_** Countdown (Loop 1d6). When the Flickerfl y takes damage for the fi rst time, activate the countdown. When it triggers, the Flickerfl y breathes hallucinatory gas on all targets in front of them up to Far range. Targets must make an Instinct Reaction Roll or be tormented by fearful hallucinations. Targets whose fears are known to the Flickerfl y have disadvantage on this roll. Targets who fail lose 2 Hope and take 3d8+3 direct magic damage.
 
-**_Uncanny Reflexes - Reaction:_** When the Flickerfly takes damage from an attack within Close range, you can **mark a Stress** to take half damage.
+**_Uncanny Refl exes:_** When the Flickerfl y takes damage from an attack within Close range, you can mark a Stress to take half damage.

@@ -1,6 +1,6 @@
 # Pirate Tough
 
-**_Tier 1 Bruiser._** _A thickly muscled and tattooed pirate with melon-sized fists._
+**_Tier 1 Bruiser._** _A thickly muscled and tattooed pirate with melon-sized fi sts._
 
 - **Motives & Tactics:** Plunder, raid, smash, terrorize
 - **Difficulty:** 13 | **Thresholds:** 8/15 | **HP:** 5 | **Stress:** 3
@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Swashbuckler - Passive:_** When the Tough marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.
+**_Swashbuckler:_** When the Tough marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.
 
-**_Clear the Decks - Action:_** Make an attack against a target within Very Close range. On a success, **mark a Stress** to move into Melee range of the target, dealing **3d4** physical damage and knocking the target back to Close range.
+**_Clear the Decks:_** Make an attack against a target within Very Close range. On a success, mark a Stress to move into Melee range of the target, dealing 3d4 physical damage and knocking the target back to Close range.

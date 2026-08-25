@@ -19,6 +19,4 @@
 
 **_Accursed Caress:_** When the Empress makes a successful standard attack against a PC, you can spend a Fear to activate a Doom Countdown (1d6+1) for that PC. It ticks down when a PC rolls with Fear. When it triggers, the PC marks all HP and makes a death move. If the Empress is defeated or the PCs take a rest, all Doom Countdowns end.
 
-**_Final Transformation (Phase Change):_** When the Empress marks her last HP, replace her with the Entombed Cat Beast and immediately spotlight them. ENTOMBED NECROPRIEST Tier  Support A necromancer charged with preserving the empress’s life beyond death. Motives & Tactics: Boost allies, conquer time, hold down enemies, serve the empress, wield death as a weapon Diffi culty: 13 | Thresholds: 8/16 | HP: 3 | Stress: 7 ATK: +2 | Death Bolt: Far | 2d6+2 mag Experience: Dark Magic +4, Protect +2 FEATURES
-
-**_Invigorate:_** Mark a Stress to choose up to three allies within Far range. Each one gains advantage on their next attack roll.
+**_Final Transformation (Phase Change):_** When the Empress marks her last HP, replace her with the Entombed Cat Beast and immediately spotlight them.

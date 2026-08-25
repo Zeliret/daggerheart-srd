@@ -13,8 +13,4 @@
 
 **_Overwhelm:_** When a target the Experiment attacks has other adversaries within Very Close range, the Experiment deals double damage.
 
-**_Lurching Lunge:_** Mark a Stress to spotlight the Experiment as an additional GM move instead of spending Fear. FLOCK OF FEATHER FIENDS Tier  Horde (/HP) A fl ock of undead crow corpses, eyes aglow with necroplasmic light. Motives & Tactics: Caw incessantly, claw faces, fl utter through the air, peck eyes Diffi culty: 14 | Thresholds: 10/20 | HP: 5 | Stress: 3 ATK: +0 | Peck and Claw: Melee | 2d6+2 mag Experience: Fly +2, Swarm +2 FEATURES
-
-**_Horde (1d+1):_** When the Flock has marked half or more of its HP, its standard attack deals 1d6+1 magic damage instead.
-
-**_Maddening Cacophony:_** Mark a Stress to force each PC within Very Close range to make an Instinct Reaction Roll. Targets who fail must spend a Hope or become Vulnerable until they deal damage to the Flock or the Flock is defeated.
+**_Lurching Lunge:_** Mark a Stress to spotlight the Experiment as an additional GM move instead of spending Fear.

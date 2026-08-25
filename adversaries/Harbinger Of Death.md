@@ -19,6 +19,4 @@
 
 **_Wake the Fallen:_** Spend a Fear and mark any number of Stress to have the Harbinger resurrect a defeated ally within Far range. The resurrected ally clears a number of HP equal to the number of Stress marked. Immediately spotlight the ally.
 
-**_Ashes to Ashes, Dust to Dust:_** When the Harbinger would mark HP, you can mark a Stress to have an ally within Far range mark the HP instead. HARBINGER OF FAMINE Tier  Support A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming fl ies. Motives & Tactics: Drain, impoverish, weaken, wither Diffi culty: 18 | Thresholds: 26/42 | HP: 6 | Stress: 5 ATK: +4 | Barbed Lash: Close | 4d8+10 phy Experience: Hunger +2, Thirst +2 FEATURES
-
-**_Relentless (2):_** The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
+**_Ashes to Ashes, Dust to Dust:_** When the Harbinger would mark HP, you can mark a Stress to have an ally within Far range mark the HP instead.

@@ -345,15 +345,7 @@
       },
       {
         "name": "Shadow Fang",
-        "text": "When the Spinner makes a successful attack against a target within Melee range, you can spend a Fear to make the target Shaky until they succeed on an Instinct Roll (10). While Shaky, the target has disadvantage on attack rolls. DARKWEAVE SWARMLINGS Tier  Horde (/HP) A teeming swarm of tiny spiders woven out of shadow-silk. Motives \u0026 Tactics: Burst out of holes, climb up legs, crawl into ears, scuttle under clothes Diffi culty: 9 | Thresholds: 4/8 | HP: 8 | Stress: 4 ATK: +0 | Nibble: Melee | 1d8 phy Experience: Climb +2 FEATURES"
-      },
-      {
-        "name": "Horde (1d4)",
-        "text": "When the Swarmlings have marked half or more of their HP, their standard attack deals 1d4 physical damage instead."
-      },
-      {
-        "name": "“Get ’em Off , Get ’em Off !”",
-        "text": "When an attack from the Swarmlings causes a target to mark HP, you can mark a Stress to make the target temporarily Covered in Spiders. While Covered in Spiders, the target must roll a d6 when they make an action roll. On a result of 4 or higher, they must mark a Stress or you gain a Fear."
+        "text": "When the Spinner makes a successful attack against a target within Melee range, you can spend a Fear to make the target Shaky until they succeed on an Instinct Roll (10). While Shaky, the target has disadvantage on attack rolls."
       }
     ],
     "hp": "4",
@@ -364,6 +356,32 @@
     "thresholds": "6/9",
     "tier": "1",
     "type": "Standard"
+  },
+  {
+    "atk": "+0",
+    "attack": "Nibble",
+    "damage": "1d8 phy",
+    "description": "A teeming swarm of tiny spiders woven out of shadow-silk.",
+    "difficulty": "9",
+    "experience": "Climb +2",
+    "feature": [
+      {
+        "name": "Horde (1d4)",
+        "text": "When the Swarmlings have marked half or more of their HP, their standard attack deals 1d4 physical damage instead."
+      },
+      {
+        "name": "“Get ’em Off , Get ’em Off !”",
+        "text": "When an attack from the Swarmlings causes a target to mark HP, you can mark a Stress to make the target temporarily Covered in Spiders. While Covered in Spiders, the target must roll a d6 when they make an action roll. On a result of 4 or higher, they must mark a Stress or you gain a Fear."
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Burst out of holes, climb up legs, crawl into",
+    "name": "Darkweave Swarmlings",
+    "range": "Melee",
+    "stress": "4",
+    "thresholds": "4/8",
+    "tier": "1",
+    "type": "Horde"
   },
   {
     "atk": "+2",
@@ -470,6 +488,36 @@
     "type": "Skulk"
   },
   {
+    "atk": "−2",
+    "attack": "Proboscis",
+    "damage": "1d8+3 phy",
+    "description": "Dozens of fi st-sized mosquitoes, fl ying together for protection.",
+    "difficulty": "10",
+    "experience": "Camoufl age +2",
+    "feature": [
+      {
+        "name": "Horde (1d4+1)",
+        "text": "When the Mosquitoes have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
+      },
+      {
+        "name": "Flying",
+        "text": "While fl ying, the Mosquitoes have a +2 bonus to their Diffi culty."
+      },
+      {
+        "name": "Bloodsucker",
+        "text": "When the Mosquitoes’ attack causes a target to mark HP, you can mark a Stress to force the target to mark an additional HP."
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Fly away, harass, steal blood",
+    "name": "Giant Mosquitoes",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "5/9",
+    "tier": "1",
+    "type": "Horde"
+  },
+  {
     "atk": "−4",
     "attack": "Claws",
     "damage": "1 phy",
@@ -531,7 +579,6 @@
     "damage": "1d8+2 phy",
     "description": "A clear serpent with a massive head that leaves behind a glass shard trail wherever they go.",
     "difficulty": "14",
-    "experience": "Traps +3",
     "feature": [
       {
         "name": "Armor-Shredding Shards",
@@ -543,15 +590,7 @@
       },
       {
         "name": "Spitter",
-        "text": "Spend a Fear to introduce a d6 Spitter Die. When the Snake is in the spotlight, roll this die. On a result of 5 or higher, all targets in front of the Snake within Far range must succeed on an Agility Reaction Roll or take 1d4 physical damage. The Snake can take the spotlight a second time this GM turn. GRIMMLING WARBAND Tier  Horde (/HP) A cluster of small, strange creatures wearing armor fashioned from trash and stolen housewares. Motives \u0026 Tactics: Ambush, celebrate a little too early, hit and run, infi ght, sabotage, sow chaos Diffi culty: 12 | Thresholds: 5/11 | HP: 3 | Stress: 2 ATK: +1 | Tailor’s Shears: Melee | 1d8+2 phy Experience: Traps +3 FEATURES"
-      },
-      {
-        "name": "Horde (1d4+1)",
-        "text": "When the Warband has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead."
-      },
-      {
-        "name": "Cowardly",
-        "text": "When the Warband marks its last Stress or an allied Leader is defeated, roll a d6. On a result of 2 or lower, the Warband fl ees the scene."
+        "text": "Spend a Fear to introduce a d6 Spitter Die. When the Snake is in the spotlight, roll this die. On a result of 5 or higher, all targets in front of the Snake within Far range must succeed on an Agility Reaction Roll or take 1d4 physical damage. The Snake can take the spotlight a second time this GM turn."
       }
     ],
     "hp": "5",
@@ -562,6 +601,32 @@
     "thresholds": "6/10",
     "tier": "1",
     "type": "Standard"
+  },
+  {
+    "atk": "+1",
+    "attack": "Tailor’s Shears",
+    "damage": "1d8+2 phy",
+    "description": "A cluster of small, strange creatures wearing armor fashioned from trash and stolen housewares.",
+    "difficulty": "12",
+    "experience": "Traps +3",
+    "feature": [
+      {
+        "name": "Horde (1d4+1)",
+        "text": "When the Warband has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead."
+      },
+      {
+        "name": "Cowardly",
+        "text": "When the Warband marks its last Stress or an allied Leader is defeated, roll a d6. On a result of 2 or lower, the Warband fl ees the scene."
+      }
+    ],
+    "hp": "3",
+    "motives_and_tactics": "Ambush, celebrate a little too early, hit and",
+    "name": "Grimmling Warband",
+    "range": "Melee",
+    "stress": "2",
+    "thresholds": "5/11",
+    "tier": "1",
+    "type": "Horde"
   },
   {
     "atk": "+1",
@@ -718,6 +783,32 @@
     "thresholds": "8/14",
     "tier": "1",
     "type": "Standard"
+  },
+  {
+    "atk": "+2",
+    "attack": "Staff",
+    "damage": "1d6+2 mag",
+    "description": "A staff -wielding bandit in a cloak adorned with magical paraphernalia, using curses to vex their foes.",
+    "difficulty": "13",
+    "experience": "Magical Knowledge +2",
+    "feature": [
+      {
+        "name": "Curse",
+        "text": "Choose a target within Far range and temporarily Curse them. While the target is Cursed, you can mark a Stress when that target rolls with Hope to make the roll be with Fear instead."
+      },
+      {
+        "name": "Chaotic Flux",
+        "text": "Make an attack against up to three targets within Very Close range. Mark a Stress to deal 2d6+3 magic damage to targets the Hexer succeeded against."
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Command, hex, profi t",
+    "name": "Jagged Knife Hexer",
+    "range": "Far",
+    "stress": "4",
+    "thresholds": "5/9",
+    "tier": "1",
+    "type": "Support"
   },
   {
     "atk": "−3",
@@ -1339,15 +1430,7 @@
       },
       {
         "name": "Momentum",
-        "text": "When the Captain makes a successful attack against a PC, you gain a Fear. PIRATE RAIDERS Tier  Horde (/HP) Seafaring scoundrels moving in a ravaging pack. Motives \u0026 Tactics: Gang up, plunder, raid Diffi culty: 12 | Thresholds: 5/11 | HP: 4 | Stress: 3 ATK: +1 | Cutlass: Melee | 1d8+2 phy Experience: Sailor +3 FEATURES"
-      },
-      {
-        "name": "Horde (1d4+1)",
-        "text": "When the Raiders have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
-      },
-      {
-        "name": "Swashbuckler",
-        "text": "When the Raiders mark 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress."
+        "text": "When the Captain makes a successful attack against a PC, you gain a Fear."
       }
     ],
     "hp": "7",
@@ -1358,6 +1441,32 @@
     "thresholds": "7/14",
     "tier": "1",
     "type": "Leader"
+  },
+  {
+    "atk": "+1",
+    "attack": "Cutlass",
+    "damage": "1d8+2 phy",
+    "description": "Seafaring scoundrels moving in a ravaging pack.",
+    "difficulty": "12",
+    "experience": "Sailor +3",
+    "feature": [
+      {
+        "name": "Horde (1d4+1)",
+        "text": "When the Raiders have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
+      },
+      {
+        "name": "Swashbuckler",
+        "text": "When the Raiders mark 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress."
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Gang up, plunder, raid",
+    "name": "Pirate Raiders",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "5/11",
+    "tier": "1",
+    "type": "Horde"
   },
   {
     "atk": "+1",
@@ -1403,23 +1512,7 @@
       },
       {
         "name": "Ghost Storm",
-        "text": "Spend a Fear to have the Poltergeist pull all unequipped nonmagical objects within Very Close range into a violent vortex. Each target in that area must make an Agility Reaction Roll. Targets who fail take 1d12+2 physical damage. Targets who succeed take half damage. RABBLE MAWB Tier  Horde (/HP) These cat-sized balls of hair, limbs, and teeth travel in a “mawb” of a dozen. Motives \u0026 Tactics: Chitter and chew, clump together, roll around Diffi culty: 8 | Thresholds: 4/8 | HP: 4 | Stress: 2 ATK: −2 | Chomp: Melee | 1d6+3 phy Experience: Underground +2 FEATURES"
-      },
-      {
-        "name": "Horde (1d4+1)",
-        "text": "When the Rabble Mawb has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead."
-      },
-      {
-        "name": "Come Back Worse",
-        "text": "When the Rabble Mawb is defeated, you can spend a Fear to bring it back to life, clearing all HP and Stress. The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb. REDCAP BITERS Tier  Horde (/HP) A troop of fi st-sized fey creatures who have needle-sharp teeth and conical red caps sealed on their heads with candle wax. Motives \u0026 Tactics: Bring ’em down, celebrate tiny victories, giggle and chitter, scamper between the walls Diffi culty: 10 | Thresholds: 6/11 | HP: 5 | Stress: 3 ATK: −1 | Gnash: Melee | 1d8+4 phy Experience: Nooks and Crannies +3 FEATURES"
-      },
-      {
-        "name": "Horde (1d4+2)",
-        "text": "When the Biters have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
-      },
-      {
-        "name": "Ankle Weights",
-        "text": "A PC must mark a Stress to move out of the Biters’ Melee range. Daggerheart SRD 107"
+        "text": "Spend a Fear to have the Poltergeist pull all unequipped nonmagical objects within Very Close range into a violent vortex. Each target in that area must make an Agility Reaction Roll. Targets who fail take 1d12+2 physical damage. Targets who succeed take half damage."
       }
     ],
     "hp": "2",
@@ -1430,6 +1523,58 @@
     "thresholds": "4/None",
     "tier": "1",
     "type": "Ranged"
+  },
+  {
+    "atk": "−2",
+    "attack": "Chomp",
+    "damage": "1d6+3 phy",
+    "description": "These cat-sized balls of hair, limbs, and teeth travel in a “mawb” of a dozen.",
+    "difficulty": "8",
+    "experience": "Underground +2",
+    "feature": [
+      {
+        "name": "Horde (1d4+1)",
+        "text": "When the Rabble Mawb has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead."
+      },
+      {
+        "name": "Come Back Worse",
+        "text": "When the Rabble Mawb is defeated, you can spend a Fear to bring it back to life, clearing all HP and Stress. The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb."
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Chitter and chew, clump together, roll around",
+    "name": "Rabble Mawb",
+    "range": "Melee",
+    "stress": "2",
+    "thresholds": "4/8",
+    "tier": "1",
+    "type": "Horde"
+  },
+  {
+    "atk": "−1",
+    "attack": "Gnash",
+    "damage": "1d8+4 phy",
+    "description": "A troop of fi st-sized fey creatures who have needle-sharp teeth and conical red caps sealed on their heads with candle wax.",
+    "difficulty": "10",
+    "experience": "Nooks and Crannies +3",
+    "feature": [
+      {
+        "name": "Horde (1d4+2)",
+        "text": "When the Biters have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
+      },
+      {
+        "name": "Ankle Weights",
+        "text": "A PC must mark a Stress to move out of the Biters’ Melee range. Daggerheart SRD 107"
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Bring ’em down, celebrate tiny victories, giggle",
+    "name": "Redcap Biters",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "6/11",
+    "tier": "1",
+    "type": "Horde"
   },
   {
     "atk": "+1",
@@ -1818,15 +1963,7 @@
       },
       {
         "name": "Clatter \u0026 Recombobulate",
-        "text": "Once per scene when the Armor is defeated, you can spend a Fear to reactivate it. Clear 2 HP and immediately spotlight it. SWARM OF RATS Tier  Horde (/HP) A skittering mass of ordinary rodents moving as one like a ravenous wave. Motives \u0026 Tactics: Consume, obscure, swarm Diffi culty: 10 | Thresholds: 6/10 | HP: 6 | Stress: 2 ATK: −3 | Claws: Melee | 1d8+2 phy FEATURES"
-      },
-      {
-        "name": "Horde (1d4+1)",
-        "text": "When the Swarm has marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
-      },
-      {
-        "name": "In Your Face",
-        "text": "All targets within Melee range have disadvantage on attacks against targets other than the Swarm."
+        "text": "Once per scene when the Armor is defeated, you can spend a Fear to reactivate it. Clear 2 HP and immediately spotlight it."
       }
     ],
     "hp": "6",
@@ -1837,6 +1974,31 @@
     "thresholds": "9/17",
     "tier": "1",
     "type": "Bruiser"
+  },
+  {
+    "atk": "−3",
+    "attack": "Claws",
+    "damage": "1d8+2 phy",
+    "description": "A skittering mass of ordinary rodents moving as one like a ravenous wave.",
+    "difficulty": "10",
+    "feature": [
+      {
+        "name": "Horde (1d4+1)",
+        "text": "When the Swarm has marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
+      },
+      {
+        "name": "In Your Face",
+        "text": "All targets within Melee range have disadvantage on attacks against targets other than the Swarm."
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Consume, obscure, swarm",
+    "name": "Swarm Of Rats",
+    "range": "Melee",
+    "stress": "2",
+    "thresholds": "6/10",
+    "tier": "1",
+    "type": "Horde"
   },
   {
     "atk": "+0",
@@ -1867,6 +2029,36 @@
     "thresholds": "6/11",
     "tier": "1",
     "type": "Standard"
+  },
+  {
+    "atk": "+0",
+    "attack": "Thorns",
+    "damage": "1d6+3 phy",
+    "description": "A cluster of animate, blood-drinking tumbleweeds, each the size of a large gourd.",
+    "difficulty": "12",
+    "experience": "Camoufl age +2",
+    "feature": [
+      {
+        "name": "Horde (1d4+2)",
+        "text": "When the Swarm has marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
+      },
+      {
+        "name": "Crush",
+        "text": "Mark a Stress to deal 2d6+8 direct physical damage to a target with 3 or more bramble tokens."
+      },
+      {
+        "name": "Encumber",
+        "text": "When the Swarm succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed."
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Digest, entangle, immobilize",
+    "name": "Tangle Bramble Swarm",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "6/11",
+    "tier": "1",
+    "type": "Horde"
   },
   {
     "atk": "−1",
@@ -1971,7 +2163,6 @@
     "damage": "1d12+2 phy",
     "description": "A master-at-arms wielding a sword twice their size.",
     "difficulty": "14",
-    "experience": "Darkness +3",
     "feature": [
       {
         "name": "Goading Strike",
@@ -1983,8 +2174,26 @@
       },
       {
         "name": "Momentum",
-        "text": "When the Weaponmaster makes a successful attack against a PC, you gain a Fear. WILL-O’-THE-WISPS Tier  Horde (/HP) Lazily fl oating orbs of color-shifting werelight. Motives \u0026 Tactics: Dazzle and distract, disorient, lead astray Diffi culty: 9 | Thresholds: 5/9 | HP: 4 | Stress: 2 ATK: −3 | Flash: Close | 1d4+2 mag Experience: Darkness +3 FEATURES"
-      },
+        "text": "When the Weaponmaster makes a successful attack against a PC, you gain a Fear."
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Act fi rst, aim for the weakest, intimidate",
+    "name": "Weaponmaster",
+    "range": "Very Close",
+    "stress": "3",
+    "thresholds": "8/15",
+    "tier": "1",
+    "type": "Bruiser"
+  },
+  {
+    "atk": "−3",
+    "attack": "Flash",
+    "damage": "1d4+2 mag",
+    "description": "Lazily fl oating orbs of color-shifting werelight.",
+    "difficulty": "9",
+    "experience": "Darkness +3",
+    "feature": [
       {
         "name": "Horde (1d4−1)",
         "text": "When the Will-o’-the-Wisps have marked half or more of their HP, their standard attack deals 1d4−1 magic damage instead."
@@ -1998,14 +2207,14 @@
         "text": "Spend a Fear to have the Will-o’-the-Wisps trace looping light trails through the air, leaving afterimages that beg to be deciphered. Each PC within Far range must succeed on an Instinct Reaction Roll (13) or mark a Stress and move up to Close range toward the Will-o’-the-Wisps."
       }
     ],
-    "hp": "6",
-    "motives_and_tactics": "Act fi rst, aim for the weakest, intimidate",
-    "name": "Weaponmaster",
-    "range": "Very Close",
-    "stress": "3",
-    "thresholds": "8/15",
+    "hp": "4",
+    "motives_and_tactics": "Dazzle and distract, disorient, lead astray",
+    "name": "Will-O’-The-Wisps",
+    "range": "Close",
+    "stress": "2",
+    "thresholds": "5/9",
     "tier": "1",
-    "type": "Bruiser"
+    "type": "Horde"
   },
   {
     "atk": "+0",
@@ -2139,15 +2348,7 @@
       },
       {
         "name": "Horrifying",
-        "text": "Targets who mark HP from the Zombie’s attacks must also mark a Stress. ZOMBIE PACK Tier  Horde (/HP) A group of shambling corpses instinctively moving together. Motives \u0026 Tactics: Consume fl esh, hunger, maul Diffi culty: 8 | Thresholds: 6/12 | HP: 6 | Stress: 3 ATK: −1 | Bite: Melee | 1d10+2 phy FEATURES"
-      },
-      {
-        "name": "Horde (1d4+2)",
-        "text": "When the Zombies have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
-      },
-      {
-        "name": "Overwhelm",
-        "text": "When the Zombies mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker. Daggerheart SRD 113"
+        "text": "Targets who mark HP from the Zombie’s attacks must also mark a Stress."
       }
     ],
     "hp": "4",
@@ -2158,6 +2359,60 @@
     "thresholds": "4/6",
     "tier": "1",
     "type": "Standard"
+  },
+  {
+    "atk": "−1",
+    "attack": "Bite",
+    "damage": "1d10+2 phy",
+    "description": "A group of shambling corpses instinctively moving together.",
+    "difficulty": "8",
+    "feature": [
+      {
+        "name": "Horde (1d4+2)",
+        "text": "When the Zombies have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
+      },
+      {
+        "name": "Overwhelm",
+        "text": "When the Zombies mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker. Daggerheart SRD 113"
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Consume fl esh, hunger, maul",
+    "name": "Zombie Pack",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "6/12",
+    "tier": "1",
+    "type": "Horde"
+  },
+  {
+    "atk": "+0",
+    "attack": "Longbow",
+    "damage": "2d6+3 phy",
+    "description": "A group of trained archers bearing massive bows.",
+    "difficulty": "13",
+    "feature": [
+      {
+        "name": "Horde (1d+3)",
+        "text": "When the Squadron has marked half or more of their HP, their standard attack deals 1d6+3 physical damage instead."
+      },
+      {
+        "name": "Focused Volley",
+        "text": "Spend a Fear to target a point within Far range. Make an attack with advantage against all targets within Close range of that point. Targets the Squadron succeeds against take 1d10+4 physical damage."
+      },
+      {
+        "name": "Suppressing Fire",
+        "text": "Mark a Stress to target a point within Far range. Until the next roll with Fear, a creature who moves within Close range of that point must make an Agility Reaction Roll. On a failure, they take 2d6+3 physical damage. On a success, they take half damage."
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Stick together, survive, volley fi re",
+    "name": "Archer Squadron",
+    "range": "Far",
+    "stress": "3",
+    "thresholds": "8/16",
+    "tier": "2",
+    "type": "Horde"
   },
   {
     "atk": "−1",
@@ -2522,6 +2777,40 @@
   },
   {
     "atk": "+2",
+    "attack": "Rune-Covered Rod",
+    "damage": "2d4+3 mag",
+    "description": "An experienced mage wielding shadow and fear.",
+    "difficulty": "14",
+    "experience": "Fallen Lore +2, Rituals +2",
+    "feature": [
+      {
+        "name": "Enervating Blast",
+        "text": "Spend a Fear to make a standard attack against a target within range. On a success, the target must mark a Stress."
+      },
+      {
+        "name": "Shroud of the Fallen",
+        "text": "Mark a Stress to wrap an ally within Close range in a shroud of Protection until the Adept marks their last HP. While Protected, the target has resistance to all damage."
+      },
+      {
+        "name": "Shadow Shackles",
+        "text": "Spend a Fear and choose a point within Far range. All targets within Close range of that point are Restrained in smoky chains until they break free with a successful Strength or Instinct Roll. A target Restrained by this feature must spend a Hope to make an action roll."
+      },
+      {
+        "name": "Fear Is Fuel",
+        "text": "Twice per scene, when a PC rolls a failure with Fear, clear a Stress."
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Curry favor, hinder foes, uncover knowledge",
+    "name": "Cult Adept",
+    "range": "Far",
+    "stress": "6",
+    "thresholds": "9/18",
+    "tier": "2",
+    "type": "Support"
+  },
+  {
+    "atk": "+2",
     "attack": "Long Knife",
     "damage": "2d8+4 phy",
     "description": "A professional killer-turned-cultist.",
@@ -2551,7 +2840,6 @@
     "damage": "5 phy",
     "description": "A low-ranking cultist in simple robes, eager to gain power.",
     "difficulty": "13",
-    "experience": "Scent Tracking +3",
     "feature": [
       {
         "name": "Minion ()",
@@ -2559,8 +2847,26 @@
       },
       {
         "name": "Group Attack",
-        "text": "Spend a Fear to choose a target and spotlight all Cult Initiates within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage. DEMONIC HOUND PACK Tier  Horde (/HP) Unnatural hounds lit from within by hellfi re. Motives \u0026 Tactics: Cause fear, consume fl esh, please masters Diffi culty: 15 | Thresholds: 11/23 | HP: 6 | Stress: 3 ATK: +0 | Claws and Fangs: Melee | 2d8+2 phy Experience: Scent Tracking +3 FEATURES"
-      },
+        "text": "Spend a Fear to choose a target and spotlight all Cult Initiates within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage."
+      }
+    ],
+    "hp": "1",
+    "motives_and_tactics": "Follow orders, gain power, seek forbidden",
+    "name": "Cult Initiate",
+    "range": "Melee",
+    "stress": "1",
+    "thresholds": "None",
+    "tier": "2",
+    "type": "Minion"
+  },
+  {
+    "atk": "+0",
+    "attack": "Claws and Fangs",
+    "damage": "2d8+2 phy",
+    "description": "Unnatural hounds lit from within by hellfi re.",
+    "difficulty": "15",
+    "experience": "Scent Tracking +3",
+    "feature": [
       {
         "name": "Horde (2d4+1)",
         "text": "When the Pack has marked half or more of their HP, their standard attack deals 2d4+1 physical damage instead."
@@ -2574,14 +2880,14 @@
         "text": "When the Pack makes a successful attack against a PC, you gain a Fear."
       }
     ],
-    "hp": "1",
-    "motives_and_tactics": "Follow orders, gain power, seek forbidden",
-    "name": "Cult Initiate",
+    "hp": "6",
+    "motives_and_tactics": "Cause fear, consume fl esh, please masters",
+    "name": "Demonic Hound Pack",
     "range": "Melee",
-    "stress": "1",
-    "thresholds": "None",
+    "stress": "3",
+    "thresholds": "11/23",
     "tier": "2",
-    "type": "Minion"
+    "type": "Horde"
   },
   {
     "atk": "+2",
@@ -2672,6 +2978,31 @@
     "thresholds": "15/30",
     "tier": "2",
     "type": "Bruiser"
+  },
+  {
+    "atk": "+0",
+    "attack": "Shocking Bite",
+    "damage": "2d6+4 phy",
+    "description": "A swarm of eels that encircle and electrocute.",
+    "difficulty": "14",
+    "feature": [
+      {
+        "name": "Horde (2d4+1)",
+        "text": "When the Eels have marked half or more of their HP, their standard attack deals 2d4+1 physical damage instead."
+      },
+      {
+        "name": "Paralyzing Shock",
+        "text": "Mark a Stress to make a standard attack against all targets within Very Close range. You gain a Fear for each target that marks HP."
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Avoid larger predators, shock prey, tear apart",
+    "name": "Electric Eels",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "10/20",
+    "tier": "2",
+    "type": "Horde"
   },
   {
     "atk": "+3",
@@ -2818,11 +3149,7 @@
       },
       {
         "name": "Final Transformation (Phase Change)",
-        "text": "When the Empress marks her last HP, replace her with the Entombed Cat Beast and immediately spotlight them. ENTOMBED NECROPRIEST Tier  Support A necromancer charged with preserving the empress’s life beyond death. Motives \u0026 Tactics: Boost allies, conquer time, hold down enemies, serve the empress, wield death as a weapon Diffi culty: 13 | Thresholds: 8/16 | HP: 3 | Stress: 7 ATK: +2 | Death Bolt: Far | 2d6+2 mag Experience: Dark Magic +4, Protect +2 FEATURES"
-      },
-      {
-        "name": "Invigorate",
-        "text": "Mark a Stress to choose up to three allies within Far range. Each one gains advantage on their next attack roll."
+        "text": "When the Empress marks her last HP, replace her with the Entombed Cat Beast and immediately spotlight them."
       }
     ],
     "hp": "6",
@@ -2833,6 +3160,66 @@
     "thresholds": "12/24",
     "tier": "2",
     "type": "Leader"
+  },
+  {
+    "atk": "+2",
+    "attack": "Death Bolt",
+    "damage": "2d6+2 mag",
+    "description": "A necromancer charged with preserving the empress’s life beyond death.",
+    "difficulty": "13",
+    "experience": "Dark Magic +4, Protect +2",
+    "feature": [
+      {
+        "name": "Invigorate",
+        "text": "Mark a Stress to choose up to three allies within Far range. Each one gains advantage on their next attack roll."
+      },
+      {
+        "name": "Last Grasp",
+        "text": "Spend a Fear to choose a PC within Far range. Skeletal hands burst out of the ground at the PC’s feet and Restrain them until the PC breaks free with a successful Strength Roll. When a target Restrained in this way spends Hope, you gain a Fear."
+      },
+      {
+        "name": "Chill Touch",
+        "text": "Mark a Stress to make a standard attack against a target within Melee range. On a success, the target takes standard damage and must mark 1d4 Stress. If the target marks their last Stress from this attack, you gain a Fear."
+      }
+    ],
+    "hp": "3",
+    "motives_and_tactics": "Boost allies, conquer time, hold down enemies,",
+    "name": "Entombed Necropriest",
+    "range": "Far",
+    "stress": "7",
+    "thresholds": "8/16",
+    "tier": "2",
+    "type": "Support"
+  },
+  {
+    "atk": "+0",
+    "attack": "Pincers",
+    "damage": "2d8+2 phy",
+    "description": "Flesh-eating beetles that burrow beneath the skin.",
+    "difficulty": "14",
+    "experience": "Tombs +3",
+    "feature": [
+      {
+        "name": "Horde (2d4+1)",
+        "text": "When the Beetles have marked half or more of their HP, their standard attack deals 2d4+1 physical damage instead."
+      },
+      {
+        "name": "Momentum",
+        "text": "When the Beetles make a successful attack against a PC, you gain a Fear."
+      },
+      {
+        "name": "Omophagous",
+        "text": "Mark a HP to have 5 Beetles burrow under the skin of a PC within Melee range, forcing them to mark a Stress and Infecting them. While Infected, the target takes 6 direct physical damage every time they roll with Fear. This condition is cleared when the PC clears a HP or a Stress."
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Carpet the ground, consume the living, crawl",
+    "name": "Entombed Skin Beetles",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "10/20",
+    "tier": "2",
+    "type": "Horde"
   },
   {
     "atk": "−1",
@@ -2882,15 +3269,7 @@
       },
       {
         "name": "Lurching Lunge",
-        "text": "Mark a Stress to spotlight the Experiment as an additional GM move instead of spending Fear. FLOCK OF FEATHER FIENDS Tier  Horde (/HP) A fl ock of undead crow corpses, eyes aglow with necroplasmic light. Motives \u0026 Tactics: Caw incessantly, claw faces, fl utter through the air, peck eyes Diffi culty: 14 | Thresholds: 10/20 | HP: 5 | Stress: 3 ATK: +0 | Peck and Claw: Melee | 2d6+2 mag Experience: Fly +2, Swarm +2 FEATURES"
-      },
-      {
-        "name": "Horde (1d+1)",
-        "text": "When the Flock has marked half or more of its HP, its standard attack deals 1d6+1 magic damage instead."
-      },
-      {
-        "name": "Maddening Cacophony",
-        "text": "Mark a Stress to force each PC within Very Close range to make an Instinct Reaction Roll. Targets who fail must spend a Hope or become Vulnerable until they deal damage to the Flock or the Flock is defeated."
+        "text": "Mark a Stress to spotlight the Experiment as an additional GM move instead of spending Fear."
       }
     ],
     "hp": "3",
@@ -2901,6 +3280,32 @@
     "thresholds": "12/23",
     "tier": "2",
     "type": "Standard"
+  },
+  {
+    "atk": "+0",
+    "attack": "Peck and Claw",
+    "damage": "2d6+2 mag",
+    "description": "A fl ock of undead crow corpses, eyes aglow with necroplasmic light.",
+    "difficulty": "14",
+    "experience": "Fly +2, Swarm +2",
+    "feature": [
+      {
+        "name": "Horde (1d+1)",
+        "text": "When the Flock has marked half or more of its HP, its standard attack deals 1d6+1 magic damage instead."
+      },
+      {
+        "name": "Maddening Cacophony",
+        "text": "Mark a Stress to force each PC within Very Close range to make an Instinct Reaction Roll. Targets who fail must spend a Hope or become Vulnerable until they deal damage to the Flock or the Flock is defeated."
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Caw incessantly, claw faces, fl utter through",
+    "name": "Flock Of Feather Fiends",
+    "range": "Melee",
+    "stress": "3",
+    "thresholds": "10/20",
+    "tier": "2",
+    "type": "Horde"
   },
   {
     "atk": "+3",
@@ -3354,7 +3759,6 @@
     "damage": "5 mag",
     "description": "A brightly colored spirit in the shape of an animal.",
     "difficulty": "13",
-    "experience": "Ritual +3, Ancient History +2",
     "feature": [
       {
         "name": "Minion ()",
@@ -3370,8 +3774,26 @@
       },
       {
         "name": "Beast Bomb",
-        "text": "When the Spirit Beast is defeated, it explodes in white fl ame and deals 5 magic damage to creatures within Melee range. GUAHALAN SPIRIT SINGER Tier  Support A shapeshifting summoner who has animalistic features. Motives \u0026 Tactics: Abjure, bolster, summon Diffi culty: 14 | Thresholds: 9/18 | HP: 4 | Stress: 6 ATK: +2 | Spirit Flame: Close | 2d6+4 mag Experience: Ritual +3, Ancient History +2 FEATURES"
-      },
+        "text": "When the Spirit Beast is defeated, it explodes in white fl ame and deals 5 magic damage to creatures within Melee range."
+      }
+    ],
+    "hp": "1",
+    "motives_and_tactics": "Protect, sacrifi ce, surround",
+    "name": "Guahalan Spirit Beast",
+    "range": "Melee",
+    "stress": "2",
+    "thresholds": "None",
+    "tier": "2",
+    "type": "Minion"
+  },
+  {
+    "atk": "+2",
+    "attack": "Spirit Flame",
+    "damage": "2d6+4 mag",
+    "description": "A shapeshifting summoner who has animalistic features.",
+    "difficulty": "14",
+    "experience": "Ritual +3, Ancient History +2",
+    "feature": [
       {
         "name": "Unleash the Beast",
         "text": "Spend a Fear to have the Spirit Singer adopt a more bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action."
@@ -3383,16 +3805,20 @@
       {
         "name": "Rage of Spirits",
         "text": "Mark a Stress to spotlight any number of Guahalan Spirit Beasts within Very Close range and have each one move into Melee range with the nearest PC and make a standard attack. If any attacks succeed against the same target, combine their damage."
+      },
+      {
+        "name": "Spiritual Sacrifi ce",
+        "text": "When the Spirit Singer would take damage while within Very Close range of a Guahalan Spirit Beast, you can spend a Fear to sacrifi ce the Spirit Beast and negate the damage. 124 Daggerheart SRD"
       }
     ],
-    "hp": "1",
-    "motives_and_tactics": "Protect, sacrifi ce, surround",
-    "name": "Guahalan Spirit Beast",
-    "range": "Melee",
-    "stress": "2",
-    "thresholds": "None",
+    "hp": "4",
+    "motives_and_tactics": "Abjure, bolster, summon",
+    "name": "Guahalan Spirit Singer",
+    "range": "Close",
+    "stress": "6",
+    "thresholds": "9/18",
     "tier": "2",
-    "type": "Minion"
+    "type": "Support"
   },
   {
     "atk": "+3",
@@ -4499,8 +4925,26 @@
       },
       {
         "name": "Mucosal Contamination",
-        "text": "Make an attack roll against a PC within Very Close range. On a success, the Deep Dweller uses its tentacles to immobilize the target, sliming them with toxic sludge. The target is Restrained until they break free or slip out with a successful Strength or Finesse Roll. Each time the Deep Dweller is spotlighted, all PCs Restrained in this way take 3d8 direct physical damage. The Deep Dweller releases all creatures Restrained by it when it’s defeated or takes Severe damage. DEMON OF AVARICE Tier  Support A regal cloaked monstrosity with circular horns adorned with treasure. Motives \u0026 Tactics: Consume, fuel greed, sow dissent Diffi culty: 17 | Thresholds: 15/29 | HP: 6 | Stress: 5 ATK: +2 | Hungry Maw: Melee | 3d6+5 mag Experience: Manipulation +3 FEATURES"
-      },
+        "text": "Make an attack roll against a PC within Very Close range. On a success, the Deep Dweller uses its tentacles to immobilize the target, sliming them with toxic sludge. The target is Restrained until they break free or slip out with a successful Strength or Finesse Roll. Each time the Deep Dweller is spotlighted, all PCs Restrained in this way take 3d8 direct physical damage. The Deep Dweller releases all creatures Restrained by it when it’s defeated or takes Severe damage."
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Abuse power, seek worship, stalk sunken ruins",
+    "name": "Deep Dweller",
+    "range": "Close",
+    "stress": "6",
+    "thresholds": "22/42",
+    "tier": "3",
+    "type": "Leader"
+  },
+  {
+    "atk": "+2",
+    "attack": "Hungry Maw",
+    "damage": "3d6+5 mag",
+    "description": "A regal cloaked monstrosity with circular horns adorned with treasure.",
+    "difficulty": "17",
+    "experience": "Manipulation +3",
+    "feature": [
       {
         "name": "Money Talks",
         "text": "Attacks against the Demon are made with disadvantage unless the attacker spends a handful of gold. This Demon starts with a number of handfuls equal to the number of PCs. When a target marks HP from the Demon’s standard attack, they can spend a handful of gold instead of marking HP (1 handful per HP). Add a handful of gold to the Demon for each handful of gold spent by PCs on this feature."
@@ -4515,13 +4959,13 @@
       }
     ],
     "hp": "6",
-    "motives_and_tactics": "Abuse power, seek worship, stalk sunken ruins",
-    "name": "Deep Dweller",
-    "range": "Close",
-    "stress": "6",
-    "thresholds": "22/42",
+    "motives_and_tactics": "Consume, fuel greed, sow dissent",
+    "name": "Demon Of Avarice",
+    "range": "Melee",
+    "stress": "5",
+    "thresholds": "15/29",
     "tier": "3",
-    "type": "Leader"
+    "type": "Support"
   },
   {
     "atk": "+3",
@@ -4809,6 +5253,44 @@
     "type": "Minion"
   },
   {
+    "atk": "+4",
+    "attack": "Cursed Lance",
+    "damage": "3d10+6 mag",
+    "description": "The shade of a forgotten ruler, cursed to patrol the skies atop a winged eel in the service of an even greater evil.",
+    "difficulty": "15",
+    "experience": "Seeker +3",
+    "feature": [
+      {
+        "name": "Fellmount",
+        "text": "While the Shadow King is on his mount, he gains a +2 bonus to his Diffi culty. When the Shadow King takes Severe damage, he’s knocked from his mount. If the Shadow King is unmounted, his mount disappears until you mark a Stress to summon it again."
+      },
+      {
+        "name": "Light and Shadow",
+        "text": "The Shadow King has advantage on attack rolls while in shadow or darkness and disadvantage on attack rolls while in bright light."
+      },
+      {
+        "name": "Relic Hunter",
+        "text": "The Shadow King has advantage on attack rolls against PCs who have magic weapons or armor equipped."
+      },
+      {
+        "name": "Hellsong",
+        "text": "Spend 2 Fear to have the Shadow King’s mount unleash a spine-chilling screech that echoes over the battlefi eld. Each PC within Far range must make a Presence Reaction Roll (18). Targets who succeed must mark a Stress. Targets who fail must mark a Stress and lose a Hope. If a PC can’t lose a Hope, you gain 2 Fear."
+      },
+      {
+        "name": "Air Support",
+        "text": "Three times per scene, you can spend a Fear to have an ally within Far range reroll a failed attack with advantage."
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Find magic items, inspire fear, patrol skies",
+    "name": "Fellmounted Shadow King",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "24/38",
+    "tier": "3",
+    "type": "Support"
+  },
+  {
     "atk": "+3",
     "attack": "Greatsword",
     "damage": "3d12+4 phy",
@@ -4951,15 +5433,7 @@
       },
       {
         "name": "Momentum",
-        "text": "When the Elemental makes a successful attack against a PC, you gain a Fear. GREATER WATER ELEMENTAL Tier  Support A huge living wave that crashes down upon enemies. Motives \u0026 Tactics: Deluge, disperse, drown Diffi culty: 17 | Thresholds: 17/34 | HP: 5 | Stress: 5 ATK: +3 | Crashing Wave: Very Close | 3d4+1 mag FEATURES"
-      },
-      {
-        "name": "Water Jet",
-        "text": "Mark a Stress to attack a target within Very Close range. On a success, deal 2d4+7 physical damage and the target’s next action has disadvantage. On a failure, the target must mark a Stress."
-      },
-      {
-        "name": "Drowning Embrace",
-        "text": "Spend a Fear to make an attack against all targets within Very Close range. Targets the Elemental succeeds against become Restrained and Vulnerable as they begin drowning. A target can break free, ending both conditions, with a successful Strength or Instinct Roll."
+        "text": "When the Elemental makes a successful attack against a PC, you gain a Fear."
       }
     ],
     "hp": "10",
@@ -4970,6 +5444,35 @@
     "thresholds": "22/40",
     "tier": "3",
     "type": "Bruiser"
+  },
+  {
+    "atk": "+3",
+    "attack": "Crashing Wave",
+    "damage": "3d4+1 mag",
+    "description": "A huge living wave that crashes down upon enemies.",
+    "difficulty": "17",
+    "feature": [
+      {
+        "name": "Water Jet",
+        "text": "Mark a Stress to attack a target within Very Close range. On a success, deal 2d4+7 physical damage and the target’s next action has disadvantage. On a failure, the target must mark a Stress."
+      },
+      {
+        "name": "Drowning Embrace",
+        "text": "Spend a Fear to make an attack against all targets within Very Close range. Targets the Elemental succeeds against become Restrained and Vulnerable as they begin drowning. A target can break free, ending both conditions, with a successful Strength or Instinct Roll."
+      },
+      {
+        "name": "High Tide",
+        "text": "When the Elemental makes a successful standard attack, you can mark a Stress to knock the target back to Close range."
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Deluge, disperse, drown",
+    "name": "Greater Water Elemental",
+    "range": "Very Close",
+    "stress": "5",
+    "thresholds": "17/34",
+    "tier": "3",
+    "type": "Support"
   },
   {
     "atk": "+3",
@@ -5147,6 +5650,44 @@
     "thresholds": "20/35",
     "tier": "3",
     "type": "Solo"
+  },
+  {
+    "atk": "+1",
+    "attack": "Fangs \u0026 Claws",
+    "damage": "3d6+8 phy",
+    "description": "A teeming assortment of nocturnal fi ends under the thrall of an ancient evil.",
+    "difficulty": "16",
+    "experience": "Terrorize +3",
+    "feature": [
+      {
+        "name": "Horde (2d+2)",
+        "text": "When the Night Children have marked half or more of their HP, their standard attack deals 2d6+2 physical damage instead."
+      },
+      {
+        "name": "Swell Ranks",
+        "text": "Once per scene, mark any number of Stress to have the Night Children open a portal that spews forth reinforcements, refi lling the Horde’s ranks. Clear a number of HP equal to the number of Stress marked."
+      },
+      {
+        "name": "Overwhelm",
+        "text": "When the Night Children mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker. PAIN PRIEST Tier  Social A member of an other-dimensional religious order devoted to exploring the boundaries of mortal suff ering and ecstasy. Motives \u0026 Tactics: Feed on emotions, locate the innocent or curious, tempt them with their deepest desires Diffi culty: 16 | Thresholds: 16/32 | HP: 6 | Stress: 5 ATK: +0 | Torture Implements: Melee | 3d6+4 phy Experience: Experimentation +4 FEATURES"
+      },
+      {
+        "name": "Walk Between Worlds",
+        "text": "Mark a Stress to place the Priest anywhere within Very Far range and immediately spotlight them again."
+      },
+      {
+        "name": "Pleasure and Pain",
+        "text": "When a PC within Close range of the Priest gains a Hope or marks HP, roll a d8. On a result of 8, the Priest opens a portal to their original dimension and fl ees there with the closest party member. You gain 1d6 Fear. The portal remains open until the Priest is defeated or spotlighted again."
+      }
+    ],
+    "hp": "7",
+    "motives_and_tactics": "Carry victims back to master, overrun",
+    "name": "Night Children",
+    "range": "Melee",
+    "stress": "4",
+    "thresholds": "17/32",
+    "tier": "3",
+    "type": "Horde"
   },
   {
     "atk": "+4",
@@ -5523,8 +6064,26 @@
       },
       {
         "name": "Mistform",
-        "text": "When the Vampire takes physical damage, you can spend a Fear to take half damage. VAMPIRE BAT SWARM Tier  Horde (/HP) A cloud of blood-sucking bats. Motives \u0026 Tactics: Blot out the moon, murmur, spread disease Diffi culty: 15 | Thresholds: 16/30 | HP: 8 | Stress: 3 ATK: +1 | Fangs: Melee | 3d6+6 phy Experience: Blood +3 FEATURES"
-      },
+        "text": "When the Vampire takes physical damage, you can spend a Fear to take half damage."
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Bite, charm, deceive, feed, intimidate",
+    "name": "Vampire",
+    "range": "Melee",
+    "stress": "4",
+    "thresholds": "18/35",
+    "tier": "3",
+    "type": "Standard"
+  },
+  {
+    "atk": "+1",
+    "attack": "Fangs",
+    "damage": "3d6+6 phy",
+    "description": "A cloud of blood-sucking bats.",
+    "difficulty": "15",
+    "experience": "Blood +3",
+    "feature": [
       {
         "name": "Horde (2d)",
         "text": "When the Swarm has marked half or more of its HP, its standard attack deals 2d6 physical damage instead."
@@ -5538,14 +6097,14 @@
         "text": "When the Swarm deals damage to a target, you can mark a Stress to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP. 142 Daggerheart SRD"
       }
     ],
-    "hp": "5",
-    "motives_and_tactics": "Bite, charm, deceive, feed, intimidate",
-    "name": "Vampire",
+    "hp": "8",
+    "motives_and_tactics": "Blot out the moon, murmur, spread disease",
+    "name": "Vampire Bat Swarm",
     "range": "Melee",
-    "stress": "4",
-    "thresholds": "18/35",
+    "stress": "3",
+    "thresholds": "16/30",
     "tier": "3",
-    "type": "Standard"
+    "type": "Horde"
   },
   {
     "atk": "+5",
@@ -5592,6 +6151,31 @@
     "thresholds": "24/45",
     "tier": "3",
     "type": "Solo"
+  },
+  {
+    "atk": "+2",
+    "attack": "Body Bash",
+    "damage": "3d6+2 phy",
+    "description": "A boxy, dust-covered construct with thick metallic swinging doors on their torso.",
+    "difficulty": "16",
+    "feature": [
+      {
+        "name": "Blocking Shield",
+        "text": "Creatures within Melee range of the Gaoler have disadvantage on attack rolls against them. Creatures trapped inside the Gaoler are immune to this feature."
+      },
+      {
+        "name": "Lock Up",
+        "text": "Mark a Stress to make an attack against a target within Very Close range. On a success, the target is Restrained within the Gaoler until freed with a successful Strength Roll (18). While Restrained, the target can only attack the Gaoler."
+      }
+    ],
+    "hp": "5",
+    "motives_and_tactics": "Carry away, entrap, protect, pummel",
+    "name": "Vault Guardian Gaoler",
+    "range": "Very Close",
+    "stress": "3",
+    "thresholds": "19/33",
+    "tier": "3",
+    "type": "Support"
   },
   {
     "atk": "+3",
@@ -6169,7 +6753,6 @@
     "damage": "12 phy",
     "description": "A cursed soul bound to the Fallen’s will.",
     "difficulty": "18",
-    "experience": "Ancient Knowledge +2",
     "feature": [
       {
         "name": "Minion (12)",
@@ -6181,8 +6764,26 @@
       },
       {
         "name": "Group Attack",
-        "text": "Spend a Fear to choose a target and spotlight all Fallen Shock Troops within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 12 physical damage each. Combine this damage. FALLEN SORCERER Tier  Support A powerful mage bound by the bargains they made in life. Motives \u0026 Tactics: Acquire, dishearten, dominate, torment Diffi culty: 19 | Thresholds: 26/42 | HP: 6 | Stress: 5 ATK: +4 | Corrupted Staff : Far | 4d6+10 mag Experience: Ancient Knowledge +2 FEATURES"
-      },
+        "text": "Spend a Fear to choose a target and spotlight all Fallen Shock Troops within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 12 physical damage each. Combine this damage."
+      }
+    ],
+    "hp": "1",
+    "motives_and_tactics": "Crush, dominate, earn relief, punish",
+    "name": "Fallen Shock Troop",
+    "range": "Very Close",
+    "stress": "1",
+    "thresholds": "None",
+    "tier": "4",
+    "type": "Minion"
+  },
+  {
+    "atk": "+4",
+    "attack": "Corrupted Staff",
+    "damage": "4d6+10 mag",
+    "description": "A powerful mage bound by the bargains they made in life.",
+    "difficulty": "19",
+    "experience": "Ancient Knowledge +2",
+    "feature": [
       {
         "name": "Confl agration",
         "text": "Spend a Fear to unleash an all-consuming fi restorm and make an attack against all targets within Close range. Targets the Sorcerer succeeds against take 2d10+6 direct magic damage."
@@ -6200,14 +6801,14 @@
         "text": "Countdown (Loop 2d6). When the Sorcerer is in the spotlight for the fi rst time, activate the countdown. When it triggers, all targets within Far range become Vulnerable and must mark a Stress as they relive their greatest regrets. A target can break free from their regret with a successful Presence or Strength Roll. When a PC fails to break free, they lose a Hope."
       }
     ],
-    "hp": "1",
-    "motives_and_tactics": "Crush, dominate, earn relief, punish",
-    "name": "Fallen Shock Troop",
-    "range": "Very Close",
-    "stress": "1",
-    "thresholds": "None",
+    "hp": "6",
+    "motives_and_tactics": "Acquire, dishearten, dominate, torment",
+    "name": "Fallen Sorcerer",
+    "range": "Far",
+    "stress": "5",
+    "thresholds": "26/42",
     "tier": "4",
-    "type": "Minion"
+    "type": "Support"
   },
   {
     "atk": "+7",
@@ -6374,6 +6975,36 @@
     "type": "Solo"
   },
   {
+    "atk": "+2",
+    "attack": "Spectral Armaments",
+    "damage": "4d6+10 mag",
+    "description": "A teeming army of ghosts roused from dreamless slumber to fulfi ll their ancient oath.",
+    "difficulty": "17",
+    "experience": "Tactics +2",
+    "feature": [
+      {
+        "name": "Horde (2d+)",
+        "text": "When the Legion has marked half or more of its HP, its standard attack deals 2d6+5 magic damage instead."
+      },
+      {
+        "name": "Necroplasmic",
+        "text": "The Legion is immune to physical damage and takes double magic damage."
+      },
+      {
+        "name": "Final Act",
+        "text": "When the Legion is defeated, it makes a standard attack against all targets within Close range before being dispelled."
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Overwhelm, serve, swarm",
+    "name": "Ghastly Legion",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "25/45",
+    "tier": "4",
+    "type": "Horde"
+  },
+  {
     "atk": "+4",
     "attack": "Beak \u0026 Talons",
     "damage": "4d8+4 phy",
@@ -6423,6 +7054,36 @@
     "thresholds": "25/45",
     "tier": "4",
     "type": "Ranged"
+  },
+  {
+    "atk": "+2",
+    "attack": "Choral Blast",
+    "damage": "4d10 mag",
+    "description": "A heavenly host of winged humanoids whose song calls forth tears of religious awe.",
+    "difficulty": "17",
+    "experience": "Music +2",
+    "feature": [
+      {
+        "name": "Horde (2d1)",
+        "text": "When the Choir has marked half or more of its HP, its standard attack deals 2d10 magic damage instead."
+      },
+      {
+        "name": "Celestial Coda",
+        "text": "Countdown (Loop 3). The Choir’s divine song builds on itself with each refrain. When the Choir fi rst appears, activate the countdown. It ticks down when a PC gains a Hope. When it triggers, place a token on this stat block. The Choir gains a bonus to its damage rolls equal to the number of tokens on this stat block."
+      },
+      {
+        "name": "Aural Assault",
+        "text": "The Choir unleashes its built-up divine energy in a single burst, clearing all tokens from this stat block. Deal 1d12 direct magic damage to each enemy within Close range for each token cleared."
+      }
+    ],
+    "hp": "7",
+    "motives_and_tactics": "Drown out disbelief, raise voices",
+    "name": "Hallowed Choir",
+    "range": "Far",
+    "stress": "6",
+    "thresholds": "24/48",
+    "tier": "4",
+    "type": "Horde"
   },
   {
     "atk": "+2",
@@ -6483,11 +7144,7 @@
       },
       {
         "name": "Ashes to Ashes, Dust to Dust",
-        "text": "When the Harbinger would mark HP, you can mark a Stress to have an ally within Far range mark the HP instead. HARBINGER OF FAMINE Tier  Support A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming fl ies. Motives \u0026 Tactics: Drain, impoverish, weaken, wither Diffi culty: 18 | Thresholds: 26/42 | HP: 6 | Stress: 5 ATK: +4 | Barbed Lash: Close | 4d8+10 phy Experience: Hunger +2, Thirst +2 FEATURES"
-      },
-      {
-        "name": "Relentless (2)",
-        "text": "The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+        "text": "When the Harbinger would mark HP, you can mark a Stress to have an ally within Far range mark the HP instead."
       }
     ],
     "hp": "6",
@@ -6498,6 +7155,48 @@
     "thresholds": "28/52",
     "tier": "4",
     "type": "Skulk"
+  },
+  {
+    "atk": "+4",
+    "attack": "Barbed Lash",
+    "damage": "4d8+10 phy",
+    "description": "A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming fl ies.",
+    "difficulty": "18",
+    "experience": "Hunger +2, Thirst +2",
+    "feature": [
+      {
+        "name": "Relentless (2)",
+        "text": "The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Mount",
+        "text": "While the Harbinger is on their mount, they gain a +2 bonus to their Diffi culty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again."
+      },
+      {
+        "name": "Hunger Pangs",
+        "text": "Countdown (Decreasing 6). When the Harbinger appears, activate the countdown. It ticks down when the Harbinger is spotlighted. When it triggers, all PCs within Far range mark a Stress and become Ravenous. While Ravenous, a PC can’t spend Hope until they clear the condition with a successful Instinct Roll."
+      },
+      {
+        "name": "Drain Essence",
+        "text": "Spend a Fear to choose up to three PCs. Each target takes 4d6 magic damage."
+      },
+      {
+        "name": "Too Many Mouths",
+        "text": "Mark a Stress to attack a PC within Melee range. On a success, the Harbinger grabs the target and bites them, dealing 4d6 physical damage and Restraining the target until they break free with a successful Strength Roll."
+      },
+      {
+        "name": "Withering Touch",
+        "text": "Spend a Fear to have the Harbinger caress the face of a Restrained PC within Melee range. The target marks 2 Stress and either loses a Hope or marks 1d4 HP. Daggerheart SRD 151"
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Drain, impoverish, weaken, wither",
+    "name": "Harbinger Of Famine",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "26/42",
+    "tier": "4",
+    "type": "Support"
   },
   {
     "atk": "+8",
@@ -6714,15 +7413,7 @@
       },
       {
         "name": "Unreal Form",
-        "text": "When the Abomination takes damage, reduce it by 1d20. If the Abomination marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear. OUTER REALMS CORRUPTER Tier  Support A shifting, formless mass seemingly made of chromatic light. Motives \u0026 Tactics: Confuse, distract, overwhelm Diffi culty: 19 | Thresholds: 27/47 | HP: 4 | Stress: 3 ATK: +7 | Corroding Pseudopod: Very Close | 4d8+5 mag FEATURES"
-      },
-      {
-        "name": "Will-Shattering Touch",
-        "text": "When a PC takes damage from the Corrupter, they lose a Hope."
-      },
-      {
-        "name": "Disgorge Reality Flotsam",
-        "text": "Mark a Stress to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress."
+        "text": "When the Abomination takes damage, reduce it by 1d20. If the Abomination marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear."
       }
     ],
     "hp": "7",
@@ -6733,6 +7424,31 @@
     "thresholds": "35/71",
     "tier": "4",
     "type": "Bruiser"
+  },
+  {
+    "atk": "+7",
+    "attack": "Corroding Pseudopod",
+    "damage": "4d8+5 mag",
+    "description": "A shifting, formless mass seemingly made of chromatic light.",
+    "difficulty": "19",
+    "feature": [
+      {
+        "name": "Will-Shattering Touch",
+        "text": "When a PC takes damage from the Corrupter, they lose a Hope."
+      },
+      {
+        "name": "Disgorge Reality Flotsam",
+        "text": "Mark a Stress to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress."
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Confuse, distract, overwhelm",
+    "name": "Outer Realms Corrupter",
+    "range": "Very Close",
+    "stress": "3",
+    "thresholds": "27/47",
+    "tier": "4",
+    "type": "Support"
   },
   {
     "atk": "+3",
@@ -6758,6 +7474,44 @@
     "thresholds": "None",
     "tier": "4",
     "type": "Minion"
+  },
+  {
+    "atk": "+7",
+    "attack": "Razor Talons",
+    "damage": "4d8+5 phy",
+    "description": "A giant, vengeful barn owl that has a 15-foot wingspan and a human face.",
+    "difficulty": "19",
+    "experience": "Magic +2, Night Stalker +2",
+    "feature": [
+      {
+        "name": "Ill Omen",
+        "text": "When a PC within Close range makes an action roll, their Fear Die gains a bonus equal to the amount of Fear you have."
+      },
+      {
+        "name": "Witch Barrier",
+        "text": "The Owl Witch has resistance to magic damage."
+      },
+      {
+        "name": "Voice Mimicry",
+        "text": "Spend a Fear to have the Owl Witch beckon with the voice of a beloved fi gure to a creature within earshot. The target must succeed on an Instinct Reaction Roll or move up to Far range toward the Owl Witch."
+      },
+      {
+        "name": "Nightmare Stare",
+        "text": "Spend a Fear to have the Owl Witch Affl ict a PC within Far range with waking nightmares unless the target succeeds on a Knowledge Reaction Roll. While Affl icted, the target can’t clear HP or Stress. The condition is cleared when another PC uses a downtime move to comfort the Affl icted creature."
+      },
+      {
+        "name": "Visions of a Violent End",
+        "text": "When the Owl Witch is targeted by an attack, you can spend a Fear to force the attacker to make a Presence Reaction Roll. On a failure, they must mark 1d4 Stress as their mind is fl ooded with harrowing imagery. 154 Daggerheart SRD"
+      }
+    ],
+    "hp": "4",
+    "motives_and_tactics": "Consume essence, curse, predict death",
+    "name": "Owl Witch",
+    "range": "Very Close",
+    "stress": "3",
+    "thresholds": "27/47",
+    "tier": "4",
+    "type": "Support"
   },
   {
     "atk": "+6",
@@ -6825,5 +7579,413 @@
     "thresholds": "None",
     "tier": "4",
     "type": "Minion"
+  },
+  {
+    "atk": "+8",
+    "attack": "Wing Strike",
+    "damage": "4d12+10 phy",
+    "description": "The four-faced angel from the Hallows Above who manifests in the Mortal Realm as a fl oating tetrahedron with numerous eyes and multiple sets of metallic feathered wings.",
+    "difficulty": "20",
+    "experience": "Omnipotence +10, Be Not Afraid +5",
+    "feature": [
+      {
+        "name": "Relentless (4)",
+        "text": "Adonix can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Elemental Archon",
+        "text": "Mark a Stress to roll a d4. Adonix activates the corresponding eff ect: 1. Fire Beam. Adonix manifests a beam of elemental fi re with a Very Close width from themself to the edge of the battlefi eld. Each target in the beam’s path must make an Agility Reaction Roll. Targets who fail take Severe damage. Targets who succeed take Minor damage. 2. Thunderclap. All creatures within Far range must mark a Stress and become Vulnerable until they succeed on an attack roll or the Demiurge is defeated. 3. Lightning Bolt. Make an attack against a target within Very Far range, dealing 4d8 magic damage on a success. If all results are even, make the same attack against a diff erent target, repeating the cycle until you roll an odd result or run out of targets. 4. Ice Storm. Each PC within Close range must succeed on a Strength Reaction Roll or mark 1d4 Stress and become Restrained until they spend a Hope to escape. Alpha to Omega - Evolution: When Adonix is defeated, they resurrect in Omega form with all HP and Stress cleared. Each PC within Very Far range must succeed on a Presence Reaction Roll or lose a Hope. You gain a Fear for each Hope lost in this way. Adonix gains the following features in this form:"
+      },
+      {
+        "name": "Forsaken",
+        "text": "Spend a Fear to choose a PC and activate a Forsaken Countdown (1d8) for them. It ticks down when Adonix is spotlighted. When it triggers, the PC must mark all their HP. The countdown ends if Adonix takes Severe damage. You can have only one Forsaken Countdown active at a time."
+      },
+      {
+        "name": "Armageddon",
+        "text": "When Adonix is defeated again, they unleash a reality storm that shakes the realms to their foundations. Roll a d6. On a result of 5–6, each PC must make a death move."
+      }
+    ],
+    "hp": "12",
+    "motives_and_tactics": "Establish dominion, exile from reality, fl oat",
+    "name": "Supreme Demiurge Adonix",
+    "range": "Close",
+    "stress": "10",
+    "thresholds": "35/70",
+    "tier": "4",
+    "type": "Solo"
+  },
+  {
+    "atk": "+4",
+    "attack": "Adamantine Hammer",
+    "damage": "40 direct phy",
+    "description": "A giant mechanical being from a dimension outside time, built by the Time Keepers to preserve the Holy Continuum.",
+    "difficulty": "20",
+    "experience": "Temporal Anomalies +3",
+    "feature": [
+      {
+        "name": "Relentless (2)",
+        "text": "The Enforcer can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Time Looper",
+        "text": "Countdown (Loop 2d6). When the Enforcer fi rst appears, activate the countdown. It ticks down when the Enforcer is spotlighted. When it triggers, the Enforcer clears all HP, Stress, and conditions. Reroll the countdown when the Enforcer takes Severe damage."
+      },
+      {
+        "name": "Move Between Moments",
+        "text": "Mark a Stress to have the Enforcer teleport to a point within Very Far range, then spotlight them again."
+      },
+      {
+        "name": "Instant Rewind",
+        "text": "When the Enforcer fails an attack, you can spend a Fear to reroll the die."
+      },
+      {
+        "name": "Invert Polarity",
+        "text": "Up to three times per scene, you can spend a Fear to fl ip any die rolled onto its obverse result. This eff ect can’t be used to alter a critical success. VOLCANIC DRAGON:"
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Repair the timeline, seek out temporal",
+    "name": "Temporal Enforcer",
+    "range": "Very Close",
+    "stress": "5",
+    "thresholds": "42/68",
+    "tier": "4",
+    "type": "Bruiser"
+  },
+  {
+    "atk": "+8",
+    "attack": "Obsidian Claws",
+    "damage": "4d10+4 phy",
+    "description": "A massive winged creature with obsidian scales and impossibly sharp claws.",
+    "difficulty": "19",
+    "experience": "Hunt from Above +5",
+    "feature": [
+      {
+        "name": "Relentless (2)",
+        "text": "The Obsidian Predator can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Flying",
+        "text": "While fl ying, the Obsidian Predator gains a +3 bonus to their Diffi culty."
+      },
+      {
+        "name": "Obsidian Scales",
+        "text": "The Obsidian Predator is resistant to physical damage."
+      },
+      {
+        "name": "Avalanche Tail",
+        "text": "Mark a Stress to make an attack against all targets within Close range. Targets the Obsidian Predator succeeds against take 4d6+4 physical damage and are knocked back to Far range and Vulnerable until their next roll with Hope."
+      },
+      {
+        "name": "Dive-Bomb",
+        "text": "If the Obsidian Predator is fl ying, mark a Stress to choose a point within Far range. Move to that point and make an attack against all targets within Very Close range. Targets the Obsidian Predator succeeds against take 2d10+6 physical damage and must mark a Stress and lose a Hope."
+      },
+      {
+        "name": "Erupting Rage (Phase Change)",
+        "text": "When the Obsidian Predator marks their last HP, replace them with the Molten Scourge and immediately spotlight them. Daggerheart SRD 155"
+      }
+    ],
+    "hp": "6",
+    "motives_and_tactics": "Defend lair, dive-bomb, fl y, hunt, intimidate",
+    "name": "Volcanic Dragon: Obsidian Predator",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "33/65",
+    "tier": "4",
+    "type": "Solo"
+  },
+  {
+    "atk": "+9",
+    "attack": "Lava-Coated Claws",
+    "damage": "4d12+4 phy",
+    "description": "Enraged by their wounds, the dragon bursts into molten lava.",
+    "difficulty": "20",
+    "experience": "Hunt from Above +5",
+    "feature": [
+      {
+        "name": "Relentless (3)",
+        "text": "The Molten Scourge can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Cracked Scales",
+        "text": "When the Molten Scourge takes damage, roll a number of d6s equal to HP marked. For each result of 4 or higher, you gain a Fear."
+      },
+      {
+        "name": "Shattering Might",
+        "text": "Mark a Stress to make an attack against a target within Very Close range. On a success, the target takes 4d8+1 physical damage, loses a Hope, and is knocked back to Close range. The Molten Scourge clears a Stress."
+      },
+      {
+        "name": "Eruption",
+        "text": "Spend a Fear to erupt lava from beneath the Molten Scourge’s scales, fi lling the area within Very Close range with molten lava. All targets in that area must succeed on an Agility Reaction Roll or take 4d6+6 physical damage and be knocked back to Close range. This area remains lava. When a creature other than the Molten Scourge enters that area or acts while inside of it, they must mark 6 HP."
+      },
+      {
+        "name": "Volcanic Breath",
+        "text": "When the Molten Scourge takes Major damage, roll a d10. On a result of 8 or higher, the Molten Scourge breathes a fl ow of lava in front of them within Far range. All targets in that area must make an Agility Reaction Roll. Targets who fail take 2d10+4 physical damage, mark 1d4 Stress, and are Vulnerable until they clear a Stress. Targets who succeed take half damage and must mark a Stress."
+      },
+      {
+        "name": "Lava Splash",
+        "text": "When the Molten Scourge takes Severe damage from an attack within Very Close range, molten blood gushes from the wound and deals 2d10+4 direct physical damage to the attacker."
+      },
+      {
+        "name": "Ashen Vengeance (Phase Change)",
+        "text": "When the Molten Scourge marks their last HP, replace them with the Ashen Tyrant and immediately spotlight them. 156 Daggerheart SRD"
+      }
+    ],
+    "hp": "7",
+    "motives_and_tactics": "Douse with lava, incinerate, repel Invaders,",
+    "name": "Volcanic Dragon: Molten Scourge",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "30/58",
+    "tier": "4",
+    "type": "Solo"
+  },
+  {
+    "atk": "+10",
+    "attack": "Claws and Teeth",
+    "damage": "4d12+15 phy",
+    "description": "No enemy has ever had the insolence to wound the dragon so. As the lava settles, it’s ground to ash like the dragon’s past foes.",
+    "difficulty": "18",
+    "experience": "Hunt from Above +5",
+    "feature": [
+      {
+        "name": "Relentless (4)",
+        "text": "The Ashen Tyrant can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Cornered",
+        "text": "Mark a Stress instead of spending a Fear to spotlight the Ashen Tyrant."
+      },
+      {
+        "name": "Injured Wings",
+        "text": "While fl ying, the Ashen Tyrant gains a +1 bonus to their Diffi culty."
+      },
+      {
+        "name": "Ashes to Ashes",
+        "text": "When a PC rolls a failure while within Close range of the Ashen Tyrant, they lose a Hope and you gain a Fear. If the PC can’t lose a Hope, they must mark a HP."
+      },
+      {
+        "name": "Desperate Rampage",
+        "text": "Mark a Stress to make an attack against all targets within Close range. Targets the Ashen Tyrant succeeds against take 2d20+2 physical damage, are knocked back to Close range of where they were, and must mark a Stress."
+      },
+      {
+        "name": "Ashen Cloud",
+        "text": "Spend a Fear to smash the ground and kick up ash within Far range. While within the ash cloud, a target has disadvantage on action rolls. The ash cloud clears the next time an adversary is spotlighted."
+      },
+      {
+        "name": "Apocalyptic Thrashing",
+        "text": "Countdown (1d12). Spend a Fear to activate. It ticks down when a PC rolls with Fear. When it triggers, the Ashen Tyrant thrashes about, causing environmental damage (such as an earthquake, avalanche, or collapsing walls). All targets within Far range must make a Strength Reaction Roll. Targets who fail take 2d10+10 physical damage and are Restrained by the rubble until they break free with a successful Strength Roll. Targets who succeed take half damage. If the Ashen Tyrant is defeated while this countdown is active, trigger the countdown immediately as the destruction caused by their death throes."
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Choke, fl y, intimidate, kill or be killed",
+    "name": "Volcanic Dragon: Ashen Tyrant",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "29/55",
+    "tier": "4",
+    "type": "Solo"
+  },
+  {
+    "atk": "+8",
+    "attack": "Bite",
+    "damage": "4d10+5 phy",
+    "description": "A colossal fur-covered snake that hunts in large bodies of water.",
+    "difficulty": "20",
+    "experience": "Rivers +4",
+    "feature": [
+      {
+        "name": "Segmented",
+        "text": "The Water Mother’s body is divided into three segments: Head, Center, and Tail. The Water Mother always moves from the Head fi rst, pulling the Center and then Tail behind it. A creature can target the Water Mother with an attack as long as at least one of her segments is within range, but the Water Mother can make a standard attack only against a target within range of her Head. If an attack deals damage to the Water Mother and her Head is within range, the attack deals an extra 1d10 damage."
+      },
+      {
+        "name": "Eat the World",
+        "text": "Spend a Fear to have the Water Mother inhale sharply. Each PC within Close range of her Head must succeed on a Strength Reaction Roll or mark a Stress and be pulled within Melee range of the Head. The Water Mother then makes a standard attack against all targets within Melee range of her Head."
+      },
+      {
+        "name": "Constrict",
+        "text": "Mark a Stress to make an attack against all targets within Melee range of the Center segment. Targets the attack succeeds against take 4d8+8 physical damage and are temporarily Restrained. At the beginning of each GM turn, you can mark a Stress to force all targets Restrained by the Water Mother to mark a HP."
+      },
+      {
+        "name": "Venom Surge",
+        "text": "When the Water Mother makes a successful standard attack, you can spend a Fear to make the target Vulnerable until the end of the scene."
+      }
+    ],
+    "hp": "12",
+    "motives_and_tactics": "Constrict the world, control the battlefi eld,",
+    "name": "Water Mother",
+    "range": "Very Close",
+    "stress": "8",
+    "thresholds": "40/70",
+    "tier": "4",
+    "type": "Solo"
+  },
+  {
+    "atk": "+3",
+    "attack": "Weapons from the Hoard",
+    "damage": "11 phy",
+    "description": "A reptilian biped created by mysterious and ancient dragon magic. Wyrmfi ends exist more as extensions of their draconic master’s will than as individual beings.",
+    "difficulty": "17",
+    "experience": "Dragon Bond +2",
+    "feature": [
+      {
+        "name": "Minion (13)",
+        "text": "The Wyrmfi end is defeated when it takes any damage. For every 13 damage a PC deals to the Wyrmfi end, the PC defeats an additional Minion within range the attack would succeed against."
+      },
+      {
+        "name": "Venomous Bite",
+        "text": "Spend a Fear to make an attack against a PC within Melee range. On a success, deal 4d4+4 physical damage and Poison the target until they succeed on a Strength Roll (20). While Poisoned, the target must roll a d6 before they make an action roll. On a result of 4 or lower, the target must mark a Stress."
+      },
+      {
+        "name": "Group Attack",
+        "text": "Spend a Fear to choose a target and spotlight all Wyrmfi ends within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 11 physical damage each. Combine this damage."
+      }
+    ],
+    "hp": "1",
+    "motives_and_tactics": "Hold the line, sacrifi ce, serve, swarm",
+    "name": "Wyrmfiend",
+    "range": "Melee",
+    "stress": "1",
+    "thresholds": "None",
+    "tier": "4",
+    "type": "Minion"
+  },
+  {
+    "atk": "+2",
+    "attack": "Tiny Jaws \u0026 Claws",
+    "damage": "4d6+10 phy",
+    "description": "A clutch of newly hatched dragons. As newborns, they’re furious, hungry, and stupid.",
+    "difficulty": "17",
+    "experience": "Dragon Bond +2",
+    "feature": [
+      {
+        "name": "Horde (2d+)",
+        "text": "When the Wyrmlings have marked half or more of their HP, their standard attack deals 2d6+5 physical damage instead."
+      },
+      {
+        "name": "Ravenous",
+        "text": "Once per GM turn when a PC marks a HP from an attack made by the Wyrmlings, you can spend a Fear to spotlight the Wyrmlings again."
+      },
+      {
+        "name": "Overwhelm",
+        "text": "When the Wyrmlings take Minor damage from an attack within Melee range, you can mark a Stress to make a standard attack with advantage against the attacker."
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Consume, shred, swarm",
+    "name": "Wyrmlings",
+    "range": "Melee",
+    "stress": "5",
+    "thresholds": "25/45",
+    "tier": "4",
+    "type": "Horde"
+  },
+  {
+    "atk": "+8",
+    "attack": "Tail Swipe",
+    "damage": "4d12+6 phy",
+    "description": "A castle-sized, bipedal reptile.",
+    "difficulty": "20",
+    "experience": "Destruction +5",
+    "feature": [
+      {
+        "name": "Relentless (X)",
+        "text": "Xero can be spotlighted up to X times per GM turn, where X is the number of PCs in the scene. Spend Fear as usual to spotlight it."
+      },
+      {
+        "name": "Collateral Damage",
+        "text": "Xero’s movement can’t be hindered, impeded, or aff ected by anything other than natural terrain. All destructible terrain or obstacles in Xero’s path are destroyed when Xero moves through them."
+      },
+      {
+        "name": "Gigaton Stomp",
+        "text": "Spend a Fear to have Xero bring its foot down hard, creating a localized earthquake. Each PC within Melee range takes 4d12 physical damage and is Restrained until they wriggle out with a successful Finesse Roll. Each creature beyond Melee range but within Close range must succeed on an Instinct Reaction Roll or be knocked back to Far range. If a target is knocked back, they must either mark an Armor Slot or take 4d12 physical damage as they land."
+      },
+      {
+        "name": "Power Slide",
+        "text": "Mark a Stress to move up to Close range. Each PC Xero moves through must succeed on a Strength Reaction Roll or choose to either mark 2 Armor Slots or take Severe damage."
+      },
+      {
+        "name": "Radioactive Breath",
+        "text": "Spend a Fear to have Xero charge up a nuclear beam. Place a token on this stat block. The next time Xero is spotlighted, you can spend this token and unleash a beam to Very Far range. The beam has a width of Close range. Each PC in this area must make an Agility Reaction Roll. Targets who fail take 4d12+12 direct magic damage. Targets who succeed take half damage. Xero can’t use this feature again until it takes Severe damage."
+      },
+      {
+        "name": "Regeneration",
+        "text": "Up to three times per scene, spend any number of Fear to clear an equal number of HP. Daggerheart SRD 157"
+      }
+    ],
+    "hp": "12",
+    "motives_and_tactics": "Leave a wake of destruction, level buildings,",
+    "name": "Xero The Castle Killer",
+    "range": "Close",
+    "stress": "10",
+    "thresholds": "35/70",
+    "tier": "4",
+    "type": "Solo"
+  },
+  {
+    "atk": "+4",
+    "attack": "Greataxe",
+    "damage": "4d12+15 phy",
+    "description": "A towering, muscular zombie with magically infused strength and skill.",
+    "difficulty": "20",
+    "feature": [
+      {
+        "name": "Terrifying",
+        "text": "When the Zombie makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear."
+      },
+      {
+        "name": "Fearsome Presence",
+        "text": "PCs can’t spend Hope to use features against the Zombie."
+      },
+      {
+        "name": "Perfect Strike",
+        "text": "Mark a Stress to make a standard attack against all targets within Very Close range. Targets the Zombie succeeds against are Vulnerable until their next rest."
+      },
+      {
+        "name": "Skilled Opportunist",
+        "text": "When another adversary deals damage to a target within Very Close range of the Zombie, you can spend a Fear to add the Zombie’s standard attack damage to the damage roll. USING ENVIRONMENTS Environments represent everything in a scene beyond the PCs and ad natural forces. ENVIRONMENT STAT BLOCK Each environment’s stat block presents their necessary A mechanical statistics: NAME T The unique name of the environment stat block. p TIER The PC tier the environment is designed to challenge. T o TYPE The type of scene it most easily supports: S • Explorations — wondrous locations with mysteries and e marvels to discover • Socials — locations that primarily present interpersonal challenges F • Traversals — dangerous locations where movement r through and around the space itself is a challenge • Events — special activities or occurrences (rather than physical spaces) P o 158 Daggerheart SRD"
+      }
+    ],
+    "hp": "9",
+    "motives_and_tactics": "Consume, hound, maim, terrify",
+    "name": "Perfected Zombie",
+    "range": "Very Close",
+    "stress": "4",
+    "thresholds": "40/70",
+    "tier": "4",
+    "type": "Bruiser"
+  },
+  {
+    "atk": "+2",
+    "attack": "Undead Hands",
+    "damage": "4d6+10 phy",
+    "description": "A large pack of undead, still powerful despite their rotting fl esh.",
+    "difficulty": "17",
+    "feature": [
+      {
+        "name": "Horde (2d+)",
+        "text": "When the Legion has marked half or more of their HP, their standard attack deals 2d6+5 physical damage instead."
+      },
+      {
+        "name": "Unyielding",
+        "text": "The Legion has resistance to physical damage."
+      },
+      {
+        "name": "Relentless (2)",
+        "text": "The Legion can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+      },
+      {
+        "name": "Overwhelm",
+        "text": "When the Legion takes Minor damage from an attack within Melee range, you can mark a Stress to make a standard attack with advantage against the attacker. dversaries, such as the physical space, background NPCs, and DESCRIPTION An evocative one-line summary of the environment. IMPULSES The manner or mode with which the environment pushs and pulls the people within them. DIFFICULTY The standard Difficulty for action rolls made to overcome, oppose, or resist the environment or its elements. POTENTIAL ADVERSARIES Suggested adversaries that might appear in scenes within the environment. FEATURES Features provide inspiration for GM moves you can use that represent the dynamic landscape or situation. FEATURE QUESTIONS Prompts for plot hooks, narrative engines, and connections to other story elements."
+      }
+    ],
+    "hp": "8",
+    "motives_and_tactics": "Consume brain, shred fl esh, surround",
+    "name": "Zombie Legion",
+    "range": "Close",
+    "stress": "5",
+    "thresholds": "25/45",
+    "tier": "4",
+    "type": "Horde"
   }
 ]

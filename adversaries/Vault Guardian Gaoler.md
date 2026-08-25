@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Blocking Shield - Passive:_** Creatures within Melee range of the Gaoler have disadvantage on attack rolls against them. Creatures trapped inside the Gaoler are immune to this feature.
+**_Blocking Shield:_** Creatures within Melee range of the Gaoler have disadvantage on attack rolls against them. Creatures trapped inside the Gaoler are immune to this feature.
 
-**_Lock Up - Action:_** **Mark a Stress** to make an attack against a target within Very Close range. On a success, the target is _Restrained_ within the Gaoler until freed with a successful Strength Roll (18). While _Restrained_, the target can only attack the Gaoler.
+**_Lock Up:_** Mark a Stress to make an attack against a target within Very Close range. On a success, the target is Restrained within the Gaoler until freed with a successful Strength Roll (18). While Restrained, the target can only attack the Gaoler.

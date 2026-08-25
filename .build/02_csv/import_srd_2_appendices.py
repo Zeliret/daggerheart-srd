@@ -23,6 +23,13 @@ def compact(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+def adversary_name(text: str) -> str:
+    name = compact(text.title())
+    if name in {"Molten Scourge", "Ashen Tyrant", "Obsidian Predator"}:
+        return f"Volcanic Dragon: {name}"
+    return name
+
+
 def write_rows(name: str, header: list[str], rows: list[dict[str, str]]) -> None:
     with (CSV / name).open("w", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=header)
@@ -81,13 +88,13 @@ def adversaries(pdf) -> list[dict[str, str]]:
     tier = 0
     # PDF pages 97–154 are the adversary appendix; each statblock occupies one
     # half-page, so crop before text extraction to prevent column interleaving.
-    for page_no in range(96, 154):
+    for page_no in range(96, 158):
         page = pdf.pages[page_no]
         for left, right in ((0, page.width / 2), (page.width / 2, page.width)):
             text = page.crop((left, 0, right, page.height)).extract_text() or ""
             tier_match = re.search(r"TIER ([1-4]) ADVERSARIES", text)
             if tier_match: tier = int(tier_match.group(1))
-            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged)\n", text))
+            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged|Horde|Support)(?: \([^\n]*\))?\n", text))
             for i, match in enumerate(starts):
                 block = text[match.start(): starts[i + 1].start() if i + 1 < len(starts) else len(text)]
                 stat = re.search(r"Diffi\s*culty:\s*([^|]+)\|\s*Thresholds:\s*([^|]+)\|\s*HP:\s*([^|]+)\|\s*Stress:\s*([^\n]+)", block)
@@ -98,7 +105,7 @@ def adversaries(pdf) -> list[dict[str, str]]:
                 description = "\n".join(before_motive.splitlines()[2:])
                 feature_text = block.split("FEATURES", 1)[1] if "FEATURES" in block else ""
                 features = list(re.finditer(r"(?m)^(.+?) - (?:Passive|Action|Reaction):\s*", feature_text))
-                row = {"Name": compact(match.group(1).title()), "Tier": str(tier), "Type": match.group(2), "Description": compact(description), "Motives and Tactics": compact(motive.group(1)) if motive else ""}
+                row = {"Name": adversary_name(match.group(1)), "Tier": str(tier), "Type": match.group(2), "Description": compact(description), "Motives and Tactics": compact(motive.group(1)) if motive else ""}
                 if stat: row.update(dict(zip(("Difficulty", "Thresholds", "HP", "Stress"), map(compact, stat.groups()))))
                 if attack: row.update({"ATK": compact(attack.group(1)), "Attack": compact(attack.group(2)), "Range": compact(attack.group(3)), "Damage": compact(attack.group(4))})
                 if experience: row["Experience"] = compact(experience.group(1))

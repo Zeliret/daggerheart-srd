@@ -14,8 +14,4 @@
 
 **_Reality Quake:_** Spend a Fear to rattle the edges of reality within Far range of the Abomination. All targets within that area must succeed on a Knowledge Reaction Roll or become Unstuck from reality until the end of the scene. When an Unstuck target spends Hope or marks Armor Slots, HP, or Stress, they must double the amount spent or marked.
 
-**_Unreal Form:_** When the Abomination takes damage, reduce it by 1d20. If the Abomination marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear. OUTER REALMS CORRUPTER Tier  Support A shifting, formless mass seemingly made of chromatic light. Motives & Tactics: Confuse, distract, overwhelm Diffi culty: 19 | Thresholds: 27/47 | HP: 4 | Stress: 3 ATK: +7 | Corroding Pseudopod: Very Close | 4d8+5 mag FEATURES
-
-**_Will-Shattering Touch:_** When a PC takes damage from the Corrupter, they lose a Hope.
-
-**_Disgorge Reality Flotsam:_** Mark a Stress to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress.
+**_Unreal Form:_** When the Abomination takes damage, reduce it by 1d20. If the Abomination marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear.

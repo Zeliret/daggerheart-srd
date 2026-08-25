@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Painful:_** Each time you mark an Armor Slot, you must mark a Stress.
+**_Painful:_** Each time you mark an Armor Slot, you must mark a Stress. Base Base Name Thresholds Score Feature

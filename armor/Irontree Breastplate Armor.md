@@ -1,4 +1,4 @@
-# IronTree Breastplate Armor
+# Irontree Breastplate Armor
 
 **_Tier 2_** _Armor_
 

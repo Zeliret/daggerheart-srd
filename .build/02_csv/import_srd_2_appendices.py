@@ -117,17 +117,43 @@ def adversaries(pdf) -> list[dict[str, str]]:
     return records
 
 
+def armor_rows(pdf) -> list[dict[str, str]]:
+    records = []
+    tier = 0
+    active = None
+    row = re.compile(r"^(.+?)\s+(\d+\s*/\s*\d+)\s+(\d+)\s+(.*)$")
+    for page_no in range(71, 74):
+        for line in (pdf.pages[page_no].extract_text() or "").splitlines():
+            tier_match = re.match(r"TIER ([1-4]) \(", line)
+            if tier_match:
+                tier = int(tier_match.group(1)); continue
+            match = row.match(line)
+            if match and tier:
+                if active: records.append(active)
+                name, thresholds, score, feature = map(compact, match.groups())
+                active = {"Name": name, "Tier": str(tier), "Base Thresholds": thresholds, "Base Score": score}
+                if feature != "—":
+                    key, text = feature.split(":", 1)
+                    active["Feature 1 Name"], active["Feature 1 Text"] = compact(key), compact(text)
+            elif active and line and not line.startswith("Daggerheart SRD") and not re.match(r"^\d+ Daggerheart", line):
+                if active.get("Feature 1 Text"):
+                    active["Feature 1 Text"] = compact(active["Feature 1 Text"] + " " + line)
+    if active: records.append(active)
+    return records
+
+
 def main() -> None:
     with pdfplumber.open(PDF) as pdf:
         items = loot_rows(pdf, range(74, 79))
         consumables = loot_rows(pdf, range(79, 86))
         foes = adversaries(pdf)
-    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150:
-        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}")
-    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes)):
+        armor = armor_rows(pdf)
+    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150 or len(armor) != 69:
+        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}, armor={len(armor)}")
+    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes), ("armor.csv", armor)):
         with (CSV / filename).open(newline="") as fh: header = next(csv.reader(fh))
         write_rows(filename, header, rows)
-    print(f"imported {len(items)} items, {len(consumables)} consumables, and {len(foes)} adversaries")
+    print(f"imported {len(items)} items, {len(consumables)} consumables, {len(foes)} adversaries, and {len(armor)} armor entries")
 
 
 if __name__ == "__main__":

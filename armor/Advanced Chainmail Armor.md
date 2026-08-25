@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Heavy:_** -1 to Evasion
+**_Heavy:_** −1 to Evasion

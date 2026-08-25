@@ -17,56 +17,13 @@ about your secret hobby
 **_I Am the Weapon:_** Your barehanded attacks are as strong as any blade. You have a primary weapon called Brawler’s Strike equipped while you have no other Active Weapons. It uses a trait of your choice, has Melee range, and deals d8+d6  physical damage using your Proficiency (both the d8 and d6 scale off your Proficiency). While this weapon is active, you gain a +1 bonus to your Evasion.
 
 **_Combo Strike:_** After rolling damage on a successful attack with a Melee weapon, you can mark a Stress to start a combo strike. When you do, roll your Combo Die and note the result, then continue rolling your Combo Die until the result of your latest roll is lower than the roll that preceded it. You deal extra damage equal to the total of all rolled Combo Die results on this attack. The results can’t be modified by any means. Your Combo Die starts as a d4 . Once per tier, you can increase your Combo Die by one step as a level advancement option.
+### SUBCLASSES
 
-### BRAWLER SUBCLASSES
-
-Choose either the Juggernaut or Martial Artist subclass.
-
-### JUGGERNAUT
-
-Play the Juggernaut if you want to pulverize your opponents with crushing blows.
-
-### FOUNDATION FEATURES
-
-**_Rugged:_** Gain a permanent +3 bonus to your Severe damage threshold.
-
-**_Overwhelm:_** When you succeed on an attack against a target, you can spend a Hope to throw the target within Close range or to force them to mark a Stress.
-
-### SPECIALIZATION FEATURES
-
-**_Surrounded:_** When you make an attack with a Melee weapon, you can spend any number of Hope to target an equal number of additional creatures within Melee range.
-
-**_Eye for an Eye:_** Once per rest when an adversary within Melee range forces you to mark any number of Hit Points, you can mark a Stress to force them to mark the same number of Hit Points.
-
-### MASTERY FEATURE
-
-**_Pummeljoy:_** When you critically succeed on a Melee weapon attack, you gain an additional Hope, clear an additional Stress, and gain a +1 bonus to your Proficiency for that attack.
-
-**_Not Done Yet:_** When you take Severe damage, you can gain a Hope or clear a Stress.
-
-### MARTIAL ARTIST
-
-Play the Martial Artist if you want to use a variety of fighting styles to eliminate your foes.
-
-### FOUNDATION FEATURE
-
-**_Stance Fighter:_** You can channel your inner resolve to shift into martial stances that grant you special benefits in combat. T ake the Martial Stances sheet and choose two martial stances from Tier 1. Each time you level up your character, choose an additional stance from your tier or lower.
-
-### SPECIALIZATION FEATURES
-
-**_Keen Defenses:_** When you’re targeted by an attack, you can spend a Focus to gain a bonus to your Evasion equal to your tier against the attack.
-
-**_Focus Cannon:_** Spend a Focus to make an Instinct Roll against an adversary within Far range. On a success, deal d20+3  magic damage using your Proficiency.
-
-### MASTERY FEATURE
-
-**_Limit Breaker:_** Once per rest, you can perform an unbelievable feat of athletic prowess, such as running across water, leaping between distant rooftops, or scaling a building without needing to roll. When you do, gain a Hope and clear a Stress.
-
-**_Flow State:_** You can mark a Stress instead of spending a Focus to shift into a different stance. Additionally, you can spend a Focus instead of marking a Stress to start a combo strike.
+Choose either the **[Juggernaut](../subclasses/Juggernaut.md)** or **[Martial Artist](../subclasses/Martial%20Artist.md)** subclass.
 
 ### BACKGROUND QUESTIONS
 
-Answer any of the following background questions. You can also create your own questions.
+_Answer any of the following background questions. You can also create your own questions._
 
 - Where did you spend time during your formative
 years that taught you, directly or indirectly, how to fight in the style you use?
@@ -79,7 +36,7 @@ desperate for a rematch against?
 
 ### CONNECTIONS
 
-Ask your fellow players one of the following questions for their character to answer, or create your own questions.
+_Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
 - What is one thing we’re both afraid of?
 - What do I rely on you for during our travels? How do

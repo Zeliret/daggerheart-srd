@@ -23,66 +23,13 @@ a ring you can’t remove
 ### SPHERE OF INFLUENCE EXAMPLES
 
 When building a warlock, choose their patron’s sphere of influence from the list below or work with the GM to make your own. Ambition Artists Chaos Darkness Death Gamblers Honor Justice Leaders Love Mercy Mischief Nature Protectors Revenge Scholars Secrets Soldiers Strength Travelers Tricksters Truth War Wisdom
+### SUBCLASSES
 
-### WARLOCK SUBCLASSES
-
-Choose either the Pact of the Endless or Pact of the Wrathful subclass.
-
-### PACT OF THE ENDLESS
-
-Play the Pact of the Endless if you want to stand strong against enemies and avoid death.
-
-### SPELLCAST TRAIT
-
-Presence
-
-### FOUNDATION FEATURES
-
-**_Patron’s Mantle:_** Spend a Favor to cloak yourself in a terrifying aspect of your Patron that lasts until you take Severe damage or the scene ends. While this effect is active, you gain a bonus to your damage thresholds equal to your tier and have advantage on action rolls to intimidate a target.
-
-**_Deathless Embrace:_** Once per rest, spend any number of Favor to roll an equal number of Patron Dice. For each result of 4 or higher, clear a Hit Point.
-
-### SPECIALIZATION FEATURES
-
-**_Harrowing Invocation:_** When an adversary targets you or an ally within Very Close range with an attack, you can spend a Favor to give them disadvantage on the roll. If the adversary fails the roll, they must also mark a Stress.
-
-**_Damage Sink:_** Once per rest, you can spend a Favor to halve incoming damage.
-
-### MASTERY FEATURES
-
-**_Dark Aegis:_** Once per long rest when you would take damage, you can spend a Favor instead of marking Hit Points.
-
-**_Draining Bane:_** When an adversary targets you or an ally within Very Close range with an attack, you can spend a Favor to Drain them. When you do, they must mark a Stress, and you can clear a Stress. While Drained, the target uses a d12  instead of a d20 for attack rolls (including for advantage or disadvantage) until they fail a roll.
-
-### PACT OF THE WRATHFUL
-
-Play the Pact of the Wrathful if you want to destroy those who act against you.
-
-### SPELLCAST TRAIT
-
-Presence
-
-### FOUNDATION FEATURES
-
-**_Patron’s Fury:_** Spend a Favor to imbue your attacks with your Patron’s power until you deal Severe damage or the scene ends. When you roll damage while this effect is active, you also roll a number of Patron Dice equal to your tier and add their total to the damage dealt.
-
-**_Deadly Vengeance:_** When you mark any number of Hit Points from an attack, you can spend a Favor to roll an equal number of Patron Dice. For each result of 4 or higher, the attacker marks a Hit Point.
-
-### SPECIALIZATION FEATURES
-
-**_Menacing Reach:_** Spend a Favor to increase the range of your primary weapon by one step (such as Melee to Very Close or Very Close to Close) to a maximum of Very Far range. This effect ends when you make a successful attack with that weapon.
-
-**_Diminish My Foes:_** When you succeed with Hope on an action roll against a target, you can spend any number of Favor to force the target to mark an equal number of Stress.
-
-### MASTERY FEATURES
-
-**_Fearsome Attack:_** Spend a Favor to reroll any number of your damage dice. You can continue spending Favor to use this feature on the same damage roll.
-
-**_Otherworldly Ire:_** Once per rest when you take damage, you can spend any number of Favor to roll that many Patron Dice and target a number of creatures within Close range equal to the highest result. Each target must mark a Hit Point.
+Choose either the **[Pact of the Endless](../subclasses/Pact%20of%20the%20Endless.md)** or **[Pact of the Wrathful](../subclasses/Pact%20of%20the%20Wrathful.md)** subclass.
 
 ### BACKGROUND QUESTIONS
 
-Answer any of the following background questions. You can also create your own questions.
+_Answer any of the following background questions. You can also create your own questions._
 
 - Who from your community shunned you after you
 made a pact with your patron?
@@ -95,7 +42,7 @@ accomplish above all else. What is it, and why does it worry you?
 
 ### CONNECTIONS
 
-Ask your fellow players one of the following questions for their character to answer, or create your own questions.
+_Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
 - Why do you think I confide in you about what my
 patron says and does?

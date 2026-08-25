@@ -26,14 +26,15 @@ func main() {
 	}
 
 	funcs := template.FuncMap{
-		"upper":            strings.ToUpper,
-		"urlEncode":        url.PathEscape,
-		"featureQuestions": featureQuestions,
-		"fileName":         sanitizeFilename,
-		"abilityLink":      abilityLink,
-		"optionAt":         optionAt,
-		"add1":             add1,
-		"sourceMarkdown":   sourceMarkdown,
+		"upper":               strings.ToUpper,
+		"urlEncode":           url.PathEscape,
+		"featureQuestions":    featureQuestions,
+		"fileName":            sanitizeFilename,
+		"abilityLink":         abilityLink,
+		"optionAt":            optionAt,
+		"add1":                add1,
+		"sourceMarkdown":      sourceMarkdown,
+		"classSourceMarkdown": classSourceMarkdown,
 	}
 
 	var beastforms []map[string]any
@@ -97,6 +98,7 @@ var sourceArtifact = regexp.MustCompile(`^(?:[0-9]+|Daggerheart SRD|<!-- PDF pag
 var sourceAllCaps = regexp.MustCompile(`^[A-Z0-9][A-Z0-9 '’&–—-]+$`)
 var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT POINTS|CLASS ITEMS)\s+–\s+(.+)$`)
 var sourceFeature = regexp.MustCompile(`^([A-Z][^:]{1,59}):\s+(.+)$`)
+var sourceSubclassHeading = regexp.MustCompile(`(?m)^([A-Z][A-Z '’&–—-]+) SUBCLASSES\n`)
 
 // sourceMarkdown turns the clean text extracted from the two-column SRD PDF
 // into readable Markdown. SRD 2.0 additions that do not yet have every legacy
@@ -143,6 +145,61 @@ func sourceMarkdown(source string) string {
 	}
 	flush()
 	return strings.TrimSpace(normalizeMarkdown(strings.Join(out, "\n")))
+}
+
+// classSourceMarkdown keeps subclass rules in their canonical documents. The
+// PDF presents a class followed by both subclass cards; legacy class documents
+// instead link to those cards, so preserve that established repository shape.
+func classSourceMarkdown(source, subclass1, subclass2 string) string {
+	nameEnd := strings.Index(source, "\n")
+	className := source
+	if nameEnd >= 0 {
+		className = source[:nameEnd]
+		source = source[nameEnd+1:]
+	}
+	upper1, upper2 := strings.ToUpper(subclass1), strings.ToUpper(subclass2)
+	classEnd := strings.Index(source, "\n"+strings.ToUpper(className)+" SUBCLASSES\n")
+	if classEnd < 0 {
+		classEnd = strings.Index(source, "\n"+upper1+"\n")
+	}
+	if classEnd < 0 {
+		classEnd = strings.Index(source, "\n"+upper2+"\n")
+	}
+	backgroundAt := strings.Index(source, "\nBACKGROUND QUESTIONS\n")
+	connectionsAt := strings.Index(source, "\nCONNECTIONS\n")
+	classPart := source
+	if classEnd >= 0 {
+		classPart = source[:classEnd]
+	}
+	// The class-level source includes a transitional "SUBCLASSES" heading;
+	// remove it because the canonical link section is added below.
+	classPart = sourceSubclassHeading.ReplaceAllString(classPart, "")
+	var out []string
+	if body := sourceMarkdown(classPart); body != "" {
+		out = append(out, body)
+	}
+	out = append(out, "### SUBCLASSES", "", fmt.Sprintf("Choose either the **[%s](../subclasses/%s.md)** or **[%s](../subclasses/%s.md)** subclass.", subclass1, url.PathEscape(subclass1), subclass2, url.PathEscape(subclass2)))
+	if backgroundAt >= 0 {
+		end := len(source)
+		if connectionsAt > backgroundAt {
+			end = connectionsAt
+		}
+		questions := source[backgroundAt+len("\nBACKGROUND QUESTIONS\n") : end]
+		if bullet := strings.Index(questions, "\n•"); bullet >= 0 {
+			questions = questions[bullet:]
+		}
+		body := sourceMarkdown(questions)
+		out = append(out, "", "### BACKGROUND QUESTIONS", "", "_Answer any of the following background questions. You can also create your own questions._", "", body)
+	}
+	if connectionsAt >= 0 {
+		questions := source[connectionsAt+len("\nCONNECTIONS\n"):]
+		if bullet := strings.Index(questions, "\n•"); bullet >= 0 {
+			questions = questions[bullet:]
+		}
+		body := sourceMarkdown(questions)
+		out = append(out, "", "### CONNECTIONS", "", "_Ask your fellow players one of the following questions for their character to answer, or create your own questions._", "", body)
+	}
+	return normalizeMarkdown(strings.Join(out, "\n"))
 }
 
 func loadJSON(path string) ([]map[string]any, error) {

@@ -1,7 +1,7 @@
 # {{ .name }}
 
 {{- if not .items }}
-{{ sourceMarkdown .description }}
+{{ classSourceMarkdown .description .subclass_1 .subclass_2 }}
 {{- else }}
 {{ .description }}
 

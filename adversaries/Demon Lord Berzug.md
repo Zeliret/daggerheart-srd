@@ -17,4 +17,4 @@
 
 **_Crushing Strike:_** When a PC marks HP from Berzug’s standard attack, you can mark a Stress to force them to mark a number of Stress equal to the number of HP they marked. You gain a Fear.
 
-**_Horrifying:_** When a PC fails an attack against Berzug, you gain a Fear. Daggerheart SRD 147
+**_Horrifying:_** When a PC fails an attack against Berzug, you gain a Fear.

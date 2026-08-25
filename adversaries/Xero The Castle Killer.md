@@ -19,4 +19,4 @@
 
 **_Radioactive Breath:_** Spend a Fear to have Xero charge up a nuclear beam. Place a token on this stat block. The next time Xero is spotlighted, you can spend this token and unleash a beam to Very Far range. The beam has a width of Close range. Each PC in this area must make an Agility Reaction Roll. Targets who fail take 4d12+12 direct magic damage. Targets who succeed take half damage. Xero can’t use this feature again until it takes Severe damage.
 
-**_Regeneration:_** Up to three times per scene, spend any number of Fear to clear an equal number of HP. Daggerheart SRD 157
+**_Regeneration:_** Up to three times per scene, spend any number of Fear to clear an equal number of HP.

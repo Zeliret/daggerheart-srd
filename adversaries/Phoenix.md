@@ -1,6 +1,6 @@
 # Phoenix
 
-**_Tier 3 Ranged._** _A huge eagle that’s made of magical fl ame, impossible to kill, and hunted for its healing plumage._
+**_Tier 3 Ranged._** _A huge eagle that’s made of magical flame, impossible to kill, and hunted for its healing plumage._
 
 - **Motives & Tactics:** Flee pursuers, live brilliantly, soar through the
 - **Difficulty:** 18 | **Thresholds:** 19/30 | **HP:** 6 | **Stress:** 6
@@ -11,4 +11,4 @@
 
 **_Purifying Aura:_** Any PC who takes an action within the Phoenix’s Melee range can spend a Hope to purify themself in its healing warmth, clearing a HP or a Stress and all conditions.
 
-**_Fireseed:_** The Phoenix bleeds magic fi re. When the Phoenix marks a HP, summon one Minor Fire Elemental within Very Close range. Resurrection - Evolution: When the Phoenix is defeated, it becomes a cloud of ash that blows away to reveal a Smoldering Egg. The Egg is immune to all damage and has a heat aura that deals 3d4 direct magic damage to anyone who touches it. The Egg hatches into a new Phoenix, with all HP and Stress cleared, in 7 days.
+**_Fireseed:_** The Phoenix bleeds magic fire. When the Phoenix marks a HP, summon one Minor Fire Elemental within Very Close range. Resurrection - Evolution: When the Phoenix is defeated, it becomes a cloud of ash that blows away to reveal a Smoldering Egg. The Egg is immune to all damage and has a heat aura that deals 3d4 direct magic damage to anyone who touches it. The Egg hatches into a new Phoenix, with all HP and Stress cleared, in 7 days.

@@ -13,4 +13,4 @@
 
 **_Devour:_** Make an attack against a target within Melee range. On a success, the Sandwyrm Swallows the target. While Swallowed, the target is Restrained and marks a HP when the Sandwyrm is spotlighted. The Sandwyrm disgorges all Swallowed creatures when it takes Major or greater damage.
 
-**_Hungry, Not Stupid:_** When the Sandwyrm marks half its HP or Swallows a creature, roll a d6. On a result of 3 or lower, the Sandwyrm retreats to safety. Daggerheart SRD 139
+**_Hungry, Not Stupid:_** When the Sandwyrm marks half its HP or Swallows a creature, roll a d6. On a result of 3 or lower, the Sandwyrm retreats to safety.

@@ -1,8 +1,8 @@
 # Jack-O’-Lantern
 
-**_Tier 2 Minion._** _A fl oating pumpkin or other gourd that has a face carved into it. The soul trapped within it emits an eerie glow._
+**_Tier 2 Minion._** _A floating pumpkin or other gourd that has a face carved into it. The soul trapped within it emits an eerie glow._
 
-- **Motives & Tactics:** Bite, fl oat, laugh, tell spooky stories
+- **Motives & Tactics:** Bite, float, laugh, tell spooky stories
 - **Difficulty:** 14 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
 - **ATK:** +2 | **Chomp:** Melee | 6 phy
 

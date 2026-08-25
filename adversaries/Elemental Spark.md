@@ -1,6 +1,6 @@
 # Elemental Spark
 
-**_Tier 3 Minion._** _A blazing mote of elemental fi re._
+**_Tier 3 Minion._** _A blazing mote of elemental fire._
 
 - **Motives & Tactics:** Blast, consume, gain mass
 - **Difficulty:** 15 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Minion ():_** The Elemental is defeated when they take any damage. For every 9 damage a PC deals to the Elemental, defeat an additional Minion within range the attack would succeed against.
+**_Minion (9):_** The Elemental is defeated when they take any damage. For every 9 damage a PC deals to the Elemental, defeat an additional Minion within range the attack would succeed against.
 
 **_Group Attack:_** Spend a Fear to choose a target and spotlight all Elemental Sparks within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage.

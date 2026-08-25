@@ -1,6 +1,6 @@
 # Demon Of Jealousy
 
-**_Tier 3 Ranged._** _A fi ckle creature of spindly limbs and insatiable desires._
+**_Tier 3 Ranged._** _A fickle creature of spindly limbs and insatiable desires._
 
 - **Motives & Tactics:** Join in on others’ success, take what belongs to
 - **Difficulty:** 17 | **Thresholds:** 17/30 | **HP:** 6 | **Stress:** 6

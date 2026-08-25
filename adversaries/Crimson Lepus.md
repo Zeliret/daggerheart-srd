@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** The Lepus can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.
 
-**_“Awww...”:_** When the Lepus fi rst appears, it is Too Cute. To attack a Too Cute creature, a PC must succeed on an Instinct Reaction Roll (20). Clear the Too Cute condition if a PC deals damage to the Lepus or if the Lepus attacks a PC.
+**_“Awww...”:_** When the Lepus first appears, it is Too Cute. To attack a Too Cute creature, a PC must succeed on an Instinct Reaction Roll (20). Clear the Too Cute condition if a PC deals damage to the Lepus or if the Lepus attacks a PC.
 
 **_Terrifying:_** When the Lepus makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.
 
@@ -19,4 +19,4 @@
 
 **_Evasive:_** When the Lepus would take damage, roll a d6. On a 4 or higher, halve the damage. If the damage was already halved, the Lepus takes no damage.
 
-**_“Run Away!”:_** When a PC with no Hope takes the spotlight within Very Far range of the Lepus, the PC must succeed on a Presence Reaction Roll or use their action to fl ee the battlefi eld until they spend a Hope to return. 132 Daggerheart SRD
+**_“Run Away!”:_** When a PC with no Hope takes the spotlight within Very Far range of the Lepus, the PC must succeed on a Presence Reaction Roll or use their action to flee the battlefi eld until they spend a Hope to return. 132 Daggerheart SRD

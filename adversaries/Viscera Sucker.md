@@ -1,6 +1,6 @@
 # Viscera Sucker
 
-**_Tier 3 Skulk._** _A vampiric demon whose upper body detaches at sundown to fl y through nearby villages in search of victims. It has a winged upper body with hanging entrails._
+**_Tier 3 Skulk._** _A vampiric demon whose upper body detaches at sundown to fly through nearby villages in search of victims. It has a winged upper body with hanging entrails._
 
 - **Motives & Tactics:** Clamp onto prey, suck blood, tear in half
 - **Difficulty:** 14 | **Thresholds:** 16/30 | **HP:** 5 | **Stress:** 3

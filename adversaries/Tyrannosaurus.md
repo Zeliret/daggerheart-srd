@@ -13,4 +13,4 @@
 
 **_Stomp:_** Mark a Stress to attack a target within Melee range. On a success, the target takes 3d12 direct physical damage.
 
-**_Crushing Bite:_** When the Tyrannosaurus makes a successful standard attack, you can spend a Fear to force the target to mark an additional HP. Daggerheart SRD 129
+**_Crushing Bite:_** When the Tyrannosaurus makes a successful standard attack, you can spend a Fear to force the target to mark an additional HP.

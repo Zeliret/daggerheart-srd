@@ -1,6 +1,6 @@
 # Giant Recruit
 
-**_Tier 2 Minion._** _A giant fi ghter wearing borrowed armor._
+**_Tier 2 Minion._** _A giant fighter wearing borrowed armor._
 
 - **Motives & Tactics:** Batter, make a living, overwhelm, terrify
 - **Difficulty:** 13 | **Thresholds:** None | **HP:** 1 | **Stress:** 2
@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Minion ():_** The Recruit is defeated when they take any damage. For every 7 damage a PC deals to the Recruit, defeat an additional Minion within range the attack would succeed against.
+**_Minion (7):_** The Recruit is defeated when they take any damage. For every 7 damage a PC deals to the Recruit, defeat an additional Minion within range the attack would succeed against.
 
 **_Group Attack:_** Spend a Fear to choose a target and spotlight all Giant Recruits within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage. 122 Daggerheart SRD

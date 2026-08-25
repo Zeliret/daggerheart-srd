@@ -2,13 +2,13 @@
 
 **_Tier 2 Horde._** _A group of trained archers bearing massive bows._
 
-- **Motives & Tactics:** Stick together, survive, volley fi re
+- **Motives & Tactics:** Stick together, survive, volley fire
 - **Difficulty:** 13 | **Thresholds:** 8/16 | **HP:** 4 | **Stress:** 3
 - **ATK:** +0 | **Longbow:** Far | 2d6+3 phy
 
 ### FEATURES
 
-**_Horde (1d+3):_** When the Squadron has marked half or more of their HP, their standard attack deals 1d6+3 physical damage instead.
+**_Horde (1d6+3):_** When the Squadron has marked half or more of their HP, their standard attack deals 1d6+3 physical damage instead.
 
 **_Focused Volley:_** Spend a Fear to target a point within Far range. Make an attack with advantage against all targets within Close range of that point. Targets the Squadron succeeds against take 1d10+4 physical damage.
 

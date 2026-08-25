@@ -1,8 +1,8 @@
 # Plesiosaurus
 
-**_Tier 3 Standard._** _A canoe-length marine lizard that has a long neck and four fl ippers._
+**_Tier 3 Standard._** _A canoe-length marine lizard that has a long neck and four flippers._
 
-- **Motives & Tactics:** Dive deeper, eat fi sh, swim peacefully
+- **Motives & Tactics:** Dive deeper, eat fish, swim peacefully
 - **Difficulty:** 16 | **Thresholds:** 18/35 | **HP:** 7 | **Stress:** 5
 - **ATK:** +2 | **Bite:** Very Close | 3d8+5 phy
 - **Experience:** Lochs +3

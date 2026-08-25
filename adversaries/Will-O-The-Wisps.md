@@ -1,6 +1,6 @@
 # Will-O’-The-Wisps
 
-**_Tier 1 Horde._** _Lazily fl oating orbs of color-shifting werelight._
+**_Tier 1 Horde._** _Lazily floating orbs of color-shifting werelight._
 
 - **Motives & Tactics:** Dazzle and distract, disorient, lead astray
 - **Difficulty:** 9 | **Thresholds:** 5/9 | **HP:** 4 | **Stress:** 2

@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** The Octopus can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.
 
-**_Armed and Dangerous:_** When the Octopus fi rst appears, place a d8 on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die’s value to the damage dealt. After you add its value to a roll, decrease the die’s value by 1.
+**_Armed and Dangerous:_** When the Octopus first appears, place a d8 on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die’s value to the damage dealt. After you add its value to a roll, decrease the die’s value by 1.
 
 **_Grapple:_** When the Octopus succeeds on a standard attack, you can spend a Fear to have the Octopus Grapple the target. While Grappled, the target is Restrained and Vulnerable until they break free with a successful Strength or Finesse Roll.
 

@@ -2,7 +2,7 @@
 
 **_Tier 2 Horde._** _Unnatural hounds lit from within by hellfi re._
 
-- **Motives & Tactics:** Cause fear, consume fl esh, please masters
+- **Motives & Tactics:** Cause fear, consume flesh, please masters
 - **Difficulty:** 15 | **Thresholds:** 11/23 | **HP:** 6 | **Stress:** 3
 - **ATK:** +0 | **Claws and Fangs:** Melee | 2d8+2 phy
 - **Experience:** Scent Tracking +3

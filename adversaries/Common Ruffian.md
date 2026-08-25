@@ -11,4 +11,4 @@
 
 **_Group Attack:_** Spend a Fear to choose a target and spotlight all Ruffi ans within Close range of them. The Ruffi ans move into Melee range of the target and make one shared attack roll. On a success, they deal 1d8 physical damage each. Combine this damage.
 
-**_Survival Instinct:_** When the Ruffi an marks half their HP, roll a d6. On a result of 4 or higher, the Ruffi an fl ees the scene. Otherwise, you gain a Fear. 98 Daggerheart SRD
+**_Survival Instinct:_** When the Ruffi an marks half their HP, roll a d6. On a result of 4 or higher, the Ruffi an flees the scene. Otherwise, you gain a Fear. 98 Daggerheart SRD

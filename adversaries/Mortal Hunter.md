@@ -1,6 +1,6 @@
 # Mortal Hunter
 
-**_Tier 2 Leader._** _An undead fi gure wearing a heavy leather coat, with searching eyes and a casually cruel demeanor._
+**_Tier 2 Leader._** _An undead figure wearing a heavy leather coat, with searching eyes and a casually cruel demeanor._
 
 - **Motives & Tactics:** Devour, hunt, track
 - **Difficulty:** 16 | **Thresholds:** 15/27 | **HP:** 6 | **Stress:** 4
@@ -15,4 +15,4 @@
 
 **_Inevitable Death:_** Mark a Stress to spotlight 1d4 allies. Attacks they make while spotlighted in this way deal half damage.
 
-**_Rampage:_** Countdown (Loop 1d6). When the Hunter is in the spotlight for the fi rst time, activate the countdown. When it triggers, move the Hunter in a straight line to a point within Far range and make an attack against all targets in their path. Targets the Hunter succeeds against take 2d8+2 physical damage.
+**_Rampage:_** Countdown (Loop 1d6). When the Hunter is in the spotlight for the first time, activate the countdown. When it triggers, move the Hunter in a straight line to a point within Far range and make an attack against all targets in their path. Targets the Hunter succeeds against take 2d8+2 physical damage.

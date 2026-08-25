@@ -17,7 +17,7 @@
 
 **_Overload:_** Before rolling damage for the Construct’s attack, you can mark a Stress to gain a +10 bonus to the damage roll. The Construct can then take the spotlight again.
 
-**_Death Quake:_** When the Construct marks their last HP, the magic powering them ruptures in an explosion of force. Make an attack with advantage against all targets within Very Close range. Targets the Construct succeeds against take 1d12+2 magic damage. COURTIER Tier  Social An ambitious and ostentatiously dressed socialite. Motives & Tactics: Discredit, gain favor, maneuver, scheme Diffi culty: 12 | Thresholds: 4/8 | HP: 3 | Stress: 4 ATK: −4 | Daggers: Melee | 1d4+2 phy Experience: Socialite +3 FEATURES
+**_Death Quake:_** When the Construct marks their last HP, the magic powering them ruptures in an explosion of force. Make an attack with advantage against all targets within Very Close range. Targets the Construct succeeds against take 1d12+2 magic damage. COURTIER Tier 1 Social An ambitious and ostentatiously dressed socialite. Motives & Tactics: Discredit, gain favor, maneuver, scheme Diffi culty: 12 | Thresholds: 4/8 | HP: 3 | Stress: 4 ATK: −4 | Daggers: Melee | 1d4+2 phy Experience: Socialite +3 FEATURES
 
 **_Mockery:_** Mark a Stress to say something mocking and force a target within Close range to make a Presence Reaction Roll (14) to see if they can save face. On a failure, the target must mark 2 Stress and is Vulnerable until the scene ends.
 

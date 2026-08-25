@@ -1,6 +1,6 @@
 # Sawtoothed Gillbeast
 
-**_Tier 1 Standard._** _A stocky fi sh creature that has rows of razor-sharp teeth._
+**_Tier 1 Standard._** _A stocky fish creature that has rows of razor-sharp teeth._
 
 - **Motives & Tactics:** Clamber ashore, hit and run, peek above the
 - **Difficulty:** 12 | **Thresholds:** 5/10 | **HP:** 4 | **Stress:** 2

@@ -1,6 +1,6 @@
 # Pirate Tough
 
-**_Tier 1 Bruiser._** _A thickly muscled and tattooed pirate with melon-sized fi sts._
+**_Tier 1 Bruiser._** _A thickly muscled and tattooed pirate with melon-sized fists._
 
 - **Motives & Tactics:** Plunder, raid, smash, terrorize
 - **Difficulty:** 13 | **Thresholds:** 8/15 | **HP:** 5 | **Stress:** 3

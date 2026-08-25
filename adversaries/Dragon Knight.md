@@ -13,4 +13,4 @@
 
 **_Leaping Strike:_** Mark a Stress to have the Knight leap into Melee range of a target within Far range and make a standard attack against them. On a success, the attack deals an extra 1d12 damage, and the target must mark an Armor Slot without receiving its benefi ts (they can still use armor to reduce the damage).
 
-**_Comeback:_** When the Knight fails a standard attack, you can spend a Fear to reroll the attack with advantage. Daggerheart SRD 117
+**_Comeback:_** When the Knight fails a standard attack, you can spend a Fear to reroll the attack with advantage.

@@ -1,8 +1,8 @@
 # Valdenhax
 
-**_Tier 2 Leader._** _A malevolent forest hag who has long, mossy hair and fl ies through the air with an oversized mortar and pestle._
+**_Tier 2 Leader._** _A malevolent forest hag who has long, mossy hair and flies through the air with an oversized mortar and pestle._
 
-- **Motives & Tactics:** Collect souls, fl y, vex trespassers
+- **Motives & Tactics:** Collect souls, fly, vex trespassers
 - **Difficulty:** 16 | **Thresholds:** 12/24 | **HP:** 6 | **Stress:** 4
 - **ATK:** +2 | **Giant Stone Pestle:** Melee | 2d8+2 phy
 - **Experience:** Witchcraft +3

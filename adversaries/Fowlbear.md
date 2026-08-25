@@ -2,7 +2,7 @@
 
 **_Tier 2 Bruiser._** _A grizzly bear with a feathery hide and the head of a giant goose._
 
-- **Motives & Tactics:** Drive prey into an ambush, fi ght to the death,
+- **Motives & Tactics:** Drive prey into an ambush, fight to the death,
 - **Difficulty:** 15 | **Thresholds:** 14/28 | **HP:** 7 | **Stress:** 4
 - **ATK:** +3 | **Goose Teeth & Bear Claws:** Very Close | 2d12+2 phy
 - **Experience:** Keen Senses +3, Ponds +3

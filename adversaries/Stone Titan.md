@@ -13,6 +13,6 @@
 
 **_Skillful Strike:_** Before the Titan makes an attack, you can mark a Stress and roll a d6. On a result of 3 or higher, the target’s Evasion is halved against this attack.
 
-**_Sunlight Sickness:_** When the Titan fi rst appears above ground, roll a d4. Mark a number of Stress equal to the result. The Titan gains a bonus to their attack and damage rolls equal to the number of Stress marked.
+**_Sunlight Sickness:_** When the Titan first appears above ground, roll a d4. Mark a number of Stress equal to the result. The Titan gains a bonus to their attack and damage rolls equal to the number of Stress marked.
 
 **_Hammer Smash:_** When a PC marks HP from the Titan’s standard attack, you can spend a Fear to force the target to mark an Armor Slot without gaining its benefi ts (they can still use armor to reduce the damage).

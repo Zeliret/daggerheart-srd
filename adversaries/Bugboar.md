@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Surprise!:_** If the Bugboar makes its fi rst attack in a scene before it’s marked HP or Stress, it has advantage on the attack and deals an extra 1d8 damage.
+**_Surprise!:_** If the Bugboar makes its first attack in a scene before it’s marked HP or Stress, it has advantage on the attack and deals an extra 1d8 damage.
 
 **_Brutal:_** When the Bugboar makes a successful standard attack, you can mark a Stress to deal an extra 1d6 damage.
 

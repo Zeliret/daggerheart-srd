@@ -11,4 +11,4 @@
 
 **_Horde (1d4+1):_** When the Warband has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead.
 
-**_Cowardly:_** When the Warband marks its last Stress or an allied Leader is defeated, roll a d6. On a result of 2 or lower, the Warband fl ees the scene.
+**_Cowardly:_** When the Warband marks its last Stress or an allied Leader is defeated, roll a d6. On a result of 2 or lower, the Warband flees the scene.

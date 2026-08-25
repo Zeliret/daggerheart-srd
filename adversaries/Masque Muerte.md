@@ -17,4 +17,4 @@
 
 **_Unmasking Death:_** Spend a Fear to have the Masque Muerte momentarily remove their mask, revealing their horrifying face underneath. Each PC within Close range must succeed on a Presence Reaction Roll or mark a Stress.
 
-**_Tag Team:_** When the Masque Muerte deals damage to a PC, you can spend a Fear to have a spectral wrestler appear and Pin the target until they escape with a successful Strength Roll. While Pinned, the target is Restrained and takes an extra 1d12 magic damage from the Masque Muerte’s attacks. Daggerheart SRD 103
+**_Tag Team:_** When the Masque Muerte deals damage to a PC, you can spend a Fear to have a spectral wrestler appear and Pin the target until they escape with a successful Strength Roll. While Pinned, the target is Restrained and takes an extra 1d12 magic damage from the Masque Muerte’s attacks.

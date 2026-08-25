@@ -1,6 +1,6 @@
 # Spectral Archer
 
-**_Tier 2 Ranged._** _A ghostly fi ghter with an ethereal bow, unable to move on while their charge is vulnerable._
+**_Tier 2 Ranged._** _A ghostly fighter with an ethereal bow, unable to move on while their charge is vulnerable._
 
 - **Motives & Tactics:** Move through solid objects, stay out of the
 - **Difficulty:** 13 | **Thresholds:** 6/14 | **HP:** 3 | **Stress:** 3

@@ -11,7 +11,7 @@
 
 **_Relentless (2):_** The Warlord can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Colossus Crafter:_** Countdown (). When the Warlord enters the scene, activate the countdown. It ticks down when the Warlord is spotlighted. When it triggers, summon the Gargantuan War Machine, which appears at the edge of the battlefi eld and immediately takes the spotlight.
+**_Colossus Crafter:_** Countdown (6). When the Warlord enters the scene, activate the countdown. It ticks down when the Warlord is spotlighted. When it triggers, summon the Gargantuan War Machine, which appears at the edge of the battlefi eld and immediately takes the spotlight.
 
 **_Release the Hounds:_** Spend a Fear to have the Warlord summon two Demonic Hound Packs, which appear at Close range and immediately take the spotlight.
 

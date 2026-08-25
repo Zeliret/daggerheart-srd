@@ -1,6 +1,6 @@
 # Cipactli
 
-**_Tier 4 Solo._** _A gargantuan crocodile that has a body covered in a patchwork of fi sh scales, toad skin, and dozens of hungry mouths._
+**_Tier 4 Solo._** _A gargantuan crocodile that has a body covered in a patchwork of fish scales, toad skin, and dozens of hungry mouths._
 
 - **Motives & Tactics:** Consume, reshape the land, trample
 - **Difficulty:** 20 | **Thresholds:** 35/60 | **HP:** 8 | **Stress:** 5

@@ -1,6 +1,6 @@
 # Wyvern
 
-**_Tier 3 Standard._** _A two-legged dragon that fl ies from its mountaintop aerie to devour livestock._
+**_Tier 3 Standard._** _A two-legged dragon that flies from its mountaintop aerie to devour livestock._
 
 - **Motives & Tactics:** Cast a long shadow, snatch and grab, wheel
 - **Difficulty:** 16 | **Thresholds:** 18/35 | **HP:** 7 | **Stress:** 5

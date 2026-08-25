@@ -1,6 +1,6 @@
 # Severed Shadow
 
-**_Tier 4 Minion._** _A two-dimensional living shadow bound to fl at planes and surfaces._
+**_Tier 4 Minion._** _A two-dimensional living shadow bound to flat planes and surfaces._
 
 - **Motives & Tactics:** Curse the light, slip between the cracks, split
 - **Difficulty:** 19 | **Thresholds:** None | **HP:** 1 | **Stress:** 2

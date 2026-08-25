@@ -1,6 +1,6 @@
 # Hive Walker
 
-**_Tier 2 Standard._** _A corpse fi lled with and puppeted by a colony of carrion-eating bees._
+**_Tier 2 Standard._** _A corpse filled with and puppeted by a colony of carrion-eating bees._
 
 - **Motives & Tactics:** Encase prey in honey, protect the hive
 - **Difficulty:** 12 | **Thresholds:** 11/24 | **HP:** 3 | **Stress:** 3

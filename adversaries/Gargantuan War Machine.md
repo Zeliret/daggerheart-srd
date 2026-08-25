@@ -1,6 +1,6 @@
 # Gargantuan War Machine
 
-**_Tier 4 Solo._** _A 100-foot-tall adamantine construct that has gemstone eyes, powered by a chest crucible of elemental fl ame._
+**_Tier 4 Solo._** _A 100-foot-tall adamantine construct that has gemstone eyes, powered by a chest crucible of elemental flame._
 
 - **Motives & Tactics:** Crush, destroy
 - **Difficulty:** 20 | **Thresholds:** 48/88 | **HP:** 10 | **Stress:** 6
@@ -17,4 +17,4 @@
 
 **_Ground-Breaking Stomp:_** Spend a Fear to choose a point within Close range and make an attack roll against all enemies within Close range of that point. Targets the attack succeeds against take 4d12 direct physical damage and are Vulnerable until they are spotlighted. Additionally, the entire area becomes rubble, and a PC must succeed on an Agility Reaction Roll (16) to move through it.
 
-**_Supercharged:_** Countdown (Loop 2d6). When the Machine is spotlighted for the fi rst time, activate the countdown. It ticks down each time the Machine is spotlighted. When it triggers, place a token on this stat block as the Machine’s chest crucible fl ares with magical fl ame. For each token on this stat block, the Machine gains a +1 bonus to Diffi culty and attack rolls, and its standard attack deals an extra 1d12 damage. Remove a token when the Machine takes Severe damage. 150 Daggerheart SRD
+**_Supercharged:_** Countdown (Loop 2d6). When the Machine is spotlighted for the first time, activate the countdown. It ticks down each time the Machine is spotlighted. When it triggers, place a token on this stat block as the Machine’s chest crucible flares with magical flame. For each token on this stat block, the Machine gains a +1 bonus to Diffi culty and attack rolls, and its standard attack deals an extra 1d12 damage. Remove a token when the Machine takes Severe damage. 150 Daggerheart SRD

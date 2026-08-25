@@ -1,6 +1,6 @@
 # Red Ooze
 
-**_Tier 1 Skulk._** _A moving mound of translucent fl aming red slime._
+**_Tier 1 Skulk._** _A moving mound of translucent flaming red slime._
 
 - **Motives & Tactics:** Camoufl age, consume and multiply, ignite,
 - **Difficulty:** 10 | **Thresholds:** 6/11 | **HP:** 5 | **Stress:** 3
@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Creeping Fire:_** The Ooze can only move within Very Close range as their normal movement. They light any fl ammable object they touch on fi re.
+**_Creeping Fire:_** The Ooze can only move within Very Close range as their normal movement. They light any flammable object they touch on fire.
 
 **_Ignite:_** Make an attack against a target within Very Close range. On a success, the target takes 1d8 magic damage and is Ignited until they’re extinguished with a successful Finesse Roll (14). While Ignited, the target takes 1d4 magic damage when they make an action roll.
 

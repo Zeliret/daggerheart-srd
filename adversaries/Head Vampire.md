@@ -1,8 +1,8 @@
 # Head Vampire
 
-**_Tier 3 Leader._** _A captivating undead dressed in aristocratic fi nery._
+**_Tier 3 Leader._** _A captivating undead dressed in aristocratic finery._
 
-- **Motives & Tactics:** Create thralls, charm, command, fl y, intimidate
+- **Motives & Tactics:** Create thralls, charm, command, fly, intimidate
 - **Difficulty:** 17 | **Thresholds:** 22/42 | **HP:** 6 | **Stress:** 6
 - **ATK:** +5 | **Rapier:** Melee | 2d20+4 phy
 - **Experience:** Aristocrat +3
@@ -17,4 +17,4 @@
 
 **_The Hunt Is On:_** Spend 2 Fear to summon 1d4 Vampires, who appear at Far range and immediately take the spotlight.
 
-**_Lifesuck:_** When the Vampire is spotlighted, roll a d8. On a result of 6 or higher, all targets within Very Close range must mark a HP. Daggerheart SRD 141
+**_Lifesuck:_** When the Vampire is spotlighted, roll a d8. On a result of 6 or higher, all targets within Very Close range must mark a HP.

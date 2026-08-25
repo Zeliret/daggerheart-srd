@@ -11,10 +11,10 @@
 
 **_Relentless (2):_** The Enforcer can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Time Looper:_** Countdown (Loop 2d6). When the Enforcer fi rst appears, activate the countdown. It ticks down when the Enforcer is spotlighted. When it triggers, the Enforcer clears all HP, Stress, and conditions. Reroll the countdown when the Enforcer takes Severe damage.
+**_Time Looper:_** Countdown (Loop 2d6). When the Enforcer first appears, activate the countdown. It ticks down when the Enforcer is spotlighted. When it triggers, the Enforcer clears all HP, Stress, and conditions. Reroll the countdown when the Enforcer takes Severe damage.
 
 **_Move Between Moments:_** Mark a Stress to have the Enforcer teleport to a point within Very Far range, then spotlight them again.
 
 **_Instant Rewind:_** When the Enforcer fails an attack, you can spend a Fear to reroll the die.
 
-**_Invert Polarity:_** Up to three times per scene, you can spend a Fear to fl ip any die rolled onto its obverse result. This eff ect can’t be used to alter a critical success. VOLCANIC DRAGON:
+**_Invert Polarity:_** Up to three times per scene, you can spend a Fear to flip any die rolled onto its obverse result. This eff ect can’t be used to alter a critical success. VOLCANIC DRAGON:

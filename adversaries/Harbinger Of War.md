@@ -2,7 +2,7 @@
 
 **_Tier 4 Bruiser._** _A warrior clad in black armor and a horned helmet and bearing a bloody banner._
 
-- **Motives & Tactics:** Destroy utterly, fi ght honorably, relish combat,
+- **Motives & Tactics:** Destroy utterly, fight honorably, relish combat,
 - **Difficulty:** 21 | **Thresholds:** 40/70 | **HP:** 9 | **Stress:** 4
 - **ATK:** +5 | **Battle Axe:** Very Close | 4d20 phy
 - **Experience:** Heavy Armor +3

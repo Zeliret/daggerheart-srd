@@ -1,6 +1,6 @@
 # Siren
 
-**_Tier 2 Skulk._** _A half-fi sh person with shimmering scales and an irresistible voice._
+**_Tier 2 Skulk._** _A half-fish person with shimmering scales and an irresistible voice._
 
 - **Motives & Tactics:** Consume, lure prey, subdue with song
 - **Difficulty:** 14 | **Thresholds:** 9/18 | **HP:** 5 | **Stress:** 3

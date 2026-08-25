@@ -17,4 +17,4 @@
 
 **_Splutch!:_** When a PC within Melee range of the Creation makes a weapon attack against it, roll a d6. On a 5 or higher, the attacker’s weapon gets stuck in the Creation and can be removed only with a successful Strength Roll (15).
 
-**_Smothering Grapple:_** When the Creation makes a successful standard attack against a target within Melee range, you can spend a Fear to Trap the target inside the Creation’s wax body. While Trapped, the target is Restrained and must mark a Stress and move with the Creation each time it’s spotlighted. A Trapped creature is freed when the Creation takes Major or greater damage. Daggerheart SRD 111
+**_Smothering Grapple:_** When the Creation makes a successful standard attack against a target within Melee range, you can spend a Fear to Trap the target inside the Creation’s wax body. While Trapped, the target is Restrained and must mark a Stress and move with the Creation each time it’s spotlighted. A Trapped creature is freed when the Creation takes Major or greater damage.

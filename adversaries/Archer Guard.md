@@ -1,6 +1,6 @@
 # Archer Guard
 
-**_Tier 1 Ranged._** _A tall guard bearing a longbow and quiver with arrows fl etched in the settlement’s colors._
+**_Tier 1 Ranged._** _A tall guard bearing a longbow and quiver with arrows fletched in the settlement’s colors._
 
 - **Motives & Tactics:** Arrest, close gates, make it through the day,
 - **Difficulty:** 10 | **Thresholds:** 4/8 | **HP:** 3 | **Stress:** 2

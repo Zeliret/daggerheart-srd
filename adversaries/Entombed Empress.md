@@ -11,7 +11,7 @@
 
 **_Empty Husk:_** The Empress has resistance to physical damage.
 
-**_Missing Organs:_** The Empress’s internal organs have been removed and placed into six crystal containers hidden throughout her tomb. Each time the PCs fi nd and destroy one, the Empress marks a HP.
+**_Missing Organs:_** The Empress’s internal organs have been removed and placed into six crystal containers hidden throughout her tomb. Each time the PCs find and destroy one, the Empress marks a HP.
 
 **_Grasping Chains:_** Mark a Stress to have the Empress target a creature within Close range and try to telekinetically bind them with her funeral chains. Make an attack against a target within Close range. On a success, the Empress pulls the target into Melee range, deals 2d8 physical damage, and temporarily Restrains them.
 

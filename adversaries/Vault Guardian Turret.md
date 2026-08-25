@@ -2,7 +2,7 @@
 
 **_Tier 3 Ranged._** _A massive living turret with reinforced armor and twelve piston- driven mechanical legs._
 
-- **Motives & Tactics:** Concentrate fi re, lock down, mark, protect
+- **Motives & Tactics:** Concentrate fire, lock down, mark, protect
 - **Difficulty:** 16 | **Thresholds:** 20/32 | **HP:** 5 | **Stress:** 4
 - **ATK:** +3 | **Magitech Cannon:** Far | 3d10+3 mag
 

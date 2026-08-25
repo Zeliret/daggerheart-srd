@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** The Vampire Lord can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Midnight Heart:_** Long-Term Countdown (6). The Vampire Lord keeps their heart hidden in a safe place. If it’s destroyed, the Vampire Lord dies. Otherwise, when the Vampire Lord is defeated, activate the countdown. It ticks down each time the PCs fi nish a long rest. When it triggers, the Vampire Lord revives within Close range of the heart with all HP and Stress cleared.
+**_Midnight Heart:_** Long-Term Countdown (6). The Vampire Lord keeps their heart hidden in a safe place. If it’s destroyed, the Vampire Lord dies. Otherwise, when the Vampire Lord is defeated, activate the countdown. It ticks down each time the PCs finish a long rest. When it triggers, the Vampire Lord revives within Close range of the heart with all HP and Stress cleared.
 
 **_Terrifying:_** When the Vampire Lord makes a successful attack roll, all PCs within Close range lose a Hope, and you gain a Fear.
 
@@ -21,4 +21,4 @@
 
 **_Melt into Shadow:_** When a PC would deal damage to the Vampire Lord, you can spend a Fear to roll a d6. On a result of 5 or higher, negate the damage, then teleport the Vampire Lord to a point within Far range. Hellwing - Evolution: When the Vampire Lord marks half their HP, they transform into the Hellwing: a towering, demonic bat creature. They gain the “On Crimson Wings” and “Bloodbath” features and replace their standard attack with the following standard attack: Claws: Close | 3d12+6 phy
 
-**_On Crimson Wings:_** While fl ying, the Hellwing gains a +1 bonus to their Diffi culty.
+**_On Crimson Wings:_** While flying, the Hellwing gains a +1 bonus to their Diffi culty.

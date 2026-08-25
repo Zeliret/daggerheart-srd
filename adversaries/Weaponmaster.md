@@ -2,7 +2,7 @@
 
 **_Tier 1 Bruiser._** _A master-at-arms wielding a sword twice their size._
 
-- **Motives & Tactics:** Act fi rst, aim for the weakest, intimidate
+- **Motives & Tactics:** Act first, aim for the weakest, intimidate
 - **Difficulty:** 14 | **Thresholds:** 8/15 | **HP:** 6 | **Stress:** 3
 - **ATK:** +2 | **Claymore:** Very Close | 1d12+2 phy
 

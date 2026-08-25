@@ -1,6 +1,6 @@
 # Archmage
 
-**_Tier 3 Solo._** _A seeker of secret knowledge hidden away in a tome-fi lled tower._
+**_Tier 3 Solo._** _A seeker of secret knowledge hidden away in a tome-filled tower._
 
 - **Motives & Tactics:** Corrupt, destroy, overwhelm with evil power
 - **Difficulty:** 18 | **Thresholds:** 24/45 | **HP:** 5 | **Stress:** 8
@@ -17,7 +17,7 @@
 
 **_Fireball:_** Mark any number of Stress to target the same number of PCs within Far range. Each target must succeed on an Agility Reaction Roll or take 4d10 magic damage.
 
-**_Counterspell:_** When a PC succeeds on a Spellcast Roll, you can spend a Fear to have the Archmage make a reaction roll with a Diffi culty equal to the Spellcast Roll’s result. On a success, the PC’s Spellcast Roll fails instead, and you place a token on this stat block. Using this feature again costs additional Fear equal to the number of tokens on this stat block. You can’t Counterspell a critical success. CATRIN Tier  Social A lavishly adorned skeleton that has an endless appetite for gold. Motives & Tactics: Dominate the conversation, seek attention, steal everything Diffi culty: 17 | Thresholds: 20/32 | HP: 5 | Stress: 6 ATK: +3 | Spirit Flame: Far | 3d8+5 mag Experience: Opulence +2, Storyteller +2 FEATURES
+**_Counterspell:_** When a PC succeeds on a Spellcast Roll, you can spend a Fear to have the Archmage make a reaction roll with a Diffi culty equal to the Spellcast Roll’s result. On a success, the PC’s Spellcast Roll fails instead, and you place a token on this stat block. Using this feature again costs additional Fear equal to the number of tokens on this stat block. You can’t Counterspell a critical success. CATRIN Tier 3 Social A lavishly adorned skeleton that has an endless appetite for gold. Motives & Tactics: Dominate the conversation, seek attention, steal everything Diffi culty: 17 | Thresholds: 20/32 | HP: 5 | Stress: 6 ATK: +3 | Spirit Flame: Far | 3d8+5 mag Experience: Opulence +2, Storyteller +2 FEATURES
 
 **_Attracted to Wealth:_** PCs carrying at least a bag of gold gain advantage on Presence Rolls made to infl uence the Catrin.
 

@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Just a Tree:_** Before they make their fi rst attack in a fi ght or after they become Hidden, the Treant is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them.
+**_Just a Tree:_** Before they make their first attack in a fight or after they become Hidden, the Treant is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them.
 
 **_Seed Barrage:_** Mark a Stress and make an attack against up to three targets within Close range, pummeling them with giant acorns. Targets the Treant succeeds against take 2d10+5 physical damage.
 

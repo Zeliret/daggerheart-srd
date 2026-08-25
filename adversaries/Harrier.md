@@ -1,6 +1,6 @@
 # Harrier
 
-**_Tier 1 Standard._** _A nimble fi ghter armed with javelins._
+**_Tier 1 Standard._** _A nimble fighter armed with javelins._
 
 - **Motives & Tactics:** Flank, harry, kite, profi t
 - **Difficulty:** 12 | **Thresholds:** 5/9 | **HP:** 3 | **Stress:** 3

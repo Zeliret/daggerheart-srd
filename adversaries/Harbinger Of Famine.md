@@ -1,6 +1,6 @@
 # Harbinger Of Famine
 
-**_Tier 4 Support._** _A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming fl ies._
+**_Tier 4 Support._** _A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming flies._
 
 - **Motives & Tactics:** Drain, impoverish, weaken, wither
 - **Difficulty:** 18 | **Thresholds:** 26/42 | **HP:** 6 | **Stress:** 5
@@ -19,4 +19,4 @@
 
 **_Too Many Mouths:_** Mark a Stress to attack a PC within Melee range. On a success, the Harbinger grabs the target and bites them, dealing 4d6 physical damage and Restraining the target until they break free with a successful Strength Roll.
 
-**_Withering Touch:_** Spend a Fear to have the Harbinger caress the face of a Restrained PC within Melee range. The target marks 2 Stress and either loses a Hope or marks 1d4 HP. Daggerheart SRD 151
+**_Withering Touch:_** Spend a Fear to have the Harbinger caress the face of a Restrained PC within Melee range. The target marks 2 Stress and either loses a Hope or marks 1d4 HP.

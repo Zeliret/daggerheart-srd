@@ -1,6 +1,6 @@
 # Harpy
 
-**_Tier 1 Skulk._** _A fi erce and foul-smelling bird with an eight-foot wingspan and the upper body and face of a human._
+**_Tier 1 Skulk._** _A fierce and foul-smelling bird with an eight-foot wingspan and the upper body and face of a human._
 
 - **Motives & Tactics:** Defend nest, drop enemies from a great
 - **Difficulty:** 12 | **Thresholds:** 3/7 | **HP:** 3 | **Stress:** 3

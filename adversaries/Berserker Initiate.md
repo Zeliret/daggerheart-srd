@@ -11,4 +11,4 @@
 
 **_Pack Fury:_** The Initiate gains a +1 bonus to their attack rolls for each ally within Very Close range of their attack’s target.
 
-**_Berserker Rage:_** The fi rst time in a scene the Initiate marks their last Stress, they gain a +4 bonus to damage rolls.
+**_Berserker Rage:_** The first time in a scene the Initiate marks their last Stress, they gain a +4 bonus to damage rolls.

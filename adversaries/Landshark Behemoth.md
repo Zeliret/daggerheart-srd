@@ -15,4 +15,4 @@
 
 **_Steel-Skinned:_** All damage dealt to the Behemoth is reduced by one threshold.
 
-**_Forceful Eruption:_** The Behemoth erupts from the ground, forcing each PC within Very Close range to succeed on an Agility Reaction Roll or be knocked over, becoming Vulnerable until they make an action roll. For each PC made Vulnerable in this way, you gain a Fear. Daggerheart SRD 125
+**_Forceful Eruption:_** The Behemoth erupts from the ground, forcing each PC within Very Close range to succeed on an Agility Reaction Roll or be knocked over, becoming Vulnerable until they make an action roll. For each PC made Vulnerable in this way, you gain a Fear.

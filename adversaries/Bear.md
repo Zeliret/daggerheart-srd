@@ -13,4 +13,4 @@
 
 **_Bite:_** Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 physical damage and the target is Restrained until they break free with a successful Strength Roll.
 
-**_Momentum:_** When the Bear makes a successful attack against a PC, you gain a Fear. Daggerheart SRD 97
+**_Momentum:_** When the Bear makes a successful attack against a PC, you gain a Fear.

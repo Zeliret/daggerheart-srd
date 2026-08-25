@@ -17,8 +17,8 @@
 
 **_Endless Legions:_** Spend a Fear to summon a number of Fallen Shock Troops equal to twice the number of PCs. The Shock Troops appear at Far range.
 
-**_Circle of Defi lement:_** Countdown (1d8). When the Undefeated Champion is in the spotlight for the fi rst time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion.
+**_Circle of Defi lement:_** Countdown (1d8). When the Undefeated Champion is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion.
 
 **_Momentum:_** When the Undefeated Champion makes a successful attack against a PC, you gain a Fear.
 
-**_Doombringer:_** When a target marks HP from an attack by the Undefeated Champion, all PCs within Far range of the target lose a Hope. Daggerheart SRD 149
+**_Doombringer:_** When a target marks HP from an attack by the Undefeated Champion, all PCs within Far range of the target lose a Hope.

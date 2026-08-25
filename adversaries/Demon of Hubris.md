@@ -17,4 +17,4 @@
 
 **_The Root of Villainy:_** Spend a Fear to spotlight two other Demons within Far range.
 
-**_You Pale in Comparison:_** When a PC fails a roll within Close range of the Demon, they must mark a Stress. Daggerheart SRD 133
+**_You Pale in Comparison:_** When a PC fails a roll within Close range of the Demon, they must mark a Stress.

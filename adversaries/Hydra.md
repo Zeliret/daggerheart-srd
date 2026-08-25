@@ -1,6 +1,6 @@
 # Hydra
 
-**_Tier 3 Solo._** _A quadrupedal scaled beast with multiple long-necked heads, each fi lled with menacing fangs._
+**_Tier 3 Solo._** _A quadrupedal scaled beast with multiple long-necked heads, each filled with menacing fangs._
 
 - **Motives & Tactics:** Devour, regenerate, terrify
 - **Difficulty:** 18 | **Thresholds:** 19/35 | **HP:** 10 | **Stress:** 5
@@ -8,7 +8,7 @@
 
 ### FEATURES
 
-**_Many-Headed Menace:_** The Hydra begins with three heads and can have up to fi ve. When the Hydra takes Major or greater damage, they lose a head.
+**_Many-Headed Menace:_** The Hydra begins with three heads and can have up to five. When the Hydra takes Major or greater damage, they lose a head.
 
 **_Relentless (X):_** The Hydra can be spotlighted X times per GM turn, where X is the Hydra’s number of heads. Spend Fear as usual to spotlight them.
 

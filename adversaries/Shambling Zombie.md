@@ -2,7 +2,7 @@
 
 **_Tier 1 Standard._** _An animated corpse that moves shakily, driven only by hunger._
 
-- **Motives & Tactics:** Devour, hungry, mob enemy, shred fl esh
+- **Motives & Tactics:** Devour, hungry, mob enemy, shred flesh
 - **Difficulty:** 10 | **Thresholds:** 4/6 | **HP:** 4 | **Stress:** 1
 - **ATK:** +0 | **Bite:** Melee | 1d6+1 phy
 

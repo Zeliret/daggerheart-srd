@@ -15,4 +15,4 @@
 
 **_Trample:_** Spend a Fear to have the Warden gallop up to Far range in a straight line. Each target in their path must make an Agility Reaction Roll. Targets who succeed take 1d6+2 physical damage. Targets who fail take double damage and must mark a Stress.
 
-**_Quick Volley:_** When the Warden makes a standard attack, you can mark any number of Stress to target an equal number of additional creatures within range. Daggerheart SRD 115
+**_Quick Volley:_** When the Warden makes a standard attack, you can mark any number of Stress to target an equal number of additional creatures within range.

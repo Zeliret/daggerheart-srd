@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Segmented:_** The Water Mother’s body is divided into three segments: Head, Center, and Tail. The Water Mother always moves from the Head fi rst, pulling the Center and then Tail behind it. A creature can target the Water Mother with an attack as long as at least one of her segments is within range, but the Water Mother can make a standard attack only against a target within range of her Head. If an attack deals damage to the Water Mother and her Head is within range, the attack deals an extra 1d10 damage.
+**_Segmented:_** The Water Mother’s body is divided into three segments: Head, Center, and Tail. The Water Mother always moves from the Head first, pulling the Center and then Tail behind it. A creature can target the Water Mother with an attack as long as at least one of her segments is within range, but the Water Mother can make a standard attack only against a target within range of her Head. If an attack deals damage to the Water Mother and her Head is within range, the attack deals an extra 1d10 damage.
 
 **_Eat the World:_** Spend a Fear to have the Water Mother inhale sharply. Each PC within Close range of her Head must succeed on a Strength Reaction Roll or mark a Stress and be pulled within Melee range of the Head. The Water Mother then makes a standard attack against all targets within Melee range of her Head.
 

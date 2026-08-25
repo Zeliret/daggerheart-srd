@@ -1,6 +1,6 @@
 # Minotaur Wrecker
 
-**_Tier 2 Bruiser._** _A massive bull-headed fi rbolg with a quick temper._
+**_Tier 2 Bruiser._** _A massive bull-headed firbolg with a quick temper._
 
 - **Motives & Tactics:** Consume, gore, navigate, overpower, pursue
 - **Difficulty:** 16 | **Thresholds:** 14/27 | **HP:** 7 | **Stress:** 5

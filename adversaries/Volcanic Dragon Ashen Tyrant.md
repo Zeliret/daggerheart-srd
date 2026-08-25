@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _No enemy has ever had the insolence to wound the dragon so. As the lava settles, it’s ground to ash like the dragon’s past foes._
 
-- **Motives & Tactics:** Choke, fl y, intimidate, kill or be killed
+- **Motives & Tactics:** Choke, fly, intimidate, kill or be killed
 - **Difficulty:** 18 | **Thresholds:** 29/55 | **HP:** 8 | **Stress:** 5
 - **ATK:** +10 | **Claws and Teeth:** Close | 4d12+15 phy
 - **Experience:** Hunt from Above +5
@@ -13,7 +13,7 @@
 
 **_Cornered:_** Mark a Stress instead of spending a Fear to spotlight the Ashen Tyrant.
 
-**_Injured Wings:_** While fl ying, the Ashen Tyrant gains a +1 bonus to their Diffi culty.
+**_Injured Wings:_** While flying, the Ashen Tyrant gains a +1 bonus to their Diffi culty.
 
 **_Ashes to Ashes:_** When a PC rolls a failure while within Close range of the Ashen Tyrant, they lose a Hope and you gain a Fear. If the PC can’t lose a Hope, they must mark a HP.
 

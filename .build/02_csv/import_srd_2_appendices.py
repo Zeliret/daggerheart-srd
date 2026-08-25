@@ -20,7 +20,19 @@ CSV = ROOT / ".build/02_csv"
 
 
 def compact(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
+    # The PDF embeds the digits used in adversary Horde values in a private-use
+    # font.  Translate them before serialising so the CSV/JSON/Markdown layers
+    # retain ordinary machine-readable dice notation.
+    glyph_digits = str.maketrans({
+        "\ue53f": "0", "\ue541": "1", "\ue542": "2", "\ue543": "3",
+        "\ue544": "4", "\ue545": "5", "\ue546": "6", "\ue547": "7",
+        "\ue548": "8", "\ue549": "9",
+    })
+    text = (text or "").translate(glyph_digits)
+    text = re.sub(r"\s+", " ", text).strip()
+    # Some ligatures are emitted by the PDF as a partial word followed by a
+    # space (for example, "fl esh").
+    return re.sub(r"\b(fi|fl)\s+([a-z])", r"\1\2", text)
 
 
 def adversary_name(text: str) -> str:
@@ -97,6 +109,10 @@ def adversaries(pdf) -> list[dict[str, str]]:
             starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged|Horde|Support)(?: \([^\n]*\))?\n", text))
             for i, match in enumerate(starts):
                 block = text[match.start(): starts[i + 1].start() if i + 1 < len(starts) else len(text)]
+                # The final stat block shares its half-page with the start of
+                # the environment appendix.  Do not allow that prose into its
+                # final feature.
+                block = re.split(r"\n(?:USING ENVIRONMENTS|Daggerheart SRD|DESCRIPTION|dversaries, such as)\b", block, maxsplit=1)[0]
                 stat = re.search(r"Diffi\s*culty:\s*([^|]+)\|\s*Thresholds:\s*([^|]+)\|\s*HP:\s*([^|]+)\|\s*Stress:\s*([^\n]+)", block)
                 attack = re.search(r"ATK:\s*([^|]+)\|\s*([^:]+):\s*([^|]+)\|\s*([^\n]+)", block)
                 motive = re.search(r"Motives\s*& Tactics:\s*(.+)", block)

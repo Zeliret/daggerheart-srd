@@ -1,5 +1,8 @@
 # {{ .name }}
 
+{{- if not .items }}
+{{ sourceMarkdown .description }}
+{{- else }}
 {{ .description }}
 
 ---
@@ -79,3 +82,4 @@ _Ask your fellow players one of the following questions for their character to a
 
 - {{ .question }}
   {{- end }}
+{{- end }}

@@ -6,6 +6,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"text/template"
@@ -32,6 +33,7 @@ func main() {
 		"abilityLink":      abilityLink,
 		"optionAt":         optionAt,
 		"add1":             add1,
+		"sourceMarkdown":   sourceMarkdown,
 	}
 
 	var beastforms []map[string]any
@@ -89,6 +91,58 @@ func main() {
 	if err := generateSRD(srdBasePath, srdPath, jsonDir); err != nil {
 		fmt.Printf("Error generating %s: %v\n", srdPath, err)
 	}
+}
+
+var sourceArtifact = regexp.MustCompile(`^(?:[0-9]+|Daggerheart SRD|<!-- PDF page [0-9]+ -->)$`)
+var sourceAllCaps = regexp.MustCompile(`^[A-Z0-9][A-Z0-9 '’&–—-]+$`)
+var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT POINTS|CLASS ITEMS)\s+–\s+(.+)$`)
+var sourceFeature = regexp.MustCompile(`^([A-Z][^:]{1,59}):\s+(.+)$`)
+
+// sourceMarkdown turns the clean text extracted from the two-column SRD PDF
+// into readable Markdown. SRD 2.0 additions that do not yet have every legacy
+// CSV field parsed use this path, avoiding empty template placeholders.
+func sourceMarkdown(source string) string {
+	var out, paragraph []string
+	flush := func() {
+		if len(paragraph) > 0 {
+			out = append(out, strings.Join(paragraph, " "), "")
+			paragraph = nil
+		}
+	}
+	for _, raw := range strings.Split(source, "\n") {
+		line := strings.TrimSpace(raw)
+		if line == "" || sourceArtifact.MatchString(line) {
+			flush()
+			continue
+		}
+		if strings.HasPrefix(line, "•") {
+			flush()
+			out = append(out, "- "+strings.TrimSpace(strings.TrimPrefix(line, "•")))
+			continue
+		}
+		if match := sourceMetadata.FindStringSubmatch(line); match != nil {
+			flush()
+			out = append(out, fmt.Sprintf("- **%s —** %s", match[1], match[2]), "")
+			continue
+		}
+		if sourceAllCaps.MatchString(line) {
+			flush()
+			// The first line is the record title, which is already the document H1.
+			if len(out) == 0 {
+				continue
+			}
+			out = append(out, "### "+line, "")
+			continue
+		}
+		if match := sourceFeature.FindStringSubmatch(line); match != nil {
+			flush()
+			paragraph = append(paragraph, fmt.Sprintf("**_%s:_** %s", match[1], match[2]))
+			continue
+		}
+		paragraph = append(paragraph, line)
+	}
+	flush()
+	return strings.TrimSpace(normalizeMarkdown(strings.Join(out, "\n")))
 }
 
 func loadJSON(path string) ([]map[string]any, error) {

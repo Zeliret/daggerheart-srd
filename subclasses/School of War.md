@@ -1,5 +1,4 @@
 # School of War
-
 Play the School of War if you want to utilize trained magic for violence.
 
 ### SPELLCAST TRAIT

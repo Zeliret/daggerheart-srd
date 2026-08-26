@@ -482,12 +482,44 @@ func refreshReadmeIndexes(path, jsonDir string) error {
 	if err != nil {
 		return err
 	}
+	weapons, err := loadJSON(filepath.Join(jsonDir, "weapons.json"))
+	if err != nil {
+		return err
+	}
+	armor, err := loadJSON(filepath.Join(jsonDir, "armor.json"))
+	if err != nil {
+		return err
+	}
+	items, err := loadJSON(filepath.Join(jsonDir, "items.json"))
+	if err != nil {
+		return err
+	}
+	consumables, err := loadJSON(filepath.Join(jsonDir, "consumables.json"))
+	if err != nil {
+		return err
+	}
 	updated := string(content)
 	updated, err = replaceReadmeSection(updated, "#### ADVERSARIES BY TIER\n", "### USING ENVIRONMENTS\n", readmeAdversaryIndex(adversaries))
 	if err != nil {
 		return err
 	}
 	updated, err = replaceReadmeSection(updated, "##### ENVIRONMENT STAT BLOCKS BY TIER\n", "### ADDITIONAL GM GUIDANCE\n", readmeEnvironmentIndex(environments))
+	if err != nil {
+		return err
+	}
+	updated, err = upsertReadmeIndex(updated, "#### COMPLETE SRD 2.0 WEAPON INDEX\n", "### COMBAT WHEELCHAIR\n", readmeWeaponIndex(weapons))
+	if err != nil {
+		return err
+	}
+	updated, err = upsertReadmeIndex(updated, "#### COMPLETE SRD 2.0 ARMOR INDEX\n", "### LOOT\n", readmeArmorIndex(armor))
+	if err != nil {
+		return err
+	}
+	updated, err = upsertReadmeIndex(updated, "#### ADDITIONAL ITEMS\n", "### CONSUMABLES\n", readmeExpansionLootIndex("ITEMS", "items", items))
+	if err != nil {
+		return err
+	}
+	updated, err = upsertReadmeIndex(updated, "#### ADDITIONAL CONSUMABLES\n", "### GOLD\n", readmeExpansionLootIndex("CONSUMABLES", "consumables", consumables))
 	if err != nil {
 		return err
 	}
@@ -507,6 +539,24 @@ func replaceReadmeSection(content, start, end, replacement string) (string, erro
 	return content[:startAt] + replacement + "\n" + content[endAt:], nil
 }
 
+// upsertReadmeIndex adds a generated catalog immediately before the following
+// major section. Replacing its prior instance keeps normal generation stable.
+func upsertReadmeIndex(content, start, end, replacement string) (string, error) {
+	if startAt := strings.Index(content, start); startAt >= 0 {
+		endAt := strings.Index(content[startAt+len(start):], end)
+		if endAt < 0 {
+			return content, fmt.Errorf("missing README section terminator %q", strings.TrimSpace(end))
+		}
+		endAt += startAt + len(start)
+		return content[:startAt] + replacement + "\n" + content[endAt:], nil
+	}
+	endAt := strings.Index(content, end)
+	if endAt < 0 {
+		return content, fmt.Errorf("missing README section terminator %q", strings.TrimSpace(end))
+	}
+	return content[:endAt] + replacement + "\n" + content[endAt:], nil
+}
+
 func readmeAdversaryIndex(adversaries []map[string]any) string {
 	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
 	return readmeTierIndex("#### ADVERSARIES BY TIER", "This section contains the following stat blocks:", "adversaries", adversaries, headings, false)
@@ -515,6 +565,106 @@ func readmeAdversaryIndex(adversaries []map[string]any) string {
 func readmeEnvironmentIndex(environments []map[string]any) string {
 	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
 	return readmeTierIndex("##### ENVIRONMENT STAT BLOCKS BY TIER", "This section contains the following stat blocks.", "environments", environments, headings, true)
+}
+
+func readmeWeaponIndex(weapons []map[string]any) string {
+	return readmeEquipmentIndex("#### COMPLETE SRD 2.0 WEAPON INDEX", "This catalog includes every SRD 2.0 weapon, including the Combat Wheelchair models listed separately above.", "weapons", weapons, true)
+}
+
+func readmeArmorIndex(armor []map[string]any) string {
+	return readmeEquipmentIndex("#### COMPLETE SRD 2.0 ARMOR INDEX", "This catalog includes every SRD 2.0 armor entry.", "armor", armor, false)
+}
+
+func readmeEquipmentIndex(title, description, category string, items []map[string]any, groupWeapons bool) string {
+	buckets := map[int][]map[string]any{}
+	for _, item := range items {
+		tier := tierFromValue(item["tier"])
+		if name, _ := item["name"].(string); name != "" && tier >= 1 && tier <= 4 {
+			buckets[tier] = append(buckets[tier], item)
+		}
+	}
+	tierLabels := map[int]string{1: "TIER 1 (LEVEL 1)", 2: "TIER 2 (LEVELS 2-4)", 3: "TIER 3 (LEVELS 5-7)", 4: "TIER 4 (LEVELS 8-10)"}
+	var out []string
+	out = append(out, title, "", description)
+	for tier := 1; tier <= 4; tier++ {
+		entries := buckets[tier]
+		sort.Slice(entries, func(i, j int) bool {
+			return strings.ToLower(entries[i]["name"].(string)) < strings.ToLower(entries[j]["name"].(string))
+		})
+		out = append(out, "", "##### "+tierLabels[tier])
+		if !groupWeapons {
+			out = append(out, "", readmeLinkList(category, entries))
+			continue
+		}
+		for _, kind := range []struct{ category, damageType, heading string }{
+			{"Primary", "Physical", "Primary Physical"},
+			{"Primary", "Magical", "Primary Magical"},
+			{"Secondary", "", "Secondary"},
+		} {
+			var group []map[string]any
+			for _, item := range entries {
+				if item["primary_or_secondary"] != kind.category {
+					continue
+				}
+				if kind.damageType != "" && item["physical_or_magical"] != kind.damageType {
+					continue
+				}
+				group = append(group, item)
+			}
+			if len(group) > 0 {
+				out = append(out, "", "###### "+kind.heading, "", readmeLinkList(category, group))
+			}
+		}
+	}
+	return strings.Join(out, "\n")
+}
+
+func readmeExpansionLootIndex(kind, category string, items []map[string]any) string {
+	tables := splitRollTables(items)
+	if len(tables) != 2 {
+		return ""
+	}
+	return strings.Join([]string{
+		"#### ADDITIONAL " + kind,
+		"",
+		"The following list includes the " + strings.ToLower(kind) + " from the Hope & Fear Expansion Set.",
+		"",
+		readmeLinkList(category, tables[1]),
+	}, "\n")
+}
+
+func splitRollTables(items []map[string]any) [][]map[string]any {
+	var tables [][]map[string]any
+	seen := map[string]bool{}
+	current := make([]map[string]any, 0)
+	for _, item := range items {
+		roll, _ := item["roll"].(string)
+		if seen[roll] {
+			tables = append(tables, current)
+			current = make([]map[string]any, 0)
+			seen = map[string]bool{}
+		}
+		seen[roll] = true
+		current = append(current, item)
+	}
+	if len(current) > 0 {
+		tables = append(tables, current)
+	}
+	for _, table := range tables {
+		sort.Slice(table, func(i, j int) bool {
+			return table[i]["roll"].(string) < table[j]["roll"].(string)
+		})
+	}
+	return tables
+}
+
+func readmeLinkList(category string, items []map[string]any) string {
+	lines := make([]string, 0, len(items))
+	for _, item := range items {
+		name, _ := item["name"].(string)
+		lines = append(lines, fmt.Sprintf("- [%s](%s/%s.md)", name, category, url.PathEscape(sanitizeFilename(name))))
+	}
+	return strings.Join(lines, "\n")
 }
 
 func readmeTierIndex(title, description, category string, items []map[string]any, headings map[int]string, includeType bool) string {

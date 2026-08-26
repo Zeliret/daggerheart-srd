@@ -66,6 +66,20 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 - [Additional GM Guidance](#additional-gm-guidance)
 - [The Witherwild](#the-witherwild)
 
+**[Supplemental Campaign Mechanics](#supplemental-campaign-mechanics)**
+
+- [Faction Tracking](#faction-tracking)
+- [Everyday Hero Starting Equipment](#everyday-hero-starting-equipment)
+- [Feasts](#feasts)
+- [Grimdark Campaigns](#grimdark-campaigns)
+- [Tech-Based Campaigns](#tech-based-campaigns)
+- [Western Campaigns](#western-campaigns)
+- [Colossal Adversaries](#colossal-adversaries)
+- [Floating Magic School Campaigns](#floating-magic-school-campaigns)
+- [Fairy Tale Campaigns](#fairy-tale-campaigns)
+- [Monster Hunting Campaigns](#monster-hunting-campaigns)
+- [Hex Crawl Campaigns](#hex-crawl-campaigns)
+
 **[Appendix](#appendix)**
 
 - [Domain Card Reference](#domain-card-reference)
@@ -3121,6 +3135,613 @@ _Ask any of these questions to your players, or make your own._
 > _What superstitions does your character or their community have about traversing Fanewick during the long nights?_
 >
 > _Your character has witnessed something beautiful that came from the Witherwild. What is it and how has it transformed their view of the corruption?_
+
+## SUPPLEMENTAL CAMPAIGN MECHANICS
+
+_You can use the following optional mechanics to supplement your campaigns._
+
+### FACTION TRACKING
+
+You can use a campaign sheet to track multiple factions, the relationships between them, their distinguishing assets, problems, and objectives, as well as their major assets and problems.
+
+#### RELATIONSHIPS
+
+The relationship between two factions is designated by a number between -3 and +3:
+
+- -3: Nemeses
+- -2: Opposed
+- -1: Unfriendly
+- 0: Neutral, Ambiguous, or Ambivalent
+- +1: Friendly
+- +2: Allied
+- +3: Close Allies
+
+The more intense their relationship, the more willing one faction is to act on behalf of or against the other, even at risk to itself. A Friendly (+1) faction might render help if it doesn't require much effort or risk, whereas a faction will go to great effort and expense to see its Nemeses (-3) suffer.
+
+#### FACTION CARDS
+
+Each Faction Card contains the following information:
+
+- **Name:** What the faction is called.
+- **Relationships:** The faction's relationship rank with other factions.
+- **Assets:** 1-3 advantages the faction has, such as a large military or access to superior technology.
+- **Problems:** 1-3 disadvantages the faction has, such as a small territory or negative reputation.
+- **Major Objectives:** 1-3 goals the faction would expend significant resources to achieve, such as establishing a new trade route.
+- **Minor Objectives:** 1-3 less critical goals the faction would like to achieve, such as mounting a festival or implementing a civic project.
+
+#### OBJECTIVE COUNTDOWNS
+
+You can use long-term countdowns to track a faction's efforts to exploit their assets, address their problems, and pursue their major and minor objectives.
+
+Each in-game week, pick one countdown for each faction to advance (stepping down the countdown by one tick) as it makes progress toward its goal. These countdowns can also tick up (or down extra steps) according to the fiction.
+
+When a countdown triggers, the relevant faction acquires an asset, removes a problem, or achieves some other objective. Pick a new goal based on the fiction and start a new countdown. Each nation can have no more than one major objective countdown and up to two minor objective countdowns active at the same time.
+
+Achieving a major objective requires the faction to complete an Objective Countdown (10), whereas achieving a minor objective requires the faction to complete an Objective Countdown (4-6), depending on the scale of the endeavor.
+
+Stagger the progression of your factions' objective countdowns so that no more than one or two trigger each in-game week. Triggering multiple objective countdowns at the same time can cause weeks of inactivity afterward and lessen the tension of the various lingering conflicts.
+
+The party may often be dispatched or mobilized to complete or block these objectives. Meanwhile, completed countdowns generate major narrative shifts for the party to respond to.
+
+### EVERYDAY HERO STARTING EQUIPMENT
+
+PCs without access to standard weapons and armor can choose from the following tables.
+
+#### PRIMARY PHYSICAL WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Cleaver | Agility | Melee | d8 phy | One-Handed | **_Reliable:_** +1 to attack rolls |
+| Sharpened Rake | Agility | Melee | d8+3 phy | Two-Handed | - |
+| Butcher's Axe | Strength | Melee | d12+3 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| Iron Skillet | Strength | Melee | d8+1 phy | One-Handed | - |
+| Pitchfork | Strength | Melee | d10+3 phy | Two-Handed | - |
+| Sledgehammer | Strength | Melee | d10+3 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
+| Cooking Knife | Finesse | Melee | d8+1 phy | One-Handed | - |
+| Walking Staff | Instinct | Melee | d10+3 phy | Two-Handed | - |
+| Rolling Pin | Presence | Melee | d8+1 phy | One-Handed | - |
+| Sickle | Presence | Melee | d8 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| Forge Poker | Strength | Very Close | d8+2 phy | Two-Handed | - |
+| Crop Scythe | Finesse | Very Close | d8+2 phy | Two-Handed | - |
+| Fishing Rod | Agility | Far | d6+3 phy | Two-Handed | - |
+| Slingshot | Finesse | Far | d6+3 phy | Two-Handed | - |
+| Firework Launcher | Agility | Very Far | d6+3 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+
+#### PRIMARY MAGIC WEAPONS
+
+_All magic weapons require a Spellcast trait._
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Enchanted Hammer | Strength | Melee | d10+1 mag | One-Handed | - |
+| Enchanted Mop | Strength | Melee | d10+3 mag | Two-Handed | - |
+| Enchanted Scissors | Finesse | Very Close | d10 mag | One-Handed | - |
+| Enchanted Broomstick | Instinct | Very Close | d10+2 mag | Two-Handed | - |
+| Exploding Potions | Finesse | Close | d8 mag | One-Handed | - |
+| Enchanted Forge Lighter | Instinct | Close | d8 mag | One-Handed | - |
+| Enchanted Boomerang | Instinct | Far | d6+3 mag | Two-Handed | - |
+| Enchanted Kite | Presence | Far | d6 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d10. |
+| Whisk Wand | Knowledge | Far | d6+1 mag | One-Handed | - |
+| Sparkling Staff | Knowledge | Very Far | d6 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+
+#### SECONDARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Large Fork | Agility | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range. |
+| Barrel Lid Shield | Strength | Melee | d4 phy | One-Handed | **_Protective:_** +1 to Armor Score |
+| Table Shield | Strength | Melee | d6 phy | One-Handed | **_Barrier:_** +2 to Armor Score; -1 to Evasion |
+| Paring Knife | Finesse | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range. |
+| Festival Whip | Presence | Very Close | d6 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
+| Towline Hook | Finesse | Close | d6 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range with you. |
+| Flare Launcher | Finesse | Far | d6+1 phy | One-Handed | **_Bright:_** This weapon temporarily lights up the area the flare lands in. |
+
+#### ARMOR
+
+| Name | Base Thresholds | Base Score | Feature |
+| --- | --- | --- | --- |
+| Quilted Clothing | 5 / 11 | 3 | **_Flexible:_** +1 to Evasion |
+| Leather Apron | 6 / 13 | 3 | - |
+| Tree Bark Armor | 7 / 15 | 4 | **_Heavy:_** -1 to Evasion |
+| Baking Tray Breastplate | 8 / 17 | 4 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+
+### FEASTS
+
+You can use the following mechanics for campaigns in which the PCs harvest ingredients throughout play and use them to cook meals during downtime.
+
+#### INGREDIENTS & FLAVORS
+
+Every ingredient is denoted by a name and a flavor profile comprising 1-3 flavors with their relative strengths. For example, “Mushroom caps: Bitter (1), Savory (2).”
+
+There are six flavors, each represented by an associated die size: Sweet (d4), Salty (d6), Bitter (d8), Sour (d10), Savory (d12), and Weird (d20). A flavor's strength is represented by a value between 1 and 3. Example ingredients include:
+
+- Mushroom caps: Bitter (1), Savory (2)
+- Wyvern tongue: Sour (1), Savory (1), Weird (1)
+- Ooze marrow: Sweet (1), Bitter (2)
+- Direbear meat: Savory (3)
+- Acid dragon saliva: Sour (2)
+- Cave boar milk: Salty (1), Savory (1)
+- Rileroot: Bitter (1)
+- Ogre kidney stone: Sweet (1), Weird (1)
+
+When a PC acquires an ingredient, they add it to their inventory. The maximum number of ingredients a PC can hold is equal to their highest trait. When the PCs cook with an ingredient, they roll a number of dice of the flavor's associated die size equal to the flavor's strength.
+
+#### HARVESTING INGREDIENTS
+
+Ingredients can be acquired from defeated adversaries or the party's surroundings. When an edible animal is defeated, the PCs can harvest ingredients from it according to its maximum Hit Points:
+
+| Maximum Hit Points | Number of Ingredients |
+| --- | --- |
+| 1-4 | 1 |
+| 5-7 | 2 |
+| 8-10 | 3 |
+| 12+ | 4 |
+
+The GM determines the ingredients gained based on the narrative. Usually, less powerful adversaries have predominantly Sweet, Salty, and Bitter flavor profiles, whereas more powerful adversaries tend to be more Sour, Savory, and Weird.
+
+The PCs can also obtain ingredients by harvesting edible plants and fungi. Once per rest, each PC can spend a Hope to gather ingredients from their environment. The GM determines what they acquire based on the fiction, or has them roll their Hope Die and grants an ingredient with the following flavor profile:
+
+| Hope Die Result | Flavor Profile |
+| --- | --- |
+| 1-2 | Sweet (1) |
+| 3-4 | Salty (1) |
+| 5-6 | Bitter (1) |
+| 7-8 | Sour (1) |
+| 9-10 | Savory (1) |
+| 11-12 | Weird (1) |
+
+#### MAKE A FEAST
+
+In a feast-based campaign, players can't choose downtime moves to clear Stress, clear Hit Points, or gain Hope. Instead, they have a new downtime move: **Make a Feast**. Each PC who chooses this move can remove ingredients from their inventory and contribute them to the party's collective meal to gain the benefits of the resulting feast.
+
+##### PREPARING THE DISH
+
+To begin cooking, the party designates one PC to be the chef. The chef combines each contributed ingredient's flavor dice into a flavor pool. For example, a steak dinner made from direbear meat (3d12), mushroom caps (2d12 and 1d8), and ooze marrow (2d8 and 1d4) gives the party 5d12, 3d8, and 1d4.
+
+The chef makes a Prep Roll by rolling all the dice in the flavor pool and setting aside any matching values. If there are no matching values, the chef instead discards a die of their choice. The chef continues making Cooking Rolls until only one die remains in the flavor pool or all dice have been discarded or set aside.
+
+##### DETERMINING A MEAL'S RATING
+
+Once preparation is complete, the chef calculates the resulting Meal Rating. Each matching set of dice is worth points equal to its matched value. The chef adds all point totals together. For example, matching 3s on a d6 and d8 are worth 3 points; matching 4s on a d10 and d12 are worth 4 points; and matching 4s on a d8 and d20 from a different roll are also worth 4 points, for a Meal Rating of 11.
+
+##### EATING THE MEAL
+
+Each PC who partakes can clear Hit Points, clear Stress, and gain Hope such that the total is equal to or less than the Meal Rating. For example, a Meal Rating of 11 could let one PC clear 6 Hit Points, clear 3 Stress, and gain 2 Hope, while another clears 5 Hit Points, clears 2 Stress, and gains 4 Hope.
+
+##### RECORDING THE RECIPE
+
+For a feast-based campaign, the players should choose a small shared notebook to be their cookbook and record each dish's recipe. A recipe includes:
+
+- The dish's name, description, and preparation method as invented by the players.
+- The ingredients used to make it.
+- The resulting Meal Rating.
+
+When the party cooks a dish with the same flavor profile as a recipe in their cookbook, add tokens equal to the party's tier to the dish's flavor pool. When the chef would be forced to discard a die, they can remove a token instead. As a result, the more practice the characters get making meals with the same flavor profile, the easier that combination is to prepare.
+
+#### QUICK INGREDIENT GENERATOR
+
+When the PCs harvest an ingredient, roll a d20 for each table and use the combination to inspire what they gather. If an option doesn't fit the scenario, choose another that does.
+
+| Result | Animal | Plant/Fungi |
+| --- | --- | --- |
+| 1 | Feet | Flower |
+| 2 | Powder | Roots |
+| 3 | Limb | Stems |
+| 4 | Belly | Leaves |
+| 5 | Fat | Bulbs |
+| 6 | Eggs | Nuts |
+| 7 | Marrow | Seeds |
+| 8 | Tongue | Bark |
+| 9 | Brain | Berries |
+| 10 | Ribs | Fruit |
+| 11 | Organ | Sap |
+| 12 | Flesh | Pollen |
+| 13 | Stones | Fungi |
+| 14 | Eyes | Nectar |
+| 15 | Jelly | Pods |
+| 16 | Horn | Herbs |
+| 17 | Meat | Algae |
+| 18 | Scales | Moss |
+| 19 | Wings | Grain |
+| 20 | Secretion | Rind |
+
+| Result | Detail |
+| --- | --- |
+| 1 | It's particularly tender. |
+| 2 | It's still wriggling. |
+| 3 | It looks like something it isn't. |
+| 4 | It has a pungent smell. |
+| 5 | It's brightly colored. |
+| 6 | It's completely translucent. |
+| 7 | It's an odd size or shape. |
+| 8 | It has unique markings. |
+| 9 | It recoils from the light. |
+| 10 | It withers in the dark. |
+| 11 | It smells unbelievably good. |
+| 12 | It has an unexpected texture. |
+| 13 | It's encased in something. |
+| 14 | It's filled with something. |
+| 15 | It's emitting a colorful gas. |
+| 16 | It comes apart in layers. |
+| 17 | It must be prepared in a strange way. |
+| 18 | It's leathery or cartilaginous. |
+| 19 | It's brittle. |
+| 20 | It's deadly when consumed raw. |
+
+#### ADVANCED FEASTING
+
+Once your table is comfortable with basic feasting mechanics, you can give the PCs opportunities to locate and acquire specific ingredients based on what they've learned about the world. You might also create special ingredients with features. These are rarer than typical ingredients and can only be harvested from Leader or Solo adversaries.
+
+| Name | Flavor Profile | Feature |
+| --- | --- | --- |
+| Diregazelle Skull Marrow | Sweet (1), Salty (1), Sour (1) | **_Built for Speed:_** +1 bonus to Agility until your next rest. |
+| Holy Cow's Milk | Weird (1) | **_Last Drop:_** When you prepare a dish with this ingredient and there's only one remaining die in the flavor pool, roll it and add the result to the dish's Meal Rating. |
+| Ghost Scorpion Venom | Sour (1), Savory (1) | **_Spicy:_** If any matching sets from a dish prepared with this ingredient are worth 8 or more points, you can't clear Stress from consuming the resulting dish. |
+| Deathflower | Bitter (2) | **_Risky:_** If you finish preparing a dish with this ingredient and have no matching sets of flavor dice, you clear all Hit Points and Stress and gain 3 Hope. Otherwise, the dish's Meal Rating is 0 and you must make a death move. |
+
+#### RESTAURANTS
+
+A PC can spend up to 2 handfuls of gold during downtime to order food from a nearby restaurant and choose one of the following downtime moves for each handful of gold spent: clear Stress, clear Hit Points, or gain Hope.
+
+### GRIMDARK CAMPAIGNS
+
+You can use the following mechanics when the party explores a vast and grim world of magical corrupting Shadow punctuated by scattered sanctuaries built around Sacred Bonfires that emit a halo of safety-providing light.
+
+#### SHADOW-TOUCHED
+
+Adversaries in this campaign can have a feature called **Shadow-Touched**:
+
+**_Shadow-Touched - Passive:_** This adversary critically succeeds on attack rolls of 19-20.
+
+When you introduce a Shadow-Touched adversary, describe how magic has warped their essence and form.
+
+PCs can also become Shadow-Touched when corrupted by dark magic. A Shadow-Touched PC gains a damage bonus equal to the number of scars they have marked. When a Shadow-Touched PC marks their last Hope slot with a scar, they succumb to corruption and charge into the darkness instead of making a death move.
+
+#### SACRED BONFIRES & TORCHES
+
+Sacred Bonfires are vibrant magical pyres lit by the flames of rare and magical Sacred Torches, each of which carries a fragment of divine power. Sacred Bonfires burn out unless continuously provided with a bit of kindling, and can't be reignited without a Sacred Torch. When a Sacred Bonfire is relit, each PC present gains 3 Hope. A Sacred Bonfire's light repels all but the most powerful monsters from its immediate vicinity.
+
+### TECH-BASED CAMPAIGNS
+
+You can use the following mechanics for a campaign in which magic has been supplanted by technology.
+
+#### TECH DAMAGE
+
+Tech damage replaces magic damage in campaigns where damage is caused by technomancy. You can reflavor magic attacks as sonic blasts, blinding flashes of light, swarming nanobots, plasma beams, or any other product of advanced technology.
+
+#### ICONIC WEAPONS & OTHER TOOLS
+
+The following sections detail how weapons, armor, and other items might work in a tech-based campaign.
+
+##### ICONIC WEAPONS
+
+Characters don't have access to Daggerheart's normal selection of primary and secondary weapons during a tech-based campaign. Instead, each character receives an Iconic Weapon that begins as a simple rod of metal but can be incrementally modified to suit the wielder's needs.
+
+A player designs their character's Iconic Weapon using an Iconic Weapon Sheet. For inspiration, see the Motherboard Module sheet in *Daggerheart Core* or at daggerheart.com/downloads. Each player should:
+
+1. Slide the Iconic Weapon Sheet under the right side of their character sheet so only the fillable section is visible.
+2. Make selections about trait, range, and damage.
+3. Make up a name and description.
+4. Record the weapon's details in the Primary Weapon slot of their character sheet.
+
+Iconic Weapons are considered two-handed weapons and start with the following feature:
+
+**_Bonded:_** Gain a bonus to your damage rolls equal to your level.
+
+##### UPGRADES
+
+A character's Iconic Weapon starts with two Upgrade slots at Tier 1. It gains an additional Upgrade slot at each subsequent tier. An Upgrade can be crafted as a downtime move when a PC has the Parts to do so. Each Iconic Weapon begins without installed Upgrades. A character can build as many Upgrades as they wish but can't install more than its number of Upgrade slots. An installed Upgrade is treated as a weapon feature. During downtime, a PC can freely swap Upgrades they have already crafted or otherwise acquired.
+
+The Iconic Weapon Sheet includes basic Upgrades. GMs are encouraged to make more using the provided options as a template and offer them as appropriate.
+
+##### TECH LINK
+
+Each tech-based campaign setting includes a worldwide data and energy network that a PC must connect to in order to perform downtime moves. The primary way most PCs connect is via a Tech Link, a data cable with a hook on one end, which each PC gains at character creation.
+
+##### CRAFTING & TRADING
+
+Gold is not used as a currency in tech-based campaign frames. Instead, PCs gather Scrap to trade for Credits. The Iconic Weapon Sheet includes areas for tracking both Scrap and Credits. All PCs start with 5 Credits.
+
+###### CONVERTING GOLD TO CREDITS
+
+- 10 Credits = 1 handful of gold
+- 100 Credits = 1 bag of gold
+- 1,000 Credits = 1 chest of gold
+
+###### GATHERING SCRAP
+
+PCs can collect Scrap from defeated tech-based adversaries outside combat. Each category is represented by a die size. When the PCs collect Scrap, the GM determines how many of each category they find, which determines each player's dice pool. Compare each player's results against the campaign's Scrap table to determine the pieces acquired. PCs can also obtain specific Scrap through NPC contracts, hunting particular adversaries, exploring areas, or purchasing it from special merchants.
+
+| Result | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Shards (d6) | Gear | Coil | Wire | Trigger | Lens | Crystal | n/a | n/a | n/a | n/a |
+| Metals (d8) | Aluminum | Copper | Cobalt | Silver | Platinum | Gold | n/a | n/a | n/a | n/a |
+| Components (d10) | Fuse | Circuit | Disc | Relay | Capacitor | Battery | - | - | - | - |
+
+| Adversaries | Easy Fight | Standard Fight | Difficult Fight | Very Difficult Fight |
+| --- | --- | --- | --- | --- |
+| Mostly non-tech-based | 2 Shards | 2 Shards, 1 Metal | 2 Shards, 1 Metal, 1 Component | 2 Shards, 2 Metals, 1 Component |
+| Mostly tech-based | 2 Shards, 1 Metal | 2 Shards, 2 Metals, 1 Component | 3 Shards, 2 Metals, 1 Component | 3 Shards, 3 Metals, 2 Components |
+| All tech-based | 2 Shards, 1 Metal, 1 Component | 3 Shards, 2 Metals, 2 Components | 3 Shards, 3 Metals, 2 Components | 4 Shards, 3 Metals, 3 Components |
+
+###### RELICS
+
+Relics are unique pieces of Scrap found only on specific tech-based adversaries. When the PCs defeat a particularly important or powerful tech-based adversary, the GM can grant them each a Relic in addition to Scrap. Relics should reflect the adversary from which they were obtained. Relics are worth 20 Credits and can be used to craft powerful Upgrades.
+
+###### CRAFTING WITH SCRAP
+
+PCs can use a downtime move and spend the appropriate Scrap or Relics to craft Upgrades for their Iconic Weapons or other items. A PC can't craft an Upgrade until they satisfy its Prerequisites. An Upgrade can always be broken back into its constituents to reacquire the Scrap used in its creation.
+
+###### BUYING AND SELLING SCRAP
+
+By default, a piece of Scrap is worth Credits equal to the value rolled to acquire it on the Scrap table, whether the party intends to buy or sell it. Merchants usually have 1d10 of each Shard, 1d8 of each Metal, and 1d6 of each Component for sale. When a PC wants a specific piece from a particular merchant, the GM can roll to determine how many are in stock.
+
+### WESTERN CAMPAIGNS
+
+You can use the following mechanics in a western-themed campaign.
+
+#### WEAPONS & LOOT
+
+##### PRIMARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Revolver | Finesse | Far | Tier 1: d8+1 phy; Tier 2: d8+4 phy; Tier 3: d8+7 phy; Tier 4: d8+10 phy | One-Handed | **_Six Shot:_** Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens. |
+| Rifle | Agility | Very Far | Tier 1: d8+2 phy; Tier 2: d8+5 phy; Tier 3: d8+8 phy; Tier 4: d8+11 phy | Two-Handed | **_Sightline:_** Spend 2 Hope to gain advantage on an attack roll. |
+| Shotgun | Strength | Very Close | Tier 1: d6+2 phy; Tier 2: d6+5 phy; Tier 3: d6+8 phy; Tier 4: d6+11 phy | Two-Handed | **_Scattershot:_** When you make an attack, target all creatures in front of you within range. |
+
+##### SECONDARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Lasso | Agility | Very Close | Tier 1: d4 phy; Tier 2: d4+3 phy; Tier 3: d4+6 phy; Tier 4: d4+9 phy | One-Handed | **_Roped:_** On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped. |
+| Small Revolver | Finesse | Far | Tier 1: d6 phy; Tier 2: d6+3 phy; Tier 3: d6+6 phy; Tier 4: d6+9 phy | One-Handed | **_Quick Shot:_** Spend 2 Hope to gain a +4 bonus to primary weapon damage. |
+
+You can also make the following consumable available: **_Dynamite (Consumable):_** You can light this dynamite and toss it within Close range. All creatures within Very Close range of where it lands must make a Reaction Roll (14). Targets who fail take **1d20+5** physical damage. Targets who succeed must **mark a Stress**. Dynamite deals double damage to inanimate objects or structures.
+
+### COLOSSAL ADVERSARIES
+
+“Colossus” is a special adversary type that uses multiple adversary stat blocks, called segments, to represent the body parts of an extremely large creature. A separate framework stat block contains the information and features that apply to the colossus in its entirety:
+
+- Name, Tier, Description, Motives & Tactics, Size, Segments, Damage Thresholds, Stress, Experiences, and features that apply to all segments.
+
+Each segment has its own stat block, listing its name, adjacent segments, Difficulty, HP, standard attack, and features.
+
+Some segments can be **Broken**. A Broken segment can't use actions or reactions until the condition is cleared. When a segment marks its last Hit Point, it is **Destroyed** and can't use its features. A colossus is defeated when all its segments are Destroyed, though its stat block can detail alternate ways to defeat it. By default, a Destroyed segment is not gone or detached; it is simply non-working.
+
+#### SEGMENT VS. COLOSSUS EFFECTS
+
+When a feature refers to a segment's name, such as “the Head,” it refers only to that specific part. When a feature refers to the colossus's name, it applies to the adversary as a whole. For example, a reaction triggered after the colossus marks 2 or more Hit Points from one attack triggers when any segment marks that damage.
+
+#### ADJACENT SEGMENTS
+
+A colossus's stat blocks should identify adjacent segments. By default, a PC can move from one segment to another only if they are adjacent.
+
+#### RUNNING COLOSSUS FIGHTS
+
+##### SCALE
+
+Unlike normal Daggerheart range, use a standard measurement when discussing a colossus's scale (such as feet). Normal range bands still apply when taking actions and remain at GM discretion, but recognizable sizes help the table understand the creature's scale.
+
+##### MOVING PCS AROUND A COLOSSUS
+
+- A PC can climb onto a colossus segment unless its stat block says otherwise.
+- Once on a segment, a PC can usually move around and within it without additional rolls.
+- To move to an adjacent segment, a PC must make an appropriate action roll, usually Agility or Strength, to leap onto it.
+
+##### TEAMWORK
+
+While fighting a colossus, a PC can initiate any number of Tag Team Rolls in a single session.
+
+##### USING A COLOSSUS IN BATTLE
+
+Treat each segment as a separate adversary when moving the spotlight. You can spotlight a segment as a GM move, then spend a Fear to spotlight an additional segment as in a normal fight. Some frameworks have actions; spotlight the framework to use one, while describing the colossus as a whole. You can still spotlight additional segments on your turn.
+
+While a PC is on a segment, they have advantage on attacks targeting that segment, and that segment's standard attack can't target that PC. Features that pull or push normal adversaries can't move a colossus; instead, they pull or push the PC making the attack.
+
+When an effect targets a specific segment, use that segment's Difficulty. When it targets the colossus as a whole, use the highest Difficulty among all segments. A PC feature that targets multiple adversaries can target multiple segments. Tables using maps and minis can use notecards for the colossus's basic shape and segments, placing a PC miniature on the appropriate card when they climb onto it.
+
+##### LEVELING UP
+
+By default, PCs level up when they defeat a colossus. After defeating nine colossi, the party is level 10 and ready for a Final Colossus. Its power is partially determined by the rests the party takes during the campaign.
+
+Track the Final Colossus with a d10 Siphoning Die starting at 1 and a d100 Power Die starting at 0. Tick the Power Die up by 1 when the PCs take a short rest and by 2 when they take a long rest. When the party defeats a colossus, roll d12s equal to the Siphoning Die's value, tick the Power Die up by the highest result, then reset the Siphoning Die to 1. Once nine colossi have been defeated or the Power Die reaches 100, the Final Colossus reveals itself. Build it as a Colossus adversary with a Severe threshold equal to the Power Die and a Major threshold equal to half that value, rounded up.
+
+### FLOATING MAGIC SCHOOL CAMPAIGNS
+
+You can use the following mechanics for a campaign set at a floating magic school.
+
+#### FLIGHT
+
+During character creation, each player creates a magic artifact their PC can use to fly. Flying PCs use normal movement rules and can fly within Close range as part of an action roll, but must make an appropriate trait roll to move beyond Close range or when movement is their primary action. At the GM's discretion, threats such as gaining the Restrained or Vulnerable conditions, losing the magic artifact, or taking Severe damage can temporarily interrupt a PC's ability to fly.
+
+#### USING TRAITS FOR FLIGHT
+
+A PC can use any appropriate trait, not just Agility, to move while flying. For example:
+
+- **Agility:** Swift acrobatics, speed-boosting off an adversary's wake, maintaining an aerodynamic posture, or angling past a winged threat.
+- **Finesse:** Focused, subtle, well-timed adjustments; threading the needle; precision flying; operating finely tuned controls; or deftly weaving between obstacles.
+- **Strength:** Blasting through floating debris, holding fast in shifting weather, or slamming into a racing rival.
+- **Instinct:** Navigating by sheer intuition, spotting a shortcut, following a migratory current, or sensing hidden danger in the clouds.
+- **Presence:** Flying with natural grace and effortless style, commanding attention, causing a distraction, or creating a spectacle.
+- **Knowledge:** Charting efficient flight plans, plotting rotational momentum, or deducing the exact timing of a foe's wingbeats.
+
+#### LESS LETHAL CAMPAIGNS
+
+In a less lethal campaign, any death move that would normally lead to a character's demise instead puts them in the infirmary for a few weeks or sends them home for an extended period. While they recover, the PC is unplayable but not dead.
+
+### FAIRY TALE CAMPAIGNS
+
+You can use the following mechanics in campaigns that center on curses, queens, and oracles.
+
+#### CURSES
+
+A creature afflicted with a magical curse gains the Cursed condition. The Cursed condition can only be cleared by magic from a spell, ritual, magic item, location, supernatural occurrence, higher power, or some combination of these options. Discovering how to end a curse often requires research, which might prompt the PCs to undertake a quest for additional information or help from an NPC.
+
+#### TRANSFORMING ADVERSARIES
+
+**Transform** is a special action that enables an adversary to shift between multiple stat blocks. By default, the adversary has a primary stat block that includes the stats and features available regardless of their active form. While in a particular form, the adversary has access to the stats and features in that form's stat block as well as their primary stat block. Unless noted otherwise, the adversary tracks HP and Stress on their primary stat block regardless of active form.
+
+#### BUILDING VILLAINS COLLABORATIVELY
+
+You can build a campaign villain collaboratively using the following process:
+
+1. Before session zero, write about 40 question prompts about the villain, such as prompts concerning their background, demeanor, motives, or reputation. Write each prompt on an index card or slip of paper. For inspiration, see the Reign of the Weredragon Villain Builder sheet in *Hope & Fear* or at daggerheart.com/downloads.
+2. During session zero, before character creation, randomly select about 15 prompts and place them face-down in the center of the table.
+3. Starting with the person to your left, each player draws a selected prompt, reads it aloud, then chooses one option:
+   - Answer the prompt. Other players can ask follow-up questions, though the active player can choose not to answer them.
+   - Remove the prompt from play and draw a new prompt.
+   - Pass the prompt to another player, who likewise chooses to answer, remove, or pass it.
+4. When there are no more follow-up questions to a prompt, play passes to the left. Continue until all prompts at the center have been answered or removed, then proceed to character creation.
+
+### MONSTER HUNTING CAMPAIGNS
+
+You can use the following mechanics for monster hunting campaigns.
+
+#### MONSTER HUNTING EQUIPMENT
+
+You can make the following weapons and armor available to your players.
+
+##### PRIMARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Blessed Brass Knuckles | Strength | Melee | Tier 1: d8+1 mag; Tier 2: d8+4 mag; Tier 3: d8+7 mag; Tier 4: d8+10 mag | One-Handed | - |
+| Holy Shotgun | Agility | Very Close | Tier 1: d6+2 mag; Tier 2: d6+5 mag; Tier 3: d6+8 mag; Tier 4: d6+11 mag | Two-Handed | **_Scattershot:_** When you make an attack, target all creatures in front of you within range. |
+| Repeating Crossbow | Finesse | Far | Tier 1: d6+2 phy; Tier 2: d6+5 phy; Tier 3: d6+8 phy; Tier 4: d6+11 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+
+##### SECONDARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Wooden Stake | Strength | Melee | Tier 1: d8 phy; Tier 2: d8+2 phy; Tier 3: d8+4 phy; Tier 4: d8+6 phy | One-Handed | **_Paired:_** Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range. |
+| Hallowed Shield | Instinct | Melee | Tier 1: d4 mag; Tier 2: d4+2 mag; Tier 3: d4+4 mag; Tier 4: d4+6 mag | One-Handed | **_Resonant:_** When you critically succeed on a primary weapon attack, gain an additional Hope. |
+| Chain Whip | Presence | Very Close | Tier 1: d6+1 phy; Tier 2: d6+3 phy; Tier 3: d6+5 phy; Tier 4: d6+7 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range. |
+
+##### ARMOR
+
+| Name | Base Thresholds | Base Score | Feature |
+| --- | --- | --- | --- |
+| Coffinwood Armor | Tier 1: 4/10; Tier 2: 6/15; Tier 3: 8/22; Tier 4: 10/31 | Tier 1: 3; Tier 2: 4; Tier 3: 5; Tier 4: 6 | **_Splintering:_** Gain a bonus to your damage thresholds equal to your unmarked Armor Slots. |
+| Leather Longcoat | Tier 1: 5/12; Tier 2: 8/18; Tier 3: 10/25; Tier 4: 12/34 | Tier 1: 3; Tier 2: 4; Tier 3: 5; Tier 4: 6 | **_Quiet:_** Gain a +2 bonus to rolls you make to move silently. |
+| Silverweave Armor | Tier 1: 5/11; Tier 2: 7/16; Tier 3: 9/23; Tier 4: 11/32 | Tier 1: 3; Tier 2: 4; Tier 3: 5; Tier 4: 6 | **_Warded:_** You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds. |
+
+#### THE HUNT
+
+The Hunt is a procedure for preparing and running monsters. Its basic structure comprises five beats, though you can deviate as appropriate:
+
+1. **Arrival:** The PCs are hooked into the adventure by a strange event that implies monster activity.
+2. **Investigation:** The PCs follow leads and gather clues to discover the truth of the monster.
+3. **Escalation:** The PCs bring together what they've discovered and develop a plan for finding and defeating the monster.
+4. **Confrontation:** The PCs attempt to banish, bind, or destroy the monster using what they have learned.
+5. **Epilogue:** The PCs wrap up loose ends and move on to their next mission.
+
+#### MAKING A MONSTER
+
+To create a creature altered by evil energy and driven to destroy, consume, or corrupt, answer four questions:
+
+- What is it?
+- What does it want?
+- Where can you find it?
+- How can you defeat it?
+
+Optionally, ask: What else should you worry about? The answer might involve underlings that serve the monster, important bystanders it might endanger, or events and locations that highlight its strengths, weaknesses, and motivations.
+
+#### LIMINAL CLUES
+
+A Liminal Clue is evidence or information that exists in potential until it manifests through the party's discovery. Before a session, the GM should devise 4-6 pieces of information that each point toward answering at least one question from “Making a Monster.”
+
+Write each Liminal Clue on a notecard and keep it on hand. Whenever the PCs delve into danger or explore the mystery in a way that could reveal an answer, refer to your clues. If one fits the tone and place, it manifests in that moment and you describe how it is revealed.
+
+Liminal Clues indicate what manifests, not how or where. They are not bound to a particular place or method of discovery. Once revealed, a Liminal Clue solidifies; record it as an undeniable discovery that has become part of the world's reality.
+
+### HEX CRAWL CAMPAIGNS
+
+You can use the following mechanics for a hex crawl campaign.
+
+#### THE HEX CRAWL
+
+Your table can use a map divided into hexagons, or a **hex map**, to track the party's movement across a large area such as a continent. The party moves one hex at a time in a **hex crawl**. Each hex represents roughly 24 miles of land from one side to another, though narrative always supersedes literal representation in Daggerheart.
+
+By default, the party travels through wilderness between sanctuaries or settlements and resolves encounters along the way. The party can take up to three short rests while traveling through the wilderness, but can't take long rests outside a sanctuary.
+
+#### HEX MAPS
+
+A Daggerheart hex crawl uses two copies of the same campaign map: a GM's key map and a player-facing map. The GM fills out the key map beforehand with the habitat, terrain, potential points of interest, and encounters for each hex likely to arise in the next few sessions. Players fill out their map as the party enters hexes and the GM reveals their contents using the key map as a reference.
+
+#### PREPARING THE GM'S KEY MAP
+
+The GM can choose, procedurally generate, or combine both approaches for each hex. One procedure is to generate a multi-hex region at a time.
+
+##### FILLING WILDERNESS HEXES
+
+Start in any hex and fill out the key map one region at a time:
+
+1. Roll a d20 for the region's habitat:
+   - 1: Blighted by Dark Magic. Roll again to determine the habitat; on another 1, the whole region is so corrupted it is nigh impossible to traverse.
+   - 2: Underground; 3-4: Aquatic; 5-6: Wetland; 7-8: Grassland; 9-10: Tropical; 11-12: Forest; 13-14: Drylands; 15-16: Rolling; 17-18: Mountain; 19: Frozen; 20: Badlands.
+2. Roll a d12 for the region's size in contiguous hexes. Its shape can be anything, as long as it doesn't encircle empty hexes.
+3. Roll and add a d8 and d6 for one encounter type:
+   - 2: Roll twice and combine entries; 3: Fellow travelers; 4: Temporary setback; 5: Powerful adversaries; 6: Extreme weather; 7: Potential adversaries; 8: Territorial beast or pack; 9: Environmental hazard or obstacle; 10: Enemy NPCs; 11: Wondrous or dangerous site; 12: Lucky break; 13: Settlement or outpost; 14: Loot or treasure.
+4. Roll a d4 for terrain and the Travel Days needed to enter a hex: 1: Optimal (1 full day); 2: Fair (2 days); 3: Rough (3 days); 4: Extreme (4 days).
+5. Roll a d100 for a rumor about the region, using the Rumors table from the “Journey to Horizon” campaign frame or a 100-rumor list you create. Decide how true it is and whether the PCs learn it.
+
+#### TRACKING THE PARTY'S LOCATION
+
+The party tracks movement with the player-facing map. This assumes the PCs are capable wayfinders and trailblazers: they know the contents of their current hex and every adjacent hex. If an adjacent hex has a non-hidden point of interest, such as a tower, the PCs are usually aware of it. The GM decides how much information to convey.
+
+#### TRAVEL DAYS
+
+On a full day of travel, the PCs:
+
+1. Break camp, eat breakfast, and pack shortly before sunrise.
+2. Travel overland for about 6-8 hours.
+3. Take a short midday break to eat and get their bearings.
+4. Travel another 6-8 hours until about sundown.
+5. Make camp, prepare and eat dinner, set a watch, and bed down.
+
+Party members can scout, forage, hunt, refill waterskins, repair gear, and keep watch as needed. You can narrate or roleplay these activities, but need not spend table time tracking them if the group doesn't find them engaging.
+
+#### RESOURCES & RESTING
+
+This procedure doesn't meticulously track rations or supplies. Travel moves at the story's pace and resources are tracked through rests. Outside a safe place such as a sanctuary or permanent settlement, the party can only take short rests, each representing a full day spent in one location. Inside a safe place, the party can take a long rest, representing multiple days recovering from hard travel and rough sleeping.
+
+“Rest” has a specific mechanical meaning. In the fiction, the party still rests most wilderness nights, but doesn't gain the mechanical benefits of a short rest every time it sleeps. When the party takes three short rests in a row, its next rest must be a long rest.
+
+#### ENCOUNTER ROLLS
+
+When the party enters a hex, roll d6s equal to its terrain rating. If any die shows 1, activate an encounter designed during region creation. Otherwise, you can spend Fear to activate an encounter. You can change die sizes for more dangerous (d4) or safer (d8) areas.
+
+The party can trigger more than one encounter in a region. If so, either roll on the Encounter table to generate a new encounter in the moment, or shift an encounter from a region the party seems unlikely to enter and modify it to suit the current situation.
+
+#### ENDURANCE COUNTDOWNS (OPTIONAL)
+
+To heighten wilderness-travel tension, give each PC an Endurance Countdown (6) at the end of a rest. When the party enters a wilderness hex, each player rolls their Hope Die. If the result is equal to or lower than their PC's Endurance Countdown, they mark a Stress. Otherwise, they tick down their Endurance Countdown. When it triggers, the PC becomes Vulnerable until their next rest. At the start of a rest, all Endurance Countdowns end.
+
+#### TRAVELING OVER WATER
+
+- **Rivers:** The party can travel across overland hexes with navigable rivers if it acquires an appropriate vehicle, usually a boat. Moving downstream reduces the entered hex's terrain rating by 1; traveling upstream increases it by 1.
+- **Ocean:** The party can travel through ocean hexes with an appropriate vehicle, usually a ship. When entering an ocean hex, roll a d4: 1, tailwind (1 day); 2, fair weather (2 days); 3, rough waters (3 days); 4, extreme weather (4 days).
+
+#### DOOM TRACKS
+
+You can use a Doom Track to represent growing disasters that may befall the setting if the party acts too slowly. You can make one using the example track in *Hope & Fear* or at daggerheart.com/downloads for inspiration.
+
+To use a Doom Track, mark a box in the party's tier or below at the end of each session. You can't mark a nested box until the box containing it is marked. As the story develops, you can adjust the number of boxes marked at a session's end.
+
+#### HABITAT-BASED FEATURES
+
+You can add the following features to an adversary:
+
+- **_Blighted - Passive:_** This adversary is corrupted by magic. When encountered within a similarly affected area, it critically succeeds on attacks with a die roll of 18-20.
+- **_Enviromancer - Passive:_** This adversary can draw upon wild magic from its surroundings to fuel effects. **Mark a Stress** to activate an effect based on its habitat. When an effect uses the adversary's tier for damage, roll the damage die a number of times equal to its tier and total the results:
+  - **Heat Spell (Desert, Salt Flats, Volcano):** Each target within Very Close range must succeed on an Instinct Reaction Roll. Targets who fail must **mark a Stress** and take **d6** direct magic damage.
+  - **Overgrowth Spell (Forest, Jungle):** Each target within Close range must make an Agility Reaction Roll. Targets who fail take **d8** physical damage and are Restrained until they break free with a successful Strength Roll.
+  - **Wind Spell (Cliffs, Plains, Steppe):** Each target within Close range must make a Strength Reaction Roll. Targets who fail take **d8** magic damage and are pushed up to Far range. Until this adversary takes damage, attacks against it have disadvantage.
+  - **Ice Spell (Alpine, Glacier, Tundra):** Make an attack against each PC in front of this adversary within Close range. Targets it succeeds against take **d10** magic damage and are Frostbitten until they spend a Hope to clear the condition. While Frostbitten, a PC has a -1 penalty to Proficiency.
+  - **Poison Spell (Moor, Swamp, Wetlands):** Each PC within Close range must succeed on a Strength Reaction Roll or take **d6** direct damage and become Nauseated until they clear an HP. While Nauseated, a PC can't gain Hope.
+  - **Stone Spell (Canyon, Mountain, Badlands):** This adversary gains a bonus to its damage thresholds equal to its tier until it takes Severe damage or uses this feature again.
+  - **Water Spell (Riverlands, Sea):** Make an attack against all targets within Very Close range. Targets it succeeds against are pushed to Close range of where they were and **mark Stress** equal to this adversary's tier.
 
 ## APPENDIX
 

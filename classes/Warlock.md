@@ -1,12 +1,12 @@
 # Warlock
 Those who’ve traded their lives—or perhaps even their souls—to an otherworldly patron in exchange for incredible power are known as warlocks. Often, these mortals have reached a point of desperation that leads them to make this sacrifice: they hope to protect themselves or a loved one, aid their community, seek vengeance, increase their status, or otherwise further their ambitions. The powerful entities they entreat are as varied as the warlocks themselves: gods, spirits, demons, or other beings unknown to even the mortal who makes the pact. The entities each have their own sphere of influence that defines their otherworldly power, and those that collect souls are rarely known for their benevolence. Thus, a warlock’s power is defined by the relationship they maintain with their benefactor. Despite their terrifying magic, warlocks might find that someone or something else is pulling their strings.
 
-- **DOMAINS —** Dread & Grace
+---
+
+- **DOMAINS —** [Dread](../domains/Dread.md) & [Grace](../domains/Grace.md)
 - **STARTING EVASION —** 11
 - **STARTING HIT POINTS —** 5
-- **CLASS ITEMS —** A carving that symbolizes your patron or
-
-a ring you can’t remove
+- **CLASS ITEMS —** A carving that symbolizes your patron or a ring you can’t remove
 
 ### WARLOCK’S HOPE FEATURE
 

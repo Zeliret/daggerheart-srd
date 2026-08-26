@@ -135,6 +135,7 @@ var sourceAllCaps = regexp.MustCompile(`^[A-Z0-9][A-Z0-9 '’&–—-]+$`)
 var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT POINTS|CLASS ITEMS)\s+–\s+(.+)$`)
 var sourceFeature = regexp.MustCompile(`^([A-Z][^:]{1,59}):\s+(.+)$`)
 var sourceSubclassHeading = regexp.MustCompile(`(?m)^([A-Z][A-Z '’&–—-]+) SUBCLASSES\n`)
+var classDomainLine = regexp.MustCompile(`(?m)^- \*\*DOMAINS —\*\* ([^&\n]+) & ([^\n]+)$`)
 
 // sourceMarkdown turns the clean text extracted from the two-column SRD PDF
 // into readable Markdown. SRD 2.0 additions that do not yet have every legacy
@@ -210,8 +211,10 @@ func classSourceMarkdown(source, subclass1, subclass2 string) string {
 	// The class-level source includes a transitional "SUBCLASSES" heading;
 	// remove it because the canonical link section is added below.
 	classPart = sourceSubclassHeading.ReplaceAllString(classPart, "")
+	classPart = joinClassItemContinuations(classPart)
 	var out []string
 	if body := sourceMarkdown(classPart); body != "" {
+		body = linkClassDomains(body)
 		out = append(out, body)
 	}
 	out = append(out, "### SUBCLASSES", "", fmt.Sprintf("Choose either the **[%s](../subclasses/%s.md)** or **[%s](../subclasses/%s.md)** subclass.", subclass1, url.PathEscape(subclass1), subclass2, url.PathEscape(subclass2)))
@@ -236,6 +239,38 @@ func classSourceMarkdown(source, subclass1, subclass2 string) string {
 		out = append(out, "", "### CONNECTIONS", "", "_Ask your fellow players one of the following questions for their character to answer, or create your own questions._", "", body)
 	}
 	return normalizeMarkdown(strings.Join(out, "\n"))
+}
+
+// linkClassDomains preserves the domain order printed by the SRD while
+// matching the linked-domain presentation used by legacy class documents.
+func linkClassDomains(body string) string {
+	match := classDomainLine.FindStringSubmatchIndex(body)
+	if match == nil {
+		return body
+	}
+	first, second := strings.TrimSpace(body[match[2]:match[3]]), strings.TrimSpace(body[match[4]:match[5]])
+	linked := fmt.Sprintf("- **DOMAINS —** [%s](../domains/%s.md) & [%s](../domains/%s.md)", first, url.PathEscape(first), second, url.PathEscape(second))
+	return strings.TrimSpace(body[:match[0]]) + "\n\n---\n\n" + linked + body[match[1]:]
+}
+
+// joinClassItemContinuations repairs the one PDF layout case where a class's
+// item list wraps onto the next line. Keep the item sentence in its metadata
+// row so it renders like the established legacy class documents.
+func joinClassItemContinuations(source string) string {
+	lines := strings.Split(source, "\n")
+	for i := 0; i+1 < len(lines); i++ {
+		line := strings.TrimSpace(lines[i])
+		next := strings.TrimSpace(lines[i+1])
+		if !strings.HasPrefix(line, "CLASS ITEMS") || next == "" || sourceArtifact.MatchString(next) || sourceAllCaps.MatchString(next) {
+			continue
+		}
+		first := next[0]
+		if first >= 'a' && first <= 'z' {
+			lines[i] = line + " " + next
+			lines[i+1] = ""
+		}
+	}
+	return strings.Join(lines, "\n")
 }
 
 func loadJSON(path string) ([]map[string]any, error) {

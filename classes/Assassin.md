@@ -1,12 +1,12 @@
 # Assassin
 Assassins are masters at inflicting deadly injuries with precise strikes. Unlike those who wield violence as only a means to an end, assassins approach death as a profession. Many members of this class believe theirs is a worthy, if not sacred, trade, and some join guilds to hone their craft, define their beliefs, and earn money. People from all walks of life hire assassins for their skills: powerful rulers looking to avoid all-out war, business leaders seeking to eliminate the competition, and even average people hoping to settle a grudge. Often, an assassin is the last resort for killing those previously believed to be unkillable. While some of these deadly professionals will destroy anyone in their path for the right reasons or the right price, others hold strict moral codes or personal rules that dictate their targets. Those who end up the target of an assassin should count themselves among the dead
 
-- **DOMAINS —** Blade & Midnight
+---
+
+- **DOMAINS —** [Blade](../domains/Blade.md) & [Midnight](../domains/Midnight.md)
 - **STARTING EVASION —** 12
 - **STARTING HIT POINTS —** 5
-- **CLASS ITEMS —** A list of names with several marked off or
-
-a rusted blade inscribed with an insignia
+- **CLASS ITEMS —** A list of names with several marked off or a rusted blade inscribed with an insignia
 
 ### ASSASSIN’S HOPE FEATURE
 

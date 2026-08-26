@@ -1,7 +1,9 @@
 # Witch
 Witches are magical practitioners who commune with the forces of nature and entities from realms beyond. These spellcasters call forth power through craft, combining the tangible and ephemeral by casting spells, murmuring incantations, creating talismans, weaving illusions, and maintaining other personalized practices. They can protect their allies and harm their enemies by invoking powerful forces beyond themselves—supernatural beings such as ancestors, deities, or aspects of nature. Often, their magical knowledge is passed down from these entities or through many generations of practitioners who gather in small groups known as covens. Witches are frequently feared and misunderstood, as their methods can appear mysterious, strange, and even macabre to the uninitiated. Whichever path they walk, a witch treads the boundary between light and shadow without fear.
 
-- **DOMAINS —** Sage & Dread
+---
+
+- **DOMAINS —** [Sage](../domains/Sage.md) & [Dread](../domains/Dread.md)
 - **STARTING EVASION —** 10
 - **STARTING HIT POINTS —** 6
 - **CLASS ITEMS —** A small, harmless pet or a scrying stone

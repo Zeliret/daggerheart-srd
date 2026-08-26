@@ -9,4 +9,4 @@
 
 ### FEATURE
 
-**_On a successful attack, roll an additional Powerful:_** damage die and discard the lowest result.
+**_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.

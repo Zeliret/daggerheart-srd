@@ -466,7 +466,7 @@ type linkTarget struct {
 	category string
 }
 
-// refreshReadmeIndexes keeps the two large GM-facing catalogs complete as
+// refreshReadmeIndexes keeps the large GM-facing catalogs complete as
 // appendices grow. The PDF's printed lists are only a starting point; the JSON
 // data is the repository's complete, linkable SRD 2.0 inventory.
 func refreshReadmeIndexes(path, jsonDir string) error {
@@ -498,28 +498,41 @@ func refreshReadmeIndexes(path, jsonDir string) error {
 	if err != nil {
 		return err
 	}
+
+	// The original README tables identify the Core Set entries. Once this
+	// generator has run, H&F entries retain their escaped asterisk, so the same
+	// distinction remains stable on subsequent runs without adding new fields to
+	// the machine-facing catalogs.
+	weaponCore := readmeCoreCatalogKeys(string(content), "weapons")
+	for _, frame := range []string{"Light-Frame", "Heavy-Frame", "Arcane-Frame"} {
+		for _, prefix := range []string{"", "Improved ", "Advanced ", "Legendary "} {
+			weaponCore[catalogKey(prefix+frame+" Wheelchair")] = true
+		}
+	}
+	armorCore := readmeCoreCatalogKeys(string(content), "armor")
+
 	updated := string(content)
+	updated, err = replaceReadmeSection(updated, "#### PRIMARY WEAPON TABLES\n", "### COMBAT WHEELCHAIR\n", readmeWeaponTables(weapons, weaponCore))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "#### ARMOR TABLES\n", "### LOOT\n", readmeArmorTables(armor, armorCore))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "### LOOT\n", "### CONSUMABLES\n", readmePairedRollSection("LOOT", "item", "items", items))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "### CONSUMABLES\n", "### GOLD\n", readmePairedRollSection("CONSUMABLES", "consumable", "consumables", consumables))
+	if err != nil {
+		return err
+	}
 	updated, err = replaceReadmeSection(updated, "#### ADVERSARIES BY TIER\n", "### USING ENVIRONMENTS\n", readmeAdversaryIndex(adversaries))
 	if err != nil {
 		return err
 	}
 	updated, err = replaceReadmeSection(updated, "##### ENVIRONMENT STAT BLOCKS BY TIER\n", "### ADDITIONAL GM GUIDANCE\n", readmeEnvironmentIndex(environments))
-	if err != nil {
-		return err
-	}
-	updated, err = upsertReadmeIndex(updated, "#### COMPLETE SRD 2.0 WEAPON INDEX\n", "### COMBAT WHEELCHAIR\n", readmeWeaponIndex(weapons))
-	if err != nil {
-		return err
-	}
-	updated, err = upsertReadmeIndex(updated, "#### COMPLETE SRD 2.0 ARMOR INDEX\n", "### LOOT\n", readmeArmorIndex(armor))
-	if err != nil {
-		return err
-	}
-	updated, err = upsertReadmeIndex(updated, "#### ADDITIONAL ITEMS\n", "### CONSUMABLES\n", readmeExpansionLootIndex("ITEMS", "items", items))
-	if err != nil {
-		return err
-	}
-	updated, err = upsertReadmeIndex(updated, "#### ADDITIONAL CONSUMABLES\n", "### GOLD\n", readmeExpansionLootIndex("CONSUMABLES", "consumables", consumables))
 	if err != nil {
 		return err
 	}
@@ -539,22 +552,183 @@ func replaceReadmeSection(content, start, end, replacement string) (string, erro
 	return content[:startAt] + replacement + "\n" + content[endAt:], nil
 }
 
-// upsertReadmeIndex adds a generated catalog immediately before the following
-// major section. Replacing its prior instance keeps normal generation stable.
-func upsertReadmeIndex(content, start, end, replacement string) (string, error) {
-	if startAt := strings.Index(content, start); startAt >= 0 {
-		endAt := strings.Index(content[startAt+len(start):], end)
-		if endAt < 0 {
-			return content, fmt.Errorf("missing README section terminator %q", strings.TrimSpace(end))
+// readmeCoreCatalogKeys obtains the Core Set identity from existing README
+// links. H&F entries are marked with a literal escaped asterisk immediately
+// after their link. This keeps the rendered asterisk out of the link itself.
+func readmeCoreCatalogKeys(content, category string) map[string]bool {
+	keys := map[string]bool{}
+	pattern := regexp.MustCompile(`\]\(` + regexp.QuoteMeta(category) + `/([^)]*?)\.md\)(\\\*)?`)
+	for _, match := range pattern.FindAllStringSubmatch(content, -1) {
+		if len(match) < 3 || match[2] != "" {
+			continue
 		}
-		endAt += startAt + len(start)
-		return content[:startAt] + replacement + "\n" + content[endAt:], nil
+		path, err := url.PathUnescape(match[1])
+		if err == nil {
+			keys[catalogKey(path)] = true
+		}
 	}
-	endAt := strings.Index(content, end)
-	if endAt < 0 {
-		return content, fmt.Errorf("missing README section terminator %q", strings.TrimSpace(end))
+	return keys
+}
+
+func catalogKey(value string) string {
+	return strings.ToLower(sanitizeFilename(value))
+}
+
+func readmeCatalogLink(category, name string, core map[string]bool) string {
+	link := fmt.Sprintf("[%s](%s/%s.md)", name, category, url.PathEscape(sanitizeFilename(name)))
+	if !core[catalogKey(name)] {
+		return link + `\*`
 	}
-	return content[:endAt] + replacement + "\n" + content[endAt:], nil
+	return link
+}
+
+func readmeFeature(value any) string {
+	features, ok := value.([]any)
+	if !ok || len(features) == 0 {
+		return "—"
+	}
+	parts := make([]string, 0, len(features))
+	for _, entry := range features {
+		feature, ok := entry.(map[string]any)
+		if !ok {
+			continue
+		}
+		name, _ := feature["name"].(string)
+		text, _ := feature["text"].(string)
+		if name == "" && text == "" {
+			continue
+		}
+		if text == "" {
+			parts = append(parts, "**_"+name+":_**")
+		} else if name == "" {
+			parts = append(parts, text)
+		} else {
+			parts = append(parts, "**_"+name+":_** "+text)
+		}
+	}
+	if len(parts) == 0 {
+		return "—"
+	}
+	return strings.ReplaceAll(strings.Join(parts, " "), "|", "\\|")
+}
+
+func readmeWeaponTables(weapons []map[string]any, core map[string]bool) string {
+	var out []string
+	out = append(out, "#### PRIMARY WEAPON TABLES", "", "_Players can choose one Tier 1 primary weapon during character creation. The GM can make other weapons available throughout the campaign as the PCs level up._")
+	for tier := 1; tier <= 4; tier++ {
+		for _, kind := range []string{"Physical", "Magical"} {
+			rows := filterReadmeEquipment(weapons, tier, "Primary", kind)
+			if len(rows) == 0 {
+				continue
+			}
+			out = append(out, "", fmt.Sprintf("##### TIER %d (%s) %s Weapons", tier, readmeTierLevels(tier), kind))
+			if kind == "Magical" {
+				out = append(out, "", "> _All magic weapons require a Spellcast trait_")
+			}
+			out = append(out, "", "| Name | Trait | Range | Damage | Burden | Feature |", "| --- | --- | --- | --- | --- | --- |")
+			for _, item := range rows {
+				name, _ := item["name"].(string)
+				out = append(out, fmt.Sprintf("| %s | %s | %s | %s | %s | %s |", readmeCatalogLink("weapons", name, core), readmeString(item, "trait"), readmeString(item, "range"), readmeString(item, "damage"), readmeString(item, "burden"), readmeFeature(item["feature"])))
+			}
+			out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+		}
+	}
+	out = append(out, "", "#### SECONDARY WEAPON TABLES")
+	for tier := 1; tier <= 4; tier++ {
+		rows := filterReadmeEquipment(weapons, tier, "Secondary", "")
+		if len(rows) == 0 {
+			continue
+		}
+		out = append(out, "", fmt.Sprintf("##### TIER %d (%s) Secondary Weapons", tier, readmeTierLevels(tier)), "", "| Name | Trait | Range | Damage | Burden | Feature |", "| --- | --- | --- | --- | --- | --- |")
+		for _, item := range rows {
+			name, _ := item["name"].(string)
+			out = append(out, fmt.Sprintf("| %s | %s | %s | %s | %s | %s |", readmeCatalogLink("weapons", name, core), readmeString(item, "trait"), readmeString(item, "range"), readmeString(item, "damage"), readmeString(item, "burden"), readmeFeature(item["feature"])))
+		}
+		out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+	}
+	return strings.Join(out, "\n") + "\n"
+}
+
+func readmeArmorTables(armor []map[string]any, core map[string]bool) string {
+	var out []string
+	out = append(out, "#### ARMOR TABLES", "", "_Players can choose one Tier 1 armor during character creation. The GM can make other armor available throughout the campaign as the PCs level up._")
+	for tier := 1; tier <= 4; tier++ {
+		rows := filterReadmeEquipment(armor, tier, "", "")
+		if len(rows) == 0 {
+			continue
+		}
+		out = append(out, "", fmt.Sprintf("##### TIER %d (%s) Armor", tier, readmeTierLevels(tier)), "", "| Name | Base Score | Base Thresholds | Feature |", "| --- | --- | --- | --- |")
+		for _, item := range rows {
+			name, _ := item["name"].(string)
+			out = append(out, fmt.Sprintf("| %s | %s | %s | %s |", readmeCatalogLink("armor", name, core), readmeString(item, "base_score"), readmeString(item, "base_thresholds"), readmeFeature(item["feature"])))
+		}
+		out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+	}
+	return strings.Join(out, "\n") + "\n"
+}
+
+func filterReadmeEquipment(items []map[string]any, tier int, category, kind string) []map[string]any {
+	var rows []map[string]any
+	for _, item := range items {
+		if tierFromValue(item["tier"]) != tier {
+			continue
+		}
+		if category != "" && readmeString(item, "primary_or_secondary") != category {
+			continue
+		}
+		if kind != "" && readmeString(item, "physical_or_magical") != kind {
+			continue
+		}
+		rows = append(rows, item)
+	}
+	sort.SliceStable(rows, func(i, j int) bool { return strings.ToLower(readmeString(rows[i], "name")) < strings.ToLower(readmeString(rows[j], "name")) })
+	return rows
+}
+
+func readmeTierLevels(tier int) string {
+	return map[int]string{1: "LEVEL 1", 2: "LEVELS 2-4", 3: "LEVELS 5-7", 4: "LEVELS 8-10"}[tier]
+}
+
+func readmeString(item map[string]any, key string) string {
+	value, _ := item[key].(string)
+	return strings.ReplaceAll(value, "|", "\\|")
+}
+
+func readmePairedRollSection(title, singular, category string, entries []map[string]any) string {
+	if len(entries)%2 != 0 {
+		return title
+	}
+	half := len(entries) / 2
+	coreByRoll, expansionByRoll := map[string]map[string]any{}, map[string]map[string]any{}
+	for _, entry := range entries[:half] {
+		coreByRoll[readmeString(entry, "roll")] = entry
+	}
+	for _, entry := range entries[half:] {
+		expansionByRoll[readmeString(entry, "roll")] = entry
+	}
+	var out []string
+	out = append(out, "### "+title)
+	if title == "LOOT" {
+		out = append(out, "", "Loot is any other object or currency that the PCs might find, earn, or gain during their adventures. Loot can be a reward, a motivation, or both—anything that drives a character to take action or pursue something in the world can be considered loot. The following tables offer ready-made options if you need an idea in the moment or want to make a reward for a particular achievement.")
+	} else {
+		out = append(out, "", "Consumables are loot that can only be used once. You can hold up to five of each consumable at a time. Using a consumable doesn't require a roll unless required by the GM or the demands of the fiction.")
+	}
+	out = append(out, "", fmt.Sprintf("To generate a random %s, choose a rarity and roll the designated dice below to select a row. Then roll a d6: on a 1-3, use the Core Set entry; on a 4-6, use the Hope & Fear Expansion Set entry in the same row.", singular), "", "- **Common:** 1d12 or 2d12", "- **Uncommon:** 2d12 or 3d12", "- **Rare:** 3d12 or 4d12", "- **Legendary:** 4d12 or 5d12", "", fmt.Sprintf("| Roll | Core Set %s | Hope & Fear Expansion %s |", strings.Title(singular), strings.Title(singular)), "| --- | --- | --- |")
+	for roll := 1; roll <= half; roll++ {
+		rollText := fmt.Sprintf("%02d", roll)
+		core, coreOK := coreByRoll[rollText]
+		expansion, expansionOK := expansionByRoll[rollText]
+		if !coreOK || !expansionOK {
+			continue
+		}
+		coreName, _ := core["name"].(string)
+		expansionName, _ := expansion["name"].(string)
+		coreLink := fmt.Sprintf("[%s](%s/%s.md)", coreName, category, url.PathEscape(sanitizeFilename(coreName)))
+		expansionLink := fmt.Sprintf("[%s](%s/%s.md)\\*", expansionName, category, url.PathEscape(sanitizeFilename(expansionName)))
+		out = append(out, fmt.Sprintf("| %s | %s | %s |", rollText, coreLink, expansionLink))
+	}
+	out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+	return strings.Join(out, "\n") + "\n"
 }
 
 func readmeAdversaryIndex(adversaries []map[string]any) string {
@@ -565,106 +739,6 @@ func readmeAdversaryIndex(adversaries []map[string]any) string {
 func readmeEnvironmentIndex(environments []map[string]any) string {
 	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
 	return readmeTierIndex("##### ENVIRONMENT STAT BLOCKS BY TIER", "This section contains the following stat blocks.", "environments", environments, headings, true)
-}
-
-func readmeWeaponIndex(weapons []map[string]any) string {
-	return readmeEquipmentIndex("#### COMPLETE SRD 2.0 WEAPON INDEX", "This catalog includes every SRD 2.0 weapon, including the Combat Wheelchair models listed separately above.", "weapons", weapons, true)
-}
-
-func readmeArmorIndex(armor []map[string]any) string {
-	return readmeEquipmentIndex("#### COMPLETE SRD 2.0 ARMOR INDEX", "This catalog includes every SRD 2.0 armor entry.", "armor", armor, false)
-}
-
-func readmeEquipmentIndex(title, description, category string, items []map[string]any, groupWeapons bool) string {
-	buckets := map[int][]map[string]any{}
-	for _, item := range items {
-		tier := tierFromValue(item["tier"])
-		if name, _ := item["name"].(string); name != "" && tier >= 1 && tier <= 4 {
-			buckets[tier] = append(buckets[tier], item)
-		}
-	}
-	tierLabels := map[int]string{1: "TIER 1 (LEVEL 1)", 2: "TIER 2 (LEVELS 2-4)", 3: "TIER 3 (LEVELS 5-7)", 4: "TIER 4 (LEVELS 8-10)"}
-	var out []string
-	out = append(out, title, "", description)
-	for tier := 1; tier <= 4; tier++ {
-		entries := buckets[tier]
-		sort.Slice(entries, func(i, j int) bool {
-			return strings.ToLower(entries[i]["name"].(string)) < strings.ToLower(entries[j]["name"].(string))
-		})
-		out = append(out, "", "##### "+tierLabels[tier])
-		if !groupWeapons {
-			out = append(out, "", readmeLinkList(category, entries))
-			continue
-		}
-		for _, kind := range []struct{ category, damageType, heading string }{
-			{"Primary", "Physical", "Primary Physical"},
-			{"Primary", "Magical", "Primary Magical"},
-			{"Secondary", "", "Secondary"},
-		} {
-			var group []map[string]any
-			for _, item := range entries {
-				if item["primary_or_secondary"] != kind.category {
-					continue
-				}
-				if kind.damageType != "" && item["physical_or_magical"] != kind.damageType {
-					continue
-				}
-				group = append(group, item)
-			}
-			if len(group) > 0 {
-				out = append(out, "", "###### "+kind.heading, "", readmeLinkList(category, group))
-			}
-		}
-	}
-	return strings.Join(out, "\n")
-}
-
-func readmeExpansionLootIndex(kind, category string, items []map[string]any) string {
-	tables := splitRollTables(items)
-	if len(tables) != 2 {
-		return ""
-	}
-	return strings.Join([]string{
-		"#### ADDITIONAL " + kind,
-		"",
-		"The following list includes the " + strings.ToLower(kind) + " from the Hope & Fear Expansion Set.",
-		"",
-		readmeLinkList(category, tables[1]),
-	}, "\n")
-}
-
-func splitRollTables(items []map[string]any) [][]map[string]any {
-	var tables [][]map[string]any
-	seen := map[string]bool{}
-	current := make([]map[string]any, 0)
-	for _, item := range items {
-		roll, _ := item["roll"].(string)
-		if seen[roll] {
-			tables = append(tables, current)
-			current = make([]map[string]any, 0)
-			seen = map[string]bool{}
-		}
-		seen[roll] = true
-		current = append(current, item)
-	}
-	if len(current) > 0 {
-		tables = append(tables, current)
-	}
-	for _, table := range tables {
-		sort.Slice(table, func(i, j int) bool {
-			return table[i]["roll"].(string) < table[j]["roll"].(string)
-		})
-	}
-	return tables
-}
-
-func readmeLinkList(category string, items []map[string]any) string {
-	lines := make([]string, 0, len(items))
-	for _, item := range items {
-		name, _ := item["name"].(string)
-		lines = append(lines, fmt.Sprintf("- [%s](%s/%s.md)", name, category, url.PathEscape(sanitizeFilename(name))))
-	}
-	return strings.Join(lines, "\n")
 }
 
 func readmeTierIndex(title, description, category string, items []map[string]any, headings map[int]string, includeType bool) string {

@@ -34,8 +34,8 @@ Dualstaff,Primary,1,Magical,Instinct,Far,d6+3 mag,Two-Handed,,
 Scepter,Primary,1,Magical,Presence,Far,d6 mag,Two-Handed,Versatile,"This weapon can also be used with these statistics—Presence, Melee, d8."
 Runelock Pistol,Primary,1,Magical,Knowledge,Far,d6+3 mag,One-Handed,Reloading,"After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
 Wand,Primary,1,Magical,Knowledge,Far,d6+1 mag,One-Handed,,
-Arcane Rifle,Primary,1,Magical,Agility,Very Far,d10+3 mag,Two-Handed,Your attack has disadvantage if the target is Aimed,within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.
-Greatstaff,Primary,1,Magical,Knowledge,Very Far,d6 mag,Two-Handed,"On a successful attack, roll an additional Powerful",damage die and discard the lowest result.
+Arcane Rifle,Primary,1,Magical,Agility,Very Far,d10+3 mag,Two-Handed,Aimed,Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.
+Greatstaff,Primary,1,Magical,Knowledge,Very Far,d6 mag,Two-Handed,Powerful,"On a successful attack, roll an additional damage die and discard the lowest result."
 Improved Broadsword,Primary,2,Physical,Agility,Melee,d8+3 phy,One-Handed,Reliable,+1 to attack rolls
 Improved Katana,Primary,2,Physical,Agility,Melee,d10+6 phy,Two-Handed,Quick,"When you make an attack, you can mark a Stress to target another creature within range."
 Improved Longsword,Primary,2,Physical,Agility,Melee,d10+6 phy,Two-Handed,,
@@ -70,7 +70,7 @@ Steelforged Halberd,Primary,2,Physical,Strength,Very Close,d8+4 phy,Two-Handed,S
 War Scythe,Primary,2,Physical,Finesse,Very Close,d8+5 phy,Two-Handed,Reliable,+1 to attack rolls
 Lance,Primary,2,Physical,Instinct,Very Close,d10+5 phy,Two-Handed,Cumbersome,-1 to Finesse
 Blunderbuss,Primary,2,Physical,Finesse,Close,d8+6 phy,Two-Handed,Reloading,"After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
-Greatbow,Primary,2,Physical,Strength,Far,d6+6 phy,Two-Handed,"On a successful attack, roll an additional Powerful",damage die and discard the lowest result.
+Greatbow,Primary,2,Physical,Strength,Far,d6+6 phy,Two-Handed,Powerful,"On a successful attack, roll an additional damage die and discard the lowest result."
 Finehair Bow,Primary,2,Physical,Agility,Very Far,d6+5 phy,Two-Handed,Reliable,+1 to attack rolls
 Improved Arcane Gauntlets,Primary,2,Magical,Strength,Melee,d10+6 mag,Two-Handed,,
 Improved Brightsword,Primary,2,Magical,Strength,Melee,d10+6 mag,Two-Handed,,

@@ -9,4 +9,4 @@
 
 ### FEATURE
 
-**_Your attack has disadvantage if the target is Aimed:_** within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.
+**_Aimed:_** Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.

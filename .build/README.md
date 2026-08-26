@@ -33,9 +33,12 @@ And then a lot of manual markdown cleanup...
 
 `README.md` is curated from the SRD 2.0 source because the retained Marker
 extraction is not publication-ready. The normal Markdown generator refreshes
-its adversary, environment, equipment, and loot catalogs while preserving the
-curated prose. Set `DAGGERHEART_REGENERATE_README=1` only when intentionally
-working on the README generation pipeline.
+its adversary and environment catalogs, complete weapon and armor tables, and
+paired Core Set / Hope & Fear roll tables for loot and consumables while
+preserving the curated prose. Hope & Fear entries are marked with an asterisk;
+the source selection d6 preserves each table's original 1-60 rarity roll. Set
+`DAGGERHEART_REGENERATE_README=1` only when intentionally working on the
+README generation pipeline.
 
 ## Testing Static Site
 

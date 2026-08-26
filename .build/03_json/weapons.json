@@ -444,8 +444,8 @@
     "damage": "d10+3 mag",
     "feature": [
       {
-        "name": "Your attack has disadvantage if the target is Aimed",
-        "text": "within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty."
+        "name": "Aimed",
+        "text": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty."
       }
     ],
     "name": "Arcane Rifle",
@@ -460,8 +460,8 @@
     "damage": "d6 mag",
     "feature": [
       {
-        "name": "On a successful attack, roll an additional Powerful",
-        "text": "damage die and discard the lowest result."
+        "name": "Powerful",
+        "text": "On a successful attack, roll an additional damage die and discard the lowest result."
       }
     ],
     "name": "Greatstaff",
@@ -948,8 +948,8 @@
     "damage": "d6+6 phy",
     "feature": [
       {
-        "name": "On a successful attack, roll an additional Powerful",
-        "text": "damage die and discard the lowest result."
+        "name": "Powerful",
+        "text": "On a successful attack, roll an additional damage die and discard the lowest result."
       }
     ],
     "name": "Greatbow",

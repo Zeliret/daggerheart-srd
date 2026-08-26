@@ -33,7 +33,7 @@ def compact(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     # Some ligatures are emitted by the PDF as a partial word followed by a
     # space (for example, "fl esh").
-    text = re.sub(r"\b(fi|fl)\s+([a-z])", r"\1\2", text)
+    text = re.sub(r"\b([a-z]*(?:fi|fl|ff))\s+([a-z])", r"\1\2", text)
     return re.sub(r"\bT\s+argets\b", "Targets", text)
 
 
@@ -269,6 +269,50 @@ def weapon_rows(pdf) -> list[dict[str, str]]:
     return records
 
 
+def environment_name(text: str) -> str:
+    name = compact(text.title())
+    name = re.sub(r"\b(Of|The)\b", lambda match: match.group(1).lower(), name)
+    name = re.sub(r"’S\b", "’s", name)
+    return {"Convergence, the City of Portals": "Convergence, City of Portals", "T Volcanic Eruption": "Volcanic Eruption"}.get(name, name)
+
+
+def environment_rows(pdf) -> list[dict[str, str]]:
+    records = []
+    # PDF pages 160–181 contain two environment stat blocks per page.
+    for page_no in range(159, 182):
+        page = pdf.pages[page_no]
+        for left, right in ((0, page.width / 2), (page.width / 2, page.width)):
+            text = page.crop((left, 0, right, page.height)).extract_text() or ""
+            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’',\-\n]+)\n(?:\([^\n]*\n)?Tier ([^\n]+)\n", text))
+            for index, match in enumerate(starts):
+                block = text[match.start(): starts[index + 1].start() if index + 1 < len(starts) else len(text)]
+                block = re.split(r"\n?\d*\s*Daggerheart SRD\b", block, maxsplit=1)[0]
+                impulses = re.search(r"Impulses:\s*(.+)", block)
+                difficulty = re.search(r"Diffi\s*culty:\s*([^\n]+)", block)
+                adversaries = re.search(r"Potential Adversaries:\s*(.+?)(?=\nFEATURES|$)", block, re.S)
+                description = block[match.end():impulses.start()] if impulses else block[match.end():]
+                tier_type = compact(match.group(2)).split()
+                if len(tier_type) < 2:
+                    continue
+                row = {
+                    "Name": environment_name(match.group(1)), "Tier": tier_type[0], "Type": tier_type[1],
+                    "Description": compact(description), "Impulses": compact(re.search(r"Impulses:\s*(.+?)(?=\nDiffi\s*culty:|$)", block, re.S).group(1)) if impulses else "",
+                    "Difficulty": compact(difficulty.group(1)) if difficulty else "",
+                    "Potential Adversaries": compact(adversaries.group(1)) if adversaries else "",
+                }
+                feature_text = block.split("FEATURES", 1)[1] if "FEATURES" in block else ""
+                features = list(re.finditer(r"(?m)^(.+? - (?:Passive|Action|Reaction)):\s*", feature_text))
+                for number, feature in enumerate(features[:6], 1):
+                    end = features[number].start() if number < len(features) else len(feature_text)
+                    body = compact(feature_text[feature.end():end])
+                    question = re.search(r"\b(?:What|How|Where|Who|Which|Is)\b", body)
+                    row[f"Feature {number} Name"] = compact(feature.group(1))
+                    row[f"Feature {number} Text"] = compact(body[:question.start()] if question else body)
+                    row[f"Feature {number} Question"] = compact(body[question.start():]) if question else ""
+                records.append(row)
+    return records
+
+
 def main() -> None:
     with pdfplumber.open(PDF) as pdf:
         items = loot_rows(pdf, range(74, 79))
@@ -276,12 +320,13 @@ def main() -> None:
         foes = adversaries(pdf)
         armor = armor_rows(pdf)
         weapons = weapon_rows(pdf)
-    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150 or len(armor) != 69 or len(weapons) < 250:
-        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}, armor={len(armor)}, weapons={len(weapons)}")
-    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes), ("armor.csv", armor), ("weapons.csv", weapons)):
+        environments = environment_rows(pdf)
+    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150 or len(armor) != 69 or len(weapons) < 250 or len(environments) != 47:
+        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}, armor={len(armor)}, weapons={len(weapons)}, environments={len(environments)}")
+    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes), ("armor.csv", armor), ("weapons.csv", weapons), ("environments.csv", environments)):
         with (CSV / filename).open(newline="") as fh: header = next(csv.reader(fh))
         write_rows(filename, header, rows)
-    print(f"imported {len(items)} items, {len(consumables)} consumables, {len(foes)} adversaries, {len(armor)} armor entries, and {len(weapons)} weapons")
+    print(f"imported {len(items)} items, {len(consumables)} consumables, {len(foes)} adversaries, {len(armor)} armor entries, {len(weapons)} weapons, and {len(environments)} environments")
 
 
 if __name__ == "__main__":

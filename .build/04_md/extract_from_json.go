@@ -277,6 +277,7 @@ func classSourceMarkdown(source, subclass1, subclass2 string) string {
 	// remove it because the canonical link section is added below.
 	classPart = sourceSubclassHeading.ReplaceAllString(classPart, "")
 	classPart = joinClassItemContinuations(classPart)
+	classPart = formatSphereOfInfluenceExamples(classPart)
 	var out []string
 	if body := sourceMarkdown(classPart); body != "" {
 		body = linkClassDomains(body)
@@ -336,6 +337,21 @@ func joinClassItemContinuations(source string) string {
 		}
 	}
 	return strings.Join(lines, "\n")
+}
+
+// formatSphereOfInfluenceExamples retains the Warlock source's one-entry-per-
+// line examples as a Markdown list. Without bullets, the general PDF-source
+// normalizer joins those short lines into one unreadable paragraph.
+func formatSphereOfInfluenceExamples(source string) string {
+	examples := []string{
+		"Ambition", "Artists", "Chaos", "Darkness", "Death", "Gamblers",
+		"Honor", "Justice", "Leaders", "Love", "Mercy", "Mischief",
+		"Nature", "Protectors", "Revenge", "Scholars", "Secrets", "Soldiers",
+		"Strength", "Travelers", "Tricksters", "Truth", "War", "Wisdom",
+	}
+	raw := strings.Join(examples, "\n")
+	bullets := "• " + strings.Join(examples, "\n• ")
+	return strings.Replace(source, raw, bullets, 1)
 }
 
 func loadJSON(path string) ([]map[string]any, error) {

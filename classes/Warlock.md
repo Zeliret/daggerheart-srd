@@ -22,7 +22,32 @@ Those who’ve traded their lives—or perhaps even their souls—to an otherwor
 
 ### SPHERE OF INFLUENCE EXAMPLES
 
-When building a warlock, choose their patron’s sphere of influence from the list below or work with the GM to make your own. Ambition Artists Chaos Darkness Death Gamblers Honor Justice Leaders Love Mercy Mischief Nature Protectors Revenge Scholars Secrets Soldiers Strength Travelers Tricksters Truth War Wisdom
+When building a warlock, choose their patron’s sphere of influence from the list below or work with the GM to make your own.
+
+- Ambition
+- Artists
+- Chaos
+- Darkness
+- Death
+- Gamblers
+- Honor
+- Justice
+- Leaders
+- Love
+- Mercy
+- Mischief
+- Nature
+- Protectors
+- Revenge
+- Scholars
+- Secrets
+- Soldiers
+- Strength
+- Travelers
+- Tricksters
+- Truth
+- War
+- Wisdom
 ### SUBCLASSES
 
 Choose either the **[Pact of the Endless](../subclasses/Pact%20of%20the%20Endless.md)** or **[Pact of the Wrathful](../subclasses/Pact%20of%20the%20Wrathful.md)** subclass.

@@ -126,8 +126,17 @@ func main() {
 		}
 	}
 
-	if err := generateSRD(srdBasePath, srdPath, jsonDir); err != nil {
-		fmt.Printf("Error generating %s: %v\n", srdPath, err)
+	// README.md is a curated, readable presentation of the SRD. The Marker
+	// source remains intentionally unprocessed so it can be audited against
+	// the PDF, and is not safe to publish directly. Keep the curated README
+	// intact during normal entity regeneration; explicitly opt in only when
+	// working on the README generation pipeline.
+	if os.Getenv("DAGGERHEART_REGENERATE_README") == "1" {
+		if err := generateSRD(srdBasePath, srdPath, jsonDir); err != nil {
+			fmt.Printf("Error generating %s: %v\n", srdPath, err)
+		}
+	} else {
+		fmt.Println("Preserving curated README.md (set DAGGERHEART_REGENERATE_README=1 to regenerate it).")
 	}
 }
 

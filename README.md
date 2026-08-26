@@ -69,6 +69,7 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 **[Appendix](#appendix)**
 
 - [Domain Card Reference](#domain-card-reference)
+- [Transformation Guidance](#transformation-guidance)
 
 ## INTRODUCTION
 
@@ -366,9 +367,25 @@ The SRD includes the following communities: [Duneborne](communities/Duneborne.md
 
 ### TRANSFORMATIONS
 
-Transformations are optional character options that fundamentally change how a character interacts with the world. A Transformation grants a powerful benefit and a meaningful drawback, does not count against the character's loadout maximum, and a PC can have no more than one Transformation.
+Transformations represent a fundamental shift in your character and how they interact with the world. These are optional aspects of a character’s identity that the GM can give out during a campaign as part of the narrative or, at their discretion, present as an option during character creation.
+
+Transformations provide both a mechanical benefit and a drawback. Taking a transformation card requires you to buy into the concept of the exchange, taking on the burden to reap the benefit. Because of this, we recommend that players remind GMs of their transformations' negative effects whenever they’re relevant to help fulfill and reinforce the fiction of the transformation.
+
+Transformation cards do not count toward your loadout maximum. When your character gains a transformation, add the card to your loadout as if it were part of your character’s heritage. Consider how this transformation changes your character physically and psychologically—if you need inspiration, each transformation includes questions to help you.
+
+If there are details you’d like to incorporate into your character that go beyond the features on a transformation card, work with your GM to explore how they might manifest in your campaign’s narrative.
+
+A PC can't have more than one transformation.
 
 The SRD 2.0 Transformations are [Demigod](transformations/Demigod.md), [Ghost](transformations/Ghost.md), [Reanimated](transformations/Reanimated.md), [Shapeshifter](transformations/Shapeshifter.md), [Vampire](transformations/Vampire.md), and [Werewolf](transformations/Werewolf.md).
+
+#### GRANTING TRANSFORMATIONS
+
+GMs should discuss transformations with their players before incorporating them into their campaigns. A transformation can deeply impact a PC’s narrative journey, so it’s best to ensure this aspect of the game supports the story your players want to tell and is something they’ll enjoy.
+
+Some of the transformations presented here are easy to introduce during a campaign as a narrative development. For example, the vampire or werewolf transformation could be gained when the campaign’s major villain targets a PC with a significant attack. A PC who gains the reanimated or ghost transformation might have died in a place of great magic or made a story-altering bargain in exchange for their resurrection. These transformations can also be part of character creation. Maybe a PC was born a werewolf and seeks to control this aspect of their lineage, or a PC is a long-dead ghost who haunts the party to protect the living.
+
+Some transformations are more likely to be taken at character creation, such as the shapeshifter or demigod. However, they can still be introduced as a character twist during a campaign. It’s ultimately up to you which transformations are available at character creation and how they become available throughout play—decide what works best for you, your players, and the story you’re telling together.
 
 ## CORE MECHANICS
 
@@ -2761,8 +2778,33 @@ _This section contains additional information and reference sheets._
 - [Blade](domains/Blade.md)
 - [Bone](domains/Bone.md)
 - [Codex](domains/Codex.md)
+- [Dread](domains/Dread.md)
 - [Grace](domains/Grace.md)
 - [Midnight](domains/Midnight.md)
 - [Sage](domains/Sage.md)
 - [Splendor](domains/Splendor.md)
 - [Valor](domains/Valor.md)
+
+### TRANSFORMATION GUIDANCE
+
+You can use the following mechanics for introducing the Reanimated, Vampire, and Werewolf transformations to your campaign.
+
+#### REANIMATED
+
+When a character gains the Reanimated transformation, their maximum loadout is reduced to one. During a rest, they can use a downtime move to raise their maximum loadout by one until they reach the normal maximum loadout of five.
+
+#### VAMPIRE
+
+You can add the following feature to a prominent vampire adversary's stat block:
+
+**_Vampire’s Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary sink their teeth into the target’s neck and try to turn them into a vampire. Roll a number of **d8s** equal to this adversary’s tier and deal that much physical damage to the target. Then roll a **d6**. If the rolled result matches any of the damage dice results, the target marks all their Stress and gains the Vampire transformation.
+
+If the player wishes for their character to become a vampire, the attack roll succeeds automatically. The PC takes the damage, marks all their Stress, and gains the transformation.
+
+#### WEREWOLF
+
+You can add the following feature to a prominent werewolf adversary's stat block:
+
+**_Wolf’s Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary viciously bite the target. Roll a number of **d20s** equal to this adversary’s tier and deal that much physical damage to the target. If the target takes Major or greater damage from this attack, activate a long-term Lycanthropy Countdown (6). It ticks down each time the PC takes a rest without using a downtime move to halt their lycanthropy’s progression. When it triggers, the PC gains the Werewolf transformation.
+
+If the player wishes for their character to become a werewolf, the attack roll succeeds automatically. The PC takes the damage and activates a long-term Lycanthropy Countdown (6) regardless of how many HP they marked as a result of the attack. When the countdown triggers, the PC gains the transformation.

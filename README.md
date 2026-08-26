@@ -52,7 +52,7 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 - [Weapons](#weapons)
 - [Combat Wheelchair](#combat-wheelchair)
 - [Armor](#armor)
-- [Loot](#loot)
+- [Loot & Items](#loot)
 - [Consumables](#consumables)
 - [Gold](#gold)
 

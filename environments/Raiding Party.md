@@ -4,7 +4,7 @@
 
 - **Impulses:** Light it on fire, overwhelm with speed and numbers, take everything that isn’t nailed down
 - **Difficulty:** 11
-- **Potential Adversaries:** Ship’s Crew (Pirate Captain, Pirate Raiders, Pirate Tough)
+- **Potential Adversaries:** Ship’s Crew ([Pirate Captain](../adversaries/Pirate%20Captain.md), [Pirate Raiders](../adversaries/Pirate%20Raiders.md), [Pirate Tough](../adversaries/Pirate%20Tough.md))
 
 ### FEATURES
 

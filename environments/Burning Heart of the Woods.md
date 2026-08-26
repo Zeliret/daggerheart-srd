@@ -4,7 +4,7 @@
 
 - **Impulses:** Beat out an uncanny rhythm for all to follow, corrupt the woods
 - **Difficulty:** 16
-- **Potential Adversaries:** Beasts (Bear, Glass Snake), Elementals (Elemental Spark), Verdant Defenders (Dryad, Oak Treant, Stag Knight)
+- **Potential Adversaries:** Beasts ([Bear](../adversaries/Bear.md), [Glass Snake](../adversaries/Glass%20Snake.md)), Elementals ([Elemental Spark](../adversaries/Elemental%20Spark.md)), Verdant Defenders ([Dryad](../adversaries/Dryad.md), [Oak Treant](../adversaries/Oak%20Treant.md), [Stag Knight](../adversaries/Stag%20Knight.md))
 
 ### FEATURES
 

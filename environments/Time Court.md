@@ -4,7 +4,7 @@
 
 - **Impulses:** Find the truth, mete out justice, nullify their powers
 - **Difficulty:** 20
-- **Potential Adversaries:** Judge (Monarch), Jury (Hallowed Choir), Executioners (Temporal Enforcers)
+- **Potential Adversaries:** Judge ([Monarch](../adversaries/Monarch.md)), Jury ([Hallowed Choir](../adversaries/Hallowed%20Choir.md)), Executioners ([Temporal Enforcers](../adversaries/Temporal%20Enforcer.md))
 
 ### FEATURES
 

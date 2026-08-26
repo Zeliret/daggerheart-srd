@@ -4,7 +4,7 @@
 
 - **Impulses:** Justify and perpetuate imperial rule, seduce rivals with promises of power and comfort
 - **Difficulty:** 20
-- **Potential Adversaries:** Bladed Guard, Courtesan, Knight of the Realm, Monarch, Spy
+- **Potential Adversaries:** [Bladed Guard](../adversaries/Bladed%20Guard.md), [Courtesan](../adversaries/Courtesan.md), Knight of the Realm, [Monarch](../adversaries/Monarch.md), [Spy](../adversaries/Spy.md)
 
 ### FEATURES
 

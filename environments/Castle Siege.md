@@ -4,7 +4,7 @@
 
 - **Impulses:** Bleed out the will to fight, breach the walls, build tension
 - **Difficulty:** 17
-- **Potential Adversaries:** Mercenaries (Harrier, Sellsword, Spellblade, Weaponmaster), Noble Forces (Archer Squadron, Conscript, Elite Soldier, Knight of the Realm)
+- **Potential Adversaries:** Mercenaries ([Harrier](../adversaries/Harrier.md), [Sellsword](../adversaries/Sellsword.md), [Spellblade](../adversaries/Spellblade.md), [Weaponmaster](../adversaries/Weaponmaster.md)), Noble Forces ([Archer Squadron](../adversaries/Archer%20Squadron.md), [Conscript](../adversaries/Conscript.md), [Elite Soldier](../adversaries/Elite%20Soldier.md), Knight of the Realm)
 
 ### FEATURES
 

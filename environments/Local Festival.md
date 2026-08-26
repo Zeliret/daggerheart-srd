@@ -4,7 +4,7 @@
 
 - **Impulses:** Express local culture and history, forge new relationships, reinforce community
 - **Difficulty:** 11
-- **Potential Adversaries:** Festival Security (Bladed Guard, Head Guard), Local Luminaries (Commoner, Merchant, Petty Noble), Sundry Ne’er-Do-Wells (Jagged Knife Bandit, Lackey)
+- **Potential Adversaries:** Festival Security ([Bladed Guard](../adversaries/Bladed%20Guard.md), [Head Guard](../adversaries/Head%20Guard.md)), Local Luminaries (Commoner, [Merchant](../adversaries/Merchant.md), [Petty Noble](../adversaries/Petty%20Noble.md)), Sundry Ne’er-Do-Wells ([Jagged Knife Bandit](../adversaries/Jagged%20Knife%20Bandit.md), Lackey)
 
 ### FEATURES
 

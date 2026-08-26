@@ -4,7 +4,7 @@
 
 - **Impulses:** Collect magical energy, exhaust intruders, reveal the unknown, unleash bursts of magical power
 - **Difficulty:** 16
-- **Potential Adversaries:** Alchemical Creations (Chimera, Lamia, Manticore), Archmage
+- **Potential Adversaries:** Alchemical Creations ([Chimera](../adversaries/Chimera.md), [Lamia](../adversaries/Lamia.md), [Manticore](../adversaries/Manticore.md)), [Archmage](../adversaries/Archmage.md)
 
 ### FEATURES
 

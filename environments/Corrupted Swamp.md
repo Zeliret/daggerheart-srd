@@ -4,7 +4,7 @@
 
 - **Impulses:** Corrupt, emphasize putrescence, reveal the twisted and unnatural, sicken
 - **Difficulty:** 11
-- **Potential Adversaries:** Any Undead (Skeleton, Zombie, Spectral Guardian), Giant Rat, Green Ooze, Tangle Bramble
+- **Potential Adversaries:** Any Undead (Skeleton, Zombie, [Spectral Guardian](../adversaries/Spectral%20Guardian.md)), [Giant Rat](../adversaries/Giant%20Rat.md), [Green Ooze](../adversaries/Green%20Ooze.md), [Tangle Bramble](../adversaries/Tangle%20Bramble.md)
 
 ### FEATURES
 

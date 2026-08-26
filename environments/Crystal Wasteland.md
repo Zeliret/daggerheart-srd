@@ -4,7 +4,7 @@
 
 - **Impulses:** Cut them to their core, fracture their psyches, show their true reflection
 - **Difficulty:** 16
-- **Potential Adversaries:** Adult Flickerfl y, Constructs, Elemental Spark, Vault Guardians, Whisper Wraiths
+- **Potential Adversaries:** Adult Flickerfl y, [Constructs](../adversaries/Construct.md), [Elemental Spark](../adversaries/Elemental%20Spark.md), Vault Guardians, [Whisper Wraiths](../adversaries/Whisper%20Wraith.md)
 
 ### FEATURES
 

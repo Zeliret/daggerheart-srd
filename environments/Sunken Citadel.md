@@ -4,7 +4,7 @@
 
 - **Impulses:** Draw them deep, drown them, reveal ancient wonders
 - **Difficulty:** 16
-- **Potential Adversaries:** Cursed Merfolk, Deep Dweller, Plesiosaurus
+- **Potential Adversaries:** [Cursed Merfolk](../adversaries/Cursed%20Merfolk.md), [Deep Dweller](../adversaries/Deep%20Dweller.md), [Plesiosaurus](../adversaries/Plesiosaurus.md)
 
 ### FEATURES
 

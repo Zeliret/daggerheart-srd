@@ -4,7 +4,7 @@
 
 - **Impulses:** Confound intruders, delve into secrets best left buried, manifest unlife, unleash a tide of undead
 - **Difficulty:** 19
-- **Potential Adversaries:** Arch-Necromancer’s Host (Perfected Zombie, Zombie Legion)
+- **Potential Adversaries:** [Arch-Necromancer](../adversaries/Arch-Necromancer.md)’s Host ([Perfected Zombie](../adversaries/Perfected%20Zombie.md), [Zombie Legion](../adversaries/Zombie%20Legion.md))
 
 ### FEATURES
 

@@ -4,7 +4,7 @@
 
 - **Impulses:** Create panic all around, cut offthe exits, isolate, make them scramble for safety, split the party
 - **Difficulty:** 16
-- **Potential Adversaries:** Elemental Spark, Lava Elemental (Greater Earth Elemental), Volcanic Dragon
+- **Potential Adversaries:** [Elemental Spark](../adversaries/Elemental%20Spark.md), Lava Elemental ([Greater Earth Elemental](../adversaries/Greater%20Earth%20Elemental.md)), Volcanic Dragon
 
 ### FEATURES
 

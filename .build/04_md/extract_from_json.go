@@ -18,6 +18,38 @@ func main() {
 	outputDir := ".build/04_md/docs"
 	srdBasePath := ".build/01_pdf/DH-SRD-2.0-2026-08-25.md"
 	srdPath := "README.md"
+	adversaryLinks := map[string]string{}
+	if adversaries, err := loadJSON(filepath.Join(jsonDir, "adversaries.json")); err == nil {
+		for _, adversary := range adversaries {
+			if name, ok := adversary["name"].(string); ok && strings.TrimSpace(name) != "" {
+				target := fmt.Sprintf("../adversaries/%s.md", url.PathEscape(sanitizeFilename(name)))
+				adversaryLinks[name] = target
+				if !strings.HasSuffix(name, "s") {
+					adversaryLinks[name+"s"] = target
+				}
+			}
+		}
+	}
+	// Retained legacy adversary documents are valid link targets too. Read their
+	// H1s so an environment can link any matching adversary in the repository,
+	// not only entries present in the current appendix CSV.
+	if files, err := os.ReadDir("adversaries"); err == nil {
+		for _, file := range files {
+			if file.IsDir() || !strings.HasSuffix(file.Name(), ".md") {
+				continue
+			}
+			if content, err := os.ReadFile(filepath.Join("adversaries", file.Name())); err == nil {
+				name := strings.TrimSpace(strings.TrimPrefix(strings.SplitN(string(content), "\n", 2)[0], "# "))
+				if name != "" {
+					target := "../adversaries/" + url.PathEscape(file.Name())
+					adversaryLinks[name] = target
+					if !strings.HasSuffix(name, "s") {
+						adversaryLinks[name+"s"] = target
+					}
+				}
+			}
+		}
+	}
 
 	entries, err := os.ReadDir(jsonDir)
 	if err != nil {
@@ -31,6 +63,9 @@ func main() {
 		"featureQuestions":    featureQuestions,
 		"fileName":            sanitizeFilename,
 		"abilityLink":         abilityLink,
+		"environmentAdversaryLinks": func(value string) string {
+			return linkEnvironmentAdversaries(value, adversaryLinks)
+		},
 		"optionAt":            optionAt,
 		"add1":                add1,
 		"sourceMarkdown":      sourceMarkdown,
@@ -816,6 +851,24 @@ func stripMarkdownEmphasis(value string) string {
 	out = strings.ReplaceAll(out, "*", "")
 	out = strings.ReplaceAll(out, "_", "")
 	return strings.TrimSpace(out)
+}
+
+// linkEnvironmentAdversaries preserves environment group labels while linking
+// every exact adversary name available in the generated adversary collection.
+func linkEnvironmentAdversaries(value string, adversaryLinks map[string]string) string {
+	names := make([]string, 0, len(adversaryLinks))
+	for name := range adversaryLinks {
+		names = append(names, name)
+	}
+	sort.Slice(names, func(i, j int) bool { return len(names[i]) > len(names[j]) })
+	patterns := make([]string, 0, len(names))
+	for _, name := range names {
+		patterns = append(patterns, regexp.QuoteMeta(name))
+	}
+	matcher := regexp.MustCompile(`\b(?:` + strings.Join(patterns, "|") + `)\b`)
+	return matcher.ReplaceAllStringFunc(value, func(name string) string {
+		return fmt.Sprintf("[%s](%s)", name, adversaryLinks[name])
+	})
 }
 
 func abilityLink(name string) string {

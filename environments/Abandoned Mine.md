@@ -4,7 +4,7 @@
 
 - **Impulses:** Poison the party with deadly gasses, rumble and collapse, split the party, turn them around
 - **Difficulty:** 11
-- **Potential Adversaries:** Darkweave Spiders (Darkweave Crawler, Darkweave Spinner, Darkweave Swarmlings), Miner Ghosts (Poltergeist, Will-o’-the-Wisps)
+- **Potential Adversaries:** Darkweave Spiders ([Darkweave Crawler](../adversaries/Darkweave%20Crawler.md), [Darkweave Spinner](../adversaries/Darkweave%20Spinner.md), [Darkweave Swarmlings](../adversaries/Darkweave%20Swarmlings.md)), Miner Ghosts ([Poltergeist](../adversaries/Poltergeist.md), Will-o’-the-Wisps)
 
 ### FEATURES
 

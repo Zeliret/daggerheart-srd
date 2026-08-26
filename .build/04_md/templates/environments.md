@@ -4,7 +4,7 @@
 
 - **Impulses:** {{ .impulses }}
 - **Difficulty:** {{ .difficulty }}
-- **Potential Adversaries:** {{ .potential_adversaries }}
+- **Potential Adversaries:** {{ environmentAdversaryLinks .potential_adversaries }}
 
 ### FEATURES
 

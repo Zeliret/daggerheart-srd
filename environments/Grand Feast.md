@@ -4,7 +4,7 @@
 
 - **Impulses:** Bring everyone together, celebrate a momentous occasion, encourage revelrous abandon
 - **Difficulty:** 11
-- **Potential Adversaries:** Apprentice Assassin, Guard, Merchant, Petty Noble, Sellsword, Spy
+- **Potential Adversaries:** [Apprentice Assassin](../adversaries/Apprentice%20Assassin.md), Guard, [Merchant](../adversaries/Merchant.md), [Petty Noble](../adversaries/Petty%20Noble.md), [Sellsword](../adversaries/Sellsword.md), [Spy](../adversaries/Spy.md)
 
 ### FEATURES
 

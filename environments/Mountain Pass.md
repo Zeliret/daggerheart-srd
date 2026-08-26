@@ -4,7 +4,7 @@
 
 - **Impulses:** Exact a chilling toll in supplies and stamina, reveal magical tampering, slow down travel
 - **Difficulty:** 15
-- **Potential Adversaries:** Beasts (Bear, Giant Eagle, Glass Snake), Chaos Skull, Minotaur Wrecker, Mortal Hunter
+- **Potential Adversaries:** Beasts ([Bear](../adversaries/Bear.md), [Giant Eagle](../adversaries/Giant%20Eagle.md), [Glass Snake](../adversaries/Glass%20Snake.md)), [Chaos Skull](../adversaries/Chaos%20Skull.md), [Minotaur Wrecker](../adversaries/Minotaur%20Wrecker.md), [Mortal Hunter](../adversaries/Mortal%20Hunter.md)
 
 ### FEATURES
 

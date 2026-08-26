@@ -4,7 +4,7 @@
 
 - **Impulses:** Seize people, land, and wealth, spill blood for greed and glory
 - **Difficulty:** 17
-- **Potential Adversaries:** Mercenaries (Sellsword, Harrier, Spellblade, Weaponmaster), Noble Forces (Archer Squadron, Conscript, Elite Soldier, Knight of the Realm)
+- **Potential Adversaries:** Mercenaries ([Sellsword](../adversaries/Sellsword.md), [Harrier](../adversaries/Harrier.md), [Spellblade](../adversaries/Spellblade.md), [Weaponmaster](../adversaries/Weaponmaster.md)), Noble Forces ([Archer Squadron](../adversaries/Archer%20Squadron.md), [Conscript](../adversaries/Conscript.md), [Elite Soldier](../adversaries/Elite%20Soldier.md), Knight of the Realm)
 
 ### FEATURES
 

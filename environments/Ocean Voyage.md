@@ -4,7 +4,7 @@
 
 - **Impulses:** Reveal what lurks beneath the waves, send them in the wrong direction, sink the ship, use up their resources
 - **Difficulty:** 14
-- **Potential Adversaries:** Deep Sea Denizens (Electric Eels, Kraken, Shark, Siren), Pirates (Pirate Captain, Pirate Raiders)
+- **Potential Adversaries:** Deep Sea Denizens ([Electric Eels](../adversaries/Electric%20Eels.md), [Kraken](../adversaries/Kraken.md), [Shark](../adversaries/Shark.md), [Siren](../adversaries/Siren.md)), Pirates ([Pirate Captain](../adversaries/Pirate%20Captain.md), [Pirate Raiders](../adversaries/Pirate%20Raiders.md))
 
 ### FEATURES
 

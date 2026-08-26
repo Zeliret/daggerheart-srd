@@ -4,7 +4,7 @@
 
 - **Impulses:** Dangle the jackpot just out of reach, dazzle them with spectacle, prey on their vices
 - **Difficulty:** 16
-- **Potential Adversaries:** Automated Security (Vault Guardians), Gamblers (Courtesan, Merchant Baron, Petty Noble, Spy)
+- **Potential Adversaries:** Automated Security (Vault Guardians), Gamblers ([Courtesan](../adversaries/Courtesan.md), [Merchant Baron](../adversaries/Merchant%20Baron.md), [Petty Noble](../adversaries/Petty%20Noble.md), [Spy](../adversaries/Spy.md))
 
 ### FEATURES
 

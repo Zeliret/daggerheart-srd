@@ -4,7 +4,7 @@
 
 - **Impulses:** Buy low, and sell high, tempt and tantalize with wares from near and far
 - **Difficulty:** 10
-- **Potential Adversaries:** Guards (Bladed Guard, Head Guard), Masked Thief, Merchant
+- **Potential Adversaries:** Guards ([Bladed Guard](../adversaries/Bladed%20Guard.md), [Head Guard](../adversaries/Head%20Guard.md)), [Masked Thief](../adversaries/Masked%20Thief.md), [Merchant](../adversaries/Merchant.md)
 
 ### FEATURES
 

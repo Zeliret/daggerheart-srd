@@ -4,7 +4,7 @@
 
 - **Impulses:** Confront them with alien customs, dazzle them with infinite variety, tempt them with the impossible
 - **Difficulty:** 20
-- **Potential Adversaries:** Power Players (Arch-Necromancer, Demon Lord Berzug, Fire Titan Warlord, High Seraph, Monarch, Oracle of Doom, Vampire Lord), Travelers and Residents (Any)
+- **Potential Adversaries:** Power Players ([Arch-Necromancer](../adversaries/Arch-Necromancer.md), [Demon Lord Berzug](../adversaries/Demon%20Lord%20Berzug.md), [Fire Titan Warlord](../adversaries/Fire%20Titan%20Warlord.md), [High Seraph](../adversaries/High%20Seraph.md), [Monarch](../adversaries/Monarch.md), Oracle of Doom, [Vampire Lord](../adversaries/Vampire%20Lord.md)), Travelers and Residents (Any)
 
 ### FEATURES
 

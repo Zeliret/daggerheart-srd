@@ -4,7 +4,7 @@
 
 - **Impulses:** Bar crossing, carry away the unready, divide the land
 - **Difficulty:** 10
-- **Potential Adversaries:** Beasts (Bear, Glass Snake), Jagged Knife Bandits (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper)
+- **Potential Adversaries:** Beasts ([Bear](../adversaries/Bear.md), [Glass Snake](../adversaries/Glass%20Snake.md)), [Jagged Knife Bandits](../adversaries/Jagged%20Knife%20Bandit.md) (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper)
 
 ### FEATURES
 

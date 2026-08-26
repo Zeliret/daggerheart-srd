@@ -4,7 +4,7 @@
 
 - **Impulses:** Devour the party’s resources, spring the trap, tempt them with treasure, throw monsters at them, turn them around
 - **Difficulty:** 14
-- **Potential Adversaries:** Dungeon Denizens (Gobstalker, Green Ooze, Ravenous Mockery, Rust Eater), Rival Adventurers (Giant Brawler, Masked Thief, War Wizard)
+- **Potential Adversaries:** Dungeon Denizens ([Gobstalker](../adversaries/Gobstalker.md), [Green Ooze](../adversaries/Green%20Ooze.md), [Ravenous Mockery](../adversaries/Ravenous%20Mockery.md), [Rust Eater](../adversaries/Rust%20Eater.md)), Rival Adventurers ([Giant Brawler](../adversaries/Giant%20Brawler.md), [Masked Thief](../adversaries/Masked%20Thief.md), [War Wizard](../adversaries/War%20Wizard.md))
 
 ### FEATURES
 

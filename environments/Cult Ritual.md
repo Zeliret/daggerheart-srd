@@ -4,7 +4,7 @@
 
 - **Impulses:** Profane the land, unite the Mortal Realm with the Circles Below
 - **Difficulty:** 14
-- **Potential Adversaries:** Cult of the Fallen (Cult Adept, Cult Fang, Cult Initiate, Secret-Keeper)
+- **Potential Adversaries:** Cult of the Fallen ([Cult Adept](../adversaries/Cult%20Adept.md), [Cult Fang](../adversaries/Cult%20Fang.md), [Cult Initiate](../adversaries/Cult%20Initiate.md), [Secret-Keeper](../adversaries/Secret-Keeper.md))
 
 ### FEATURES
 

@@ -4,7 +4,7 @@
 
 - **Impulses:** Creep them out, delay them until the witch’s return, lock them inside, move to a different location, tempt them with magical oddities
 - **Difficulty:** 14
-- **Potential Adversaries:** Chicken-Foot Hut, Enchanted Defenses (Gargoyle, Ravenous Mockery, Scarecrow), Valdenhax, The Witch’s Victims (Jack-o’-Lanterns, Redcap Biters)
+- **Potential Adversaries:** [Chicken-Foot Hut](../adversaries/Chicken-Foot%20Hut.md), Enchanted Defenses ([Gargoyle](../adversaries/Gargoyle.md), [Ravenous Mockery](../adversaries/Ravenous%20Mockery.md), [Scarecrow](../adversaries/Scarecrow.md)), [Valdenhax](../adversaries/Valdenhax.md), The Witch’s Victims (Jack-o’-Lanterns, [Redcap Biters](../adversaries/Redcap%20Biters.md))
 
 ### FEATURES
 

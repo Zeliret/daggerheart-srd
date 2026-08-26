@@ -4,7 +4,7 @@
 
 - **Impulses:** Dehydrate, show desolate beauty, threaten danger on the horizon
 - **Difficulty:** 14
-- **Potential Adversaries:** Acid Burrower, Desert Raiders (Jagged Knife Bandits), Landshark, Sandwyrm
+- **Potential Adversaries:** [Acid Burrower](../adversaries/Acid%20Burrower.md), Desert Raiders ([Jagged Knife Bandits](../adversaries/Jagged%20Knife%20Bandit.md)), [Landshark](../adversaries/Landshark.md), [Sandwyrm](../adversaries/Sandwyrm.md)
 
 ### FEATURES
 

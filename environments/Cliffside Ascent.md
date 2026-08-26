@@ -4,7 +4,7 @@
 
 - **Impulses:** Cast the unready down to a rocky doom, draw people in with promise of what lies at the top
 - **Difficulty:** 12
-- **Potential Adversaries:** Construct, Deeproot Defender, Giant Scorpion, Glass Snake
+- **Potential Adversaries:** [Construct](../adversaries/Construct.md), [Deeproot Defender](../adversaries/Deeproot%20Defender.md), [Giant Scorpion](../adversaries/Giant%20Scorpion.md), [Glass Snake](../adversaries/Glass%20Snake.md)
 
 ### FEATURES
 

@@ -4,7 +4,7 @@
 
 - **Impulses:** Lure into the levels below, make escape impossible, tempt with treasure, wake the dragon
 - **Difficulty:** 16
-- **Potential Adversaries:** The Dragon’s Minions (Drake, Wyvern), Young Fire Dragon
+- **Potential Adversaries:** The Dragon’s Minions ([Drake](../adversaries/Drake.md), [Wyvern](../adversaries/Wyvern.md)), [Young Fire Dragon](../adversaries/Young%20Fire%20Dragon.md)
 
 ### FEATURES
 

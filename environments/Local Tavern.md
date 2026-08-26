@@ -4,7 +4,7 @@
 
 - **Impulses:** Provide opportunities for adventurers, nurture community
 - **Difficulty:** 10
-- **Potential Adversaries:** Guards (Bladed Guard, Head Guard), Mercenaries (Harrier, Sellsword, Spellblade, Weaponmaster), Merchant
+- **Potential Adversaries:** Guards ([Bladed Guard](../adversaries/Bladed%20Guard.md), [Head Guard](../adversaries/Head%20Guard.md)), Mercenaries ([Harrier](../adversaries/Harrier.md), [Sellsword](../adversaries/Sellsword.md), [Spellblade](../adversaries/Spellblade.md), [Weaponmaster](../adversaries/Weaponmaster.md)), [Merchant](../adversaries/Merchant.md)
 
 ### FEATURES
 

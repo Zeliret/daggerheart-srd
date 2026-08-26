@@ -4,7 +4,7 @@
 
 - **Impulses:** Bury them six feet deep, choke with fog, lure with promises of entombed treasure, unleash the restless dead
 - **Difficulty:** 11
-- **Potential Adversaries:** Corrupted Spirits (Deeproot Defender, Phantom), Living Dead (Skeleton Warrior, Zombie Pack, Patchwork Zombie Hulk)
+- **Potential Adversaries:** Corrupted Spirits ([Deeproot Defender](../adversaries/Deeproot%20Defender.md), [Phantom](../adversaries/Phantom.md)), Living Dead ([Skeleton Warrior](../adversaries/Skeleton%20Warrior.md), [Zombie Pack](../adversaries/Zombie%20Pack.md), [Patchwork Zombie Hulk](../adversaries/Patchwork%20Zombie%20Hulk.md))
 
 ### FEATURES
 

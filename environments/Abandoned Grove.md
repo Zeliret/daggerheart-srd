@@ -4,7 +4,7 @@
 
 - **Impulses:** Draw in the curious, echo the past
 - **Difficulty:** 11
-- **Potential Adversaries:** Beasts (Bear, Dire Wolf, Glass Snake), Grove Guardians (Minor Treant, Sylvan Soldier, Young Dryad)
+- **Potential Adversaries:** Beasts ([Bear](../adversaries/Bear.md), [Dire Wolf](../adversaries/Dire%20Wolf.md), [Glass Snake](../adversaries/Glass%20Snake.md)), Grove Guardians ([Minor Treant](../adversaries/Minor%20Treant.md), [Sylvan Soldier](../adversaries/Sylvan%20Soldier.md), [Young Dryad](../adversaries/Young%20Dryad.md))
 
 ### FEATURES
 

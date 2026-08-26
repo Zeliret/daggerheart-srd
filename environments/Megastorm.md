@@ -4,7 +4,7 @@
 
 - **Impulses:** Blow hurricane winds, choke with mudslides, crumble structures, flood, throw debris, light up the sky
 - **Difficulty:** 16
-- **Potential Adversaries:** Greater Water Elemental, Storm Titan
+- **Potential Adversaries:** [Greater Water Elemental](../adversaries/Greater%20Water%20Elemental.md), [Storm Titan](../adversaries/Storm%20Titan.md)
 
 ### FEATURES
 

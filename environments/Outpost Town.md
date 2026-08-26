@@ -4,7 +4,7 @@
 
 - **Impulses:** Drive the desperate to certain doom, profit offof ragged hope
 - **Difficulty:** 12
-- **Potential Adversaries:** Jagged Knife Bandits (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper), Masked Thief, Merchant
+- **Potential Adversaries:** [Jagged Knife Bandits](../adversaries/Jagged%20Knife%20Bandit.md) (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper), [Masked Thief](../adversaries/Masked%20Thief.md), [Merchant](../adversaries/Merchant.md)
 
 ### FEATURES
 

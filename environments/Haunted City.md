@@ -4,7 +4,7 @@
 
 - **Impulses:** Misdirect and disorient, replay apocalypses both public and personal
 - **Difficulty:** 14
-- **Potential Adversaries:** Ghosts (Spectral Archer, Spectral Captain, Spectral Guardian), ghostly versions of other adversaries (see “Ghostly Form”)
+- **Potential Adversaries:** Ghosts ([Spectral Archer](../adversaries/Spectral%20Archer.md), [Spectral Captain](../adversaries/Spectral%20Captain.md), [Spectral Guardian](../adversaries/Spectral%20Guardian.md)), ghostly versions of other adversaries (see “Ghostly Form”)
 
 ### FEATURES
 

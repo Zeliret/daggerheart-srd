@@ -4,7 +4,7 @@
 
 - **Impulses:** Break down the barrier between life and death, draw down lightning from the heavens, overclock the machinery
 - **Difficulty:** 11
-- **Potential Adversaries:** Lab Leftovers (Construct, Minor Fire Elemental, Patchwork Zombie Hulk, Swarm of Rats)
+- **Potential Adversaries:** Lab Leftovers ([Construct](../adversaries/Construct.md), [Minor Fire Elemental](../adversaries/Minor%20Fire%20Elemental.md), [Patchwork Zombie Hulk](../adversaries/Patchwork%20Zombie%20Hulk.md), Swarm of Rats)
 
 ### FEATURES
 

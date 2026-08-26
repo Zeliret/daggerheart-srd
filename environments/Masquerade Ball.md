@@ -4,7 +4,7 @@
 
 - **Impulses:** Dance the night away, eat and be merry, make secret deals, trade valuable information
 - **Difficulty:** 14
-- **Potential Adversaries:** Operatives (Masked Thief, Master Assassin, Spy), Revelers (Courtesan, Merchant Baron, Royal Advisor)
+- **Potential Adversaries:** Operatives ([Masked Thief](../adversaries/Masked%20Thief.md), [Master Assassin](../adversaries/Master%20Assassin.md), [Spy](../adversaries/Spy.md)), Revelers ([Courtesan](../adversaries/Courtesan.md), [Merchant Baron](../adversaries/Merchant%20Baron.md), [Royal Advisor](../adversaries/Royal%20Advisor.md))
 
 ### FEATURES
 

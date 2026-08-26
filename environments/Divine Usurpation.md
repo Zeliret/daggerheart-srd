@@ -4,7 +4,7 @@
 
 - **Impulses:** Collect power, overawe, silence dissent
 - **Difficulty:** 20
-- **Potential Adversaries:** Arch-Necromancer, Fallen Shock Troops, Mortal Hunter, Oracle of Doom, Perfected Zombie
+- **Potential Adversaries:** [Arch-Necromancer](../adversaries/Arch-Necromancer.md), [Fallen Shock Troops](../adversaries/Fallen%20Shock%20Troop.md), [Mortal Hunter](../adversaries/Mortal%20Hunter.md), Oracle of Doom, [Perfected Zombie](../adversaries/Perfected%20Zombie.md)
 
 ### FEATURES
 

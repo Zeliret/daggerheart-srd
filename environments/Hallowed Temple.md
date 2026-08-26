@@ -4,7 +4,7 @@
 
 - **Impulses:** Connect the Mortal Realm with the Hallows Above, display the power of the divine, provide aid and succor to the faithful
 - **Difficulty:** 13
-- **Potential Adversaries:** Guards (Archer Guard, Bladed Guard, Head Guard)
+- **Potential Adversaries:** Guards ([Archer Guard](../adversaries/Archer%20Guard.md), [Bladed Guard](../adversaries/Bladed%20Guard.md), [Head Guard](../adversaries/Head%20Guard.md))
 
 ### FEATURES
 

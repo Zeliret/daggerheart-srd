@@ -66,6 +66,7 @@ func main() {
 		"environmentAdversaryLinks": func(value string) string {
 			return linkEnvironmentAdversaries(value, adversaryLinks)
 		},
+		"adversaryFeatureText": formatAdversaryFeatureText,
 		"optionAt":            optionAt,
 		"add1":                add1,
 		"sourceMarkdown":      sourceMarkdown,
@@ -869,6 +870,38 @@ func linkEnvironmentAdversaries(value string, adversaryLinks map[string]string) 
 	return matcher.ReplaceAllStringFunc(value, func(name string) string {
 		return fmt.Sprintf("[%s](%s)", name, adversaryLinks[name])
 	})
+}
+
+// formatAdversaryFeatureText restores list semantics lost when the PDF's
+// wrapped feature copy is compacted into a CSV field.
+func formatAdversaryFeatureText(value string) string {
+	numbered := regexp.MustCompile(`(?:^|\s)([1-9][0-9]*)\.\s+`)
+	matches := numbered.FindAllStringSubmatchIndex(value, -1)
+	if len(matches) >= 2 && value[matches[0][2]:matches[0][3]] == "1" && value[matches[1][2]:matches[1][3]] == "2" {
+		items := make([]string, 0, len(matches))
+		for index, match := range matches {
+			end := len(value)
+			if index+1 < len(matches) {
+				end = matches[index+1][0]
+			}
+			items = append(items, value[match[2]:match[3]]+". "+strings.TrimSpace(value[match[1]:end]))
+		}
+		return strings.TrimSpace(value[:matches[0][0]]) + "\n\n" + strings.Join(items, "\n")
+	}
+
+	if strings.Contains(value, "• ") {
+		parts := strings.Split(value, "• ")
+		if len(parts) > 1 {
+			items := make([]string, 0, len(parts)-1)
+			for _, part := range parts[1:] {
+				if item := strings.TrimSpace(part); item != "" {
+					items = append(items, "- "+item)
+				}
+			}
+			return strings.TrimSpace(parts[0]) + "\n\n" + strings.Join(items, "\n")
+		}
+	}
+	return value
 }
 
 func abilityLink(name string) string {

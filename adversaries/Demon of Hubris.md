@@ -11,10 +11,10 @@
 
 **_Terrifying:_** When the Demon makes a successful attack, all PCs within Far range must lose a Hope and you gain a Fear.
 
-**_Double or Nothing:_** When a PC within Far range fails a roll, they can choose to reroll their Fear Die and take the new result. If they still fail, they mark 2 Stress and the Demon clears a Stress.
+**_Double or Nothing:_** When a PC within Far range fails a roll, they can choose to reroll their Fear Die and take the new result. If they still fail, they **mark 2 Stress** and the Demon clears a Stress.
 
-**_Unparalleled Skill:_** Mark a Stress to deal the Demon’s standard attack damage to a target within Close range.
+**_Unparalleled Skill:_** **Mark a Stress** to deal the Demon’s standard attack damage to a target within Close range.
 
-**_The Root of Villainy:_** Spend a Fear to spotlight two other Demons within Far range.
+**_The Root of Villainy:_** **Spend a Fear** to spotlight two other Demons within Far range.
 
-**_You Pale in Comparison:_** When a PC fails a roll within Close range of the Demon, they must mark a Stress.
+**_You Pale in Comparison:_** When a PC fails a roll within Close range of the Demon, they must **mark a Stress**.

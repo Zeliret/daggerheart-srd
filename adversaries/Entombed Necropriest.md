@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Invigorate:_** Mark a Stress to choose up to three allies within Far range. Each one gains advantage on their next attack roll.
+**_Invigorate:_** **Mark a Stress** to choose up to three allies within Far range. Each one gains advantage on their next attack roll.
 
-**_Last Grasp:_** Spend a Fear to choose a PC within Far range. Skeletal hands burst out of the ground at the PC’s feet and Restrain them until the PC breaks free with a successful Strength Roll. When a target Restrained in this way spends Hope, you gain a Fear.
+**_Last Grasp:_** **Spend a Fear** to choose a PC within Far range. Skeletal hands burst out of the ground at the PC’s feet and Restrain them until the PC breaks free with a successful **Strength Roll**. When a target _Restrained_ in this way spends Hope, you gain a Fear.
 
-**_Chill Touch:_** Mark a Stress to make a standard attack against a target within Melee range. On a success, the target takes standard damage and must mark 1d4 Stress. If the target marks their last Stress from this attack, you gain a Fear.
+**_Chill Touch:_** **Mark a Stress** to make a standard attack against a target within Melee range. On a success, the target takes standard damage and must mark **1d4** Stress. If the target marks their last Stress from this attack, you gain a Fear.

@@ -9,12 +9,12 @@
 
 ### FEATURES
 
-**_Relentless (3):_** The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (3):_** The Titan can be spotlighted up to three times per GM turn. **Spend Fear** as usual to spotlight them.
 
 **_Momentum:_** When the Titan makes a successful attack against a PC, you gain a Fear.
 
 **_Gullible:_** PCs have advantage on action rolls to trick or emotionally manipulate the Titan.
 
-**_Bug Swarm:_** PCs are Vulnerable while within Very Close range.
+**_Bug Swarm:_** PCs are _Vulnerable_ while within Very Close range.
 
-**_Mighty Swing:_** Spend a Fear to make a standard attack against all targets within Very Close range.
+**_Mighty Swing:_** **Spend a Fear** to make a standard attack against all targets within Very Close range.

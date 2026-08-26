@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Rally Guards:_** Spend 2 Fear to spotlight the Head Guard and up to 2d4 allies within Far range.
+**_Rally Guards:_** **Spend 2 Fear** to spotlight the Head Guard and up to **2d4** allies within Far range.
 
 **_On My Signal:_** Countdown (5). When the Head Guard is in the spotlight for the first time, activate the countdown. It ticks down when a PC makes an attack roll. When it triggers, all Archer Guards within Far range make a standard attack with advantage against the nearest target within their range. If any attacks succeed on the same target, combine their damage.
 

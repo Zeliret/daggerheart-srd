@@ -11,12 +11,12 @@
 
 **_Terrifying:_** When the Oracle makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.
 
-**_Walls Closing In:_** When a creature rolls a failure while within Very Far range of the Oracle, they must mark a Stress.
+**_Walls Closing In:_** When a creature rolls a failure while within Very Far range of the Oracle, they must **mark a Stress**.
 
-**_Pronounce Fate:_** Spend a Fear to present a target within Far range with a vision of their personal nightmare. The target must make a Knowledge Reaction Roll. On a failure, they lose all Hope and take 2d20+4 direct magic damage. On a success, they take half damage and lose a Hope.
+**_Pronounce Fate:_** **Spend a Fear** to present a target within Far range with a vision of their personal nightmare. The target must make a **Knowledge Reaction Roll**. On a failure, they lose all Hope and take **2d20+4** direct magic damage. On a success, they take half damage and lose a Hope.
 
-**_Summon Tormentors:_** Once per day, spend 2 Fear to summon 2d4 Tier 2 or below Minions relevant to one of the PC’s personal nightmares. They appear at Close range relative to that PC.
+**_Summon Tormentors:_** Once per day, **spend 2 Fear** to summon **2d4** Tier 2 or below Minions relevant to one of the PC’s personal nightmares. They appear at Close range relative to that PC.
 
 **_Ominous Knowledge:_** When the Oracle sees a mortal creature, they instantly know one of their personal nightmares.
 
-**_Vengeful Fate:_** When the Oracle marks HP from an attack within Very Close range, you can mark a Stress to knock the attacker back to Far range and deal 2d10+4 physical damage.
+**_Vengeful Fate:_** When the Oracle marks HP from an attack within Very Close range, you can **mark a Stress** to knock the attacker back to Far range and deal **2d10+4** physical damage.

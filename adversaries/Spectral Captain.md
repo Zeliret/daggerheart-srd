@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Ghost:_** The Captain has resistance to physical damage. Mark a Stress to move up to Close range through solid objects.
+**_Ghost:_** The Captain has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
 
-**_Unending Battle:_** Spend 2 Fear to return up to 1d4+1 defeated Spectral allies to the battle at the points where they first appeared (with no marked HP or Stress).
+**_Unending Battle:_** **Spend 2 Fear** to return up to **1d4+1** defeated Spectral allies to the battle at the points where they first appeared (with no marked HP or Stress).
 
-**_Hold Fast:_** When the Captain’s Spectral allies are forced to make a reaction roll, you can mark a Stress to give those allies a +2 bonus to the roll.
+**_Hold Fast:_** When the Captain’s Spectral allies are forced to make a reaction roll, you can **mark a Stress** to give those allies a +2 bonus to the roll.
 
 **_Momentum:_** When the Captain makes a successful attack against a PC, you gain a Fear.

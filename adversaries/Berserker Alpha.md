@@ -11,6 +11,6 @@
 
 **_Pack Fury:_** The Alpha gains a +1 bonus to their attack rolls for each ally within Very Close range of their attack’s target.
 
-**_Bark at the Moon:_** Once per scene, spend a Fear to have each ally within Close range of the Alpha clear a HP and a Stress.
+**_Bark at the Moon:_** Once per scene, **spend a Fear** to have each ally within Close range of the Alpha clear a HP and a Stress.
 
 **_Berserker Rage:_** The first time in a scene the Alpha marks their last Stress, they gain a +6 bonus to damage rolls.

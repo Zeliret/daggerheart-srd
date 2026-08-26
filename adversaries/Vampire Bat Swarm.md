@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Horde (2d6):_** When the Swarm has marked half or more of its HP, its standard attack deals 2d6 physical damage instead.
+**_Horde (2d6):_** When the Swarm has marked half or more of its HP, its standard attack deals **2d6** physical damage instead.
 
 **_Blinding Multitude:_** The Swarm is so thick it blocks the vision of anyone it interacts with. Creatures within Melee range have disadvantage on attacks made against adversaries other than the Swarm.
 
-**_Bloodsuckers:_** When the Swarm deals damage to a target, you can mark a Stress to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP.
+**_Bloodsuckers:_** When the Swarm deals damage to a target, you can **mark a Stress** to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP.

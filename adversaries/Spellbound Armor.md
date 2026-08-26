@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Tireless:_** The Armor can’t be forced to mark Stress. When an effect would cause it to mark Stress, the Armor ignores that part of the effect.
+**_Tireless:_** The Armor can’t be forced to **mark Stress**. When an effect would cause it to **mark Stress**, the Armor ignores that part of the effect.
 
-**_Clatter & Recombobulate:_** Once per scene when the Armor is defeated, you can spend a Fear to reactivate it. Clear 2 HP and immediately spotlight it.
+**_Clatter & Recombobulate:_** Once per scene when the Armor is defeated, you can **spend a Fear** to reactivate it. Clear 2 HP and immediately spotlight it.

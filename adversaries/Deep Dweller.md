@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Psychic Blast:_** Spend a Fear to choose up to three targets within Close range and force them to make an Instinct or Knowledge Reaction Roll. Targets who succeed mark a Stress. Targets who fail take 3d10+4 direct magic damage and are Vulnerable until spotlighted.
+**_Psychic Blast:_** **Spend a Fear** to choose up to three targets within Close range and force them to make an **Instinct or Knowledge Reaction Roll**. Targets who succeed **mark a Stress**. Targets who fail take **3d10+4** direct magic damage and are _Vulnerable_ until spotlighted.
 
-**_Brain Drain:_** Mark a Stress to choose a Vulnerable PC within Very Close range. The target marks 1d4 Stress, and the Deep Dweller clears an equal number of HP.
+**_Brain Drain:_** **Mark a Stress** to choose a _Vulnerable_ PC within Very Close range. The target marks **1d4** Stress, and the Deep Dweller clears an equal number of HP.
 
-**_Call of the Deep:_** Spend 2 Fear to summon 1d4 Cursed Merfolk, who appear at Far range and immediately take the spotlight.
+**_Call of the Deep:_** **Spend 2 Fear** to summon **1d4** _Cursed_ Merfolk, who appear at Far range and immediately take the spotlight.
 
-**_Mucosal Contamination:_** Make an attack roll against a PC within Very Close range. On a success, the Deep Dweller uses its tentacles to immobilize the target, sliming them with toxic sludge. The target is Restrained until they break free or slip out with a successful Strength or Finesse Roll. Each time the Deep Dweller is spotlighted, all PCs Restrained in this way take 3d8 direct physical damage. The Deep Dweller releases all creatures Restrained by it when it’s defeated or takes Severe damage.
+**_Mucosal Contamination:_** Make an attack roll against a PC within Very Close range. On a success, the Deep Dweller uses its tentacles to immobilize the target, sliming them with toxic sludge. The target is _Restrained_ until they break free or slip out with a successful **Strength or Finesse Roll**. Each time the Deep Dweller is spotlighted, all PCs _Restrained_ in this way take **3d8** direct physical damage. The Deep Dweller releases all creatures _Restrained_ by it when it’s defeated or takes Severe damage.

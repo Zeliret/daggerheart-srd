@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Toxic Aura:_** The Harpy emits a foul stench that renders all non-Harpies Vulnerable while within Very Close range.
+**_Toxic Aura:_** The Harpy emits a foul stench that renders all non-Harpies _Vulnerable_ while within Very Close range.
 
-**_Swooping Attack:_** Mark a Stress to have the Harpy move in a straight line to a point within Far range and make an attack against a target in the Harpy’s path. On a success, the Harpy deals 3d6 physical damage.
+**_Swooping Attack:_** **Mark a Stress** to have the Harpy move in a straight line to a point within Far range and make an attack against a target in the Harpy’s path. On a success, the Harpy deals **3d6** physical damage.

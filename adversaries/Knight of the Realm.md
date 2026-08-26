@@ -13,6 +13,6 @@
 
 **_Heavily Armored:_** When the Knight takes physical damage, reduce it by 3.
 
-**_Cavalry Charge:_** If the Knight is mounted, move up to Far range and make a standard attack against a target. On a success, deal 2d8+4 physical damage and the target must mark a Stress.
+**_Cavalry Charge:_** If the Knight is mounted, move up to Far range and make a standard attack against a target. On a success, deal **2d8+4** physical damage and the target must **mark a Stress**.
 
-**_For the Realm!:_** Mark a Stress to spotlight 1d4+1 allies. Attacks they make while spotlighted in this way deal half damage.
+**_For the Realm!:_** **Mark a Stress** to spotlight **1d4+1** allies. Attacks they make while spotlighted in this way deal half damage.

@@ -10,9 +10,9 @@
 
 **_Arcane Form:_** The Elemental is resistant to magic damage.
 
-**_Sickening Flux:_** Mark a HP to force all targets within Close range to mark a Stress and become Vulnerable until their next rest or they clear a HP.
+**_Sickening Flux:_** Mark a HP to force all targets within Close range to **mark a Stress** and become _Vulnerable_ until their next rest or they clear a HP.
 
-**_Remake Reality:_** Spend a Fear to transform the area within Very Close range into a different biome. All targets within this area take 2d6+3 direct magic damage.
+**_Remake Reality:_** **Spend a Fear** to transform the area within Very Close range into a different biome. All targets within this area take **2d6+3** direct magic damage.
 
 **_Magical Reflection:_** When the Elemental takes damage from an attack within Close range, deal an amount of damage to the attacker equal to half the damage they dealt.
 

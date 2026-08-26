@@ -9,12 +9,12 @@
 
 ### FEATURES
 
-**_Relentless (2):_** The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (2):_** The Harbinger can be spotlighted up to two times per GM turn. **Spend Fear** as usual to spotlight them.
 
-**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.
+**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you **mark a Stress** to summon it again.
 
-**_Iron Dice:_** Mark a Stress to have the Harbinger attempt a risky all-out attack. Make a standard attack with advantage. On a success, the target marks an additional HP. On a failure, the Harbinger becomes Vulnerable until they take or deal damage.
+**_Iron Dice:_** **Mark a Stress** to have the Harbinger attempt a risky all-out attack. Make a standard attack with advantage. On a success, the target marks an additional HP. On a failure, the Harbinger becomes _Vulnerable_ until they take or deal damage.
 
-**_Supreme Commander:_** Once per scene, spend a Fear to summon 1d6 Hallowed Soldiers within Close range and immediately spotlight one of them.
+**_Supreme Commander:_** Once per scene, **spend a Fear** to summon **1d6** Hallowed Soldiers within Close range and immediately spotlight one of them.
 
-**_Battering Ram:_** When a PC fails an action roll within Close range, you can spend a Fear to move into Melee range with the PC and make a standard attack with advantage against them. On a success, the PC takes standard damage and is Vulnerable until they are spotlighted.
+**_Battering Ram:_** When a PC fails an action roll within Close range, you can **spend a Fear** to move into Melee range with the PC and make a standard attack with advantage against them. On a success, the PC takes standard damage and is _Vulnerable_ until they are spotlighted.

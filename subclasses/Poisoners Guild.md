@@ -7,13 +7,13 @@ Knowledge
 
 ### FOUNDATION FEATURE
 
-**_Toxic Concoctions:_** Mark a Stress to place 1d4+1 tokens on this card. When you make a successful weapon attack, you can spend a token to afflict the target with a poison. You know these poisons: ◦ Ghost Petal: The target becomes temporarily Vulnerable. ◦ Grave Spore: The target must also mark a Stress. ◦ Leech Weed: You deal an extra 1d6 damage on this attack. When you take a long rest, clear all unspent tokens.
+**_Toxic Concoctions:_** **Mark a Stress** to place **1d4+1** tokens on this card. When you make a successful weapon attack, you can spend a token to afflict the target with a poison. You know these poisons: ◦ Ghost Petal: The target becomes temporarily _Vulnerable_. ◦ Grave Spore: The target must also **mark a Stress**. ◦ Leech Weed: You deal an extra **1d6** damage on this attack. When you take a long rest, clear all unspent tokens.
 
 ### SPECIALIZATION FEATURES
 
-**_Poison Compendium:_** You also know these poisons: ◦ Midnight Vine: The target has disadvantage on attack rolls until it marks a Stress to clear this condition. ◦ Gorgon Root: The target becomes temporarily Restrained.
+**_Poison Compendium:_** You also know these poisons: ◦ Midnight Vine: The target has disadvantage on attack rolls until it marks a Stress to clear this condition. ◦ Gorgon Root: The target becomes temporarily _Restrained_.
 
-**_Twin Fang:_** When you afflict a target Marked for Death with a poison you know, you can spend an additional token to also inflict the effect of a second poison you know.
+**_Twin Fang:_** When you afflict a target _Marked for Death_ with a poison you know, you can spend an additional token to also inflict the effect of a second poison you know.
 
 ### MASTERY FEATURES
 

@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Venomous Tail Stinger:_** Mark a Stress to attack a target within Close range. On a success, the target takes 3d10+2 physical damage and must succeed on a Strength Reaction Roll or become Restrained and Vulnerable until they roll with Hope.
+**_Venomous Tail Stinger:_** **Mark a Stress** to attack a target within Close range. On a success, the target takes **3d10+2** physical damage and must succeed on a **Strength Reaction Roll** or become _Restrained_ and _Vulnerable_ until they roll with Hope.
 
-**_Devour:_** Make an attack against a target within Melee range. On a success, the Sandwyrm Swallows the target. While Swallowed, the target is Restrained and marks a HP when the Sandwyrm is spotlighted. The Sandwyrm disgorges all Swallowed creatures when it takes Major or greater damage.
+**_Devour:_** Make an attack against a target within Melee range. On a success, the Sandwyrm Swallows the target. While Swallowed, the target is _Restrained_ and marks a HP when the Sandwyrm is spotlighted. The Sandwyrm disgorges all Swallowed creatures when it takes Major or greater damage.
 
-**_Hungry, Not Stupid:_** When the Sandwyrm marks half its HP or Swallows a creature, roll a d6. On a result of 3 or lower, the Sandwyrm retreats to safety.
+**_Hungry, Not Stupid:_** When the Sandwyrm marks half its HP or Swallows a creature, roll a **d6**. On a result of 3 or lower, the Sandwyrm retreats to safety.

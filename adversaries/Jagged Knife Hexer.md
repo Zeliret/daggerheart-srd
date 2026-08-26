@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Curse:_** Choose a target within Far range and temporarily Curse them. While the target is Cursed, you can mark a Stress when that target rolls with Hope to make the roll be with Fear instead.
+**_Curse:_** Choose a target within Far range and temporarily Curse them. While the target is _Cursed_, you can **mark a Stress** when that target rolls with Hope to make the roll be with Fear instead.
 
-**_Chaotic Flux:_** Make an attack against up to three targets within Very Close range. Mark a Stress to deal 2d6+3 magic damage to targets the Hexer succeeded against.
+**_Chaotic Flux:_** Make an attack against up to three targets within Very Close range. **Mark a Stress** to deal **2d6+3** magic damage to targets the Hexer succeeded against.

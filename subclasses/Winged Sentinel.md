@@ -14,10 +14,10 @@ Strength
 
 ### SPECIALIZATION FEATURE
 
-**_Ethereal Visage:_** Your supernatural visage strikes awe and fear. While flying, you have advantage on Presence Rolls. When you succeed with Hope on a Presence Roll, you can remove a Fear from the GM's Fear pool instead of gaining Hope.
+**_Ethereal Visage:_** Your supernatural visage strikes awe and fear. While flying, you have advantage on **Presence Roll**s. When you succeed with Hope on a **Presence Roll**, you can remove a Fear from the GM's Fear pool instead of gaining Hope.
 
 ### MASTERY FEATURES
 
 **_Ascendant:_** Gain a permanent +4 bonus to your Severe damage threshold.
 
-**_Power of the Gods:_** While flying, you deal an extra **1d12** damage instead of 1d8 from your "Wings of Light" feature.
+**_Power of the Gods:_** While flying, you deal an extra **1d12** damage instead of **1d8** from your "Wings of Light" feature.

@@ -9,14 +9,14 @@
 
 ### FEATURES
 
-**_Relentless (3):_** The Cipactli can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.
+**_Relentless (3):_** The Cipactli can be spotlighted up to three times per GM turn. **Spend Fear** as usual to spotlight it.
 
-**_Many Mouths:_** Mark a Stress to make a standard attack against all targets within Very Close range. Targets the Cipactli succeeds against must also mark a Stress.
+**_Many Mouths:_** **Mark a Stress** to make a standard attack against all targets within Very Close range. Targets the Cipactli succeeds against must also **mark a Stress**.
 
-**_Frenzied Feeding:_** Spend a Fear to force all PCs within Close range to succeed on an Instinct Reaction Roll or take 4d6 direct physical damage. The Cipactli clears a HP for each creature who took Severe damage from this attack.
+**_Frenzied Feeding:_** **Spend a Fear** to force all PCs within Close range to succeed on an **Instinct Reaction Roll** or take **4d6** direct physical damage. The Cipactli clears a HP for each creature who took Severe damage from this attack.
 
-**_Quaking Footfalls:_** Mark a Stress to force each PC within Far range to make an Agility Reaction Roll. Targets who fail must mark 2 Stress and are Vulnerable until they take damage. Targets who succeed must mark a Stress.
+**_Quaking Footfalls:_** **Mark a Stress** to force each PC within Far range to make an **Agility Reaction Roll**. Targets who fail must **mark 2 Stress** and are _Vulnerable_ until they take damage. Targets who succeed must **mark a Stress**.
 
-**_Lifeblooded:_** When the Cipactli takes Severe damage, its blood splashes to the ground and instantly erupts into a jungle. All creatures within Close range are temporarily Restrained.
+**_Lifeblooded:_** When the Cipactli takes Severe damage, its blood splashes to the ground and instantly erupts into a jungle. All creatures within Close range are temporarily _Restrained_.
 
 **_Verdant Explosion:_** When the Cipactli marks its last HP, its body erupts into dense vegetation that overtakes the landscape.

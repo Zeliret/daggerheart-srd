@@ -13,4 +13,4 @@
 
 **_Swooping Strike:_** Choose a point within Far range. The Gargoyle moves to that point and makes a standard attack against one target along its path.
 
-**_Petrifying Slash:_** When the Gargoyle deals damage, the target must succeed on a Strength Reaction Roll or become Vulnerable. If the target is already Vulnerable, they become Restrained. If the target is already Vulnerable and Restrained, they must make a death move. The PC can spend a Hope per condition to clear it.
+**_Petrifying Slash:_** When the Gargoyle deals damage, the target must succeed on a **Strength Reaction Roll** or become _Vulnerable_. If the target is already _Vulnerable_, they become _Restrained_. If the target is already _Vulnerable_ and _Restrained_, they must make a death move. The PC can **spend a Hope** per condition to clear it.

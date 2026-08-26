@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Relentless (2):_** The Drake can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight it.
+**_Relentless (2):_** The Drake can be spotlighted up to two times per GM turn. **Spend Fear** as usual to spotlight it.
 
-**_Guard Dog:_** When a PC would deal damage to a creature within Close range, you can mark a Stress to have the Drake move to intercept the attack and take the damage instead. If the attacker is within Melee range of the Drake’s new position, you can immediately spotlight the Drake without spending Fear.
+**_Guard Dog:_** When a PC would deal damage to a creature within Close range, you can **mark a Stress** to have the Drake move to intercept the attack and take the damage instead. If the attacker is within Melee range of the Drake’s new position, you can immediately spotlight the Drake without spending Fear.

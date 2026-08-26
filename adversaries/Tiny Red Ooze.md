@@ -8,4 +8,4 @@
 
 ### FEATURES
 
-**_Burning:_** When a creature within Melee range deals damage to the Ooze, they take 1d6 direct magic damage.
+**_Burning:_** When a creature within Melee range deals damage to the Ooze, they take **1d6** direct magic damage.

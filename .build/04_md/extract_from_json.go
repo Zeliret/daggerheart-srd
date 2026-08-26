@@ -67,6 +67,7 @@ func main() {
 			return linkEnvironmentAdversaries(value, adversaryLinks)
 		},
 		"adversaryFeatureText": formatAdversaryFeatureText,
+		"mechanicsText":        mechanicsText,
 		"optionAt":            optionAt,
 		"add1":                add1,
 		"sourceMarkdown":      sourceMarkdown,
@@ -136,6 +137,11 @@ var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT
 var sourceFeature = regexp.MustCompile(`^([A-Z][^:]{1,59}):\s+(.+)$`)
 var sourceSubclassHeading = regexp.MustCompile(`(?m)^([A-Z][A-Z '’&–—-]+) SUBCLASSES\n`)
 var classDomainLine = regexp.MustCompile(`(?m)^- \*\*DOMAINS —\*\* ([^&\n]+) & ([^\n]+)$`)
+var mechanicsResourceAction = regexp.MustCompile(`(?i)\b(?:spend|mark)\s+(?:(?:any|an?|one|two|three|four|five|six|\d+)\s+)?(?:(?:equal\s+)?(?:number|amount)\s+of\s+)?(?:Hope|Stress|Fear|Focus|Armor Slots?|Hit Points?)\b`)
+var mechanicsRoll = regexp.MustCompile(`\b[A-Z][a-z]+(?:\s+or\s+[A-Z][a-z]+)?\s+(?:Reaction\s+)?Roll(?:\s+\(\d+\))?`)
+var mechanicsDie = regexp.MustCompile(`\b(?:\d+)?d(?:4|6|8|10|12|20)s?(?:[+−-](?:(?:\d+)?d(?:4|6|8|10|12|20)s?|\d+))*\b`)
+var mechanicsCondition = regexp.MustCompile(`(?i)\b(?:Marked for Death|Vulnerable|Restrained|Hidden|Cloaked|Chained|Cursed|Dazed|Poisoned|Rattled|Sickened|Trapped|Stunned|Silenced|Horrified|Frostbitten|Nauseated|Hungover)\b`)
+var mechanicsMarkdownSpan = regexp.MustCompile(`\*\*[^*]+\*\*|_[^_]+_`)
 
 // sourceMarkdown turns the clean text extracted from the two-column SRD PDF
 // into readable Markdown. SRD 2.0 additions that do not yet have every legacy
@@ -144,7 +150,7 @@ func sourceMarkdown(source string) string {
 	var out, paragraph []string
 	flush := func() {
 		if len(paragraph) > 0 {
-			out = append(out, strings.Join(paragraph, " "), "")
+			out = append(out, mechanicsText(strings.Join(paragraph, " ")), "")
 			paragraph = nil
 		}
 	}
@@ -156,7 +162,7 @@ func sourceMarkdown(source string) string {
 		}
 		if strings.HasPrefix(line, "•") {
 			flush()
-			out = append(out, "- "+strings.TrimSpace(strings.TrimPrefix(line, "•")))
+			out = append(out, "- "+mechanicsText(strings.TrimSpace(strings.TrimPrefix(line, "•"))))
 			continue
 		}
 		if match := sourceMetadata.FindStringSubmatch(line); match != nil {
@@ -182,6 +188,36 @@ func sourceMarkdown(source string) string {
 	}
 	flush()
 	return strings.TrimSpace(normalizeMarkdown(strings.Join(out, "\n")))
+}
+
+// mechanicsText mirrors the PDF's selective emphasis in generated rules text:
+// explicit costs, named rolls, and dice are bold; named conditions are italic.
+// It operates on raw CSV/JSON content before Markdown is rendered.
+func mechanicsText(value string) string {
+	var out strings.Builder
+	last := 0
+	for _, match := range mechanicsMarkdownSpan.FindAllStringIndex(value, -1) {
+		out.WriteString(emphasizeMechanics(value[last:match[0]]))
+		out.WriteString(value[match[0]:match[1]])
+		last = match[1]
+	}
+	out.WriteString(emphasizeMechanics(value[last:]))
+	return out.String()
+}
+
+func emphasizeMechanics(value string) string {
+	value = mechanicsResourceAction.ReplaceAllStringFunc(value, func(match string) string {
+		return "**" + match + "**"
+	})
+	value = mechanicsRoll.ReplaceAllStringFunc(value, func(match string) string {
+		return "**" + match + "**"
+	})
+	value = mechanicsDie.ReplaceAllStringFunc(value, func(match string) string {
+		return "**" + match + "**"
+	})
+	return mechanicsCondition.ReplaceAllStringFunc(value, func(match string) string {
+		return "_" + match + "_"
+	})
 }
 
 // classSourceMarkdown keeps subclass rules in their canonical documents. The

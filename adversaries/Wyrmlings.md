@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Horde (2d6+5):_** When the Wyrmlings have marked half or more of their HP, their standard attack deals 2d6+5 physical damage instead.
+**_Horde (2d6+5):_** When the Wyrmlings have marked half or more of their HP, their standard attack deals **2d6+5** physical damage instead.
 
-**_Ravenous:_** Once per GM turn when a PC marks a HP from an attack made by the Wyrmlings, you can spend a Fear to spotlight the Wyrmlings again.
+**_Ravenous:_** Once per GM turn when a PC marks a HP from an attack made by the Wyrmlings, you can **spend a Fear** to spotlight the Wyrmlings again.
 
-**_Overwhelm:_** When the Wyrmlings take Minor damage from an attack within Melee range, you can mark a Stress to make a standard attack with advantage against the attacker.
+**_Overwhelm:_** When the Wyrmlings take Minor damage from an attack within Melee range, you can **mark a Stress** to make a standard attack with advantage against the attacker.

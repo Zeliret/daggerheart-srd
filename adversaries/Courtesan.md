@@ -9,4 +9,4 @@
 
 ### FEATURES
 
-**_Searing Glance:_** When a PC within Close range makes a Presence Roll, you can mark a Stress to cast a gaze toward the aftermath. On the target’s failure, they must mark 2 Stress and are Vulnerable until the scene ends or they succeed on a social action against the Courtesan. On the target’s success, they must mark a Stress.
+**_Searing Glance:_** When a PC within Close range makes a **Presence Roll**, you can **mark a Stress** to cast a gaze toward the aftermath. On the target’s failure, they must **mark 2 Stress** and are _Vulnerable_ until the scene ends or they succeed on a social action against the Courtesan. On the target’s success, they must **mark a Stress**.

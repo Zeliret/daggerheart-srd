@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Swashbuckler:_** When the Captain marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.
+**_Swashbuckler:_** When the Captain marks 2 or fewer HP from an attack within Melee range, the attacker must **mark a Stress**.
 
-**_Reinforcements:_** Once per scene, mark a Stress to summon a Pirate Raiders Horde, which appears at Far range.
+**_Reinforcements:_** Once per scene, **mark a Stress** to summon a Pirate Raiders Horde, which appears at Far range.
 
-**_No Quarter:_** Spend a Fear to choose a target who has three or more Pirates within Melee range of them. The Captain leads the Pirates in hurling threats and promises of a watery grave. The target must make a Presence Reaction Roll. On a failure, the target marks 1d4+1 Stress. On a success, they must mark a Stress.
+**_No Quarter:_** **Spend a Fear** to choose a target who has three or more Pirates within Melee range of them. The Captain leads the Pirates in hurling threats and promises of a watery grave. The target must make a **Presence Reaction Roll**. On a failure, the target marks **1d4+1** Stress. On a success, they must **mark a Stress**.
 
 **_Momentum:_** When the Captain makes a successful attack against a PC, you gain a Fear.

@@ -10,4 +10,4 @@
 
 **_Too Many to Handle:_** When the Zombie is within Melee range of a creature and at least one other Zombie is within Close range, all attacks against that creature have advantage.
 
-**_Horrifying:_** Targets who mark HP from the Zombie’s attacks must also mark a Stress.
+**_Horrifying:_** Targets who mark HP from the Zombie’s attacks must also **mark a Stress**.

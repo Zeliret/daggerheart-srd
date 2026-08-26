@@ -10,6 +10,6 @@
 
 **_Minion (4):_** The Jack-o’-Lantern is defeated when it takes any damage. For every 4 damage a PC deals to the Jack-o’- Lantern, the PC defeats an additional Minion within range the attack would succeed against.
 
-**_Group Attack:_** Spend a Fear to choose a target and spotlight all Jack-o’-Lanterns within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 6 physical damage each. Combine this damage.
+**_Group Attack:_** **Spend a Fear** to choose a target and spotlight all Jack-o’-Lanterns within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 6 physical damage each. Combine this damage.
 
-**_Spine-Chilling Cackle:_** When a PC within Very Close range rolls with Fear, you can mark a Stress to gain an additional Fear.
+**_Spine-Chilling Cackle:_** When a PC within Very Close range rolls with Fear, you can **mark a Stress** to gain an additional Fear.

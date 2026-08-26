@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Relentless (2):_** The Fowlbear can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight it.
+**_Relentless (2):_** The Fowlbear can be spotlighted up to two times per GM turn. **Spend Fear** as usual to spotlight it.
 
-**_Double Strike:_** Mark a Stress to make two standard attacks. If both attacks succeed against the same target, combine the damage.
+**_Double Strike:_** **Mark a Stress** to make two standard attacks. If both attacks succeed against the same target, combine the damage.
 
-**_Dread Honk:_** Spend a Fear to have the Fowlbear unleash a terrifying, ear-splitting goose honk. Each PC within Close range must make a Presence Reaction Roll. Targets who fail must mark a Stress, move away from the Fowlbear to Far range, and become Vulnerable until the Fowlbear deals damage to them. Targets who succeed must mark a Stress or move away from the Fowlbear to Far range.
+**_Dread Honk:_** **Spend a Fear** to have the Fowlbear unleash a terrifying, ear-splitting goose honk. Each PC within Close range must make a **Presence Reaction Roll**. Targets who fail must **mark a Stress**, move away from the Fowlbear to Far range, and become _Vulnerable_ until the Fowlbear deals damage to them. Targets who succeed must **mark a Stress** or move away from the Fowlbear to Far range.

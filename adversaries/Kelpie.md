@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Captivating:_** A PC must mark a Stress to move out of the Kelpie’s Melee range.
+**_Captivating:_** A PC must **mark a Stress** to move out of the Kelpie’s Melee range.
 
 **_Heart’s Desire:_** After the Kelpie interacts with or watches a creature for at least a hundred heartbeats, the Kelpie knows the physical form that creature would find most pleasing or alluring.
 
-**_Shapeshifter:_** Mark a Stress to change the Kelpie’s physical form into any creature or object smaller than a wagon. A creature has disadvantage on rolls against the Kelpie while the Kelpie is in a form the creature finds pleasing or alluring.
+**_Shapeshifter:_** **Mark a Stress** to change the Kelpie’s physical form into any creature or object smaller than a wagon. A creature has disadvantage on rolls against the Kelpie while the Kelpie is in a form the creature finds pleasing or alluring.
 
-**_Enchant:_** Spend a Fear to have the Kelpie beguile a PC within Close range. The PC must succeed on an Instinct Reaction Roll or become Enchanted until they take damage. While Enchanted, the PC perceives the Kelpie as a trusted friend or ally and will do what the Kelpie says unless it contradicts the PC’s most deeply held morals.
+**_Enchant:_** **Spend a Fear** to have the Kelpie beguile a PC within Close range. The PC must succeed on an **Instinct Reaction Roll** or become Enchanted until they take damage. While Enchanted, the PC perceives the Kelpie as a trusted friend or ally and will do what the Kelpie says unless it contradicts the PC’s most deeply held morals.

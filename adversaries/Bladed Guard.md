@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Shield Wall:_** A creature who tries to move within Very Close range of the Guard must succeed on an Agility Roll. If additional Bladed Guards are standing in a line alongside the first, and each is within Melee range of another guard in the line, the Difficulty increases by the total number of guards in that line.
+**_Shield Wall:_** A creature who tries to move within Very Close range of the Guard must succeed on an **Agility Roll**. If additional Bladed Guards are standing in a line alongside the first, and each is within Melee range of another guard in the line, the Difficulty increases by the total number of guards in that line.
 
-**_Detain:_** Make an attack against a target within Very Close range. On a success, mark a Stress to Restrain the target until they break free with a successful attack, Finesse Roll, or Strength Roll.
+**_Detain:_** Make an attack against a target within Very Close range. On a success, **mark a Stress** to Restrain the target until they break free with a successful attack, **Finesse Roll**, or **Strength Roll**.

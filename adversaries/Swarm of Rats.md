@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Horde (1d4+1):_** When the Swarm has marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead.
+**_Horde (1d4+1):_** When the Swarm has marked half or more of their HP, their standard attack deals **1d4+1** physical damage instead.
 
 **_In Your Face:_** All targets within Melee range have disadvantage on attacks against targets other than the Swarm.

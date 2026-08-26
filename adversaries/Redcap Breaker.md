@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Backbreaker:_** Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 physical damage. A target who marks HP from this attack is Restrained until they clear a HP.
+**_Backbreaker:_** **Mark a Stress** to make an attack against a target within Melee range. On a success, deal **3d4+10** physical damage. A target who marks HP from this attack is _Restrained_ until they clear a HP.
 
-**_Kneecapper:_** When the Breaker makes a successful standard attack, you can spend a Fear to make the target temporarily Vulnerable.
+**_Kneecapper:_** When the Breaker makes a successful standard attack, you can **spend a Fear** to make the target temporarily _Vulnerable_.

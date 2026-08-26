@@ -10,4 +10,4 @@
 
 **_Punish the Guilty:_** The Archer deals double damage to targets marked Guilty by a High Seraph.
 
-**_Divine Volley:_** Mark a Stress to make a standard attack against up to three targets.
+**_Divine Volley:_** **Mark a Stress** to make a standard attack against up to three targets.

@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Shadow Stalker:_** While Hidden, the Panther gains a +2 bonus to its attack rolls.
+**_Shadow Stalker:_** While _Hidden_, the Panther gains a +2 bonus to its attack rolls.
 
-**_Pouncing Strike:_** Mark a Stress to have the Panther leap into Melee range of a target within Far range and make an attack against them. On a success, deal 1d12+2 physical damage.
+**_Pouncing Strike:_** **Mark a Stress** to have the Panther leap into Melee range of a target within Far range and make an attack against them. On a success, deal **1d12+2** physical damage.

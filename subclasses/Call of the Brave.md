@@ -13,4 +13,4 @@ Play the Call of the Brave if you want to use the might of your enemies to fuel 
 
 ### MASTERY FEATURE
 
-**_Camaraderie:_** Your unwavering bravery is a rallying point for your allies. You can initiate a Tag Team Roll one additional time per session. Additionally, when an ally initiates a Tag Team Roll with you, they only need to spend 2 Hope to do so.
+**_Camaraderie:_** Your unwavering bravery is a rallying point for your allies. You can initiate a Tag **Team Roll** one additional time per session. Additionally, when an ally initiates a Tag **Team Roll** with you, they only need to **spend 2 Hope** to do so.

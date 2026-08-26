@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Pack Tactics:_** If the Soldier makes a standard attack and another Sylvan Soldier is within Melee range of the target, deal 1d8+5 physical damage instead of their standard damage.
+**_Pack Tactics:_** If the Soldier makes a standard attack and another Sylvan Soldier is within Melee range of the target, deal **1d8+5** physical damage instead of their standard damage.
 
-**_Forest Control:_** Spend a Fear to pull down a tree within Close range. A creature hit by the tree must succeed on an Agility Reaction Roll (15) or take 1d10 physical damage.
+**_Forest Control:_** **Spend a Fear** to pull down a tree within Close range. A creature hit by the tree must succeed on an **Agility Reaction Roll (15)** or take **1d10** physical damage.
 
-**_Blend In:_** When the Soldier makes a successful attack, you can mark a Stress to become Hidden until the Soldier’s next attack or a PC succeeds on an Instinct Roll (14) to find them.
+**_Blend In:_** When the Soldier makes a successful attack, you can **mark a Stress** to become _Hidden_ until the Soldier’s next attack or a PC succeeds on an **Instinct Roll (14)** to find them.

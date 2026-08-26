@@ -11,6 +11,6 @@
 
 **_Burrowing:_** The Landshark can move through the ground as easily as over it. When the Landshark moves, it can choose to burrow or surface. While underground, the Landshark has resistance to all damage but can’t attack.
 
-**_Thick-Skinned:_** When the Landshark would be forced to mark any number of HP, you can mark an equal number of Stress instead.
+**_Thick-Skinned:_** When the Landshark would be forced to mark any number of HP, you can **mark an equal number of Stress** instead.
 
-**_Rending Chomp:_** When the Landshark makes a successful attack against a PC within Melee range, you can spend a Fear to force the target to mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage).
+**_Rending Chomp:_** When the Landshark makes a successful attack against a PC within Melee range, you can **spend a Fear** to force the target to **mark an Armor Slot** without receiving its benefits (they can still use armor to reduce the damage).

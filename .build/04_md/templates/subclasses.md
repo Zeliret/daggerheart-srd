@@ -15,21 +15,21 @@
 
 {{- range .foundation }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 ### SPECIALIZATION FEATURE{{ if gt (len .specialization) 1 }}S{{ end }}
 
 {{- range .specialization }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 ### MASTERY FEATURE{{ if gt (len .mastery) 1 }}S{{ end }}
 
 {{- range .mastery }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 {{- if eq .name "Beastbound" }}

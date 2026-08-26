@@ -10,8 +10,8 @@
 
 **_Kinetic Slam:_** Targets who take damage from the Sentinel’s standard attack are knocked back to Very Close range.
 
-**_Box In:_** Mark a Stress to choose a target within Very Close range to focus on. That target has disadvantage on attack rolls when they’re within Very Close range of the Sentinel. The Sentinel can only focus on one target at a time.
+**_Box In:_** **Mark a Stress** to choose a target within Very Close range to focus on. That target has disadvantage on attack rolls when they’re within Very Close range of the Sentinel. The Sentinel can only focus on one target at a time.
 
-**_Mana Bolt:_** Spend a Fear to lob explosive magic at a point within Far range. All targets within Very Close range of that point must make an Agility Reaction Roll. Targets who fail take 2d8+20 magic damage and are knocked back to Close range. Targets who succeed take half damage and aren’t knocked back.
+**_Mana Bolt:_** **Spend a Fear** to lob explosive magic at a point within Far range. All targets within Very Close range of that point must make an **Agility Reaction Roll**. Targets who fail take **2d8+20** magic damage and are knocked back to Close range. Targets who succeed take half damage and aren’t knocked back.
 
 **_Momentum:_** When the Sentinel makes a successful attack against a PC, you gain a Fear.

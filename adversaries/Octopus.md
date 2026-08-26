@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Grapple:_** Make an attack roll against a target within Close range. On a success, the target becomes Restrained and Vulnerable until they escape with a successful Strength Roll.
+**_Grapple:_** Make an attack roll against a target within Close range. On a success, the target becomes _Restrained_ and _Vulnerable_ until they escape with a successful **Strength Roll**.
 
-**_Squirt Ink:_** Mark a Stress to have the Octopus squirt ink. On land, the ink covers the ground within Very Close range. Each creature who moves through that area must succeed on an Agility Reaction Roll or slip and fall, becoming Vulnerable until they exit the area. If this feature is used while the Octopus is underwater, it instead creates a cloud of darkness that fills an area within Very Close range and blocks line of sight.
+**_Squirt Ink:_** **Mark a Stress** to have the Octopus squirt ink. On land, the ink covers the ground within Very Close range. Each creature who moves through that area must succeed on an **Agility Reaction Roll** or slip and fall, becoming _Vulnerable_ until they exit the area. If this feature is used while the Octopus is underwater, it instead creates a cloud of darkness that fills an area within Very Close range and blocks line of sight.

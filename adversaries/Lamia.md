@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Constriction:_** Mark a Stress to have the Lamia wrap their tail around a PC within Melee range and squeeze. The target must succeed on a Finesse Reaction Roll or become Constricted until the Lamia moves or takes Major or greater damage. While Constricted, the target is Restrained and must mark a Stress when the Lamia takes the spotlight.
+**_Constriction:_** **Mark a Stress** to have the Lamia wrap their tail around a PC within Melee range and squeeze. The target must succeed on a **Finesse Reaction Roll** or become Constricted until the Lamia moves or takes Major or greater damage. While Constricted, the target is _Restrained_ and must **mark a Stress** when the Lamia takes the spotlight.
 
-**_Life Leech:_** Mark a Stress to force a Vulnerable or Restrained target within Melee range to mark 1d4-1 HP. The Lamia then clears an equal number of HP.
+**_Life Leech:_** **Mark a Stress** to force a _Vulnerable_ or _Restrained_ target within Melee range to mark **1d4-1** HP. The Lamia then clears an equal number of HP.
 
-**_Sleep Toxin:_** When the Lamia makes a successful standard attack against a PC, you can spend a Fear to make them Vulnerable until they succeed on a Instinct Roll (19).
+**_Sleep Toxin:_** When the Lamia makes a successful standard attack against a PC, you can **spend a Fear** to make them _Vulnerable_ until they succeed on a **Instinct Roll (19)**.

@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Headbutt:_** When the Elk moves from Close range or farther before making a standard attack, it deals 1d12+2 physical damage instead of its standard damage.
+**_Headbutt:_** When the Elk moves from Close range or farther before making a standard attack, it deals **1d12+2** physical damage instead of its standard damage.
 
-**_Bolt:_** When the Elk marks a HP or Stress, it must succeed on a Reaction Roll (10) or flee the scene.
+**_Bolt:_** When the Elk marks a HP or Stress, it must succeed on a **Reaction Roll (10)** or flee the scene.

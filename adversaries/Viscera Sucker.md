@@ -11,6 +11,6 @@
 
 **_Join or Die:_** The Viscera Sucker dies if it hasn’t reconnected its upper and lower halves by dawn.
 
-**_Entangling Entrails:_** Spend a Fear to have the Viscera Sucker latch onto a target within Very Close range, Restraining them until they escape with a successful Strength Roll (16).
+**_Entangling Entrails:_** **Spend a Fear** to have the Viscera Sucker latch onto a target within Very Close range, Restraining them until they escape with a successful **Strength Roll (16)**.
 
-**_Lifesuck:_** Mark a Stress to have the Viscera Sucker drink blood from a Restrained target within Melee range. The target marks a HP, and the Viscera Sucker clears a HP.
+**_Lifesuck:_** **Mark a Stress** to have the Viscera Sucker drink blood from a _Restrained_ target within Melee range. The target marks a HP, and the Viscera Sucker clears a HP.

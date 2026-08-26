@@ -11,4 +11,4 @@
 
 **_Made of Straw:_** The Scarecrow has resistance to physical damage but takes double damage from fire.
 
-**_Terror Vision:_** Spend a Fear to have the Scarecrow lock eyes with a PC within Very Close range, dealing 2d8 magic damage and making them Vulnerable until they roll with Hope.
+**_Terror Vision:_** **Spend a Fear** to have the Scarecrow lock eyes with a PC within Very Close range, dealing **2d8** magic damage and making them _Vulnerable_ until they roll with Hope.

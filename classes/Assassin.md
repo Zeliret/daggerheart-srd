@@ -10,13 +10,13 @@ Assassins are masters at inflicting deadly injuries with precise strikes. Unlike
 
 ### ASSASSIN’S HOPE FEATURE
 
-**_Deadly Determination:_** Spend 3 Hope to clear 2 Stress.
+**_Deadly Determination:_** **Spend 3 Hope** to clear 2 Stress.
 
 ### CLASS FEATURES
 
-**_Marked for Death:_** On a successful weapon attack, you can mark a Stress to make the target Marked for Death. When you deal damage to a target you’ve Marked for Death, add a number of d4s equal to your tier to the damage roll. You can have only one adversary Marked for Death at a time. This condition lasts until you take a rest, the current adversary Marked for Death is defeated, or the GM spends a number of Fear equal to your tier to clear it.
+**_Marked for Death:_** On a successful weapon attack, you can **mark a Stress** to make the target _Marked for Death_. When you deal damage to a target you’ve _Marked for Death_, add a number of **d4s** equal to your tier to the damage roll. You can have only one adversary _Marked for Death_ at a time. This condition lasts until you take a rest, the current adversary _Marked for Death_ is defeated, or the GM spends a number of Fear equal to your tier to clear it.
 
-**_Get In & Get Out:_** Spend a Hope to ask the GM for a quick or inconspicuous way into or out of a place you can see. The next roll you make that acts on this information has advantage.
+**_Get In & Get Out:_** **Spend a Hope** to ask the GM for a quick or inconspicuous way into or out of a place you can see. The next roll you make that acts on this information has advantage.
 ### SUBCLASSES
 
 Choose either the **[Executioners Guild](../subclasses/Executioners%20Guild.md)** or **[Poisoners Guild](../subclasses/Poisoners%20Guild.md)** subclass.

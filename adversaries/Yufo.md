@@ -13,6 +13,6 @@
 
 **_Psychic Strongbox:_** The Yufo is immune to abilities and features that would affect or alter its thoughts or emotions.
 
-**_Glitch Wave:_** Spend a Fear and choose up to three targets within Close range. Each target must succeed on a Instinct Reaction Roll or become desynced from reality and have disadvantage on Instinct Rolls until they use a downtime move to ground their psyches in the now.
+**_Glitch Wave:_** **Spend a Fear** and choose up to three targets within Close range. Each target must succeed on a **Instinct Reaction Roll** or become desynced from reality and have disadvantage on **Instinct Roll**s until they use a downtime move to ground their psyches in the now.
 
-**_Temporal Corrosion:_** When the Yufo succeeds on a standard attack, you can mark a Stress to have the Yufo excrete an entropic acid through its skin, giving the target a -2 penalty to their damage thresholds until they use a downtime move to repair their armor.
+**_Temporal Corrosion:_** When the Yufo succeeds on a standard attack, you can **mark a Stress** to have the Yufo excrete an entropic acid through its skin, giving the target a -2 penalty to their damage thresholds until they use a downtime move to repair their armor.

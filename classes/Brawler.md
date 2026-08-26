@@ -10,13 +10,13 @@ Experts in unarmed combat, brawlers hone their bodies into lethal weapons. Wheth
 
 ### BRAWLER’S HOPE FEATURE
 
-**_Square Up:_** Spend 3 Hope to intimidate a target within Close range, making them temporarily Vulnerable.
+**_Square Up:_** **Spend 3 Hope** to intimidate a target within Close range, making them temporarily _Vulnerable_.
 
 ### CLASS FEATURES
 
-**_I Am the Weapon:_** Your barehanded attacks are as strong as any blade. You have a primary weapon called Brawler’s Strike equipped while you have no other Active Weapons. It uses a trait of your choice, has Melee range, and deals d8+d6 physical damage using your Proficiency (both the d8 and d6 scale off your Proficiency). While this weapon is active, you gain a +1 bonus to your Evasion.
+**_I Am the Weapon:_** Your barehanded attacks are as strong as any blade. You have a primary weapon called Brawler’s Strike equipped while you have no other Active Weapons. It uses a trait of your choice, has Melee range, and deals **d8+d6** physical damage using your Proficiency (both the **d8** and **d6** scale off your Proficiency). While this weapon is active, you gain a +1 bonus to your Evasion.
 
-**_Combo Strike:_** After rolling damage on a successful attack with a Melee weapon, you can mark a Stress to start a combo strike. When you do, roll your Combo Die and note the result, then continue rolling your Combo Die until the result of your latest roll is lower than the roll that preceded it. You deal extra damage equal to the total of all rolled Combo Die results on this attack. The results can’t be modified by any means. Your Combo Die starts as a d4. Once per tier, you can increase your Combo Die by one step as a level advancement option.
+**_Combo Strike:_** After rolling damage on a successful attack with a Melee weapon, you can **mark a Stress** to start a combo strike. When you do, roll your Combo Die and note the result, then continue rolling your Combo Die until the result of your latest roll is lower than the roll that preceded it. You deal extra damage equal to the total of all rolled Combo Die results on this attack. The results can’t be modified by any means. Your Combo Die starts as a **d4**. Once per tier, you can increase your Combo Die by one step as a level advancement option.
 ### SUBCLASSES
 
 Choose either the **[Juggernaut](../subclasses/Juggernaut.md)** or **[Martial Artist](../subclasses/Martial%20Artist.md)** subclass.

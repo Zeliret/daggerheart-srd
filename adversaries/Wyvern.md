@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Double Strike:_** Mark a Stress to have the Wyvern make two standard attacks. If both attacks succeed against the same target, combine the damage.
+**_Double Strike:_** **Mark a Stress** to have the Wyvern make two standard attacks. If both attacks succeed against the same target, combine the damage.
 
-**_Terrifying Shriek:_** Spend a Fear to have the Wyvern let out a spine-chilling screech. All PCs within Far range are Terrified until they succeed on a Presence Roll (18) to clear the condition or the Wyvern is defeated. While Terrified, a PC doesn’t gain a Hope when they roll with Hope.
+**_Terrifying Shriek:_** **Spend a Fear** to have the Wyvern let out a spine-chilling screech. All PCs within Far range are Terrified until they succeed on a **Presence Roll (18)** to clear the condition or the Wyvern is defeated. While Terrified, a PC doesn’t gain a Hope when they roll with Hope.
 
-**_Clutch:_** When the Wyvern makes a successful attack against a PC, you can spend a Fear to have the Wyvern Restrain the target in its claws until the PC succeeds on a Strength Roll (18) or the Wyvern takes Major or greater damage. While Restrained in this way, the PC has disadvantage on attack rolls.
+**_Clutch:_** When the Wyvern makes a successful attack against a PC, you can **spend a Fear** to have the Wyvern Restrain the target in its claws until the PC succeeds on a **Strength Roll (18)** or the Wyvern takes Major or greater damage. While _Restrained_ in this way, the PC has disadvantage on attack rolls.

@@ -11,6 +11,6 @@
 
 **_My Land, My Rules:_** All social actions made against the Noble on their land have disadvantage.
 
-**_Guards, Seize Them!:_** Once per scene, mark a Stress to summon 1d4 Bladed Guards, who appear at Far range to enforce the Noble’s will.
+**_Guards, Seize Them!:_** Once per scene, **mark a Stress** to summon **1d4** Bladed Guards, who appear at Far range to enforce the Noble’s will.
 
-**_Exile:_** Spend a Fear and target a PC. The Noble proclaims that the target and their allies are exiled from the noble’s territory. While exiled, the target and their allies have disadvantage during social situations within the Noble’s domain.
+**_Exile:_** **Spend a Fear** and target a PC. The Noble proclaims that the target and their allies are exiled from the noble’s territory. While exiled, the target and their allies have disadvantage during social situations within the Noble’s domain.

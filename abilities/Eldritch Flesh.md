@@ -4,5 +4,5 @@
 
 Gain a +1 bonus to your damage thresholds for each Stress you
 have marked.
-Additionally, when you roll with Fear, you can spend 2 Hope to
+Additionally, when you roll with Fear, you can **spend 2 Hope** to
 clear an Armor Slot.

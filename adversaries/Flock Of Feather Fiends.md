@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Horde (1d6+1):_** When the Flock has marked half or more of its HP, its standard attack deals 1d6+1 magic damage instead.
+**_Horde (1d6+1):_** When the Flock has marked half or more of its HP, its standard attack deals **1d6+1** magic damage instead.
 
-**_Maddening Cacophony:_** Mark a Stress to force each PC within Very Close range to make an Instinct Reaction Roll. Targets who fail must spend a Hope or become Vulnerable until they deal damage to the Flock or the Flock is defeated.
+**_Maddening Cacophony:_** **Mark a Stress** to force each PC within Very Close range to make an **Instinct Reaction Roll**. Targets who fail must **spend a Hope** or become _Vulnerable_ until they deal damage to the Flock or the Flock is defeated.

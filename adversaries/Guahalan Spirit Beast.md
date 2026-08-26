@@ -12,6 +12,6 @@
 
 **_Ethereal Form:_** The Spirit Beast has resistance to physical damage.
 
-**_Group Attack:_** Spend a Fear to choose a target and spotlight all Guahalan Spirit Beasts within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 magic damage each. Combine this damage.
+**_Group Attack:_** **Spend a Fear** to choose a target and spotlight all Guahalan Spirit Beasts within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 magic damage each. Combine this damage.
 
 **_Beast Bomb:_** When the Spirit Beast is defeated, it explodes in white flame and deals 5 magic damage to creatures within Melee range.

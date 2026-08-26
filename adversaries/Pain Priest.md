@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Walk Between Worlds:_** Mark a Stress to place the Priest anywhere within Very Far range and immediately spotlight them again.
+**_Walk Between Worlds:_** **Mark a Stress** to place the Priest anywhere within Very Far range and immediately spotlight them again.
 
-**_Pleasure and Pain:_** When a PC within Close range of the Priest gains a Hope or marks HP, roll a d8. On a result of 8, the Priest opens a portal to their original dimension and flees there with the closest party member. You gain 1d6 Fear. The portal remains open until the Priest is defeated or spotlighted again.
+**_Pleasure and Pain:_** When a PC within Close range of the Priest gains a Hope or marks HP, roll a **d8**. On a result of 8, the Priest opens a portal to their original dimension and flees there with the closest party member. You gain **1d6** Fear. The portal remains open until the Priest is defeated or spotlighted again.

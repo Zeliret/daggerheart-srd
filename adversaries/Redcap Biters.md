@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Horde (1d4+2):_** When the Biters have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead.
+**_Horde (1d4+2):_** When the Biters have marked half or more of their HP, their standard attack deals **1d4+2** physical damage instead.
 
-**_Ankle Weights:_** A PC must mark a Stress to move out of the Biters’ Melee range.
+**_Ankle Weights:_** A PC must **mark a Stress** to move out of the Biters’ Melee range.

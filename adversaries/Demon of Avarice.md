@@ -13,4 +13,4 @@
 
 **_Numbers Must Go Up:_** Add a bonus to the Demon’s attack rolls equal to the number of handfuls of gold they have.
 
-**_Money Is Time:_** Spend 3 handfuls of gold (or a Fear) to spotlight 1d4+1 allies.
+**_Money Is Time:_** Spend 3 handfuls of gold (or a Fear) to spotlight **1d4+1** allies.

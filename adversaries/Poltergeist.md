@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Specter:_** The Poltergeist has resistance to physical damage. Mark a Stress to move up to Close range through solid objects.
+**_Specter:_** The Poltergeist has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
 
-**_Possessor:_** Mark a Stress to have the Poltergeist inhabit a nonmagical object that is entirely within Close range, infusing the object with a ghostly glow. The next time the Poltergeist would take damage, the object is destroyed instead, and the Poltergeist is expelled from it.
+**_Possessor:_** **Mark a Stress** to have the Poltergeist inhabit a nonmagical object that is entirely within Close range, infusing the object with a ghostly glow. The next time the Poltergeist would take damage, the object is destroyed instead, and the Poltergeist is expelled from it.
 
-**_Ghost Storm:_** Spend a Fear to have the Poltergeist pull all unequipped nonmagical objects within Very Close range into a violent vortex. Each target in that area must make an Agility Reaction Roll. Targets who fail take 1d12+2 physical damage. Targets who succeed take half damage.
+**_Ghost Storm:_** **Spend a Fear** to have the Poltergeist pull all unequipped nonmagical objects within Very Close range into a violent vortex. Each target in that area must make an **Agility Reaction Roll**. Targets who fail take **1d12+2** physical damage. Targets who succeed take half damage.

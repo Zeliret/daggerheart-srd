@@ -8,10 +8,10 @@
 
 ### FEATURES
 
-**_Horde (2d6+5):_** When the Legion has marked half or more of their HP, their standard attack deals 2d6+5 physical damage instead.
+**_Horde (2d6+5):_** When the Legion has marked half or more of their HP, their standard attack deals **2d6+5** physical damage instead.
 
 **_Unyielding:_** The Legion has resistance to physical damage.
 
-**_Relentless (2):_** The Legion can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (2):_** The Legion can be spotlighted up to two times per GM turn. **Spend Fear** as usual to spotlight them.
 
-**_Overwhelm:_** When the Legion takes Minor damage from an attack within Melee range, you can mark a Stress to make a standard attack with advantage against the attacker.
+**_Overwhelm:_** When the Legion takes Minor damage from an attack within Melee range, you can **mark a Stress** to make a standard attack with advantage against the attacker.

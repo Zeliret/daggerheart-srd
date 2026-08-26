@@ -11,6 +11,6 @@
 
 **_Terrifying:_** When the Shark makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.
 
-**_Rending Bite:_** When the Shark makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.
+**_Rending Bite:_** When the Shark makes a successful attack, the target must **mark an Armor Slot** without receiving its benefits (they can still use armor to reduce the damage). If they can’t **mark an Armor Slot**, they must mark an additional HP.
 
-**_Blood in the Water:_** When a creature within Close range of the Shark marks HP from another creature’s attack, you can mark a Stress to immediately spotlight the Shark, moving them into Melee range of the target and making a standard attack.
+**_Blood in the Water:_** When a creature within Close range of the Shark marks HP from another creature’s attack, you can **mark a Stress** to immediately spotlight the Shark, moving them into Melee range of the target and making a standard attack.

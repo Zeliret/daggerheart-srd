@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Relentless (3):_** The Behemoth can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.
+**_Relentless (3):_** The Behemoth can be spotlighted up to three times per GM turn. **Spend Fear** as usual to spotlight it.
 
 **_Deep Diver:_** The Behemoth can move through the ground as easily as over it. When the Behemoth moves, it can choose to burrow or surface. While underground, the Behemoth is immune to damage but can’t attack.
 
 **_Steel-Skinned:_** All damage dealt to the Behemoth is reduced by one threshold.
 
-**_Forceful Eruption:_** The Behemoth erupts from the ground, forcing each PC within Very Close range to succeed on an Agility Reaction Roll or be knocked over, becoming Vulnerable until they make an action roll. For each PC made Vulnerable in this way, you gain a Fear.
+**_Forceful Eruption:_** The Behemoth erupts from the ground, forcing each PC within Very Close range to succeed on an **Agility Reaction Roll** or be knocked over, becoming _Vulnerable_ until they make an action roll. For each PC made _Vulnerable_ in this way, you gain a Fear.

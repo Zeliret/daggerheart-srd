@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Execute Them!:_** Spend a Fear per PC in the party to have the group condemned for crimes real or imagined. A PC who succeeds on a Presence Roll can demand trial by combat or another special form of trial.
+**_Execute Them!:_** **Spend a Fear** per PC in the party to have the group condemned for crimes real or imagined. A PC who succeeds on a **Presence Roll** can demand trial by combat or another special form of trial.
 
-**_Crownsguard:_** Once per scene, mark a Stress to summon six Tier 3 Minions, who appear at Close range to enforce the Monarch’s will.
+**_Crownsguard:_** Once per scene, **mark a Stress** to summon six Tier 3 Minions, who appear at Close range to enforce the Monarch’s will.
 
-**_Casus Belli:_** Long-Term Countdown (8). Spend a Fear to activate after the Monarch’s desire for war is first revealed. When it triggers, the Monarch has a reason to rally the nation to war and the support to act on that reason. You gain 1d4 Fear.
+**_Casus Belli:_** Long-Term Countdown (8). **Spend a Fear** to activate after the Monarch’s desire for war is first revealed. When it triggers, the Monarch has a reason to rally the nation to war and the support to act on that reason. You gain **1d4** Fear.

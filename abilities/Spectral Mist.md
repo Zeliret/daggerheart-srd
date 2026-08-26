@@ -2,7 +2,7 @@
 
 **_Level 5_** _Dread Spell._ **_Recall Cost_** _0._
 
-Spend 2 Hope to conjure an eerie mist that turns you and allies
+**Spend 2 Hope** to conjure an eerie mist that turns you and allies
 of your choice within Close range momentarily incorporeal.
 While a creature is incorporeal, they can move through solid
 objects and are immune to physical damage. They become

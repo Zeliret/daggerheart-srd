@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Trample:_** Mark a Stress to have the Elephant charge up to Far range in a straight line. Each target in its path must succeed on an Agility Reaction Roll or take 2d10+3 physical damage.
+**_Trample:_** **Mark a Stress** to have the Elephant charge up to Far range in a straight line. Each target in its path must succeed on an **Agility Reaction Roll** or take **2d10+3** physical damage.
 
-**_Toss:_** When the Elephant makes a successful standard attack, you can spend a Fear to have it toss the target to another location within Close range and deal an extra 1d12 damage.
+**_Toss:_** When the Elephant makes a successful standard attack, you can **spend a Fear** to have it toss the target to another location within Close range and deal an extra **1d12** damage.

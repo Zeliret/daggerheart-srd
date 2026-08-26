@@ -9,12 +9,12 @@
 
 ### FEATURES
 
-**_Relentless (2):_** The Titan can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (2):_** The Titan can be spotlighted up to two times per GM turn. **Spend Fear** as usual to spotlight them.
 
-**_War Horn:_** Mark a Stress to force each PC within Far range to succeed on a Presence Reaction Roll or mark a Stress and become Vulnerable until after the next attack against them.
+**_War Horn:_** **Mark a Stress** to force each PC within Far range to succeed on a **Presence Reaction Roll** or **mark a Stress** and become _Vulnerable_ until after the next attack against them.
 
-**_Bull Rush:_** Mark a Stress to move up to Close range and make an attack roll against a target within Melee range. On a success, deal 4d10+2 physical damage and knock the target back to Close range.
+**_Bull Rush:_** **Mark a Stress** to move up to Close range and make an attack roll against a target within Melee range. On a success, deal **4d10+2** physical damage and knock the target back to Close range.
 
-**_Cleaving Strike:_** When a PC marks HP from the Titan’s standard attack, you can mark a Stress to force another PC within Very Close range who the attack would have succeeded against to mark the same number of HP.
+**_Cleaving Strike:_** When a PC marks HP from the Titan’s standard attack, you can **mark a Stress** to force another PC within Very Close range who the attack would have succeeded against to mark the same number of HP.
 
 **_Trophy Hunter:_** When the Titan defeats a PC, the Titan takes the PC’s most valuable possession as a trophy.

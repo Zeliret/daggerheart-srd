@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Horde (1d4-1):_** When the Will-o’-the-Wisps have marked half or more of their HP, their standard attack deals 1d4-1 magic damage instead.
+**_Horde (1d4-1):_** When the Will-o’-the-Wisps have marked half or more of their HP, their standard attack deals **1d4-1** magic damage instead.
 
-**_Kaleidoscopic:_** The Will-o’-the-Wisps pulse and dance in hypnotic, color-changing patterns that entrance any creature who looks upon them. All targets within Very Close range of the Will-o’-the-Wisps are Vulnerable.
+**_Kaleidoscopic:_** The Will-o’-the-Wisps pulse and dance in hypnotic, color-changing patterns that entrance any creature who looks upon them. All targets within Very Close range of the Will-o’-the-Wisps are _Vulnerable_.
 
-**_Fascinating:_** Spend a Fear to have the Will-o’-the-Wisps trace looping light trails through the air, leaving afterimages that beg to be deciphered. Each PC within Far range must succeed on an Instinct Reaction Roll (13) or mark a Stress and move up to Close range toward the Will-o’-the-Wisps.
+**_Fascinating:_** **Spend a Fear** to have the Will-o’-the-Wisps trace looping light trails through the air, leaving afterimages that beg to be deciphered. Each PC within Far range must succeed on an **Instinct Reaction Roll (13)** or **mark a Stress** and move up to Close range toward the Will-o’-the-Wisps.

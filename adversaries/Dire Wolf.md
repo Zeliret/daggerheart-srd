@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Pack Tactics:_** If the Wolf makes a successful standard attack and another Dire Wolf is within Melee range of the target, deal 1d6+5 physical damage instead of their standard damage and you gain a Fear.
+**_Pack Tactics:_** If the Wolf makes a successful standard attack and another Dire Wolf is within Melee range of the target, deal **1d6+5** physical damage instead of their standard damage and you gain a Fear.
 
-**_Hobbling Strike:_** Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 direct physical damage and make them Vulnerable until they clear at least 1 HP.
+**_Hobbling Strike:_** **Mark a Stress** to make an attack against a target within Melee range. On a success, deal **3d4+10** direct physical damage and make them _Vulnerable_ until they clear at least 1 HP.

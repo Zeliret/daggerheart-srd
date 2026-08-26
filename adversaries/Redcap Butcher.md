@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Chop Happy:_** Mark a Stress to make a standard attack against up to three targets. For each target who marks HP, you gain a Fear.
+**_Chop Happy:_** **Mark a Stress** to make a standard attack against up to three targets. For each target who marks HP, you gain a Fear.
 
-**_Knife Thrower:_** Mark a Stress to make a standard attack against a target within Far range. If the Butcher is Hidden, they make the attack with advantage.
+**_Knife Thrower:_** **Mark a Stress** to make a standard attack against a target within Far range. If the Butcher is _Hidden_, they make the attack with advantage.

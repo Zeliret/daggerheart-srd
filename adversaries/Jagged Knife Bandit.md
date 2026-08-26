@@ -11,4 +11,4 @@
 
 **_Climber:_** The Bandit climbs just as easily as they run.
 
-**_From Above:_** When the Bandit succeeds on a standard attack from above a target, they deal 1d10+1 physical damage instead of their standard damage.
+**_From Above:_** When the Bandit succeeds on a standard attack from above a target, they deal **1d10+1** physical damage instead of their standard damage.

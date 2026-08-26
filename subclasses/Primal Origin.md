@@ -16,7 +16,7 @@ Instinct
 
 ### SPECIALIZATION FEATURE
 
-**_Enchanted Aid:_** You can enhance the magic of others with your essence. When you Help an Ally with a Spellcast Roll, you can roll a **d8** as your advantage die. Once per long rest, after an ally has made a Spellcast Roll with your help, you can swap the results of their Duality Dice.
+**_Enchanted Aid:_** You can enhance the magic of others with your essence. When you Help an Ally with a **Spellcast Roll**, you can roll a **d8** as your advantage die. Once per long rest, after an ally has made a **Spellcast Roll** with your help, you can swap the results of their Duality Dice.
 
 ### MASTERY FEATURE
 

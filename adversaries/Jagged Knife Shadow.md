@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Backstab:_** When the Shadow succeeds on a standard attack that has advantage, they deal 1d6+6 physical damage instead of their standard damage.
+**_Backstab:_** When the Shadow succeeds on a standard attack that has advantage, they deal **1d6+6** physical damage instead of their standard damage.
 
-**_Cloaked:_** Become Hidden until after the Shadow’s next attack. Attacks made while Hidden from this feature have advantage.
+**_Cloaked:_** Become _Hidden_ until after the Shadow’s next attack. Attacks made while _Hidden_ from this feature have advantage.

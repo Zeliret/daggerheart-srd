@@ -11,6 +11,6 @@
 
 **_Greater Specter:_** The Wraith has resistance to physical damage and can move through solid objects.
 
-**_Spooky:_** When the Wraith makes a successful attack, all PCs within Close range must mark a Stress, and you gain a Fear.
+**_Spooky:_** When the Wraith makes a successful attack, all PCs within Close range must **mark a Stress**, and you gain a Fear.
 
-**_Nightmare Shroud:_** Spend a Fear to have the Wraith wrap itself around a PC within Melee range, Shrouding the target until they succeed on a Strength Roll to dislodge the Wraith or the Wraith takes Major or greater damage. While Shrouded, the target has disadvantage on attack rolls and marks a Stress when they roll with Fear. Additionally, damage that would be dealt to the Wraith is split evenly between the Wraith and the Shrouded target.
+**_Nightmare Shroud:_** **Spend a Fear** to have the Wraith wrap itself around a PC within Melee range, Shrouding the target until they succeed on a **Strength Roll** to dislodge the Wraith or the Wraith takes Major or greater damage. While Shrouded, the target has disadvantage on attack rolls and marks a Stress when they roll with Fear. Additionally, damage that would be dealt to the Wraith is split evenly between the Wraith and the Shrouded target.

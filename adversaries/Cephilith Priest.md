@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Psychic Blast:_** Spend a Fear to choose up to three PCs within Close range and force them to make a Knowledge Reaction Roll. Targets who succeed take 2d10+5 direct magic damage. Targets who fail take 4d10+10 direct magic damage and are Vulnerable until spotlighted.
+**_Psychic Blast:_** **Spend a Fear** to choose up to three PCs within Close range and force them to make a **Knowledge Reaction Roll**. Targets who succeed take **2d10+5** direct magic damage. Targets who fail take **4d10+10** direct magic damage and are _Vulnerable_ until spotlighted.
 
-**_Cerebral Incursion:_** Spend a Fear to choose a Vulnerable target within Melee range. The Priest grabs the target and inserts their elongated fingers into the target’s ears, nose, and mouth. The target must succeed on a Strength Reaction Roll or mark 1d6 Stress, and the Priest clears an equal number of Stress.
+**_Cerebral Incursion:_** **Spend a Fear** to choose a _Vulnerable_ target within Melee range. The Priest grabs the target and inserts their elongated fingers into the target’s ears, nose, and mouth. The target must succeed on a **Strength Reaction Roll** or mark **1d6** Stress, and the Priest clears an equal number of Stress.
 
-**_Telekinetic Grasp:_** When the Priest makes a successful standard attack against a PC, you can mark a Stress to Restrain the target until they spend a Hope.
+**_Telekinetic Grasp:_** When the Priest makes a successful standard attack against a PC, you can **mark a Stress** to Restrain the target until they **spend a Hope**.

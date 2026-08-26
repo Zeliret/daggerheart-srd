@@ -11,6 +11,6 @@
 
 **_Minion (13):_** The Wyrmfiend is defeated when it takes any damage. For every 13 damage a PC deals to the Wyrmfiend, the PC defeats an additional Minion within range the attack would succeed against.
 
-**_Venomous Bite:_** Spend a Fear to make an attack against a PC within Melee range. On a success, deal 4d4+4 physical damage and Poison the target until they succeed on a Strength Roll (20). While Poisoned, the target must roll a d6 before they make an action roll. On a result of 4 or lower, the target must mark a Stress.
+**_Venomous Bite:_** **Spend a Fear** to make an attack against a PC within Melee range. On a success, deal **4d4+4** physical damage and Poison the target until they succeed on a **Strength Roll (20)**. While _Poisoned_, the target must roll a **d6** before they make an action roll. On a result of 4 or lower, the target must **mark a Stress**.
 
-**_Group Attack:_** Spend a Fear to choose a target and spotlight all Wyrmfiends within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 11 physical damage each. Combine this damage.
+**_Group Attack:_** **Spend a Fear** to choose a target and spotlight all Wyrmfiends within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 11 physical damage each. Combine this damage.

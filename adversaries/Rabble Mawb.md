@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Horde (1d4+1):_** When the Rabble Mawb has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead.
+**_Horde (1d4+1):_** When the Rabble Mawb has marked half or more of its HP, its standard attack deals **1d4+1** physical damage instead.
 
-**_Come Back Worse:_** When the Rabble Mawb is defeated, you can spend a Fear to bring it back to life, clearing all HP and Stress. The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb.
+**_Come Back Worse:_** When the Rabble Mawb is defeated, you can **spend a Fear** to bring it back to life, clearing all HP and Stress. The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb.

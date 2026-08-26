@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Swashbuckler:_** When the Tough marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.
+**_Swashbuckler:_** When the Tough marks 2 or fewer HP from an attack within Melee range, the attacker must **mark a Stress**.
 
-**_Clear the Decks:_** Make an attack against a target within Very Close range. On a success, mark a Stress to move into Melee range of the target, dealing 3d4 physical damage and knocking the target back to Close range.
+**_Clear the Decks:_** Make an attack against a target within Very Close range. On a success, **mark a Stress** to move into Melee range of the target, dealing **3d4** physical damage and knocking the target back to Close range.

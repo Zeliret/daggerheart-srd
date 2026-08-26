@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Horde (2d6+2):_** When the Night Children have marked half or more of their HP, their standard attack deals 2d6+2 physical damage instead.
+**_Horde (2d6+2):_** When the Night Children have marked half or more of their HP, their standard attack deals **2d6+2** physical damage instead.
 
-**_Swell Ranks:_** Once per scene, mark any number of Stress to have the Night Children open a portal that spews forth reinforcements, refilling the Horde’s ranks. Clear a number of HP equal to the number of Stress marked.
+**_Swell Ranks:_** Once per scene, **mark any number of Stress** to have the Night Children open a portal that spews forth reinforcements, refilling the Horde’s ranks. Clear a number of HP equal to the number of Stress marked.
 
-**_Overwhelm:_** When the Night Children mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker.
+**_Overwhelm:_** When the Night Children mark HP from an attack within Melee range, you can **mark a Stress** to make a standard attack against the attacker.

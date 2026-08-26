@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Specter:_** The Dullahan has resistance to physical damage. Mark a Stress to move up to Close range through solid objects.
+**_Specter:_** The Dullahan has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
 
-**_Spectral Mount:_** While atop their steed, the Dullahan can move up to Far range instead of Close range before taking an action. If the Dullahan is unhorsed, their mount disappears until you mark a Stress to summon it again. The Dullahan is Vulnerable while not on their horse.
+**_Spectral Mount:_** While atop their steed, the Dullahan can move up to Far range instead of Close range before taking an action. If the Dullahan is unhorsed, their mount disappears until you **mark a Stress** to summon it again. The Dullahan is _Vulnerable_ while not on their horse.
 
-**_Bone Whip Strike:_** Mark a Stress to make an attack against a target within Melee range. On a success, the target takes 4d4+10 direct physical damage and is Vulnerable until they clear a HP.
+**_Bone Whip Strike:_** **Mark a Stress** to make an attack against a target within Melee range. On a success, the target takes **4d4+10** direct physical damage and is _Vulnerable_ until they clear a HP.
 
-**_Death Glare:_** Spend a Fear to choose a PC within Far range. The target must make an Presence Reaction Roll (19). On a success, they mark a Stress. On a failure, they mark a HP and activate a Doom Countdown (4). It ticks down when the Dullahan is spotlighted. When it triggers, the target makes a death move. If the Dullahan is defeated or the PCs take a rest, all Doom Countdowns end.
+**_Death Glare:_** **Spend a Fear** to choose a PC within Far range. The target must make an **Presence Reaction Roll (19)**. On a success, they **mark a Stress**. On a failure, they mark a HP and activate a Doom Countdown (4). It ticks down when the Dullahan is spotlighted. When it triggers, the target makes a death move. If the Dullahan is defeated or the PCs take a rest, all Doom Countdowns end.

@@ -7,15 +7,15 @@ Play the Martial Artist if you want to use a variety of fighting styles to elimi
 
 ### SPECIALIZATION FEATURES
 
-**_Keen Defenses:_** When you’re targeted by an attack, you can spend a Focus to gain a bonus to your Evasion equal to your tier against the attack.
+**_Keen Defenses:_** When you’re targeted by an attack, you can **spend a Focus** to gain a bonus to your Evasion equal to your tier against the attack.
 
-**_Focus Cannon:_** Spend a Focus to make an Instinct Roll against an adversary within Far range. On a success, deal d20+3 magic damage using your Proficiency.
+**_Focus Cannon:_** **Spend a Focus** to make an **Instinct Roll** against an adversary within Far range. On a success, deal **d20+3** magic damage using your Proficiency.
 
 ### MASTERY FEATURE
 
 **_Limit Breaker:_** Once per rest, you can perform an unbelievable feat of athletic prowess, such as running across water, leaping between distant rooftops, or scaling a building without needing to roll. When you do, gain a Hope and clear a Stress.
 
-**_Flow State:_** You can mark a Stress instead of spending a Focus to shift into a different stance. Additionally, you can spend a Focus instead of marking a Stress to start a combo strike.
+**_Flow State:_** You can **mark a Stress** instead of spending a Focus to shift into a different stance. Additionally, you can **spend a Focus** instead of marking a Stress to start a combo strike.
 
 ### MARTIAL STANCES
 
@@ -27,11 +27,11 @@ Stances are special body positionings that enable Martial Artists to attack, rea
 
 ### FOCUS
 
-Focus represents your character’s poise, clarity, and control. Once per rest during a moment of calm, you can clear your mind and refocus your martial instincts. Clear your Focus track, then roll a number of d6s equal to your Instinct and gain Focus equal to the highest result rolled. You can hold a maximum of 6 Focus.
+Focus represents your character’s poise, clarity, and control. Once per rest during a moment of calm, you can clear your mind and refocus your martial instincts. Clear your Focus track, then roll a number of **d6s** equal to your Instinct and gain Focus equal to the highest result rolled. You can hold a maximum of 6 Focus.
 
 ### SHIFTING INTO STANCES
 
-You can spend a Focus to shift into a martial stance and gain its effects. You can shift only into stances you’ve marked as known. When you shift into a stance, it’s considered your active stance until you drop out of it. You can’t shift into or have more than one active stance at a time. Until you shift into a stance, you are not considered to be in a stance or to have an active stance.
+You can **spend a Focus** to shift into a martial stance and gain its effects. You can shift only into stances you’ve marked as known. When you shift into a stance, it’s considered your active stance until you drop out of it. You can’t shift into or have more than one active stance at a time. Until you shift into a stance, you are not considered to be in a stance or to have an active stance.
 
 ### DROPPING OUT OF STANCES
 
@@ -45,9 +45,9 @@ The following section lists all martial stances by tier.
 
 **_Favored:_** Gain a bonus to damage rolls equal to a trait of your choice.
 
-**_Invigorating:_** On a successful attack, roll a d4. On a result of 4, gain a Focus.
+**_Invigorating:_** On a successful attack, roll a **d4**. On a result of 4, gain a Focus.
 
-**_Quick:_** When you make an attack, you can spend a Focus or mark a Stress to target another creature within range with that attack.
+**_Quick:_** When you make an attack, you can **spend a Focus** or **mark a Stress** to target another creature within range with that attack.
 
 **_Reliable:_** Gain a +1 bonus to your attack rolls.
 
@@ -63,20 +63,20 @@ The following section lists all martial stances by tier.
 
 ### TIER 3
 
-**_Grappling:_** On a successful attack within Melee range, you can spend a Focus or mark a Stress to temporarily Restrain the target or throw the target up to Close range.
+**_Grappling:_** On a successful attack within Melee range, you can **spend a Focus** or **mark a Stress** to temporarily Restrain the target or throw the target up to Close range.
 
-**_Scary:_** On a successful attack, the target must mark a Stress.
+**_Scary:_** On a successful attack, the target must **mark a Stress**.
 
-**_Stable:_** You can spend a Focus instead of an Armor Slot to reduce damage.
+**_Stable:_** You can **spend a Focus** instead of an Armor Slot to reduce damage.
 
-**_Vigilant:_** When you are targeted by an attack, you can mark a Stress to gain a d6 bonus to your Evasion against the attack.
+**_Vigilant:_** When you are targeted by an attack, you can **mark a Stress** to gain a **d6** bonus to your Evasion against the attack.
 
 ### TIER 4
 
-**_Crushing:_** When you deal Severe damage, you can spend a Hope to force the target to mark an additional Hit Point.
+**_Crushing:_** When you deal Severe damage, you can **spend a Hope** to force the target to mark an additional Hit Point.
 
 **_Exacting:_** When you roll a 1 on a damage die, you can treat it as the highest value on the die instead.
 
-**_Honed:_** Spend a Focus before you make an attack roll to gain a +1 bonus to your Proficiency for that attack.
+**_Honed:_** **Spend a Focus** before you make an attack roll to gain a +1 bonus to your Proficiency for that attack.
 
 **_Isolating:_** Gain advantage on attack rolls when there are no other creatures within Very Close range of you or your target.

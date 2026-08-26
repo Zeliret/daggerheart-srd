@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Draining Bite:_** Make an attack against a target within Melee range. On a success, deal 5d4 physical damage. A target who marks HP from this attack loses a Hope and must mark a Stress. The Vampire then clears a HP.
+**_Draining Bite:_** Make an attack against a target within Melee range. On a success, deal **5d4** physical damage. A target who marks HP from this attack loses a Hope and must **mark a Stress**. The Vampire then clears a HP.
 
-**_Mistform:_** When the Vampire takes physical damage, you can spend a Fear to take half damage.
+**_Mistform:_** When the Vampire takes physical damage, you can **spend a Fear** to take half damage.

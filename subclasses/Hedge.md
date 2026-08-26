@@ -9,11 +9,11 @@ Knowledge
 
 **_Herbal Remedies:_** When you or an ally in the scene clears 1 or more Hit Points or Stress as the result of using a consumable, increase the number cleared by 1.
 
-**_Enchanted Talisman:_** Once per rest, you can imbue a small item with your protective essence. Spend any number of Hope to place an equal number of tokens on this card. When the person holding the talisman takes damage, spend a token to reduce the number of Hit Points they mark by one. Clear all tokens from this card when you take a rest.
+**_Enchanted Talisman:_** Once per rest, you can imbue a small item with your protective essence. **Spend any number of Hope** to place an equal number of tokens on this card. When the person holding the talisman takes damage, spend a token to reduce the number of Hit Points they mark by one. Clear all tokens from this card when you take a rest.
 
 ### SPECIALIZATION FEATURES
 
-**_Walk Between Worlds:_** During a moment of calm, make a Spellcast Roll (13). Once per rest on a success, you can mark a Stress to step beyond the veil of death and converse with any nearby spirits. Place a number of tokens equal to your Spellcast trait on this card and remove one each time a spirit answers a question. When the last token is removed or at the end of the scene, you return to the Mortal Realm in the same spot you left it.
+**_Walk Between Worlds:_** During a moment of calm, make a **Spellcast Roll (13)**. Once per rest on a success, you can **mark a Stress** to step beyond the veil of death and converse with any nearby spirits. Place a number of tokens equal to your Spellcast trait on this card and remove one each time a spirit answers a question. When the last token is removed or at the end of the scene, you return to the Mortal Realm in the same spot you left it.
 
 **_Vexing Malison:_** You have advantage on attacks against Hexed creatures.
 

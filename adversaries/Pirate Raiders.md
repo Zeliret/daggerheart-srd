@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Horde (1d4+1):_** When the Raiders have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead.
+**_Horde (1d4+1):_** When the Raiders have marked half or more of their HP, their standard attack deals **1d4+1** physical damage instead.
 
-**_Swashbuckler:_** When the Raiders mark 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.
+**_Swashbuckler:_** When the Raiders mark 2 or fewer HP from an attack within Melee range, the attacker must **mark a Stress**.

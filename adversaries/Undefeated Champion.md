@@ -9,15 +9,15 @@
 
 ### FEATURES
 
-**_Relentless (3):_** The Undefeated Champion can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (3):_** The Undefeated Champion can be spotlighted up to three times per GM turn. **Spend Fear** as usual to spotlight them.
 
-**_Faltering Armor:_** When the Undefeated Champion takes damage, reduce it by 1d10.
+**_Faltering Armor:_** When the Undefeated Champion takes damage, reduce it by **1d10**.
 
-**_Shattering Strike:_** Mark a Stress to make a standard attack against all targets within Very Close range. PCs the Champion succeeds against lose a number of Hope equal to the HP they marked from this attack.
+**_Shattering Strike:_** **Mark a Stress** to make a standard attack against all targets within Very Close range. PCs the Champion succeeds against lose a number of Hope equal to the HP they marked from this attack.
 
-**_Endless Legions:_** Spend a Fear to summon a number of Fallen Shock Troops equal to twice the number of PCs. The Shock Troops appear at Far range.
+**_Endless Legions:_** **Spend a Fear** to summon a number of Fallen Shock Troops equal to twice the number of PCs. The Shock Troops appear at Far range.
 
-**_Circle of Defilement:_** Countdown (1d8). When the Undefeated Champion is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion.
+**_Circle of Defilement:_** Countdown (**1d8**). When the Undefeated Champion is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is _Vulnerable_ until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion.
 
 **_Momentum:_** When the Undefeated Champion makes a successful attack against a PC, you gain a Fear.
 

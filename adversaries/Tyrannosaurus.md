@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Earth-Shaking Roar:_** Spend a Fear to force each PC within Close range to make a Presence Reaction Roll. On a failure, they must choose to lose a Hope or mark 1d4 Stress.
+**_Earth-Shaking Roar:_** **Spend a Fear** to force each PC within Close range to make a **Presence Reaction Roll**. On a failure, they must choose to lose a Hope or mark **1d4** Stress.
 
-**_Stomp:_** Mark a Stress to attack a target within Melee range. On a success, the target takes 3d12 direct physical damage.
+**_Stomp:_** **Mark a Stress** to attack a target within Melee range. On a success, the target takes **3d12** direct physical damage.
 
-**_Crushing Bite:_** When the Tyrannosaurus makes a successful standard attack, you can spend a Fear to force the target to mark an additional HP.
+**_Crushing Bite:_** When the Tyrannosaurus makes a successful standard attack, you can **spend a Fear** to force the target to mark an additional HP.

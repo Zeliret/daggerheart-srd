@@ -13,4 +13,4 @@
 
 **_Shallow Cuts:_** When a PC fails a roll, they take 1 physical damage for each Skinner within Melee range of them. Combine this damage.
 
-**_Group Attack:_** Spend a Fear to choose a target and spotlight all Redcap Skinners within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage.
+**_Group Attack:_** **Spend a Fear** to choose a target and spotlight all Redcap Skinners within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage.

@@ -9,14 +9,14 @@
 
 ### FEATURES
 
-**_Relentless (2):_** The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (2):_** The Harbinger can be spotlighted up to two times per GM turn. **Spend Fear** as usual to spotlight them.
 
-**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.
+**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you **mark a Stress** to summon it again.
 
-**_Hunger Pangs:_** Countdown (Decreasing 6). When the Harbinger appears, activate the countdown. It ticks down when the Harbinger is spotlighted. When it triggers, all PCs within Far range mark a Stress and become Ravenous. While Ravenous, a PC can’t spend Hope until they clear the condition with a successful Instinct Roll.
+**_Hunger Pangs:_** Countdown (Decreasing 6). When the Harbinger appears, activate the countdown. It ticks down when the Harbinger is spotlighted. When it triggers, all PCs within Far range **mark a Stress** and become Ravenous. While Ravenous, a PC can’t **spend Hope** until they clear the condition with a successful **Instinct Roll**.
 
-**_Drain Essence:_** Spend a Fear to choose up to three PCs. Each target takes 4d6 magic damage.
+**_Drain Essence:_** **Spend a Fear** to choose up to three PCs. Each target takes **4d6** magic damage.
 
-**_Too Many Mouths:_** Mark a Stress to attack a PC within Melee range. On a success, the Harbinger grabs the target and bites them, dealing 4d6 physical damage and Restraining the target until they break free with a successful Strength Roll.
+**_Too Many Mouths:_** **Mark a Stress** to attack a PC within Melee range. On a success, the Harbinger grabs the target and bites them, dealing **4d6** physical damage and Restraining the target until they break free with a successful **Strength Roll**.
 
-**_Withering Touch:_** Spend a Fear to have the Harbinger caress the face of a Restrained PC within Melee range. The target marks 2 Stress and either loses a Hope or marks 1d4 HP.
+**_Withering Touch:_** **Spend a Fear** to have the Harbinger caress the face of a _Restrained_ PC within Melee range. The target marks 2 Stress and either loses a Hope or marks **1d4** HP.

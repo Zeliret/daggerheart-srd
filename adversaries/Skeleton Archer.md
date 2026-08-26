@@ -10,4 +10,4 @@
 
 **_Opportunist:_** When two or more adversaries are within Very Close range of a creature, all damage the Archer deals to that creature is doubled.
 
-**_Deadly Shot:_** Make an attack against a Vulnerable target within Far range. On a success, mark a Stress to deal 3d4+8 physical damage.
+**_Deadly Shot:_** Make an attack against a _Vulnerable_ target within Far range. On a success, **mark a Stress** to deal **3d4+8** physical damage.

@@ -10,4 +10,4 @@
 
 **_Will-Shattering Touch:_** When a PC takes damage from the Corrupter, they lose a Hope.
 
-**_Disgorge Reality Flotsam:_** Mark a Stress to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress.
+**_Disgorge Reality Flotsam:_** **Mark a Stress** to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a **Knowledge Reaction Roll** or **mark 2 Stress**.

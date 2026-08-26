@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Leathery Hide:_** When the Triceratops would be forced to mark HP, you can mark any number of Stress instead of an equal number of HP.
+**_Leathery Hide:_** When the Triceratops would be forced to mark HP, you can **mark any number of Stress** instead of an equal number of HP.
 
-**_Tail Swipe:_** Mark a Stress to choose up to three targets within Very Close range. Each target must make an Agility Reaction Roll. Targets who fail take 5d6 physical damage. Targets who succeed take half damage.
+**_Tail Swipe:_** **Mark a Stress** to choose up to three targets within Very Close range. Each target must make an **Agility Reaction Roll**. Targets who fail take **5d6** physical damage. Targets who succeed take half damage.
 
-**_Bull Rush:_** Mark a Stress to choose a target within Close range. The Triceratops moves into Melee range with the target and makes an attack. On a success, deal 3d10 direct physical damage.
+**_Bull Rush:_** **Mark a Stress** to choose a target within Close range. The Triceratops moves into Melee range with the target and makes an attack. On a success, deal **3d10** direct physical damage.

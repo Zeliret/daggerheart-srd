@@ -11,8 +11,8 @@
 
 **_Armor Eater:_** When the Pangolati makes a successful attack against a PC, that PC must mark an additional Armor Slot to reduce the severity of the damage.
 
-**_Blade Spin:_** Spend a Fear to have the Pangolati quickly spin in a circle. Each target within Very Close range must succeed on an Agility Reaction Roll or take 2d8 physical damage.
+**_Blade Spin:_** **Spend a Fear** to have the Pangolati quickly spin in a circle. Each target within Very Close range must succeed on an **Agility Reaction Roll** or take **2d8** physical damage.
 
-**_Blade Fling:_** Mark a Stress to have the Pangolati flick its tail and fling a razor-edged armor plate. Make an attack against a target within Far range. On a success, the attack deals 2d6+10 physical damage.
+**_Blade Fling:_** **Mark a Stress** to have the Pangolati flick its tail and fling a razor-edged armor plate. Make an attack against a target within Far range. On a success, the attack deals **2d6+10** physical damage.
 
-**_Keratin Scales:_** When the Pangolati would mark HP from an attack, you can mark a Stress to reduce the number of HP it marks by 1.
+**_Keratin Scales:_** When the Pangolati would mark HP from an attack, you can **mark a Stress** to reduce the number of HP it marks by 1.

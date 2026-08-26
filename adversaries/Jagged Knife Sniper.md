@@ -9,4 +9,4 @@
 
 ### FEATURES
 
-**_Unseen Strike:_** If the Sniper is Hidden when they make a successful standard attack against a target, they deal 1d10+4 physical damage instead of their standard damage.
+**_Unseen Strike:_** If the Sniper is _Hidden_ when they make a successful standard attack against a target, they deal **1d10+4** physical damage instead of their standard damage.

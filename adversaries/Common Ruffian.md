@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Group Attack:_** Spend a Fear to choose a target and spotlight all Ruffians within Close range of them. The Ruffians move into Melee range of the target and make one shared attack roll. On a success, they deal 1d8 physical damage each. Combine this damage.
+**_Group Attack:_** **Spend a Fear** to choose a target and spotlight all Ruffians within Close range of them. The Ruffians move into Melee range of the target and make one shared attack roll. On a success, they deal **1d8** physical damage each. Combine this damage.
 
-**_Survival Instinct:_** When the Ruffian marks half their HP, roll a d6. On a result of 4 or higher, the Ruffian flees the scene. Otherwise, you gain a Fear.
+**_Survival Instinct:_** When the Ruffian marks half their HP, roll a **d6**. On a result of 4 or higher, the Ruffian flees the scene. Otherwise, you gain a Fear.

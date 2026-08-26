@@ -9,12 +9,12 @@
 
 ### FEATURES
 
-**_Relentless (3):_** The Queen can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight her.
+**_Relentless (3):_** The Queen can be spotlighted up to three times per GM turn. **Spend Fear** as usual to spotlight her.
 
 **_Terrifying:_** When a PC fails an attack roll against the Queen, you gain a Fear.
 
-**_Den Mother:_** Once per scene, spend 2 Fear to summon up to two Darkweave adversaries (other than Darkweave Queens), who appear within Close range and immediately take the spotlight.
+**_Den Mother:_** Once per scene, **spend 2 Fear** to summon up to two Darkweave adversaries (other than Darkweave Queens), who appear within Close range and immediately take the spotlight.
 
-**_Quicker Than She Looks:_** Spend a Fear to move up to Far range and make a standard attack with advantage.
+**_Quicker Than She Looks:_** **Spend a Fear** to move up to Far range and make a standard attack with advantage.
 
-**_Darkfang Envenomation:_** When the Queen succeeds on a standard attack, you can spend a Fear to make the target Vulnerable and Restrained until they succeed on a Strength Roll (12) or take a rest.
+**_Darkfang Envenomation:_** When the Queen succeeds on a standard attack, you can **spend a Fear** to make the target _Vulnerable_ and _Restrained_ until they succeed on a **Strength Roll (12)** or take a rest.

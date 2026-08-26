@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Specter:_** The Banshee has resistance to physical damage. Mark a Stress to move up to Close range through solid objects.
+**_Specter:_** The Banshee has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
 
 **_Terrifying:_** When the Banshee makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.
 
-**_Scare Tactic:_** Up to three times per scene, spend a Fear to have the Banshee teleport up to Very Far range and scare a PC within Melee range. The PC marks 1d4 Stress. If this causes them to mark HP, they also lose a Hope.
+**_Scare Tactic:_** Up to three times per scene, **spend a Fear** to have the Banshee teleport up to Very Far range and scare a PC within Melee range. The PC marks **1d4** Stress. If this causes them to mark HP, they also lose a Hope.
 
-**_Wail of Despair:_** Mark a Stress to have the Banshee unleash a mournful scream of pain and anguish. Each PC within Close range must make a Presence Reaction Roll. Targets who succeed take 1d12+1 magic damage. Targets who fail take double damage and are knocked back to Close range.
+**_Wail of Despair:_** **Mark a Stress** to have the Banshee unleash a mournful scream of pain and anguish. Each PC within Close range must make a **Presence Reaction Roll**. Targets who succeed take **1d12+1** magic damage. Targets who fail take double damage and are knocked back to Close range.

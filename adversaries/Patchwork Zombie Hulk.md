@@ -15,4 +15,4 @@
 
 **_Another for the Pile:_** When the Zombie is within Very Close range of a corpse, they can incorporate it into themselves, clearing a HP and a Stress.
 
-**_Tormented Screams:_** Mark a Stress to cause all PCs within Far range to make a Presence Reaction Roll (13). Targets who fail lose a Hope and you gain a Fear for each. Targets who succeed must mark a Stress.
+**_Tormented Screams:_** **Mark a Stress** to cause all PCs within Far range to make a **Presence Reaction Roll (13)**. Targets who fail lose a Hope and you gain a Fear for each. Targets who succeed must **mark a Stress**.

@@ -7,7 +7,7 @@ Agility
 
 ### FOUNDATION FEATURES
 
-**_Ruthless Predator:_** When you make a damage roll, you can **mark a Stress** to gain a +1 bonus to your Proficiency. Additionally, when you deal Severe damage to an adversary, they must mark a Stress.
+**_Ruthless Predator:_** When you make a damage roll, you can **mark a Stress** to gain a +1 bonus to your Proficiency. Additionally, when you deal Severe damage to an adversary, they must **mark a Stress**.
 
 **_Path Forward:_** When you're traveling to a place you've previously visited or you carry an object that has been at the location before, you can identify the shortest, most direct path to your destination.
 

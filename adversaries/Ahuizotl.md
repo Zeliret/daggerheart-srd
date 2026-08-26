@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Aquatic Attacker:_** When the Ahuizotl attacks from the water, it has advantage on the attack and deals an extra 1d6 damage.
+**_Aquatic Attacker:_** When the Ahuizotl attacks from the water, it has advantage on the attack and deals an extra **1d6** damage.
 
-**_Tail Swat:_** Mark a Stress to make an attack against a target within Very Close range. On a success, deal 1d8+2 physical damage.
+**_Tail Swat:_** **Mark a Stress** to make an attack against a target within Very Close range. On a success, deal **1d8+2** physical damage.
 
-**_Drag and Bag:_** Spend a Fear to have the Ahuizotl grab a target within Close range with its tail, pull the target into Melee range, and temporarily Restrain them. The Ahuizotl has advantage on attacks against targets Restrained in this way.
+**_Drag and Bag:_** **Spend a Fear** to have the Ahuizotl grab a target within Close range with its tail, pull the target into Melee range, and temporarily Restrain them. The Ahuizotl has advantage on attacks against targets _Restrained_ in this way.

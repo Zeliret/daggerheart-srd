@@ -77,13 +77,13 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 - [Colossal Adversaries](#colossal-adversaries)
 - [Floating Magic School Campaigns](#floating-magic-school-campaigns)
 - [Fairy Tale Campaigns](#fairy-tale-campaigns)
+- [Transformation Guidance](#transformation-guidance)
 - [Monster Hunting Campaigns](#monster-hunting-campaigns)
 - [Hex Crawl Campaigns](#hex-crawl-campaigns)
 
 **[Appendix](#appendix)**
 
 - [Domain Card Reference](#domain-card-reference)
-- [Transformation Guidance](#transformation-guidance)
 
 ## INTRODUCTION
 
@@ -3594,6 +3594,30 @@ You can build a campaign villain collaboratively using the following process:
    - Pass the prompt to another player, who likewise chooses to answer, remove, or pass it.
 4. When there are no more follow-up questions to a prompt, play passes to the left. Continue until all prompts at the center have been answered or removed, then proceed to character creation.
 
+### TRANSFORMATION GUIDANCE
+
+You can use the following mechanics for introducing the Reanimated, Vampire, and Werewolf transformations to your campaign.
+
+#### REANIMATED
+
+When a character gains the Reanimated transformation, their maximum loadout is reduced to one. During a rest, they can use a downtime move to raise their maximum loadout by one until they reach the normal maximum loadout of five.
+
+#### VAMPIRE
+
+You can add the following feature to a prominent vampire adversary's stat block:
+
+**_Vampire's Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary sink their teeth into the target's neck and try to turn them into a vampire. Roll a number of **d8s** equal to this adversary's tier and deal that much physical damage to the target. Then roll a **d6**. If the rolled result matches any of the damage dice results, the target marks all their Stress and gains the Vampire transformation.
+
+If the player wishes for their character to become a vampire, the attack roll succeeds automatically. The PC takes the damage, marks all their Stress, and gains the transformation.
+
+#### WEREWOLF
+
+You can add the following feature to a prominent werewolf adversary's stat block:
+
+**_Wolf's Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary viciously bite the target. Roll a number of **d20s** equal to this adversary's tier and deal that much physical damage to the target. If the target takes Major or greater damage from this attack, activate a long-term Lycanthropy Countdown (6). It ticks down each time the PC takes a rest without using a downtime move to halt their lycanthropy's progression. When it triggers, the PC gains the Werewolf transformation.
+
+If the player wishes for their character to become a werewolf, the attack roll succeeds automatically. The PC takes the damage and activates a long-term Lycanthropy Countdown (6) regardless of how many HP they marked as a result of the attack. When the countdown triggers, the PC gains the transformation.
+
 ### MONSTER HUNTING CAMPAIGNS
 
 You can use the following mechanics for monster hunting campaigns.
@@ -3759,27 +3783,3 @@ _This section contains additional information and reference sheets._
 - [Sage](domains/Sage.md)
 - [Splendor](domains/Splendor.md)
 - [Valor](domains/Valor.md)
-
-### TRANSFORMATION GUIDANCE
-
-You can use the following mechanics for introducing the Reanimated, Vampire, and Werewolf transformations to your campaign.
-
-#### REANIMATED
-
-When a character gains the Reanimated transformation, their maximum loadout is reduced to one. During a rest, they can use a downtime move to raise their maximum loadout by one until they reach the normal maximum loadout of five.
-
-#### VAMPIRE
-
-You can add the following feature to a prominent vampire adversary's stat block:
-
-**_Vampire’s Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary sink their teeth into the target’s neck and try to turn them into a vampire. Roll a number of **d8s** equal to this adversary’s tier and deal that much physical damage to the target. Then roll a **d6**. If the rolled result matches any of the damage dice results, the target marks all their Stress and gains the Vampire transformation.
-
-If the player wishes for their character to become a vampire, the attack roll succeeds automatically. The PC takes the damage, marks all their Stress, and gains the transformation.
-
-#### WEREWOLF
-
-You can add the following feature to a prominent werewolf adversary's stat block:
-
-**_Wolf’s Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary viciously bite the target. Roll a number of **d20s** equal to this adversary’s tier and deal that much physical damage to the target. If the target takes Major or greater damage from this attack, activate a long-term Lycanthropy Countdown (6). It ticks down each time the PC takes a rest without using a downtime move to halt their lycanthropy’s progression. When it triggers, the PC gains the Werewolf transformation.
-
-If the player wishes for their character to become a werewolf, the attack roll succeeds automatically. The PC takes the damage and activates a long-term Lycanthropy Countdown (6) regardless of how many HP they marked as a result of the attack. When the countdown triggers, the PC gains the transformation.

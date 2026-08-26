@@ -2,7 +2,7 @@
 
 **_Tier 1 Horde._** _A cluster of small, strange creatures wearing armor fashioned from trash and stolen housewares._
 
-- **Motives & Tactics:** Ambush, celebrate a little too early, hit and
+- **Motives & Tactics:** Ambush, celebrate a little too early, hit and run, infight, sabotage, sow chaos
 - **Difficulty:** 12 | **Thresholds:** 5/11 | **HP:** 3 | **Stress:** 2
 - **ATK:** +1 | **Tailor’s Shears:** Melee | 1d8+2 phy
 - **Experience:** Traps +3

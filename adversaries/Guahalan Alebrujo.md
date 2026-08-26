@@ -11,7 +11,7 @@
 
 **_The Beast Unleashed:_** The Alebrujo gains a bonus to damage rolls equal to the number of Fear you have.
 
-**_Guahalan Sacrifi ce:_** Spend a Fear to have the Alebrujo devour a Minion within Very Close range, then clear a HP or a Stress.
+**_Guahalan Sacrifice:_** Spend a Fear to have the Alebrujo devour a Minion within Very Close range, then clear a HP or a Stress.
 
 **_Howl of the Guahala:_** Mark a Stress to have the Alebrujo emit a howl. Each PC within Far range must succeed on a Presence Reaction Roll or become temporarily Panicked. While Panicked, a PC must mark a Stress when they take the spotlight.
 

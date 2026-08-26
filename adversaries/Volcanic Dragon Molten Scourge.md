@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _Enraged by their wounds, the dragon bursts into molten lava._
 
-- **Motives & Tactics:** Douse with lava, incinerate, repel Invaders,
+- **Motives & Tactics:** Douse with lava, incinerate, repel Invaders, reposition
 - **Difficulty:** 20 | **Thresholds:** 30/58 | **HP:** 7 | **Stress:** 5
 - **ATK:** +9 | **Lava-Coated Claws:** Close | 4d12+4 phy
 - **Experience:** Hunt from Above +5
@@ -21,4 +21,4 @@
 
 **_Lava Splash:_** When the Molten Scourge takes Severe damage from an attack within Very Close range, molten blood gushes from the wound and deals 2d10+4 direct physical damage to the attacker.
 
-**_Ashen Vengeance (Phase Change):_** When the Molten Scourge marks their last HP, replace them with the Ashen Tyrant and immediately spotlight them. 156 Daggerheart SRD
+**_Ashen Vengeance (Phase Change):_** When the Molten Scourge marks their last HP, replace them with the Ashen Tyrant and immediately spotlight them.

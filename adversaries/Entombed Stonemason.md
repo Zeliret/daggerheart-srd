@@ -2,9 +2,9 @@
 
 **_Tier 2 Minion._** _An unfortunate undead laborer chosen by lottery to wall up their empress’s tomb from the inside._
 
-- **Motives & Tactics:** Never stop working, sacrifi ce yourself for the
+- **Motives & Tactics:** Never stop working, sacrifice yourself for the empress
 - **Difficulty:** 12 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −1 | **Hammer and Chisel:** Melee | 5 phy
+- **ATK:** -1 | **Hammer and Chisel:** Melee | 5 phy
 - **Experience:** Builder +2
 
 ### FEATURES

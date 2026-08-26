@@ -5,7 +5,7 @@
 - **Motives & Tactics:** Hide in plain sight, overwatch, swoop down
 - **Difficulty:** 13 | **Thresholds:** 14/28 | **HP:** 8 | **Stress:** 2
 - **ATK:** +2 | **Stone Claws:** Melee | 2d10+3 phy
-- **Experience:** Camoufl age +4, Ruins +3
+- **Experience:** Camouflage +4, Ruins +3
 
 ### FEATURES
 

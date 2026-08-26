@@ -2,7 +2,7 @@
 
 **_Tier 2 Horde._** _Flesh-eating beetles that burrow beneath the skin._
 
-- **Motives & Tactics:** Carpet the ground, consume the living, crawl
+- **Motives & Tactics:** Carpet the ground, consume the living, crawl under clothing
 - **Difficulty:** 14 | **Thresholds:** 10/20 | **HP:** 5 | **Stress:** 3
 - **ATK:** +0 | **Pincers:** Melee | 2d8+2 phy
 - **Experience:** Tombs +3

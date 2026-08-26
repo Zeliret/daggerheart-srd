@@ -2,7 +2,7 @@
 
 **_Tier 2 Standard._** _A shapeshifting masked warrior who has animalistic features._
 
-- **Motives & Tactics:** Escape, profi t, throw smoke
+- **Motives & Tactics:** Escape, profit, throw smoke
 - **Difficulty:** 15 | **Thresholds:** 9/18 | **HP:** 4 | **Stress:** 3
 - **ATK:** +1 | **Warclub:** Melee | 2d8+4 phy
 - **Experience:** Hunter +2, Trapper +2

@@ -1,6 +1,6 @@
 # Ocean Voyage
 
-**_Tier 2 Traversal._** _The PCs gain passage to a far-offdestination by offering their labor in exchange._
+**_Tier 2 Traversal._** _The PCs gain passage to a far-off destination by offering their labor in exchange._
 
 - **Impulses:** Reveal what lurks beneath the waves, send them in the wrong direction, sink the ship, use up their resources
 - **Difficulty:** 14
@@ -16,4 +16,4 @@
 
 **_Foul Weather - Reaction:_** When the Open Water Countdown ticks down to an odd number, roll a d6. On a result of 4 or higher, the ship runs into a patch of foul weather, such as a fog bank that makes navigation difficult or a squall that threatens to capsize the ship. Each PC must succeed on a reaction roll using a relevant trait chosen by the GM or mark 1d4 Stress. _What makes this weather different from anything the PCs have experienced before? How do they coordinate with the crew to find their way through this hazard?_
 
-**_Here There Be Monsters - Reaction:_** When the Open Water Countdown ticks down to an even number, roll a d6. On a result of 4 or higher, summon 1d4 Deep Sea Denizens. _What attracts these creatures to the ship? Is there any way to drive them offwithout combat?_
+**_Here There Be Monsters - Reaction:_** When the Open Water Countdown ticks down to an even number, roll a d6. On a result of 4 or higher, summon 1d4 Deep Sea Denizens. _What attracts these creatures to the ship? Is there any way to drive them off without combat?_

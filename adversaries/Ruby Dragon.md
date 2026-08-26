@@ -13,7 +13,7 @@
 
 **_Fearsome:_** When the Dragon succeeds on an attack against a PC or a PC within Far range fails an action roll, you gain a Fear.
 
-**_Melting Breath:_** Mark a Stress to have the Dragon unleash a blast of fire on all PCs in front of it within Close range. Each target must succeed on an Agility Reaction Roll or take 4d12+10 magic damage and mark an Armor Slot without gaining its benefi ts (they can still use armor to reduce the damage).
+**_Melting Breath:_** Mark a Stress to have the Dragon unleash a blast of fire on all PCs in front of it within Close range. Each target must succeed on an Agility Reaction Roll or take 4d12+10 magic damage and mark an Armor Slot without gaining its benefits (they can still use armor to reduce the damage).
 
 **_Volcanic Fissure:_** Spend a Fear to have the Dragon snap its tail against the ground, opening a lava rift that flows over the area within Close range. Each PC within that area must make an Agility Reaction Roll. Targets who succeed immediately move out of the area. Targets who fail take 4d8+5 magic damage. Until the Dragon is defeated, a creature who enters the area takes 4d8+5 magic damage.
 

@@ -42,7 +42,7 @@ Roll,Name,Description
 51,Feast of Xuria,You can eat this meal to clear all HP and Stress and gain 1d4 Hope.
 52,Bonding Honey,This honey can be used to glue two objects together permanently.
 37,Hopehold Flare,"When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene."
-53,Shrinking Potion,"You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a −1 penalty to your Proficiency."
+53,Shrinking Potion,"You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a -1 penalty to your Proficiency."
 38,Major Arcane Shard,You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 4d20 magic damage.
 39,Featherbone,You can use this bone to control your falling speed for a number of minutes equal to your level.
 54,Growing Potion,"You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency."
@@ -89,7 +89,7 @@ Roll,Name,Description
 39,Cockerel Claw Tea,You can drink this tea to refresh your features as if you had taken a long rest.
 28,Salamander Salve,You can apply this salve to your skin to make yourself immune to heat until your next rest.
 40,Potion of Vigilance,You can drink this potion to gain a +1 bonus to your Evasion until you mark a Hit Point.
-29,Green Ooze Oil,"You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a −2 penalty to their damage thresholds."
+29,Green Ooze Oil,"You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a -2 penalty to their damage thresholds."
 41,Cacophonous Concoction,"When you drink this potion, anything you say or do in the next hour becomes impossible for a witness to recount. Any attempts they make to communicate what they saw, heard, or otherwise sensed comes out garbled or nonsensical."
 30,Sunlight Orb,You can shatter this orb to make the area within Very Far range appear as though it’s sunlit daytime for the next 24 hours.
 42,Nightmare Mead,"You can drink this potion to discover the deepest fear of the next person you make eye contact with. When you do, the GM gains a Fear."

@@ -2,10 +2,10 @@
 
 **_Tier 1 Skulk._** _A moving mound of translucent flaming red slime._
 
-- **Motives & Tactics:** Camoufl age, consume and multiply, ignite,
+- **Motives & Tactics:** Camouflage, consume and multiply, ignite, start fires
 - **Difficulty:** 10 | **Thresholds:** 6/11 | **HP:** 5 | **Stress:** 3
 - **ATK:** +1 | **Ooze Appendage:** Melee | 1d8+3 mag
-- **Experience:** Camoufl age +3
+- **Experience:** Camouflage +3
 
 ### FEATURES
 

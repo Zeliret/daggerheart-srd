@@ -2,7 +2,7 @@
 
 **_Tier 1 Skulk._** _A large wolf with menacing teeth, seldom encountered alone._
 
-- **Motives & Tactics:** Defend territory, harry, protect pack,
+- **Motives & Tactics:** Defend territory, harry, protect pack, surround, trail
 - **Difficulty:** 12 | **Thresholds:** 5/9 | **HP:** 4 | **Stress:** 3
 - **ATK:** +2 | **Claws:** Melee | 1d6+2 phy
 - **Experience:** Keen Senses +3

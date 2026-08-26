@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** The Rugaru can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Child of Night:_** While in moonlight, the Rugaru gains a +2 bonus to their Diffi culty.
+**_Child of Night:_** While in moonlight, the Rugaru gains a +2 bonus to their Difficulty.
 
 **_Bloodthirsty:_** When a PC marks HP from the Rugaru’s standard attack, add a token to this stat block. The Rugaru gains a bonus to attack rolls equal to the number of tokens on this stat block. Clear all tokens when the Rugaru takes Severe damage.
 

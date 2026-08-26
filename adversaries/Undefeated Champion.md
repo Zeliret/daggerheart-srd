@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _That which only the most feared have a chance to fear._
 
-- **Motives & Tactics:** Dispatch merciless death, punish the defi ant,
+- **Motives & Tactics:** Dispatch merciless death, punish the defiant, secure victory at any cost
 - **Difficulty:** 18 | **Thresholds:** 35/58 | **HP:** 11 | **Stress:** 5
 - **ATK:** +8 | **Heart-Shattering Sword:** Very Close | 4d12+13 phy
 - **Experience:** Conquest +3, History +2, Intimidation +3
@@ -17,7 +17,7 @@
 
 **_Endless Legions:_** Spend a Fear to summon a number of Fallen Shock Troops equal to twice the number of PCs. The Shock Troops appear at Far range.
 
-**_Circle of Defi lement:_** Countdown (1d8). When the Undefeated Champion is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion.
+**_Circle of Defilement:_** Countdown (1d8). When the Undefeated Champion is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion.
 
 **_Momentum:_** When the Undefeated Champion makes a successful attack against a PC, you gain a Fear.
 

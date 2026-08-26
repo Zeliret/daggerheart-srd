@@ -1,8 +1,8 @@
 # Whisper Wraith
 
-**_Tier 3 Skulk._** _The echoes of broken promises and dreams unfulfi lled, manifesting as a floating, translucent shroud of tattered black velvet in a vaguely humanoid shape._
+**_Tier 3 Skulk._** _The echoes of broken promises and dreams unfulfilled, manifesting as a floating, translucent shroud of tattered black velvet in a vaguely humanoid shape._
 
-- **Motives & Tactics:** Bind limbs, drop from a great height, lift off
+- **Motives & Tactics:** Bind limbs, drop from a great height, lift off the ground, swirl through the air, wrap around heads
 - **Difficulty:** 16 | **Thresholds:** 20/32 | **HP:** 6 | **Stress:** 6
 - **ATK:** +4 | **Shadow Touch:** Melee | 3d8+4 mag
 - **Experience:** Dreams +4

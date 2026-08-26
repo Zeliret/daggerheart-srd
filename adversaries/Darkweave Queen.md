@@ -1,8 +1,8 @@
 # Darkweave Queen
 
-**_Tier 1 Solo._** _A wagon-sized spider woven from shadow-silk by a long-forgotten god. Each of her many eyes bears the face of a diff erent victim._
+**_Tier 1 Solo._** _A wagon-sized spider woven from shadow-silk by a long-forgotten god. Each of her many eyes bears the face of a different victim._
 
-- **Motives & Tactics:** Ambush prey, climb the walls and ceiling,
+- **Motives & Tactics:** Ambush prey, climb the walls and ceiling, misdirect, paralyze, stash bodies away for later, steal faces
 - **Difficulty:** 14 | **Thresholds:** 8/15 | **HP:** 9 | **Stress:** 4
 - **ATK:** +3 | **Spider Bite:** Very Close | 1d12+4 phy
 - **Experience:** Giant-Sized +3, Hunter +3

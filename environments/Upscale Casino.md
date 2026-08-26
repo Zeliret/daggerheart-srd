@@ -8,7 +8,7 @@
 
 ### FEATURES
 
-**_Glitz & Glamor - Passive:_** The overwhelming spectacle of this place can entrance even the most jaded patron. While here, all PCs have disadvantage on reaction rolls caused by a staffmember or regular patron of the casino. _What’s so wondrous about the casino’s trappings? Are they truly magical in nature or merely mundane wonders taken to an impossible extreme?_
+**_Glitz & Glamor - Passive:_** The overwhelming spectacle of this place can entrance even the most jaded patron. While here, all PCs have disadvantage on reaction rolls caused by a staff member or regular patron of the casino. _What’s so wondrous about the casino’s trappings? Are they truly magical in nature or merely mundane wonders taken to an impossible extreme?_
 
 **_Fortune Favors the Bold - Passive:_** Once per long rest, a PC can gamble any amount of gold by stating how much they want to wager and rolling their Hope Die. On a result of 7 or higher, the PC wins an equal amount, doubling their money. On a result of 6 or lower, they lose it all. _What game does the PC choose to play? What house rules does this casino have? Is there anything besides gold the PCs are willing to risk?_
 

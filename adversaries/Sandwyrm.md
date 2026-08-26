@@ -2,7 +2,7 @@
 
 **_Tier 3 Bruiser._** _A gargantuan burrowing worm that has armor plating and gnashing jaws. This intelligent and opportunistic hunter can swim through sand as quickly as a cheetah runs on land._
 
-- **Motives & Tactics:** Ambush from below, eat and leave, tunnel and
+- **Motives & Tactics:** Ambush from below, eat and leave, tunnel and erupt, use both ends
 - **Difficulty:** 17 | **Thresholds:** 21/40 | **HP:** 6 | **Stress:** 3
 - **ATK:** +1 | **Bite:** Very Close | 3d8+4 phy
 - **Experience:** Tremor Sense +4

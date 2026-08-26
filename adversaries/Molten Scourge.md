@@ -15,10 +15,10 @@
 
 **_Shattering Might:_** Mark a Stress to make an attack against a target within Very Close range. On a success, the target takes 4d8+1 physical damage, loses a Hope, and is knocked back to Close range. The Molten Scourge clears a Stress.
 
-**_Eruption:_** Spend a Fear to erupt lava from beneath the Molten Scourge’s scales, fi lling the area within Very Close range with molten lava. All targets in that area must succeed on an Agility Reaction Roll or take 4d6+6 physical damage and be knocked back to Close range. This area remains lava. When a creature other than the Molten Scourge enters that area or acts while inside of it, they must mark 6 HP.
+**_Eruption:_** Spend a Fear to erupt lava from beneath the Molten Scourge’s scales, filling the area within Very Close range with molten lava. All targets in that area must succeed on an Agility Reaction Roll or take 4d6+6 physical damage and be knocked back to Close range. This area remains lava. When a creature other than the Molten Scourge enters that area or acts while inside of it, they must mark 6 HP.
 
-**_Volcanic Breath:_** When the Molten Scourge takes Major damage, roll a d10. On a result of 8 or higher, the Molten Scourge breathes a fl ow of lava in front of them within Far range. All targets in that area must make an Agility Reaction Roll. Targets who fail take 2d10+4 physical damage, mark 1d4 Stress, and are Vulnerable until they clear a Stress. Targets who succeed take half damage and must mark a Stress.
+**_Volcanic Breath:_** When the Molten Scourge takes Major damage, roll a d10. On a result of 8 or higher, the Molten Scourge breathes a flow of lava in front of them within Far range. All targets in that area must make an Agility Reaction Roll. Targets who fail take 2d10+4 physical damage, mark 1d4 Stress, and are Vulnerable until they clear a Stress. Targets who succeed take half damage and must mark a Stress.
 
 **_Lava Splash:_** When the Molten Scourge takes Severe damage from an attack within Very Close range, molten blood gushes from the wound and deals 2d10+4 direct physical damage to the attacker.
 
-**_Ashen Vengeance (Phase Change):_** When the Molten Scourge marks their last HP, replace them with the Ashen Tyrant and immediately spotlight them. 156 Daggerheart SRD
+**_Ashen Vengeance (Phase Change):_** When the Molten Scourge marks their last HP, replace them with the Ashen Tyrant and immediately spotlight them.

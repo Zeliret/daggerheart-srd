@@ -2,7 +2,7 @@
 
 **_Tier 4 Bruiser._** _A lumbering, bog-grown frog beast that has tadpolelike leeches visibly wriggling underneath their translucent skin._
 
-- **Motives & Tactics:** Do the heavy lifting, leap menacingly, move
+- **Motives & Tactics:** Do the heavy lifting, leap menacingly, move surprisingly fast, smash and grab
 - **Difficulty:** 19 | **Thresholds:** 35/70 | **HP:** 7 | **Stress:** 5
 - **ATK:** +4 | **Meaty Fists:** Melee | 4d10+10 phy
 - **Experience:** Brute +3

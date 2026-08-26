@@ -2,7 +2,7 @@
 
 **_Tier 2 Standard._** _A ghostly fighter with spears and swords, anchored by duty._
 
-- **Motives & Tactics:** Move through solid objects, protect treasure,
+- **Motives & Tactics:** Move through solid objects, protect treasure, rehash old battles
 - **Difficulty:** 15 | **Thresholds:** 7/15 | **HP:** 4 | **Stress:** 3
 - **ATK:** +1 | **Spear:** Very Close | 2d8+1 phy
 - **Experience:** Ancient Knowledge +2

@@ -2,7 +2,7 @@
 
 **_Tier 2 Bruiser._** _A large dinosaur that has an armored frill and three horns._
 
-- **Motives & Tactics:** Eat ferns, move in herds for protection, patrol
+- **Motives & Tactics:** Eat ferns, move in herds for protection, patrol the watering hole
 - **Difficulty:** 15 | **Thresholds:** 14/28 | **HP:** 7 | **Stress:** 5
 - **ATK:** +2 | **Horns:** Very Close | 2d10+4 phy
 - **Experience:** Defender +3

@@ -4,7 +4,7 @@
 
 - **Motives & Tactics:** Combine, drain, entangle
 - **Difficulty:** 11 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −1 | **Thorns:** Melee | 2 phy
+- **ATK:** -1 | **Thorns:** Melee | 2 phy
 
 ### FEATURES
 

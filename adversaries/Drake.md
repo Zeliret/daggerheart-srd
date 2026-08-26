@@ -2,7 +2,7 @@
 
 **_Tier 3 Skulk._** _A clawed quadruped that has a scaled, serpentine body and a willingness to serve its cousins, the dragons._
 
-- **Motives & Tactics:** Coil and crush, protect master, slither around
+- **Motives & Tactics:** Coil and crush, protect master, slither around lairs and ruins, strike first
 - **Difficulty:** 14 | **Thresholds:** 16/30 | **HP:** 5 | **Stress:** 3
 - **ATK:** +4 | **Claws & Teeth:** Melee | 3d8+5 phy
 - **Experience:** Vicious +3

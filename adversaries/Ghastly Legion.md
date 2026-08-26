@@ -1,6 +1,6 @@
 # Ghastly Legion
 
-**_Tier 4 Horde._** _A teeming army of ghosts roused from dreamless slumber to fulfi ll their ancient oath._
+**_Tier 4 Horde._** _A teeming army of ghosts roused from dreamless slumber to fulfill their ancient oath._
 
 - **Motives & Tactics:** Overwhelm, serve, swarm
 - **Difficulty:** 17 | **Thresholds:** 25/45 | **HP:** 8 | **Stress:** 5

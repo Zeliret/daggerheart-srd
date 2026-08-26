@@ -2,7 +2,7 @@
 
 **_Tier 3 Skulk._** _A huge aquatic creature that lures unwary prey into eating range with its dangling, shapeshifting head stalk._
 
-- **Motives & Tactics:** Entice with secret knowledge, snap the trap
+- **Motives & Tactics:** Entice with secret knowledge, snap the trap shut, speak through a shapeshifted head stalk
 - **Difficulty:** 16 | **Thresholds:** 16/32 | **HP:** 6 | **Stress:** 5
 - **ATK:** +3 | **Jaws:** Melee | 3d8+2 phy
 - **Experience:** Charm +3, Secrets +3

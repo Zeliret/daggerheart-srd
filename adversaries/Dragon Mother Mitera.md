@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _A gargantuan seven-headed dragon with dazzling diamond scales that shine with every color of the rainbow._
 
-- **Motives & Tactics:** Birth destruction, control the battlefi eld, fly,
+- **Motives & Tactics:** Birth destruction, control the battlefield, fly, repel invaders, use all available options
 - **Difficulty:** 16 | **Thresholds:** 35/65 | **HP:** 12 | **Stress:** 10
 - **ATK:** +8 | **Bite & Slash:** Close | 4d10+10 phy
 - **Experience:** Ancient +5
@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** Mitera can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight her.
 
-**_Diamond Hide:_** Countdown (7). When Mitera first appears, activate the countdown. Mitera gains a bonus to her Diffi culty equal to the countdown die’s current value. It ticks down from Mitera’s “Seven-Headed” feature. When the countdown triggers, Mitera becomes Vulnerable and gains a +2 bonus to attack rolls.
+**_Diamond Hide:_** Countdown (7). When Mitera first appears, activate the countdown. Mitera gains a bonus to her Difficulty equal to the countdown die’s current value. It ticks down from Mitera’s “Seven-Headed” feature. When the countdown triggers, Mitera becomes Vulnerable and gains a +2 bonus to attack rolls.
 
 **_Elemental Breath:_** Mark a Stress to have Mitera unleash elemental energy from one head of your choice:
 
@@ -27,4 +27,4 @@
 
 **_Fearsome:_** When Mitera makes a successful attack roll against a PC or a PC fails a roll within Far range, you gain a Fear.
 
-**_Seven-Headed:_** When Mitera takes damage, roll a d8. Permanently remove the “Elemental Breath” option that corresponds to the result. On a result of 8, or if the corresponding option has already been removed, tick down the Diamond Hide countdown (see “Diamond Hide”). 148 Daggerheart SRD
+**_Seven-Headed:_** When Mitera takes damage, roll a d8. Permanently remove the “Elemental Breath” option that corresponds to the result. On a result of 8, or if the corresponding option has already been removed, tick down the Diamond Hide countdown (see “Diamond Hide”).

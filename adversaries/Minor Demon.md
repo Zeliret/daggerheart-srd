@@ -2,7 +2,7 @@
 
 **_Tier 1 Solo._** _A crimson-hued creature from the Circles Below, consumed by rage against all mortals._
 
-- **Motives & Tactics:** Act erratically, corral targets, relish pain,
+- **Motives & Tactics:** Act erratically, corral targets, relish pain, torment
 - **Difficulty:** 14 | **Thresholds:** 8/15 | **HP:** 8 | **Stress:** 4
 - **ATK:** +3 | **Claws:** Melee | 1d8+6 phy
 
@@ -12,7 +12,7 @@
 
 **_All Must Fall:_** When a PC rolls a failure with Fear while within Close range of the Demon, they lose a Hope.
 
-**_Hellfi re:_** Spend a Fear to rain down hellfi re within Far range. All targets within the area must make an Agility Reaction Roll. Targets who fail take 1d20+3 magic damage. Targets who succeed take half damage.
+**_Hellfire:_** Spend a Fear to rain down hellfire within Far range. All targets within the area must make an Agility Reaction Roll. Targets who fail take 1d20+3 magic damage. Targets who succeed take half damage.
 
 **_Reaper:_** Before rolling damage for the Demon’s attack, you can mark a Stress to gain a bonus to the damage roll equal to the Demon’s current number of marked HP.
 

@@ -15,4 +15,4 @@
 
 **_Rage of Spirits:_** Mark a Stress to spotlight any number of Guahalan Spirit Beasts within Very Close range and have each one move into Melee range with the nearest PC and make a standard attack. If any attacks succeed against the same target, combine their damage.
 
-**_Spiritual Sacrifi ce:_** When the Spirit Singer would take damage while within Very Close range of a Guahalan Spirit Beast, you can spend a Fear to sacrifi ce the Spirit Beast and negate the damage. 124 Daggerheart SRD
+**_Spiritual Sacrifice:_** When the Spirit Singer would take damage while within Very Close range of a Guahalan Spirit Beast, you can spend a Fear to sacrifice the Spirit Beast and negate the damage.

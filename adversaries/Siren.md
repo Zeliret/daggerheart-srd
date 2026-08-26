@@ -11,4 +11,4 @@
 
 **_Captive Audience:_** If the Siren makes a standard attack against a target Entranced by their song, the attack deals 2d10+1 damage instead of their standard damage.
 
-**_Enchanting Song:_** Spend a Fear to sing a song that aff ects all targets within Close range. Targets must succeed on an Instinct Reaction Roll or become Entranced until they mark 2 Stress. Other Sirens within Close range of the target can mark a Stress to each add a +1 bonus to the Diffi culty of the reaction roll. While Entranced, a target can’t act and is Vulnerable.
+**_Enchanting Song:_** Spend a Fear to sing a song that affects all targets within Close range. Targets must succeed on an Instinct Reaction Roll or become Entranced until they mark 2 Stress. Other Sirens within Close range of the target can mark a Stress to each add a +1 bonus to the Difficulty of the reaction roll. While Entranced, a target can’t act and is Vulnerable.

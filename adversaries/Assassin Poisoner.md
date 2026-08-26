@@ -13,4 +13,4 @@
 
 **_Out of Nowhere:_** The Assassin has advantage on attacks if they are Hidden.
 
-**_Fumigation:_** Drop a smoke bomb that fills the air within Close range with smoke, Dizzying all targets in this area. Dizzied targets have disadvantage on their next action roll, then clear the condition. 114 Daggerheart SRD
+**_Fumigation:_** Drop a smoke bomb that fills the air within Close range with smoke, Dizzying all targets in this area. Dizzied targets have disadvantage on their next action roll, then clear the condition.

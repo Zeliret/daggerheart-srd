@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _A castle-sized, bipedal reptile._
 
-- **Motives & Tactics:** Leave a wake of destruction, level buildings,
+- **Motives & Tactics:** Leave a wake of destruction, level buildings, stomp through settlements
 - **Difficulty:** 20 | **Thresholds:** 35/70 | **HP:** 12 | **Stress:** 10
 - **ATK:** +8 | **Tail Swipe:** Close | 4d12+6 phy
 - **Experience:** Destruction +5
@@ -11,7 +11,7 @@
 
 **_Relentless (X):_** Xero can be spotlighted up to X times per GM turn, where X is the number of PCs in the scene. Spend Fear as usual to spotlight it.
 
-**_Collateral Damage:_** Xero’s movement can’t be hindered, impeded, or aff ected by anything other than natural terrain. All destructible terrain or obstacles in Xero’s path are destroyed when Xero moves through them.
+**_Collateral Damage:_** Xero’s movement can’t be hindered, impeded, or affected by anything other than natural terrain. All destructible terrain or obstacles in Xero’s path are destroyed when Xero moves through them.
 
 **_Gigaton Stomp:_** Spend a Fear to have Xero bring its foot down hard, creating a localized earthquake. Each PC within Melee range takes 4d12 physical damage and is Restrained until they wriggle out with a successful Finesse Roll. Each creature beyond Melee range but within Close range must succeed on an Instinct Reaction Roll or be knocked back to Far range. If a target is knocked back, they must either mark an Armor Slot or take 4d12 physical damage as they land.
 

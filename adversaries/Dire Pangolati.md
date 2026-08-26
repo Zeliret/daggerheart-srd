@@ -2,7 +2,7 @@
 
 **_Tier 2 Bruiser._** _A carriage-sized pangolin-coati hybrid covered in armor plating. It has a bladed tail it uses to fling razor-sharp scales._
 
-- **Motives & Tactics:** Escape with a meal, slice and dice, wade into
+- **Motives & Tactics:** Escape with a meal, slice and dice, wade into danger
 - **Difficulty:** 14 | **Thresholds:** 14/28 | **HP:** 7 | **Stress:** 4
 - **ATK:** +2 | **Tail Slash:** Very Close | 2d12+3 phy
 - **Experience:** Climbing +3, Scent Tracking +3

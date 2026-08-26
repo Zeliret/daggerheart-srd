@@ -4,7 +4,7 @@
 
 - **Impulses:** Attack their psyches, summon their subconscious fears, warp their perceptions
 - **Difficulty:** 16
-- **Potential Adversaries:** Demon of Despair, [Elemental Spark](../adversaries/Elemental%20Spark.md), Pain Priest, Psychic [Vampires](../adversaries/Vampire.md) ([Head Vampire](../adversaries/Head%20Vampire.md), [Night Children](../adversaries/Night%20Children.md))
+- **Potential Adversaries:** Demon of Despair, [Elemental Spark](../adversaries/Elemental%20Spark.md), [Pain Priest](../adversaries/Pain%20Priest.md), Psychic [Vampires](../adversaries/Vampire.md) ([Head Vampire](../adversaries/Head%20Vampire.md), [Night Children](../adversaries/Night%20Children.md))
 
 ### FEATURES
 

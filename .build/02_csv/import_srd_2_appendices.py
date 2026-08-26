@@ -33,8 +33,14 @@ def compact(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     # Some ligatures are emitted by the PDF as a partial word followed by a
     # space (for example, "fl esh").
-    text = re.sub(r"\b([a-z]*(?:fi|fl|ff))\s+([a-z])", r"\1\2", text)
-    return re.sub(r"\bT\s+argets\b", "Targets", text)
+    text = re.sub(r"\b([A-Za-z]*(?:fi|fl))\s+([a-z])", r"\1\2", text)
+    text = re.sub(r"\b([A-Za-z]+ff)\s+([eE][a-z]*)", r"\1\2", text)
+    text = re.sub(r"\bT\s+([a-z])", r"T\1", text)
+    text = re.sub(r"\bV\s+([A-Z][A-Z]*)", r"V\1", text)
+    text = re.sub(r"\b([A-Z]{3,})\s+T\b", r"\1T", text)
+    text = re.sub(r"\b([A-Z]{3,})\s+Y\b", r"\1Y", text)
+    text = text.replace("SYL V AN", "SYLVAN").replace("A VARICE", "AVARICE")
+    return re.sub(r"\s+([,.;:!?])", r"\1", text)
 
 
 def adversary_name(text: str) -> str:
@@ -108,16 +114,16 @@ def adversaries(pdf) -> list[dict[str, str]]:
             text = page.crop((left, 0, right, page.height)).extract_text() or ""
             tier_match = re.search(r"TIER ([1-4]) ADVERSARIES", text)
             if tier_match: tier = int(tier_match.group(1))
-            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged|Horde|Support)(?: \([^\n]*\))?\n", text))
+            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged|Horde|Support|Social)(?: \([^\n]*\))?\n", text))
             for i, match in enumerate(starts):
                 block = text[match.start(): starts[i + 1].start() if i + 1 < len(starts) else len(text)]
                 # The final stat block shares its half-page with the start of
                 # the environment appendix.  Do not allow that prose into its
                 # final feature.
-                block = re.split(r"\n(?:USING ENVIRONMENTS|Daggerheart SRD|DESCRIPTION|dversaries, such as)\b", block, maxsplit=1)[0]
+                block = re.split(r"\n(?:(?:\d+\s+)?Daggerheart SRD|USING ENVIRONMENTS|DESCRIPTION|dversaries, such as)\b", block, maxsplit=1)[0]
                 stat = re.search(r"Diffi\s*culty:\s*([^|]+)\|\s*Thresholds:\s*([^|]+)\|\s*HP:\s*([^|]+)\|\s*Stress:\s*([^\n]+)", block)
                 attack = re.search(r"ATK:\s*([^|]+)\|\s*([^:]+):\s*([^|]+)\|\s*([^\n]+)", block)
-                motive = re.search(r"Motives\s*& Tactics:\s*(.+)", block)
+                motive = re.search(r"Motives\s*& Tactics:\s*(.+?)(?=\nDiffi\s*culty:|$)", block, re.S)
                 experience = re.search(r"Experience:\s*(.+)", block)
                 before_motive = block[:motive.start()] if motive else block
                 description = "\n".join(before_motive.splitlines()[2:])
@@ -225,8 +231,13 @@ def weapon_rows(pdf) -> list[dict[str, str]]:
             row = {"Name": name, "Primary or Secondary": category, "Tier": tier, "Physical or Magical": actual_damage_type, "Trait": trait, "Range": weapon_range, "Damage": damage, "Burden": burden}
             if ":" in feature:
                 feature_name, feature_text = feature.split(":", 1)
+                if match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", compact(feature_name)):
+                    feature_name, feature_text = match.group(2), match.group(1)
                 row["Feature 1 Name"] = compact(feature_name)
                 row["Feature 1 Text"] = compact(feature_text)
+            elif match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", feature):
+                row["Feature 1 Name"] = match.group(2)
+                row["Feature 1 Text"] = match.group(1)
             records.append(row)
         return category, tier, damage_type
 
@@ -263,8 +274,13 @@ def weapon_rows(pdf) -> list[dict[str, str]]:
             row = {"Name": name, "Primary or Secondary": "Primary", "Tier": tier, "Physical or Magical": "Magical" if damage.endswith("mag") else "Physical", "Trait": trait, "Range": weapon_range, "Damage": damage, "Burden": burden}
             if ":" in feature:
                 feature_name, feature_text = feature.split(":", 1)
+                if match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", compact(feature_name)):
+                    feature_name, feature_text = match.group(2), match.group(1)
                 row["Feature 1 Name"] = compact(feature_name)
                 row["Feature 1 Text"] = compact(feature_text)
+            elif match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", feature):
+                row["Feature 1 Name"] = match.group(2)
+                row["Feature 1 Text"] = match.group(1)
             records.append(row)
     return records
 

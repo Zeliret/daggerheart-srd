@@ -1,8 +1,8 @@
 # Minor Fire Elemental
 
-**_Tier 1 Solo._** _A living flame the size of a large bonfi re._
+**_Tier 1 Solo._** _A living flame the size of a large bonfire._
 
-- **Motives & Tactics:** Encircle enemies, grow in size, intimidate,
+- **Motives & Tactics:** Encircle enemies, grow in size, intimidate, start fires
 - **Difficulty:** 13 | **Thresholds:** 7/15 | **HP:** 9 | **Stress:** 3
 - **ATK:** +3 | **Elemental Blast:** Far | 1d10+4 mag
 

@@ -15,6 +15,6 @@
 
 **_Crown of Serpents:_** Make an attack roll against a target within Melee range using the Gorgon’s protective snakes. On a success, mark a Stress to deal 2d10+4 physical damage and the target must mark a Stress.
 
-**_Petrifying Gaze:_** When the Gorgon takes damage from an attack within Close range, you can spend a Fear to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrifi cation Countdown (4). This countdown ticks down when the Gorgon is attacked. When it triggers, the target must make a death move. If the Gorgon is defeated, all petrifi cation countdowns end.
+**_Petrifying Gaze:_** When the Gorgon takes damage from an attack within Close range, you can spend a Fear to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the Gorgon is attacked. When it triggers, the target must make a death move. If the Gorgon is defeated, all petrification countdowns end.
 
 **_Momentum:_** When the Gorgon makes a successful attack against a PC, you gain a Fear.

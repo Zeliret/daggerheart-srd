@@ -2,7 +2,7 @@
 
 **_Tier 3 Ranged._** _A huge eagle that’s made of magical flame, impossible to kill, and hunted for its healing plumage._
 
-- **Motives & Tactics:** Flee pursuers, live brilliantly, soar through the
+- **Motives & Tactics:** Flee pursuers, live brilliantly, soar through the heavens, wield light and flame
 - **Difficulty:** 18 | **Thresholds:** 19/30 | **HP:** 6 | **Stress:** 6
 - **ATK:** +4 | **Fire Bolt:** Very Far | 3d10+3 mag
 - **Experience:** Bright +4, Legendary +3

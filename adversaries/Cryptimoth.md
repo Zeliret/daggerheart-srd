@@ -11,7 +11,7 @@
 
 **_Terrifying:_** When the Cryptimoth makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.
 
-**_Psychic Screech:_** Spend 2 Fear to have the Cryptimoth unleash a burst of psychic energy that causes each PC within Far range to suff er visions of their horrifying fate. Each target must make an Instinct Reaction Roll (16). Targets who fail take 3d8 direct magic damage and become Vulnerable until their next rest. Targets who succeed must mark a Stress or take half damage.
+**_Psychic Screech:_** Spend 2 Fear to have the Cryptimoth unleash a burst of psychic energy that causes each PC within Far range to suffer visions of their horrifying fate. Each target must make an Instinct Reaction Roll (16). Targets who fail take 3d8 direct magic damage and become Vulnerable until their next rest. Targets who succeed must mark a Stress or take half damage.
 
 **_Shadow Swarm:_** Spend a Fear to have the Cryptimoth conjure a swarm of mothlike shadow creatures within Far range. The swarm fills a Close range area and blocks line of sight. Creatures that aren’t Cryptimoths are Vulnerable while inside that area and must mark a Stress to move through it. A PC can dispel the swarm with a successful Spellcast Roll (12).
 

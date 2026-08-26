@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Flying:_** While flying, the Bat gains a +3 bonus to their Diffi culty.
+**_Flying:_** While flying, the Bat gains a +3 bonus to their Difficulty.
 
 **_Screech:_** Mark a Stress to send a high-pitch screech out toward all targets in front of the Bat within Far range. Those targets must mark 1d4 Stress.
 

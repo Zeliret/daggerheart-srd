@@ -1,6 +1,6 @@
 # {{ .name }}
 
-**_Tier {{ .tier }} {{ .type }}._** _{{ .description }}_
+**_Tier {{ .tier }} {{ .type }}._**{{ if .description }} _{{ .description }}_{{ end }}
 
 - **Impulses:** {{ .impulses }}
 - **Difficulty:** {{ .difficulty }}

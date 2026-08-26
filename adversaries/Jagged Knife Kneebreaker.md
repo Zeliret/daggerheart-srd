@@ -2,9 +2,9 @@
 
 **_Tier 1 Bruiser._** _An imposing brawler carrying a large club._
 
-- **Motives & Tactics:** Grapple, intimidate, profi t, steal
+- **Motives & Tactics:** Grapple, intimidate, profit, steal
 - **Difficulty:** 12 | **Thresholds:** 7/14 | **HP:** 7 | **Stress:** 4
-- **ATK:** −3 | **Club:** Melee | 1d4+6 phy
+- **ATK:** -3 | **Club:** Melee | 1d4+6 phy
 - **Experience:** Thief +2, Unveiled Threats +3
 
 ### FEATURES

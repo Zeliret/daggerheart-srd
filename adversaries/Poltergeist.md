@@ -2,9 +2,9 @@
 
 **_Tier 1 Ranged._** _A baleful, translucent spirit that possesses inanimate objects._
 
-- **Motives & Tactics:** Flicker candles, rattle chains, shake windows,
+- **Motives & Tactics:** Flicker candles, rattle chains, shake windows, throw people around the room
 - **Difficulty:** 9 | **Thresholds:** 4/None | **HP:** 2 | **Stress:** 2
-- **ATK:** −1 | **Thrown Object:** Far | 1d6+3 phy
+- **ATK:** -1 | **Thrown Object:** Far | 1d6+3 phy
 - **Experience:** Spooky +3
 
 ### FEATURES

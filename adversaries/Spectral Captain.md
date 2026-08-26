@@ -2,7 +2,7 @@
 
 **_Tier 2 Leader._** _A ghostly commander leading their troops beyond death._
 
-- **Motives & Tactics:** Move through solid objects, rally troops,
+- **Motives & Tactics:** Move through solid objects, rally troops, rehash old battles
 - **Difficulty:** 16 | **Thresholds:** 13/26 | **HP:** 6 | **Stress:** 4
 - **ATK:** +3 | **Longbow:** Far | 2d10+3 phy
 - **Experience:** Ancient Knowledge +3
@@ -15,4 +15,4 @@
 
 **_Hold Fast:_** When the Captain’s Spectral allies are forced to make a reaction roll, you can mark a Stress to give those allies a +2 bonus to the roll.
 
-**_Momentum:_** When the Captain makes a successful attack against a PC, you gain a Fear. 128 Daggerheart SRD
+**_Momentum:_** When the Captain makes a successful attack against a PC, you gain a Fear.

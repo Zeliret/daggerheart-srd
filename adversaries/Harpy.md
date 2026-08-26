@@ -2,7 +2,7 @@
 
 **_Tier 1 Skulk._** _A fierce and foul-smelling bird with an eight-foot wingspan and the upper body and face of a human._
 
-- **Motives & Tactics:** Defend nest, drop enemies from a great
+- **Motives & Tactics:** Defend nest, drop enemies from a great height, maraud from the air, screech incessantly
 - **Difficulty:** 12 | **Thresholds:** 3/7 | **HP:** 3 | **Stress:** 3
 - **ATK:** +0 | **Talons:** Melee | 1d8+1 phy
 - **Experience:** Islands +3

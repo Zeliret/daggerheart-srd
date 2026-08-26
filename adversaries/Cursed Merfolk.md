@@ -2,7 +2,7 @@
 
 **_Tier 3 Standard._** _A half-fish, half-human creature psychically bound to serve the Deep Dwellers._
 
-- **Motives & Tactics:** Separate enemies, strike from the shadows,
+- **Motives & Tactics:** Separate enemies, strike from the shadows, use aquatic environment to advantage
 - **Difficulty:** 16 | **Thresholds:** 18/35 | **HP:** 5 | **Stress:** 4
 - **ATK:** +3 | **Chained Trident:** Far | 3d6 phy
 - **Experience:** Aquatic +3

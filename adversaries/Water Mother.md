@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _A colossal fur-covered snake that hunts in large bodies of water._
 
-- **Motives & Tactics:** Constrict the world, control the battlefi eld,
+- **Motives & Tactics:** Constrict the world, control the battlefield, draw enemies into the water
 - **Difficulty:** 20 | **Thresholds:** 40/70 | **HP:** 12 | **Stress:** 8
 - **ATK:** +8 | **Bite:** Very Close | 4d10+5 phy
 - **Experience:** Rivers +4

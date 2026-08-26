@@ -2,7 +2,7 @@
 
 **_Tier 3 Solo._** _A glacier-blue dragon with four powerful limbs and frost-tinged wings._
 
-- **Motives & Tactics:** Avalanche, defend lair, fly, freeze, defend what
+- **Motives & Tactics:** Avalanche, defend lair, fly, freeze, defend what is mine, maul
 - **Difficulty:** 18 | **Thresholds:** 21/41 | **HP:** 10 | **Stress:** 6
 - **ATK:** +7 | **Bite and Claws:** Close | 4d10 phy
 - **Experience:** Protect What Is Mine +3

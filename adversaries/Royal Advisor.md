@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Devastating Retort - Passive:_** A PC who rolls less than 17 on an action roll targeting the Advisor must mark a Stress.
+**_Devastating Retort:_** A PC who rolls less than 17 on an action roll targeting the Advisor must mark a Stress.
 
-**_Bend Ears - Action:_** **Mark a Stress** to influence an NPC within Melee range with whispered words. That target's opinion on one matter shifts toward the Advisor's preference unless it is in direct opposition to the target's motives.
+**_Bend Ears:_** Mark a Stress to influence an NPC within Melee range with whispered words. That target’s opinion on one matter shifts toward the Advisor’s preference unless it is in direct opposition to the target’s motives.
 
-**_Scapegoat - Action:_** **Spend a Fear** to convince a crowd or notable individual that one person or group is responsible for some problem facing the target. The target becomes hostile to the scapegoat until convinced of their innocence with a successful Presence Roll (17).
+**_Scapegoat:_** Spend a Fear to convince a crowd or notable individual that one person or group is responsible for some problem facing the target. The target becomes hostile to the scapegoat until convinced of their innocence with a successful Presence Roll (17).

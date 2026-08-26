@@ -23,7 +23,7 @@ themselves.
 
 **_Wolf Form:_** When you mark 1 or more Hit Points, you can
 mark a Stress to enter your Wolf Form. While in this form, you
-gain a 1d10  bonus to attack and damage rolls. When you roll
+gain a 1d10 bonus to attack and damage rolls. When you roll
 with Hope while in Wolf Form, you must mark a Stress. Your
 Wolf Form lasts until you go into your “Howling Rampage” or
 take a rest.

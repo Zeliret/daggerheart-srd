@@ -2,7 +2,7 @@
 
 **_Tier 1 Ranged._** _A tall guard bearing a longbow and quiver with arrows fletched in the settlement’s colors._
 
-- **Motives & Tactics:** Arrest, close gates, make it through the day,
+- **Motives & Tactics:** Arrest, close gates, make it through the day, pin down
 - **Difficulty:** 10 | **Thresholds:** 4/8 | **HP:** 3 | **Stress:** 2
 - **ATK:** +1 | **Longbow:** Far | 1d8+3 phy
 - **Experience:** Local Knowledge +3

@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _A transdimensional entity in the form of an impossibly large, winged humanoid with an octopus-shaped head and rows of glowing eyes._
 
-- **Motives & Tactics:** Call and consume followers, corrupt reality,
+- **Motives & Tactics:** Call and consume followers, corrupt reality, invade the Mortal Realm, spew forth chaos
 - **Difficulty:** 20 | **Thresholds:** 38/68 | **HP:** 10 | **Stress:** 10
 - **ATK:** +8 | **Pseudoclaw:** Close | 4d8+10 mag
 - **Experience:** Chaos +5, Psychic +5

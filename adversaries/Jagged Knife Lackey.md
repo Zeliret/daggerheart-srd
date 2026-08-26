@@ -2,9 +2,9 @@
 
 **_Tier 1 Minion._** _A thief with simple clothes and small daggers, eager to prove themselves._
 
-- **Motives & Tactics:** Escape, profi t, throw smoke
+- **Motives & Tactics:** Escape, profit, throw smoke
 - **Difficulty:** 9 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −2 | **Daggers:** Melee | 2 phy
+- **ATK:** -2 | **Daggers:** Melee | 2 phy
 - **Experience:** Thief +2
 
 ### FEATURES

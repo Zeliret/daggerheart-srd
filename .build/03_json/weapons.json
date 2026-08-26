@@ -964,7 +964,8 @@
     "damage": "d6+5 phy",
     "feature": [
       {
-        "name": "+1 to attack rolls Reliable"
+        "name": "Reliable",
+        "text": "+1 to attack rolls"
       }
     ],
     "name": "Finehair Bow",

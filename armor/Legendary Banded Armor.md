@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Bulky:_** −1 to Evasion; when you take Severe damage, you must mark a Stress.
+**_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress.

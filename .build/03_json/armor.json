@@ -47,7 +47,7 @@
     "feature": [
       {
         "name": "Cumbersome",
-        "text": "−1 to Finesse"
+        "text": "-1 to Finesse"
       }
     ],
     "name": "Scale Mail Armor",
@@ -59,7 +59,7 @@
     "feature": [
       {
         "name": "Heavy",
-        "text": "−1 to Evasion"
+        "text": "-1 to Evasion"
       }
     ],
     "name": "Chainmail Armor",
@@ -71,7 +71,7 @@
     "feature": [
       {
         "name": "Bulky",
-        "text": "−1 to Evasion; when you take Severe damage, you must mark a Stress."
+        "text": "-1 to Evasion; when you take Severe damage, you must mark a Stress."
       }
     ],
     "name": "Banded Armor",
@@ -83,7 +83,7 @@
     "feature": [
       {
         "name": "Very Heavy",
-        "text": "−2 to Evasion; −1 to Agility Base Base Name Thresholds Score Feature"
+        "text": "-2 to Evasion; -1 to Agility Base Base Name Thresholds Score Feature"
       }
     ],
     "name": "Full Plate Armor",
@@ -137,7 +137,7 @@
     "feature": [
       {
         "name": "Cumbersome",
-        "text": "−1 to Finesse"
+        "text": "-1 to Finesse"
       }
     ],
     "name": "Improved Scale Mail Armor",
@@ -149,7 +149,7 @@
     "feature": [
       {
         "name": "Heavy",
-        "text": "−1 to Evasion"
+        "text": "-1 to Evasion"
       }
     ],
     "name": "Improved Chainmail Armor",
@@ -161,7 +161,7 @@
     "feature": [
       {
         "name": "Bulky",
-        "text": "−1 to Evasion; when you take Severe damage, you must mark a Stress."
+        "text": "-1 to Evasion; when you take Severe damage, you must mark a Stress."
       }
     ],
     "name": "Improved Banded Armor",
@@ -173,7 +173,7 @@
     "feature": [
       {
         "name": "Very Heavy",
-        "text": "−2 to Evasion; −1 to Agility"
+        "text": "-2 to Evasion; -1 to Agility"
       }
     ],
     "name": "Improved Full Plate Armor",
@@ -383,7 +383,7 @@
     "feature": [
       {
         "name": "Cumbersome",
-        "text": "−1 to Finesse"
+        "text": "-1 to Finesse"
       }
     ],
     "name": "Advanced Scale Mail Armor",
@@ -395,7 +395,7 @@
     "feature": [
       {
         "name": "Heavy",
-        "text": "−1 to Evasion"
+        "text": "-1 to Evasion"
       }
     ],
     "name": "Advanced Chainmail Armor",
@@ -407,7 +407,7 @@
     "feature": [
       {
         "name": "Bulky",
-        "text": "−1 to Evasion; when you take Severe damage, you must mark a Stress."
+        "text": "-1 to Evasion; when you take Severe damage, you must mark a Stress."
       }
     ],
     "name": "Advanced Banded Armor",
@@ -419,7 +419,7 @@
     "feature": [
       {
         "name": "Very Heavy",
-        "text": "−2 to Evasion; −1 to Agility"
+        "text": "-2 to Evasion; -1 to Agility"
       }
     ],
     "name": "Advanced Full Plate Armor",
@@ -617,7 +617,7 @@
     "feature": [
       {
         "name": "Cumbersome",
-        "text": "−1 to Finesse"
+        "text": "-1 to Finesse"
       }
     ],
     "name": "Legendary Scale Mail Armor",
@@ -629,7 +629,7 @@
     "feature": [
       {
         "name": "Heavy",
-        "text": "−1 to Evasion"
+        "text": "-1 to Evasion"
       }
     ],
     "name": "Legendary Chainmail Armor",
@@ -641,7 +641,7 @@
     "feature": [
       {
         "name": "Bulky",
-        "text": "−1 to Evasion; when you take Severe damage, you must mark a Stress."
+        "text": "-1 to Evasion; when you take Severe damage, you must mark a Stress."
       }
     ],
     "name": "Legendary Banded Armor",
@@ -653,7 +653,7 @@
     "feature": [
       {
         "name": "Very Heavy",
-        "text": "−2 to Evasion; −1 to Agility"
+        "text": "-2 to Evasion; -1 to Agility"
       }
     ],
     "name": "Legendary Full Plate Armor",
@@ -785,7 +785,7 @@
     "feature": [
       {
         "name": "Vitreous",
-        "text": "When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a −5 penalty to your damage thresholds until you choose to repair your armor as a downtime move."
+        "text": "When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move."
       }
     ],
     "name": "Resonant Harness",
@@ -797,7 +797,7 @@
     "feature": [
       {
         "name": "Difficult",
-        "text": "−1 to all character traits and Evasion"
+        "text": "-1 to all character traits and Evasion"
       }
     ],
     "name": "Savior Chainmail",

@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Battle Formation:_** The Guard gains a +1 bonus to their Diffi culty for each ally within Very Close range.
+**_Battle Formation:_** The Guard gains a +1 bonus to their Difficulty for each ally within Very Close range.
 
 **_Javelin:_** Make an attack against a target within Very Far range. On a success, deal 2d6+2 physical damage.

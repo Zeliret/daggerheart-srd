@@ -2,7 +2,7 @@
 
 **_Tier 4 Minion._** _A two-dimensional living shadow bound to flat planes and surfaces._
 
-- **Motives & Tactics:** Curse the light, slip between the cracks, split
+- **Motives & Tactics:** Curse the light, slip between the cracks, split and reform
 - **Difficulty:** 19 | **Thresholds:** None | **HP:** 1 | **Stress:** 2
 - **ATK:** +3 | **Strangle:** Close | 10 mag
 

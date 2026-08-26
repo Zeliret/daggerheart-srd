@@ -4,7 +4,7 @@
 
 - **Motives & Tactics:** Chitter and chew, clump together, roll around
 - **Difficulty:** 8 | **Thresholds:** 4/8 | **HP:** 4 | **Stress:** 2
-- **ATK:** −2 | **Chomp:** Melee | 1d6+3 phy
+- **ATK:** -2 | **Chomp:** Melee | 1d6+3 phy
 - **Experience:** Underground +2
 
 ### FEATURES

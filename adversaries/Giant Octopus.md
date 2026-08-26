@@ -2,7 +2,7 @@
 
 **_Tier 2 Solo._** _A monstrous, aquatic mollusk that has eight sucker-bearing arms and a hard, beaklike jaw._
 
-- **Motives & Tactics:** Crush and bite, grapple, harry sailing vessels,
+- **Motives & Tactics:** Crush and bite, grapple, harry sailing vessels, hunt prey
 - **Difficulty:** 14 | **Thresholds:** 13/26 | **HP:** 10 | **Stress:** 5
 - **ATK:** +3 | **Arm Whip:** Close | 2d10 phy
 - **Experience:** Intelligent +3

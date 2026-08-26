@@ -13,4 +13,4 @@
 
 **_Blinding Multitude:_** The Swarm is so thick it blocks the vision of anyone it interacts with. Creatures within Melee range have disadvantage on attacks made against adversaries other than the Swarm.
 
-**_Bloodsuckers:_** When the Swarm deals damage to a target, you can mark a Stress to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP. 142 Daggerheart SRD
+**_Bloodsuckers:_** When the Swarm deals damage to a target, you can mark a Stress to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP.

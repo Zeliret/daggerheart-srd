@@ -23,7 +23,7 @@ result in a terrifying end for their targets.
 ### TRANSFORMATION FEATURES
 
 **_Fangs:_** Make an attack using a trait of your choice to bite a
-target within Melee range. On a success, deal d6  physical
+target within Melee range. On a success, deal d6 physical
 damage using your Proficiency.
 
 **_Feed:_** On a successful “Fangs” attack against a creature that
@@ -31,7 +31,7 @@ can bleed, you can mark a Stress to feed. Place a number
 of tokens on this card equal to the number of Hit Points the
 target marks. You can hold up to 6 tokens at a time. Before
 you make an action roll, you can spend a token to make your
-Fear Die a d20 . When you take a long rest, remove a token.
+Fear Die a d20. When you take a long rest, remove a token.
 While there are no tokens on this card, you make action and
 reaction rolls with disadvantage.
 

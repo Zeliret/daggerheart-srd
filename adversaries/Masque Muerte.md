@@ -2,7 +2,7 @@
 
 **_Tier 1 Solo._** _The raging soul of a villainous masked wrestler._
 
-- **Motives & Tactics:** Call out, embarrass, energize the audience, pin
+- **Motives & Tactics:** Call out, embarrass, energize the audience, pin opponents to the ground
 - **Difficulty:** 13 | **Thresholds:** 7/14 | **HP:** 8 | **Stress:** 4
 - **ATK:** +4 | **Open-Handed Strike:** Melee | 1d12+2 mag
 - **Experience:** Grappler +3, Showboat +3

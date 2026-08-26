@@ -9,7 +9,7 @@
 
 ### FEATURES
 
-**_Chevalier:_** While the Knight is on a mount, they gain a +2 bonus to their Diffi culty. When they take Severe damage, they’re knocked from their mount and lose this benefi t until they’re next spotlighted.
+**_Chevalier:_** While the Knight is on a mount, they gain a +2 bonus to their Difficulty. When they take Severe damage, they’re knocked from their mount and lose this benefit until they’re next spotlighted.
 
 **_Heavily Armored:_** When the Knight takes physical damage, reduce it by 3.
 

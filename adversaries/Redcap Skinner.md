@@ -4,7 +4,7 @@
 
 - **Motives & Tactics:** Flense, giggle, scrape, slice
 - **Difficulty:** 9 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −1 | **Razor:** Melee | 2 phy
+- **ATK:** -1 | **Razor:** Melee | 2 phy
 - **Experience:** Leatherwork +3
 
 ### FEATURES

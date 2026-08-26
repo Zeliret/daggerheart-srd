@@ -4,7 +4,7 @@
 
 - **Motives & Tactics:** Crush, overwhelm, protect
 - **Difficulty:** 10 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −2 | **Clawed Branch:** Melee | 4 phy
+- **ATK:** -2 | **Clawed Branch:** Melee | 4 phy
 
 ### FEATURES
 

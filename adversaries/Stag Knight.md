@@ -2,7 +2,7 @@
 
 **_Tier 3 Standard._** _A knight with huge, majestic antlers wearing armor made of dangerous thorns._
 
-- **Motives & Tactics:** Isolate, maneuver, protect the forest, weed
+- **Motives & Tactics:** Isolate, maneuver, protect the forest, weed the unwelcome
 - **Difficulty:** 17 | **Thresholds:** 19/36 | **HP:** 7 | **Stress:** 5
 - **ATK:** +3 | **Bramble Sword:** Melee | 3d8+3 phy
 - **Experience:** Forest Knowledge +3

@@ -2,7 +2,7 @@
 
 **_Tier 2 Minion._** _A brightly colored spirit in the shape of an animal._
 
-- **Motives & Tactics:** Protect, sacrifi ce, surround
+- **Motives & Tactics:** Protect, sacrifice, surround
 - **Difficulty:** 13 | **Thresholds:** None | **HP:** 1 | **Stress:** 2
 - **ATK:** +1 | **Bite & Claw:** Melee | 5 mag
 

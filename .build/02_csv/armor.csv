@@ -3,18 +3,18 @@ Mage Robes,1,4 / 10,2,Enchanted,Gain a bonus to your damage thresholds equal to 
 Gambeson Armor,1,5 / 11,3,Flexible,+1 to Evasion
 Brigandine Armor,1,6 / 12,3,Lined,Mark a Stress to negate Minor damage.
 Leather Armor,1,6 / 13,3,,
-Scale Mail Armor,1,7 / 14,3,Cumbersome,−1 to Finesse
-Chainmail Armor,1,7 / 15,4,Heavy,−1 to Evasion
-Banded Armor,1,8 / 16,4,Bulky,"−1 to Evasion; when you take Severe damage, you must mark a Stress."
-Full Plate Armor,1,8 / 17,4,Very Heavy,−2 to Evasion; −1 to Agility Base Base Name Thresholds Score Feature
+Scale Mail Armor,1,7 / 14,3,Cumbersome,-1 to Finesse
+Chainmail Armor,1,7 / 15,4,Heavy,-1 to Evasion
+Banded Armor,1,8 / 16,4,Bulky,"-1 to Evasion; when you take Severe damage, you must mark a Stress."
+Full Plate Armor,1,8 / 17,4,Very Heavy,-2 to Evasion; -1 to Agility Base Base Name Thresholds Score Feature
 Improved Mage Robes,2,6 / 15,3,Enchanted,Gain a bonus to your damage thresholds equal to your Spellcast trait.
 Improved Gambeson Armor,2,7 / 16,4,Flexible,+1 to Evasion
 Improved Brigandine Armor,2,9 / 19,4,Lined,Mark a Stress to negate Minor damage.
 Improved Leather Armor,2,9 / 20,4,,
-Improved Scale Mail Armor,2,11 / 23,4,Cumbersome,−1 to Finesse
-Improved Chainmail Armor,2,11 / 24,5,Heavy,−1 to Evasion
-Improved Banded Armor,2,13 / 27,5,Bulky,"−1 to Evasion; when you take Severe damage, you must mark a Stress."
-Improved Full Plate Armor,2,13 / 28,5,Very Heavy,−2 to Evasion; −1 to Agility
+Improved Scale Mail Armor,2,11 / 23,4,Cumbersome,-1 to Finesse
+Improved Chainmail Armor,2,11 / 24,5,Heavy,-1 to Evasion
+Improved Banded Armor,2,13 / 27,5,Bulky,"-1 to Evasion; when you take Severe damage, you must mark a Stress."
+Improved Full Plate Armor,2,13 / 28,5,Very Heavy,-2 to Evasion; -1 to Agility
 Enchanter’s Robes,2,9 / 20,4,Mnemonic,"Once per scene, you can recall a domain card from your vault without paying its Recall Cost."
 Hawkguard’s Mantle,2,9 / 20,4,Gliding,You can glide up to Far range and are immune to damage from falling.
 Spidersilk Tunic,2,9 / 20,4,Wall-Crawling,+1 Evasion; you can walk on walls as easily as on the ground.
@@ -32,10 +32,10 @@ Advanced Mage Robes,3,8 / 22,4,Enchanted,Gain a bonus to your damage thresholds 
 Advanced Gambeson Armor,3,9 / 23,5,Flexible,+1 to Evasion
 Advanced Brigandine Armor,3,11 / 26,5,Lined,Mark a Stress to negate Minor damage.
 Advanced Leather Armor,3,11 / 27,5,,
-Advanced Scale Mail Armor,3,13 / 30,5,Cumbersome,−1 to Finesse
-Advanced Chainmail Armor,3,13 / 31,6,Heavy,−1 to Evasion
-Advanced Banded Armor,3,15 / 34,6,Bulky,"−1 to Evasion; when you take Severe damage, you must mark a Stress."
-Advanced Full Plate Armor,3,15 / 35,6,Very Heavy,−2 to Evasion; −1 to Agility
+Advanced Scale Mail Armor,3,13 / 30,5,Cumbersome,-1 to Finesse
+Advanced Chainmail Armor,3,13 / 31,6,Heavy,-1 to Evasion
+Advanced Banded Armor,3,15 / 34,6,Bulky,"-1 to Evasion; when you take Severe damage, you must mark a Stress."
+Advanced Full Plate Armor,3,15 / 35,6,Very Heavy,-2 to Evasion; -1 to Agility
 Granminster’s Finery,3,11 / 27,2,Magnificent,Gain a bonus to your Armor Score equal to your Presence.
 Spiked Plate Armor,3,10 / 25,5,Sharp,"On a successful attack against a target within Melee range, add a d4 to the damage roll."
 Astral Raiment,3,11 / 27,5,Stellar,Mark a Stress to gain advantage on a Spellcast roll.
@@ -52,10 +52,10 @@ Legendary Mage Robes,4,10 / 31,5,Enchanted,Gain a bonus to your damage threshold
 Legendary Gambeson Armor,4,11 / 32,6,Flexible,+1 to Evasion
 Legendary Brigandine Armor,4,13 / 35,6,Lined,Mark a Stress to negate Minor damage.
 Legendary Leather Armor,4,13 / 36,6,,
-Legendary Scale Mail Armor,4,15 / 39,6,Cumbersome,−1 to Finesse
-Legendary Chainmail Armor,4,15 / 40,7,Heavy,−1 to Evasion
-Legendary Banded Armor,4,17 / 43,7,Bulky,"−1 to Evasion; when you take Severe damage, you must mark a Stress."
-Legendary Full Plate Armor,4,17 / 44,7,Very Heavy,−2 to Evasion; −1 to Agility
+Legendary Scale Mail Armor,4,15 / 39,6,Cumbersome,-1 to Finesse
+Legendary Chainmail Armor,4,15 / 40,7,Heavy,-1 to Evasion
+Legendary Banded Armor,4,17 / 43,7,Bulky,"-1 to Evasion; when you take Severe damage, you must mark a Stress."
+Legendary Full Plate Armor,4,17 / 44,7,Very Heavy,-2 to Evasion; -1 to Agility
 Full Fortified Armor,4,15 / 40,4,Fortified,"When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one."
 Channeling Armor,4,13 / 36,5,Channeling,+1 to Spellcast Rolls
 Darkweave Shroud,4,13 / 36,5,Ghostwalker,"Once per rest, mark a Stress to move up to Close range through solid objects."
@@ -66,5 +66,5 @@ Circle-Forged Dreadplate,4,14 / 38,6,Accursed,"When you mark any number of Hit P
 Rune-Forged Exosuit,4,12 / 39,7,Attuned,"The maximum number of domain cards in your loadout is reduced by one, but you gain a bonus to your damage thresholds equal to your tier."
 Dunamis Silkchain,4,13 / 36,7,Timeslowing,Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack.
 Hallowed Heroplate,4,13 / 35,7,Blessed,"Once per long rest, you can spend any number of Hope before you make the Risk It All death move. You gain a bonus to the result of your Hope Die equal to the number of Hope spent."
-Resonant Harness,4,15 / 40,7,Vitreous,"When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a −5 penalty to your damage thresholds until you choose to repair your armor as a downtime move."
-Savior Chainmail,4,18 / 48,8,Difficult,−1 to all character traits and Evasion
+Resonant Harness,4,15 / 40,7,Vitreous,"When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move."
+Savior Chainmail,4,18 / 48,8,Difficult,-1 to all character traits and Evasion

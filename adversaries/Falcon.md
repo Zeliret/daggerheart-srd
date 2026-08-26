@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Nimble Flyer:_** While flying, the Falcon gains a +3 bonus to its Diffi culty.
+**_Nimble Flyer:_** While flying, the Falcon gains a +3 bonus to its Difficulty.
 
-**_Dive Bomb:_** Mark a Stress to make a standard attack against a target from above. The Falcon gains a +2 bonus to the attack and damage rolls. 100 Daggerheart SRD
+**_Dive Bomb:_** Mark a Stress to make a standard attack against a target from above. The Falcon gains a +2 bonus to the attack and damage rolls.

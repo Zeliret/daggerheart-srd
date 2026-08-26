@@ -31,7 +31,7 @@ you fulfill it, you cross through the veil of death.
 
 **_Ephemeral:_** Your body wavers in and out of being corporeal.
 You are resistant to physical damage, take double magic
-damage, and can mark 2 Stress  to momentarily pass through
+damage, and can mark 2 Stress to momentarily pass through
 a solid object.
 
 ### TRANSFORMATION QUESTIONS

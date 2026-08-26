@@ -2,7 +2,7 @@
 
 **_Tier 4 Solo._** _A towering immortal and incarnation of fate, cursed to only see bad outcomes._
 
-- **Motives & Tactics:** Change environment, condemn, dishearten,
+- **Motives & Tactics:** Change environment, condemn, dishearten, toss aside
 - **Difficulty:** 20 | **Thresholds:** 38/68 | **HP:** 11 | **Stress:** 10
 - **ATK:** +8 | **Psychic Attack:** Far | 4d8+9 mag
 - **Experience:** Boundless Knowledge +4

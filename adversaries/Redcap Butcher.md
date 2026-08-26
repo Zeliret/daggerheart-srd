@@ -1,6 +1,6 @@
 # Redcap Butcher
 
-**_Tier 1 Standard._** _A halfl ing-sized fey creature who hacks their victims apart with a variety of cutting implements. They wear a conical red hat sealed on their head with candle wax._
+**_Tier 1 Standard._** _A halfling-sized fey creature who hacks their victims apart with a variety of cutting implements. They wear a conical red hat sealed on their head with candle wax._
 
 - **Motives & Tactics:** Grin disconcertingly, hack and slash, scramble
 - **Difficulty:** 12 | **Thresholds:** 5/10 | **HP:** 4 | **Stress:** 3

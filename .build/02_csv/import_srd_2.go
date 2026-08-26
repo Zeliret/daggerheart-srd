@@ -552,6 +552,22 @@ func writeCSV(path string, header []string, rows [][]string) error {
 
 func cleanBody(value string) string {
 	value = strings.ReplaceAll(value, "\n\n", "\n")
+	// The tagged SRD 2.0 PDF occasionally separates ligature glyphs into a
+	// partial word and its next letter (for example, "T argets", "battlefi eld",
+	// and "Flickerfl y"). Repair those extraction artifacts before writing any
+	// generated layer, while deliberately leaving ordinary word boundaries such
+	// as "Staff of" intact.
+	value = regexp.MustCompile(`\b([A-Za-z]*(?:fi|fl))\s+([a-z])`).ReplaceAllString(value, `$1$2`)
+	value = regexp.MustCompile(`\b([A-Za-z]+ff)\s+([eE][a-z]*)`).ReplaceAllString(value, `$1$2`)
+	value = regexp.MustCompile(`\bT\s+([a-z])`).ReplaceAllString(value, `T$1`)
+	value = regexp.MustCompile(`\bV\s+([A-Z][A-Z]*)`).ReplaceAllString(value, `V$1`)
+	value = regexp.MustCompile(`\b([A-Z]{3,})\s+T\b`).ReplaceAllString(value, `$1T`)
+	value = regexp.MustCompile(`\b([A-Z]{3,})\s+Y\b`).ReplaceAllString(value, `$1Y`)
+	value = strings.ReplaceAll(value, "SYL V AN", "SYLVAN")
+	value = strings.ReplaceAll(value, "A VARICE", "AVARICE")
+	value = regexp.MustCompile(`[ \t]+([,.;:!?])`).ReplaceAllString(value, `$1`)
+	value = regexp.MustCompile(`[ \t]{2,}`).ReplaceAllString(value, " ")
+	value = regexp.MustCompile(`(?m)[ \t]+$`).ReplaceAllString(value, "")
 	return strings.TrimSpace(value)
 }
 

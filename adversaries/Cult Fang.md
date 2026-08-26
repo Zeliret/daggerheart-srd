@@ -2,7 +2,7 @@
 
 **_Tier 2 Skulk._** _A professional killer-turned-cultist._
 
-- **Motives & Tactics:** Capture sacrifi ces, isolate prey, rise in
+- **Motives & Tactics:** Capture sacrifices, isolate prey, rise in the ranks
 - **Difficulty:** 15 | **Thresholds:** 9/17 | **HP:** 4 | **Stress:** 4
 - **ATK:** +2 | **Long Knife:** Melee | 2d8+4 phy
 

@@ -2,16 +2,16 @@
 
 **_Tier 1 Skulk._** _A moving mound of translucent green slime._
 
-- **Motives & Tactics:** Camoufl age, consume and multiply, creep up,
+- **Motives & Tactics:** Camouflage, consume and multiply, creep up, envelop
 - **Difficulty:** 8 | **Thresholds:** 5/10 | **HP:** 5 | **Stress:** 2
 - **ATK:** +1 | **Ooze Appendage:** Melee | 1d6+1 mag
-- **Experience:** Camoufl age +3
+- **Experience:** Camouflage +3
 
 ### FEATURES
 
 **_Slow:_** When you spotlight the Ooze and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Ooze and they have a token on their stat block, clear the token and they can act.
 
-**_Acidic Form:_** When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefi ts (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.
+**_Acidic Form:_** When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.
 
 **_Envelop:_** Make a standard attack against a target within Melee range. On a success, the Ooze envelops them and the target must mark 2 Stress. The target must mark an additional Stress when they make an action roll. If the Ooze takes Severe damage, the target is freed.
 

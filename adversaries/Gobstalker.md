@@ -11,12 +11,12 @@
 
 **_Relentless (3):_** The Gobstalker can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Anti-Mystica-Halitosis:_** The Gobstalker’s rancid breath creates an invisible, magic-negating miasma. An attack, an ability, or a spell that deals magic damage or creates a magic eff ect fails automatically if used within Close range of the Gobstalker.
+**_Anti-Mystica-Halitosis:_** The Gobstalker’s rancid breath creates an invisible, magic-negating miasma. An attack, an ability, or a spell that deals magic damage or creates a magic effect fails automatically if used within Close range of the Gobstalker.
 
 **_Tentacle Rays:_** Mark a Stress to attack a target within Far range. On a success, roll a d8 for a random beam attack or spend a Fear to choose instead:
 
 1. Beguile. The Gobstalker Beguiles the target. While Beguiled, the target sees the Gobstalker as a friend and can’t attack it. Additionally, when a PC rolls with Fear, a Beguiled PC must mark a Stress or attack a target chosen by the Gobstalker. A Beguiled PC must succeed on an Instinct Roll (16) to clear the condition.
-2. Corrode. The target takes 2d8 magic damage and must mark an Armor Slot without receiving its benefi ts (they can still use armor to reduce the damage). If they can’t, double the damage.
+2. Corrode. The target takes 2d8 magic damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t, double the damage.
 3. Doom. The target must mark all HP, but they can spend any number of Hope to reduce the number of HP marked this way by an equal amount.
 4. Hypnosis. The target falls into a Deep Trance and can’t act except to try to wake up. This condition lasts until the target takes damage or wakes up with a successful Presence Roll (16).
 5. Paralyze. The target freezes in place, becoming Vulnerable and Restrained until they mark 2 Stress.

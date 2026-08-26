@@ -42,7 +42,7 @@
       },
       {
         "name": "Ephemeral",
-        "text": "Your body wavers in and out of being corporeal.\nYou are resistant to physical damage, take double magic\ndamage, and can mark 2 Stress  to momentarily pass through\na solid object."
+        "text": "Your body wavers in and out of being corporeal.\nYou are resistant to physical damage, take double magic\ndamage, and can mark 2 Stress to momentarily pass through\na solid object."
       }
     ],
     "name": "Ghost",
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "description": "Shapeshifters are creatures who can change their physical\nform. Whether they were born with this ability, gained it as\na result of magical craft or a curse, or received this power\nfrom an otherworldly entity, shapeshifters have a unique\nrelationship with their identity. Because shapeshifters can\ntransform into any ancestry—one moment living as a small\nand nimble faerie and the next as a large and tough galapa—\ntheir experiences with the outside world can vary greatly from\nday to day.\nWhile a shapeshifter is typically indistinguishable from another\nmember of the ancestry they transform into, each shapeshifter\nhas one characteristic that doesn’t change no matter their\nform, such as their eyes, their coloring, or a unique birthmark.\nThey also can’t mimic a specific person’s appearance, as they\nbecome a different version of themselves in a new body.\nT aking on a new form also doesn’t allow them to immediately\nhave or use all the new form’s characteristics—they must\nfocus their efforts on the physical characteristics they most\nwant to use. Shapeshifters might need time to learn how\nto embody a new form, sometimes leading to an uncanny\nappearance or behavior until they’re accustomed to their body.",
+    "description": "Shapeshifters are creatures who can change their physical\nform. Whether they were born with this ability, gained it as\na result of magical craft or a curse, or received this power\nfrom an otherworldly entity, shapeshifters have a unique\nrelationship with their identity. Because shapeshifters can\ntransform into any ancestry—one moment living as a small\nand nimble faerie and the next as a large and tough galapa—\ntheir experiences with the outside world can vary greatly from\nday to day.\nWhile a shapeshifter is typically indistinguishable from another\nmember of the ancestry they transform into, each shapeshifter\nhas one characteristic that doesn’t change no matter their\nform, such as their eyes, their coloring, or a unique birthmark.\nThey also can’t mimic a specific person’s appearance, as they\nbecome a different version of themselves in a new body.\nTaking on a new form also doesn’t allow them to immediately\nhave or use all the new form’s characteristics—they must\nfocus their efforts on the physical characteristics they most\nwant to use. Shapeshifters might need time to learn how\nto embody a new form, sometimes leading to an uncanny\nappearance or behavior until they’re accustomed to their body.",
     "feature": [
       {
         "name": "Change Shape",
@@ -140,11 +140,11 @@
     "feature": [
       {
         "name": "Fangs",
-        "text": "Make an attack using a trait of your choice to bite a\ntarget within Melee range. On a success, deal d6  physical\ndamage using your Proficiency."
+        "text": "Make an attack using a trait of your choice to bite a\ntarget within Melee range. On a success, deal d6 physical\ndamage using your Proficiency."
       },
       {
         "name": "Feed",
-        "text": "On a successful “Fangs” attack against a creature that\ncan bleed, you can mark a Stress to feed. Place a number\nof tokens on this card equal to the number of Hit Points the\ntarget marks. You can hold up to 6 tokens at a time. Before\nyou make an action roll, you can spend a token to make your\nFear Die a d20 . When you take a long rest, remove a token.\nWhile there are no tokens on this card, you make action and\nreaction rolls with disadvantage."
+        "text": "On a successful “Fangs” attack against a creature that\ncan bleed, you can mark a Stress to feed. Place a number\nof tokens on this card equal to the number of Hit Points the\ntarget marks. You can hold up to 6 tokens at a time. Before\nyou make an action roll, you can spend a token to make your\nFear Die a d20. When you take a long rest, remove a token.\nWhile there are no tokens on this card, you make action and\nreaction rolls with disadvantage."
       }
     ],
     "name": "Vampire",
@@ -174,7 +174,7 @@
     "feature": [
       {
         "name": "Wolf Form",
-        "text": "When you mark 1 or more Hit Points, you can\nmark a Stress to enter your Wolf Form. While in this form, you\ngain a 1d10  bonus to attack and damage rolls. When you roll\nwith Hope while in Wolf Form, you must mark a Stress. Your\nWolf Form lasts until you go into your “Howling Rampage” or\ntake a rest."
+        "text": "When you mark 1 or more Hit Points, you can\nmark a Stress to enter your Wolf Form. While in this form, you\ngain a 1d10 bonus to attack and damage rolls. When you roll\nwith Hope while in Wolf Form, you must mark a Stress. Your\nWolf Form lasts until you go into your “Howling Rampage” or\ntake a rest."
       },
       {
         "name": "Howling Rampage",

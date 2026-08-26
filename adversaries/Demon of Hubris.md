@@ -1,8 +1,8 @@
 # Demon Of Hubris
 
-**_Tier 3 Leader._** _A perfectly beautiful and infi nitely cruel demon with a gleaming spear and elegant robes._
+**_Tier 3 Leader._** _A perfectly beautiful and infinitely cruel demon with a gleaming spear and elegant robes._
 
-- **Motives & Tactics:** Condescend, declare premature victory,
+- **Motives & Tactics:** Condescend, declare premature victory, prove superiority
 - **Difficulty:** 18 | **Thresholds:** 18/36 | **HP:** 7 | **Stress:** 5
 - **ATK:** +4 | **Perfect Spear:** Very Close | 3d10 phy
 - **Experience:** Manipulation +2

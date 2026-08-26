@@ -2,9 +2,9 @@
 
 **_Tier 1 Standard._** _The echo of a lost soul in the form of an ectoplasmic shadow._
 
-- **Motives & Tactics:** Create cold spots, swoop through the air,
+- **Motives & Tactics:** Create cold spots, swoop through the air, whisper dark tidings
 - **Difficulty:** 11 | **Thresholds:** 5/None | **HP:** 2 | **Stress:** 1
-- **ATK:** −1 | **Chill Touch:** Melee | 1d6+2 mag
+- **ATK:** -1 | **Chill Touch:** Melee | 1d6+2 mag
 - **Experience:** Spooky +3
 
 ### FEATURES

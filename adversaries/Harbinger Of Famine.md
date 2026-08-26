@@ -11,7 +11,7 @@
 
 **_Relentless (2):_** The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Diffi culty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.
+**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.
 
 **_Hunger Pangs:_** Countdown (Decreasing 6). When the Harbinger appears, activate the countdown. It ticks down when the Harbinger is spotlighted. When it triggers, all PCs within Far range mark a Stress and become Ravenous. While Ravenous, a PC can’t spend Hope until they clear the condition with a successful Instinct Roll.
 

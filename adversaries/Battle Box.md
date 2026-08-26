@@ -1,11 +1,11 @@
 # Battle Box
 
-**_Tier 2 Solo._** _A cube-shaped construct with a diff erent rune on each of their six sides._
+**_Tier 2 Solo._** _A cube-shaped construct with a different rune on each of their six sides._
 
 - **Motives & Tactics:** Change tactics, trample foes, wait in disguise
 - **Difficulty:** 15 | **Thresholds:** 10/20 | **HP:** 8 | **Stress:** 6
 - **ATK:** +2 | **Slam:** Melee | 2d6+3 phy
-- **Experience:** Camoufl age +2
+- **Experience:** Camouflage +2
 
 ### FEATURES
 

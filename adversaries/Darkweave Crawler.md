@@ -2,7 +2,7 @@
 
 **_Tier 1 Minion._** _A spider the size of a human head, woven out of shadow-silk._
 
-- **Motives & Tactics:** Hide in shadow, strike the unwary, wait for an
+- **Motives & Tactics:** Hide in shadow, strike the unwary, wait for an opening
 - **Difficulty:** 10 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
 - **ATK:** –2 | **Bite:** Melee | 2 phy
 - **Experience:** Darkness +3

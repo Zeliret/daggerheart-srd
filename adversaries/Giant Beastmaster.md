@@ -2,7 +2,7 @@
 
 **_Tier 2 Leader._** _A leather-clad warrior bearing a whip and massive bow._
 
-- **Motives & Tactics:** Command, make a living, maneuver, pin down,
+- **Motives & Tactics:** Command, make a living, maneuver, pin down, protect companion animals
 - **Difficulty:** 16 | **Thresholds:** 12/24 | **HP:** 6 | **Stress:** 5
 - **ATK:** +2 | **Longbow:** Far | 2d8+4 phy
 - **Experience:** Animal Handling +3

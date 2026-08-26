@@ -2,7 +2,7 @@
 
 **_Tier 1 Solo._** _A ten-foot-tall, semisolid (and semisentient) candle wax construct._
 
-- **Motives & Tactics:** Lumber menacingly, moan with the pain of
+- **Motives & Tactics:** Lumber menacingly, moan with the pain of unlife, smother
 - **Difficulty:** 13 | **Thresholds:** 8/15 | **HP:** 10 | **Stress:** 3
 - **ATK:** +2 | **Fists:** Very Close | 1d20 phy
 - **Experience:** Giant-Sized +2

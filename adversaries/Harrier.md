@@ -2,10 +2,10 @@
 
 **_Tier 1 Standard._** _A nimble fighter armed with javelins._
 
-- **Motives & Tactics:** Flank, harry, kite, profi t
+- **Motives & Tactics:** Flank, harry, kite, profit
 - **Difficulty:** 12 | **Thresholds:** 5/9 | **HP:** 3 | **Stress:** 3
 - **ATK:** +1 | **Javelin:** Close | 1d6+2 phy
-- **Experience:** Camoufl age +2
+- **Experience:** Camouflage +2
 
 ### FEATURES
 

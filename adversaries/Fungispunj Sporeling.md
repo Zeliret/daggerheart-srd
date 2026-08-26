@@ -1,10 +1,10 @@
 # Fungispunj Sporeling
 
-**_Tier 2 Minion._** _A halfl ing-sized mushroom creature that defends itself from attackers with tiny puff s of neurotoxic spores._
+**_Tier 2 Minion._** _A halfling-sized mushroom creature that defends itself from attackers with tiny puff s of neurotoxic spores._
 
 - **Motives & Tactics:** Avoid violence, spray attackers
 - **Difficulty:** 13 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −1 | **Neuro Spore:** Very Close | 4 mag
+- **ATK:** -1 | **Neuro Spore:** Very Close | 4 mag
 - **Experience:** Darkness +3
 
 ### FEATURES

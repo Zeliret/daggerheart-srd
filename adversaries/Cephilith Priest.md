@@ -2,7 +2,7 @@
 
 **_Tier 4 Leader._** _A perpetually moist, faceless humanoid from the Outer Realms who has elongated fingers and translucent skin, under which one can see wriggling worms._
 
-- **Motives & Tactics:** Break the unbelievers’ minds, prepare this
+- **Motives & Tactics:** Break the unbelievers’ minds, prepare this world for the Cephilith Titan’s arrival, sing its praises
 - **Difficulty:** 20 | **Thresholds:** 37/70 | **HP:** 7 | **Stress:** 5
 - **ATK:** +8 | **Psychic Strike:** Far | 4d10+10 mag
 - **Experience:** Outer Realms +4
@@ -13,4 +13,4 @@
 
 **_Cerebral Incursion:_** Spend a Fear to choose a Vulnerable target within Melee range. The Priest grabs the target and inserts their elongated fingers into the target’s ears, nose, and mouth. The target must succeed on a Strength Reaction Roll or mark 1d6 Stress, and the Priest clears an equal number of Stress.
 
-**_Telekinetic Grasp:_** When the Priest makes a successful standard attack against a PC, you can mark a Stress to Restrain the target until they spend a Hope. 146 Daggerheart SRD
+**_Telekinetic Grasp:_** When the Priest makes a successful standard attack against a PC, you can mark a Stress to Restrain the target until they spend a Hope.

@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Treasure Hoarder:_** When a PC would mark any number of HP from the Griffi n’s attack, the PC can choose instead to give the Griffi n an equal number of bags of gold.
+**_Treasure Hoarder:_** When a PC would mark any number of HP from the Griffin’s attack, the PC can choose instead to give the Griffin an equal number of bags of gold.
 
 **_Swooping Slash:_** Move up to Far range and make a standard attack against a target along the way.

@@ -1,6 +1,6 @@
 # Patchwork Zombie Hulk
 
-**_Tier 1 Solo._** _A towering gestalt of corpses moving as one, with torso-sized limbs and fists as large as a grown halfl ing._
+**_Tier 1 Solo._** _A towering gestalt of corpses moving as one, with torso-sized limbs and fists as large as a grown halfling._
 
 - **Motives & Tactics:** Absorb corpses, flail, hunger, terrify
 - **Difficulty:** 13 | **Thresholds:** 8/15 | **HP:** 10 | **Stress:** 3

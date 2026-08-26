@@ -2,7 +2,7 @@
 
 **_Tier 2 Support._** _A necromancer charged with preserving the empress’s life beyond death._
 
-- **Motives & Tactics:** Boost allies, conquer time, hold down enemies,
+- **Motives & Tactics:** Boost allies, conquer time, hold down enemies, serve the empress, wield death as a weapon
 - **Difficulty:** 13 | **Thresholds:** 8/16 | **HP:** 3 | **Stress:** 7
 - **ATK:** +2 | **Death Bolt:** Far | 2d6+2 mag
 - **Experience:** Dark Magic +4, Protect +2

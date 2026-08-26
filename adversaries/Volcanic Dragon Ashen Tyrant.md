@@ -13,7 +13,7 @@
 
 **_Cornered:_** Mark a Stress instead of spending a Fear to spotlight the Ashen Tyrant.
 
-**_Injured Wings:_** While flying, the Ashen Tyrant gains a +1 bonus to their Diffi culty.
+**_Injured Wings:_** While flying, the Ashen Tyrant gains a +1 bonus to their Difficulty.
 
 **_Ashes to Ashes:_** When a PC rolls a failure while within Close range of the Ashen Tyrant, they lose a Hope and you gain a Fear. If the PC can’t lose a Hope, they must mark a HP.
 

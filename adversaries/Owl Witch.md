@@ -15,6 +15,6 @@
 
 **_Voice Mimicry:_** Spend a Fear to have the Owl Witch beckon with the voice of a beloved figure to a creature within earshot. The target must succeed on an Instinct Reaction Roll or move up to Far range toward the Owl Witch.
 
-**_Nightmare Stare:_** Spend a Fear to have the Owl Witch Affl ict a PC within Far range with waking nightmares unless the target succeeds on a Knowledge Reaction Roll. While Affl icted, the target can’t clear HP or Stress. The condition is cleared when another PC uses a downtime move to comfort the Affl icted creature.
+**_Nightmare Stare:_** Spend a Fear to have the Owl Witch Afflict a PC within Far range with waking nightmares unless the target succeeds on a Knowledge Reaction Roll. While Afflicted, the target can’t clear HP or Stress. The condition is cleared when another PC uses a downtime move to comfort the Afflicted creature.
 
-**_Visions of a Violent End:_** When the Owl Witch is targeted by an attack, you can spend a Fear to force the attacker to make a Presence Reaction Roll. On a failure, they must mark 1d4 Stress as their mind is flooded with harrowing imagery. 154 Daggerheart SRD
+**_Visions of a Violent End:_** When the Owl Witch is targeted by an attack, you can spend a Fear to force the attacker to make a Presence Reaction Roll. On a failure, they must mark 1d4 Stress as their mind is flooded with harrowing imagery.

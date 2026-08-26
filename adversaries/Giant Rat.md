@@ -4,7 +4,7 @@
 
 - **Motives & Tactics:** Burrow, hunger, scavenge, wear down
 - **Difficulty:** 10 | **Thresholds:** None | **HP:** 1 | **Stress:** 1
-- **ATK:** −4 | **Claws:** Melee | 1 phy
+- **ATK:** -4 | **Claws:** Melee | 1 phy
 - **Experience:** Keen Senses +3
 
 ### FEATURES

@@ -2,7 +2,7 @@
 
 **_Tier 3 Bruiser._** _A horse-mounted specter holding their own severed head in one hand and wielding a whip fashioned from a human spine in the other._
 
-- **Motives & Tactics:** Doom with a glance, gallop across water, kick
+- **Motives & Tactics:** Doom with a glance, gallop across water, kick with heavy hooves
 - **Difficulty:** 17 | **Thresholds:** 22/40 | **HP:** 7 | **Stress:** 4
 - **ATK:** +3 | **Spine Whip:** Very Close | 3d10+1 mag
 - **Experience:** Nocturnal +3

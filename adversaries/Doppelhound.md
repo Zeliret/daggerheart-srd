@@ -2,7 +2,7 @@
 
 **_Tier 2 Skulk._** _A vicious magical canid that has glowing eyes and two barbed, whiplike tails. It confuses enemies by conjuring an illusory duplicate of itself._
 
-- **Motives & Tactics:** Ambush prey, kill for sport, play with food,
+- **Motives & Tactics:** Ambush prey, kill for sport, play with food, trick and deceive
 - **Difficulty:** 14 | **Thresholds:** 9/17 | **HP:** 4 | **Stress:** 5
 - **ATK:** +3 | **Barbed Tail Whip:** Very Close | 2d8+2 phy
 - **Experience:** Shadows +3

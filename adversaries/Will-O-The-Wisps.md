@@ -4,12 +4,12 @@
 
 - **Motives & Tactics:** Dazzle and distract, disorient, lead astray
 - **Difficulty:** 9 | **Thresholds:** 5/9 | **HP:** 4 | **Stress:** 2
-- **ATK:** −3 | **Flash:** Close | 1d4+2 mag
+- **ATK:** -3 | **Flash:** Close | 1d4+2 mag
 - **Experience:** Darkness +3
 
 ### FEATURES
 
-**_Horde (1d4−1):_** When the Will-o’-the-Wisps have marked half or more of their HP, their standard attack deals 1d4−1 magic damage instead.
+**_Horde (1d4-1):_** When the Will-o’-the-Wisps have marked half or more of their HP, their standard attack deals 1d4-1 magic damage instead.
 
 **_Kaleidoscopic:_** The Will-o’-the-Wisps pulse and dance in hypnotic, color-changing patterns that entrance any creature who looks upon them. All targets within Very Close range of the Will-o’-the-Wisps are Vulnerable.
 

@@ -19,4 +19,4 @@
 
 **_Blazing Scales:_** When a creature within Very Close range attacks the Dragon, the attacker must mark a Stress.
 
-**_Slash and Burn:_** When the Dragon makes a successful standard attack, you gain a Fear and can mark a Stress to have the attack deal an extra 10 magic damage. 144 Daggerheart SRD
+**_Slash and Burn:_** When the Dragon makes a successful standard attack, you gain a Fear and can mark a Stress to have the attack deal an extra 10 magic damage.

@@ -8,7 +8,7 @@
 
 ### FEATURES
 
-**_Chaotic Form:_** When the Abomination attacks, roll 2d4 and use the result as their attack modifi er.
+**_Chaotic Form:_** When the Abomination attacks, roll 2d4 and use the result as their attack modifier.
 
 **_Disorienting Presence:_** When a target takes damage from the Abomination, they must make an Instinct Reaction Roll. On a failure, they gain disadvantage on their next action roll and you gain a Fear.
 

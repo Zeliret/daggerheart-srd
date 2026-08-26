@@ -2,7 +2,7 @@
 
 **_Tier 1 Bruiser._** _A large, brutish fey creature who has a conical red cap sealed on their head with candle wax._
 
-- **Motives & Tactics:** Beat chest and bellow, ragdoll puny enemies,
+- **Motives & Tactics:** Beat chest and bellow, ragdoll puny enemies, rush forward recklessly
 - **Difficulty:** 13 | **Thresholds:** 8/15 | **HP:** 6 | **Stress:** 3
 - **ATK:** +1 | **Wooden Mallet:** Melee | 1d12+2 phy
 - **Experience:** Bones +2

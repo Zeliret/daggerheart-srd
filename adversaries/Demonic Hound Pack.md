@@ -1,6 +1,6 @@
 # Demonic Hound Pack
 
-**_Tier 2 Horde._** _Unnatural hounds lit from within by hellfi re._
+**_Tier 2 Horde._** _Unnatural hounds lit from within by hellfire._
 
 - **Motives & Tactics:** Cause fear, consume flesh, please masters
 - **Difficulty:** 15 | **Thresholds:** 11/23 | **HP:** 6 | **Stress:** 3

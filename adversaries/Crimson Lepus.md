@@ -19,4 +19,4 @@
 
 **_Evasive:_** When the Lepus would take damage, roll a d6. On a 4 or higher, halve the damage. If the damage was already halved, the Lepus takes no damage.
 
-**_“Run Away!”:_** When a PC with no Hope takes the spotlight within Very Far range of the Lepus, the PC must succeed on a Presence Reaction Roll or use their action to flee the battlefi eld until they spend a Hope to return. 132 Daggerheart SRD
+**_“Run Away!”:_** When a PC with no Hope takes the spotlight within Very Far range of the Lepus, the PC must succeed on a Presence Reaction Roll or use their action to flee the battlefield until they spend a Hope to return.

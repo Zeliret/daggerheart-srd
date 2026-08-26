@@ -2,7 +2,7 @@
 
 **_Tier 4 Skulk._** _A desiccated corpse riding atop a skeletal horse. Their eyes are sewn shut and their body is wrapped in a burial shroud of dust and ash._
 
-- **Motives & Tactics:** Bring judgment, cut them down, move swiftly,
+- **Motives & Tactics:** Bring judgment, cut them down, move swiftly, seek relentlessly, take souls
 - **Difficulty:** 18 | **Thresholds:** 28/52 | **HP:** 6 | **Stress:** 6
 - **ATK:** +8 | **Great Scythe:** Close | 4d10+10 phy
 - **Experience:** Judgment +3
@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** The Harbinger can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Diffi culty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.
+**_Mount:_** While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.
 
 **_Fear the Reaper:_** When a creature is defeated within Far range of the Harbinger, you gain a Fear.
 

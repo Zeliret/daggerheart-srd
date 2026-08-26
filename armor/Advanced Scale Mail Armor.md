@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Cumbersome:_** −1 to Finesse
+**_Cumbersome:_** -1 to Finesse

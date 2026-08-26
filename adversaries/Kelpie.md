@@ -2,9 +2,9 @@
 
 **_Tier 1 Skulk._** _A river-dwelling shapeshifter who prefers an enchanting equine form in and out of the water._
 
-- **Motives & Tactics:** Adopt an attractive or useful shape, drown and
+- **Motives & Tactics:** Adopt an attractive or useful shape, drown and devour, entice unwary travelers
 - **Difficulty:** 12 | **Thresholds:** 4/8 | **HP:** 3 | **Stress:** 5
-- **ATK:** −2 | **Hooves:** Very Close | 1d8+2 phy
+- **ATK:** -2 | **Hooves:** Very Close | 1d8+2 phy
 - **Experience:** Entanglement +3, Mind Reader +3
 
 ### FEATURES

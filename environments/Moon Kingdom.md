@@ -4,7 +4,7 @@
 
 - **Impulses:** Blur the line between dream and reality, let consciousness ebb and flow like the tide, whisper echoes of ancient opulence
 - **Difficulty:** 20
-- **Potential Adversaries:** Local Fauna ([Cryptimoths](../adversaries/Cryptimoth.md), Yufos), Moon Queen’s Spirit ([Arch-Necromancer](../adversaries/Arch-Necromancer.md)), Reawakened Relics ([Constructs](../adversaries/Construct.md), Vault Guardians)
+- **Potential Adversaries:** Local Fauna ([Cryptimoths](../adversaries/Cryptimoth.md), [Yufos](../adversaries/Yufo.md)), Moon Queen’s Spirit ([Arch-Necromancer](../adversaries/Arch-Necromancer.md)), Reawakened Relics ([Constructs](../adversaries/Construct.md), Vault Guardians)
 
 ### FEATURES
 

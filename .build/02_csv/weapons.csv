@@ -71,7 +71,7 @@ War Scythe,Primary,2,Physical,Finesse,Very Close,d8+5 phy,Two-Handed,Reliable,+1
 Lance,Primary,2,Physical,Instinct,Very Close,d10+5 phy,Two-Handed,Cumbersome,-1 to Finesse
 Blunderbuss,Primary,2,Physical,Finesse,Close,d8+6 phy,Two-Handed,Reloading,"After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
 Greatbow,Primary,2,Physical,Strength,Far,d6+6 phy,Two-Handed,"On a successful attack, roll an additional Powerful",damage die and discard the lowest result.
-Finehair Bow,Primary,2,Physical,Agility,Very Far,d6+5 phy,Two-Handed,+1 to attack rolls Reliable,
+Finehair Bow,Primary,2,Physical,Agility,Very Far,d6+5 phy,Two-Handed,Reliable,+1 to attack rolls
 Improved Arcane Gauntlets,Primary,2,Magical,Strength,Melee,d10+6 mag,Two-Handed,,
 Improved Brightsword,Primary,2,Magical,Strength,Melee,d10+6 mag,Two-Handed,,
 Improved Hallowed Axe,Primary,2,Magical,Strength,Melee,d8+4 mag,One-Handed,,

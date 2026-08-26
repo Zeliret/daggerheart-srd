@@ -2,7 +2,7 @@
 
 **_Tier 3 Solo._** _A giant falcon that nests in the mountains and unleashes storms._
 
-- **Motives & Tactics:** Breathe lightning and speak thunder, protect
+- **Motives & Tactics:** Breathe lightning and speak thunder, protect eggs, rake with talons, spy from afar
 - **Difficulty:** 18 | **Thresholds:** 20/35 | **HP:** 12 | **Stress:** 6
 - **ATK:** +3 | **Beak & Talons:** Very Close | 3d12+8 phy
 - **Experience:** Craggy Peaks +3
@@ -17,6 +17,6 @@
 
 **_Crushing Grasp:_** When the Roc makes a successful standard attack, you can mark a Stress to have the Roc crush the target with its talons, forcing them to mark 1d4 Stress and Restraining them until they succeed on a Strength Roll (20). Nest Warden - Evolution: When the Roc’s eggs are threatened, it gains the following features:
 
-**_Wrathful:_** The Roc gains a +2 bonus to its Diffi culty and a bonus to damage rolls equal to the number of Stress it has marked.
+**_Wrathful:_** The Roc gains a +2 bonus to its Difficulty and a bonus to damage rolls equal to the number of Stress it has marked.
 
 **_Electrifying Aura:_** The Roc has resistance to magic damage. PCs who fail a roll within Very Close range must spend a Hope or mark 1d4 Stress.

@@ -11,7 +11,7 @@
 
 **_Relentless (2):_** The Obsidian Predator can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Flying:_** While flying, the Obsidian Predator gains a +3 bonus to their Diffi culty.
+**_Flying:_** While flying, the Obsidian Predator gains a +3 bonus to their Difficulty.
 
 **_Obsidian Scales:_** The Obsidian Predator is resistant to physical damage.
 

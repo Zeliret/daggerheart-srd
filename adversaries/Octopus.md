@@ -2,9 +2,9 @@
 
 **_Tier 1 Skulk._** _An aquatic, soft-bodied mollusk that has eight sucker-bearing arms and a hard, beaklike jaw._
 
-- **Motives & Tactics:** Crawl along the ocean floor, eat fish, squirt ink
+- **Motives & Tactics:** Crawl along the ocean floor, eat fish, squirt ink to escape
 - **Difficulty:** 12 | **Thresholds:** 3/None | **HP:** 2 | **Stress:** 3
-- **ATK:** −1 | **Beak:** Melee | 1d6 phy
+- **ATK:** -1 | **Beak:** Melee | 1d6 phy
 - **Experience:** Dexterity +3, Water +3
 
 ### FEATURES

@@ -4,12 +4,12 @@
     "difficulty": "11",
     "feature": [
       {
-        "name": "Overgrown Battlefi eld - Passive",
+        "name": "Overgrown Battlefield - Passive",
         "text": "There has been a battle here. A PC can make an Instinct Roll to identify evidence of that fight. On a success with Hope, learn all three pieces of information below. On a success with Fear, learn two. On a failure, a PC can mark a Stress to learn one and gain advantage on the next action roll to investigate this environment. A PC with an appropriate background or Experience can learn an additional detail and ask a follow-up question about the scene and get a truthful (if not always complete) answer. • Traces of a battle (broken weapons and branches, gouges in the ground) litter the ground. • A moss-covered tree trunk is actually the corpse of a treant. • Still-standing trees are twisted in strange ways, as if by powerful magic. Why did these groups come to blows? Why is the grove unused now?"
       },
       {
         "name": "Barbed Vines - Action",
-        "question": "How many vines are there? Where do they grab you? Do they pull you down or lift you offthe ground?",
+        "question": "How many vines are there? Where do they grab you? Do they pull you down or lift you off the ground?",
         "text": "Pick a point within the grove. All targets within Very Close range of that point must succeed on an Agility Reaction Roll or take 1d8+3 physical damage and become Restrained by barbed vines. Restrained lasts until they’re freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines."
       },
       {
@@ -18,7 +18,7 @@
         "text": "A Young Dryad, two Sylvan Soldiers, and a number of Minor Treants equal to the number of PCs appear to confront the party for their intrusion."
       },
       {
-        "name": "Defi ler - Action",
+        "name": "Defiler - Action",
         "question": "What color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?",
         "text": "Spend a Fear to summon a Minor Chaos Elemental drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight."
       }
@@ -92,7 +92,7 @@
       {
         "name": "Relative Strength - Passive",
         "question": "Who cues the ambush? What makes it clear they’re in charge?",
-        "text": "The Diffi culty of this environment equals that of the adversary with the highest Diffi culty."
+        "text": "The Difficulty of this environment equals that of the adversary with the highest Difficulty."
       },
       {
         "name": "Surprise! - Action",
@@ -113,7 +113,7 @@
       {
         "name": "Relative Strength - Passive",
         "question": "Which adversary is the least prepared? Which one is the most?",
-        "text": "The Diffi culty of this environment equals that of the adversary with the highest Diffi culty."
+        "text": "The Difficulty of this environment equals that of the adversary with the highest Difficulty."
       },
       {
         "name": "Where Did They Come From? - Reaction",
@@ -148,7 +148,7 @@
       {
         "name": "Crowd Closes In - Reaction",
         "question": "Where does the crowd’s movement carry them? How do they feel about being alone but surrounded?",
-        "text": "When one of the PCs splits from the group, the crowds shift and cut them offfrom the party."
+        "text": "When one of the PCs splits from the group, the crowds shift and cut them off from the party."
       }
     ],
     "impulses": "Buy low, and sell high, tempt and tantalize with wares from near and far",
@@ -158,13 +158,13 @@
     "type": "Social"
   },
   {
-    "description": "A steep, rocky cliffside tall enough to make traversal dangerous.",
+    "description": "A steep, rocky cliff side tall enough to make traversal dangerous.",
     "difficulty": "12",
     "feature": [
       {
         "name": "The Climb - Passive",
         "question": "What strange formations are the stones arranged in? What ominous warnings did previous adventurers leave?",
-        "text": "Climbing up the cliffside uses a Progress Countdown (12). It ticks down according to the following criteria when the PCs make an action roll to climb: • Critical Success: Tick down 3 • Success with Hope: Tick down 2 • Success with Fear: Tick down 1 • Failure with Hope: No advancement • Failure with Fear: Tick up 1 When the countdown triggers, the party has made it to the top of the cliff ."
+        "text": "Climbing up the cliff side uses a Progress Countdown (12). It ticks down according to the following criteria when the PCs make an action roll to climb: • Critical Success: Tick down 3 • Success with Hope: Tick down 2 • Success with Fear: Tick down 1 • Failure with Hope: No advancement • Failure with Fear: Tick up 1 When the countdown triggers, the party has made it to the top of the cliff."
       },
       {
         "name": "Pitons Left Behind - Passive",
@@ -226,7 +226,7 @@
       {
         "name": "Hallowed Ground - Passive",
         "question": "Who sanctified this place, and what happened to them? What holy relics can be found here?",
-        "text": "At the center of the graveyard is a seemingly undisturbed chapel. On a successful Instinct Roll, a PC can discover this structure is sanctified against the cemetery’s denizens. While inside the chapel, the PCs have advantage on action rolls to fight or drive offspirits and undead."
+        "text": "At the center of the graveyard is a seemingly undisturbed chapel. On a successful Instinct Roll, a PC can discover this structure is sanctified against the cemetery’s denizens. While inside the chapel, the PCs have advantage on action rolls to fight or drive off spirits and undead."
       },
       {
         "name": "Misty Miasma - Action",
@@ -262,7 +262,7 @@
       {
         "name": "The Evening’s Entertainment - Action",
         "question": "What does the host want to see or hear more than anything else? What can they offer the PCs in return?",
-        "text": "The host of the feast kicks offthe entertainment portion of the evening. Each PC can make an action roll to initiate a performance, competition, or other lighthearted diversion. A PC who succeeds becomes an Honored Guest. Until the feast ends, an Honored Guest can claim a gift from the host, then clear the condition."
+        "text": "The host of the feast kicks off the entertainment portion of the evening. Each PC can make an action roll to initiate a performance, competition, or other lighthearted diversion. A PC who succeeds becomes an Honored Guest. Until the feast ends, an Honored Guest can claim a gift from the host, then clear the condition."
       },
       {
         "name": "“There’s Always That One…” - Action",
@@ -282,7 +282,7 @@
     "type": "Social"
   },
   {
-    "description": "The party must fend offmultiple waves of enemies long enough for an ally to complete an important objective.",
+    "description": "The party must fend off multiple waves of enemies long enough for an ally to complete an important objective.",
     "difficulty": "11",
     "feature": [
       {
@@ -297,7 +297,7 @@
       },
       {
         "name": "Swarming Multitudes - Passive",
-        "question": "Where does these foes’ newfound power come from? Is there any way to cut them offfrom it?",
+        "question": "Where does these foes’ newfound power come from? Is there any way to cut them off from it?",
         "text": "All adversaries gain the “Relentless (2)” feature: They can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
       },
       {
@@ -329,7 +329,7 @@
       {
         "name": "“Let the Games Begin!” - Action",
         "question": "What skills or abilities does this competition test? What does the victor win? Why is failure not an option for the PCs or their rivals?",
-        "text": "One of the festival’s signature events is a sporting competition or series of games. If one or more PCs throw their hat into the ring, introduce rival competitors for them to face offagainst. To claim victory, the PCs must complete a Progress Countdown (5) to win events or score points before their rivals complete a Consequence Countdown (5)."
+        "text": "One of the festival’s signature events is a sporting competition or series of games. If one or more PCs throw their hat into the ring, introduce rival competitors for them to face off against. To claim victory, the PCs must complete a Progress Countdown (5) to win events or score points before their rivals complete a Consequence Countdown (5)."
       },
       {
         "name": "Legendary Local - Action",
@@ -350,7 +350,7 @@
       {
         "name": "What’s the Talk of the Town? - Passive",
         "question": "Who has what kind of information? What gossip do the locals start spreading about the PCs?",
-        "text": "A PC can ask the bartender, staff , or patrons about local events, rumors, and potential work with a Presence Roll. On a success, they can pick two of the below details to learn—or three if they critically succeed. On a failure, they can pick one and mark a Stress as the local carries on about something irrelevant. • A fascinating rumor with a connection to a PC’s background • A promising job for the party involving a nearby threat or situation • Local folklore that relates to something they’ve seen • Town gossip that hints at a community problem"
+        "text": "A PC can ask the bartender, staff, or patrons about local events, rumors, and potential work with a Presence Roll. On a success, they can pick two of the below details to learn—or three if they critically succeed. On a failure, they can pick one and mark a Stress as the local carries on about something irrelevant. • A fascinating rumor with a connection to a PC’s background • A promising job for the party involving a nearby threat or situation • Local folklore that relates to something they’ve seen • Town gossip that hints at a community problem"
       },
       {
         "name": "Sing For Your Supper - Passive",
@@ -409,7 +409,7 @@
         "text": "At night, or when the party is alone in a back alley, you can spend a Fear to introduce a group of thieves who try to rob them. The thieves appear at Close range of a chosen PC and include a Jagged Knife Kneebreaker, as many Lackeys as there are PCs, and a Lieutenant. For a larger party, add a Hexer or Sniper."
       }
     ],
-    "impulses": "Drive the desperate to certain doom, profit offof ragged hope",
+    "impulses": "Drive the desperate to certain doom, profit off of ragged hope",
     "name": "Outpost Town",
     "potential_adversaries": "Jagged Knife Bandits (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper), Masked Thief, Merchant",
     "tier": "1",
@@ -514,7 +514,7 @@
       {
         "name": "Blasphemous Might - Action",
         "question": "How does the enemy change in appearance? What fears do their blows bring to the surface?",
-        "text": "A portion of the ritual’s power is diverted into a cult member to fight offinterlopers. Choose one adversary to become Imbued with terrible magic until the scene ends or they’re defeated. An Imbued adversary immediately takes the spotlight and gains one of the following benefits, or all three if you spend a Fear: • They gain advantage on all attacks. • They deal an extra 1d10 damage on a successful attack. • They gain the following feature: Relentless (2) - Passive. This adversary can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+        "text": "A portion of the ritual’s power is diverted into a cult member to fight off interlopers. Choose one adversary to become Imbued with terrible magic until the scene ends or they’re defeated. An Imbued adversary immediately takes the spotlight and gains one of the following benefits, or all three if you spend a Fear: • They gain advantage on all attacks. • They deal an extra 1d10 damage on a successful attack. • They gain the following feature: Relentless (2) - Passive. This adversary can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
       },
       {
         "name": "The Summoning - Reaction",
@@ -576,7 +576,7 @@
       {
         "name": "Relative Strength - Passive",
         "question": "Who issues the challenge? What are they fighting for?",
-        "text": "The Diffi culty of this environment equals that of the adversary who issued the challenge."
+        "text": "The Difficulty of this environment equals that of the adversary who issued the challenge."
       },
       {
         "name": "Rules of Engagement - Passive",
@@ -667,9 +667,9 @@
         "text": "Prior to the Heist, each PC has the opportunity to gather a key piece of information, surveil the location, or acquire a helpful tool or resource. Give each player the opportunity to describe one obstacle they expect to encounter and how they set themselves up to overcome it, then have them make an action roll. On a success, they get the information or asset they sought. On a success with Fear, it’s less useful than they expected (for example, they discover the location of a hidden access point but learn that breaching it will likely be difficult and noisy)."
       },
       {
-        "name": "Infi ltration - Passive",
+        "name": "Infiltration - Passive",
         "question": "What is the party going after, and where is it located? What unexpected obstacles will they encounter? What happens if the party gets caught?",
-        "text": "Establish the goal of the Heist and start two dynamic countdowns: a Progress Countdown (12) to represent the party’s work toward their goal and a Consequence Countdown (10) to represent the rising risk of discovery and capture. Advance both according to the Dynamic Countdown Advancement table as the PCs make action rolls to complete the Heist. If the Progress Countdown triggers first, spotlight this environment to use the “Exfi ltration” feature. If the Consequence Countdown triggers first, gain 1d4 Fear, spotlight this environment, and use the “Sound the Alarm” feature."
+        "text": "Establish the goal of the Heist and start two dynamic countdowns: a Progress Countdown (12) to represent the party’s work toward their goal and a Consequence Countdown (10) to represent the rising risk of discovery and capture. Advance both according to the Dynamic Countdown Advancement table as the PCs make action rolls to complete the Heist. If the Progress Countdown triggers first, spotlight this environment to use the “Exfiltration” feature. If the Consequence Countdown triggers first, gain 1d4 Fear, spotlight this environment, and use the “Sound the Alarm” feature."
       },
       {
         "name": "Saw This Coming - Passive",
@@ -677,14 +677,14 @@
         "text": "Once per session, a PC can spend a Hope to explain how they prepared for the current situation and reveal a key piece of information (such as the location of a hidden passage or the password to a restricted area) or produce a helpful item (such as a cultist’s uniform left unattended or a common consumable hidden in their boot)."
       },
       {
-        "name": "Exfi ltration - Reaction",
+        "name": "Exfiltration - Reaction",
         "question": "What makes getting out even more dangerous than getting in? What unforeseen developments stymie the party’s original escape plan?",
         "text": "When the Progress Countdown triggers, the party acquires the object of the Heist and must succeed on a group action roll to escape without capture. On a failure, each PC takes 2d12 direct physical damage and must mark a Stress."
       },
       {
         "name": "Sound the Alarm - Reaction",
         "question": "What makes these adversaries uniquely suited to guard this location? What do they know about this place that gives them an edge?",
-        "text": "When the Consequence Countdown triggers, the party is discovered and the location enters High Alert. Summon a number of Tier 2 adversaries equal to the number of PCs in the scene and immediately spotlight one. While this environment is on High Alert, all adversaries gain a +1 bonus to their Diffi culty."
+        "text": "When the Consequence Countdown triggers, the party is discovered and the location enters High Alert. Summon a number of Tier 2 adversaries equal to the number of PCs in the scene and immediately spotlight one. While this environment is on High Alert, all adversaries gain a +1 bonus to their Difficulty."
       }
     ],
     "impulses": "Make the party prepare, split them up, throw up obstacles, trap them inside, use up their resources",
@@ -756,7 +756,7 @@
     "type": "Traversal"
   },
   {
-    "description": "The PCs gain passage to a far-offdestination by offering their labor in exchange.",
+    "description": "The PCs gain passage to a far-off destination by offering their labor in exchange.",
     "difficulty": "14",
     "feature": [
       {
@@ -781,7 +781,7 @@
       },
       {
         "name": "Here There Be Monsters - Reaction",
-        "question": "What attracts these creatures to the ship? Is there any way to drive them offwithout combat?",
+        "question": "What attracts these creatures to the ship? Is there any way to drive them off without combat?",
         "text": "When the Open Water Countdown ticks down to an even number, roll a d6. On a result of 4 or higher, summon 1d4 Deep Sea Denizens."
       }
     ],
@@ -996,7 +996,7 @@
         "text": "Strange, localized phenomena dot the landscape, warping distance and direction. Spend a Fear to alter the gravity at a chosen point. Each target within Close range of that point must make a Knowledge Reaction Roll to calculate their new trajectories. Targets who fail take 3d8+4 physical damage as they are thrown up and away. Targets who succeed must mark a Stress or take half damage."
       },
       {
-        "name": "Arcane Refl ection - Action",
+        "name": "Arcane Reflection - Action",
         "question": "Who do the PCs see on the other side of the crystal? How does it make them feel?",
         "text": "Spend a Fear to have any number of PCs glimpse a reflection in the crystal of who they once were or might become. Each target must make an Instinct Reaction Roll. Targets who succeed see a vision of their better self and can replace one Experience. Targets who fail see a vision of their dark past—or an even darker future—and must mark a Stress. You gain a Fear for each target who failed."
       },
@@ -1006,14 +1006,14 @@
         "text": "When a PC fails a roll to navigate the wasteland, they must make a Finesse Reaction Roll. On a failure, they cut themselves on the sharp edges of the terrain. Shards of magic crystal become embedded in their wound and slowly grow, Crystallizing them. Activate a Crystal Countdown (1) for that PC. Until they remove the condition with a successful Knowledge Roll, a Crystallizing PC ticks up their Crystal Countdown at the start of each rest and gains a penalty to their Evasion equal to its value. The countdown ends when the condition is cleared."
       },
       {
-        "name": "Psychic Shuffl e - Reaction",
+        "name": "Psychic Shuffle - Reaction",
         "question": "How does it feel being in someone else’s skin? If you could choose to stay like them in one way, what would it be?",
         "text": "When the PCs take a long rest, you can spend a Fear to swap their psyches. Collect all the players’ character sheets, then shuffle and randomly redistribute them. Each character sheet comes with that PC’s Domain cards and player aids. A PC can regain their psyche with a successful Knowledge Roll, at which point they trade sheets with the player who has their original character sheet."
       }
     ],
     "impulses": "Cut them to their core, fracture their psyches, show their true reflection",
     "name": "Crystal Wasteland",
-    "potential_adversaries": "Adult Flickerfl y, Constructs, Elemental Spark, Vault Guardians, Whisper Wraiths",
+    "potential_adversaries": "Adult Flickerfly, Constructs, Elemental Spark, Vault Guardians, Whisper Wraiths",
     "tier": "3",
     "type": "Traversal"
   },
@@ -1150,7 +1150,7 @@
       {
         "name": "Glitz \u0026 Glamor - Passive",
         "question": "What’s so wondrous about the casino’s trappings? Are they truly magical in nature or merely mundane wonders taken to an impossible extreme?",
-        "text": "The overwhelming spectacle of this place can entrance even the most jaded patron. While here, all PCs have disadvantage on reaction rolls caused by a staffmember or regular patron of the casino."
+        "text": "The overwhelming spectacle of this place can entrance even the most jaded patron. While here, all PCs have disadvantage on reaction rolls caused by a staff member or regular patron of the casino."
       },
       {
         "name": "Fortune Favors the Bold - Passive",
@@ -1199,7 +1199,7 @@
         "text": "Spend a Fear to open a fissure that belches out toxic gas at a point of your choice, creating a cloud that blankets everything within Far range. While inside the cloud, a PC must track their air supply with an Air Supply Countdown. Its starting value is equal to 3 + their tier, and it ticks down when they take an action. If a PC fails an action roll or rolls with Fear, you can use a GM move to tick down their countdown an additional time. If the roll is a failure with Fear, you can tick it down twice instead. Once the countdown ends, a PC must mark a Stress whenever they take an action within the gas until they escape the cloud."
       }
     ],
-    "impulses": "Create panic all around, cut offthe exits, isolate, make them scramble for safety, split the party",
+    "impulses": "Create panic all around, cut off the exits, isolate, make them scramble for safety, split the party",
     "name": "Volcanic Eruption",
     "potential_adversaries": "Elemental Spark, Lava Elemental (Greater Earth Elemental), Volcanic Dragon",
     "tier": "3",
@@ -1256,7 +1256,7 @@
         "text": "The city of Convergence has a portal or door to every realm of existence."
       },
       {
-        "name": "Infi nite Inventory - Passive",
+        "name": "Infinite Inventory - Passive",
         "question": "Who has the item the party needs? What do they want in return?",
         "text": "This city has the solution to any problem, if you can find it. A PC seeking a particular item with wondrous properties can make an Instinct or Presence Roll to find it in the city’s pandimensional marketplace. • Critical Success: The PC finds the perfect item, and the merchant who has it only wants something the PC considers inconsequential in exchange. • Success with Hope: The PC finds the perfect item and can exchange something of equal value for it. • Success with Fear: The PC finds the perfect item, but the merchant who has it will only exchange it for something the party can’t give them... yet. • Any Failure: The PC must mark a Stress as they go on a wild goose chase but come up empty-handed. The PC can mark an additional Stress to change this result into a success with Fear."
       },
@@ -1266,7 +1266,7 @@
         "text": "Countdown (6). Because anything is possible in Convergence, the city maintains a labyrinthine bureaucracy that issues and enforces ordinances regarding all exchanges and interactions between the realms. When the party arrives in Convergence, activate the countdown. It ticks down when a PC does something that upsets the city’s delicate political equilibrium. When it triggers, the PCs become Wanted until they clear their names with the authorities. When a Wanted PC rolls with Fear, you can summon 1d4 Temporal Enforcers who appear within Very Close range, immediately take the spotlight, and try to apprehend the party."
       },
       {
-        "name": "An Off er You Can’t Refuse - Action",
+        "name": "An Offer You Can’t Refuse - Action",
         "question": "Which faction offers the party their support? Who do they want the party to act against?",
         "text": "Convergence is home to a tenuous network of rival factions. Spend a Fear to have one of them present the party with an easy solution to a difficult problem in exchange for their allegiance. If the party refuses, each PC must mark a Stress, and they can’t turn to that faction for help in the future."
       }
@@ -1292,14 +1292,14 @@
         "text": "When a PC critically succeeds, they can spend 2 Hope to refresh an ability normally limited by uses (such as once per rest, once per session)."
       },
       {
-        "name": "Defi lers Abound - Action",
+        "name": "Defilers Abound - Action",
         "question": "Which High Fallen do these troops serve? Which god’s flesh do they wish to feast upon?",
         "text": "Spend 2 Fear to summon 1d4+2 Fallen Shock Troops that appear within Close range of the Usurper to assist their divine siege. Immediately spotlight the Shock Troops to use a “Group Attack” action."
       },
       {
         "name": "Godslayer - Action",
         "question": "Which god meets their end? What are their last words? How does the Usurper’s new stolen power manifest?",
-        "text": "If the Divine Siege Countdown (see “Beginning of the End”) has triggered, you can spend 3 Fear to describe the Usurper slaying one of the gods of the Hallows Above, feasting upon their power and growing stronger. The Usurper clears 2 HP. Increase their Diffi culty, damage, attack modifier, or give them a new feature from the slain god."
+        "text": "If the Divine Siege Countdown (see “Beginning of the End”) has triggered, you can spend 3 Fear to describe the Usurper slaying one of the gods of the Hallows Above, feasting upon their power and growing stronger. The Usurper clears 2 HP. Increase their Difficulty, damage, attack modifier, or give them a new feature from the slain god."
       },
       {
         "name": "Beginning of the End - Reaction",
@@ -1308,7 +1308,7 @@
       },
       {
         "name": "Ritual Nexus - Reaction",
-        "question": "What visions of failures past torment you as your efforts fall short? How are these memories twisted by the Usurper?",
+        "question": "What visions of failures past torment you as your eff orts fall short? How are these memories twisted by the Usurper?",
         "text": "On any failure with Fear against the Usurper, the PC must mark 1d4 Stress from the backlash of magical power."
       }
     ],

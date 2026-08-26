@@ -215,7 +215,7 @@
     "roll": "37"
   },
   {
-    "description": "You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a −1 penalty to your Proficiency.",
+    "description": "You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a -1 penalty to your Proficiency.",
     "name": "Shrinking Potion",
     "roll": "53"
   },
@@ -450,7 +450,7 @@
     "roll": "40"
   },
   {
-    "description": "You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a −2 penalty to their damage thresholds.",
+    "description": "You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a -2 penalty to their damage thresholds.",
     "name": "Green Ooze Oil",
     "roll": "29"
   },

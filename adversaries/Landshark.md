@@ -13,4 +13,4 @@
 
 **_Thick-Skinned:_** When the Landshark would be forced to mark any number of HP, you can mark an equal number of Stress instead.
 
-**_Rending Chomp:_** When the Landshark makes a successful attack against a PC within Melee range, you can spend a Fear to force the target to mark an Armor Slot without receiving its benefi ts (they can still use armor to reduce the damage).
+**_Rending Chomp:_** When the Landshark makes a successful attack against a PC within Melee range, you can spend a Fear to force the target to mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage).

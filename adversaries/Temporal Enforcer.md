@@ -2,7 +2,7 @@
 
 **_Tier 4 Bruiser._** _A giant mechanical being from a dimension outside time, built by the Time Keepers to preserve the Holy Continuum._
 
-- **Motives & Tactics:** Repair the timeline, seek out temporal
+- **Motives & Tactics:** Repair the timeline, seek out temporal heretics, serve the Lords of Continuity
 - **Difficulty:** 20 | **Thresholds:** 42/68 | **HP:** 8 | **Stress:** 5
 - **ATK:** +4 | **Adamantine Hammer:** Very Close | 40 direct phy
 - **Experience:** Temporal Anomalies +3
@@ -17,4 +17,4 @@
 
 **_Instant Rewind:_** When the Enforcer fails an attack, you can spend a Fear to reroll the die.
 
-**_Invert Polarity:_** Up to three times per scene, you can spend a Fear to flip any die rolled onto its obverse result. This eff ect can’t be used to alter a critical success. VOLCANIC DRAGON:
+**_Invert Polarity:_** Up to three times per scene, you can spend a Fear to flip any die rolled onto its obverse result. This effect can’t be used to alter a critical success. VOLCANIC DRAGON:

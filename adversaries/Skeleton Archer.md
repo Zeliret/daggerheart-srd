@@ -2,7 +2,7 @@
 
 **_Tier 1 Ranged._** _A fragile skeleton with a shortbow and arrows._
 
-- **Motives & Tactics:** Perforate distracted targets, play dead, steal
+- **Motives & Tactics:** Perforate distracted targets, play dead, steal skin
 - **Difficulty:** 9 | **Thresholds:** 4/7 | **HP:** 3 | **Stress:** 2
 - **ATK:** +2 | **Shortbow:** Far | 1d8+1 phy
 

@@ -15,4 +15,4 @@
 
 **_Fear Eater:_** Spend any number of Fear to clear the same number of Stress. If the Urco has no marked Stress, you can spend any number of Fear to clear the same number of HP.
 
-**_Baleful Gaze:_** When the Urco takes damage from an attack, you can spend a Fear to cause the attacker’s damage thresholds to gain a −1 penalty until the end of the scene. This eff ect can stack.
+**_Baleful Gaze:_** When the Urco takes damage from an attack, you can spend a Fear to cause the attacker’s damage thresholds to gain a -1 penalty until the end of the scene. This effect can stack.

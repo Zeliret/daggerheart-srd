@@ -4,7 +4,7 @@
 
 - **Motives & Tactics:** Consume flesh, hunger, maul
 - **Difficulty:** 8 | **Thresholds:** 6/12 | **HP:** 6 | **Stress:** 3
-- **ATK:** −1 | **Bite:** Melee | 1d10+2 phy
+- **ATK:** -1 | **Bite:** Melee | 1d10+2 phy
 
 ### FEATURES
 

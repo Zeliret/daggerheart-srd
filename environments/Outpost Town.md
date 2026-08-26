@@ -2,7 +2,7 @@
 
 **_Tier 1 Social._** _A small town on the outskirts of a nation or region, close to a dungeon, tombs, or other adventuring destinations._
 
-- **Impulses:** Drive the desperate to certain doom, profit offof ragged hope
+- **Impulses:** Drive the desperate to certain doom, profit off of ragged hope
 - **Difficulty:** 12
 - **Potential Adversaries:** [Jagged Knife Bandits](../adversaries/Jagged%20Knife%20Bandit.md) (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper), [Masked Thief](../adversaries/Masked%20Thief.md), [Merchant](../adversaries/Merchant.md)
 

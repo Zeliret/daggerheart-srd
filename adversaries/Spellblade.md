@@ -1,6 +1,6 @@
 # Spellblade
 
-**_Tier 1 Leader._** _A mercenary combining swordplay and magic to deadly eff ect._
+**_Tier 1 Leader._** _A mercenary combining swordplay and magic to deadly effect._
 
 - **Motives & Tactics:** Blast, command, endure
 - **Difficulty:** 14 | **Thresholds:** 8/14 | **HP:** 6 | **Stress:** 3
@@ -15,4 +15,4 @@
 
 **_Move as a Unit:_** Spend 2 Fear to spotlight up to five allies within Far range.
 
-**_Momentum:_** When the Spellblade makes a successful attack against a PC, you gain a Fear. 110 Daggerheart SRD
+**_Momentum:_** When the Spellblade makes a successful attack against a PC, you gain a Fear.

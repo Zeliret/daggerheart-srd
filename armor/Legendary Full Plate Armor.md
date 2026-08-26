@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Very Heavy:_** −2 to Evasion; −1 to Agility
+**_Very Heavy:_** -2 to Evasion; -1 to Agility

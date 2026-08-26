@@ -15,4 +15,4 @@
 
 **_Corpse Whisperer:_** Spend a Fear to have the Valdenhax call out to the lingering spirit of a fallen ally within Close range. Roll a d6. On an even result, the Valdenhax resurrects the ally with half its HP cleared. On an odd result, the Valdenhax absorbs the dregs of its life force and clears a Stress.
 
-**_Vexing Word:_** After a PC makes a roll, you can mark a Stress to force them to reroll it. This feature can’t be used if the PC critically succeeds. 130 Daggerheart SRD
+**_Vexing Word:_** After a PC makes a roll, you can mark a Stress to force them to reroll it. This feature can’t be used if the PC critically succeeds.

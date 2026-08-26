@@ -2,7 +2,7 @@
 
 **_Tier 2 Leader._** _A veteran commander who quaff s magic elixirs to change into a beast and lead their packmates on a hunt._
 
-- **Motives & Tactics:** Embrace the change, howl at the moon, lead
+- **Motives & Tactics:** Embrace the change, howl at the moon, lead the pack, run down enemies
 - **Difficulty:** 14 | **Thresholds:** 13/26 | **HP:** 6 | **Stress:** 4
 - **ATK:** +3 | **Tooth & Claw:** Melee | 2d10+2 phy
 - **Experience:** Hunt +3, Keen Senses +2

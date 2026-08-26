@@ -2,7 +2,7 @@
 
 **_Tier 2 Leader._** _A giant mushroom creature that can command the dead._
 
-- **Motives & Tactics:** Awaken the fallen, defend the colony, spread
+- **Motives & Tactics:** Awaken the fallen, defend the colony, spread spores
 - **Difficulty:** 16 | **Thresholds:** 12/24 | **HP:** 6 | **Stress:** 5
 - **ATK:** +2 | **Spongy Fist:** Very Close | 2d8+4 phy
 - **Experience:** Commander +5, Guardian +4

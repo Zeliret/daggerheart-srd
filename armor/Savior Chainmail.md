@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Difficult:_** −1 to all character traits and Evasion
+**_Difficult:_** -1 to all character traits and Evasion

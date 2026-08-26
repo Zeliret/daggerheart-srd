@@ -2,7 +2,7 @@
 
 **_Tier 2 Skulk._** _A corrupted fey spirit that haunts the night in the form of a willowy specter wearing a luminous gossamer gown._
 
-- **Motives & Tactics:** Ambush from inside solid objects, frighten to
+- **Motives & Tactics:** Ambush from inside solid objects, frighten to death, mourn life and beauty lost, scream balefully
 - **Difficulty:** 14 | **Thresholds:** 9/18 | **HP:** 5 | **Stress:** 3
 - **ATK:** +2 | **Fingernails:** Melee | 2d6+1 mag
 - **Experience:** Vain +3, Wrathful +3

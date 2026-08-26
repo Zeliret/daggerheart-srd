@@ -11,7 +11,7 @@
 
 **_Relentless (3):_** The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
 
-**_Masterwork Armor:_** Countdown (3). When the Titan first appears, activate the countdown. It ticks down when the Titan takes Major or Severe damage. Until the countdown triggers, reduce incoming damage by 1d12. When it triggers, the Titan gains a +1 bonus to their Diffi culty and attack rolls.
+**_Masterwork Armor:_** Countdown (3). When the Titan first appears, activate the countdown. It ticks down when the Titan takes Major or Severe damage. Until the countdown triggers, reduce incoming damage by 1d12. When it triggers, the Titan gains a +1 bonus to their Difficulty and attack rolls.
 
 **_Momentum:_** When the Titan makes a successful attack against a PC, you gain a Fear.
 

@@ -713,11 +713,25 @@ func readmePairedRollSection(title, singular, category string, entries []map[str
 	var out []string
 	out = append(out, "### "+title)
 	if title == "LOOT" {
-		out = append(out, "", "Loot is any other object or currency that the PCs might find, earn, or gain during their adventures. Loot can be a reward, a motivation, or both—anything that drives a character to take action or pursue something in the world can be considered loot. The following tables offer ready-made options if you need an idea in the moment or want to make a reward for a particular achievement.")
+		out = append(out, "", "Loot comprises any consumables or reusable items the party acquires.", "", "#### ITEMS", "", "Items can be used until sold, discarded, or lost.")
 	} else {
-		out = append(out, "", "Consumables are loot that can only be used once. You can hold up to five of each consumable at a time. Using a consumable doesn't require a roll unless required by the GM or the demands of the fiction.")
+		out = append(out, "", "Consumables are pieces of loot that can be used only once. You can hold up to five of each consumable at a time. Using a consumable doesn't require a roll unless required by the GM or the demands of the fiction.")
 	}
-	out = append(out, "", fmt.Sprintf("To generate a random %s, choose a rarity and roll the designated dice below to select a row. Then roll a d6: on a 1-3, use the Core Set entry; on a 4-6, use the Hope & Fear Expansion Set entry in the same row.", singular), "", "- **Common:** 1d12 or 2d12", "- **Uncommon:** 2d12 or 3d12", "- **Rare:** 3d12 or 4d12", "- **Legendary:** 4d12 or 5d12", "", fmt.Sprintf("| Roll | Core Set %s | Hope & Fear Expansion %s |", strings.Title(singular), strings.Title(singular)), "| --- | --- | --- |")
+	out = append(out, "", fmt.Sprintf("You can use the tables below to generate %ss ahead of a game or during a session. Choose the desired rarity, roll the associated number of d12s, add their values together (if needed), and then reference the table for the %s that matches that value.", singular, singular), "")
+	if title == "LOOT" {
+		out = append(out,
+			"- **Common (1d12 or 2d12):** Common items might be found at an abandoned camp or readily available at a local shop.",
+			"- **Uncommon (2d12 or 3d12):** Uncommon items might be found in limited supply in a shop, kept in a protected place in a camp, or offered as part of a reward for a job.",
+			"- **Rare (3d12 or 4d12):** Rare items might be kept under lock and key in a shop, offered as the sole reward for a job, or discovered among a powerful NPC's possessions.",
+			"- **Legendary (4d12 or 5d12):** Legendary items might be the only item of their kind, a reward for an incredibly difficult or dangerous job, or a powerful adversary's most precious and guarded treasure.")
+	} else {
+		out = append(out,
+			"- **Common (1d12 or 2d12):** Common consumables might be found at an abandoned camp or readily available at a local store.",
+			"- **Uncommon (2d12 or 3d12):** Uncommon consumables might be found in limited supply in a shop, kept in a protected place in a camp, or offered as part of a reward for a job.",
+			"- **Rare (3d12 or 4d12):** Rare consumables might be kept under lock and key in a shop, offered as the sole reward for a job, or discovered in a powerful NPC's possessions.",
+			"- **Legendary (4d12 or 5d12):** Legendary consumables might be the only item of their kind, a reward for an incredibly difficult or dangerous job, or a powerful adversary's most precious and guarded treasure.")
+	}
+	out = append(out, "", fmt.Sprintf("#### CORE SET AND HOPE & FEAR EXPANSION %s", strings.ToUpper(singular)+"S"), "", fmt.Sprintf("The source tables are paired by roll result below. Roll a d6: on a 1-3, use the Core Set entry; on a 4-6, use the Hope & Fear Expansion Set entry in the same row."), "", fmt.Sprintf("| Roll | Core Set %s | Hope & Fear Expansion %s |", strings.Title(singular), strings.Title(singular)), "| --- | --- | --- |")
 	for roll := 1; roll <= half; roll++ {
 		rollText := fmt.Sprintf("%02d", roll)
 		core, coreOK := coreByRoll[rollText]

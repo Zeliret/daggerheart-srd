@@ -16,7 +16,13 @@ Witches are magical practitioners who commune with the forces of nature and enti
 
 **_Hex:_** **Mark a Stress** to temporarily Hex a target within Far range. While Hexed, the target gains a penalty to their damage rolls and Difficulty equal to your tier. The maximum number of creatures you can Hex at one time is equal to your Spellcast trait.
 
-**_Commune:_** Once per long rest during a moment of calm, you can commune with an ancestor, a deity, a spirit, or an otherworldly being. Ask them a question, then roll a number of **d6s** equal to your Spellcast trait. Choose one of the results and reference the chart below for the effect. Roll Effect 1–3 You taste a flavor, smell a scent, or feel a sensation relevant to the answer. 4–5 You hear sounds or see a vision relevant to the answer. 6 You psychically experience a scene relevant to the answer as if you were there.
+**_Commune:_** Once per long rest during a moment of calm, you can commune with an ancestor, a deity, a spirit, or an otherworldly being. Ask them a question, then roll a number of **d6s** equal to your Spellcast trait. Choose one of the results and reference the chart below for the effect.
+
+| Roll | Effect |
+| --- | --- |
+| 1–3 | You taste a flavor, smell a scent, or feel a sensation relevant to the answer. |
+| 4–5 | You hear sounds or see a vision relevant to the answer. |
+| 6 | You psychically experience a scene relevant to the answer as if you were there. |
 ### SUBCLASSES
 
 Choose either the **[Hedge](../subclasses/Hedge.md)** or **[Moon](../subclasses/Moon.md)** subclass.

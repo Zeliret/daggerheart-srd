@@ -137,6 +137,7 @@ var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT
 var sourceFeature = regexp.MustCompile(`^([A-Z][^:]{1,59}):\s+(.+)$`)
 var sourceSubclassHeading = regexp.MustCompile(`(?m)^([A-Z][A-Z '’&–—-]+) SUBCLASSES\n`)
 var classDomainLine = regexp.MustCompile(`(?m)^- \*\*DOMAINS —\*\* ([^&\n]+) & ([^\n]+)$`)
+var rollEffectRow = regexp.MustCompile(`(?:^|\s)(\d+(?:[–-]\d+)?)\s+`)
 var mechanicsResourceAction = regexp.MustCompile(`(?i)\b(?:spend|mark)\s+(?:(?:any|an?|one|two|three|four|five|six|\d+)\s+)?(?:(?:equal\s+)?(?:number|amount)\s+of\s+)?(?:Hope|Stress|Fear|Focus|Armor Slots?|Hit Points?)\b`)
 var mechanicsRoll = regexp.MustCompile(`\b[A-Z][a-z]+(?:\s+or\s+[A-Z][a-z]+)?\s+(?:Reaction\s+)?Roll(?:\s+\(\d+\))?`)
 var mechanicsDie = regexp.MustCompile(`\b(?:\d+)?d(?:4|6|8|10|12|20)s?(?:[+−-](?:(?:\d+)?d(?:4|6|8|10|12|20)s?|\d+))*\b`)
@@ -150,7 +151,7 @@ func sourceMarkdown(source string) string {
 	var out, paragraph []string
 	flush := func() {
 		if len(paragraph) > 0 {
-			out = append(out, mechanicsText(strings.Join(paragraph, " ")), "")
+			out = append(out, mechanicsText(formatRollEffectTable(strings.Join(paragraph, " "))), "")
 			paragraph = nil
 		}
 	}
@@ -188,6 +189,34 @@ func sourceMarkdown(source string) string {
 	}
 	flush()
 	return strings.TrimSpace(normalizeMarkdown(strings.Join(out, "\n")))
+}
+
+// formatRollEffectTable restores the compact outcome tables embedded in the
+// tagged PDF text (for example, Witch's Commune feature).
+func formatRollEffectTable(value string) string {
+	marker := "Roll Effect"
+	at := strings.Index(value, marker)
+	if at < 0 {
+		return value
+	}
+	prefix, table := strings.TrimSpace(value[:at]), strings.TrimSpace(value[at+len(marker):])
+	matches := rollEffectRow.FindAllStringSubmatchIndex(table, -1)
+	if len(matches) < 2 {
+		return value
+	}
+	rows := make([]string, 0, len(matches))
+	for i, match := range matches {
+		end := len(table)
+		if i+1 < len(matches) {
+			end = matches[i+1][0]
+		}
+		effect := strings.TrimSpace(table[match[1]:end])
+		if effect == "" {
+			return value
+		}
+		rows = append(rows, fmt.Sprintf("| %s | %s |", table[match[2]:match[3]], effect))
+	}
+	return prefix + "\n\n| Roll | Effect |\n| --- | --- |\n" + strings.Join(rows, "\n")
 }
 
 // mechanicsText mirrors the PDF's selective emphasis in generated rules text:

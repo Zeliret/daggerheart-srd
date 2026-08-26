@@ -7,7 +7,7 @@ Knowledge
 
 ### FOUNDATION FEATURE
 
-**_Toxic Concoctions:_** Mark a Stress to place 1d4+1  tokens on this card. When you make a successful weapon attack, you can spend a token to afflict the target with a poison. You know these poisons: ◦ Ghost Petal: The target becomes temporarily Vulnerable. ◦ Grave Spore: The target must also mark a Stress. ◦ Leech Weed: You deal an extra 1d6  damage on this attack. When you take a long rest, clear all unspent tokens.
+**_Toxic Concoctions:_** Mark a Stress to place 1d4+1 tokens on this card. When you make a successful weapon attack, you can spend a token to afflict the target with a poison. You know these poisons: ◦ Ghost Petal: The target becomes temporarily Vulnerable. ◦ Grave Spore: The target must also mark a Stress. ◦ Leech Weed: You deal an extra 1d6 damage on this attack. When you take a long rest, clear all unspent tokens.
 
 ### SPECIALIZATION FEATURES
 

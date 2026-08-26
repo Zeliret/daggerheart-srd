@@ -7,7 +7,7 @@ Instinct
 
 ### FOUNDATION FEATURES
 
-**_Night’s Glamour:_** Make a Spellcast Roll (13)  to Glamour yourself in a bewitching facade. While Glamoured, you have advantage on rolls that leverage your illusory appearance. Additionally, adversaries within Close range must mark a Stress to attack you. Unless you mark a Stress to maintain your Glamour, it drops when you mark a Hit Point or deal damage.
+**_Night’s Glamour:_** Make a Spellcast Roll (13) to Glamour yourself in a bewitching facade. While Glamoured, you have advantage on rolls that leverage your illusory appearance. Additionally, adversaries within Close range must mark a Stress to attack you. Unless you mark a Stress to maintain your Glamour, it drops when you mark a Hit Point or deal damage.
 
 ### SPECIALIZATION FEATURES
 
@@ -17,4 +17,4 @@ Instinct
 
 ### MASTERY FEATURES
 
-**_Lunar Phases:_** At the beginning of each session, roll a d6 and place it on this card. You gain the matching effect until the end of session. Roll Phase Effect 1 New Spend a Hope to negate Minor damage. 2 – 3 Waxing +2  to damage rolls 4 Full +3  to damage thresholds 5 – 6 Waning +1  to Evasion Once per rest, you can spend a Hope to increase the value of this die by one. If you increase the value of a 6, it becomes a 1.
+**_Lunar Phases:_** At the beginning of each session, roll a d6 and place it on this card. You gain the matching effect until the end of session. Roll Phase Effect 1 New Spend a Hope to negate Minor damage. 2 – 3 Waxing +2 to damage rolls 4 Full +3 to damage thresholds 5 – 6 Waning +1 to Evasion Once per rest, you can spend a Hope to increase the value of this die by one. If you increase the value of a 6, it becomes a 1.

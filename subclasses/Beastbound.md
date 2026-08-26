@@ -1,5 +1,4 @@
 # Beastbound
-
 Play the Beastbound if you want to form a deep bond with an animal ally.
 
 ### SPELLCAST TRAIT

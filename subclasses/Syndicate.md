@@ -1,5 +1,4 @@
 # Syndicate
-
 Play the Syndicate if you want to have a web of contacts everywhere you go.
 
 ### SPELLCAST TRAIT

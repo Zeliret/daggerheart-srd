@@ -21,4 +21,4 @@ Presence
 
 **_Dark Aegis:_** Once per long rest when you would take damage, you can spend a Favor instead of marking Hit Points.
 
-**_Draining Bane:_** When an adversary targets you or an ally within Very Close range with an attack, you can spend a Favor to Drain them. When you do, they must mark a Stress, and you can clear a Stress. While Drained, the target uses a d12  instead of a d20 for attack rolls (including for advantage or disadvantage) until they fail a roll.
+**_Draining Bane:_** When an adversary targets you or an ally within Very Close range with an attack, you can spend a Favor to Drain them. When you do, they must mark a Stress, and you can clear a Stress. While Drained, the target uses a d12 instead of a d20 for attack rolls (including for advantage or disadvantage) until they fail a roll.

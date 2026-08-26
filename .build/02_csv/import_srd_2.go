@@ -387,7 +387,7 @@ func importExpansionSourceRecords(source string) error {
 		"Assassin", "Bard", "Brawler", "Druid", "Guardian", "Ranger", "Rogue", "Seraph", "Sorcerer", "Warlock", "Warrior", "Witch", "Wizard",
 	}, map[string]map[string]string{
 		"Assassin": {"Domain 1": "Blade", "Domain 2": "Midnight", "Evasion": "12", "HP": "5", "Subclass 1": "Executioners Guild", "Subclass 2": "Poisoners Guild"},
-		"Brawler":  {"Domain 1": "Valor", "Domain 2": "Bone", "Evasion": "10", "HP": "6", "Subclass 1": "Juggernaut", "Subclass 2": "Martial Artist"},
+		"Brawler":  {"Domain 1": "Valor", "Domain 2": "Bone", "Evasion": "10", "HP": "6", "Subclass 1": "Juggernaut", "Subclass 2": "Martial Artist", "Description": sourceSegment(source, "BRAWLER\n", "\nMARTIAL STANCES\n")},
 		"Warlock":  {"Domain 1": "Dread", "Domain 2": "Grace", "Evasion": "11", "HP": "5", "Subclass 1": "Pact of the Endless", "Subclass 2": "Pact of the Wrathful"},
 		"Witch":    {"Domain 1": "Dread", "Domain 2": "Sage", "Evasion": "10", "HP": "6", "Subclass 1": "Hedge", "Subclass 2": "Moon"},
 	}, []string{"Assassin", "Brawler", "Warlock", "Witch"}); err != nil {
@@ -407,7 +407,8 @@ func importExpansionSourceRecords(source string) error {
 		"Executioners Guild":   sourceSegment(source, "EXECUTIONERS GUILD\n", "\nPOISONERS GUILD\n"),
 		"Poisoners Guild":      sourceSegment(source, "POISONERS GUILD\n", "\nBACKGROUND QUESTIONS\n"),
 		"Juggernaut":           sourceSegment(source, "JUGGERNAUT\n", "\nMARTIAL ARTIST\n"),
-		"Martial Artist":       sourceSegment(source, "MARTIAL ARTIST\n", "\nBACKGROUND QUESTIONS\n"),
+		"Martial Artist": sourceSegment(source, "MARTIAL ARTIST\n", "\nBACKGROUND QUESTIONS\n") + "\n\n" +
+			sourceSegment(source, "MARTIAL STANCES\n", "\n<!-- PDF page 14 -->"),
 		"Pact of the Endless":  sourceSegment(source, "PACT OF THE ENDLESS\n", "\nPACT OF THE WRATHFUL\n"),
 		"Pact of the Wrathful": sourceSegment(source, "PACT OF THE WRATHFUL\n", "\nBACKGROUND QUESTIONS\n"),
 		"Hedge":                sourceSegment(source, "HEDGE\n", "\nMOON\n"),

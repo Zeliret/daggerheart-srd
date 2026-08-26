@@ -9,7 +9,7 @@ Agility
 
 **_First Strike:_** The first time in a scene you succeed on an attack, you deal double damage.
 
-**_Ambush:_** Your “Marked for Death” feature uses d6s  instead of d4s.
+**_Ambush:_** Your “Marked for Death” feature uses d6s instead of d4s.
 
 ### SPECIALIZATION FEATURES
 

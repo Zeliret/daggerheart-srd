@@ -13,7 +13,7 @@ Knowledge
 
 ### SPECIALIZATION FEATURES
 
-**_Walk Between Worlds:_** During a moment of calm, make a Spellcast Roll (13) . Once per rest on a success, you can mark a Stress to step beyond the veil of death and converse with any nearby spirits. Place a number of tokens equal to your Spellcast trait on this card and remove one each time a spirit answers a question. When the last token is removed or at the end of the scene, you return to the Mortal Realm in the same spot you left it.
+**_Walk Between Worlds:_** During a moment of calm, make a Spellcast Roll (13). Once per rest on a success, you can mark a Stress to step beyond the veil of death and converse with any nearby spirits. Place a number of tokens equal to your Spellcast trait on this card and remove one each time a spirit answers a question. When the last token is removed or at the end of the scene, you return to the Mortal Realm in the same spot you left it.
 
 **_Vexing Malison:_** You have advantage on attacks against Hexed creatures.
 

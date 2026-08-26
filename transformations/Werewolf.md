@@ -22,14 +22,14 @@ themselves.
 ### TRANSFORMATION FEATURES
 
 **_Wolf Form:_** When you mark 1 or more Hit Points, you can
-mark a Stress to enter your Wolf Form. While in this form, you
-gain a 1d10  bonus to attack and damage rolls. When you roll
-with Hope while in Wolf Form, you must mark a Stress. Your
+**mark a Stress** to enter your Wolf Form. While in this form, you
+gain a **1d10** bonus to attack and damage rolls. When you roll
+with Hope while in Wolf Form, you must **mark a Stress**. Your
 Wolf Form lasts until you go into your “Howling Rampage” or
 take a rest.
 
 **_Howling Rampage:_** When you mark your last Stress while in
-Wolf Form, you go into a rampage. Roll a number of d20s
+Wolf Form, you go into a rampage. Roll a number of **d20s**
 equal to your tier and deal that much physical damage to all
 creatures within Very Close range, then drop out of Wolf Form.
 

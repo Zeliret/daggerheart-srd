@@ -145,7 +145,7 @@ Your character's **heritage** combines two elements: **ancestry** and **communit
 
 Your character has six traits that represent their physical, mental, and social aptitude:
 
-- **Agility** (Use it to Sprint, Leap, Maneuver,etc.) A high Agility means you're fast on your feet, nimble on dicult terrain, and quick to react to danger. You'll make an Agility Roll to scurry up a rope, sprint to cover, or bound from rooftop to rooftop.
+- **Agility** (Use it to Sprint, Leap, Maneuver, etc.) A high Agility means you're fast on your feet, nimble on difficult terrain, and quick to react to danger. You'll make an Agility Roll to scurry up a rope, sprint to cover, or bound from rooftop to rooftop.
 - **Strength** (Use it to Lift, Smash, Grapple, etc.) A high Strength means you're better at feats that test your physical prowess and stamina. You'll make a Strength Roll to break through a door, lift heavy objects, or hold your ground against a charging foe.
 - **Finesse** (Use it to Control, Hide, Tinker, etc.) A high Finesse means you're skilled at tasks that require accuracy, stealth, or the utmost control. You'll make a Finesse Roll to use fine tools, escape notice, or strike with precision.
 - **Instinct** (Use it to Perceive, Sense, Navigate, etc.) A high Instinct means you have a keen sense of your surroundings and a natural intuition. You'll make an Instinct Roll to sense danger, notice details in the world around you, or track an elusive foe.
@@ -459,7 +459,7 @@ Any time a character does something to advance the story, such as speaking with 
 
 ##### ACTION ROLLS
 
-Any move where success would be trivial or failure would be boring automatically succeeds, but any move that's dicult to accomplish or risky to attempt triggers an **action roll.**
+Any move where success would be trivial or failure would be boring automatically succeeds, but any move that's difficult to accomplish or risky to attempt triggers an **action roll.**
 
 ##### OVERVIEW
 
@@ -1458,7 +1458,7 @@ _Players can choose one Tier 1 armor during character creation. The GM can make 
 | [Banded Armor](armor/Banded%20Armor.md)\* | 4 | 8 / 16 | **_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress. |
 | [Brigandine Armor](armor/Brigandine%20Armor.md)\* | 3 | 6 / 12 | **_Lined:_** Mark a Stress to negate Minor damage. |
 | [Chainmail Armor](armor/Chainmail%20Armor.md) | 4 | 7 / 15 | **_Heavy:_** -1 to Evasion |
-| [Full Plate Armor](armor/Full%20Plate%20Armor.md) | 4 | 8 / 17 | **_Very Heavy:_** -2 to Evasion; -1 to Agility Base Base Name Thresholds Score Feature |
+| [Full Plate Armor](armor/Full%20Plate%20Armor.md) | 4 | 8 / 17 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
 | [Gambeson Armor](armor/Gambeson%20Armor.md) | 3 | 5 / 11 | **_Flexible:_** +1 to Evasion |
 | [Leather Armor](armor/Leather%20Armor.md) | 3 | 6 / 13 | — |
 | [Mage Robes](armor/Mage%20Robes.md)\* | 2 | 4 / 10 | **_Enchanted:_** Gain a bonus to your damage thresholds equal to your Spellcast trait. |
@@ -1472,7 +1472,7 @@ _Players can choose one Tier 1 armor during character creation. The GM can make 
 | --- | --- | --- | --- |
 | [Elundrian Chain Armor](armor/Elundrian%20Chain%20Armor.md) | 4 | 9 / 21 | **_Warded:_** You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds. |
 | [Enchanter’s Robes](armor/Enchanters%20Robes.md)\* | 4 | 9 / 20 | **_Mnemonic:_** Once per scene, you can recall a domain card from your vault without paying its Recall Cost. |
-| [Gilded Sunplate](armor/Gilded%20Sunplate.md)\* | 5 | 12 / 26 | **_Resplendent:_** Once per scene when you spend Hope, you can clear an Armor Slot. Base Base Name Thresholds Score Feature |
+| [Gilded Sunplate](armor/Gilded%20Sunplate.md)\* | 5 | 12 / 26 | **_Resplendent:_** Once per scene when you spend Hope, you can clear an Armor Slot. |
 | [Harrowbone Armor](armor/Harrowbone%20Armor.md) | 4 | 9 / 21 | **_Resilient:_** Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot. |
 | [Hawkguard’s Mantle](armor/Hawkguards%20Mantle.md)\* | 4 | 9 / 20 | **_Gliding:_** You can glide up to Far range and are immune to damage from falling. |
 | [Improved Banded Armor](armor/Improved%20Banded%20Armor.md)\* | 5 | 13 / 27 | **_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress. |
@@ -1515,7 +1515,7 @@ _Players can choose one Tier 1 armor during character creation. The GM can make 
 | [Dragonscale Armor](armor/Dragonscale%20Armor.md) | 5 | 11 / 27 | **_Impenetrable:_** Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress. |
 | [Granminster’s Finery](armor/Granminsters%20Finery.md)\* | 2 | 11 / 27 | **_Magnificent:_** Gain a bonus to your Armor Score equal to your Presence. |
 | [Monett’s Cloak](armor/Monetts%20Cloak.md) | 6 | 16 / 39 | **_Magic:_** You can’t mark an Armor Slot to reduce physical damage. |
-| [Runes of Fortification](armor/Runes%20of%20Fortification.md) | 6 | 17 / 43 | **_Painful:_** Each time you mark an Armor Slot, you must mark a Stress. Base Base Name Thresholds Score Feature |
+| [Runes of Fortification](armor/Runes%20of%20Fortification.md) | 6 | 17 / 43 | **_Painful:_** Each time you mark an Armor Slot, you must mark a Stress. |
 | [Skywarden’s Lamellar](armor/Skywardens%20Lamellar.md)\* | 5 | 11 / 27 | **_Vigilant:_** +2 to Evasion |
 | [Spiked Plate Armor](armor/Spiked%20Plate%20Armor.md) | 5 | 10 / 25 | **_Sharp:_** On a successful attack against a target within Melee range, add a d4 to the damage roll. |
 
@@ -2055,7 +2055,7 @@ To viscerally convey how a PC's actions or circumstances affect their ability to
 
 By default, adversaries don't normally make action rolls except for attack rolls and any unique actions described in their stat blocks. Any other action an adversary attempts simply succeeds without an action roll; if you want an adversary's action to have a chance of failure, have any relevant PCs make reaction rolls instead.
 
-However, for especially dramatic or dicult tasks that the PCs can't influence, you can give an adversary an **action roll** anyway. For an adversary's action roll, roll a d20. If the result is equal to or greater than the action's Difficulty, the action succeeds—otherwise it fails. You can spend a Fear before rolling to add a relevant Experience from the adversary's stat block to the total. Use the same procedure when an adversary makes a **reaction roll.**
+However, for especially dramatic or difficult tasks that the PCs can't influence, you can give an adversary an **action roll** anyway. For an adversary's action roll, roll a d20. If the result is equal to or greater than the action's Difficulty, the action succeeds—otherwise it fails. You can spend a Fear before rolling to add a relevant Experience from the adversary's stat block to the total. Use the same procedure when an adversary makes a **reaction roll.**
 
 ###### ADVERSARY ADVANTAGE & DISADVANTAGE
 
@@ -3038,10 +3038,9 @@ But this cycle doesn't just affect Wicklings, it's dictated how Fanewick's wondr
 
 ###### THE SERPENT'S SICKNESS
 
-The plague sweeping across Haven spares no one. Since the initial outbreak, Haven ocials have worked tirelessly to quarantine those in the early stages of the disease, but this effort has done little to stop its spread. Due to the rarity of crimson lady's veil, many citizens began to carry or consume all manner of flowers and snake sheddings in an attempt to protect or cure themselves.
+The plague sweeping across Haven spares no one. Since the initial outbreak, Haven officials have worked tirelessly to quarantine those in the early stages of the disease, but this effort has done little to stop its spread. Due to the rarity of crimson lady's veil, many citizens began to carry or consume all manner of flowers and snake sheddings in an attempt to protect or cure themselves.
 
-In the initial stages, victims are a
-icted with a hacking cough laden with dust that resembles powdered bone. Then a scaled rash erupts across their skin, cracking their flesh in a unique and painful pattern that resembles a snake's skin. Not long after, the victims' bodies harden until their organs solidify and cease to function. The final stages of the Serpent's Sickness is so quick that many transform into statues where they stand, leaving all of Haven a cenotaph to a once-great power.
+In the initial stages, victims are afflicted with a hacking cough laden with dust that resembles powdered bone. Then a scaled rash erupts across their skin, cracking their flesh in a unique and painful pattern that resembles a snake's skin. Not long after, the victims' bodies harden until their organs solidify and cease to function. The final stages of the Serpent's Sickness is so quick that many transform into statues where they stand, leaving all of Haven a cenotaph to a once-great power.
 
 ###### LADY'S VEIL
 

@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Resplendent:_** Once per scene when you spend Hope, you can clear an Armor Slot. Base Base Name Thresholds Score Feature
+**_Resplendent:_** Once per scene when you spend Hope, you can clear an Armor Slot.

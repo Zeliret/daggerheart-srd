@@ -6,7 +6,7 @@ Leather Armor,1,6 / 13,3,,
 Scale Mail Armor,1,7 / 14,3,Cumbersome,-1 to Finesse
 Chainmail Armor,1,7 / 15,4,Heavy,-1 to Evasion
 Banded Armor,1,8 / 16,4,Bulky,"-1 to Evasion; when you take Severe damage, you must mark a Stress."
-Full Plate Armor,1,8 / 17,4,Very Heavy,-2 to Evasion; -1 to Agility Base Base Name Thresholds Score Feature
+Full Plate Armor,1,8 / 17,4,Very Heavy,-2 to Evasion; -1 to Agility
 Improved Mage Robes,2,6 / 15,3,Enchanted,Gain a bonus to your damage thresholds equal to your Spellcast trait.
 Improved Gambeson Armor,2,7 / 16,4,Flexible,+1 to Evasion
 Improved Brigandine Armor,2,9 / 19,4,Lined,Mark a Stress to negate Minor damage.
@@ -27,7 +27,7 @@ Tyris Soft Armor,2,8 / 18,5,Quiet,You gain a +2 bonus to rolls you make to move 
 Wyrdwood Splint Armor,2,10 / 21,5,Quick-Striding,You can’t be Restrained and can move up to Far range as part of an action roll.
 Rosewild Armor,2,11 / 23,5,Hopeful,"When you would spend a Hope, you can mark an Armor Slot instead."
 Trollhide Cuirass,2,11 / 23,5,Self-Healing,"When you take a rest, clear an Armor Slot."
-Gilded Sunplate,2,12 / 26,5,Resplendent,"Once per scene when you spend Hope, you can clear an Armor Slot. Base Base Name Thresholds Score Feature"
+Gilded Sunplate,2,12 / 26,5,Resplendent,"Once per scene when you spend Hope, you can clear an Armor Slot."
 Advanced Mage Robes,3,8 / 22,4,Enchanted,Gain a bonus to your damage thresholds equal to your Spellcast trait.
 Advanced Gambeson Armor,3,9 / 23,5,Flexible,+1 to Evasion
 Advanced Brigandine Armor,3,11 / 26,5,Lined,Mark a Stress to negate Minor damage.
@@ -47,7 +47,7 @@ Bloodstone Plate Armor,3,13 / 35,6,Bloodthirsty,"When you critically succeed on 
 Deep-Forged Coral Armor,3,13 / 35,6,Aquatic,You can breathe underwater and gain advantage on Agility Rolls while submerged.
 Bladefare Armor,3,16 / 39,6,Physical,You can’t mark an Armor Slot to reduce magic damage.
 Monett’s Cloak,3,16 / 39,6,Magic,You can’t mark an Armor Slot to reduce physical damage.
-Runes of Fortification,3,17 / 43,6,Painful,"Each time you mark an Armor Slot, you must mark a Stress. Base Base Name Thresholds Score Feature"
+Runes of Fortification,3,17 / 43,6,Painful,"Each time you mark an Armor Slot, you must mark a Stress."
 Legendary Mage Robes,4,10 / 31,5,Enchanted,Gain a bonus to your damage thresholds equal to your Spellcast trait.
 Legendary Gambeson Armor,4,11 / 32,6,Flexible,+1 to Evasion
 Legendary Brigandine Armor,4,13 / 35,6,Lined,Mark a Stress to negate Minor damage.

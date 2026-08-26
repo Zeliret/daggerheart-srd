@@ -15,7 +15,7 @@ has one characteristic that doesn’t change no matter their
 form, such as their eyes, their coloring, or a unique birthmark.
 They also can’t mimic a specific person’s appearance, as they
 become a different version of themselves in a new body.
-T aking on a new form also doesn’t allow them to immediately
+Taking on a new form also doesn’t allow them to immediately
 have or use all the new form’s characteristics—they must
 focus their efforts on the physical characteristics they most
 want to use. Shapeshifters might need time to learn how

@@ -83,7 +83,7 @@
     "feature": [
       {
         "name": "Very Heavy",
-        "text": "-2 to Evasion; -1 to Agility Base Base Name Thresholds Score Feature"
+        "text": "-2 to Evasion; -1 to Agility"
       }
     ],
     "name": "Full Plate Armor",
@@ -329,7 +329,7 @@
     "feature": [
       {
         "name": "Resplendent",
-        "text": "Once per scene when you spend Hope, you can clear an Armor Slot. Base Base Name Thresholds Score Feature"
+        "text": "Once per scene when you spend Hope, you can clear an Armor Slot."
       }
     ],
     "name": "Gilded Sunplate",
@@ -563,7 +563,7 @@
     "feature": [
       {
         "name": "Painful",
-        "text": "Each time you mark an Armor Slot, you must mark a Stress. Base Base Name Thresholds Score Feature"
+        "text": "Each time you mark an Armor Slot, you must mark a Stress."
       }
     ],
     "name": "Runes of Fortification",

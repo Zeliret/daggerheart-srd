@@ -68,6 +68,10 @@ func main() {
 		},
 		"adversaryFeatureText": formatAdversaryFeatureText,
 		"mechanicsText":        mechanicsText,
+		"environmentFeatureText": func(value string) string {
+			return mechanicsText(formatAdversaryFeatureText(value))
+		},
+		"environmentQuestionText": formatEnvironmentQuestionText,
 		"optionAt":             optionAt,
 		"add1":                 add1,
 		"sourceMarkdown":       sourceMarkdown,
@@ -1302,9 +1306,13 @@ func linkEnvironmentAdversaries(value string, adversaryLinks map[string]string) 
 	for _, name := range names {
 		patterns = append(patterns, regexp.QuoteMeta(name))
 	}
-	matcher := regexp.MustCompile(`\b(?:` + strings.Join(patterns, "|") + `)\b`)
+	caseInsensitiveLinks := map[string]string{}
+	for name, target := range adversaryLinks {
+		caseInsensitiveLinks[strings.ToLower(name)] = target
+	}
+	matcher := regexp.MustCompile(`(?i)\b(?:` + strings.Join(patterns, "|") + `)\b`)
 	return matcher.ReplaceAllStringFunc(value, func(name string) string {
-		return fmt.Sprintf("[%s](%s)", name, adversaryLinks[name])
+		return fmt.Sprintf("[%s](%s)", name, caseInsensitiveLinks[strings.ToLower(name)])
 	})
 }
 
@@ -1338,6 +1346,20 @@ func formatAdversaryFeatureText(value string) string {
 		}
 	}
 	return value
+}
+
+func formatEnvironmentQuestionText(value string) string {
+	if !strings.Contains(value, "• ") {
+		return "_" + value + "_"
+	}
+	parts := strings.Split(value, "• ")
+	items := make([]string, 0, len(parts)-1)
+	for _, part := range parts[1:] {
+		if item := strings.TrimSpace(part); item != "" {
+			items = append(items, "- _"+item+"_")
+		}
+	}
+	return "_" + strings.TrimSpace(parts[0]) + "_\n\n" + strings.Join(items, "\n")
 }
 
 func abilityLink(name string) string {

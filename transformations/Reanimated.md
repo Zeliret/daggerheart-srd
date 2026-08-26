@@ -27,7 +27,7 @@ have access to remains from a recently deceased creature.
 Describe how you use these materials to maintain your corpse.
 
 **_Won’t Stay Dead:_** When you choose the Risk It All death move
-and fail, you can permanently mark a Hit Point to succeed
+and fail, you can permanently **mark a Hit Point** to succeed
 instead. When you do, you still use the Hope Die’s value to
 clear Hit Points and Stress. When you permanently mark your
 last Hit Point, you pass through the veil of death.

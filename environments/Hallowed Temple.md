@@ -10,8 +10,13 @@
 
 **_A Place of Healing - Passive:_** A PC who takes a rest in the Hallowed Temple automatically clears all HP. _What does the incense smell like? What kinds of songs do the acolytes sing?_
 
-**_Divine Guidance - Passive:_** A PC who prays to a deity while in the Hallowed Temple can make an Instinct Roll to receive answers. If the god they beseech isn’t welcome in this temple, the roll is made with disadvantage. • Critical Success: The PC gains clear information. Additionally, they gain 1d4 Hope, which can be distributed between the party if they share the vision and guidance they received. • Success with Hope: The PC receives clear information. • Success with Fear: The PC receives brief flashes of insight and an emotional impression conveying an answer. • Any Failure: The PC receives only vague flashes. They can mark a Stress to receive one clear image without context. _What does it feel like as you are touched by this vision? What feeling lingers after the images have passed?_
+**_Divine Guidance - Passive:_** A PC who prays to a deity while in the Hallowed Temple can make an **Instinct Roll** to receive answers. If the god they beseech isn’t welcome in this temple, the roll is made with disadvantage.
 
-**_Relentless Hope - Reaction:_** Once per scene, each PC can mark a Stress to turn a result with Fear into a result with Hope. _What emotions or memories do you connect with when fear presses in?_
+- Critical Success: The PC gains clear information. Additionally, they gain **1d4** Hope, which can be distributed between the party if they share the vision and guidance they received.
+- Success with Hope: The PC receives clear information.
+- Success with Fear: The PC receives brief flashes of insight and an emotional impression conveying an answer.
+- Any Failure: The PC receives only vague flashes. They can **mark a Stress** to receive one clear image without context. _What does it feel like as you are touched by this vision? What feeling lingers after the images have passed?_
 
-**_Divine Censure - Reaction:_** When the PCs have trespassed, blasphemed, or offended the clergy, you can spend a Fear to summon a High Seraph and 1d4 Bladed Guards within Close range of the senior priest to reinforce their will. _What symbols or icons do they bear that signal they are anointed agents of the divinity? Who leads the group and what led them to this calling?_
+**_Relentless Hope - Reaction:_** Once per scene, each PC can **mark a Stress** to turn a result with Fear into a result with Hope. _What emotions or memories do you connect with when fear presses in?_
+
+**_Divine Censure - Reaction:_** When the PCs have trespassed, blasphemed, or offended the clergy, you can **spend a Fear** to summon a High Seraph and **1d4** Bladed Guards within Close range of the senior priest to reinforce their will. _What symbols or icons do they bear that signal they are anointed agents of the divinity? Who leads the group and what led them to this calling?_

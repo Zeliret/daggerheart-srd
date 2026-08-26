@@ -140,7 +140,7 @@
     "level": "9",
     "name": "Earthquake",
     "recall": "2",
-    "text": "Make a **Spellcast Roll (16)**. Once per rest on a success, all targets within Very Far range who aren't flying must make a Reaction Roll (18). Targets who fail take **3d10+8** physical damage and are temporarily _Vulnerable_. Targets who succeed take half damage.\n\nAdditionally, when you succeed on the Spellcast Roll, all terrain within Very Far range becomes dicult to move through and structures within this range might sustain damage or crumble.",
+    "text": "Make a **Spellcast Roll (16)**. Once per rest on a success, all targets within Very Far range who aren't flying must make a Reaction Roll (18). Targets who fail take **3d10+8** physical damage and are temporarily _Vulnerable_. Targets who succeed take half damage.\n\nAdditionally, when you succeed on the Spellcast Roll, all terrain within Very Far range becomes difficult to move through and structures within this range might sustain damage or crumble.",
     "type": "Spell"
   },
   {
@@ -1676,7 +1676,7 @@
     "level": "10",
     "name": "Invoke Torment",
     "recall": "2",
-    "text": "You deal double damage to targets that have all their Stress\nmarked.\nAdditionally, when an adversary within Close range is defeated\nwith all its Stress marked, you gain a Hope..\n214\nDaggerheart SRD",
+    "text": "You deal double damage to targets that have all their Stress\nmarked.\nAdditionally, when an adversary within Close range is defeated\nwith all its Stress marked, you gain a Hope.\n214\nDaggerheart SRD",
     "type": "Ability"
   }
 ]

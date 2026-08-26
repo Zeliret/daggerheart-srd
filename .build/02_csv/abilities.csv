@@ -31,7 +31,7 @@ Arcane Reflection,8,Arcana,Spell,1,"When you would take magic damage, you can **
 Confusing Aura,8,Arcana,Spell,2,"Make a **Spellcast Roll (14)**. Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are. **Mark any number of Stress** to make that many additional layers. When an adversary makes an attack against you, roll a number of **d6s** equal to the number of layers currently active. If any roll a 5 or higher, one layer of the aura is destroyed and the attack fails. If all the results are 4 or lower, you take the damage and this spell ends"
 Earthquake,9,Arcana,Spell,2,"Make a **Spellcast Roll (16)**. Once per rest on a success, all targets within Very Far range who aren't flying must make a Reaction Roll (18). Targets who fail take **3d10+8** physical damage and are temporarily _Vulnerable_. Targets who succeed take half damage.
 
-Additionally, when you succeed on the Spellcast Roll, all terrain within Very Far range becomes dicult to move through and structures within this range might sustain damage or crumble."
+Additionally, when you succeed on the Spellcast Roll, all terrain within Very Far range becomes difficult to move through and structures within this range might sustain damage or crumble."
 Sensory Projection,9,Arcana,Spell,0,"Once per rest, make a **Spellcast Roll (15)**. On a success, drop into a vision that lets you clearly see and hear any place you have been before as though you are standing there in this moment. You can move freely in this vision and are not constrained by the physics or impediments of a physical body. This spell cannot be detected by mundane or magical means. You drop out of this vision upon taking damage or casting another spell."
 Adjust Reality,10,Arcana,Spell,1,"After you or a willing ally make any roll, you can **spend 5 Hope** to change the numerical result of that roll to a result of your choice instead. The result must be plausible within the range of the dice."
 Falling Sky,10,Arcana,Spell,1,Make a **Spellcast Roll** against all adversaries within Far range. **Mark any number of Stress** to make shards of arcana rain down from above. Targets you succeed against take **1d20+2** magic damage for each Stress marked.
@@ -574,6 +574,6 @@ can’t, you revert to your normal form."
 Invoke Torment,10,Dread,Ability,2,"You deal double damage to targets that have all their Stress
 marked.
 Additionally, when an adversary within Close range is defeated
-with all its Stress marked, you gain a Hope..
+with all its Stress marked, you gain a Hope.
 214
 Daggerheart SRD"

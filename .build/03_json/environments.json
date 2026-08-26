@@ -689,7 +689,7 @@
     ],
     "impulses": "Make the party prepare, split them up, throw up obstacles, trap them inside, use up their resources",
     "name": "Heist",
-    "potential_adversaries": "Head Guard, Minotaur Wrecker, Secret- Keeper, Spectral Guardian",
+    "potential_adversaries": "Head Guard, Minotaur Wrecker, Secret-Keeper, Spectral Guardian",
     "tier": "2",
     "type": "Event"
   },
@@ -1125,7 +1125,7 @@
       {
         "name": "Air Pockets - Passive",
         "question": "What signs or structures do you look for? What does it feel like to know this might be the last breath you take?",
-        "text": "A PC can reset their their Air Supply Countdown to its starting value by locating a pocket of air with a successful Knowledge or Instinct Roll."
+        "text": "A PC can reset their Air Supply Countdown to its starting value by locating a pocket of air with a successful Knowledge or Instinct Roll."
       },
       {
         "name": "Lost Technology - Passive",

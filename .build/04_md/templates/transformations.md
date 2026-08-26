@@ -6,7 +6,7 @@
 
 {{- range .feature }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 ### TRANSFORMATION QUESTIONS

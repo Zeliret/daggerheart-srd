@@ -20,8 +20,8 @@ set upon them are often difficult and costly to live up to.
 **_Gifted:_** You gain a +1 bonus to action, reaction, and damage
 rolls.
 
-**_Weight of Divinity:_** When you fail a roll, you must mark a
-Stress or the GM gains a Fear.
+**_Weight of Divinity:_** When you fail a roll, you must **mark a
+Stress** or the GM gains a Fear.
 
 ### TRANSFORMATION QUESTIONS
 

@@ -5,6 +5,6 @@
 You deal double damage to targets that have all their Stress
 marked.
 Additionally, when an adversary within Close range is defeated
-with all its Stress marked, you gain a Hope..
+with all its Stress marked, you gain a Hope.
 214
 Daggerheart SRD

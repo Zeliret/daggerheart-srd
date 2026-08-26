@@ -58,20 +58,20 @@ func main() {
 	}
 
 	funcs := template.FuncMap{
-		"upper":               strings.ToUpper,
-		"urlEncode":           url.PathEscape,
-		"featureQuestions":    featureQuestions,
-		"fileName":            sanitizeFilename,
-		"abilityLink":         abilityLink,
+		"upper":            strings.ToUpper,
+		"urlEncode":        url.PathEscape,
+		"featureQuestions": featureQuestions,
+		"fileName":         sanitizeFilename,
+		"abilityLink":      abilityLink,
 		"environmentAdversaryLinks": func(value string) string {
 			return linkEnvironmentAdversaries(value, adversaryLinks)
 		},
 		"adversaryFeatureText": formatAdversaryFeatureText,
 		"mechanicsText":        mechanicsText,
-		"optionAt":            optionAt,
-		"add1":                add1,
-		"sourceMarkdown":      sourceMarkdown,
-		"classSourceMarkdown": classSourceMarkdown,
+		"optionAt":             optionAt,
+		"add1":                 add1,
+		"sourceMarkdown":       sourceMarkdown,
+		"classSourceMarkdown":  classSourceMarkdown,
 	}
 
 	var beastforms []map[string]any
@@ -126,17 +126,22 @@ func main() {
 		}
 	}
 
+	// The README's catalog sections are generated from the current entity data.
+	// Its prose remains curated (rather than copied from Marker extraction).
+	if err := refreshReadmeIndexes(srdPath, jsonDir); err != nil {
+		fmt.Printf("Error refreshing README indexes: %v\n", err)
+	}
 	// README.md is a curated, readable presentation of the SRD. The Marker
 	// source remains intentionally unprocessed so it can be audited against
-	// the PDF, and is not safe to publish directly. Keep the curated README
-	// intact during normal entity regeneration; explicitly opt in only when
-	// working on the README generation pipeline.
+	// the PDF, and is not safe to publish directly. Keep that prose intact
+	// during normal entity regeneration; explicitly opt in only when working
+	// on the README generation pipeline.
 	if os.Getenv("DAGGERHEART_REGENERATE_README") == "1" {
 		if err := generateSRD(srdBasePath, srdPath, jsonDir); err != nil {
 			fmt.Printf("Error generating %s: %v\n", srdPath, err)
 		}
 	} else {
-		fmt.Println("Preserving curated README.md (set DAGGERHEART_REGENERATE_README=1 to regenerate it).")
+		fmt.Println("Preserving curated README.md prose (set DAGGERHEART_REGENERATE_README=1 to regenerate it).")
 	}
 }
 
@@ -459,6 +464,88 @@ type linkTarget struct {
 	name     string
 	path     string
 	category string
+}
+
+// refreshReadmeIndexes keeps the two large GM-facing catalogs complete as
+// appendices grow. The PDF's printed lists are only a starting point; the JSON
+// data is the repository's complete, linkable SRD 2.0 inventory.
+func refreshReadmeIndexes(path, jsonDir string) error {
+	content, err := os.ReadFile(path)
+	if err != nil {
+		return err
+	}
+	adversaries, err := loadJSON(filepath.Join(jsonDir, "adversaries.json"))
+	if err != nil {
+		return err
+	}
+	environments, err := loadJSON(filepath.Join(jsonDir, "environments.json"))
+	if err != nil {
+		return err
+	}
+	updated := string(content)
+	updated, err = replaceReadmeSection(updated, "#### ADVERSARIES BY TIER\n", "### USING ENVIRONMENTS\n", readmeAdversaryIndex(adversaries))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "##### ENVIRONMENT STAT BLOCKS BY TIER\n", "### ADDITIONAL GM GUIDANCE\n", readmeEnvironmentIndex(environments))
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(path, []byte(updated), 0644)
+}
+
+func replaceReadmeSection(content, start, end, replacement string) (string, error) {
+	startAt := strings.Index(content, start)
+	if startAt < 0 {
+		return content, fmt.Errorf("missing README section %q", strings.TrimSpace(start))
+	}
+	endAt := strings.Index(content[startAt+len(start):], end)
+	if endAt < 0 {
+		return content, fmt.Errorf("missing README section terminator %q", strings.TrimSpace(end))
+	}
+	endAt += startAt + len(start)
+	return content[:startAt] + replacement + "\n" + content[endAt:], nil
+}
+
+func readmeAdversaryIndex(adversaries []map[string]any) string {
+	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
+	return readmeTierIndex("#### ADVERSARIES BY TIER", "This section contains the following stat blocks:", "adversaries", adversaries, headings, false)
+}
+
+func readmeEnvironmentIndex(environments []map[string]any) string {
+	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
+	return readmeTierIndex("##### ENVIRONMENT STAT BLOCKS BY TIER", "This section contains the following stat blocks.", "environments", environments, headings, true)
+}
+
+func readmeTierIndex(title, description, category string, items []map[string]any, headings map[int]string, includeType bool) string {
+	buckets := map[int][]map[string]any{}
+	for _, item := range items {
+		name, _ := item["name"].(string)
+		tier := tierFromValue(item["tier"])
+		if name != "" && headings[tier] != "" {
+			buckets[tier] = append(buckets[tier], item)
+		}
+	}
+	var out []string
+	out = append(out, title, "", description)
+	for tier := 1; tier <= 4; tier++ {
+		items := buckets[tier]
+		sort.Slice(items, func(i, j int) bool {
+			return strings.ToLower(items[i]["name"].(string)) < strings.ToLower(items[j]["name"].(string))
+		})
+		out = append(out, "", headings[tier], "")
+		for _, item := range items {
+			name := item["name"].(string)
+			line := fmt.Sprintf("- [%s](%s/%s.md)", name, category, url.PathEscape(sanitizeFilename(name)))
+			if includeType {
+				if kind, _ := item["type"].(string); kind != "" {
+					line += " (" + kind + ")"
+				}
+			}
+			out = append(out, line)
+		}
+	}
+	return strings.Join(out, "\n")
 }
 
 func generateSRD(basePath, outPath, jsonDir string) error {

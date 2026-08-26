@@ -32,9 +32,10 @@ And then a lot of manual markdown cleanup...
     go run .build/04_md/extract_from_json.go
 
 `README.md` is curated from the SRD 2.0 source because the retained Marker
-extraction is not publication-ready. The normal Markdown generator preserves
-it. Set `DAGGERHEART_REGENERATE_README=1` only when intentionally working on
-the README generation pipeline.
+extraction is not publication-ready. The normal Markdown generator refreshes
+its adversary and environment catalogs while preserving the curated prose. Set
+`DAGGERHEART_REGENERATE_README=1` only when intentionally working on the
+README generation pipeline.
 
 ## Testing Static Site
 

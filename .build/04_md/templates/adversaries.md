@@ -11,5 +11,5 @@
 
 {{- range .feature }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText (adversaryFeatureText .text) }}
 {{- end }}

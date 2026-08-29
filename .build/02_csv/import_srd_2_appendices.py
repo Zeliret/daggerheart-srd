@@ -1,0 +1,349 @@
+#!/usr/bin/env python3
+"""Import SRD 2.0 appendix tables using their PDF column geometry.
+
+The tagged PDF text interleaves adjacent columns. pdfplumber preserves the
+table cell positions, allowing this importer to populate the existing CSV
+schemas without changing consumer-facing field names.
+"""
+from __future__ import annotations
+
+import csv
+import re
+from collections import defaultdict
+from pathlib import Path
+
+import pdfplumber
+
+ROOT = Path(__file__).resolve().parents[2]
+PDF = ROOT / ".build/01_pdf/DH-SRD-2.0-2026-08-25.pdf"
+CSV = ROOT / ".build/02_csv"
+
+
+def compact(text: str) -> str:
+    # The PDF embeds the digits used in adversary Horde values in a private-use
+    # font.  Translate them before serialising so the CSV/JSON/Markdown layers
+    # retain ordinary machine-readable dice notation.
+    glyph_digits = str.maketrans({
+        "\ue53f": "0", "\ue541": "1", "\ue542": "2", "\ue543": "3",
+        "\ue544": "4", "\ue545": "5", "\ue546": "6", "\ue547": "7",
+        "\ue548": "8", "\ue549": "9",
+    })
+    text = (text or "").translate(glyph_digits)
+    text = text.replace("−", "-").replace("\u00a0", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    # Some ligatures are emitted by the PDF as a partial word followed by a
+    # space (for example, "fl esh").
+    text = re.sub(r"\b([A-Za-z]*(?:fi|fl))\s+([a-z])", r"\1\2", text)
+    text = re.sub(r"\b([A-Za-z]+ff)\s+([eE][a-z]*)", r"\1\2", text)
+    text = re.sub(r"\bT\s+([a-z])", r"T\1", text)
+    text = re.sub(r"\bV\s+([A-Z][A-Z]*)", r"V\1", text)
+    text = re.sub(r"\b([A-Z]{3,})\s+T\b", r"\1T", text)
+    text = re.sub(r"\b([A-Z]{3,})\s+Y\b", r"\1Y", text)
+    text = text.replace("SYL V AN", "SYLVAN").replace("A VARICE", "AVARICE")
+    return re.sub(r"\s+([,.;:!?])", r"\1", text)
+
+
+def adversary_name(text: str) -> str:
+    name = compact(text.title())
+    if name in {"Molten Scourge", "Ashen Tyrant", "Obsidian Predator"}:
+        return f"Volcanic Dragon: {name}"
+    return name
+
+
+def write_rows(name: str, header: list[str], rows: list[dict[str, str]]) -> None:
+    with (CSV / name).open("w", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=header)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def table_lines(page):
+    buckets = defaultdict(list)
+    for word in page.extract_words(use_text_flow=True):
+        buckets[round(word["top"] / 4) * 4].append(word)
+    return [sorted(words, key=lambda w: w["x0"]) for _, words in sorted(buckets.items())]
+
+
+def loot_rows(pdf, page_range: range) -> list[dict[str, str]]:
+    # Item and consumable pages use x=84 for rolls, x=110 for names, x>=200
+    # for descriptions. Continuation lines retain their respective columns.
+    records = []
+    active = {}
+    for page_no in page_range:
+        page = pdf.pages[page_no]
+        # Items (pages 75–79) are one table per page; consumables use paired
+        # tables. Page text also contains ordinary numbers at x≈318, so do not
+        # infer table count from arbitrary numeric words.
+        two_columns = page_range.start != 74
+        for words in table_lines(pdf.pages[page_no]):
+            # A page may contain two independent roll/name/description tables.
+            bases = [70, 318] if two_columns else [70]
+            for base in bases:
+                limit = base + 245 if two_columns else 612
+                roll_words = [w["text"] for w in words if base - 18 <= w["x0"] < base + 22]
+                name_words = [w["text"] for w in words if base + 22 <= w["x0"] < base + 90]
+                desc_words = [w["text"] for w in words if base + 90 <= w["x0"] < limit]
+                roll = compact(" ".join(roll_words))
+                key = base
+                if re.fullmatch(r"\d{1,2}", roll):
+                    if key in active: records.append(active[key])
+                    active[key] = {"Roll": roll.zfill(2), "Name": compact(" ".join(name_words)), "Description": compact(" ".join(desc_words))}
+                elif key in active:
+                    if name_words:
+                        active[key]["Name"] = compact(active[key]["Name"] + " " + " ".join(name_words))
+                    if desc_words:
+                        active[key]["Description"] = compact(active[key]["Description"] + " " + " ".join(desc_words))
+        records.extend(active.values())
+        active.clear()
+    for record in records:
+        record["Name"] = re.sub(r"\s*Daggerheart SRD.*$", "", record["Name"]).strip()
+        record["Name"] = re.sub(r"\s+SRD$", "", record["Name"]).strip()
+        record["Name"] = re.sub(r"\s+Items following table includes Loot.*$", "", record["Name"]).strip()
+        record["Description"] = re.sub(r"\s*Daggerheart SRD.*$", "", record["Description"]).strip()
+    return [r for r in records if r["Name"] and r["Description"]]
+
+
+def adversaries(pdf) -> list[dict[str, str]]:
+    records = []
+    tier = 0
+    # PDF pages 97–154 are the adversary appendix; each statblock occupies one
+    # half-page, so crop before text extraction to prevent column interleaving.
+    for page_no in range(96, 158):
+        page = pdf.pages[page_no]
+        for left, right in ((0, page.width / 2), (page.width / 2, page.width)):
+            text = page.crop((left, 0, right, page.height)).extract_text() or ""
+            tier_match = re.search(r"TIER ([1-4]) ADVERSARIES", text)
+            if tier_match: tier = int(tier_match.group(1))
+            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’'\-]+)\nTier [^\n]*? (Solo|Leader|Bruiser|Skulk|Standard|Minion|Ranged|Horde|Support|Social)(?: \([^\n]*\))?\n", text))
+            for i, match in enumerate(starts):
+                block = text[match.start(): starts[i + 1].start() if i + 1 < len(starts) else len(text)]
+                # The final stat block shares its half-page with the start of
+                # the environment appendix.  Do not allow that prose into its
+                # final feature.
+                block = re.split(r"\n(?:(?:\d+\s+)?Daggerheart SRD|USING ENVIRONMENTS|DESCRIPTION|dversaries, such as)\b", block, maxsplit=1)[0]
+                stat = re.search(r"Diffi\s*culty:\s*([^|]+)\|\s*Thresholds:\s*([^|]+)\|\s*HP:\s*([^|]+)\|\s*Stress:\s*([^\n]+)", block)
+                attack = re.search(r"ATK:\s*([^|]+)\|\s*([^:]+):\s*([^|]+)\|\s*([^\n]+)", block)
+                motive = re.search(r"Motives\s*& Tactics:\s*(.+?)(?=\nDiffi\s*culty:|$)", block, re.S)
+                experience = re.search(r"Experience:\s*(.+)", block)
+                before_motive = block[:motive.start()] if motive else block
+                description = "\n".join(before_motive.splitlines()[2:])
+                feature_text = block.split("FEATURES", 1)[1] if "FEATURES" in block else ""
+                features = list(re.finditer(r"(?m)^(.+?) - (?:Passive|Action|Reaction):\s*", feature_text))
+                row = {"Name": adversary_name(match.group(1)), "Tier": str(tier), "Type": match.group(2), "Description": compact(description), "Motives and Tactics": compact(motive.group(1)) if motive else ""}
+                if stat: row.update(dict(zip(("Difficulty", "Thresholds", "HP", "Stress"), map(compact, stat.groups()))))
+                if attack: row.update({"ATK": compact(attack.group(1)), "Attack": compact(attack.group(2)), "Range": compact(attack.group(3)), "Damage": compact(attack.group(4))})
+                if experience: row["Experience"] = compact(experience.group(1))
+                for n, feature in enumerate(features[:7], 1):
+                    end = features[n].start() if n < len(features) else len(feature_text)
+                    row[f"Feature {n} Name"] = compact(feature.group(1))
+                    row[f"Feature {n} Text"] = compact(feature_text[feature.end():end])
+                records.append(row)
+    return records
+
+
+def armor_rows(pdf) -> list[dict[str, str]]:
+    records = []
+    tier = 0
+    active = None
+    row = re.compile(r"^(.+?)\s+(\d+\s*/\s*\d+)\s+(\d+)\s+(.*)$")
+    for page_no in range(71, 74):
+        for line in (pdf.pages[page_no].extract_text() or "").splitlines():
+            tier_match = re.match(r"TIER ([1-4]) \(", line)
+            if tier_match:
+                tier = int(tier_match.group(1)); continue
+            match = row.match(line)
+            if match and tier:
+                if active: records.append(active)
+                name, thresholds, score, feature = map(compact, match.groups())
+                active = {"Name": name, "Tier": str(tier), "Base Thresholds": thresholds, "Base Score": score}
+                if feature != "—":
+                    key, text = feature.split(":", 1)
+                    active["Feature 1 Name"], active["Feature 1 Text"] = compact(key), compact(text)
+            elif active and line and not line.startswith("Daggerheart SRD") and not re.match(r"^\d+ Daggerheart", line):
+                if active.get("Feature 1 Text"):
+                    active["Feature 1 Text"] = compact(active["Feature 1 Text"] + " " + line)
+    if active: records.append(active)
+    return records
+
+
+def weapon_rows(pdf) -> list[dict[str, str]]:
+    """Read the primary, secondary, and combat-wheelchair weapon tables.
+
+    The PDF has no stable table ruling, but its columns are positioned
+    consistently.  Treat the line containing the Trait as a record anchor;
+    wrapped names and feature copy are then bounded by the next anchor.
+    """
+    traits = {"Agility", "Strength", "Finesse", "Instinct", "Presence", "Knowledge", "Spellcast"}
+    ranges = {"Melee", "Close", "Far", "Very Close", "Very Far"}
+    records: list[dict[str, str]] = []
+
+    def parse_page(page, columns, state):
+        lines = [words for words in table_lines(page) if any(word["top"] < page.height - 45 for word in words)]
+        anchors = []
+        section_breaks = []
+        category, tier, damage_type = state
+        for index, words in enumerate(lines):
+            plain = compact(" ".join(word["text"] for word in words))
+            if "PRIMARY WEAPON TABLES" in plain:
+                category = "Primary"
+            elif "SECONDARY WEAPON TABLES" in plain:
+                category = "Secondary"
+            match = re.match(r"TIER ([1-4]) ", plain)
+            if match:
+                tier = match.group(1)
+            if plain == "Physical Weapons":
+                damage_type = "Physical"
+            elif plain == "Magic Weapons":
+                damage_type = "Magical"
+            if plain.startswith("TIER ") or plain in {"Physical Weapons", "Magic Weapons"} or "SECONDARY WEAPON TABLES" in plain:
+                section_breaks.append(index)
+
+            header = {word["text"]: word["x0"] for word in words}
+            if {"Trait", "Range", "Damage", "Burden", "Feature"} <= header.keys():
+                columns = {key.lower(): header[key] for key in ("Trait", "Range", "Damage", "Burden", "Feature")}
+
+            active_columns = columns
+
+            def cell(left, right):
+                return compact(" ".join(word["text"] for word in words if left - 3 <= word["x0"] < right - 3))
+
+            trait = cell(active_columns["trait"], active_columns["range"])
+            weapon_range = cell(active_columns["range"], active_columns["damage"])
+            damage = cell(active_columns["damage"], active_columns["burden"])
+            burden = cell(active_columns["burden"], active_columns["feature"])
+            if re.fullmatch(r"d\d+(?:\+\d+)?", damage) and index + 1 < len(lines):
+                next_damage = compact(" ".join(word["text"] for word in lines[index + 1] if active_columns["damage"] - 3 <= word["x0"] < active_columns["burden"] - 3))
+                if next_damage in {"phy", "mag", "phy/mag"}:
+                    damage = f"{damage} {next_damage}"
+            if trait in traits and weapon_range in ranges and re.fullmatch(r"d\d+(?:\+\d+)? (?:phy|mag|phy/mag)", damage) and burden in {"One-Handed", "Two-Handed"}:
+                anchors.append((index, category, tier, damage_type, trait, weapon_range, damage, burden, active_columns))
+
+        for anchor_index, anchor in enumerate(anchors):
+            start, category, tier, damage_type, trait, weapon_range, damage, burden, active_columns = anchor
+            end = anchors[anchor_index + 1][0] if anchor_index + 1 < len(anchors) else len(lines)
+            end = min([end, *[section for section in section_breaks if section > start]])
+            segment = lines[start:end]
+            name = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] < active_columns["trait"] - 2))
+            feature = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] >= active_columns["feature"] - 2))
+            if not name or not category or not tier or not damage_type:
+                continue
+            actual_damage_type = damage_type if category == "Primary" else ("Magical" if damage.endswith("mag") else "Physical")
+            row = {"Name": name, "Primary or Secondary": category, "Tier": tier, "Physical or Magical": actual_damage_type, "Trait": trait, "Range": weapon_range, "Damage": damage, "Burden": burden}
+            if ":" in feature:
+                feature_name, feature_text = feature.split(":", 1)
+                if match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", compact(feature_name)):
+                    feature_name, feature_text = match.group(2), match.group(1)
+                row["Feature 1 Name"] = compact(feature_name)
+                row["Feature 1 Text"] = compact(feature_text)
+            elif match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", feature):
+                row["Feature 1 Name"] = match.group(2)
+                row["Feature 1 Text"] = match.group(1)
+            records.append(row)
+        return category, tier, damage_type
+
+    state = ("", "", "")
+    # PDF pages 56–69 contain the main weapon tables.
+    for page_no in range(55, 69):
+        state = parse_page(pdf.pages[page_no], {"trait": 120, "range": 174, "damage": 226, "burden": 292, "feature": 357}, state)
+
+    # The wheelchair tables include a Tier column and use a shifted layout.
+    for page_no in range(69, 71):
+        page = pdf.pages[page_no]
+        lines = [words for words in table_lines(page) if any(word["top"] < page.height - 45 for word in words)]
+        anchors = []
+        section_breaks = []
+        for index, words in enumerate(lines):
+            if compact(" ".join(word["text"] for word in words)) == "Arcane Frame Models":
+                section_breaks.append(index)
+            def cell(left, right):
+                return compact(" ".join(word["text"] for word in words if left <= word["x0"] < right))
+            tier = cell(128, 162)
+            trait = cell(162, 203)
+            weapon_range = cell(203, 251)
+            damage = cell(251, 308)
+            burden = cell(308, 371)
+            if tier in {"1", "2", "3", "4"} and trait in traits and weapon_range in ranges and re.fullmatch(r"d\d+(?:\+\d+)? (?:phy|mag)", damage) and burden in {"One-Handed", "Two-Handed"}:
+                anchors.append((index, tier, trait, weapon_range, damage, burden))
+        for anchor_index, anchor in enumerate(anchors):
+            start, tier, trait, weapon_range, damage, burden = anchor
+            end = anchors[anchor_index + 1][0] if anchor_index + 1 < len(anchors) else len(lines)
+            end = min([end, *[section for section in section_breaks if section > start]])
+            segment = lines[start:end]
+            name = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] < 127))
+            feature = compact(" ".join(word["text"] for words in segment for word in words if word["x0"] >= 371))
+            row = {"Name": name, "Primary or Secondary": "Primary", "Tier": tier, "Physical or Magical": "Magical" if damage.endswith("mag") else "Physical", "Trait": trait, "Range": weapon_range, "Damage": damage, "Burden": burden}
+            if ":" in feature:
+                feature_name, feature_text = feature.split(":", 1)
+                if match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", compact(feature_name)):
+                    feature_name, feature_text = match.group(2), match.group(1)
+                row["Feature 1 Name"] = compact(feature_name)
+                row["Feature 1 Text"] = compact(feature_text)
+            elif match := re.fullmatch(r"([+-]\d+ .+)\s+([A-Z][A-Za-z-]+)", feature):
+                row["Feature 1 Name"] = match.group(2)
+                row["Feature 1 Text"] = match.group(1)
+            records.append(row)
+    return records
+
+
+def environment_name(text: str) -> str:
+    name = compact(text.title())
+    name = re.sub(r"\b(Of|The)\b", lambda match: match.group(1).lower(), name)
+    name = re.sub(r"’S\b", "’s", name)
+    return {"Convergence, the City of Portals": "Convergence, City of Portals", "T Volcanic Eruption": "Volcanic Eruption"}.get(name, name)
+
+
+def environment_rows(pdf) -> list[dict[str, str]]:
+    records = []
+    # PDF pages 160–181 contain two environment stat blocks per page.
+    for page_no in range(159, 182):
+        page = pdf.pages[page_no]
+        for left, right in ((0, page.width / 2), (page.width / 2, page.width)):
+            text = page.crop((left, 0, right, page.height)).extract_text() or ""
+            starts = list(re.finditer(r"(?m)^([A-Z][A-Z ’',\-\n]+)\n(?:\([^\n]*\n)?Tier ([^\n]+)\n", text))
+            for index, match in enumerate(starts):
+                block = text[match.start(): starts[index + 1].start() if index + 1 < len(starts) else len(text)]
+                block = re.split(r"\n?\d*\s*Daggerheart SRD\b", block, maxsplit=1)[0]
+                impulses = re.search(r"Impulses:\s*(.+)", block)
+                difficulty = re.search(r"Diffi\s*culty:\s*([^\n]+)", block)
+                adversaries = re.search(r"Potential Adversaries:\s*(.+?)(?=\nFEATURES|$)", block, re.S)
+                description = block[match.end():impulses.start()] if impulses else block[match.end():]
+                tier_type = compact(match.group(2)).split()
+                if len(tier_type) < 2:
+                    continue
+                row = {
+                    "Name": environment_name(match.group(1)), "Tier": tier_type[0], "Type": tier_type[1],
+                    "Description": compact(description), "Impulses": compact(re.search(r"Impulses:\s*(.+?)(?=\nDiffi\s*culty:|$)", block, re.S).group(1)) if impulses else "",
+                    "Difficulty": compact(difficulty.group(1)) if difficulty else "",
+                    "Potential Adversaries": compact(adversaries.group(1)) if adversaries else "",
+                }
+                feature_text = block.split("FEATURES", 1)[1] if "FEATURES" in block else ""
+                features = list(re.finditer(r"(?m)^(.+? - (?:Passive|Action|Reaction)):\s*", feature_text))
+                for number, feature in enumerate(features[:6], 1):
+                    end = features[number].start() if number < len(features) else len(feature_text)
+                    body = compact(feature_text[feature.end():end])
+                    question = re.search(r"\b(?:What|How|Where|Who|Which|Is)\b", body)
+                    row[f"Feature {number} Name"] = compact(feature.group(1))
+                    row[f"Feature {number} Text"] = compact(body[:question.start()] if question else body)
+                    row[f"Feature {number} Question"] = compact(body[question.start():]) if question else ""
+                records.append(row)
+    return records
+
+
+def main() -> None:
+    with pdfplumber.open(PDF) as pdf:
+        items = loot_rows(pdf, range(74, 79))
+        consumables = loot_rows(pdf, range(79, 86))
+        foes = adversaries(pdf)
+        armor = armor_rows(pdf)
+        weapons = weapon_rows(pdf)
+        environments = environment_rows(pdf)
+    if len(items) < 100 or len(consumables) < 100 or len(foes) < 150 or len(armor) != 69 or len(weapons) < 250 or len(environments) != 47:
+        raise SystemExit(f"unexpected extraction counts: items={len(items)}, consumables={len(consumables)}, adversaries={len(foes)}, armor={len(armor)}, weapons={len(weapons)}, environments={len(environments)}")
+    for filename, rows in (("items.csv", items), ("consumables.csv", consumables), ("adversaries.csv", foes), ("armor.csv", armor), ("weapons.csv", weapons), ("environments.csv", environments)):
+        with (CSV / filename).open(newline="") as fh: header = next(csv.reader(fh))
+        write_rows(filename, header, rows)
+    print(f"imported {len(items)} items, {len(consumables)} consumables, {len(foes)} adversaries, {len(armor)} armor entries, {len(weapons)} weapons, and {len(environments)} environments")
+
+
+if __name__ == "__main__":
+    main()

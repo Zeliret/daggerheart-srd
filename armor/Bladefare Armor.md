@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Physical:_** You can't mark an Armor Slot to reduce magic damage.
+**_Physical:_** You can’t mark an Armor Slot to reduce magic damage.

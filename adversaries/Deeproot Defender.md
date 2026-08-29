@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Ground Slam - Action:_** Slam the ground, knocking all targets within Very Close range back to Far range. Each target knocked back this way must mark a Stress.
+**_Ground Slam:_** Slam the ground, knocking all targets within Very Close range back to Far range. Each target knocked back this way must **mark a Stress**.
 
-**_Grab and Drag - Action:_** Make an attack against a target within Close range. On a success, **spend a Fear** to pull them into Melee range, deal **1d6+2** physical damage, and _Restrain_ them until the Defender takes Severe damage.
+**_Grab and Drag:_** Make an attack against a target within Close range. On a success, **spend a Fear** to pull them into Melee range, deal **1d6+2** physical damage, and Restrain them until the Defender takes Severe damage.

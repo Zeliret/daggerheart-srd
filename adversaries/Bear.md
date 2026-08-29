@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Overwhelming Force - Passive:_** Targets who mark HP from the Bear's standard attack are knocked back to Very Close range.
+**_Overwhelming Force:_** Targets who mark HP from the Bear’s standard attack are knocked back to Very Close range.
 
-**_Bite - Action:_** **Mark a Stress** to make an attack against a target within Melee range. On a success, deal **3d4+10** physical damage and the target is _Restrained_ until they break free with a successful Strength Roll.
+**_Bite:_** **Mark a Stress** to make an attack against a target within Melee range. On a success, deal **3d4+10** physical damage and the target is _Restrained_ until they break free with a successful **Strength Roll**.
 
-**_Momentum - Reaction:_** When the Bear makes a successful attack against a PC, you gain a Fear.
+**_Momentum:_** When the Bear makes a successful attack against a PC, you gain a Fear.

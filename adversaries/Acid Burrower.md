@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Relentless (3) - Passive:_** The Burrower can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.
+**_Relentless (3):_** The Burrower can be spotlighted up to three times per GM turn. **Spend Fear** as usual to spotlight them.
 
-**_Earth Eruption - Action:_** **Mark a Stress** to have the Burrower burst out of the ground. All creatures within Very Close range must succeed on an Agility Reaction Roll or be knocked over, making them _Vulnerable_ until they next act.
+**_Earth Eruption:_** **Mark a Stress** to have the Burrower burst out of the ground. All creatures within Very Close range must succeed on an **Agility Reaction Roll** or be knocked over, making them _Vulnerable_ until they next act.
 
-**_Spit Acid - Action:_** Make an attack against all targets in front of the Burrower within Close range. Targets the Burrower succeeds against take **2d6** physical damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP and you gain a Fear.
+**_Spit Acid:_** Make an attack against all targets in front of the Burrower within Close range. Targets the Burrower succeeds against take **2d6** physical damage and must **mark an Armor Slot** without receiving its benefits (they can still use armor to reduce the damage). If they can’t **mark an Armor Slot**, they must mark an additional HP and you gain a Fear.
 
-**_Acid Bath - Reaction:_** When the Burrower takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking **1d10** physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the Burrower who move through it take **1d6** physical damage.
+**_Acid Bath:_** When the Burrower takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking **1d10** physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the Burrower who move through it take **1d6** physical damage.

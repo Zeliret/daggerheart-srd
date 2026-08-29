@@ -1,5 +1,8 @@
 # {{ .name }}
 
+{{- if not .foundation }}
+{{ sourceMarkdown .description }}
+{{- else }}
 {{ .description }}
 {{- if .spellcast_trait }}
 
@@ -12,21 +15,21 @@
 
 {{- range .foundation }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 ### SPECIALIZATION FEATURE{{ if gt (len .specialization) 1 }}S{{ end }}
 
 {{- range .specialization }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 ### MASTERY FEATURE{{ if gt (len .mastery) 1 }}S{{ end }}
 
 {{- range .mastery }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{- end }}
 
 {{- if eq .name "Beastbound" }}
@@ -87,3 +90,4 @@ When your character levels up, choose one available option for your companion fr
 - _Bonded:_ When you mark your last Hit Point, your companion rushes to your side to comfort you. Roll a number of **d6s** equal to the unmarked Stress slots they have and mark them. If any roll a 6, your companion helps you up. Clear your last Hit Point and return to the scene.
 - _Aware:_ Your companion gains a permanent +2 bonus to their Evasion.
   {{- end }}
+{{- end }}

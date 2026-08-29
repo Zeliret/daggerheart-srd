@@ -9,12 +9,12 @@
 
 ### FEATURES
 
-**_Dance of Death - Action:_** **Mark a Stress** to spotlight **1d4** allies. Attacks they make while spotlighted in this way deal half damage, or full damage if you **spend a Fear**.
+**_Dance of Death:_** **Mark a Stress** to spotlight **1d4** allies. Attacks they make while spotlighted in this way deal half damage, or full damage if you **spend a Fear**.
 
-**_Beam of Decay - Action:_** **Mark 2 Stress** to cause all targets within Far range to make a Strength Reaction Roll. Targets who fail take **2d20+12** magic damage and you gain a Fear. Targets who succeed take half damage. A target who marks 2 or more HP must also mark **2 Stress** and becomes _Vulnerable_ until they roll with Hope.
+**_Beam of Decay:_** **Mark 2 Stress** to cause all targets within Far range to make a **Strength Reaction Roll**. Targets who fail take **2d20+12** magic damage and you gain a Fear. Targets who succeed take half damage. A target who marks 2 or more HP must also **mark 2 Stress** and becomes _Vulnerable_ until they roll with Hope.
 
-**_Open the Gates of Death - Action:_** **Spend a Fear** to summon a Zombie Legion, which appears at Close range and immediately takes the spotlight.
+**_Open the Gates of Death:_** **Spend a Fear** to summon a Zombie Legion, which appears at Close range and immediately takes the spotlight.
 
-**_Not Today, My Dears - Reaction:_** When the Necromancer has marked 7 or more of their HP, you can **spend a Fear** to have them teleport away to a safe location to recover. A PC who succeeds on an Instinct Roll can trace the teleportation magic to their destination.
+**_Not Today, My Dears:_** When the Necromancer has marked 7 or more of their HP, you can **spend a Fear** to have them teleport away to a safe location to recover. A PC who succeeds on an **Instinct Roll** can trace the teleportation magic to their destination.
 
-**_Your Life Is Mine - Reaction: Countdown (Loop 2d6):_** When the Necromancer has marked 6 or more of their HP, activate the countdown. When it triggers, deal **2d10+6** direct magic damage to a target within Close range. The Necromancer then **clears a number of Stress or HP** equal to the number of HP marked by the target from this attack.
+**_Your Life Is Mine:_** Countdown (Loop **2d6**). When the Necromancer has marked 6 or more of their HP, activate the countdown. When it triggers, deal **2d10+6** direct magic damage to a target within Close range. The Necromancer then clears a number of Stress or HP equal to the number of HP marked by the target from this attack.

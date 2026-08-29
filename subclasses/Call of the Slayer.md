@@ -1,5 +1,4 @@
 # Call of the Slayer
-
 Play the Call of the Slayer if you want to strike down adversaries with immense force.
 
 ### FOUNDATION FEATURE

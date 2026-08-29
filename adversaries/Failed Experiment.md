@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Warped Fortitude - Passive:_** The Experiment is resistant to physical damage.
+**_Warped Fortitude:_** The Experiment is resistant to physical damage.
 
-**_Overwhelm - Passive:_** When a target the Experiment attacks has other adversaries within Very Close range, the Experiment deals double damage.
+**_Overwhelm:_** When a target the Experiment attacks has other adversaries within Very Close range, the Experiment deals double damage.
 
-**_Lurching Lunge - Action:_** **Mark a Stress** to spotlight the Experiment as an additional GM move instead of spending Fear.
+**_Lurching Lunge:_** **Mark a Stress** to spotlight the Experiment as an additional GM move instead of spending Fear.

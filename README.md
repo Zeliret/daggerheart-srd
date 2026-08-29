@@ -1,14 +1,14 @@
 # DAGGERHEART
 
-**SYSTEM REFERENCE DOCUMENT 1.0 (VER SEP-09-2025)**
+**SYSTEM REFERENCE DOCUMENT 2.0 (VER AUG-25-2026)**
 
 SRD Writer: Rob Hebert | Technical Editor: Shawn Banerjee
 
-Layout: Matt Paquette & Co. | Producers: Dani Gage and Madigan Hunt
+Layout: Matt Paquette & Co., Matt Cole | Producers: Dani Gage and Madigan Hunt
 
 This document, including the Witherwild Campaign Frame, is considered Public Game Content per the Darrington Press Community Gaming License. Please read the Darrington Press Community Gaming License before using this material.
 
-© 2025 Critical Role LLC. All rights reserved. For more information, please visit www.darringtonpress.com/license.
+© 2026 Critical Role LLC. All rights reserved. For more information, please visit www.darringtonpress.com/license.
 
 **REFERENCE SITE**
 
@@ -29,6 +29,7 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 - [Classes](#classes)
 - [Ancestries](#ancestries)
 - [Communities](#communities)
+- [Transformations](#transformations)
 
 **[Core Mechanics](#core-mechanics)**
 
@@ -51,7 +52,7 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 - [Weapons](#weapons)
 - [Combat Wheelchair](#combat-wheelchair)
 - [Armor](#armor)
-- [Loot](#loot)
+- [Loot & Items](#loot)
 - [Consumables](#consumables)
 - [Gold](#gold)
 
@@ -64,6 +65,21 @@ This document, including the Witherwild Campaign Frame, is considered Public Gam
 - [Using Environments](#using-environments)
 - [Additional GM Guidance](#additional-gm-guidance)
 - [The Witherwild](#the-witherwild)
+
+**[Supplemental Campaign Mechanics](#supplemental-campaign-mechanics)**
+
+- [Faction Tracking](#faction-tracking)
+- [Everyday Hero Starting Equipment](#everyday-hero-starting-equipment)
+- [Feasts](#feasts)
+- [Grimdark Campaigns](#grimdark-campaigns)
+- [Tech-Based Campaigns](#tech-based-campaigns)
+- [Western Campaigns](#western-campaigns)
+- [Colossal Adversaries](#colossal-adversaries)
+- [Floating Magic School Campaigns](#floating-magic-school-campaigns)
+- [Fairy Tale Campaigns](#fairy-tale-campaigns)
+- [Transformation Guidance](#transformation-guidance)
+- [Monster Hunting Campaigns](#monster-hunting-campaigns)
+- [Hex Crawl Campaigns](#hex-crawl-campaigns)
 
 **[Appendix](#appendix)**
 
@@ -122,7 +138,7 @@ Unless their table chooses to use pre-generated characters, each player creates 
 
 **Choose a Class and Subclass.**
 
-**Classes** are role-based archetypes that determine which class features and **domain cards** a PC gains access to throughout the campaign. There are nine classes in this SRD: Bard, Druid, Guardian, Ranger, Rogue, Seraph, Sorcerer, Warrior, Wizard.
+**Classes** are role-based archetypes that determine which class features and **domain cards** a PC gains access to throughout the campaign. There are thirteen classes in this SRD: Assassin, Bard, Brawler, Druid, Guardian, Ranger, Rogue, Seraph, Sorcerer, Warlock, Warrior, Witch, Wizard.
 
 - Select a class and take its corresponding **character sheet** and **character guide** printouts. These sheets are for recording your PC's details; you'll update and reference them throughout the campaign.
 - Every class begins with one or more unique **class feature(s),** described at the bottom left of each class's character sheet. If your class feature prompts you to make a selection, do so now.
@@ -134,8 +150,8 @@ Unless their table chooses to use pre-generated characters, each player creates 
 
 Your character's **heritage** combines two elements: **ancestry** and **community.**
 
-- A character's **ancestry** reflects their lineage, impacting their physicality and granting them two unique **ancestry features.** Take the card for one of the following ancestries, then write its name in the Heritage field of your character sheet: Clank, Drakona, Dwarf, Elf, Faerie, Faun, Firbolg, Fungril, Galapa, Giant, Goblin, Halfling, Human, Infernis, Katari, Orc, Ribbet, Simiah. To create a Mixed Ancestry, take the top (first-listed) ancestry feature from one ancestry and the bottom (second-listed) ancestry feature from another.
-- Your character's **community** represents their culture or environment of origin and grants them a **community feature.** Take the card for one of the following communities, then write its name in the Heritage field of your character sheet: Highborne, Loreborne, Orderborne, Ridgeborne, Seaborne, Slyborne, Underborne, Wanderborne, Wildborne.
+- A character's **ancestry** reflects their lineage, impacting their physicality and granting them two unique **ancestry features.** Take the card for one of the following ancestries, then write its name in the Heritage field of your character sheet: Aetheris, Clank, Drakona, Dwarf, Earthkin, Elf, Emberkin, Faerie, Faun, Firbolg, Fungril, Galapa, Giant, Gnome, Goblin, Halfling, Human, Infernis, Katari, Orc, Ribbet, Simiah, Skykin, Tidekin. To create a Mixed Ancestry, take the top (first-listed) ancestry feature from one ancestry and the bottom (second-listed) ancestry feature from another.
+- Your character's **community** represents their culture or environment of origin and grants them a **community feature.** Take the card for one of the following communities, then write its name in the Heritage field of your character sheet: Duneborne, Freeborne, Frostborne, Hearthborne, Highborne, Loreborne, Orderborne, Reborne, Ridgeborne, Seaborne, Slyborne, Underborne, Wanderborne, Warborne, Wildborne.
 
 ##### STEP 3
 
@@ -143,7 +159,7 @@ Your character's **heritage** combines two elements: **ancestry** and **communit
 
 Your character has six traits that represent their physical, mental, and social aptitude:
 
-- **Agility** (Use it to Sprint, Leap, Maneuver,etc.) A high Agility means you're fast on your feet, nimble on dicult terrain, and quick to react to danger. You'll make an Agility Roll to scurry up a rope, sprint to cover, or bound from rooftop to rooftop.
+- **Agility** (Use it to Sprint, Leap, Maneuver, etc.) A high Agility means you're fast on your feet, nimble on difficult terrain, and quick to react to danger. You'll make an Agility Roll to scurry up a rope, sprint to cover, or bound from rooftop to rooftop.
 - **Strength** (Use it to Lift, Smash, Grapple, etc.) A high Strength means you're better at feats that test your physical prowess and stamina. You'll make a Strength Roll to break through a door, lift heavy objects, or hold your ground against a charging foe.
 - **Finesse** (Use it to Control, Hide, Tinker, etc.) A high Finesse means you're skilled at tasks that require accuracy, stealth, or the utmost control. You'll make a Finesse Roll to use fine tools, escape notice, or strike with precision.
 - **Instinct** (Use it to Perceive, Sense, Navigate, etc.) A high Instinct means you have a keen sense of your surroundings and a natural intuition. You'll make an Instinct Roll to sense danger, notice details in the world around you, or track an elusive foe.
@@ -235,14 +251,15 @@ Connections are the relationships between the PCs. To create connections, follow
 
 ### DOMAINS
 
-The Daggerheart core set includes 9 Domain Decks, each comprising a collection of cards granting features or special abilities expressing a particular theme.
+The Daggerheart SRD includes 10 Domain Decks, each comprising a collection of cards granting features or special abilities expressing a particular theme.
 
-**The 9 Domains are:**
+**The 10 Domains are:**
 
 - [Arcana](domains/Arcana.md)
 - [Blade](domains/Blade.md)
 - [Bone](domains/Bone.md)
 - [Codex](domains/Codex.md)
+- [Dread](domains/Dread.md)
 - [Grace](domains/Grace.md)
 - [Midnight](domains/Midnight.md)
 - [Sage](domains/Sage.md)
@@ -253,14 +270,18 @@ The Daggerheart core set includes 9 Domain Decks, each comprising a collection o
 
 Each class grants access to two domains:
 
+- **Assassin:** Blade & Midnight
 - **Bard:** Codex & Grace
+- **Brawler:** Valor & Bone
 - **Druid:** Arcana & Sage
 - **Guardian:** Blade & Valor
 - **Ranger:** Bone & Sage
 - **Rogue:** Grace & Midnight
 - **Seraph:** Splendor & Valor
 - **Sorcerer:** Arcana & Midnight
+- **Warlock:** Dread & Grace
 - **Warrior:** Blade & Bone
+- **Witch:** Dread & Sage
 - **Wizard:** Codex & Splendor
 
 PCs acquire two 1st-level domain cards at character creation and an additional domain card at or below their level each time they level up.
@@ -308,7 +329,7 @@ A **class** is a role-based archetype that determines a PC's:
 - **Class Feature(s)**
 - **Class Hope Feature,** a class feature that costs 3 Hope to activate.
 
-There are 9 classes in the Daggerheart core materials: [Bard](classes/Bard.md), [Druid](classes/Druid.md), [Guardian](classes/Guardian.md), [Ranger](classes/Ranger.md), [Rogue](classes/Rogue.md), [Seraph](classes/Seraph.md), [Sorcerer](classes/Sorcerer.md), [Warrior](classes/Warrior.md), and [Wizard](classes/Wizard.md).
+There are 13 classes in the Daggerheart SRD: [Assassin](classes/Assassin.md), [Bard](classes/Bard.md), [Brawler](classes/Brawler.md), [Druid](classes/Druid.md), [Guardian](classes/Guardian.md), [Ranger](classes/Ranger.md), [Rogue](classes/Rogue.md), [Seraph](classes/Seraph.md), [Sorcerer](classes/Sorcerer.md), [Warlock](classes/Warlock.md), [Warrior](classes/Warrior.md), [Witch](classes/Witch.md), and [Wizard](classes/Wizard.md).
 
 ##### SUBCLASSES
 
@@ -329,7 +350,7 @@ In Daggerheart, the term "people" is used to refer to all ancestries, as individ
 
 Some ancestries are described using the term "humanoid." This does not imply any genetic relation to "humans," which is a distinct ancestry within Daggerheart. Instead, it refers to the set of physical characteristics humans will recognize from their own anatomy, such as bipedal movement, upright posture, facial layout, and more. These traits vary by ancestry and individual, though "humanoid" should still provide a useful frame of reference.
 
-The core ruleset includes the following ancestries: [Clank](ancestries/Clank.md), [Drakona](ancestries/Drakona.md), [Dwarf](ancestries/Dwarf.md), [Elf](ancestries/Elf.md), [Faerie](ancestries/Faerie.md), [Faun](ancestries/Faun.md), [Firbolg](ancestries/Firbolg.md), [Fungril](ancestries/Fungril.md), [Galapa](ancestries/Galapa.md), [Giant](ancestries/Giant.md), [Goblin](ancestries/Goblin.md), [Halfling](ancestries/Halfling.md), [Human](ancestries/Human.md), [Infernis](ancestries/Infernis.md), [Katari](ancestries/Katari.md), [Orc](ancestries/Orc.md), [Ribbet](ancestries/Ribbet.md), [Simiah](ancestries/Simiah.md), and Mixed Ancestry.
+The SRD includes the following ancestries: [Aetheris](ancestries/Aetheris.md), [Clank](ancestries/Clank.md), [Drakona](ancestries/Drakona.md), [Dwarf](ancestries/Dwarf.md), [Earthkin](ancestries/Earthkin.md), [Elf](ancestries/Elf.md), [Emberkin](ancestries/Emberkin.md), [Faerie](ancestries/Faerie.md), [Faun](ancestries/Faun.md), [Firbolg](ancestries/Firbolg.md), [Fungril](ancestries/Fungril.md), [Galapa](ancestries/Galapa.md), [Giant](ancestries/Giant.md), [Gnome](ancestries/Gnome.md), [Goblin](ancestries/Goblin.md), [Halfling](ancestries/Halfling.md), [Human](ancestries/Human.md), [Infernis](ancestries/Infernis.md), [Katari](ancestries/Katari.md), [Orc](ancestries/Orc.md), [Ribbet](ancestries/Ribbet.md), [Simiah](ancestries/Simiah.md), [Skykin](ancestries/Skykin.md), [Tidekin](ancestries/Tidekin.md), and Mixed Ancestry.
 
 ###### ANCESTRY FEATURES
 
@@ -356,7 +377,29 @@ Communities represent a key aspect of the **culture, class,** or **environment o
 
 Your character's community grants them a **community feature.** Each community card also lists six adjectives you can use as inspiration to create your character's personality, their relationship to their peers, their attitude toward their upbringing, or the demeanor with which they interact with the rest of the party.
 
-The core ruleset includes the following communities: [Highborne](communities/Highborne.md), [Loreborne](communities/Loreborne.md), [Orderborne](communities/Orderborne.md), [Ridgeborne](communities/Ridgeborne.md), [Seaborne](communities/Seaborne.md), [Slyborne](communities/Slyborne.md), [Underborne](communities/Underborne.md), [Wanderborne](communities/Wanderborne.md), [Wildborne](communities/Wildborne.md).
+The SRD includes the following communities: [Duneborne](communities/Duneborne.md), [Freeborne](communities/Freeborne.md), [Frostborne](communities/Frostborne.md), [Hearthborne](communities/Hearthborne.md), [Highborne](communities/Highborne.md), [Loreborne](communities/Loreborne.md), [Orderborne](communities/Orderborne.md), [Reborne](communities/Reborne.md), [Ridgeborne](communities/Ridgeborne.md), [Seaborne](communities/Seaborne.md), [Slyborne](communities/Slyborne.md), [Underborne](communities/Underborne.md), [Wanderborne](communities/Wanderborne.md), [Warborne](communities/Warborne.md), [Wildborne](communities/Wildborne.md).
+
+### TRANSFORMATIONS
+
+Transformations represent a fundamental shift in your character and how they interact with the world. These are optional aspects of a character’s identity that the GM can give out during a campaign as part of the narrative or, at their discretion, present as an option during character creation.
+
+Transformations provide both a mechanical benefit and a drawback. Taking a transformation card requires you to buy into the concept of the exchange, taking on the burden to reap the benefit. Because of this, we recommend that players remind GMs of their transformations' negative effects whenever they’re relevant to help fulfill and reinforce the fiction of the transformation.
+
+Transformation cards do not count toward your loadout maximum. When your character gains a transformation, add the card to your loadout as if it were part of your character’s heritage. Consider how this transformation changes your character physically and psychologically—if you need inspiration, each transformation includes questions to help you.
+
+If there are details you’d like to incorporate into your character that go beyond the features on a transformation card, work with your GM to explore how they might manifest in your campaign’s narrative.
+
+A PC can't have more than one transformation.
+
+The SRD 2.0 Transformations are [Demigod](transformations/Demigod.md), [Ghost](transformations/Ghost.md), [Reanimated](transformations/Reanimated.md), [Shapeshifter](transformations/Shapeshifter.md), [Vampire](transformations/Vampire.md), and [Werewolf](transformations/Werewolf.md).
+
+#### GRANTING TRANSFORMATIONS
+
+GMs should discuss transformations with their players before incorporating them into their campaigns. A transformation can deeply impact a PC’s narrative journey, so it’s best to ensure this aspect of the game supports the story your players want to tell and is something they’ll enjoy.
+
+Some of the transformations presented here are easy to introduce during a campaign as a narrative development. For example, the vampire or werewolf transformation could be gained when the campaign’s major villain targets a PC with a significant attack. A PC who gains the reanimated or ghost transformation might have died in a place of great magic or made a story-altering bargain in exchange for their resurrection. These transformations can also be part of character creation. Maybe a PC was born a werewolf and seeks to control this aspect of their lineage, or a PC is a long-dead ghost who haunts the party to protect the living.
+
+Some transformations are more likely to be taken at character creation, such as the shapeshifter or demigod. However, they can still be introduced as a character twist during a campaign. It’s ultimately up to you which transformations are available at character creation and how they become available throughout play—decide what works best for you, your players, and the story you’re telling together.
 
 ## CORE MECHANICS
 
@@ -430,7 +473,7 @@ Any time a character does something to advance the story, such as speaking with 
 
 ##### ACTION ROLLS
 
-Any move where success would be trivial or failure would be boring automatically succeeds, but any move that's dicult to accomplish or risky to attempt triggers an **action roll.**
+Any move where success would be trivial or failure would be boring automatically succeeds, but any move that's difficult to accomplish or risky to attempt triggers an **action roll.**
 
 ##### OVERVIEW
 
@@ -928,267 +971,412 @@ _Players can choose one Tier 1 primary weapon during character creation. The GM 
 
 ##### TIER 1 (LEVEL 1) Physical Weapons
 
-| Name         | Trait    | Range      | Damage    | Burden     | Feature                                                                                                            |
-| ------------ | -------- | ---------- | --------- | ---------- | ------------------------------------------------------------------------------------------------------------------ |
-| [Broadsword](weapons/Broadsword.md) | Agility  | Melee      | d8 phy    | One-Handed | **_Reliable:_** +1 to attack rolls                                                                                 |
-| [Longsword](weapons/Longsword.md) | Agility  | Melee      | d10+3 phy | Two-Handed | —                                                                                                                  |
-| [Battleaxe](weapons/Battleaxe.md) | Strength | Melee      | d10+3 phy | Two-Handed | —                                                                                                                  |
-| [Greatsword](weapons/Greatsword.md) | Strength | Melee      | d10+3 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
-| [Mace](weapons/Mace.md) | Strength | Melee      | d8+1 phy  | One-Handed | —                                                                                                                  |
-| [Warhammer](weapons/Warhammer.md) | Strength | Melee      | d12+3 phy | Two-Handed | **_Heavy:_** -1 to Evasion                                                                                         |
-| [Dagger](weapons/Dagger.md) | Finesse  | Melee      | d8+1 phy  | One-Handed | —                                                                                                                  |
-| [Quarterstaff](weapons/Quarterstaff.md) | Instinct | Melee      | d10+3 phy | Two-Handed | —                                                                                                                  |
-| [Cutlass](weapons/Cutlass.md) | Presence | Melee      | d8+1 phy  | One-Handed | —                                                                                                                  |
-| [Rapier](weapons/Rapier.md) | Presence | Melee      | d8 phy    | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range.               |
-| [Halberd](weapons/Halberd.md) | Strength | Very Close | d10+2 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                    |
-| [Spear](weapons/Spear.md) | Finesse  | Very Close | d8+3 phy  | Two-Handed | —                                                                                                                  |
-| [Shortbow](weapons/Shortbow.md) | Agility  | Far        | d6+3 phy  | Two-Handed | —                                                                                                                  |
-| [Crossbow](weapons/Crossbow.md) | Finesse  | Far        | d6+1 phy  | One-Handed | —                                                                                                                  |
-| [Longbow](weapons/Longbow.md) | Agility  | Very Far   | d8+3 phy  | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                    |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Battleaxe](weapons/Battleaxe.md) | Strength | Melee | d10+3 phy | Two-Handed | — |
+| [Brass Knuckles](weapons/Brass%20Knuckles.md)\* | Strength | Melee | d8+1 phy | One-Handed | — |
+| [Broadsword](weapons/Broadsword.md) | Agility | Melee | d8 phy | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Crossbow](weapons/Crossbow.md) | Finesse | Far | d6+1 phy | One-Handed | — |
+| [Cutlass](weapons/Cutlass.md) | Presence | Melee | d8+1 phy | One-Handed | — |
+| [Dagger](weapons/Dagger.md) | Finesse | Melee | d8+1 phy | One-Handed | — |
+| [Greatsword](weapons/Greatsword.md) | Strength | Melee | d10+3 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
+| [Halberd](weapons/Halberd.md) | Strength | Very Close | d10+2 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Heavy-Frame Wheelchair](weapons/Heavy-Frame%20Wheelchair.md) | Strength | Melee | d12+3 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Katana](weapons/Katana.md)\* | Agility | Melee | d10+3 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Light-Frame Wheelchair](weapons/Light-Frame%20Wheelchair.md) | Agility | Melee | d8 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Longbow](weapons/Longbow.md) | Agility | Very Far | d8+3 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Longsword](weapons/Longsword.md) | Agility | Melee | d10+3 phy | Two-Handed | — |
+| [Mace](weapons/Mace.md) | Strength | Melee | d8+1 phy | One-Handed | — |
+| [Quarterstaff](weapons/Quarterstaff.md) | Instinct | Melee | d10+3 phy | Two-Handed | — |
+| [Rapier](weapons/Rapier.md) | Presence | Melee | d8 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Rope Dart](weapons/Rope%20Dart.md)\* | Instinct | Close | d6+1 phy | Two-Handed | — |
+| [Scimitar](weapons/Scimitar.md)\* | Presence | Melee | d8+1 phy | One-Handed | — |
+| [Shortbow](weapons/Shortbow.md) | Agility | Far | d6+3 phy | Two-Handed | — |
+| [Spear](weapons/Spear.md) | Finesse | Very Close | d8+3 phy | Two-Handed | — |
+| [Twisted Dagger](weapons/Twisted%20Dagger.md)\* | Knowledge | Melee | d8 phy | One-Handed | **_Piercing:_** Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty. |
+| [Warhammer](weapons/Warhammer.md) | Strength | Melee | d12+3 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Whipsword](weapons/Whipsword.md)\* | Finesse | Very Close | d8 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Finesse, Melee, d10. |
 
-##### TIER 1 (LEVEL 1) Magic Weapons
+\* Hope & Fear Expansion Set entry.
+
+##### TIER 1 (LEVEL 1) Magical Weapons
 
 > _All magic weapons require a Spellcast trait_
 
-| NAME             | TRAIT     | RANGE      | DAMAGE    | BURDEN     | FEATURE                                                                                                             |
-| ---------------- | --------- | ---------- | --------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Arcane Gauntlets](weapons/Arcane%20Gauntlets.md) | Strength  | Melee      | d10+3 mag | Two-Handed | —                                                                                                                   |
-| [Hallowed Axe](weapons/Hallowed%20Axe.md) | Strength  | Melee      | d8+1 mag  | One-Handed | —                                                                                                                   |
-| [Glowing Rings](weapons/Glowing%20Rings.md) | Agility   | Very Close | d10+2 mag | Two-Handed | —                                                                                                                   |
-| [Hand Runes](weapons/Hand%20Runes.md) | Instinct  | Very Close | d10 mag   | One-Handed | —                                                                                                                   |
-| [Returning Blade](weapons/Returning%20Blade.md) | Finesse   | Close      | d8 mag    | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack. |
-| [Shortstaff](weapons/Shortstaff.md) | Instinct  | Close      | d8+1 mag  | One-Handed | —                                                                                                                   |
-| [Dualstaff](weapons/Dualstaff.md) | Instinct  | Far        | d6+3 mag  | Two-Handed | —                                                                                                                   |
-| [Scepter](weapons/Scepter.md) | Presence  | Far        | d6 mag    | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8.                            |
-| [Wand](weapons/Wand.md) | Knowledge | Far        | d6+1 mag  | One-Handed | —                                                                                                                   |
-| [Greatstaff](weapons/Greatstaff.md) | Knowledge | Very Far   | d6 mag    | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Arcane Gauntlets](weapons/Arcane%20Gauntlets.md) | Strength | Melee | d10+3 mag | Two-Handed | — |
+| [Arcane Rifle](weapons/Arcane%20Rifle.md)\* | Agility | Very Far | d10+3 mag | Two-Handed | **_Aimed:_** Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty. |
+| [Arcane-Frame Wheelchair](weapons/Arcane-Frame%20Wheelchair.md) | Spellcast | Far | d6 mag | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Brightsword](weapons/Brightsword.md)\* | Strength | Melee | d10+3 mag | Two-Handed | — |
+| [Casting Dagger](weapons/Casting%20Dagger.md)\* | Instinct | Close | d6 mag | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Instinct, Melee, d8. |
+| [Dualstaff](weapons/Dualstaff.md) | Instinct | Far | d6+3 mag | Two-Handed | — |
+| [Enchanted Chakram](weapons/Enchanted%20Chakram.md)\* | Finesse | Close | d6+1 mag | One-Handed | **_Ricochet:_** When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack. |
+| [Glowing Rings](weapons/Glowing%20Rings.md) | Agility | Very Close | d10+2 mag | Two-Handed | — |
+| [Greatstaff](weapons/Greatstaff.md) | Knowledge | Very Far | d6 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Hallowed Axe](weapons/Hallowed%20Axe.md) | Strength | Melee | d8+1 mag | One-Handed | — |
+| [Hand Runes](weapons/Hand%20Runes.md) | Instinct | Very Close | d10 mag | One-Handed | — |
+| [Returning Blade](weapons/Returning%20Blade.md) | Finesse | Close | d8 mag | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack. |
+| [Runelock Pistol](weapons/Runelock%20Pistol.md)\* | Knowledge | Far | d6+3 mag | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Scepter](weapons/Scepter.md) | Presence | Far | d6 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8. |
+| [Shadowblade](weapons/Shadowblade.md)\* | Presence | Melee | d8 phy/mag | One-Handed | **_Otherworldly:_** On a successful attack, you can deal physical or magic damage. |
+| [Shortstaff](weapons/Shortstaff.md) | Instinct | Close | d8+1 mag | One-Handed | — |
+| [Wand](weapons/Wand.md) | Knowledge | Far | d6+1 mag | One-Handed | — |
+
+\* Hope & Fear Expansion Set entry.
 
 ##### TIER 2 (LEVELS 2-4) Physical Weapons
 
-| Name                  | Trait    | Range      | Damage    | Burden     | Feature                                                                                                                                            |
-| --------------------- | -------- | ---------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Improved Broadsword](weapons/Improved%20Broadsword.md) | Agility  | Melee      | d8+3 phy  | One-Handed | **_Reliable:_** +1 to attack rolls                                                                                                                 |
-| [Improved Longsword](weapons/Improved%20Longsword.md) | Agility  | Melee      | d10+6 phy | Two-Handed | —                                                                                                                                                  |
-| [Improved Battleaxe](weapons/Improved%20Battleaxe.md) | Strength | Melee      | d10+6 phy | Two-Handed | —                                                                                                                                                  |
-| [Improved Greatsword](weapons/Improved%20Greatsword.md) | Strength | Melee      | d10+6 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.                                 |
-| [Improved Mace](weapons/Improved%20Mace.md) | Strength | Melee      | d8+4 phy  | One-Handed | —                                                                                                                                                  |
-| [Improved Warhammer](weapons/Improved%20Warhammer.md) | Strength | Melee      | d12+6 phy | Two-Handed | **_Heavy:_** -1 to Evasion                                                                                                                         |
-| [Improved Dagger](weapons/Improved%20Dagger.md) | Finesse  | Melee      | d8+4 phy  | One-Handed | —                                                                                                                                                  |
-| [Improved Quarterstaff](weapons/Improved%20Quarterstaff.md) | Instinct | Melee      | d10+6 phy | Two-Handed | —                                                                                                                                                  |
-| [Improved Cutlass](weapons/Improved%20Cutlass.md) | Presence | Melee      | d8+4 phy  | One-Handed | —                                                                                                                                                  |
-| [Improved Rapier](weapons/Improved%20Rapier.md) | Presence | Melee      | d8+3 phy  | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range.                                               |
-| [Improved Halberd](weapons/Improved%20Halberd.md) | Strength | Very Close | d10+5 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                                                    |
-| [Improved Spear](weapons/Improved%20Spear.md) | Finesse  | Very Close | d8+6 phy  | Two-Handed | —                                                                                                                                                  |
-| [Improved Shortbow](weapons/Improved%20Shortbow.md) | Agility  | Far        | d6+6 phy  | Two-Handed | —                                                                                                                                                  |
-| [Improved Crossbow](weapons/Improved%20Crossbow.md) | Finesse  | Far        | d6+4 phy  | One-Handed | —                                                                                                                                                  |
-| [Improved Longbow](weapons/Improved%20Longbow.md) | Agility  | Very Far   | d8+6 phy  | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                                                    |
-| [Gilded Falchion](weapons/Gilded%20Falchion.md) | Strength | Melee      | d10+4 phy | One-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Knuckle Blades](weapons/Knuckle%20Blades.md) | Strength | Melee      | d10+6 phy | Two-Handed | **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die.                                                      |
-| [Urok Broadsword](weapons/Urok%20Broadsword.md) | Finesse  | Melee      | d8+3 phy  | One-Handed | **_Deadly:_** When you deal Severe damage, the target must mark an additional HP.                                                                  |
-| [Bladed Whip](weapons/Bladed%20Whip.md) | Agility  | Very Close | d8+3 phy  | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range.                                               |
-| [Steelforged Halberd](weapons/Steelforged%20Halberd.md) | Strength | Very Close | d8+4 phy  | Two-Handed | **_Scary:_** On a successful attack, the target must mark a Stress.                                                                                |
-| [War Scythe](weapons/War%20Scythe.md) | Finesse  | Very Close | d8+5 phy  | Two-Handed | **_Reliable:_** +1 to attack rolls                                                                                                                 |
-| [Blunderbuss](weapons/Blunderbuss.md) | Finesse  | Close      | d8+6 phy  | Two-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
-| [Greatbow](weapons/Greatbow.md) | Strength | Far        | d6+6 phy  | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Finehair Bow](weapons/Finehair%20Bow.md) | Agility  | Very Far   | d6+5 phy  | Two-Handed | **_Reliable:_** +1 to attack rolls                                                                                                                 |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Bladed Fan](weapons/Bladed%20Fan.md)\* | Presence | Melee | d8+3 phy | One-Handed | **_Parry:_** When you are attacked, roll this weapon’s damage dice. If any of the attacker’s damage dice rolled the same value as your dice, the matching results are discarded from the attacker’s damage dice before the damage you take is totaled. |
+| [Bladed Whip](weapons/Bladed%20Whip.md) | Agility | Very Close | d8+3 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Blunderbuss](weapons/Blunderbuss.md) | Finesse | Close | d8+6 phy | Two-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Cane Sword](weapons/Cane%20Sword.md)\* | Finesse | Melee | d8+4 phy | One-Handed | **_Retractable:_** The blade can be hidden in the cane to avoid detection. |
+| [Cyrurgien’s Scalpel](weapons/Cyrurgiens%20Scalpel.md)\* | Knowledge | Melee | d8+3 phy | One-Handed | **_Scary:_** On a successful attack, the target must mark a Stress. |
+| [Finehair Bow](weapons/Finehair%20Bow.md) | Agility | Very Far | d6+5 phy | Two-Handed | **_Reliable:_** +1 to attack rolls |
+| [Gilded Falchion](weapons/Gilded%20Falchion.md) | Strength | Melee | d10+4 phy | One-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Greatbow](weapons/Greatbow.md) | Strength | Far | d6+6 phy | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Improved Battleaxe](weapons/Improved%20Battleaxe.md) | Strength | Melee | d10+6 phy | Two-Handed | — |
+| [Improved Brass Knuckles](weapons/Improved%20Brass%20Knuckles.md)\* | Strength | Melee | d8+4 phy | One-Handed | — |
+| [Improved Broadsword](weapons/Improved%20Broadsword.md) | Agility | Melee | d8+3 phy | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Improved Crossbow](weapons/Improved%20Crossbow.md) | Finesse | Far | d6+4 phy | One-Handed | — |
+| [Improved Cutlass](weapons/Improved%20Cutlass.md) | Presence | Melee | d8+4 phy | One-Handed | — |
+| [Improved Dagger](weapons/Improved%20Dagger.md) | Finesse | Melee | d8+4 phy | One-Handed | — |
+| [Improved Greatsword](weapons/Improved%20Greatsword.md) | Strength | Melee | d10+6 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
+| [Improved Halberd](weapons/Improved%20Halberd.md) | Strength | Very Close | d10+5 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Improved Heavy-Frame Wheelchair](weapons/Improved%20Heavy-Frame%20Wheelchair.md) | Strength | Melee | d12+6 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Improved Katana](weapons/Improved%20Katana.md)\* | Agility | Melee | d10+6 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Improved Light-Frame Wheelchair](weapons/Improved%20Light-Frame%20Wheelchair.md) | Agility | Melee | d8+3 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Improved Longbow](weapons/Improved%20Longbow.md) | Agility | Very Far | d8+6 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Improved Longsword](weapons/Improved%20Longsword.md) | Agility | Melee | d10+6 phy | Two-Handed | — |
+| [Improved Mace](weapons/Improved%20Mace.md) | Strength | Melee | d8+4 phy | One-Handed | — |
+| [Improved Quarterstaff](weapons/Improved%20Quarterstaff.md) | Instinct | Melee | d10+6 phy | Two-Handed | — |
+| [Improved Rapier](weapons/Improved%20Rapier.md) | Presence | Melee | d8+3 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Improved Rope Dart](weapons/Improved%20Rope%20Dart.md)\* | Instinct | Close | d6+4 phy | Two-Handed | — |
+| [Improved Scimitar](weapons/Improved%20Scimitar.md)\* | Presence | Melee | d8+4 phy | One-Handed | — |
+| [Improved Shortbow](weapons/Improved%20Shortbow.md) | Agility | Far | d6+6 phy | Two-Handed | — |
+| [Improved Spear](weapons/Improved%20Spear.md) | Finesse | Very Close | d8+6 phy | Two-Handed | — |
+| [Improved Twisted Dagger](weapons/Improved%20Twisted%20Dagger.md)\* | Knowledge | Melee | d8+3 phy | One-Handed | **_Piercing:_** Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty. |
+| [Improved Warhammer](weapons/Improved%20Warhammer.md) | Strength | Melee | d12+6 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Improved Whipsword](weapons/Improved%20Whipsword.md)\* | Finesse | Very Close | d8+3 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Finesse, Melee, d10+3. |
+| [Javelins](weapons/Javelins.md)\* | Agility | Very Close | d6+6 phy | One-Handed | **_Stockpiled:_** You can throw this weapon at a target within Far range by making an attack roll using Agility without having to retrieve it, as you always have another one on hand. |
+| [Knuckle Blades](weapons/Knuckle%20Blades.md) | Strength | Melee | d10+6 phy | Two-Handed | **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die. |
+| [Lance](weapons/Lance.md)\* | Instinct | Very Close | d10+5 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Steelforged Halberd](weapons/Steelforged%20Halberd.md) | Strength | Very Close | d8+4 phy | Two-Handed | **_Scary:_** On a successful attack, the target must mark a Stress. |
+| [Urok Broadsword](weapons/Urok%20Broadsword.md) | Finesse | Melee | d8+3 phy | One-Handed | **_Deadly:_** When you deal Severe damage, the target must mark an additional HP. |
+| [War Pick](weapons/War%20Pick.md)\* | Strength | Melee | d8+3 phy | One-Handed | **_Deadly:_** When you deal Severe damage, the target must mark an additional HP. |
+| [War Scythe](weapons/War%20Scythe.md) | Finesse | Very Close | d8+5 phy | Two-Handed | **_Reliable:_** +1 to attack rolls |
 
-##### TIER 2 (LEVELS 2-4) Magic Weapons
+\* Hope & Fear Expansion Set entry.
+
+##### TIER 2 (LEVELS 2-4) Magical Weapons
 
 > _All magic weapons require a Spellcast trait_
 
-| Name                      | Trait     | Range      | Damage    | Burden     | Feature                                                                                                                                                                             |
-| ------------------------- | --------- | ---------- | --------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Improved Arcane Gauntlets](weapons/Improved%20Arcane%20Gauntlets.md) | Strength  | Melee      | d10+6 mag | Two-Handed | —                                                                                                                                                                                   |
-| [Improved Hallowed Axe](weapons/Improved%20Hallowed%20Axe.md) | Strength  | Melee      | d8+4 mag  | One-Handed | —                                                                                                                                                                                   |
-| [Improved Glowing Rings](weapons/Improved%20Glowing%20Rings.md) | Agility   | Very Close | d10+5 mag | Two-Handed | —                                                                                                                                                                                   |
-| [Improved Hand Runes](weapons/Improved%20Hand%20Runes.md) | Instinct  | Very Close | d10+3 mag | One-Handed | —                                                                                                                                                                                   |
-| [Improved Returning Blade](weapons/Improved%20Returning%20Blade.md) | Finesse   | Close      | d8+3 mag  | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack.                                                                 |
-| [Improved Shortstaff](weapons/Improved%20Shortstaff.md) | Instinct  | Close      | d8+4 mag  | One-Handed | —                                                                                                                                                                                   |
-| [Improved Dualstaff](weapons/Improved%20Dualstaff.md) | Instinct  | Far        | d6+6 mag  | Two-Handed | —                                                                                                                                                                                   |
-| [Improved Scepter](weapons/Improved%20Scepter.md) | Presence  | Far        | d6+3 mag  | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8+3.                                                                                          |
-| [Improved Wand](weapons/Improved%20Wand.md) | Knowledge | Far        | d6+4 mag  | One-Handed | —                                                                                                                                                                                   |
-| [Improved Greatstaff](weapons/Improved%20Greatstaff.md) | Knowledge | Very Far   | d6+3 mag  | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                                                                |
-| [Ego Blade](weapons/Ego%20Blade.md) | Agility   | Melee      | d12+4 mag | One-Handed | **_Pompous:_** You must have a Presence of 0 or lower to use this weapon.                                                                                                           |
-| [Casting Sword](weapons/Casting%20Sword.md) | Strength  | Melee      | d10+4 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Knowledge, Far, d6+3.                                                                                           |
-| [Devouring Dagger](weapons/Devouring%20Dagger.md) | Finesse   | Melee      | d8+4 mag  | One-Handed | **_Scary:_** On a successful attack, the target must mark a Stress.                                                                                                                 |
-| [Hammer of Exota](weapons/Hammer%20of%20Exota.md) | Instinct  | Melee      | d8+6 mag  | Two-Handed | **_Eruptive:_** On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage. |
-| [Yutari Bloodbow](weapons/Yutari%20Bloodbow.md) | Finesse   | Far        | d6+4 mag  | Two-Handed | **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die.                                                                                       |
-| [Elder Bow](weapons/Elder%20Bow.md) | Instinct  | Far        | d6+4 mag  | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                                                                |
-| [Scepter of Elias](weapons/Scepter%20of%20Elias.md) | Presence  | Far        | d6+3 mag  | One-Handed | **_Invigorating:_** On a successful attack, roll a d4. On a result of 4, clear a Stress.                                                                                            |
-| [Wand of Enthrallment](weapons/Wand%20of%20Enthrallment.md) | Presence  | Far        | d6+4 mag  | One-Handed | **_Persuasive:_** Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result.                                                                          |
-| [Keeper's Staff](weapons/Keepers%20Staff.md) | Knowledge | Far        | d6+4 mag  | Two-Handed | **_Reliable:_** +1 to attack rolls                                                                                                                                                  |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Casting Sword](weapons/Casting%20Sword.md) | Strength | Melee | d10+4 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Knowledge, Far, d6+3. |
+| [Devouring Dagger](weapons/Devouring%20Dagger.md) | Finesse | Melee | d8+4 mag | One-Handed | **_Scary:_** On a successful attack, the target must mark a Stress. |
+| [Displacement Razor](weapons/Displacement%20Razor.md)\* | Finesse | Melee | d8+3 mag | Two-Handed | **_Omnipresent:_** You can make attacks against targets within Very Far range, but must do so with disadvantage. |
+| [Ego Blade](weapons/Ego%20Blade.md) | Agility | Melee | d12+4 mag | One-Handed | **_Pompous:_** You must have a Presence of 0 or lower to use this weapon. |
+| [Elder Bow](weapons/Elder%20Bow.md) | Instinct | Far | d6+4 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Enchanted Lute](weapons/Enchanted%20Lute.md)\* | Presence | Close | d8+3 mag | Two-Handed | **_Invigorating:_** On a successful attack, roll a d4. On a result of 4, clear a Stress. |
+| [Enchanted Shillelagh](weapons/Enchanted%20Shillelagh.md)\* | Strength | Melee | d8+3 mag | One-Handed | **_Protective:_** +1 to your Armor Score |
+| [Fury Gem](weapons/Fury%20Gem.md)\* | Instinct | Close | d8+3 mag | One-Handed | **_Burning:_** When you roll the maximum result on a damage die, the target must mark a Stress. |
+| [Hammer of Exota](weapons/Hammer%20of%20Exota.md) | Instinct | Melee | d8+6 mag | Two-Handed | **_Eruptive:_** On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage. |
+| [Improved Arcane Gauntlets](weapons/Improved%20Arcane%20Gauntlets.md) | Strength | Melee | d10+6 mag | Two-Handed | — |
+| [Improved Arcane Rifle](weapons/Improved%20Arcane%20Rifle.md)\* | Agility | Very Far | d10+6 mag | Two-Handed | **_Aimed:_** Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty. |
+| [Improved Arcane-Frame Wheelchair](weapons/Improved%20Arcane-Frame%20Wheelchair.md) | Spellcast | Far | d6+3 mag | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Improved Brightsword](weapons/Improved%20Brightsword.md)\* | Strength | Melee | d10+6 mag | Two-Handed | — |
+| [Improved Casting Dagger](weapons/Improved%20Casting%20Dagger.md)\* | Instinct | Close | d6+3 mag | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Instinct, Melee, d8+3. |
+| [Improved Dualstaff](weapons/Improved%20Dualstaff.md) | Instinct | Far | d6+6 mag | Two-Handed | — |
+| [Improved Enchanted Chakram](weapons/Improved%20Enchanted%20Chakram.md)\* | Finesse | Close | d6+4 mag | One-Handed | **_Ricochet:_** When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack. |
+| [Improved Glowing Rings](weapons/Improved%20Glowing%20Rings.md) | Agility | Very Close | d10+5 mag | Two-Handed | — |
+| [Improved Greatstaff](weapons/Improved%20Greatstaff.md) | Knowledge | Very Far | d6+3 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Improved Hallowed Axe](weapons/Improved%20Hallowed%20Axe.md) | Strength | Melee | d8+4 mag | One-Handed | — |
+| [Improved Hand Runes](weapons/Improved%20Hand%20Runes.md) | Instinct | Very Close | d10+3 mag | One-Handed | — |
+| [Improved Returning Blade](weapons/Improved%20Returning%20Blade.md) | Finesse | Close | d8+3 mag | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack. |
+| [Improved Runelock Pistol](weapons/Improved%20Runelock%20Pistol.md)\* | Knowledge | Far | d6+6 mag | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Improved Scepter](weapons/Improved%20Scepter.md) | Presence | Far | d6+3 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8+3. |
+| [Improved Shadowblade](weapons/Improved%20Shadowblade.md)\* | Presence | Melee | d8+3 phy/mag | One-Handed | **_Otherworldly:_** On a successful attack, you can deal physical or magic damage. |
+| [Improved Shortstaff](weapons/Improved%20Shortstaff.md) | Instinct | Close | d8+4 mag | One-Handed | — |
+| [Improved Wand](weapons/Improved%20Wand.md) | Knowledge | Far | d6+4 mag | One-Handed | — |
+| [Keeper's Staff](weapons/Keepers%20Staff.md) | Knowledge | Far | d6+4 mag | Two-Handed | **_Reliable:_** +1 to attack rolls |
+| [Scepter of Elias](weapons/Scepter%20of%20Elias.md) | Presence | Far | d6+3 mag | One-Handed | **_Invigorating:_** On a successful attack, roll a d4. On a result of 4, clear a Stress. |
+| [Spellbound Bangles](weapons/Spellbound%20Bangles.md)\* | Knowledge | Melee | d10+6 mag | Two-Handed | — |
+| [Splintershaft Bow](weapons/Splintershaft%20Bow.md)\* | Agility | Far | d6+6 mag | Two-Handed | **_Volleyed:_** Spend a Hope to target a group of creatures within range. Targets you succeed against take half damage. |
+| [Wand of Enthrallment](weapons/Wand%20of%20Enthrallment.md) | Presence | Far | d6+4 mag | One-Handed | **_Persuasive:_** Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result. |
+| [Yutari Bloodbow](weapons/Yutari%20Bloodbow.md) | Finesse | Far | d6+4 mag | Two-Handed | **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die. |
+
+\* Hope & Fear Expansion Set entry.
 
 ##### TIER 3 (LEVELS 5-7) Physical Weapons
 
-| NAME                  | TRAIT    | RANGE      | DAMAGE    | BURDEN     | FEATURE                                                                                                                                            |
-| --------------------- | -------- | ---------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Advanced Broadsword](weapons/Advanced%20Broadsword.md) | Agility  | Melee      | d8+6 phy  | One-Handed | **_Reliable:_** +1 to attack rolls                                                                                                                 |
-| [Advanced Longsword](weapons/Advanced%20Longsword.md) | Agility  | Melee      | d10+9 phy | Two-Handed | —                                                                                                                                                  |
-| [Advanced Battleaxe](weapons/Advanced%20Battleaxe.md) | Strength | Melee      | d10+9 phy | Two-Handed | —                                                                                                                                                  |
-| [Advanced Greatsword](weapons/Advanced%20Greatsword.md) | Strength | Melee      | d10+9 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.                                 |
-| [Advanced Mace](weapons/Advanced%20Mace.md) | Strength | Melee      | d8+7 phy  | One-Handed | —                                                                                                                                                  |
-| [Advanced Warhammer](weapons/Advanced%20Warhammer.md) | Strength | Melee      | d12+9 phy | Two-Handed | **_Heavy:_** -1 to Evasion                                                                                                                         |
-| [Advanced Dagger](weapons/Advanced%20Dagger.md) | Finesse  | Melee      | d8+7 phy  | One-Handed | —                                                                                                                                                  |
-| [Advanced Quarterstaff](weapons/Advanced%20Quarterstaff.md) | Instinct | Melee      | d10+9 phy | Two-Handed | —                                                                                                                                                  |
-| [Advanced Cutlass](weapons/Advanced%20Cutlass.md) | Presence | Melee      | d8+7 phy  | One-Handed | —                                                                                                                                                  |
-| [Advanced Rapier](weapons/Advanced%20Rapier.md) | Presence | Melee      | d8+6 phy  | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range.                                               |
-| [Advanced Halberd](weapons/Advanced%20Halberd.md) | Strength | Very Close | d10+8 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                                                    |
-| [Advanced Spear](weapons/Advanced%20Spear.md) | Finesse  | Very Close | d8+9 phy  | Two-Handed | —                                                                                                                                                  |
-| [Advanced Shortbow](weapons/Advanced%20Shortbow.md) | Agility  | Far        | d6+9 phy  | Two-Handed | —                                                                                                                                                  |
-| [Advanced Crossbow](weapons/Advanced%20Crossbow.md) | Finesse  | Far        | d6+7 phy  | One-Handed | —                                                                                                                                                  |
-| [Advanced Longbow](weapons/Advanced%20Longbow.md) | Agility  | Very Far   | d8+9 phy  | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                                                    |
-| [Flickerfly Blade](weapons/Flickerfly%20Blade.md) | Agility  | Melee      | d8+5 phy  | One-Handed | **_Sharpwing:_** Gain a bonus to your damage rolls equal to your Agility.                                                                          |
-| [Bravesword](weapons/Bravesword.md) | Strength | Melee      | d12+7 phy | Two-Handed | **_Brave:_** -1 to Evasion; +3 to Severe damage threshold                                                                                          |
-| [Hammer of Wrath](weapons/Hammer%20of%20Wrath.md) | Strength | Melee      | d10+7 phy | Two-Handed | **_Devastating:_** Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.                                          |
-| [Labrys Axe](weapons/Labrys%20Axe.md) | Strength | Melee      | d10+7 phy | Two-Handed | **_Protective:_** +1 to Armor Score                                                                                                                |
-| [Meridian Cutlass](weapons/Meridian%20Cutlass.md) | Presence | Melee      | d10+5 phy | One-Handed | **_Dueling:_** When there are no other creatures within Close range of the target, gain advantage on your attack roll against them.                |
-| [Retractable Saber](weapons/Retractable%20Saber.md) | Presence | Melee      | d10+7 phy | One-Handed | **_Retractable:_** The blade can be hidden in the hilt to avoid detection.                                                                         |
-| [Double Flail](weapons/Double%20Flail.md) | Agility  | Very Close | d10+8 phy | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Talon Blades](weapons/Talon%20Blades.md) | Finesse  | Close      | d10+7 phy | Two-Handed | **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die.                                                      |
-| [Black Powder Revolver](weapons/Black%20Powder%20Revolver.md) | Finesse  | Far        | d6+8 phy  | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
-| [Spiked Bow](weapons/Spiked%20Bow.md) | Agility  | Very Far   | d6+7 phy  | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Agility, Melee, d10+5.                                                         |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Advanced Battleaxe](weapons/Advanced%20Battleaxe.md) | Strength | Melee | d10+9 phy | Two-Handed | — |
+| [Advanced Brass Knuckles](weapons/Advanced%20Brass%20Knuckles.md)\* | Strength | Melee | d8+7 phy | One-Handed | — |
+| [Advanced Broadsword](weapons/Advanced%20Broadsword.md) | Agility | Melee | d8+6 phy | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Advanced Crossbow](weapons/Advanced%20Crossbow.md) | Finesse | Far | d6+7 phy | One-Handed | — |
+| [Advanced Cutlass](weapons/Advanced%20Cutlass.md) | Presence | Melee | d8+7 phy | One-Handed | — |
+| [Advanced Dagger](weapons/Advanced%20Dagger.md) | Finesse | Melee | d8+7 phy | One-Handed | — |
+| [Advanced Greatsword](weapons/Advanced%20Greatsword.md) | Strength | Melee | d10+9 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
+| [Advanced Halberd](weapons/Advanced%20Halberd.md) | Strength | Very Close | d10+8 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Advanced Heavy-Frame Wheelchair](weapons/Advanced%20Heavy-Frame%20Wheelchair.md) | Strength | Melee | d12+9 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Advanced Katana](weapons/Advanced%20Katana.md)\* | Agility | Melee | d10+9 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Advanced Light-Frame Wheelchair](weapons/Advanced%20Light-Frame%20Wheelchair.md) | Agility | Melee | d8+6 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Advanced Longbow](weapons/Advanced%20Longbow.md) | Agility | Very Far | d8+9 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Advanced Longsword](weapons/Advanced%20Longsword.md) | Agility | Melee | d10+9 phy | Two-Handed | — |
+| [Advanced Mace](weapons/Advanced%20Mace.md) | Strength | Melee | d8+7 phy | One-Handed | — |
+| [Advanced Quarterstaff](weapons/Advanced%20Quarterstaff.md) | Instinct | Melee | d10+9 phy | Two-Handed | — |
+| [Advanced Rapier](weapons/Advanced%20Rapier.md) | Presence | Melee | d8+6 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Advanced Rope Dart](weapons/Advanced%20Rope%20Dart.md)\* | Instinct | Close | d6+7 phy | Two-Handed | — |
+| [Advanced Scimitar](weapons/Advanced%20Scimitar.md)\* | Presence | Melee | d8+7 phy | One-Handed | — |
+| [Advanced Shortbow](weapons/Advanced%20Shortbow.md) | Agility | Far | d6+9 phy | Two-Handed | — |
+| [Advanced Spear](weapons/Advanced%20Spear.md) | Finesse | Very Close | d8+9 phy | Two-Handed | — |
+| [Advanced Twisted Dagger](weapons/Advanced%20Twisted%20Dagger.md)\* | Knowledge | Melee | d8+6 phy | One-Handed | **_Piercing:_** Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty. |
+| [Advanced Warhammer](weapons/Advanced%20Warhammer.md) | Strength | Melee | d12+9 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Advanced Whipsword](weapons/Advanced%20Whipsword.md)\* | Finesse | Very Close | d8+6 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Finesse, Melee, d10+6. |
+| [Black Powder Revolver](weapons/Black%20Powder%20Revolver.md) | Finesse | Far | d6+8 phy | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Bladed Star](weapons/Bladed%20Star.md)\* | Knowledge | Close | d8+7 phy | One-Handed | **_Rebounding:_** When you throw this weapon, it returns to your hand. On a failed attack, you can reroll your attack with disadvantage. |
+| [Blitz Hammer](weapons/Blitz%20Hammer.md)\* | Strength | Melee | d10+7 phy | Two-Handed | **_Accelerator:_** Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack. |
+| [Bravesword](weapons/Bravesword.md) | Strength | Melee | d12+7 phy | Two-Handed | **_Brave:_** -1 to Evasion; +3 to Severe damage threshold |
+| [Chained Scythe](weapons/Chained%20Scythe.md)\* | Instinct | Very Close | d10+5 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Double Flail](weapons/Double%20Flail.md) | Agility | Very Close | d10+8 phy | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Flickerfly Blade](weapons/Flickerfly%20Blade.md) | Agility | Melee | d8+5 phy | One-Handed | **_Sharpwing:_** Gain a bonus to your damage rolls equal to your Agility. |
+| [Hammer of Wrath](weapons/Hammer%20of%20Wrath.md) | Strength | Melee | d10+7 phy | Two-Handed | **_Devastating:_** Before you make an attack roll, you can mark a Stress to use a d20 as your damage die. |
+| [Labrys Axe](weapons/Labrys%20Axe.md) | Strength | Melee | d10+7 phy | Two-Handed | **_Protective:_** +1 to Armor Score |
+| [Meridian Cutlass](weapons/Meridian%20Cutlass.md) | Presence | Melee | d10+5 phy | One-Handed | **_Dueling:_** When there are no other creatures within Close range of the target, gain advantage on your attack roll against them. |
+| [Platinum Estoc](weapons/Platinum%20Estoc.md)\* | Finesse | Melee | d8+7 phy | One-Handed | **_Piercing:_** Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty. |
+| [Retractable Saber](weapons/Retractable%20Saber.md) | Presence | Melee | d10+7 phy | One-Handed | **_Retractable:_** The blade can be hidden in the hilt to avoid detection. |
+| [Singing Sword](weapons/Singing%20Sword.md)\* | Presence | Very Close | d8+5 phy | One-Handed | **_Bolstering:_** When you critically succeed on an attack, all PCs within Close range gain a Hope. |
+| [Soldier’s Pike](weapons/Soldiers%20Pike.md)\* | Agility | Very Close | d10+5 phy | Two-Handed | **_Braced:_** When an adversary within this weapon’s range deals damage to you, you can mark 2 Stress to force them to mark a Hit Point. |
+| [Spiked Bow](weapons/Spiked%20Bow.md) | Agility | Very Far | d6+7 phy | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Agility, Melee, d10+5. |
+| [Talon Blades](weapons/Talon%20Blades.md) | Finesse | Close | d10+7 phy | Two-Handed | **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die. |
 
-##### TIER 3 (LEVELS 5-7) Magic Weapons
+\* Hope & Fear Expansion Set entry.
+
+##### TIER 3 (LEVELS 5-7) Magical Weapons
 
 > _All magic weapons require a Spellcast trait_
 
-| NAME                      | TRAIT     | RANGE      | DAMAGE           | BURDEN     | FEATURE                                                                                                                                            |
-| ------------------------- | --------- | ---------- | ---------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Advanced Arcane Gauntlets](weapons/Advanced%20Arcane%20Gauntlets.md) | Strength  | Melee      | d10+9 mag        | Two-Handed | —                                                                                                                                                  |
-| [Advanced Hallowed Axe](weapons/Advanced%20Hallowed%20Axe.md) | Strength  | Melee      | d8+7 mag         | One-Handed | —                                                                                                                                                  |
-| [Advanced Glowing Rings](weapons/Advanced%20Glowing%20Rings.md) | Agility   | Very Close | d10+8 mag        | Two-Handed | —                                                                                                                                                  |
-| [Advanced Hand Runes](weapons/Advanced%20Hand%20Runes.md) | Instinct  | Very Close | d10+6 mag        | One-Handed | —                                                                                                                                                  |
-| [Advanced Returning Blade](weapons/Advanced%20Returning%20Blade.md) | Finesse   | Close      | d8+6 mag         | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack.                                |
-| [Advanced Shortstaff](weapons/Advanced%20Shortstaff.md) | Instinct  | Close      | d8+7 mag         | One-Handed | —                                                                                                                                                  |
-| [Advanced Dualstaff](weapons/Advanced%20Dualstaff.md) | Instinct  | Far        | d6+9 mag         | Two-Handed | —                                                                                                                                                  |
-| [Advanced Scepter](weapons/Advanced%20Scepter.md) | Presence  | Far        | d6+6 mag         | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8+4.                                                         |
-| [Advanced Wand](weapons/Advanced%20Wand.md) | Knowledge | Far        | d6+7 mag         | One-Handed | —                                                                                                                                                  |
-| [Advanced Greatstaff](weapons/Advanced%20Greatstaff.md) | Knowledge | Very Far   | d6+6 mag         | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Axe of Fortunis](weapons/Axe%20of%20Fortunis.md) | Strength  | Melee      | d10+8 mag        | Two-Handed | **_Lucky:_** On a failed attack, you can mark a Stress to reroll your attack.                                                                      |
-| [Blessed Anlace](weapons/Blessed%20Anlace.md) | Instinct  | Melee      | d10+6 mag        | One-Handed | **_Healing:_** During downtime, automatically clear a Hit Point.                                                                                   |
-| [Ghostblade](weapons/Ghostblade.md) | Presence  | Melee      | d10+7 phy or mag | One-Handed | **_Otherworldly:_** On a successful attack, you can deal physical or magic damage.                                                                 |
-| [Runes of Ruination](weapons/Runes%20of%20Ruination.md) | Knowledge | Very Close | d20+4 mag        | One-Handed | **_Painful:_** Each time you make a successful attack, you must mark a Stress.                                                                     |
-| [Widogast Pendant](weapons/Widogast%20Pendant.md) | Knowledge | Close      | d10+5 mag        | One-Handed | **_Timebending:_** You choose the target of your attack after making your attack roll.                                                             |
-| [Gilded Bow](weapons/Gilded%20Bow.md) | Finesse   | Far        | d6+7 mag         | Two-Handed | **_Self-Correcting:_** When you roll a 1 on a damage die, it deals 6 damage instead.                                                               |
-| [Firestaff](weapons/Firestaff.md) | Instinct  | Far        | d6+7 mag         | Two-Handed | **_Burning:_** When you roll a 6 on a damage die, the target must mark a Stress.                                                                   |
-| [Mage Orb](weapons/Mage%20Orb.md) | Knowledge | Far        | d6+7 mag         | One-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Ilmari's Rifle](weapons/Ilmaris%20Rifle.md) | Finesse   | Very Far   | d6+6 mag         | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Advanced Arcane Gauntlets](weapons/Advanced%20Arcane%20Gauntlets.md) | Strength | Melee | d10+9 mag | Two-Handed | — |
+| [Advanced Arcane Rifle](weapons/Advanced%20Arcane%20Rifle.md)\* | Agility | Very Far | d10+9 mag | Two-Handed | **_Aimed:_** Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty. |
+| [Advanced Arcane-Frame Wheelchair](weapons/Advanced%20Arcane-Frame%20Wheelchair.md) | Spellcast | Far | d6+6 mag | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Advanced Brightsword](weapons/Advanced%20Brightsword.md)\* | Strength | Melee | d10+9 mag | Two-Handed | — |
+| [Advanced Casting Dagger](weapons/Advanced%20Casting%20Dagger.md)\* | Instinct | Close | d6+6 mag | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Instinct, Melee, d8+6. |
+| [Advanced Dualstaff](weapons/Advanced%20Dualstaff.md) | Instinct | Far | d6+9 mag | Two-Handed | — |
+| [Advanced Enchanted Chakram](weapons/Advanced%20Enchanted%20Chakram.md)\* | Finesse | Close | d6+7 mag | One-Handed | **_Ricochet:_** When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack. |
+| [Advanced Glowing Rings](weapons/Advanced%20Glowing%20Rings.md) | Agility | Very Close | d10+8 mag | Two-Handed | — |
+| [Advanced Greatstaff](weapons/Advanced%20Greatstaff.md) | Knowledge | Very Far | d6+6 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Advanced Hallowed Axe](weapons/Advanced%20Hallowed%20Axe.md) | Strength | Melee | d8+7 mag | One-Handed | — |
+| [Advanced Hand Runes](weapons/Advanced%20Hand%20Runes.md) | Instinct | Very Close | d10+6 mag | One-Handed | — |
+| [Advanced Returning Blade](weapons/Advanced%20Returning%20Blade.md) | Finesse | Close | d8+6 mag | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack. |
+| [Advanced Runelock Pistol](weapons/Advanced%20Runelock%20Pistol.md)\* | Knowledge | Far | d6+9 mag | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Advanced Scepter](weapons/Advanced%20Scepter.md) | Presence | Far | d6+6 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8+4. |
+| [Advanced Shadowblade](weapons/Advanced%20Shadowblade.md)\* | Presence | Melee | d8+6 phy/mag | One-Handed | **_Otherworldly:_** On a successful attack, you can deal physical or magic damage. |
+| [Advanced Shortstaff](weapons/Advanced%20Shortstaff.md) | Instinct | Close | d8+7 mag | One-Handed | — |
+| [Advanced Wand](weapons/Advanced%20Wand.md) | Knowledge | Far | d6+7 mag | One-Handed | — |
+| [Arc Wand](weapons/Arc%20Wand.md)\* | Presence | Close | d8+6 mag | One-Handed | **_Bouncing:_** Mark any number of Stress to target that many additional creatures in range of the attack. |
+| [Crystal Spear](weapons/Crystal%20Spear.md)\* | Finesse | Very Close | d10+6 mag | One-Handed | **_Piercing:_** Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty. |
+| [Gunblade](weapons/Gunblade.md)\* | Agility | Far | d6+6 mag | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Agility, Melee, d8+6 phy. |
+| [Rime Scepter](weapons/Rime%20Scepter.md)\* | Knowledge | Close | d8+6 mag | One-Handed | **_Freezing:_** When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily Restrained. |
+| [Rocket Maul](weapons/Rocket%20Maul.md)\* | Strength | Melee | d10+7 mag | Two-Handed | **_Concussive:_** On a successful attack, you can spend a Hope to knock the target back to Far range. |
+| [Staff of Augma](weapons/Staff%20of%20Augma.md)\* | Instinct | Far | d6+7 mag | One-Handed | **_Catalytic:_** On a successful attack, you can mark a Stress to give an ally within Close range a +3 bonus to their next attack roll. |
+
+\* Hope & Fear Expansion Set entry.
 
 ##### TIER 4 (LEVELS 8-10) Physical Weapons
 
-| Name                   | Trait    | Range      | Damage     | Burden     | Feature                                                                                                                                  |
-| ---------------------- | -------- | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [Legendary Broadsword](weapons/Legendary%20Broadsword.md) | Agility  | Melee      | d8+9 phy   | One-Handed | **_Reliable:_** +1 to attack rolls                                                                                                       |
-| [Legendary Longsword](weapons/Legendary%20Longsword.md) | Agility  | Melee      | d10+12 phy | Two-Handed | —                                                                                                                                        |
-| [Legendary Battleaxe](weapons/Legendary%20Battleaxe.md) | Strength | Melee      | d10+12 phy | Two-Handed | —                                                                                                                                        |
-| [Legendary Greatsword](weapons/Legendary%20Greatsword.md) | Strength | Melee      | d10+12 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.                       |
-| [Legendary Mace](weapons/Legendary%20Mace.md) | Strength | Melee      | d8+10 phy  | One-Handed | —                                                                                                                                        |
-| [Legendary Warhammer](weapons/Legendary%20Warhammer.md) | Strength | Melee      | d12+12 phy | Two-Handed | **_Heavy:_** -1 to Evasion                                                                                                               |
-| [Legendary Dagger](weapons/Legendary%20Dagger.md) | Finesse  | Melee      | d8+9 phy   | One-Handed | —                                                                                                                                        |
-| [Legendary Quarterstaff](weapons/Legendary%20Quarterstaff.md) | Instinct | Melee      | d10+12 phy | Two-Handed | —                                                                                                                                        |
-| [Legendary Cutlass](weapons/Legendary%20Cutlass.md) | Presence | Melee      | d8+10 phy  | One-Handed | —                                                                                                                                        |
-| [Legendary Rapier](weapons/Legendary%20Rapier.md) | Presence | Melee      | d8+9 phy   | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range.                                     |
-| [Legendary Halberd](weapons/Legendary%20Halberd.md) | Strength | Very Close | d10+11 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                                          |
-| [Legendary Spear](weapons/Legendary%20Spear.md) | Finesse  | Very Close | d8+12 phy  | Two-Handed | —                                                                                                                                        |
-| [Legendary Shortbow](weapons/Legendary%20Shortbow.md) | Agility  | Far        | d6+12 phy  | Two-Handed | —                                                                                                                                        |
-| [Legendary Crossbow](weapons/Legendary%20Crossbow.md) | Finesse  | Far        | d6+10 phy  | One-Handed | —                                                                                                                                        |
-| [Legendary Longbow](weapons/Legendary%20Longbow.md) | Agility  | Very Far   | d8+12 phy  | Two-Handed | **_Cumbersome:_** -1 to Finesse                                                                                                          |
-| [Dual-Ended Sword](weapons/Dual-Ended%20Sword.md) | Agility  | Melee      | d10+9 phy  | Two-Handed | **Quick:** When you make an attack, you can mark a Stress to target another creature within range.                                       |
-| [Impact Gauntlet](weapons/Impact%20Gauntlet.md) | Strength | Melee      | d10+11 phy | One-Handed | **_Concussive:_** On a successful attack, you can spend a Hope to knock the target back to Far range.                                    |
-| [Sledge Axe](weapons/Sledge%20Axe.md) | Strength | Melee      | d12+13 phy | Two-Handed | **_Destructive:_** -1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress.                    |
-| [Curved Dagger](weapons/Curved%20Dagger.md) | Finesse  | Melee      | d8+9 phy   | One-Handed | **_Serrated:_** When you roll a 1 on a damage die, it deals 8 damage instead.                                                            |
-| [Extended Polearm](weapons/Extended%20Polearm.md) | Finesse  | Very Close | d8+10 phy  | Two-Handed | **_Long:_** This weapon's attack targets all adversaries in a line within range.                                                         |
-| [Swinging Ropeblade](weapons/Swinging%20Ropeblade.md) | Presence | Close      | d8+9 phy   | Two-Handed | **_Grappling:_** On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you.             |
-| [Ricochet Axes](weapons/Ricochet%20Axes.md) | Agility  | Far        | d6+11 phy  | Two-Handed | **_Bouncing:_** Mark 1 or more Stress to hit that many targets in range of the attack.                                                   |
-| [Aantari Bow](weapons/Aantari%20Bow.md) | Finesse  | Far        | d6+11 phy  | Two-Handed | **_Reliable:_** +1 to attack rolls                                                                                                       |
-| [Hand Cannon](weapons/Hand%20Cannon.md) | Finesse  | Very Far   | d6+12 phy  | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Aantari Bow](weapons/Aantari%20Bow.md) | Finesse | Far | d6+11 phy | Two-Handed | **_Reliable:_** +1 to attack rolls |
+| [Arquebus](weapons/Arquebus.md)\* | Knowledge | Far | d8+10 phy | Two-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Bec de Corbin](weapons/Bec%20de%20Corbin.md)\* | Agility | Very Close | d10+9 phy | Two-Handed | **_Devastating:_** Before you make an attack roll, you can mark a Stress to use a d20 as your damage die. |
+| [Black Powder Serpentine](weapons/Black%20Powder%20Serpentine.md)\* | Strength | Far | d8+12 phy | Two-Handed | **_Incendiary:_** -1 to Agility; on a successful attack, all creatures within Very Close range of the target must mark a Hit Point. |
+| [Clockwork Crossbow](weapons/Clockwork%20Crossbow.md)\* | Finesse | Far | d6+11 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Curved Dagger](weapons/Curved%20Dagger.md) | Finesse | Melee | d8+9 phy | One-Handed | **_Serrated:_** When you roll a 1 on a damage die, it deals 8 damage instead. |
+| [Dual-Ended Sword](weapons/Dual-Ended%20Sword.md) | Agility | Melee | d10+9 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Extended Polearm](weapons/Extended%20Polearm.md) | Finesse | Very Close | d8+10 phy | Two-Handed | **_Long:_** This weapon’s attack targets all adversaries in a line within range. |
+| [Hand Cannon](weapons/Hand%20Cannon.md) | Finesse | Very Far | d6+12 phy | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Impact Gauntlet](weapons/Impact%20Gauntlet.md) | Strength | Melee | d10+11 phy | One-Handed | **_Concussive:_** On a successful attack, you can spend a Hope to knock the target back to Far range. |
+| [Infinite Staff](weapons/Infinite%20Staff.md)\* | Presence | Melee | d10+9 phy | Two-Handed | **_Extending:_** You can increase the range of this weapon up to Very Far. You gain a -1 penalty to attack rolls for each step you increase the range by (such as Melee to Very Close, Very Close to Close, or Close to Far). |
+| [Legendary Battleaxe](weapons/Legendary%20Battleaxe.md) | Strength | Melee | d10+12 phy | Two-Handed | — |
+| [Legendary Brass Knuckles](weapons/Legendary%20Brass%20Knuckles.md)\* | Strength | Melee | d8+10 phy | One-Handed | — |
+| [Legendary Broadsword](weapons/Legendary%20Broadsword.md) | Agility | Melee | d8+9 phy | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Legendary Crossbow](weapons/Legendary%20Crossbow.md) | Finesse | Far | d6+10 phy | One-Handed | — |
+| [Legendary Cutlass](weapons/Legendary%20Cutlass.md) | Presence | Melee | d8+10 phy | One-Handed | — |
+| [Legendary Dagger](weapons/Legendary%20Dagger.md) | Finesse | Melee | d8+10 phy | One-Handed | — |
+| [Legendary Greatsword](weapons/Legendary%20Greatsword.md) | Strength | Melee | d10+12 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
+| [Legendary Halberd](weapons/Legendary%20Halberd.md) | Strength | Very Close | d10+11 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Legendary Heavy-Frame Wheelchair](weapons/Legendary%20Heavy-Frame%20Wheelchair.md) | Strength | Melee | d12+12 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Legendary Katana](weapons/Legendary%20Katana.md)\* | Agility | Melee | d10+12 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Legendary Light-Frame Wheelchair](weapons/Legendary%20Light-Frame%20Wheelchair.md) | Agility | Melee | d8+9 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Legendary Longbow](weapons/Legendary%20Longbow.md) | Agility | Very Far | d8+12 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+| [Legendary Longsword](weapons/Legendary%20Longsword.md) | Agility | Melee | d10+12 phy | Two-Handed | — |
+| [Legendary Mace](weapons/Legendary%20Mace.md) | Strength | Melee | d8+10 phy | One-Handed | — |
+| [Legendary Quarterstaff](weapons/Legendary%20Quarterstaff.md) | Instinct | Melee | d10+12 phy | Two-Handed | — |
+| [Legendary Rapier](weapons/Legendary%20Rapier.md) | Presence | Melee | d8+9 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| [Legendary Rope Dart](weapons/Legendary%20Rope%20Dart.md)\* | Instinct | Close | d6+10 phy | Two-Handed | — |
+| [Legendary Scimitar](weapons/Legendary%20Scimitar.md)\* | Presence | Melee | d8+10 phy | One-Handed | — |
+| [Legendary Shortbow](weapons/Legendary%20Shortbow.md) | Agility | Far | d6+12 phy | Two-Handed | — |
+| [Legendary Spear](weapons/Legendary%20Spear.md) | Finesse | Very Close | d8+12 phy | Two-Handed | — |
+| [Legendary Twisted Dagger](weapons/Legendary%20Twisted%20Dagger.md)\* | Knowledge | Melee | d8+9 phy | One-Handed | **_Piercing:_** Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty. |
+| [Legendary Warhammer](weapons/Legendary%20Warhammer.md) | Strength | Melee | d12+12 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| [Legendary Whipsword](weapons/Legendary%20Whipsword.md)\* | Finesse | Very Close | d8+9 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Finesse, Melee, d10+9. |
+| [Ricochet Axes](weapons/Ricochet%20Axes.md) | Agility | Far | d6+11 phy | Two-Handed | **_Bouncing:_** Mark 1 or more Stress to hit that many targets in range of the attack. |
+| [Severed Dragon Claw](weapons/Severed%20Dragon%20Claw.md)\* | Instinct | Melee | d10+11 phy | One-Handed | **_Destructive:_** -1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress. |
+| [Sledge Axe](weapons/Sledge%20Axe.md) | Strength | Melee | d12+13 phy | Two-Handed | **_Destructive:_** -1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress. |
+| [Swinging Ropeblade](weapons/Swinging%20Ropeblade.md) | Presence | Close | d8+9 phy | Two-Handed | **_Grappling:_** On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you. |
 
-##### TIER 4 (LEVELS 8-10) Magic Weapons
+\* Hope & Fear Expansion Set entry.
+
+##### TIER 4 (LEVELS 8-10) Magical Weapons
 
 > _All magic weapons require a Spellcast trait_
 
-| Name                       | Trait     | Range      | Damage     | Burden     | Feature                                                                                                                                            |
-| -------------------------- | --------- | ---------- | ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Legendary Arcane Gauntlets](weapons/Legendary%20Arcane%20Gauntlets.md) | Strength  | Melee      | d10+12 mag | Two-Handed | —                                                                                                                                                  |
-| [Legendary Hallowed Axe](weapons/Legendary%20Hallowed%20Axe.md) | Strength  | Melee      | d8+10 mag  | One-Handed | —                                                                                                                                                  |
-| [Legendary Glowing Rings](weapons/Legendary%20Glowing%20Rings.md) | Agility   | Very Close | d10+11 mag | Two-Handed | —                                                                                                                                                  |
-| [Legendary Hand Runes](weapons/Legendary%20Hand%20Runes.md) | Instinct  | Very Close | d10+9 mag  | One-Handed | —                                                                                                                                                  |
-| [Legendary Returning Blade](weapons/Legendary%20Returning%20Blade.md) | Finesse   | Close      | d8+9 mag   | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack.                                |
-| [Legendary Shortstaff](weapons/Legendary%20Shortstaff.md) | Instinct  | Close      | d8+10 mag  | One-Handed | —                                                                                                                                                  |
-| [Legendary Dualstaff](weapons/Legendary%20Dualstaff.md) | Instinct  | Far        | d8+12 mag  | Two-Handed | —                                                                                                                                                  |
-| [Legendary Scepter](weapons/Legendary%20Scepter.md) | Presence  | Far        | d6+9 mag   | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8+6.                                                         |
-| [Legendary Wand](weapons/Legendary%20Wand.md) | Knowledge | Far        | d6+10 mag  | One-Handed | —                                                                                                                                                  |
-| [Legendary Greatstaff](weapons/Legendary%20Greatstaff.md) | Knowledge | Very Far   | d6+9 mag   | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Sword of Light & Flame](weapons/Sword%20of%20Light%20and%20Flame.md) | Strength  | Melee      | d10+11 mag | Two-Handed | **_Hot:_** This weapon cuts through solid material.                                                                                                |
-| [Siphoning Gauntlets](weapons/Siphoning%20Gauntlets.md) | Presence  | Melee      | d10+9 mag  | Two-Handed | **_Lifestealing:_** On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress.                                      |
-| [Midas Scythe](weapons/Midas%20Scythe.md) | Knowledge | Melee      | d10+9 mag  | Two-Handed | **_Greedy:_** Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.                                                     |
-| [Floating Bladeshards](weapons/Floating%20Bladeshards.md) | Instinct  | Close      | d8+9 mag   | One-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result.                                               |
-| [Bloodstaff](weapons/Bloodstaff.md) | Instinct  | Far        | d20+7 mag  | Two-Handed | **_Painful:_** Each time you make a successful attack, you must mark a Stress.                                                                     |
-| [Thistlebow](weapons/Thistlebow.md) | Instinct  | Far        | d6+13 mag  | Two-Handed | **_Reliable:_** +1 to attack rolls                                                                                                                 |
-| [Wand of Essek](weapons/Wand%20of%20Essek.md) | Knowledge | Far        | d8+13 mag  | One-Handed | **_Timebending:_** You can choose the target of your attack after making your attack roll.                                                         |
-| [Magus Revolver](weapons/Magus%20Revolver.md) | Finesse   | Very Far   | d6+13 mag  | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
-| [Fusion Gloves](weapons/Fusion%20Gloves.md) | Knowledge | Very Far   | d6+9 mag   | Two-Handed | **_Bonded:_** Gain a bonus to your damage rolls equal to your level.                                                                               |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Adder’s Fang](weapons/Adders%20Fang.md)\* | Finesse | Melee | d8+9 mag | One-Handed | **_Venomous:_** When you deal Major or greater damage with this weapon, the target becomes temporarily Vulnerable. |
+| [Bloodstaff](weapons/Bloodstaff.md) | Instinct | Far | d20+7 mag | Two-Handed | **_Painful:_** Each time you make a successful attack, you must mark a Stress. |
+| [Demon’s Edge](weapons/Demons%20Edge.md)\* | Presence | Melee | d8+10 mag | One-Handed | **_Disturbing:_** When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress. |
+| [Ethereal Zweihänder](weapons/Ethereal%20Zweih%C3%A4nder.md)\* | Instinct | Very Close | d10+9 mag | Two-Handed | **_Ethereal:_** You must mark a Stress to conjure this weapon. It lasts until the end of the scene. |
+| [Floating Bladeshards](weapons/Floating%20Bladeshards.md) | Instinct | Close | d8+9 mag | One-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Fusion Gloves](weapons/Fusion%20Gloves.md) | Knowledge | Very Far | d6+9 mag | Two-Handed | **_Bonded:_** Gain a bonus to your damage rolls equal to your level. |
+| [Gravity Arbalest](weapons/Gravity%20Arbalest.md)\* | Knowledge | Far | d8+6 mag | Two-Handed | **_Magnetic:_** When you make an attack with this weapon, you can spend a Hope to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Creatures who fail must mark a Stress and are pulled into Melee range of the target. |
+| [Legendary Arcane Gauntlets](weapons/Legendary%20Arcane%20Gauntlets.md) | Strength | Melee | d10+12 mag | Two-Handed | — |
+| [Legendary Arcane Rifle](weapons/Legendary%20Arcane%20Rifle.md)\* | Agility | Very Far | d10+12 mag | Two-Handed | **_Aimed:_** Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty. |
+| [Legendary Arcane-Frame Wheelchair](weapons/Legendary%20Arcane-Frame%20Wheelchair.md) | Spellcast | Far | d6+9 mag | One-Handed | **_Reliable:_** +1 to attack rolls |
+| [Legendary Brightsword](weapons/Legendary%20Brightsword.md)\* | Strength | Melee | d10+12 mag | Two-Handed | — |
+| [Legendary Casting Dagger](weapons/Legendary%20Casting%20Dagger.md)\* | Instinct | Close | d6+9 mag | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Instinct, Melee, d8+9. |
+| [Legendary Dualstaff](weapons/Legendary%20Dualstaff.md) | Instinct | Far | d8+12 mag | Two-Handed | — |
+| [Legendary Enchanted Chakram](weapons/Legendary%20Enchanted%20Chakram.md)\* | Finesse | Close | d6+10 mag | One-Handed | **_Ricochet:_** When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack. |
+| [Legendary Glowing Rings](weapons/Legendary%20Glowing%20Rings.md) | Agility | Very Close | d10+11 mag | Two-Handed | — |
+| [Legendary Greatstaff](weapons/Legendary%20Greatstaff.md) | Knowledge | Very Far | d6+9 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+| [Legendary Hallowed Axe](weapons/Legendary%20Hallowed%20Axe.md) | Strength | Melee | d8+10 mag | One-Handed | — |
+| [Legendary Hand Runes](weapons/Legendary%20Hand%20Runes.md) | Instinct | Very Close | d10+9 mag | One-Handed | — |
+| [Legendary Returning Blade](weapons/Legendary%20Returning%20Blade.md) | Finesse | Close | d8+9 mag | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack. |
+| [Legendary Runelock Pistol](weapons/Legendary%20Runelock%20Pistol.md)\* | Knowledge | Far | d6+12 mag | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Legendary Scepter](weapons/Legendary%20Scepter.md) | Presence | Far | d6+9 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d8+6. |
+| [Legendary Shadowblade](weapons/Legendary%20Shadowblade.md)\* | Presence | Melee | d8+9 phy/mag | One-Handed | **_Otherworldly:_** On a successful attack, you can deal physical or magic damage. |
+| [Legendary Shortstaff](weapons/Legendary%20Shortstaff.md) | Instinct | Close | d8+10 mag | One-Handed | — |
+| [Legendary Wand](weapons/Legendary%20Wand.md) | Knowledge | Far | d6+10 mag | One-Handed | — |
+| [Magus Revolver](weapons/Magus%20Revolver.md) | Finesse | Very Far | d6+13 mag | One-Handed | **_Reloading:_** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again. |
+| [Midas Scythe](weapons/Midas%20Scythe.md) | Knowledge | Melee | d10+9 mag | Two-Handed | **_Greedy:_** Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll. |
+| [Siphoning Gauntlets](weapons/Siphoning%20Gauntlets.md) | Presence | Melee | d10+9 mag | Two-Handed | **_Lifestealing:_** On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress. |
+| [Starmetal Blade](weapons/Starmetal%20Blade.md)\* | Agility | Melee | d8+10 mag | One-Handed | **_Serrated:_** When you roll a 1 on a damage die, it deals 8 damage instead. |
+| [Storm God’s Greataxe](weapons/Storm%20Gods%20Greataxe.md)\* | Strength | Very Close | d10+9 mag | Two-Handed | **_Bouncing:_** Mark any number of Stress to target that many additional creatures in range of the attack. |
+| [Sword of Light & Flame](weapons/Sword%20of%20Light%20and%20Flame.md) | Strength | Melee | d10+11 mag | Two-Handed | **_Hot:_** This weapon cuts through solid material. |
+| [Thistlebow](weapons/Thistlebow.md) | Instinct | Far | d6+13 mag | Two-Handed | **_Reliable:_** +1 to attack rolls |
+| [Wand of Essek](weapons/Wand%20of%20Essek.md) | Knowledge | Far | d8+13 mag | One-Handed | **_Timebending:_** You can choose the target of your attack after making your attack roll. |
+
+\* Hope & Fear Expansion Set entry.
 
 #### SECONDARY WEAPON TABLES
 
-_Players can choose one Tier 1 secondary weapon during character creation. The GM can make other weapons available throughout the campaign as the PCs level up._
+##### TIER 1 (LEVEL 1) Secondary Weapons
 
-##### TIER 1 (LEVEL 1)
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Fighting Cloak](weapons/Fighting%20Cloak.md)\* | Presence | Melee | d4 phy | One-Handed | **_Padded:_** +2 to damage thresholds |
+| [Focus Runes](weapons/Focus%20Runes.md)\* | Instinct | Very Close | d6 mag | One-Handed | **_Focused:_** +1 to primary weapon damage to targets within Very Close range |
+| [Grappler](weapons/Grappler.md) | Finesse | Close | d6 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range. |
+| [Hand Crossbow](weapons/Hand%20Crossbow.md) | Finesse | Far | d6+1 phy | One-Handed | — |
+| [Hatchet](weapons/Hatchet.md)\* | Agility | Melee | d8 phy | One-Handed | **_Follow-Up:_** On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack. |
+| [Offhand Brass Knuckles](weapons/Offhand%20Brass%20Knuckles.md)\* | Strength | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range |
+| [Round Shield](weapons/Round%20Shield.md) | Strength | Melee | d4 phy | One-Handed | **_Protective:_** +1 to Armor Score |
+| [Rune Shield](weapons/Rune%20Shield.md)\* | Knowledge | Melee | d4 mag | One-Handed | **_Protective:_** +1 to Armor Score |
+| [Shortsword](weapons/Shortsword.md) | Agility | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range |
+| [Small Dagger](weapons/Small%20Dagger.md) | Finesse | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range |
+| [Throwing Knives](weapons/Throwing%20Knives.md)\* | Finesse | Melee | d8 phy | One-Handed | **_Stockpiled:_** You can throw this weapon within Close range by making an attack roll using Finesse. You don’t have to retrieve it, as you always have another on hand. |
+| [Tower Shield](weapons/Tower%20Shield.md) | Strength | Melee | d6 phy | One-Handed | **_Barrier:_** +2 to Armor Score; -1 to Evasion |
+| [Whip](weapons/Whip.md) | Presence | Very Close | d6 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
 
-| Name          | Trait    | Range      | Damage   | Burden     | Feature                                                                                                            |
-| ------------- | -------- | ---------- | -------- | ---------- | ------------------------------------------------------------------------------------------------------------------ |
-| [Shortsword](weapons/Shortsword.md) | Agility  | Melee      | d8 phy   | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range                                            |
-| [Round Shield](weapons/Round%20Shield.md) | Strength | Melee      | d4 phy   | One-Handed | **_Protective:_** +1 to Armor Score                                                                                |
-| [Tower Shield](weapons/Tower%20Shield.md) | Strength | Melee      | d6 phy   | One-Handed | **_Barrier:_** +2 to Armor Score; -1 to Evasion                                                                    |
-| [Small Dagger](weapons/Small%20Dagger.md) | Finesse  | Melee      | d8 phy   | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range                                            |
-| [Whip](weapons/Whip.md) | Presence | Very Close | d6 phy   | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
-| [Grappler](weapons/Grappler.md) | Finesse  | Close      | d6 phy   | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range.                                    |
-| [Hand Crossbow](weapons/Hand%20Crossbow.md) | Finesse  | Far        | d6+1 phy | One-Handed | —                                                                                                                  |
+\* Hope & Fear Expansion Set entry.
 
-##### TIER 2 (LEVELS 2-4)
+##### TIER 2 (LEVELS 2-4) Secondary Weapons
 
-| Name                   | Trait    | Range      | Damage   | Burden     | Feature                                                                                                                                                                                                                                                |
-| ---------------------- | -------- | ---------- | -------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Improved Shortsword](weapons/Improved%20Shortsword.md) | Agility  | Melee      | d8+2 phy | One-Handed | **_Paired:_** +3 to primary weapon damage to targets within Melee range                                                                                                                                                                                |
-| [Improved Round Shield](weapons/Improved%20Round%20Shield.md) | Strength | Melee      | d4+2 phy | One-Handed | **_Protective:_** +2 to Armor Score                                                                                                                                                                                                                    |
-| [Improved Tower Shield](weapons/Improved%20Tower%20Shield.md) | Strength | Melee      | d6+2 phy | One-Handed | **_Barrier:_** +3 to Armor Score; -1 to Evasion                                                                                                                                                                                                        |
-| [Improved Small Dagger](weapons/Improved%20Small%20Dagger.md) | Finesse  | Melee      | d8+2 phy | One-Handed | **_Paired:_** +3 to primary weapon damage to targets within Melee range                                                                                                                                                                                |
-| [Improved Whip](weapons/Improved%20Whip.md) | Presence | Very Close | d6+2 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.                                                                                                                                     |
-| [Improved Grappler](weapons/Improved%20Grappler.md) | Finesse  | Close      | d6+2 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range.                                                                                                                                                                        |
-| [Improved Hand Crossbow](weapons/Improved%20Hand%20Crossbow.md) | Finesse  | Far        | d6+3 phy | One-Handed | —                                                                                                                                                                                                                                                      |
-| [Spiked Shield](weapons/Spiked%20Shield.md) | Strength | Melee      | d6+2 phy | One-Handed | **_Double Duty:_** +1 to Armor Score; +1 to primary weapon damage within Melee range                                                                                                                                                                   |
-| [Parrying Dagger](weapons/Parrying%20Dagger.md) | Finesse  | Melee      | d6+2 phy | One-Handed | **_Parry:_** When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled. |
-| [Returning Axe](weapons/Returning%20Axe.md) | Agility  | Close      | d6+4 phy | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack.                                                                                                                                    |
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Collapsible Baton](weapons/Collapsible%20Baton.md)\* | Strength | Melee | d8 phy | One-Handed | **_Nonlethal:_** When a target would mark any number of Hit Points from an attack with this weapon, they mark an equal number of Stress instead. |
+| [Eldritch Vambrace](weapons/Eldritch%20Vambrace.md)\* | Instinct | Melee | d8 mag | One-Handed | **_Deflecting:_** When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your Armor Score against the attack. |
+| [Improved Fighting Cloak](weapons/Improved%20Fighting%20Cloak.md)\* | Presence | Melee | d4+2 phy | One-Handed | **_Padded:_** +3 to damage thresholds |
+| [Improved Focus Runes](weapons/Improved%20Focus%20Runes.md)\* | Instinct | Very Close | d6+2 mag | One-Handed | **_Focused:_** +1 to primary weapon damage to targets within Very Close range |
+| [Improved Grappler](weapons/Improved%20Grappler.md) | Finesse | Close | d6+2 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range. |
+| [Improved Hand Crossbow](weapons/Improved%20Hand%20Crossbow.md) | Finesse | Far | d6+3 phy | One-Handed | — |
+| [Improved Hatchet](weapons/Improved%20Hatchet.md)\* | Agility | Melee | d8+2 phy | One-Handed | **_Follow-Up:_** On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack. |
+| [Improved Offhand Brass Knuckles](weapons/Improved%20Offhand%20Brass%20Knuckles.md)\* | Strength | Melee | d8+2 phy | One-Handed | **_Paired:_** +3 to primary weapon damage to targets within Melee range |
+| [Improved Round Shield](weapons/Improved%20Round%20Shield.md) | Strength | Melee | d4+2 phy | One-Handed | **_Protective:_** +2 to Armor Score |
+| [Improved Rune Shield](weapons/Improved%20Rune%20Shield.md)\* | Knowledge | Melee | d4+2 mag | One-Handed | **_Protective:_** +2 to Armor Score |
+| [Improved Shortsword](weapons/Improved%20Shortsword.md) | Agility | Melee | d8+2 phy | One-Handed | **_Paired:_** +3 to primary weapon damage to targets within Melee range |
+| [Improved Small Dagger](weapons/Improved%20Small%20Dagger.md) | Finesse | Melee | d8+2 phy | One-Handed | **_Paired:_** +3 to primary weapon damage to targets within Melee range |
+| [Improved Throwing Knives](weapons/Improved%20Throwing%20Knives.md)\* | Finesse | Melee | d8+2 phy | One-Handed | **_Stockpiled:_** You can throw this weapon within Close range by making an attack roll using Finesse. You don’t have to retrieve it, as you always have another on hand. |
+| [Improved Tower Shield](weapons/Improved%20Tower%20Shield.md) | Strength | Melee | d6+2 phy | One-Handed | **_Barrier:_** +3 to Armor Score; -1 to Evasion |
+| [Improved Whip](weapons/Improved%20Whip.md) | Presence | Very Close | d6+2 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
+| [Parrying Dagger](weapons/Parrying%20Dagger.md) | Finesse | Melee | d6+2 phy | One-Handed | **_Parry:_** When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled. |
+| [Razor Wire](weapons/Razor%20Wire.md)\* | Finesse | Very Close | d6+3 phy | One-Handed | **_Entangling:_** On a successful attack with your primary weapon against a target within Very Close range, you can spend a Hope to make the target temporarily Vulnerable. |
+| [Returning Axe](weapons/Returning%20Axe.md) | Agility | Close | d6+4 phy | One-Handed | **_Returning:_** When this weapon is thrown within its range, it appears in your hand immediately after the attack. |
+| [Segmented Staff](weapons/Segmented%20Staff.md)\* | Agility | Very Close | d6+4 phy | One-Handed | **_Double Duty:_** +1 to Armor Score; +1 to primary weapon damage within Melee range |
+| [Spiked Shield](weapons/Spiked%20Shield.md) | Strength | Melee | d6+2 phy | One-Handed | **_Double Duty:_** +1 to Armor Score; +1 to primary weapon damage within Melee range |
 
-##### TIER 3 (LEVELS 5-7)
+\* Hope & Fear Expansion Set entry.
 
-| Name                   | Trait     | Range      | Damage   | Burden     | Feature                                                                                                                                                     |
-| ---------------------- | --------- | ---------- | -------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Advanced Shortsword](weapons/Advanced%20Shortsword.md) | Agility   | Melee      | d8+4 phy | One-Handed | **_Paired:_** +4 to primary weapon damage to targets within Melee range                                                                                     |
-| [Advanced Round Shield](weapons/Advanced%20Round%20Shield.md) | Strength  | Melee      | d4+4 phy | One-Handed | **_Protective:_** +3 to Armor Score                                                                                                                         |
-| [Advanced Tower Shield](weapons/Advanced%20Tower%20Shield.md) | Strength  | Melee      | d6+4 phy | One-Handed | **_Barrier:_** +4 to Armor Score; -1 to Evasion                                                                                                             |
-| [Advanced Small Dagger](weapons/Advanced%20Small%20Dagger.md) | Finesse   | Melee      | d8+4 phy | One-Handed | **_Paired:_** +4 to primary weapon damage to targets within Melee range                                                                                     |
-| [Advanced Whip](weapons/Advanced%20Whip.md) | Presence  | Very Close | d6+4 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.                                          |
-| [Advanced Grappler](weapons/Advanced%20Grappler.md) | Finesse   | Close      | d6+4 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range.                                                                             |
-| [Advanced Hand Crossbow](weapons/Advanced%20Hand%20Crossbow.md) | Finesse   | Far        | d6+5 phy | One-Handed | —                                                                                                                                                           |
-| [Buckler](weapons/Buckler.md) | Agility   | Melee      | d4+4 phy | One-Handed | **_Deflecting:_** When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your available Armor Score against the attack. |
-| [Powered Gauntlet](weapons/Powered%20Gauntlet.md) | Knowledge | Close      | d6+4 phy | One-Handed | **_Charged:_** Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.                                                             |
-| [Hand Sling](weapons/Hand%20Sling.md) | Finesse   | Very Far   | d6+4 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Finesse, Close, d8+4.                                                                   |
+##### TIER 3 (LEVELS 5-7) Secondary Weapons
 
-##### TIER 4 (LEVELS 8-10)
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Advanced Fighting Cloak](weapons/Advanced%20Fighting%20Cloak.md)\* | Presence | Melee | d4+4 phy | One-Handed | **_Padded:_** +4 to damage thresholds |
+| [Advanced Focus Runes](weapons/Advanced%20Focus%20Runes.md)\* | Instinct | Very Close | d6+4 mag | One-Handed | **_Focused:_** +1 to primary weapon damage to targets within Very Close range |
+| [Advanced Grappler](weapons/Advanced%20Grappler.md) | Finesse | Close | d6+4 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range. |
+| [Advanced Hand Crossbow](weapons/Advanced%20Hand%20Crossbow.md) | Finesse | Far | d6+5 phy | One-Handed | — |
+| [Advanced Hatchet](weapons/Advanced%20Hatchet.md)\* | Agility | Melee | d8+4 phy | One-Handed | **_Follow-Up:_** On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack. |
+| [Advanced Offhand Brass Knuckles](weapons/Advanced%20Offhand%20Brass%20Knuckles.md)\* | Strength | Melee | d8+4 phy | One-Handed | **_Paired:_** +4 to primary weapon damage to targets within Melee range |
+| [Advanced Round Shield](weapons/Advanced%20Round%20Shield.md) | Strength | Melee | d4+4 phy | One-Handed | **_Protective:_** +3 to Armor Score |
+| [Advanced Rune Shield](weapons/Advanced%20Rune%20Shield.md)\* | Knowledge | Melee | d4+4 mag | One-Handed | **_Protective:_** +3 to Armor Score |
+| [Advanced Shortsword](weapons/Advanced%20Shortsword.md) | Agility | Melee | d8+4 phy | One-Handed | **_Paired:_** +4 to primary weapon damage to targets within Melee range |
+| [Advanced Small Dagger](weapons/Advanced%20Small%20Dagger.md) | Finesse | Melee | d8+4 phy | One-Handed | **_Paired:_** +4 to primary weapon damage to targets within Melee range |
+| [Advanced Throwing Knives](weapons/Advanced%20Throwing%20Knives.md)\* | Finesse | Melee | d8+4 phy | One-Handed | **_Stockpiled:_** You can throw this weapon within Close range by making an attack roll using Finesse. You don’t have to retrieve it, as you always have another on hand. |
+| [Advanced Tower Shield](weapons/Advanced%20Tower%20Shield.md) | Strength | Melee | d6+4 phy | One-Handed | **_Barrier:_** +4 to Armor Score; -1 to Evasion |
+| [Advanced Whip](weapons/Advanced%20Whip.md) | Presence | Very Close | d6+4 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
+| [Buckler](weapons/Buckler.md) | Agility | Melee | d4+4 phy | One-Handed | **_Deflecting:_** When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your available Armor Score against the attack. |
+| [Hand Sling](weapons/Hand%20Sling.md) | Finesse | Very Far | d6+4 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Finesse, Close, d8+4. |
+| [Powered Gauntlet](weapons/Powered%20Gauntlet.md) | Knowledge | Close | d6+4 phy | One-Handed | **_Charged:_** Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack. |
+| [Soul Chain](weapons/Soul%20Chain.md)\* | Presence | Very Close | d6+5 mag | One-Handed | **_Draining:_** On a successful attack, you can spend a Hope to force the target to mark a Stress. If they do, you clear a Stress. |
+| [Tinker’s Hammer](weapons/Tinkers%20Hammer.md)\* | Strength | Melee | d8+4 phy | One-Handed | **_Trusty:_** +1 to attack rolls made with your primary weapon |
+| [Vorpal Shard](weapons/Vorpal%20Shard.md)\* | Knowledge | Melee | d4 mag | One-Handed | **_Targeted:_** When you fail a weapon attack, you can spend a Hope to succeed on your next weapon attack. |
+| [War Dart](weapons/War%20Dart.md)\* | Agility | Far | d6+5 phy | One-Handed | **_Versatile:_** This weapon can also be used with these statistics—Agility, Melee, d8+5. |
 
-| Name                    | Trait    | Range      | Damage   | Burden     | Feature                                                                                                                                     |
-| ----------------------- | -------- | ---------- | -------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Legendary Shortsword](weapons/Legendary%20Shortsword.md) | Agility  | Melee      | d8+6 phy | One-Handed | **_Paired:_** +5 to primary weapon damage to targets within Melee range                                                                     |
-| [Legendary Round Shield](weapons/Legendary%20Round%20Shield.md) | Strength | Melee      | d4+6 phy | One-Handed | **_Protective:_** +4 to Armor Score                                                                                                         |
-| [Legendary Tower Shield](weapons/Legendary%20Tower%20Shield.md) | Strength | Melee      | d6+6 phy | One-Handed | **_Barrier:_** +5 to Armor Score; -1 to Evasion.                                                                                            |
-| [Legendary Small Dagger](weapons/Legendary%20Small%20Dagger.md) | Finesse  | Melee      | d8+6 phy | One-Handed | **_Paired:_** +5 to primary weapon damage to targets within Melee range                                                                     |
-| [Legendary Whip](weapons/Legendary%20Whip.md) | Presence | Very Close | d6+6 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.                          |
-| [Legendary Grappler](weapons/Legendary%20Grappler.md) | Finesse  | Close      | d6+6 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range.                                                             |
-| [Legendary Hand Crossbow](weapons/Legendary%20Hand%20Crossbow.md) | Finesse  | Far        | d6+7 phy | One-Handed | —                                                                                                                                           |
-| [Braveshield](weapons/Braveshield.md) | Agility  | Melee      | d4+6 phy | One-Handed | **_Sheltering:_** When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage. |
-| [Knuckle Claws](weapons/Knuckle%20Claws.md) | Strength | Melee      | d6+8 phy | One-Handed | **_Doubled Up:_** When you make an attack with your primary weapon, you can deal damage to another target within Melee range.               |
-| [Primer Shard](weapons/Primer%20Shard.md) | Instinct | Very Close | d4 phy   | One-Handed | **_Locked On:_** On a successful attack, your next attack against the same target with your primary weapon automatically succeeds.          |
+\* Hope & Fear Expansion Set entry.
+
+##### TIER 4 (LEVELS 8-10) Secondary Weapons
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| [Blackblood Tendril](weapons/Blackblood%20Tendril.md)\* | Instinct | Close | d6+8 mag | One-Handed | **_Poisonous:_** When a target marks any number of Hit Points from an attack you rolled with Fear, they mark an equal number of Stress. |
+| [Braveshield](weapons/Braveshield.md) | Agility | Melee | d4+6 phy | One-Handed | **_Sheltering:_** When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage. |
+| [Echo Blade](weapons/Echo%20Blade.md)\* | Presence | Melee | d4+6 mag | One-Handed | **_Doubled Up:_** When you succeed on an attack with your primary weapon, you can deal damage to another target within Melee range. |
+| [Knuckle Claws](weapons/Knuckle%20Claws.md) | Strength | Melee | d6+8 phy | One-Handed | **_Doubled Up:_** When you make an attack with your primary weapon, you can deal damage to another target within Melee range. |
+| [Legendary Fighting Cloak](weapons/Legendary%20Fighting%20Cloak.md)\* | Presence | Melee | d4+6 phy | One-Handed | **_Padded:_** +5 to damage thresholds |
+| [Legendary Focus Runes](weapons/Legendary%20Focus%20Runes.md)\* | Instinct | Very Close | d6+6 mag | One-Handed | **_Focused:_** +1 to primary weapon damage to targets within Very Close range |
+| [Legendary Grappler](weapons/Legendary%20Grappler.md) | Finesse | Close | d6+6 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range. |
+| [Legendary Hand Crossbow](weapons/Legendary%20Hand%20Crossbow.md) | Finesse | Far | d6+7 phy | One-Handed | — |
+| [Legendary Hatchet](weapons/Legendary%20Hatchet.md)\* | Agility | Melee | d8+6 phy | One-Handed | **_Follow-Up:_** On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack. |
+| [Legendary Offhand Brass Knuckles](weapons/Legendary%20Offhand%20Brass%20Knuckles.md)\* | Strength | Melee | d8+6 phy | One-Handed | **_Paired:_** +5 to primary weapon damage to targets within Melee range |
+| [Legendary Round Shield](weapons/Legendary%20Round%20Shield.md) | Strength | Melee | d4+6 phy | One-Handed | **_Protective:_** +4 to Armor Score |
+| [Legendary Rune Shield](weapons/Legendary%20Rune%20Shield.md)\* | Knowledge | Melee | d4+6 mag | One-Handed | **_Protective:_** +4 to Armor Score |
+| [Legendary Shortsword](weapons/Legendary%20Shortsword.md) | Agility | Melee | d8+6 phy | One-Handed | **_Paired:_** +5 to primary weapon damage to targets within Melee range |
+| [Legendary Small Dagger](weapons/Legendary%20Small%20Dagger.md) | Finesse | Melee | d8+6 phy | One-Handed | **_Paired:_** +5 to primary weapon damage to targets within Melee range |
+| [Legendary Throwing Knives](weapons/Legendary%20Throwing%20Knives.md)\* | Finesse | Melee | d8+6 phy | One-Handed | **_Stockpiled:_** You can throw this weapon within Close range by making an attack roll using Finesse. You don’t have to retrieve it, as you always have another on hand. |
+| [Legendary Tower Shield](weapons/Legendary%20Tower%20Shield.md) | Strength | Melee | d6+6 phy | One-Handed | **_Barrier:_** +5 to Armor Score; -1 to Evasion. |
+| [Legendary Whip](weapons/Legendary%20Whip.md) | Presence | Very Close | d6+6 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
+| [Möbius Orb](weapons/M%C3%B6bius%20Orb.md)\* | Knowledge | Melee | d8+6 mag | One-Handed | **_Recursive:_** When you roll the maximum value on a damage die, roll an additional damage die and add the result to the total damage. This feature can trigger repeatedly. |
+| [Primer Shard](weapons/Primer%20Shard.md) | Instinct | Very Close | d4 phy | One-Handed | **_Locked On:_** On a successful attack, your next attack against the same target with your primary weapon automatically succeeds. |
+| [Void Needle](weapons/Void%20Needle.md)\* | Finesse | Melee | d4+6 phy | One-Handed | **_Inverted:_** When you roll a weapon attack with Fear, you gain a Hope. |
+
+\* Hope & Fear Expansion Set entry.
 
 ### COMBAT WHEELCHAIR
 
@@ -1275,209 +1463,268 @@ When you take damage, you can mark one Armor Slot to reduce the severity of the 
 
 #### ARMOR TABLES
 
-##### TIER 1 (LEVEL 1)
+_Players can choose one Tier 1 armor during character creation. The GM can make other armor available throughout the campaign as the PCs level up._
 
-| Name             | Base Thresholds | Base Score | Feature                                        |
-| ---------------- | --------------- | ---------- | ---------------------------------------------- |
-| [Gambeson Armor](armor/Gambeson%20Armor.md) | 5 / 11          | 3          | **_Flexible:_** +1 to Evasion                  |
-| [Leather Armor](armor/Leather%20Armor.md) | 6 / 13          | 3          | —                                              |
-| [Chainmail Armor](armor/Chainmail%20Armor.md) | 7 / 15          | 4          | **_Heavy:_** -1 to Evasion                     |
-| [Full Plate Armor](armor/Full%20Plate%20Armor.md) | 8 / 17          | 4          | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+##### TIER 1 (LEVEL 1) Armor
 
-##### TIER 2 (LEVELS 2-4)
+| Name | Base Score | Base Thresholds | Feature |
+| --- | --- | --- | --- |
+| [Banded Armor](armor/Banded%20Armor.md)\* | 4 | 8 / 16 | **_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress. |
+| [Brigandine Armor](armor/Brigandine%20Armor.md)\* | 3 | 6 / 12 | **_Lined:_** Mark a Stress to negate Minor damage. |
+| [Chainmail Armor](armor/Chainmail%20Armor.md) | 4 | 7 / 15 | **_Heavy:_** -1 to Evasion |
+| [Full Plate Armor](armor/Full%20Plate%20Armor.md) | 4 | 8 / 17 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+| [Gambeson Armor](armor/Gambeson%20Armor.md) | 3 | 5 / 11 | **_Flexible:_** +1 to Evasion |
+| [Leather Armor](armor/Leather%20Armor.md) | 3 | 6 / 13 | — |
+| [Mage Robes](armor/Mage%20Robes.md)\* | 2 | 4 / 10 | **_Enchanted:_** Gain a bonus to your damage thresholds equal to your Spellcast trait. |
+| [Scale Mail Armor](armor/Scale%20Mail%20Armor.md)\* | 3 | 7 / 14 | **_Cumbersome:_** -1 to Finesse |
 
-| NAME                       | BASE THRESHOLDS | BASE SCORE | FEATURE                                                                                                                                                 |
-| -------------------------- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Improved Gambeson Armor](armor/Improved%20Gambeson%20Armor.md) | 7 / 16          | 4          | **_Flexible:_** +1 to Evasion                                                                                                                           |
-| [Improved Leather Armor](armor/Improved%20Leather%20Armor.md) | 9 / 20          | 4          | —                                                                                                                                                       |
-| [Improved Chainmail Armor](armor/Improved%20Chainmail%20Armor.md) | 11 / 24         | 5          | **_Heavy:_** -1 to Evasion                                                                                                                              |
-| [Improved Full Plate Armor](armor/Improved%20Full%20Plate%20Armor.md) | 13 / 28         | 5          | **_Very Heavy:_** -2 to Evasion; -1 to Agility                                                                                                          |
-| [Elundrian Chain Armor](armor/Elundrian%20Chain%20Armor.md) | 9 / 21          | 4          | **_Warded:_** You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.                                        |
-| [Harrowbone Armor](armor/Harrowbone%20Armor.md) | 9 / 21          | 4          | **_Resilient:_** Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot. |
-| [IronTree Breastplate Armor](armor/IronTree%20Breastplate%20Armor.md) | 9 / 20          | 4          | **_Reinforced:_** When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.                      |
-| [Runetan Floating Armor](armor/Runetan%20Floating%20Armor.md) | 9 / 20          | 4          | **_Shifting:_** When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage.                       |
-| [Tyris Soft Armor](armor/Tyris%20Soft%20Armor.md) | 8 / 18          | 5          | **_Quiet:_** You gain a +2 bonus to rolls you make to move silently.                                                                                    |
-| [Rosewild Armor](armor/Rosewild%20Armor.md) | 11 / 23         | 5          | **_Hopeful:_** When you would spend a Hope, you can mark an Armor Slot instead.                                                                         |
+\* Hope & Fear Expansion Set entry.
 
-##### TIER 3 (LEVELS 5-7)
+##### TIER 2 (LEVELS 2-4) Armor
 
-| Name                      | Base Thresholds | Base Score | Feature                                                                                                          |
-| ------------------------- | --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Advanced Gambeson Armor](armor/Advanced%20Gambeson%20Armor.md) | 9 / 23          | 5          | **_Flexible:_** +1 to Evasion                                                                                    |
-| [Advanced Leather Armor](armor/Advanced%20Leather%20Armor.md) | 11 / 27         | 5          | —                                                                                                                |
-| [Advanced Chainmail Armor](armor/Advanced%20Chainmail%20Armor.md) | 13 / 31         | 6          | **_Heavy:_** -1 to Evasion                                                                                       |
-| [Advanced Full Plate Armor](armor/Advanced%20Full%20Plate%20Armor.md) | 15 / 35         | 6          | **_Very Heavy:_** -2 to Evasion; -1 to Agility                                                                   |
-| [Bellamoi Fine Armor](armor/Bellamoi%20Fine%20Armor.md) | 11 / 27         | 5          | **_Gilded:_** +1 to Presence                                                                                     |
-| [Dragonscale Armor](armor/Dragonscale%20Armor.md) | 11 / 27         | 5          | **_Impenetrable:_** Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress. |
-| [Spiked Plate Armor](armor/Spiked%20Plate%20Armor.md) | 10 / 25         | 5          | **_Sharp:_** On a successful attack against a target within Melee range, add a d4 to the damage roll.            |
-| [Bladefare Armor](armor/Bladefare%20Armor.md) | 16 / 39         | 6          | **_Physical:_** You can't mark an Armor Slot to reduce magic damage.                                             |
-| [Monett's Cloak](armor/Monetts%20Cloak.md) | 16 / 39         | 6          | **_Magic:_** You can't mark an Armor Slot to reduce physical damage.                                             |
-| [Runes of Fortification](armor/Runes%20of%20Fortification.md) | 17 / 43         | 6          | **_Painful:_** Each time you mark an Armor Slot, you must mark a Stress.                                         |
+| Name | Base Score | Base Thresholds | Feature |
+| --- | --- | --- | --- |
+| [Elundrian Chain Armor](armor/Elundrian%20Chain%20Armor.md) | 4 | 9 / 21 | **_Warded:_** You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds. |
+| [Enchanter’s Robes](armor/Enchanters%20Robes.md)\* | 4 | 9 / 20 | **_Mnemonic:_** Once per scene, you can recall a domain card from your vault without paying its Recall Cost. |
+| [Gilded Sunplate](armor/Gilded%20Sunplate.md)\* | 5 | 12 / 26 | **_Resplendent:_** Once per scene when you spend Hope, you can clear an Armor Slot. |
+| [Harrowbone Armor](armor/Harrowbone%20Armor.md) | 4 | 9 / 21 | **_Resilient:_** Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot. |
+| [Hawkguard’s Mantle](armor/Hawkguards%20Mantle.md)\* | 4 | 9 / 20 | **_Gliding:_** You can glide up to Far range and are immune to damage from falling. |
+| [Improved Banded Armor](armor/Improved%20Banded%20Armor.md)\* | 5 | 13 / 27 | **_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress. |
+| [Improved Brigandine Armor](armor/Improved%20Brigandine%20Armor.md)\* | 4 | 9 / 19 | **_Lined:_** Mark a Stress to negate Minor damage. |
+| [Improved Chainmail Armor](armor/Improved%20Chainmail%20Armor.md) | 5 | 11 / 24 | **_Heavy:_** -1 to Evasion |
+| [Improved Full Plate Armor](armor/Improved%20Full%20Plate%20Armor.md) | 5 | 13 / 28 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+| [Improved Gambeson Armor](armor/Improved%20Gambeson%20Armor.md) | 4 | 7 / 16 | **_Flexible:_** +1 to Evasion |
+| [Improved Leather Armor](armor/Improved%20Leather%20Armor.md) | 4 | 9 / 20 | — |
+| [Improved Mage Robes](armor/Improved%20Mage%20Robes.md)\* | 3 | 6 / 15 | **_Enchanted:_** Gain a bonus to your damage thresholds equal to your Spellcast trait. |
+| [Improved Scale Mail Armor](armor/Improved%20Scale%20Mail%20Armor.md)\* | 4 | 11 / 23 | **_Cumbersome:_** -1 to Finesse |
+| [Irontree Breastplate Armor](armor/Irontree%20Breastplate%20Armor.md) | 4 | 9 / 20 | **_Reinforced:_** When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot. |
+| [Rosewild Armor](armor/Rosewild%20Armor.md) | 5 | 11 / 23 | **_Hopeful:_** When you would spend a Hope, you can mark an Armor Slot instead. |
+| [Runetan Floating Armor](armor/Runetan%20Floating%20Armor.md) | 4 | 9 / 20 | **_Shifting:_** When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage. |
+| [Spidersilk Tunic](armor/Spidersilk%20Tunic.md)\* | 4 | 9 / 20 | **_Wall-Crawling:_** +1 Evasion; you can walk on walls as easily as on the ground. |
+| [Stormthread Habit](armor/Stormthread%20Habit.md)\* | 4 | 9 / 20 | **_Absorbing:_** Once per scene when you take magic damage, you can clear an Armor Slot. |
+| [Trollhide Cuirass](armor/Trollhide%20Cuirass.md)\* | 5 | 11 / 23 | **_Self-Healing:_** When you take a rest, clear an Armor Slot. |
+| [Tyris Soft Armor](armor/Tyris%20Soft%20Armor.md) | 5 | 8 / 18 | **_Quiet:_** You gain a +2 bonus to rolls you make to move silently. |
+| [Wyrdwood Splint Armor](armor/Wyrdwood%20Splint%20Armor.md)\* | 5 | 10 / 21 | **_Quick-Striding:_** You can’t be Restrained and can move up to Far range as part of an action roll. |
 
-##### TIER 4 (LEVELS 8-10)
+\* Hope & Fear Expansion Set entry.
 
-| NAME                       | BASE THRESHOLDS | BASE SCORE | FEATURE                                                                                                                      |
-| -------------------------- | --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [Legendary Gambeson Armor](armor/Legendary%20Gambeson%20Armor.md) | 11 / 32         | 6          | **_Flexible:_** +1 to Evasion                                                                                                |
-| [Legendary Leather Armor](armor/Legendary%20Leather%20Armor.md) | 13 / 36         | 6          | —                                                                                                                            |
-| [Legendary Chainmail Armor](armor/Legendary%20Chainmail%20Armor.md) | 15 / 40         | 7          | **_Heavy:_** -1 to Evasion                                                                                                   |
-| [Legendary Full Plate Armor](armor/Legendary%20Full%20Plate%20Armor.md) | 17 / 44         | 7          | **_Very Heavy:_** -2 to Evasion; -1 to Agility                                                                               |
-| [Dunamis Silkchain](armor/Dunamis%20Silkchain.md) | 13 / 36         | 7          | **_Timeslowing:_** Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack. |
-| [Channeling Armor](armor/Channeling%20Armor.md) | 13 / 36         | 5          | **_Channeling:_** +1 to Spellcast Rolls                                                                                      |
-| [Emberwoven Armor](armor/Emberwoven%20Armor.md) | 13 / 36         | 6          | **_Burning:_** When an adversary attacks you within Melee range, they mark a Stress.                                         |
-| [Full Fortified Armor](armor/Full%20Fortified%20Armor.md) | 15 / 40         | 4          | **_Fortified:_** When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one.         |
-| [Veritas Opal Armor](armor/Veritas%20Opal%20Armor.md) | 13 / 36         | 6          | **_Truthseeking:_** This armor glows when another creature within Close range tells a lie.                                   |
-| [Savior Chainmail](armor/Savior%20Chainmail.md) | 18 / 48         | 8          | **_Difficult:_** -1 to all character traits and Evasion                                                                      |
+##### TIER 3 (LEVELS 5-7) Armor
+
+| Name | Base Score | Base Thresholds | Feature |
+| --- | --- | --- | --- |
+| [Advanced Banded Armor](armor/Advanced%20Banded%20Armor.md)\* | 6 | 15 / 34 | **_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress. |
+| [Advanced Brigandine Armor](armor/Advanced%20Brigandine%20Armor.md)\* | 5 | 11 / 26 | **_Lined:_** Mark a Stress to negate Minor damage. |
+| [Advanced Chainmail Armor](armor/Advanced%20Chainmail%20Armor.md) | 6 | 13 / 31 | **_Heavy:_** -1 to Evasion |
+| [Advanced Full Plate Armor](armor/Advanced%20Full%20Plate%20Armor.md) | 6 | 15 / 35 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+| [Advanced Gambeson Armor](armor/Advanced%20Gambeson%20Armor.md) | 5 | 9 / 23 | **_Flexible:_** +1 to Evasion |
+| [Advanced Leather Armor](armor/Advanced%20Leather%20Armor.md) | 5 | 11 / 27 | — |
+| [Advanced Mage Robes](armor/Advanced%20Mage%20Robes.md)\* | 4 | 8 / 22 | **_Enchanted:_** Gain a bonus to your damage thresholds equal to your Spellcast trait. |
+| [Advanced Scale Mail Armor](armor/Advanced%20Scale%20Mail%20Armor.md)\* | 5 | 13 / 30 | **_Cumbersome:_** -1 to Finesse |
+| [Astral Raiment](armor/Astral%20Raiment.md)\* | 5 | 11 / 27 | **_Stellar:_** Mark a Stress to gain advantage on a Spellcast roll. |
+| [Bellamoi Fine Armor](armor/Bellamoi%20Fine%20Armor.md) | 5 | 11 / 27 | **_Gilded:_** +1 to Presence |
+| [Bladefare Armor](armor/Bladefare%20Armor.md) | 6 | 16 / 39 | **_Physical:_** You can’t mark an Armor Slot to reduce magic damage. |
+| [Bloodstone Plate Armor](armor/Bloodstone%20Plate%20Armor.md)\* | 6 | 13 / 35 | **_Bloodthirsty:_** When you critically succeed on a weapon attack within Melee range, clear a Hit Point. |
+| [Cloverweave Cloak](armor/Cloverweave%20Cloak.md)\* | 5 | 11 / 27 | **_Fortune-Favored:_** Once per scene, you can change a failure with Hope into a success with Fear. |
+| [Deep-Forged Coral Armor](armor/Deep-Forged%20Coral%20Armor.md)\* | 6 | 13 / 35 | **_Aquatic:_** You can breathe underwater and gain advantage on Agility Rolls while submerged. |
+| [Dragonscale Armor](armor/Dragonscale%20Armor.md) | 5 | 11 / 27 | **_Impenetrable:_** Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress. |
+| [Granminster’s Finery](armor/Granminsters%20Finery.md)\* | 2 | 11 / 27 | **_Magnificent:_** Gain a bonus to your Armor Score equal to your Presence. |
+| [Monett’s Cloak](armor/Monetts%20Cloak.md) | 6 | 16 / 39 | **_Magic:_** You can’t mark an Armor Slot to reduce physical damage. |
+| [Runes of Fortification](armor/Runes%20of%20Fortification.md) | 6 | 17 / 43 | **_Painful:_** Each time you mark an Armor Slot, you must mark a Stress. |
+| [Skywarden’s Lamellar](armor/Skywardens%20Lamellar.md)\* | 5 | 11 / 27 | **_Vigilant:_** +2 to Evasion |
+| [Spiked Plate Armor](armor/Spiked%20Plate%20Armor.md) | 5 | 10 / 25 | **_Sharp:_** On a successful attack against a target within Melee range, add a d4 to the damage roll. |
+
+\* Hope & Fear Expansion Set entry.
+
+##### TIER 4 (LEVELS 8-10) Armor
+
+| Name | Base Score | Base Thresholds | Feature |
+| --- | --- | --- | --- |
+| [Channeling Armor](armor/Channeling%20Armor.md) | 5 | 13 / 36 | **_Channeling:_** +1 to Spellcast Rolls |
+| [Circle-Forged Dreadplate](armor/Circle-Forged%20Dreadplate.md)\* | 6 | 14 / 38 | **_Accursed:_** When you mark any number of Hit Points from an attack, roll a d4. On a result of 4, the attacker must mark an equal number of Stress. |
+| [Darkweave Shroud](armor/Darkweave%20Shroud.md)\* | 5 | 13 / 36 | **_Ghostwalker:_** Once per rest, mark a Stress to move up to Close range through solid objects. |
+| [Dunamis Silkchain](armor/Dunamis%20Silkchain.md) | 7 | 13 / 36 | **_Timeslowing:_** Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack. |
+| [Emberwoven Armor](armor/Emberwoven%20Armor.md) | 6 | 13 / 36 | **_Burning:_** When an adversary attacks you within Melee range, they mark a Stress. |
+| [Full Fortified Armor](armor/Full%20Fortified%20Armor.md) | 4 | 15 / 40 | **_Fortified:_** When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one. |
+| [Godbound Laminar](armor/Godbound%20Laminar.md)\* | 6 | 13 / 36 | **_Divine:_** When you mark an Armor Slot, gain a Hope. |
+| [Hallowed Heroplate](armor/Hallowed%20Heroplate.md)\* | 7 | 13 / 35 | **_Blessed:_** Once per long rest, you can spend any number of Hope before you make the Risk It All death move. You gain a bonus to the result of your Hope Die equal to the number of Hope spent. |
+| [Legendary Banded Armor](armor/Legendary%20Banded%20Armor.md)\* | 7 | 17 / 43 | **_Bulky:_** -1 to Evasion; when you take Severe damage, you must mark a Stress. |
+| [Legendary Brigandine Armor](armor/Legendary%20Brigandine%20Armor.md)\* | 6 | 13 / 35 | **_Lined:_** Mark a Stress to negate Minor damage. |
+| [Legendary Chainmail Armor](armor/Legendary%20Chainmail%20Armor.md) | 7 | 15 / 40 | **_Heavy:_** -1 to Evasion |
+| [Legendary Full Plate Armor](armor/Legendary%20Full%20Plate%20Armor.md) | 7 | 17 / 44 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+| [Legendary Gambeson Armor](armor/Legendary%20Gambeson%20Armor.md) | 6 | 11 / 32 | **_Flexible:_** +1 to Evasion |
+| [Legendary Leather Armor](armor/Legendary%20Leather%20Armor.md) | 6 | 13 / 36 | — |
+| [Legendary Mage Robes](armor/Legendary%20Mage%20Robes.md)\* | 5 | 10 / 31 | **_Enchanted:_** Gain a bonus to your damage thresholds equal to your Spellcast trait. |
+| [Legendary Scale Mail Armor](armor/Legendary%20Scale%20Mail%20Armor.md)\* | 6 | 15 / 39 | **_Cumbersome:_** -1 to Finesse |
+| [Resonant Harness](armor/Resonant%20Harness.md)\* | 7 | 15 / 40 | **_Vitreous:_** When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move. |
+| [Rune-Forged Exosuit](armor/Rune-Forged%20Exosuit.md)\* | 7 | 12 / 39 | **_Attuned:_** The maximum number of domain cards in your loadout is reduced by one, but you gain a bonus to your damage thresholds equal to your tier. |
+| [Savior Chainmail](armor/Savior%20Chainmail.md) | 8 | 18 / 48 | **_Difficult:_** -1 to all character traits and Evasion |
+| [Veritas Opal Armor](armor/Veritas%20Opal%20Armor.md) | 6 | 13 / 36 | **_Truthseeking:_** This armor glows when another creature within Close range tells a lie. |
+
+\* Hope & Fear Expansion Set entry.
 
 ### LOOT
 
-**Loot** comprises any consumables or reusable items the party acquires.
+Loot comprises any consumables or reusable items the party acquires.
 
-**Items** can be used until sold, discarded, or lost.
+#### ITEMS
 
-To generate a random item, choose a rarity, roll the designated dice, and match the total to the item in the table:
+Items can be used until sold, discarded, or lost.
 
-- **Common:** 1d12 or 2d12
-- **Uncommon:** 2d12 or 3d12
-- **Rare:** 3d12 or 4d12
-- **Legendary:** 4d12 or 5d12
+You can use the tables below to generate items ahead of a game or during a session. Choose the desired rarity, roll the associated number of d12s, add their values together (if needed), and then reference the table for the item that matches that value.
 
-| ROLL | LOOT                            | DESCRIPTION                                                                                                                                                                                                                                                                                    |
-| ---- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01   | [Premium Bedroll](items/Premium%20Bedroll.md) | During downtime, you automatically clear a Stress.                                                                                                                                                                                                                                             |
-| 02   | [Piper Whistle](items/Piper%20Whistle.md) | This handcrafted whistle has a distinctive sound. When you blow this whistle, its piercing tone can be heard within a 1-mile radius.                                                                                                                                                           |
-| 03   | [Charging Quiver](items/Charging%20Quiver.md) | When you succeed on an attack with an arrow stored in this quiver, gain a bonus to the damage roll equal to your current tier.                                                                                                                                                                 |
-| 04   | [Alistair's Torch](items/Alistairs%20Torch.md) | You can light this magic torch at will. The flame's light fills a much larger space than it should, enough to illuminate a cave bright as day.                                                                                                                                                 |
-| 05   | [Speaking Orbs](items/Speaking%20Orbs.md) | This pair of orbs allows any creatures holding them to communicate with each other across any distance.                                                                                                                                                                                        |
-| 06   | [Manacles](items/Manacles.md) | This pair of locking cuffs comes with a key.                                                                                                                                                                                                                                                   |
-| 07   | [Arcane Cloak](items/Arcane%20Cloak.md) | A creature with a Spellcast trait wearing this cloak can adjust its color, texture, and size at will.                                                                                                                                                                                          |
-| 08   | [Woven Net](items/Woven%20Net.md) | You can make a Finesse Roll using this net to trap a small creature. A trapped target can break free with a successful Attack Roll (16).                                                                                                                                                       |
-| 09   | [Fire Jar](items/Fire%20Jar.md) | You can pour out the strange liquid contents of this jar to instantly produce fire. The contents regenerate when you take a long rest.                                                                                                                                                         |
-| 10   | [Suspended Rod](items/Suspended%20Rod.md) | This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can't move, doesn't abide by the rules of gravity, and remains in place.                                                                              |
-| 11   | [Glamour Stone](items/Glamour%20Stone.md) | Activate this pebble-sized stone to memorize the appearance of someone you can see. Spend a Hope to magically recreate this guise on yourself as an illusion.                                                                                                                                  |
-| 12   | [Empty Chest](items/Empty%20Chest.md) | This magical chest appears empty. When you speak a specific trigger word or action and open the chest, you can see the items stored within it.                                                                                                                                                 |
-| 13   | [Companion Case](items/Companion%20Case.md) | This case can fit a small animal companion. While the companion is inside, the animal and case are immune to all damage and harmful effects.                                                                                                                                                   |
-| 14   | [Piercing Arrows](items/Piercing%20Arrows.md) | Three times per rest when you succeed on an attack with one of these arrows, you can add your Proficiency to the damage roll.                                                                                                                                                                  |
-| 15   | [Valorstone](items/Valorstone.md) | You can attach this stone to armor that doesn't already have a feature. The armor gains the following feature. Resilient: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.                               |
-| 16   | [Skeleton Key](items/Skeleton%20Key.md) | When you use this key to open a locked door, you gain advantage on the Finesse Roll.                                                                                                                                                                                                           |
-| 17   | [Arcane Prism](items/Arcane%20Prism.md) | Position this prism in a location of your choosing and activate it. All allies within Close range of it gain a +1 bonus to their Spellcast Rolls. While activated, the prism can't be moved. Once the prism is deactivated, it can't be activated again until your next long rest.             |
-| 18   | [Minor Stamina Potion Recipe](items/Minor%20Stamina%20Potion%20Recipe.md) | As a downtime move, you can use the bone of a creature to craft a Minor Stamina Potion.                                                                                                                                                                                                        |
-| 19   | [Minor Health Potion Recipe](items/Minor%20Health%20Potion%20Recipe.md) | As a downtime move, you can use a vial of blood to craft a Minor Health Potion.                                                                                                                                                                                                                |
-| 20   | [Homing Compasses](items/Homing%20Compasses.md) | These two compasses point toward each other no matter how far apart they are.                                                                                                                                                                                                                  |
-| 21   | [Corrector Sprite](items/Corrector%20Sprite.md) | This tiny sprite sits in the curve of your ear canal and whispers helpful advice during combat. Once per short rest, you can gain advantage on an attack roll.                                                                                                                                 |
-| 22   | [Gecko Gloves](items/Gecko%20Gloves.md) | You can climb up vertical surfaces and across ceilings.                                                                                                                                                                                                                                        |
-| 23   | [Lorekeeper](items/Lorekeeper.md) | You can store the name and details of up to three hostile creatures inside this book. You gain a +1 bonus to action rolls against those creatures.                                                                                                                                             |
-| 24   | [Vial of Darksmoke Recipe](items/Vial%20of%20Darksmoke%20Recipe.md) | As a downtime move, you can mark a Stress to craft a Vial of Darksmoke.                                                                                                                                                                                                                        |
-| 25   | [Bloodstone](items/Bloodstone.md) | You can attach this stone to a weapon that doesn’t already have a feature. The weapon gains the following feature. Brutal: When you roll the maximum value on a damage die, roll an additional damage die.                                                                                     |
-| 26   | [Greatstone](items/Greatstone.md) | You can attach this stone to a weapon that doesn’t already have a feature. The weapon gains the following feature. Powerful: On a successful attack, roll an additional damage die and discard the lowest result.                                                                              |
-| 27   | [Glider](items/Glider.md) | While falling, you can mark a Stress to deploy this small parachute and glide safely to the ground.                                                                                                                                                                                            |
-| 28   | [Ring of Silence](items/Ring%20of%20Silence.md) | Spend a Hope to activate this ring. Your footsteps are silent until your next rest.                                                                                                                                                                                                            |
-| 29   | [Calming Pendant](items/Calming%20Pendant.md) | When you would mark your last Stress, roll a d6. On a result of 5 or higher, don’t mark it.                                                                                                                                                                                                    |
-| 30   | [Dual Flask](items/Dual%20Flask.md) | This flask can hold two different liquids. You can swap between them by flipping a small switch on the flask’s side.                                                                                                                                                                           |
-| 31   | [Bag of Ficklesand](items/Bag%20of%20Ficklesand.md) | You can convince this small bag of sand to be much heavier or lighter with a successful Presence Roll (10). Additionally, on a successful Finesse Roll (10), you can blow a bit of sand into a target’s face to make them temporarily Vulnerable.                                              |
-| 32   | [Ring of Resistance](items/Ring%20of%20Resistance.md) | Once per long rest, you can activate this ring after a successful attack against you to halve the damage.                                                                                                                                                                                      |
-| 33   | [Phoenix Feather](items/Phoenix%20Feather.md) | If you have at least one Phoenix Feather on you when you fall unconscious, you gain a +1 bonus to the roll you make to determine whether you gain a scar.                                                                                                                                      |
-| 34   | [Box of Many Goods](items/Box%20of%20Many%20Goods.md) | Once per long rest, you can open this small box and roll a d12. On a result of 1-6, it’s empty. On a result of 7-10, it contains one random common consumable. On a result of 11-12, it contains two random common consumables.                                                                |
-| 35   | [Airblade Charm](items/Airblade%20Charm.md) | You can attach this charm to a weapon with a Melee range. Three times per rest, you can activate the charm and attack a target within Close range.                                                                                                                                             |
-| 36   | [Portal Seed](items/Portal%20Seed.md) | You can plant this seed in the ground to grow a portal in that spot. The portal is ready to use in 24 hours. You can use this portal to travel to any other location where you planted a portal seed. A portal can be destroyed by dealing any amount of Magic damage to it.                   |
-| 37   | [Paragon’s Chain](items/Paragons%20Chain.md) | As a downtime move, you can meditate on an ideal or principle you hold dear and focus your will into this chain. Once per long rest, you can spend a Hope to roll a d20 as your Hope Die for rolls that directly align with that principle.                                                    |
-| 38   | [Elusive Amulet](items/Elusive%20Amulet.md) | Once per long rest, you can activate this amulet to become Hidden until you move. While Hidden in this way, you remain unseen even if an adversary moves to where they would normally see you.                                                                                                 |
-| 39   | [Hopekeeper Locket](items/Hopekeeper%20Locket.md) | During a long rest, if you have 6 Hope, you can spend a Hope to imbue this locket with your bountiful resolve. When you have 0 Hope, you can use the locket to immediately gain a Hope. The locket must be re‑imbued before it can be used this way again.                                     |
-| 40   | [Infinite Bag](items/Infinite%20Bag.md) | When you store items in this bag, they are kept in a pocket dimension that never runs out of space. You can retrieve an item at any time.                                                                                                                                                      |
-| 41   | [Stride Relic](items/Stride%20Relic.md) | You gain a +1 bonus to your Agility. You can only carry one relic.                                                                                                                                                                                                                             |
-| 42   | [Bolster Relic](items/Bolster%20Relic.md) | You gain a +1 bonus to your Strength. You can only carry one relic.                                                                                                                                                                                                                            |
-| 43   | [Control Relic](items/Control%20Relic.md) | You gain a +1 bonus to your Finesse. You can only carry one relic.                                                                                                                                                                                                                             |
-| 44   | [Attune Relic](items/Attune%20Relic.md) | You gain a +1 bonus to your Instinct. You can only carry one relic.                                                                                                                                                                                                                            |
-| 45   | [Charm Relic](items/Charm%20Relic.md) | You gain a +1 bonus to your Presence. You can only carry one relic.                                                                                                                                                                                                                            |
-| 46   | [Enlighten Relic](items/Enlighten%20Relic.md) | You gain a +1 bonus to your Knowledge. You can only carry one relic.                                                                                                                                                                                                                           |
-| 47   | [Honing Relic](items/Honing%20Relic.md) | You gain a +1 bonus to an Experience of your choice. You can only carry one relic.                                                                                                                                                                                                             |
-| 48   | [Flickerfly Pendant](items/Flickerfly%20Pendant.md) | While you carry this pendant, your weapons with a Melee range that deal physical damage have a gossamer sheen and can attack targets within Very Close range.                                                                                                                                  |
-| 49   | [Lakestrider Boots](items/Lakestrider%20Boots.md) | You can walk on the surface of water as if it were soft ground.                                                                                                                                                                                                                                |
-| 50   | [Clay Companion](items/Clay%20Companion.md) | When you sculpt this ball of clay into a clay animal companion, it behaves as that animal. For example, a clay spider can spin clay webs, while a clay bird can fly. The clay companion retains memory and identity across different shapes, but they can adopt new mannerisms with each form. |
-| 51   | [Mythic Dust Recipe](items/Mythic%20Dust%20Recipe.md) | As a downtime move, you can use a handful of fine gold dust to craft Mythic Dust.                                                                                                                                                                                                              |
-| 52   | [Shard of Memory](items/Shard%20of%20Memory.md) | Once per long rest, you can spend 2 Hope to recall a domain card from your vault instead of paying its Recall Cost.                                                                                                                                                                            |
-| 53   | [Gem of Alacrity](items/Gem%20of%20Alacrity.md) | You can attach this gem to a weapon, allowing you to use your Agility when making an attack with that weapon.                                                                                                                                                                                  |
-| 54   | [Gem of Might](items/Gem%20of%20Might.md) | You can attach this gem to a weapon, allowing you to use your Strength when making an attack with that weapon.                                                                                                                                                                                 |
-| 55   | [Gem of Precision](items/Gem%20of%20Precision.md) | You can attach this gem to a weapon, allowing you to use your Finesse when making an attack with that weapon.                                                                                                                                                                                  |
-| 56   | [Gem of Insight](items/Gem%20of%20Insight.md) | You can attach this gem to a weapon, allowing you to use your Instinct when making an attack with that weapon.                                                                                                                                                                                 |
-| 57   | [Gem of Audacity](items/Gem%20of%20Audacity.md) | You can attach this gem to a weapon, allowing you to use your Presence when making an attack with that weapon.                                                                                                                                                                                 |
-| 58   | [Gem of Sagacity](items/Gem%20of%20Sagacity.md) | You can attach this gem to a weapon, allowing you to use your Knowledge when making an attack with that weapon.                                                                                                                                                                                |
-| 59   | [Ring of Unbreakable Resolve](items/Ring%20of%20Unbreakable%20Resolve.md) | Once per session, when the GM spends a Fear, you can spend 4 Hope to cancel the effects of that spent Fear.                                                                                                                                                                                    |
-| 60   | [Belt of Unity](items/Belt%20of%20Unity.md) | Once per session, you can spend 5 Hope to lead a Tag Team Roll with three PCs instead of two.                                                                                                                                                                                                  |
+- **Common (1d12 or 2d12):** Common items might be found at an abandoned camp or readily available at a local shop.
+- **Uncommon (2d12 or 3d12):** Uncommon items might be found in limited supply in a shop, kept in a protected place in a camp, or offered as part of a reward for a job.
+- **Rare (3d12 or 4d12):** Rare items might be kept under lock and key in a shop, offered as the sole reward for a job, or discovered among a powerful NPC's possessions.
+- **Legendary (4d12 or 5d12):** Legendary items might be the only item of their kind, a reward for an incredibly difficult or dangerous job, or a powerful adversary's most precious and guarded treasure.
+
+#### CORE SET AND HOPE & FEAR EXPANSION ITEMS
+
+The source tables are paired by roll result below. Roll a d6: on a 1-3, use the Core Set entry; on a 4-6, use the Hope & Fear Expansion Set entry in the same row.
+
+| Roll | Core Set Item | Hope & Fear Expansion Item |
+| --- | --- | --- |
+| 01 | [Premium Bedroll](items/Premium%20Bedroll.md) | [Caltrops](items/Caltrops.md)\* |
+| 02 | [Piper Whistle](items/Piper%20Whistle.md) | [Grapnel](items/Grapnel.md)\* |
+| 03 | [Charging Quiver](items/Charging%20Quiver.md) | [Ball Bearings](items/Ball%20Bearings.md)\* |
+| 04 | [Alistair’s Torch](items/Alistairs%20Torch.md) | [Box of Dragon Dust](items/Box%20of%20Dragon%20Dust.md)\* |
+| 05 | [Speaking Orbs](items/Speaking%20Orbs.md) | [Nighthawker’s Ring](items/Nighthawkers%20Ring.md)\* |
+| 06 | [Manacles](items/Manacles.md) | [Elven Spyglass](items/Elven%20Spyglass.md)\* |
+| 07 | [Arcane Cloak](items/Arcane%20Cloak.md) | [Gourmet Granules](items/Gourmet%20Granules.md)\* |
+| 08 | [Woven Net](items/Woven%20Net.md) | [Collapsible Pole](items/Collapsible%20Pole.md)\* |
+| 09 | [Fire Jar](items/Fire%20Jar.md) | [Blackwing Quill](items/Blackwing%20Quill.md)\* |
+| 10 | [Suspended Rod](items/Suspended%20Rod.md) | [Silee’s Folding Knife](items/Silees%20Folding%20Knife.md)\* |
+| 11 | [Glamour Stone](items/Glamour%20Stone.md) | [Windup Toy](items/Windup%20Toy.md)\* |
+| 12 | [Empty Chest](items/Empty%20Chest.md) | [Loaded Dice](items/Loaded%20Dice.md)\* |
+| 13 | [Companion Case](items/Companion%20Case.md) | [Hollowbark Horn](items/Hollowbark%20Horn.md)\* |
+| 14 | [Piercing Arrows](items/Piercing%20Arrows.md) | [Self-Tying Rope](items/Self-Tying%20Rope.md)\* |
+| 15 | [Valorstone](items/Valorstone.md) | [Thief’s Compass](items/Thiefs%20Compass.md)\* |
+| 16 | [Skeleton Key](items/Skeleton%20Key.md) | [Traveler’s Bell](items/Travelers%20Bell.md)\* |
+| 17 | [Arcane Prism](items/Arcane%20Prism.md) | [Mandragorian Torch](items/Mandragorian%20Torch.md)\* |
+| 18 | [Minor Stamina Potion Recipe](items/Minor%20Stamina%20Potion%20Recipe.md) | [Boots of Supple Mystique](items/Boots%20of%20Supple%20Mystique.md)\* |
+| 19 | [Minor Health Potion Recipe](items/Minor%20Health%20Potion%20Recipe.md) | [Zephyr’s Jar](items/Zephyrs%20Jar.md)\* |
+| 20 | [Homing Compasses](items/Homing%20Compasses.md) | [Returning Ring](items/Returning%20Ring.md)\* |
+| 21 | [Corrector Sprite](items/Corrector%20Sprite.md) | [Kingfisher’s Net](items/Kingfishers%20Net.md)\* |
+| 22 | [Gecko Gloves](items/Gecko%20Gloves.md) | [Titan’s Girdle](items/Titans%20Girdle.md)\* |
+| 23 | [Lorekeeper](items/Lorekeeper.md) | [Iron Veil](items/Iron%20Veil.md)\* |
+| 24 | [Vial of Darksmoke Recipe](items/Vial%20of%20Darksmoke%20Recipe.md) | [Furball Bag](items/Furball%20Bag.md)\* |
+| 25 | [Bloodstone](items/Bloodstone.md) | [Whisperstep Anklet](items/Whisperstep%20Anklet.md)\* |
+| 26 | [Greatstone](items/Greatstone.md) | [Enchanter’s Loupe](items/Enchanters%20Loupe.md)\* |
+| 27 | [Glider](items/Glider.md) | [Escher’s Mirrorball](items/Eschers%20Mirrorball.md)\* |
+| 28 | [Ring of Silence](items/Ring%20of%20Silence.md) | [Cheater’s Coin](items/Cheaters%20Coin.md)\* |
+| 29 | [Calming Pendant](items/Calming%20Pendant.md) | [Gravewarden’s Bell](items/Gravewardens%20Bell.md)\* |
+| 30 | [Dual Flask](items/Dual%20Flask.md) | [Reliquary of the Sightless Saint](items/Reliquary%20of%20the%20Sightless%20Saint.md)\* |
+| 31 | [Bag of Ficklesand](items/Bag%20of%20Ficklesand.md) | [Map of Revelation](items/Map%20of%20Revelation.md)\* |
+| 32 | [Ring of Resistance](items/Ring%20of%20Resistance.md) | [Dagginae’s Obsidian Slate](items/Dagginaes%20Obsidian%20Slate.md)\* |
+| 33 | [Phoenix Feather](items/Phoenix%20Feather.md) | [Gadiman’s Backpack](items/Gadimans%20Backpack.md)\* |
+| 34 | [Box of Many Goods](items/Box%20of%20Many%20Goods.md) | [Eclipse Coin](items/Eclipse%20Coin.md)\* |
+| 35 | [Airblade Charm](items/Airblade%20Charm.md) | [Sorcerer’s Hat](items/Sorcerers%20Hat.md)\* |
+| 36 | [Portal Seed](items/Portal%20Seed.md) | [Ghoulskin Gloves](items/Ghoulskin%20Gloves.md)\* |
+| 37 | [Paragon’s Chain](items/Paragons%20Chain.md) | [Gloves of Alacrity](items/Gloves%20of%20Alacrity.md)\* |
+| 38 | [Elusive Amulet](items/Elusive%20Amulet.md) | [Insomniac’s Periapt](items/Insomniacs%20Periapt.md)\* |
+| 39 | [Hopekeeper Locket](items/Hopekeeper%20Locket.md) | [Wildrider’s Saddle](items/Wildriders%20Saddle.md)\* |
+| 40 | [Infinite Bag](items/Infinite%20Bag.md) | [Soul-Twin Circlets](items/Soul-Twin%20Circlets.md)\* |
+| 41 | [Stride Relic](items/Stride%20Relic.md) | [Namer’s Oracle](items/Namers%20Oracle.md)\* |
+| 42 | [Bolster Relic](items/Bolster%20Relic.md) | [Crucible Frames](items/Crucible%20Frames.md)\* |
+| 43 | [Control Relic](items/Control%20Relic.md) | [Two-Faced Aegis Brooch](items/Two-Faced%20Aegis%20Brooch.md)\* |
+| 44 | [Attune Relic](items/Attune%20Relic.md) | [Knockback Bracelets](items/Knockback%20Bracelets.md)\* |
+| 45 | [Charm Relic](items/Charm%20Relic.md) | [Force Disc](items/Force%20Disc.md)\* |
+| 46 | [Enlighten Relic](items/Enlighten%20Relic.md) | [Molepaw Mittens](items/Molepaw%20Mittens.md)\* |
+| 47 | [Honing Relic](items/Honing%20Relic.md) | [Timekeeper’s Pendant](items/Timekeepers%20Pendant.md)\* |
+| 48 | [Flickerfly Pendant](items/Flickerfly%20Pendant.md) | [Iron Dagger Pendant](items/Iron%20Dagger%20Pendant.md)\* |
+| 49 | [Lakestrider Boots](items/Lakestrider%20Boots.md) | [Collar of Ascendancy](items/Collar%20of%20Ascendancy.md)\* |
+| 50 | [Clay Companion](items/Clay%20Companion.md) | [Temporal Sanctuary](items/Temporal%20Sanctuary.md)\* |
+| 51 | [Mythic Dust Recipe](items/Mythic%20Dust%20Recipe.md) | [Hero’s Helm](items/Heros%20Helm.md)\* |
+| 52 | [Shard of Memory](items/Shard%20of%20Memory.md) | [Rings of Friendship](items/Rings%20of%20Friendship.md)\* |
+| 53 | [Gem of Alacrity](items/Gem%20of%20Alacrity.md) | [Rings of Camaraderie](items/Rings%20of%20Camaraderie.md)\* |
+| 54 | [Gem of Might](items/Gem%20of%20Might.md) | [Rings of Alliance](items/Rings%20of%20Alliance.md)\* |
+| 55 | [Gem of Precision](items/Gem%20of%20Precision.md) | [Phobophage’s Circlet](items/Phobophages%20Circlet.md)\* |
+| 56 | [Gem of Insight](items/Gem%20of%20Insight.md) | [Quillshawl](items/Quillshawl.md)\* |
+| 57 | [Gem of Audacity](items/Gem%20of%20Audacity.md) | [Warp Pendant](items/Warp%20Pendant.md)\* |
+| 58 | [Gem of Sagacity](items/Gem%20of%20Sagacity.md) | [Portal Frames](items/Portal%20Frames.md)\* |
+| 59 | [Ring of Unbreakable Resolve](items/Ring%20of%20Unbreakable%20Resolve.md) | [Communion Relic](items/Communion%20Relic.md)\* |
+| 60 | [Belt of Unity](items/Belt%20of%20Unity.md) | [Augur’s Relic](items/Augurs%20Relic.md)\* |
+
+\* Hope & Fear Expansion Set entry.
 
 ### CONSUMABLES
 
-Consumables are loot that can only be used once. You can hold up to five of each consumable at a time. Using a consumable doesn't require a roll unless required by the GM or the demands of the fiction.
+Consumables are pieces of loot that can be used only once. You can hold up to five of each consumable at a time. Using a consumable doesn't require a roll unless required by the GM or the demands of the fiction.
 
-To generate a random consumable, choose a rarity, roll the designated dice, and match the total to the item in the table:
+You can use the tables below to generate consumables ahead of a game or during a session. Choose the desired rarity, roll the associated number of d12s, add their values together (if needed), and then reference the table for the consumable that matches that value.
 
-- **Common:** 1d12 or 2d12
-- **Uncommon:** 2d12 or 3d12
-- **Rare:** 3d12 or 4d12
-- **Legendary:** 4d12 or 5d12
+- **Common (1d12 or 2d12):** Common consumables might be found at an abandoned camp or readily available at a local store.
+- **Uncommon (2d12 or 3d12):** Uncommon consumables might be found in limited supply in a shop, kept in a protected place in a camp, or offered as part of a reward for a job.
+- **Rare (3d12 or 4d12):** Rare consumables might be kept under lock and key in a shop, offered as the sole reward for a job, or discovered in a powerful NPC's possessions.
+- **Legendary (4d12 or 5d12):** Legendary consumables might be the only item of their kind, a reward for an incredibly difficult or dangerous job, or a powerful adversary's most precious and guarded treasure.
 
-| ROLL | LOOT                            | DESCRIPTION                                                                                                                                                                                                              |
-| ---- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 01   | [Stride Potion](consumables/Stride%20Potion.md) | You gain a +1 bonus to your next Agility Roll.                                                                                                                                                                           |
-| 02   | [Bolster Potion](consumables/Bolster%20Potion.md) | You gain a +1 bonus to your next Strength Roll.                                                                                                                                                                          |
-| 03   | [Control Potion](consumables/Control%20Potion.md) | You gain a +1 bonus to your next Finesse Roll.                                                                                                                                                                           |
-| 04   | [Attune Potion](consumables/Attune%20Potion.md) | You gain a +1 bonus to your next Instinct Roll.                                                                                                                                                                          |
-| 05   | [Charm Potion](consumables/Charm%20Potion.md) | You gain a +1 bonus to your next Presence Roll.                                                                                                                                                                          |
-| 06   | [Enlighten Potion](consumables/Enlighten%20Potion.md) | You gain a +1 bonus to your next Knowledge Roll.                                                                                                                                                                         |
-| 07   | [Minor Health Potion](consumables/Minor%20Health%20Potion.md) | Clear 1d4 HP.                                                                                                                                                                                                            |
-| 08   | [Minor Stamina Potion](consumables/Minor%20Stamina%20Potion.md) | Clear 1d4 Stress.                                                                                                                                                                                                        |
-| 09   | [Grindletooth Venom](consumables/Grindletooth%20Venom.md) | You can apply this venom to a weapon that deals physical damage to add a d6 to your next damage roll with that weapon.                                                                                                   |
-| 10   | [Varik Leaves](consumables/Varik%20Leaves.md) | You can eat these paired leaves to immediately gain 2 Hope.                                                                                                                                                              |
-| 11   | [Vial of Moondrip](consumables/Vial%20of%20Moondrip.md) | When you drink the contents of this vial, you can see in total darkness until your next rest.                                                                                                                            |
-| 12   | [Unstable Arcane Shard](consumables/Unstable%20Arcane%20Shard.md) | You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 1d20 magic damage.                                                                          |
-| 13   | [Potion of Stability](consumables/Potion%20of%20Stability.md) | You can drink this potion to choose one additional downtime move.                                                                                                                                                        |
-| 14   | [Improved Grindletooth Venom](consumables/Improved%20Grindletooth%20Venom.md) | You can apply this venom to a weapon that deals physical damage to add a d8 to your next damage roll with that weapon.                                                                                                   |
-| 15   | [Morphing Clay](consumables/Morphing%20Clay.md) | You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest.                                                                                                        |
-| 16   | [Vial of Darksmoke](consumables/Vial%20of%20Darksmoke.md) | When an adversary attacks you, use this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.                                                                  |
-| 17   | [Jumping Root](consumables/Jumping%20Root.md) | Eat this root to leap up to Far range once without needing to roll.                                                                                                                                                      |
-| 18   | [Snap Powder](consumables/Snap%20Powder.md) | Mark a Stress and clear a HP.                                                                                                                                                                                            |
-| 19   | [Health Potion](consumables/Health%20Potion.md) | Clear 1d4+1 HP.                                                                                                                                                                                                          |
-| 20   | [Stamina Potion](consumables/Stamina%20Potion.md) | Clear 1d4+1 Stress.                                                                                                                                                                                                      |
-| 21   | [Armor Stitcher](consumables/Armor%20Stitcher.md) | You can use this stitcher to spend any number of Hope and clear that many Armor Slots.                                                                                                                                   |
-| 22   | [Gill Salve](consumables/Gill%20Salve.md) | You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.                                                                                                                 |
-| 23   | [Replication Parchment](consumables/Replication%20Parchment.md) | By touching this piece of parchment to another, you can perfectly copy the second parchment's contents. Once used, this parchment becomes mundane paper.                                                                 |
-| 24   | [Improved Arcane Shard](consumables/Improved%20Arcane%20Shard.md) | You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 2d20 magic damage.                                                                          |
-| 25   | [Major Stride Potion](consumables/Major%20Stride%20Potion.md) | You gain a +1 bonus to your Agility until your next rest.                                                                                                                                                                |
-| 26   | [Major Bolster Potion](consumables/Major%20Bolster%20Potion.md) | You gain a +1 bonus to your Strength until your next rest.                                                                                                                                                               |
-| 27   | [Major Control Potion](consumables/Major%20Control%20Potion.md) | You gain a +1 bonus to your Finesse until your next rest.                                                                                                                                                                |
-| 28   | [Major Attune Potion](consumables/Major%20Attune%20Potion.md) | You gain a +1 bonus to your Instinct until your next rest.                                                                                                                                                               |
-| 29   | [Major Charm Potion](consumables/Major%20Charm%20Potion.md) | You gain a +1 bonus to your Presence until your next rest.                                                                                                                                                               |
-| 30   | [Major Enlighten Potion](consumables/Major%20Enlighten%20Potion.md) | You gain a +1 bonus to your Knowledge until your next rest.                                                                                                                                                              |
-| 31   | [Blood of the Yorgi](consumables/Blood%20of%20the%20Yorgi.md) | You can drink this blood to disappear from where you are and immediately reappear at a point you can see within Very Far range.                                                                                          |
-| 32   | [Homet's Secret Potion](consumables/Homets%20Secret%20Potion.md) | After drinking this potion, the next successful attack you make critically succeeds.                                                                                                                                     |
-| 33   | [Redthorn Saliva](consumables/Redthorn%20Saliva.md) | You can apply this saliva to a weapon that deals physical damage to add a d12 to your next damage roll with that weapon.                                                                                                 |
-| 34   | [Channelstone](consumables/Channelstone.md) | You can use this stone to take a spell or grimoire from your vault, use it once, and return it to your vault.                                                                                                            |
-| 35   | [Mythic Dust](consumables/Mythic%20Dust.md) | You can apply this dust to a weapon that deals magic damage to add a d12 to your next damage roll with that weapon.                                                                                                      |
-| 36   | [Acidpaste](consumables/Acidpaste.md) | This paste eats away walls and other surfaces in bright flashes.                                                                                                                                                         |
-| 37   | [Hopehold Flare](consumables/Hopehold%20Flare.md) | When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene.                |
-| 38   | [Major Arcane Shard](consumables/Major%20Arcane%20Shard.md) | You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 4d20 magic damage.                                                                          |
-| 39   | [Featherbone](consumables/Featherbone.md) | You can use this bone to control your falling speed for a number of minutes equal to your level.                                                                                                                         |
-| 40   | [Circle of the Void](consumables/Circle%20of%20the%20Void.md) | Mark a Stress to create a void that extends up to Far range. No magic can be cast inside the void, and creatures within the void are immune to magic damage.                                                             |
-| 41   | [Sun Tree Sap](consumables/Sun%20Tree%20Sap.md) | Consume this sap to roll a d6. On a result of 5-6, clear 2 HP. On a result of 2-4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.                                 |
-| 42   | [Dripfang Poison](consumables/Dripfang%20Poison.md) | A creature who consumes this poison takes 8d10 direct magic damage.                                                                                                                                                      |
-| 43   | [Major Health Potion](consumables/Major%20Health%20Potion.md) | Clear 1d4+2 HP.                                                                                                                                                                                                          |
-| 44   | [Major Stamina Potion](consumables/Major%20Stamina%20Potion.md) | Clear 1d4+2 Stress.                                                                                                                                                                                                      |
-| 45   | [Ogre Musk](consumables/Ogre%20Musk.md) | You can use this musk to prevent anyone from tracking you by mundane or magical means until your next rest.                                                                                                              |
-| 46   | [Wingsprout](consumables/Wingsprout.md) | You gain magic wings that allow you to fly for a number of minutes equal to your level.                                                                                                                                  |
-| 47   | [Jar of Lost Voices](consumables/Jar%20of%20Lost%20Voices.md) | You can open this jar to release a deafening echo of voices for a number of minutes equal to your Instinct. Creatures within Far range unprepared for the sound take 6d8 magic damage.                                   |
-| 48   | [Dragonbloom Tea](consumables/Dragonbloom%20Tea.md) | You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take 2d20 physical damage using your Proficiency. |
-| 49   | [Bridge Seed](consumables/Bridge%20Seed.md) | Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them. The vines dissipate on your next rest.                                                          |
-| 50   | [Sleeping Sap](consumables/Sleeping%20Sap.md) | You can drink this potion to fall asleep for a full night's rest. You clear all Stress upon waking.                                                                                                                      |
-| 51   | [Feast of Xuria](consumables/Feast%20of%20Xuria.md) | You can eat this meal to clear all HP and Stress and gain 1d4 Hope.                                                                                                                                                      |
-| 52   | [Bonding Honey](consumables/Bonding%20Honey.md) | This honey can be used to glue two objects together permanently.                                                                                                                                                         |
-| 53   | [Shrinking Potion](consumables/Shrinking%20Potion.md) | You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a -1 penalty to your Proficiency.                              |
-| 54   | [Growing Potion](consumables/Growing%20Potion.md) | You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency.                              |
-| 55   | [Knowledge Stone](consumables/Knowledge%20Stone.md) | If you die while holding this stone, an ally can take a card from your loadout to place in their loadout or vault. After they take this knowledge, the stone crumbles.                                                   |
-| 56   | [Sweet Moss](consumables/Sweet%20Moss.md) | You can consume this moss during a rest to clear 1d10 HP or 1d10 Stress.                                                                                                                                                 |
-| 57   | [Blinding Orb](consumables/Blinding%20Orb.md) | You can activate this orb to create a flash of bright light. All targets within Close range become Vulnerable until they mark HP.                                                                                        |
-| 58   | [Death Tea](consumables/Death%20Tea.md) | After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don't critically succeed on an attack before your next long rest, you die.                                     |
-| 59   | [Mirror of Marigold](consumables/Mirror%20of%20Marigold.md) | When you take damage, you can spend a Hope to negate that damage, after which the mirror shatters.                                                                                                                       |
-| 60   | [Stardrop](consumables/Stardrop.md) | You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.                                                                                          |
+#### CORE SET AND HOPE & FEAR EXPANSION CONSUMABLES
+
+The source tables are paired by roll result below. Roll a d6: on a 1-3, use the Core Set entry; on a 4-6, use the Hope & Fear Expansion Set entry in the same row.
+
+| Roll | Core Set Consumable | Hope & Fear Expansion Consumable |
+| --- | --- | --- |
+| 01 | [Stride Potion](consumables/Stride%20Potion.md) | [Warding Candle](consumables/Warding%20Candle.md)\* |
+| 02 | [Bolster Potion](consumables/Bolster%20Potion.md) | [Iridian Dust](consumables/Iridian%20Dust.md)\* |
+| 03 | [Control Potion](consumables/Control%20Potion.md) | [Verglasian Seed](consumables/Verglasian%20Seed.md)\* |
+| 04 | [Attune Potion](consumables/Attune%20Potion.md) | [Cupbearer’s Bezoar](consumables/Cupbearers%20Bezoar.md)\* |
+| 05 | [Charm Potion](consumables/Charm%20Potion.md) | [Mossmantle Potion](consumables/Mossmantle%20Potion.md)\* |
+| 06 | [Enlighten Potion](consumables/Enlighten%20Potion.md) | [Lyrebird Lozenge](consumables/Lyrebird%20Lozenge.md)\* |
+| 07 | [Minor Health Potion](consumables/Minor%20Health%20Potion.md) | [Vial of Featherfall](consumables/Vial%20of%20Featherfall.md)\* |
+| 08 | [Minor Stamina Potion](consumables/Minor%20Stamina%20Potion.md) | [Chimeric Saliva](consumables/Chimeric%20Saliva.md)\* |
+| 09 | [Grindletooth Venom](consumables/Grindletooth%20Venom.md) | [Packet of Space Dust](consumables/Packet%20of%20Space%20Dust.md)\* |
+| 10 | [Varik Leaves](consumables/Varik%20Leaves.md) | [Pipeweed](consumables/Pipeweed.md)\* |
+| 11 | [Vial of Moondrip](consumables/Vial%20of%20Moondrip.md) | [Deathseer’s Powder](consumables/Deathseers%20Powder.md)\* |
+| 12 | [Unstable Arcane Shard](consumables/Unstable%20Arcane%20Shard.md) | [Slayer’s Salt](consumables/Slayers%20Salt.md)\* |
+| 13 | [Potion of Stability](consumables/Potion%20of%20Stability.md) | [Yakamel Milk](consumables/Yakamel%20Milk.md)\* |
+| 14 | [Improved Grindletooth Venom](consumables/Improved%20Grindletooth%20Venom.md) | [Glowmoss Mushroom](consumables/Glowmoss%20Mushroom.md)\* |
+| 15 | [Morphing Clay](consumables/Morphing%20Clay.md) | [Red Ooze Oil](consumables/Red%20Ooze%20Oil.md)\* |
+| 16 | [Vial of Darksmoke](consumables/Vial%20of%20Darksmoke.md) | [Instant Camp](consumables/Instant%20Camp.md)\* |
+| 17 | [Jumping Root](consumables/Jumping%20Root.md) | [Bundle of Spiderlegs](consumables/Bundle%20of%20Spiderlegs.md)\* |
+| 18 | [Snap Powder](consumables/Snap%20Powder.md) | [Ciscan Fog Bottle](consumables/Ciscan%20Fog%20Bottle.md)\* |
+| 19 | [Health Potion](consumables/Health%20Potion.md) | [Snapthorn Seed](consumables/Snapthorn%20Seed.md)\* |
+| 20 | [Stamina Potion](consumables/Stamina%20Potion.md) | [Sprite Bottle](consumables/Sprite%20Bottle.md)\* |
+| 21 | [Armor Stitcher](consumables/Armor%20Stitcher.md) | [Gravity Bomb](consumables/Gravity%20Bomb.md)\* |
+| 22 | [Gill Salve](consumables/Gill%20Salve.md) | [Gossip Flower](consumables/Gossip%20Flower.md)\* |
+| 23 | [Replication Parchment](consumables/Replication%20Parchment.md) | [Displacement Token](consumables/Displacement%20Token.md)\* |
+| 24 | [Improved Arcane Shard](consumables/Improved%20Arcane%20Shard.md) | [Night Hag’s Dust](consumables/Night%20Hags%20Dust.md)\* |
+| 25 | [Major Stride Potion](consumables/Major%20Stride%20Potion.md) | [Self-Sewing Thread](consumables/Self-Sewing%20Thread.md)\* |
+| 26 | [Major Bolster Potion](consumables/Major%20Bolster%20Potion.md) | [Stonemason’s Fortune](consumables/Stonemasons%20Fortune.md)\* |
+| 27 | [Major Control Potion](consumables/Major%20Control%20Potion.md) | [Mnemonic Potion](consumables/Mnemonic%20Potion.md)\* |
+| 28 | [Major Attune Potion](consumables/Major%20Attune%20Potion.md) | [Salamander Salve](consumables/Salamander%20Salve.md)\* |
+| 29 | [Major Charm Potion](consumables/Major%20Charm%20Potion.md) | [Green Ooze Oil](consumables/Green%20Ooze%20Oil.md)\* |
+| 30 | [Major Enlighten Potion](consumables/Major%20Enlighten%20Potion.md) | [Sunlight Orb](consumables/Sunlight%20Orb.md)\* |
+| 31 | [Blood of the Yorgi](consumables/Blood%20of%20the%20Yorgi.md) | [Moonlight Orb](consumables/Moonlight%20Orb.md)\* |
+| 32 | [Homet’s Secret Potion](consumables/Homets%20Secret%20Potion.md) | [Midas Flask](consumables/Midas%20Flask.md)\* |
+| 33 | [Redthorn Saliva](consumables/Redthorn%20Saliva.md) | [Staff of Reversal](consumables/Staff%20of%20Reversal.md)\* |
+| 34 | [Channelstone](consumables/Channelstone.md) | [Berserker’s Brew](consumables/Berserkers%20Brew.md)\* |
+| 35 | [Mythic Dust](consumables/Mythic%20Dust.md) | [Emberite Shard](consumables/Emberite%20Shard.md)\* |
+| 36 | [Acidpaste](consumables/Acidpaste.md) | [Arcticite Shard](consumables/Arcticite%20Shard.md)\* |
+| 37 | [Hopehold Flare](consumables/Hopehold%20Flare.md) | [Fulgurite Shard](consumables/Fulgurite%20Shard.md)\* |
+| 38 | [Major Arcane Shard](consumables/Major%20Arcane%20Shard.md) | [Demiurge’s Draught](consumables/Demiurges%20Draught.md)\* |
+| 39 | [Featherbone](consumables/Featherbone.md) | [Cockerel Claw Tea](consumables/Cockerel%20Claw%20Tea.md)\* |
+| 40 | [Circle of the Void](consumables/Circle%20of%20the%20Void.md) | [Potion of Vigilance](consumables/Potion%20of%20Vigilance.md)\* |
+| 41 | [Sun Tree Sap](consumables/Sun%20Tree%20Sap.md) | [Cacophonous Concoction](consumables/Cacophonous%20Concoction.md)\* |
+| 42 | [Dripfang Poison](consumables/Dripfang%20Poison.md) | [Nightmare Mead](consumables/Nightmare%20Mead.md)\* |
+| 43 | [Major Health Potion](consumables/Major%20Health%20Potion.md) | [Stake of Abjuration](consumables/Stake%20of%20Abjuration.md)\* |
+| 44 | [Major Stamina Potion](consumables/Major%20Stamina%20Potion.md) | [Psychopomp’s Shroud](consumables/Psychopomps%20Shroud.md)\* |
+| 45 | [Ogre Musk](consumables/Ogre%20Musk.md) | [Phial of Deep Ink](consumables/Phial%20of%20Deep%20Ink.md)\* |
+| 46 | [Wingsprout](consumables/Wingsprout.md) | [Mesmer’s Tonic](consumables/Mesmers%20Tonic.md)\* |
+| 47 | [Jar of Lost Voices](consumables/Jar%20of%20Lost%20Voices.md) | [Invisibility Potion](consumables/Invisibility%20Potion.md)\* |
+| 48 | [Dragonbloom Tea](consumables/Dragonbloom%20Tea.md) | [Formoid Serum](consumables/Formoid%20Serum.md)\* |
+| 49 | [Bridge Seed](consumables/Bridge%20Seed.md) | [Steelskin Salve](consumables/Steelskin%20Salve.md)\* |
+| 50 | [Sleeping Sap](consumables/Sleeping%20Sap.md) | [Godling’s Pomelo](consumables/Godlings%20Pomelo.md)\* |
+| 51 | [Feast of Xuria](consumables/Feast%20of%20Xuria.md) | [Snakeskin Spirit](consumables/Snakeskin%20Spirit.md)\* |
+| 52 | [Bonding Honey](consumables/Bonding%20Honey.md) | [Magic-User’s Malison](consumables/Magic-Users%20Malison.md)\* |
+| 53 | [Shrinking Potion](consumables/Shrinking%20Potion.md) | [Quintessential Severant](consumables/Quintessential%20Severant.md)\* |
+| 54 | [Growing Potion](consumables/Growing%20Potion.md) | [Mask of the Echoed Self](consumables/Mask%20of%20the%20Echoed%20Self.md)\* |
+| 55 | [Knowledge Stone](consumables/Knowledge%20Stone.md) | [Necroprancer’s Bell](consumables/Necroprancers%20Bell.md)\* |
+| 56 | [Sweet Moss](consumables/Sweet%20Moss.md) | [Drakemantle](consumables/Drakemantle.md)\* |
+| 57 | [Blinding Orb](consumables/Blinding%20Orb.md) | [Gambler’s Fallacy](consumables/Gamblers%20Fallacy.md)\* |
+| 58 | [Death Tea](consumables/Death%20Tea.md) | [Lionheart Tonic](consumables/Lionheart%20Tonic.md)\* |
+| 59 | [Mirror of Marigold](consumables/Mirror%20of%20Marigold.md) | [Tears of the Undying Hero](consumables/Tears%20of%20the%20Undying%20Hero.md)\* |
+| 60 | [Stardrop](consumables/Stardrop.md) | [Featherstep Potion](consumables/Featherstep%20Potion.md)\* |
+
+\* Hope & Fear Expansion Set entry.
 
 ### GOLD
 
@@ -1834,7 +2081,7 @@ To viscerally convey how a PC's actions or circumstances affect their ability to
 
 By default, adversaries don't normally make action rolls except for attack rolls and any unique actions described in their stat blocks. Any other action an adversary attempts simply succeeds without an action roll; if you want an adversary's action to have a chance of failure, have any relevant PCs make reaction rolls instead.
 
-However, for especially dramatic or dicult tasks that the PCs can't influence, you can give an adversary an **action roll** anyway. For an adversary's action roll, roll a d20. If the result is equal to or greater than the action's Difficulty, the action succeeds—otherwise it fails. You can spend a Fear before rolling to add a relevant Experience from the adversary's stat block to the total. Use the same procedure when an adversary makes a **reaction roll.**
+However, for especially dramatic or difficult tasks that the PCs can't influence, you can give an adversary an **action roll** anyway. For an adversary's action roll, roll a d20. If the result is equal to or greater than the action's Difficulty, the action succeeds—otherwise it fails. You can spend a Fear before rolling to add a relevant Experience from the adversary's stat block to the total. Use the same procedure when an adversary makes a **reaction roll.**
 
 ###### ADVERSARY ADVANTAGE & DISADVANTAGE
 
@@ -2142,19 +2389,33 @@ This section contains the following stat blocks:
 ###### TIER 1 (LEVEL 1)
 
 - [Acid Burrower](adversaries/Acid%20Burrower.md)
+- [Ahuizotl](adversaries/Ahuizotl.md)
+- [Archer Guard](adversaries/Archer%20Guard.md)
+- [Atototl](adversaries/Atototl.md)
 - [Bear](adversaries/Bear.md)
+- [Bladed Guard](adversaries/Bladed%20Guard.md)
+- [Brawny Zombie](adversaries/Brawny%20Zombie.md)
+- [Bugboar](adversaries/Bugboar.md)
 - [Cave Ogre](adversaries/Cave%20Ogre.md)
+- [Common Ruffian](adversaries/Common%20Ruffian.md)
 - [Construct](adversaries/Construct.md)
 - [Courtier](adversaries/Courtier.md)
+- [Darkweave Crawler](adversaries/Darkweave%20Crawler.md)
+- [Darkweave Queen](adversaries/Darkweave%20Queen.md)
+- [Darkweave Spinner](adversaries/Darkweave%20Spinner.md)
+- [Darkweave Swarmlings](adversaries/Darkweave%20Swarmlings.md)
 - [Deeproot Defender](adversaries/Deeproot%20Defender.md)
 - [Dire Wolf](adversaries/Dire%20Wolf.md)
+- [Elk](adversaries/Elk.md)
+- [Falcon](adversaries/Falcon.md)
 - [Giant Mosquitoes](adversaries/Giant%20Mosquitoes.md)
 - [Giant Rat](adversaries/Giant%20Rat.md)
 - [Giant Scorpion](adversaries/Giant%20Scorpion.md)
 - [Glass Snake](adversaries/Glass%20Snake.md)
+- [Green Ooze](adversaries/Green%20Ooze.md)
+- [Grimmling Warband](adversaries/Grimmling%20Warband.md)
+- [Harpy](adversaries/Harpy.md)
 - [Harrier](adversaries/Harrier.md)
-- [Archer Guard](adversaries/Archer%20Guard.md)
-- [Bladed Guard](adversaries/Bladed%20Guard.md)
 - [Head Guard](adversaries/Head%20Guard.md)
 - [Jagged Knife Bandit](adversaries/Jagged%20Knife%20Bandit.md)
 - [Jagged Knife Hexer](adversaries/Jagged%20Knife%20Hexer.md)
@@ -2163,121 +2424,243 @@ This section contains the following stat blocks:
 - [Jagged Knife Lieutenant](adversaries/Jagged%20Knife%20Lieutenant.md)
 - [Jagged Knife Shadow](adversaries/Jagged%20Knife%20Shadow.md)
 - [Jagged Knife Sniper](adversaries/Jagged%20Knife%20Sniper.md)
+- [Kelpie](adversaries/Kelpie.md)
+- [Masque Muerte](adversaries/Masque%20Muerte.md)
+- [Mechanorb](adversaries/Mechanorb.md)
 - [Merchant](adversaries/Merchant.md)
 - [Minor Chaos Elemental](adversaries/Minor%20Chaos%20Elemental.md)
-- [Minor Fire Elemental](adversaries/Minor%20Fire%20Elemental.md)
 - [Minor Demon](adversaries/Minor%20Demon.md)
+- [Minor Fire Elemental](adversaries/Minor%20Fire%20Elemental.md)
 - [Minor Treant](adversaries/Minor%20Treant.md)
-- [Green Ooze](adversaries/Green%20Ooze.md) • [Tiny Green Ooze](adversaries/Tiny%20Green%20Ooze.md)
-- [Red Ooze](adversaries/Red%20Ooze.md)
-- [Tiny Red Ooze](adversaries/Tiny%20Red%20Ooze.md)
+- [Mountain Troll](adversaries/Mountain%20Troll.md)
+- [Octopus](adversaries/Octopus.md)
+- [Panther](adversaries/Panther.md)
+- [Patchwork Zombie Hulk](adversaries/Patchwork%20Zombie%20Hulk.md)
 - [Petty Noble](adversaries/Petty%20Noble.md)
+- [Phantom](adversaries/Phantom.md)
 - [Pirate Captain](adversaries/Pirate%20Captain.md)
 - [Pirate Raiders](adversaries/Pirate%20Raiders.md)
 - [Pirate Tough](adversaries/Pirate%20Tough.md)
+- [Poltergeist](adversaries/Poltergeist.md)
+- [Rabble Mawb](adversaries/Rabble%20Mawb.md)
+- [Red Ooze](adversaries/Red%20Ooze.md)
+- [Redcap Biters](adversaries/Redcap%20Biters.md)
+- [Redcap Breaker](adversaries/Redcap%20Breaker.md)
+- [Redcap Butcher](adversaries/Redcap%20Butcher.md)
+- [Redcap Candlemaker](adversaries/Redcap%20Candlemaker.md)
+- [Redcap Skinner](adversaries/Redcap%20Skinner.md)
+- [Rotted Zombie](adversaries/Rotted%20Zombie.md)
+- [Rugaru](adversaries/Rugaru.md)
+- [Sawtoothed Gillbeast](adversaries/Sawtoothed%20Gillbeast.md)
 - [Sellsword](adversaries/Sellsword.md)
+- [Shambling Zombie](adversaries/Shambling%20Zombie.md)
 - [Skeleton Archer](adversaries/Skeleton%20Archer.md)
 - [Skeleton Dredge](adversaries/Skeleton%20Dredge.md)
 - [Skeleton Knight](adversaries/Skeleton%20Knight.md)
 - [Skeleton Warrior](adversaries/Skeleton%20Warrior.md)
+- [Soul-Shattered Mage](adversaries/Soul-Shattered%20Mage.md)
 - [Spellblade](adversaries/Spellblade.md)
-- [Swarm of Rats](adversaries/Swarm%20of%20Rats.md)
+- [Spellbound Armor](adversaries/Spellbound%20Armor.md)
+- [Swarm Of Rats](adversaries/Swarm%20Of%20Rats.md)
 - [Sylvan Soldier](adversaries/Sylvan%20Soldier.md)
-- [Tangle Bramble Swarm](adversaries/Tangle%20Bramble%20Swarm.md)
 - [Tangle Bramble](adversaries/Tangle%20Bramble.md)
+- [Tangle Bramble Swarm](adversaries/Tangle%20Bramble%20Swarm.md)
+- [Tiny Green Ooze](adversaries/Tiny%20Green%20Ooze.md)
+- [Tiny Red Ooze](adversaries/Tiny%20Red%20Ooze.md)
+- [Viper](adversaries/Viper.md)
+- [Waxwork Creation](adversaries/Waxwork%20Creation.md)
 - [Weaponmaster](adversaries/Weaponmaster.md)
+- [Will-O’-The-Wisps](adversaries/Will-O-The-Wisps.md)
 - [Young Dryad](adversaries/Young%20Dryad.md)
-- [Brawny Zombie](adversaries/Brawny%20Zombie.md)
-- [Patchwork Zombie Hulk](adversaries/Patchwork%20Zombie%20Hulk.md)
-- [Rotted Zombie](adversaries/Rotted%20Zombie.md)
-- [Shambling Zombie](adversaries/Shambling%20Zombie.md)
+- [Yufo](adversaries/Yufo.md)
 - [Zombie Pack](adversaries/Zombie%20Pack.md)
 
 ###### TIER 2 (LEVELS 2-4)
 
-- [Archer Squadron](adversaries/Archer%20Squadron.md)
 - [Apprentice Assassin](adversaries/Apprentice%20Assassin.md)
+- [Archer Squadron](adversaries/Archer%20Squadron.md)
 - [Assassin Poisoner](adversaries/Assassin%20Poisoner.md)
-- [Master Assassin](adversaries/Master%20Assassin.md)
+- [Banshee](adversaries/Banshee.md)
+- [Basilisk](adversaries/Basilisk.md)
 - [Battle Box](adversaries/Battle%20Box.md)
+- [Berserker Alpha](adversaries/Berserker%20Alpha.md)
+- [Berserker Initiate](adversaries/Berserker%20Initiate.md)
+- [Centaur Warden](adversaries/Centaur%20Warden.md)
 - [Chaos Skull](adversaries/Chaos%20Skull.md)
+- [Chicken-Foot Hut](adversaries/Chicken-Foot%20Hut.md)
 - [Conscript](adversaries/Conscript.md)
 - [Courtesan](adversaries/Courtesan.md)
 - [Cult Adept](adversaries/Cult%20Adept.md)
 - [Cult Fang](adversaries/Cult%20Fang.md)
 - [Cult Initiate](adversaries/Cult%20Initiate.md)
 - [Demonic Hound Pack](adversaries/Demonic%20Hound%20Pack.md)
+- [Dire Pangolati](adversaries/Dire%20Pangolati.md)
+- [Doppelhound](adversaries/Doppelhound.md)
+- [Dragon Knight](adversaries/Dragon%20Knight.md)
 - [Electric Eels](adversaries/Electric%20Eels.md)
+- [Elephant](adversaries/Elephant.md)
 - [Elite Soldier](adversaries/Elite%20Soldier.md)
+- [Entombed Cat Beast](adversaries/Entombed%20Cat%20Beast.md)
+- [Entombed Elite Guard](adversaries/Entombed%20Elite%20Guard.md)
+- [Entombed Empress](adversaries/Entombed%20Empress.md)
+- [Entombed Necropriest](adversaries/Entombed%20Necropriest.md)
+- [Entombed Skin Beetles](adversaries/Entombed%20Skin%20Beetles.md)
+- [Entombed Stonemason](adversaries/Entombed%20Stonemason.md)
 - [Failed Experiment](adversaries/Failed%20Experiment.md)
-- [Giant Beastmaster](adversaries/Giant%20Beastmaster.md) • [Giant Brawler](adversaries/Giant%20Brawler.md)
-- [Giant Recruit](adversaries/Giant%20Recruit.md)
+- [Flock Of Feather Fiends](adversaries/Flock%20Of%20Feather%20Fiends.md)
+- [Fowlbear](adversaries/Fowlbear.md)
+- [Fungispunj Sporeling](adversaries/Fungispunj%20Sporeling.md)
+- [Fungispunj Sporophore](adversaries/Fungispunj%20Sporophore.md)
+- [Gargoyle](adversaries/Gargoyle.md)
+- [Giant Beastmaster](adversaries/Giant%20Beastmaster.md)
+- [Giant Brawler](adversaries/Giant%20Brawler.md)
 - [Giant Eagle](adversaries/Giant%20Eagle.md)
+- [Giant Octopus](adversaries/Giant%20Octopus.md)
+- [Giant Recruit](adversaries/Giant%20Recruit.md)
+- [Gobstalker](adversaries/Gobstalker.md)
 - [Gorgon](adversaries/Gorgon.md)
+- [Guahalan Alebrujo](adversaries/Guahalan%20Alebrujo.md)
+- [Guahalan Fang Lord](adversaries/Guahalan%20Fang%20Lord.md)
+- [Guahalan Shifter](adversaries/Guahalan%20Shifter.md)
+- [Guahalan Spirit Beast](adversaries/Guahalan%20Spirit%20Beast.md)
+- [Guahalan Spirit Singer](adversaries/Guahalan%20Spirit%20Singer.md)
+- [Hill Titan](adversaries/Hill%20Titan.md)
+- [Hive Walker](adversaries/Hive%20Walker.md)
+- [Jack-O’-Lantern](adversaries/Jack-O-Lantern.md)
 - [Juvenile Flickerfly](adversaries/Juvenile%20Flickerfly.md)
-- [Knight of the Realm](adversaries/Knight%20of%20the%20Realm.md)
+- [Knight Of The Realm](adversaries/Knight%20Of%20The%20Realm.md)
+- [Landshark](adversaries/Landshark.md)
+- [Landshark Behemoth](adversaries/Landshark%20Behemoth.md)
 - [Masked Thief](adversaries/Masked%20Thief.md)
+- [Master Assassin](adversaries/Master%20Assassin.md)
 - [Merchant Baron](adversaries/Merchant%20Baron.md)
 - [Minotaur Wrecker](adversaries/Minotaur%20Wrecker.md)
 - [Mortal Hunter](adversaries/Mortal%20Hunter.md)
+- [Ravenous Mockery](adversaries/Ravenous%20Mockery.md)
 - [Royal Advisor](adversaries/Royal%20Advisor.md)
+- [Rust Eater](adversaries/Rust%20Eater.md)
+- [Scarecrow](adversaries/Scarecrow.md)
 - [Secret-Keeper](adversaries/Secret-Keeper.md)
 - [Shark](adversaries/Shark.md)
 - [Siren](adversaries/Siren.md)
 - [Spectral Archer](adversaries/Spectral%20Archer.md)
 - [Spectral Captain](adversaries/Spectral%20Captain.md)
 - [Spectral Guardian](adversaries/Spectral%20Guardian.md)
+- [Sprite](adversaries/Sprite.md)
 - [Spy](adversaries/Spy.md)
+- [Stone Titan](adversaries/Stone%20Titan.md)
 - [Stonewraith](adversaries/Stonewraith.md)
+- [Triceratops](adversaries/Triceratops.md)
+- [Tyrannosaurus](adversaries/Tyrannosaurus.md)
+- [Urco](adversaries/Urco.md)
+- [Valdenhax](adversaries/Valdenhax.md)
 - [War Wizard](adversaries/War%20Wizard.md)
 
 ###### TIER 3 (LEVELS 5-7)
 
 - [Adult Flickerfly](adversaries/Adult%20Flickerfly.md)
-- [Demon of Avarice](adversaries/Demon%20of%20Avarice.md)
-- [Demon of Despair](adversaries/Demon%20of%20Despair.md)
-- [Demon of Hubris](adversaries/Demon%20of%20Hubris.md)
-- [Demon of Jealousy](adversaries/Demon%20of%20Jealousy.md)
-- [Demon of Wrath](adversaries/Demon%20of%20Wrath.md)
+- [Archmage](adversaries/Archmage.md)
+- [Catrin](adversaries/Catrin.md)
+- [Chimera](adversaries/Chimera.md)
+- [Crimson Lepus](adversaries/Crimson%20Lepus.md)
+- [Cryptimoth](adversaries/Cryptimoth.md)
+- [Cursed Merfolk](adversaries/Cursed%20Merfolk.md)
+- [Deep Dweller](adversaries/Deep%20Dweller.md)
+- [Demon Of Avarice](adversaries/Demon%20Of%20Avarice.md)
+- [Demon Of Despair](adversaries/Demon%20Of%20Despair.md)
+- [Demon Of Hubris](adversaries/Demon%20Of%20Hubris.md)
+- [Demon Of Jealousy](adversaries/Demon%20Of%20Jealousy.md)
+- [Demon Of Wrath](adversaries/Demon%20Of%20Wrath.md)
 - [Dire Bat](adversaries/Dire%20Bat.md)
+- [Drake](adversaries/Drake.md)
 - [Dryad](adversaries/Dryad.md)
+- [Dullahan](adversaries/Dullahan.md)
 - [Elemental Spark](adversaries/Elemental%20Spark.md)
+- [Fellmounted Shadow King](adversaries/Fellmounted%20Shadow%20King.md)
+- [Fire Titan](adversaries/Fire%20Titan.md)
+- [Frost Titan](adversaries/Frost%20Titan.md)
+- [Gargantuan Sea Turtle](adversaries/Gargantuan%20Sea%20Turtle.md)
 - [Greater Earth Elemental](adversaries/Greater%20Earth%20Elemental.md)
 - [Greater Water Elemental](adversaries/Greater%20Water%20Elemental.md)
+- [Head Vampire](adversaries/Head%20Vampire.md)
 - [Huge Green Ooze](adversaries/Huge%20Green%20Ooze.md)
 - [Hydra](adversaries/Hydra.md)
+- [Lamia](adversaries/Lamia.md)
+- [Lamplight Beguiler](adversaries/Lamplight%20Beguiler.md)
+- [Manticore](adversaries/Manticore.md)
 - [Monarch](adversaries/Monarch.md)
-- [Stag Knight](adversaries/Stag%20Knight.md)
+- [Night Children](adversaries/Night%20Children.md)
 - [Oak Treant](adversaries/Oak%20Treant.md)
+- [Pain Priest](adversaries/Pain%20Priest.md)
+- [Phoenix](adversaries/Phoenix.md)
+- [Plesiosaurus](adversaries/Plesiosaurus.md)
+- [Roc](adversaries/Roc.md)
+- [Sandwyrm](adversaries/Sandwyrm.md)
+- [Shapeshifting Fiend](adversaries/Shapeshifting%20Fiend.md)
+- [Shapeshifting Fiend Revealed](adversaries/Shapeshifting%20Fiend%20Revealed.md)
+- [Stag Knight](adversaries/Stag%20Knight.md)
+- [Storm Titan](adversaries/Storm%20Titan.md)
 - [Treant Sapling](adversaries/Treant%20Sapling.md)
-- [Head Vampire](adversaries/Head%20Vampire.md)
+- [Unicorn](adversaries/Unicorn.md)
 - [Vampire](adversaries/Vampire.md)
+- [Vampire Bat Swarm](adversaries/Vampire%20Bat%20Swarm.md)
+- [Vampire Lord](adversaries/Vampire%20Lord.md)
 - [Vault Guardian Gaoler](adversaries/Vault%20Guardian%20Gaoler.md)
 - [Vault Guardian Sentinel](adversaries/Vault%20Guardian%20Sentinel.md)
 - [Vault Guardian Turret](adversaries/Vault%20Guardian%20Turret.md)
+- [Viscera Sucker](adversaries/Viscera%20Sucker.md)
+- [Whisper Wraith](adversaries/Whisper%20Wraith.md)
+- [Wyvern](adversaries/Wyvern.md)
+- [Young Fire Dragon](adversaries/Young%20Fire%20Dragon.md)
 - [Young Ice Dragon](adversaries/Young%20Ice%20Dragon.md)
 
 ###### TIER 4 (LEVELS 8-10)
 
 - [Arch-Necromancer](adversaries/Arch-Necromancer.md)
+- [Cephilith Abomination](adversaries/Cephilith%20Abomination.md)
+- [Cephilith Hatchling](adversaries/Cephilith%20Hatchling.md)
+- [Cephilith Novitiate](adversaries/Cephilith%20Novitiate.md)
+- [Cephilith Priest](adversaries/Cephilith%20Priest.md)
+- [Cephilith Titan](adversaries/Cephilith%20Titan.md)
+- [Cipactli](adversaries/Cipactli.md)
+- [Cloud Titan](adversaries/Cloud%20Titan.md)
+- [Demon Lord Berzug](adversaries/Demon%20Lord%20Berzug.md)
+- [Dragon Mother Mitera](adversaries/Dragon%20Mother%20Mitera.md)
 - [Fallen Shock Troop](adversaries/Fallen%20Shock%20Troop.md)
 - [Fallen Sorcerer](adversaries/Fallen%20Sorcerer.md)
-- [Fallen Warlord: Realm-Breaker](adversaries/Fallen%20Warlord%20Realm-Breaker.md)
-- [Fallen Warlord: Undefeated Champion](adversaries/Fallen%20Warlord%20Undefeated%20Champion.md)
+- [Fire Titan Warlord](adversaries/Fire%20Titan%20Warlord.md)
+- [Gargantuan War Machine](adversaries/Gargantuan%20War%20Machine.md)
+- [Ghastly Legion](adversaries/Ghastly%20Legion.md)
+- [Griffin](adversaries/Griffin.md)
 - [Hallowed Archer](adversaries/Hallowed%20Archer.md)
+- [Hallowed Choir](adversaries/Hallowed%20Choir.md)
 - [Hallowed Soldier](adversaries/Hallowed%20Soldier.md)
+- [Harbinger Of Death](adversaries/Harbinger%20Of%20Death.md)
+- [Harbinger Of Famine](adversaries/Harbinger%20Of%20Famine.md)
+- [Harbinger Of Pestilence](adversaries/Harbinger%20Of%20Pestilence.md)
+- [Harbinger Of War](adversaries/Harbinger%20Of%20War.md)
 - [High Seraph](adversaries/High%20Seraph.md)
 - [Kraken](adversaries/Kraken.md)
-- [Oracle of Doom](adversaries/Oracle%20of%20Doom.md)
+- [Oracle Of Doom](adversaries/Oracle%20Of%20Doom.md)
 - [Outer Realms Abomination](adversaries/Outer%20Realms%20Abomination.md)
-- [Outer Realms Corruptor](adversaries/Outer%20Realms%20Corruptor.md)
+- [Outer Realms Corrupter](adversaries/Outer%20Realms%20Corrupter.md)
 - [Outer Realms Thrall](adversaries/Outer%20Realms%20Thrall.md)
-- [Volcanic Dragon: Obsidian Predator](adversaries/Volcanic%20Dragon%20Obsidian%20Predator.md)
-- [Volcanic Dragon: Molten Scourge](adversaries/Volcanic%20Dragon%20Molten%20Scourge.md)
-- [Volcanic Dragon: Ashen Tyrant](adversaries/Volcanic%20Dragon%20Ashen%20Tyrant.md)
+- [Owl Witch](adversaries/Owl%20Witch.md)
 - [Perfected Zombie](adversaries/Perfected%20Zombie.md)
+- [Realm-Breaker](adversaries/Realm-Breaker.md)
+- [Ruby Dragon](adversaries/Ruby%20Dragon.md)
+- [Severed Shadow](adversaries/Severed%20Shadow.md)
+- [Supreme Demiurge Adonix](adversaries/Supreme%20Demiurge%20Adonix.md)
+- [Temporal Enforcer](adversaries/Temporal%20Enforcer.md)
+- [Undefeated Champion](adversaries/Undefeated%20Champion.md)
+- [Volcanic Dragon: Ashen Tyrant](adversaries/Volcanic%20Dragon%20Ashen%20Tyrant.md)
+- [Volcanic Dragon: Molten Scourge](adversaries/Volcanic%20Dragon%20Molten%20Scourge.md)
+- [Volcanic Dragon: Obsidian Predator](adversaries/Volcanic%20Dragon%20Obsidian%20Predator.md)
+- [Water Mother](adversaries/Water%20Mother.md)
+- [Wyrmfiend](adversaries/Wyrmfiend.md)
+- [Wyrmlings](adversaries/Wyrmlings.md)
+- [Xero The Castle Killer](adversaries/Xero%20The%20Castle%20Killer.md)
 - [Zombie Legion](adversaries/Zombie%20Legion.md)
-
 ### USING ENVIRONMENTS
 
 _Environments represent everything in a scene beyond the PCs and adversaries, such as the physical space, background NPCs, and natural forces._
@@ -2347,34 +2730,61 @@ This section contains the following stat blocks.
 ###### TIER 1 (LEVEL 1)
 
 - [Abandoned Grove](environments/Abandoned%20Grove.md) (Exploration)
+- [Abandoned Mine](environments/Abandoned%20Mine.md) (Traversal)
+- [Alchemist’s Abandoned Workshop](environments/Alchemists%20Abandoned%20Workshop.md) (Exploration)
 - [Ambushed](environments/Ambushed.md) (Event)
 - [Ambushers](environments/Ambushers.md) (Event)
 - [Bustling Marketplace](environments/Bustling%20Marketplace.md) (Social)
 - [Cliffside Ascent](environments/Cliffside%20Ascent.md) (Traversal)
+- [Corrupted Swamp](environments/Corrupted%20Swamp.md) (Traversal)
+- [Cursed Graveyard](environments/Cursed%20Graveyard.md) (Exploration)
+- [Grand Feast](environments/Grand%20Feast.md) (Social)
+- [Hold the Line](environments/Hold%20the%20Line.md) (Event)
+- [Local Festival](environments/Local%20Festival.md) (Social)
 - [Local Tavern](environments/Local%20Tavern.md) (Social)
 - [Outpost Town](environments/Outpost%20Town.md) (Social)
 - [Raging River](environments/Raging%20River.md) (Traversal)
+- [Raiding Party](environments/Raiding%20Party.md) (Event)
 
 ###### TIER 2 (LEVELS 2-4)
 
+- [Beach Day](environments/Beach%20Day.md) (Social)
 - [Cult Ritual](environments/Cult%20Ritual.md) (Event)
+- [Deadly Dungeon](environments/Deadly%20Dungeon.md) (Exploration)
+- [Duel](environments/Duel.md) (Event)
 - [Hallowed Temple](environments/Hallowed%20Temple.md) (Social)
 - [Haunted City](environments/Haunted%20City.md) (Exploration)
+- [Heist](environments/Heist.md) (Event)
+- [Masquerade Ball](environments/Masquerade%20Ball.md) (Social)
 - [Mountain Pass](environments/Mountain%20Pass.md) (Traversal)
+- [Ocean Voyage](environments/Ocean%20Voyage.md) (Traversal)
+- [Vast Desert](environments/Vast%20Desert.md) (Traversal)
+- [Witch’s Hut](environments/Witchs%20Hut.md) (Exploration)
 
 ###### TIER 3 (LEVELS 5-7)
 
+- [Archmage’s Tower](environments/Archmages%20Tower.md) (Exploration)
+- [Astral Realm](environments/Astral%20Realm.md) (Traversal)
 - [Burning Heart of the Woods](environments/Burning%20Heart%20of%20the%20Woods.md) (Exploration)
 - [Castle Siege](environments/Castle%20Siege.md) (Event)
+- [Crystal Wasteland](environments/Crystal%20Wasteland.md) (Traversal)
+- [Dragon’s Lair](environments/Dragons%20Lair.md) (Exploration)
+- [Megastorm](environments/Megastorm.md) (Event)
 - [Pitched Battle](environments/Pitched%20Battle.md) (Event)
+- [Sunken Citadel](environments/Sunken%20Citadel.md) (Exploration)
+- [Upscale Casino](environments/Upscale%20Casino.md) (Social)
+- [Volcanic Eruption](environments/Volcanic%20Eruption.md) (Event)
 
 ###### TIER 4 (LEVELS 8-10)
 
 - [Chaos Realm](environments/Chaos%20Realm.md) (Traversal)
+- [Convergence, City of Portals](environments/Convergence%2C%20City%20of%20Portals.md) (Social)
 - [Divine Usurpation](environments/Divine%20Usurpation.md) (Event)
 - [Imperial Court](environments/Imperial%20Court.md) (Social)
-- [Necromancer's Ossuary](environments/Necromancers%20Ossuary.md) (Exploration)
-
+- [Moon Kingdom](environments/Moon%20Kingdom.md) (Exploration)
+- [Necromancer’s Ossuary](environments/Necromancers%20Ossuary.md) (Exploration)
+- [Realm of the Dead](environments/Realm%20of%20the%20Dead.md) (Traversal)
+- [Time Court](environments/Time%20Court.md) (Event)
 ### ADDITIONAL GM GUIDANCE
 
 _This section provides additional guidance for preparing and running a session of Daggerheart._
@@ -2654,10 +3064,9 @@ But this cycle doesn't just affect Wicklings, it's dictated how Fanewick's wondr
 
 ###### THE SERPENT'S SICKNESS
 
-The plague sweeping across Haven spares no one. Since the initial outbreak, Haven ocials have worked tirelessly to quarantine those in the early stages of the disease, but this effort has done little to stop its spread. Due to the rarity of crimson lady's veil, many citizens began to carry or consume all manner of flowers and snake sheddings in an attempt to protect or cure themselves.
+The plague sweeping across Haven spares no one. Since the initial outbreak, Haven officials have worked tirelessly to quarantine those in the early stages of the disease, but this effort has done little to stop its spread. Due to the rarity of crimson lady's veil, many citizens began to carry or consume all manner of flowers and snake sheddings in an attempt to protect or cure themselves.
 
-In the initial stages, victims are a
-icted with a hacking cough laden with dust that resembles powdered bone. Then a scaled rash erupts across their skin, cracking their flesh in a unique and painful pattern that resembles a snake's skin. Not long after, the victims' bodies harden until their organs solidify and cease to function. The final stages of the Serpent's Sickness is so quick that many transform into statues where they stand, leaving all of Haven a cenotaph to a once-great power.
+In the initial stages, victims are afflicted with a hacking cough laden with dust that resembles powdered bone. Then a scaled rash erupts across their skin, cracking their flesh in a unique and painful pattern that resembles a snake's skin. Not long after, the victims' bodies harden until their organs solidify and cease to function. The final stages of the Serpent's Sickness is so quick that many transform into statues where they stand, leaving all of Haven a cenotaph to a once-great power.
 
 ###### LADY'S VEIL
 
@@ -2739,6 +3148,637 @@ _Ask any of these questions to your players, or make your own._
 >
 > _Your character has witnessed something beautiful that came from the Witherwild. What is it and how has it transformed their view of the corruption?_
 
+## SUPPLEMENTAL CAMPAIGN MECHANICS
+
+_You can use the following optional mechanics to supplement your campaigns._
+
+### FACTION TRACKING
+
+You can use a campaign sheet to track multiple factions, the relationships between them, their distinguishing assets, problems, and objectives, as well as their major assets and problems.
+
+#### RELATIONSHIPS
+
+The relationship between two factions is designated by a number between -3 and +3:
+
+- -3: Nemeses
+- -2: Opposed
+- -1: Unfriendly
+- 0: Neutral, Ambiguous, or Ambivalent
+- +1: Friendly
+- +2: Allied
+- +3: Close Allies
+
+The more intense their relationship, the more willing one faction is to act on behalf of or against the other, even at risk to itself. A Friendly (+1) faction might render help if it doesn't require much effort or risk, whereas a faction will go to great effort and expense to see its Nemeses (-3) suffer.
+
+#### FACTION CARDS
+
+Each Faction Card contains the following information:
+
+- **Name:** What the faction is called.
+- **Relationships:** The faction's relationship rank with other factions.
+- **Assets:** 1-3 advantages the faction has, such as a large military or access to superior technology.
+- **Problems:** 1-3 disadvantages the faction has, such as a small territory or negative reputation.
+- **Major Objectives:** 1-3 goals the faction would expend significant resources to achieve, such as establishing a new trade route.
+- **Minor Objectives:** 1-3 less critical goals the faction would like to achieve, such as mounting a festival or implementing a civic project.
+
+#### OBJECTIVE COUNTDOWNS
+
+You can use long-term countdowns to track a faction's efforts to exploit their assets, address their problems, and pursue their major and minor objectives.
+
+Each in-game week, pick one countdown for each faction to advance (stepping down the countdown by one tick) as it makes progress toward its goal. These countdowns can also tick up (or down extra steps) according to the fiction.
+
+When a countdown triggers, the relevant faction acquires an asset, removes a problem, or achieves some other objective. Pick a new goal based on the fiction and start a new countdown. Each nation can have no more than one major objective countdown and up to two minor objective countdowns active at the same time.
+
+Achieving a major objective requires the faction to complete an Objective Countdown (10), whereas achieving a minor objective requires the faction to complete an Objective Countdown (4-6), depending on the scale of the endeavor.
+
+Stagger the progression of your factions' objective countdowns so that no more than one or two trigger each in-game week. Triggering multiple objective countdowns at the same time can cause weeks of inactivity afterward and lessen the tension of the various lingering conflicts.
+
+The party may often be dispatched or mobilized to complete or block these objectives. Meanwhile, completed countdowns generate major narrative shifts for the party to respond to.
+
+### EVERYDAY HERO STARTING EQUIPMENT
+
+PCs without access to standard weapons and armor can choose from the following tables.
+
+#### PRIMARY PHYSICAL WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Cleaver | Agility | Melee | d8 phy | One-Handed | **_Reliable:_** +1 to attack rolls |
+| Sharpened Rake | Agility | Melee | d8+3 phy | Two-Handed | - |
+| Butcher's Axe | Strength | Melee | d12+3 phy | Two-Handed | **_Heavy:_** -1 to Evasion |
+| Iron Skillet | Strength | Melee | d8+1 phy | One-Handed | - |
+| Pitchfork | Strength | Melee | d10+3 phy | Two-Handed | - |
+| Sledgehammer | Strength | Melee | d10+3 phy | Two-Handed | **_Massive:_** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result. |
+| Cooking Knife | Finesse | Melee | d8+1 phy | One-Handed | - |
+| Walking Staff | Instinct | Melee | d10+3 phy | Two-Handed | - |
+| Rolling Pin | Presence | Melee | d8+1 phy | One-Handed | - |
+| Sickle | Presence | Melee | d8 phy | One-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+| Forge Poker | Strength | Very Close | d8+2 phy | Two-Handed | - |
+| Crop Scythe | Finesse | Very Close | d8+2 phy | Two-Handed | - |
+| Fishing Rod | Agility | Far | d6+3 phy | Two-Handed | - |
+| Slingshot | Finesse | Far | d6+3 phy | Two-Handed | - |
+| Firework Launcher | Agility | Very Far | d6+3 phy | Two-Handed | **_Cumbersome:_** -1 to Finesse |
+
+#### PRIMARY MAGIC WEAPONS
+
+_All magic weapons require a Spellcast trait._
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Enchanted Hammer | Strength | Melee | d10+1 mag | One-Handed | - |
+| Enchanted Mop | Strength | Melee | d10+3 mag | Two-Handed | - |
+| Enchanted Scissors | Finesse | Very Close | d10 mag | One-Handed | - |
+| Enchanted Broomstick | Instinct | Very Close | d10+2 mag | Two-Handed | - |
+| Exploding Potions | Finesse | Close | d8 mag | One-Handed | - |
+| Enchanted Forge Lighter | Instinct | Close | d8 mag | One-Handed | - |
+| Enchanted Boomerang | Instinct | Far | d6+3 mag | Two-Handed | - |
+| Enchanted Kite | Presence | Far | d6 mag | Two-Handed | **_Versatile:_** This weapon can also be used with these statistics—Presence, Melee, d10. |
+| Whisk Wand | Knowledge | Far | d6+1 mag | One-Handed | - |
+| Sparkling Staff | Knowledge | Very Far | d6 mag | Two-Handed | **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result. |
+
+#### SECONDARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Large Fork | Agility | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range. |
+| Barrel Lid Shield | Strength | Melee | d4 phy | One-Handed | **_Protective:_** +1 to Armor Score |
+| Table Shield | Strength | Melee | d6 phy | One-Handed | **_Barrier:_** +2 to Armor Score; -1 to Evasion |
+| Paring Knife | Finesse | Melee | d8 phy | One-Handed | **_Paired:_** +2 to primary weapon damage to targets within Melee range. |
+| Festival Whip | Presence | Very Close | d6 phy | One-Handed | **_Startling:_** Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range. |
+| Towline Hook | Finesse | Close | d6 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range with you. |
+| Flare Launcher | Finesse | Far | d6+1 phy | One-Handed | **_Bright:_** This weapon temporarily lights up the area the flare lands in. |
+
+#### ARMOR
+
+| Name | Base Thresholds | Base Score | Feature |
+| --- | --- | --- | --- |
+| Quilted Clothing | 5 / 11 | 3 | **_Flexible:_** +1 to Evasion |
+| Leather Apron | 6 / 13 | 3 | - |
+| Tree Bark Armor | 7 / 15 | 4 | **_Heavy:_** -1 to Evasion |
+| Baking Tray Breastplate | 8 / 17 | 4 | **_Very Heavy:_** -2 to Evasion; -1 to Agility |
+
+### FEASTS
+
+You can use the following mechanics for campaigns in which the PCs harvest ingredients throughout play and use them to cook meals during downtime.
+
+#### INGREDIENTS & FLAVORS
+
+Every ingredient is denoted by a name and a flavor profile comprising 1-3 flavors with their relative strengths. For example, “Mushroom caps: Bitter (1), Savory (2).”
+
+There are six flavors, each represented by an associated die size: Sweet (d4), Salty (d6), Bitter (d8), Sour (d10), Savory (d12), and Weird (d20). A flavor's strength is represented by a value between 1 and 3. Example ingredients include:
+
+- Mushroom caps: Bitter (1), Savory (2)
+- Wyvern tongue: Sour (1), Savory (1), Weird (1)
+- Ooze marrow: Sweet (1), Bitter (2)
+- Direbear meat: Savory (3)
+- Acid dragon saliva: Sour (2)
+- Cave boar milk: Salty (1), Savory (1)
+- Rileroot: Bitter (1)
+- Ogre kidney stone: Sweet (1), Weird (1)
+
+When a PC acquires an ingredient, they add it to their inventory. The maximum number of ingredients a PC can hold is equal to their highest trait. When the PCs cook with an ingredient, they roll a number of dice of the flavor's associated die size equal to the flavor's strength.
+
+#### HARVESTING INGREDIENTS
+
+Ingredients can be acquired from defeated adversaries or the party's surroundings. When an edible animal is defeated, the PCs can harvest ingredients from it according to its maximum Hit Points:
+
+| Maximum Hit Points | Number of Ingredients |
+| --- | --- |
+| 1-4 | 1 |
+| 5-7 | 2 |
+| 8-10 | 3 |
+| 12+ | 4 |
+
+The GM determines the ingredients gained based on the narrative. Usually, less powerful adversaries have predominantly Sweet, Salty, and Bitter flavor profiles, whereas more powerful adversaries tend to be more Sour, Savory, and Weird.
+
+The PCs can also obtain ingredients by harvesting edible plants and fungi. Once per rest, each PC can spend a Hope to gather ingredients from their environment. The GM determines what they acquire based on the fiction, or has them roll their Hope Die and grants an ingredient with the following flavor profile:
+
+| Hope Die Result | Flavor Profile |
+| --- | --- |
+| 1-2 | Sweet (1) |
+| 3-4 | Salty (1) |
+| 5-6 | Bitter (1) |
+| 7-8 | Sour (1) |
+| 9-10 | Savory (1) |
+| 11-12 | Weird (1) |
+
+#### MAKE A FEAST
+
+In a feast-based campaign, players can't choose downtime moves to clear Stress, clear Hit Points, or gain Hope. Instead, they have a new downtime move: **Make a Feast**. Each PC who chooses this move can remove ingredients from their inventory and contribute them to the party's collective meal to gain the benefits of the resulting feast.
+
+##### PREPARING THE DISH
+
+To begin cooking, the party designates one PC to be the chef. The chef combines each contributed ingredient's flavor dice into a flavor pool. For example, a steak dinner made from direbear meat (3d12), mushroom caps (2d12 and 1d8), and ooze marrow (2d8 and 1d4) gives the party 5d12, 3d8, and 1d4.
+
+The chef makes a Prep Roll by rolling all the dice in the flavor pool and setting aside any matching values. If there are no matching values, the chef instead discards a die of their choice. The chef continues making Cooking Rolls until only one die remains in the flavor pool or all dice have been discarded or set aside.
+
+##### DETERMINING A MEAL'S RATING
+
+Once preparation is complete, the chef calculates the resulting Meal Rating. Each matching set of dice is worth points equal to its matched value. The chef adds all point totals together. For example, matching 3s on a d6 and d8 are worth 3 points; matching 4s on a d10 and d12 are worth 4 points; and matching 4s on a d8 and d20 from a different roll are also worth 4 points, for a Meal Rating of 11.
+
+##### EATING THE MEAL
+
+Each PC who partakes can clear Hit Points, clear Stress, and gain Hope such that the total is equal to or less than the Meal Rating. For example, a Meal Rating of 11 could let one PC clear 6 Hit Points, clear 3 Stress, and gain 2 Hope, while another clears 5 Hit Points, clears 2 Stress, and gains 4 Hope.
+
+##### RECORDING THE RECIPE
+
+For a feast-based campaign, the players should choose a small shared notebook to be their cookbook and record each dish's recipe. A recipe includes:
+
+- The dish's name, description, and preparation method as invented by the players.
+- The ingredients used to make it.
+- The resulting Meal Rating.
+
+When the party cooks a dish with the same flavor profile as a recipe in their cookbook, add tokens equal to the party's tier to the dish's flavor pool. When the chef would be forced to discard a die, they can remove a token instead. As a result, the more practice the characters get making meals with the same flavor profile, the easier that combination is to prepare.
+
+#### QUICK INGREDIENT GENERATOR
+
+When the PCs harvest an ingredient, roll a d20 for each table and use the combination to inspire what they gather. If an option doesn't fit the scenario, choose another that does.
+
+| Result | Animal | Plant/Fungi |
+| --- | --- | --- |
+| 1 | Feet | Flower |
+| 2 | Powder | Roots |
+| 3 | Limb | Stems |
+| 4 | Belly | Leaves |
+| 5 | Fat | Bulbs |
+| 6 | Eggs | Nuts |
+| 7 | Marrow | Seeds |
+| 8 | Tongue | Bark |
+| 9 | Brain | Berries |
+| 10 | Ribs | Fruit |
+| 11 | Organ | Sap |
+| 12 | Flesh | Pollen |
+| 13 | Stones | Fungi |
+| 14 | Eyes | Nectar |
+| 15 | Jelly | Pods |
+| 16 | Horn | Herbs |
+| 17 | Meat | Algae |
+| 18 | Scales | Moss |
+| 19 | Wings | Grain |
+| 20 | Secretion | Rind |
+
+| Result | Detail |
+| --- | --- |
+| 1 | It's particularly tender. |
+| 2 | It's still wriggling. |
+| 3 | It looks like something it isn't. |
+| 4 | It has a pungent smell. |
+| 5 | It's brightly colored. |
+| 6 | It's completely translucent. |
+| 7 | It's an odd size or shape. |
+| 8 | It has unique markings. |
+| 9 | It recoils from the light. |
+| 10 | It withers in the dark. |
+| 11 | It smells unbelievably good. |
+| 12 | It has an unexpected texture. |
+| 13 | It's encased in something. |
+| 14 | It's filled with something. |
+| 15 | It's emitting a colorful gas. |
+| 16 | It comes apart in layers. |
+| 17 | It must be prepared in a strange way. |
+| 18 | It's leathery or cartilaginous. |
+| 19 | It's brittle. |
+| 20 | It's deadly when consumed raw. |
+
+#### ADVANCED FEASTING
+
+Once your table is comfortable with basic feasting mechanics, you can give the PCs opportunities to locate and acquire specific ingredients based on what they've learned about the world. You might also create special ingredients with features. These are rarer than typical ingredients and can only be harvested from Leader or Solo adversaries.
+
+| Name | Flavor Profile | Feature |
+| --- | --- | --- |
+| Diregazelle Skull Marrow | Sweet (1), Salty (1), Sour (1) | **_Built for Speed:_** +1 bonus to Agility until your next rest. |
+| Holy Cow's Milk | Weird (1) | **_Last Drop:_** When you prepare a dish with this ingredient and there's only one remaining die in the flavor pool, roll it and add the result to the dish's Meal Rating. |
+| Ghost Scorpion Venom | Sour (1), Savory (1) | **_Spicy:_** If any matching sets from a dish prepared with this ingredient are worth 8 or more points, you can't clear Stress from consuming the resulting dish. |
+| Deathflower | Bitter (2) | **_Risky:_** If you finish preparing a dish with this ingredient and have no matching sets of flavor dice, you clear all Hit Points and Stress and gain 3 Hope. Otherwise, the dish's Meal Rating is 0 and you must make a death move. |
+
+#### RESTAURANTS
+
+A PC can spend up to 2 handfuls of gold during downtime to order food from a nearby restaurant and choose one of the following downtime moves for each handful of gold spent: clear Stress, clear Hit Points, or gain Hope.
+
+### GRIMDARK CAMPAIGNS
+
+You can use the following mechanics when the party explores a vast and grim world of magical corrupting Shadow punctuated by scattered sanctuaries built around Sacred Bonfires that emit a halo of safety-providing light.
+
+#### SHADOW-TOUCHED
+
+Adversaries in this campaign can have a feature called **Shadow-Touched**:
+
+**_Shadow-Touched - Passive:_** This adversary critically succeeds on attack rolls of 19-20.
+
+When you introduce a Shadow-Touched adversary, describe how magic has warped their essence and form.
+
+PCs can also become Shadow-Touched when corrupted by dark magic. A Shadow-Touched PC gains a damage bonus equal to the number of scars they have marked. When a Shadow-Touched PC marks their last Hope slot with a scar, they succumb to corruption and charge into the darkness instead of making a death move.
+
+#### SACRED BONFIRES & TORCHES
+
+Sacred Bonfires are vibrant magical pyres lit by the flames of rare and magical Sacred Torches, each of which carries a fragment of divine power. Sacred Bonfires burn out unless continuously provided with a bit of kindling, and can't be reignited without a Sacred Torch. When a Sacred Bonfire is relit, each PC present gains 3 Hope. A Sacred Bonfire's light repels all but the most powerful monsters from its immediate vicinity.
+
+### TECH-BASED CAMPAIGNS
+
+You can use the following mechanics for a campaign in which magic has been supplanted by technology.
+
+#### TECH DAMAGE
+
+Tech damage replaces magic damage in campaigns where damage is caused by technomancy. You can reflavor magic attacks as sonic blasts, blinding flashes of light, swarming nanobots, plasma beams, or any other product of advanced technology.
+
+#### ICONIC WEAPONS & OTHER TOOLS
+
+The following sections detail how weapons, armor, and other items might work in a tech-based campaign.
+
+##### ICONIC WEAPONS
+
+Characters don't have access to Daggerheart's normal selection of primary and secondary weapons during a tech-based campaign. Instead, each character receives an Iconic Weapon that begins as a simple rod of metal but can be incrementally modified to suit the wielder's needs.
+
+A player designs their character's Iconic Weapon using an Iconic Weapon Sheet. For inspiration, see the Motherboard Module sheet in *Daggerheart Core* or at daggerheart.com/downloads. Each player should:
+
+1. Slide the Iconic Weapon Sheet under the right side of their character sheet so only the fillable section is visible.
+2. Make selections about trait, range, and damage.
+3. Make up a name and description.
+4. Record the weapon's details in the Primary Weapon slot of their character sheet.
+
+Iconic Weapons are considered two-handed weapons and start with the following feature:
+
+**_Bonded:_** Gain a bonus to your damage rolls equal to your level.
+
+##### UPGRADES
+
+A character's Iconic Weapon starts with two Upgrade slots at Tier 1. It gains an additional Upgrade slot at each subsequent tier. An Upgrade can be crafted as a downtime move when a PC has the Parts to do so. Each Iconic Weapon begins without installed Upgrades. A character can build as many Upgrades as they wish but can't install more than its number of Upgrade slots. An installed Upgrade is treated as a weapon feature. During downtime, a PC can freely swap Upgrades they have already crafted or otherwise acquired.
+
+The Iconic Weapon Sheet includes basic Upgrades. GMs are encouraged to make more using the provided options as a template and offer them as appropriate.
+
+##### TECH LINK
+
+Each tech-based campaign setting includes a worldwide data and energy network that a PC must connect to in order to perform downtime moves. The primary way most PCs connect is via a Tech Link, a data cable with a hook on one end, which each PC gains at character creation.
+
+##### CRAFTING & TRADING
+
+Gold is not used as a currency in tech-based campaign frames. Instead, PCs gather Scrap to trade for Credits. The Iconic Weapon Sheet includes areas for tracking both Scrap and Credits. All PCs start with 5 Credits.
+
+###### CONVERTING GOLD TO CREDITS
+
+- 10 Credits = 1 handful of gold
+- 100 Credits = 1 bag of gold
+- 1,000 Credits = 1 chest of gold
+
+###### GATHERING SCRAP
+
+PCs can collect Scrap from defeated tech-based adversaries outside combat. Each category is represented by a die size. When the PCs collect Scrap, the GM determines how many of each category they find, which determines each player's dice pool. Compare each player's results against the campaign's Scrap table to determine the pieces acquired. PCs can also obtain specific Scrap through NPC contracts, hunting particular adversaries, exploring areas, or purchasing it from special merchants.
+
+| Result | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Shards (d6) | Gear | Coil | Wire | Trigger | Lens | Crystal | n/a | n/a | n/a | n/a |
+| Metals (d8) | Aluminum | Copper | Cobalt | Silver | Platinum | Gold | n/a | n/a | n/a | n/a |
+| Components (d10) | Fuse | Circuit | Disc | Relay | Capacitor | Battery | - | - | - | - |
+
+| Adversaries | Easy Fight | Standard Fight | Difficult Fight | Very Difficult Fight |
+| --- | --- | --- | --- | --- |
+| Mostly non-tech-based | 2 Shards | 2 Shards, 1 Metal | 2 Shards, 1 Metal, 1 Component | 2 Shards, 2 Metals, 1 Component |
+| Mostly tech-based | 2 Shards, 1 Metal | 2 Shards, 2 Metals, 1 Component | 3 Shards, 2 Metals, 1 Component | 3 Shards, 3 Metals, 2 Components |
+| All tech-based | 2 Shards, 1 Metal, 1 Component | 3 Shards, 2 Metals, 2 Components | 3 Shards, 3 Metals, 2 Components | 4 Shards, 3 Metals, 3 Components |
+
+###### RELICS
+
+Relics are unique pieces of Scrap found only on specific tech-based adversaries. When the PCs defeat a particularly important or powerful tech-based adversary, the GM can grant them each a Relic in addition to Scrap. Relics should reflect the adversary from which they were obtained. Relics are worth 20 Credits and can be used to craft powerful Upgrades.
+
+###### CRAFTING WITH SCRAP
+
+PCs can use a downtime move and spend the appropriate Scrap or Relics to craft Upgrades for their Iconic Weapons or other items. A PC can't craft an Upgrade until they satisfy its Prerequisites. An Upgrade can always be broken back into its constituents to reacquire the Scrap used in its creation.
+
+###### BUYING AND SELLING SCRAP
+
+By default, a piece of Scrap is worth Credits equal to the value rolled to acquire it on the Scrap table, whether the party intends to buy or sell it. Merchants usually have 1d10 of each Shard, 1d8 of each Metal, and 1d6 of each Component for sale. When a PC wants a specific piece from a particular merchant, the GM can roll to determine how many are in stock.
+
+### WESTERN CAMPAIGNS
+
+You can use the following mechanics in a western-themed campaign.
+
+#### WEAPONS & LOOT
+
+##### PRIMARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Revolver | Finesse | Far | Tier 1: d8+1 phy; Tier 2: d8+4 phy; Tier 3: d8+7 phy; Tier 4: d8+10 phy | One-Handed | **_Six Shot:_** Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens. |
+| Rifle | Agility | Very Far | Tier 1: d8+2 phy; Tier 2: d8+5 phy; Tier 3: d8+8 phy; Tier 4: d8+11 phy | Two-Handed | **_Sightline:_** Spend 2 Hope to gain advantage on an attack roll. |
+| Shotgun | Strength | Very Close | Tier 1: d6+2 phy; Tier 2: d6+5 phy; Tier 3: d6+8 phy; Tier 4: d6+11 phy | Two-Handed | **_Scattershot:_** When you make an attack, target all creatures in front of you within range. |
+
+##### SECONDARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Lasso | Agility | Very Close | Tier 1: d4 phy; Tier 2: d4+3 phy; Tier 3: d4+6 phy; Tier 4: d4+9 phy | One-Handed | **_Roped:_** On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped. |
+| Small Revolver | Finesse | Far | Tier 1: d6 phy; Tier 2: d6+3 phy; Tier 3: d6+6 phy; Tier 4: d6+9 phy | One-Handed | **_Quick Shot:_** Spend 2 Hope to gain a +4 bonus to primary weapon damage. |
+
+You can also make the following consumable available: **_Dynamite (Consumable):_** You can light this dynamite and toss it within Close range. All creatures within Very Close range of where it lands must make a Reaction Roll (14). Targets who fail take **1d20+5** physical damage. Targets who succeed must **mark a Stress**. Dynamite deals double damage to inanimate objects or structures.
+
+### COLOSSAL ADVERSARIES
+
+“Colossus” is a special adversary type that uses multiple adversary stat blocks, called segments, to represent the body parts of an extremely large creature. A separate framework stat block contains the information and features that apply to the colossus in its entirety:
+
+- Name, Tier, Description, Motives & Tactics, Size, Segments, Damage Thresholds, Stress, Experiences, and features that apply to all segments.
+
+Each segment has its own stat block, listing its name, adjacent segments, Difficulty, HP, standard attack, and features.
+
+Some segments can be **Broken**. A Broken segment can't use actions or reactions until the condition is cleared. When a segment marks its last Hit Point, it is **Destroyed** and can't use its features. A colossus is defeated when all its segments are Destroyed, though its stat block can detail alternate ways to defeat it. By default, a Destroyed segment is not gone or detached; it is simply non-working.
+
+#### SEGMENT VS. COLOSSUS EFFECTS
+
+When a feature refers to a segment's name, such as “the Head,” it refers only to that specific part. When a feature refers to the colossus's name, it applies to the adversary as a whole. For example, a reaction triggered after the colossus marks 2 or more Hit Points from one attack triggers when any segment marks that damage.
+
+#### ADJACENT SEGMENTS
+
+A colossus's stat blocks should identify adjacent segments. By default, a PC can move from one segment to another only if they are adjacent.
+
+#### RUNNING COLOSSUS FIGHTS
+
+##### SCALE
+
+Unlike normal Daggerheart range, use a standard measurement when discussing a colossus's scale (such as feet). Normal range bands still apply when taking actions and remain at GM discretion, but recognizable sizes help the table understand the creature's scale.
+
+##### MOVING PCS AROUND A COLOSSUS
+
+- A PC can climb onto a colossus segment unless its stat block says otherwise.
+- Once on a segment, a PC can usually move around and within it without additional rolls.
+- To move to an adjacent segment, a PC must make an appropriate action roll, usually Agility or Strength, to leap onto it.
+
+##### TEAMWORK
+
+While fighting a colossus, a PC can initiate any number of Tag Team Rolls in a single session.
+
+##### USING A COLOSSUS IN BATTLE
+
+Treat each segment as a separate adversary when moving the spotlight. You can spotlight a segment as a GM move, then spend a Fear to spotlight an additional segment as in a normal fight. Some frameworks have actions; spotlight the framework to use one, while describing the colossus as a whole. You can still spotlight additional segments on your turn.
+
+While a PC is on a segment, they have advantage on attacks targeting that segment, and that segment's standard attack can't target that PC. Features that pull or push normal adversaries can't move a colossus; instead, they pull or push the PC making the attack.
+
+When an effect targets a specific segment, use that segment's Difficulty. When it targets the colossus as a whole, use the highest Difficulty among all segments. A PC feature that targets multiple adversaries can target multiple segments. Tables using maps and minis can use notecards for the colossus's basic shape and segments, placing a PC miniature on the appropriate card when they climb onto it.
+
+##### LEVELING UP
+
+By default, PCs level up when they defeat a colossus. After defeating nine colossi, the party is level 10 and ready for a Final Colossus. Its power is partially determined by the rests the party takes during the campaign.
+
+Track the Final Colossus with a d10 Siphoning Die starting at 1 and a d100 Power Die starting at 0. Tick the Power Die up by 1 when the PCs take a short rest and by 2 when they take a long rest. When the party defeats a colossus, roll d12s equal to the Siphoning Die's value, tick the Power Die up by the highest result, then reset the Siphoning Die to 1. Once nine colossi have been defeated or the Power Die reaches 100, the Final Colossus reveals itself. Build it as a Colossus adversary with a Severe threshold equal to the Power Die and a Major threshold equal to half that value, rounded up.
+
+### FLOATING MAGIC SCHOOL CAMPAIGNS
+
+You can use the following mechanics for a campaign set at a floating magic school.
+
+#### FLIGHT
+
+During character creation, each player creates a magic artifact their PC can use to fly. Flying PCs use normal movement rules and can fly within Close range as part of an action roll, but must make an appropriate trait roll to move beyond Close range or when movement is their primary action. At the GM's discretion, threats such as gaining the Restrained or Vulnerable conditions, losing the magic artifact, or taking Severe damage can temporarily interrupt a PC's ability to fly.
+
+#### USING TRAITS FOR FLIGHT
+
+A PC can use any appropriate trait, not just Agility, to move while flying. For example:
+
+- **Agility:** Swift acrobatics, speed-boosting off an adversary's wake, maintaining an aerodynamic posture, or angling past a winged threat.
+- **Finesse:** Focused, subtle, well-timed adjustments; threading the needle; precision flying; operating finely tuned controls; or deftly weaving between obstacles.
+- **Strength:** Blasting through floating debris, holding fast in shifting weather, or slamming into a racing rival.
+- **Instinct:** Navigating by sheer intuition, spotting a shortcut, following a migratory current, or sensing hidden danger in the clouds.
+- **Presence:** Flying with natural grace and effortless style, commanding attention, causing a distraction, or creating a spectacle.
+- **Knowledge:** Charting efficient flight plans, plotting rotational momentum, or deducing the exact timing of a foe's wingbeats.
+
+#### LESS LETHAL CAMPAIGNS
+
+In a less lethal campaign, any death move that would normally lead to a character's demise instead puts them in the infirmary for a few weeks or sends them home for an extended period. While they recover, the PC is unplayable but not dead.
+
+### FAIRY TALE CAMPAIGNS
+
+You can use the following mechanics in campaigns that center on curses, queens, and oracles.
+
+#### CURSES
+
+A creature afflicted with a magical curse gains the Cursed condition. The Cursed condition can only be cleared by magic from a spell, ritual, magic item, location, supernatural occurrence, higher power, or some combination of these options. Discovering how to end a curse often requires research, which might prompt the PCs to undertake a quest for additional information or help from an NPC.
+
+#### TRANSFORMING ADVERSARIES
+
+**Transform** is a special action that enables an adversary to shift between multiple stat blocks. By default, the adversary has a primary stat block that includes the stats and features available regardless of their active form. While in a particular form, the adversary has access to the stats and features in that form's stat block as well as their primary stat block. Unless noted otherwise, the adversary tracks HP and Stress on their primary stat block regardless of active form.
+
+#### BUILDING VILLAINS COLLABORATIVELY
+
+You can build a campaign villain collaboratively using the following process:
+
+1. Before session zero, write about 40 question prompts about the villain, such as prompts concerning their background, demeanor, motives, or reputation. Write each prompt on an index card or slip of paper. For inspiration, see the Reign of the Weredragon Villain Builder sheet in *Hope & Fear* or at daggerheart.com/downloads.
+2. During session zero, before character creation, randomly select about 15 prompts and place them face-down in the center of the table.
+3. Starting with the person to your left, each player draws a selected prompt, reads it aloud, then chooses one option:
+   - Answer the prompt. Other players can ask follow-up questions, though the active player can choose not to answer them.
+   - Remove the prompt from play and draw a new prompt.
+   - Pass the prompt to another player, who likewise chooses to answer, remove, or pass it.
+4. When there are no more follow-up questions to a prompt, play passes to the left. Continue until all prompts at the center have been answered or removed, then proceed to character creation.
+
+### TRANSFORMATION GUIDANCE
+
+You can use the following mechanics for introducing the Reanimated, Vampire, and Werewolf transformations to your campaign.
+
+#### REANIMATED
+
+When a character gains the Reanimated transformation, their maximum loadout is reduced to one. During a rest, they can use a downtime move to raise their maximum loadout by one until they reach the normal maximum loadout of five.
+
+#### VAMPIRE
+
+You can add the following feature to a prominent vampire adversary's stat block:
+
+**_Vampire's Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary sink their teeth into the target's neck and try to turn them into a vampire. Roll a number of **d8s** equal to this adversary's tier and deal that much physical damage to the target. Then roll a **d6**. If the rolled result matches any of the damage dice results, the target marks all their Stress and gains the Vampire transformation.
+
+If the player wishes for their character to become a vampire, the attack roll succeeds automatically. The PC takes the damage, marks all their Stress, and gains the transformation.
+
+#### WEREWOLF
+
+You can add the following feature to a prominent werewolf adversary's stat block:
+
+**_Wolf's Curse - Action:_** Make an attack roll against a target within Melee range. On a success, you can **spend a Fear** to have this adversary viciously bite the target. Roll a number of **d20s** equal to this adversary's tier and deal that much physical damage to the target. If the target takes Major or greater damage from this attack, activate a long-term Lycanthropy Countdown (6). It ticks down each time the PC takes a rest without using a downtime move to halt their lycanthropy's progression. When it triggers, the PC gains the Werewolf transformation.
+
+If the player wishes for their character to become a werewolf, the attack roll succeeds automatically. The PC takes the damage and activates a long-term Lycanthropy Countdown (6) regardless of how many HP they marked as a result of the attack. When the countdown triggers, the PC gains the transformation.
+
+### MONSTER HUNTING CAMPAIGNS
+
+You can use the following mechanics for monster hunting campaigns.
+
+#### MONSTER HUNTING EQUIPMENT
+
+You can make the following weapons and armor available to your players.
+
+##### PRIMARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Blessed Brass Knuckles | Strength | Melee | Tier 1: d8+1 mag; Tier 2: d8+4 mag; Tier 3: d8+7 mag; Tier 4: d8+10 mag | One-Handed | - |
+| Holy Shotgun | Agility | Very Close | Tier 1: d6+2 mag; Tier 2: d6+5 mag; Tier 3: d6+8 mag; Tier 4: d6+11 mag | Two-Handed | **_Scattershot:_** When you make an attack, target all creatures in front of you within range. |
+| Repeating Crossbow | Finesse | Far | Tier 1: d6+2 phy; Tier 2: d6+5 phy; Tier 3: d6+8 phy; Tier 4: d6+11 phy | Two-Handed | **_Quick:_** When you make an attack, you can mark a Stress to target another creature within range. |
+
+##### SECONDARY WEAPONS
+
+| Name | Trait | Range | Damage | Burden | Feature |
+| --- | --- | --- | --- | --- | --- |
+| Wooden Stake | Strength | Melee | Tier 1: d8 phy; Tier 2: d8+2 phy; Tier 3: d8+4 phy; Tier 4: d8+6 phy | One-Handed | **_Paired:_** Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range. |
+| Hallowed Shield | Instinct | Melee | Tier 1: d4 mag; Tier 2: d4+2 mag; Tier 3: d4+4 mag; Tier 4: d4+6 mag | One-Handed | **_Resonant:_** When you critically succeed on a primary weapon attack, gain an additional Hope. |
+| Chain Whip | Presence | Very Close | Tier 1: d6+1 phy; Tier 2: d6+3 phy; Tier 3: d6+5 phy; Tier 4: d6+7 phy | One-Handed | **_Hooked:_** On a successful attack, you can pull the target into Melee range. |
+
+##### ARMOR
+
+| Name | Base Thresholds | Base Score | Feature |
+| --- | --- | --- | --- |
+| Coffinwood Armor | Tier 1: 4/10; Tier 2: 6/15; Tier 3: 8/22; Tier 4: 10/31 | Tier 1: 3; Tier 2: 4; Tier 3: 5; Tier 4: 6 | **_Splintering:_** Gain a bonus to your damage thresholds equal to your unmarked Armor Slots. |
+| Leather Longcoat | Tier 1: 5/12; Tier 2: 8/18; Tier 3: 10/25; Tier 4: 12/34 | Tier 1: 3; Tier 2: 4; Tier 3: 5; Tier 4: 6 | **_Quiet:_** Gain a +2 bonus to rolls you make to move silently. |
+| Silverweave Armor | Tier 1: 5/11; Tier 2: 7/16; Tier 3: 9/23; Tier 4: 11/32 | Tier 1: 3; Tier 2: 4; Tier 3: 5; Tier 4: 6 | **_Warded:_** You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds. |
+
+#### THE HUNT
+
+The Hunt is a procedure for preparing and running monsters. Its basic structure comprises five beats, though you can deviate as appropriate:
+
+1. **Arrival:** The PCs are hooked into the adventure by a strange event that implies monster activity.
+2. **Investigation:** The PCs follow leads and gather clues to discover the truth of the monster.
+3. **Escalation:** The PCs bring together what they've discovered and develop a plan for finding and defeating the monster.
+4. **Confrontation:** The PCs attempt to banish, bind, or destroy the monster using what they have learned.
+5. **Epilogue:** The PCs wrap up loose ends and move on to their next mission.
+
+#### MAKING A MONSTER
+
+To create a creature altered by evil energy and driven to destroy, consume, or corrupt, answer four questions:
+
+- What is it?
+- What does it want?
+- Where can you find it?
+- How can you defeat it?
+
+Optionally, ask: What else should you worry about? The answer might involve underlings that serve the monster, important bystanders it might endanger, or events and locations that highlight its strengths, weaknesses, and motivations.
+
+#### LIMINAL CLUES
+
+A Liminal Clue is evidence or information that exists in potential until it manifests through the party's discovery. Before a session, the GM should devise 4-6 pieces of information that each point toward answering at least one question from “Making a Monster.”
+
+Write each Liminal Clue on a notecard and keep it on hand. Whenever the PCs delve into danger or explore the mystery in a way that could reveal an answer, refer to your clues. If one fits the tone and place, it manifests in that moment and you describe how it is revealed.
+
+Liminal Clues indicate what manifests, not how or where. They are not bound to a particular place or method of discovery. Once revealed, a Liminal Clue solidifies; record it as an undeniable discovery that has become part of the world's reality.
+
+### HEX CRAWL CAMPAIGNS
+
+You can use the following mechanics for a hex crawl campaign.
+
+#### THE HEX CRAWL
+
+Your table can use a map divided into hexagons, or a **hex map**, to track the party's movement across a large area such as a continent. The party moves one hex at a time in a **hex crawl**. Each hex represents roughly 24 miles of land from one side to another, though narrative always supersedes literal representation in Daggerheart.
+
+By default, the party travels through wilderness between sanctuaries or settlements and resolves encounters along the way. The party can take up to three short rests while traveling through the wilderness, but can't take long rests outside a sanctuary.
+
+#### HEX MAPS
+
+A Daggerheart hex crawl uses two copies of the same campaign map: a GM's key map and a player-facing map. The GM fills out the key map beforehand with the habitat, terrain, potential points of interest, and encounters for each hex likely to arise in the next few sessions. Players fill out their map as the party enters hexes and the GM reveals their contents using the key map as a reference.
+
+#### PREPARING THE GM'S KEY MAP
+
+The GM can choose, procedurally generate, or combine both approaches for each hex. One procedure is to generate a multi-hex region at a time.
+
+##### FILLING WILDERNESS HEXES
+
+Start in any hex and fill out the key map one region at a time:
+
+1. Roll a d20 for the region's habitat:
+   - 1: Blighted by Dark Magic. Roll again to determine the habitat; on another 1, the whole region is so corrupted it is nigh impossible to traverse.
+   - 2: Underground; 3-4: Aquatic; 5-6: Wetland; 7-8: Grassland; 9-10: Tropical; 11-12: Forest; 13-14: Drylands; 15-16: Rolling; 17-18: Mountain; 19: Frozen; 20: Badlands.
+2. Roll a d12 for the region's size in contiguous hexes. Its shape can be anything, as long as it doesn't encircle empty hexes.
+3. Roll and add a d8 and d6 for one encounter type:
+   - 2: Roll twice and combine entries; 3: Fellow travelers; 4: Temporary setback; 5: Powerful adversaries; 6: Extreme weather; 7: Potential adversaries; 8: Territorial beast or pack; 9: Environmental hazard or obstacle; 10: Enemy NPCs; 11: Wondrous or dangerous site; 12: Lucky break; 13: Settlement or outpost; 14: Loot or treasure.
+4. Roll a d4 for terrain and the Travel Days needed to enter a hex: 1: Optimal (1 full day); 2: Fair (2 days); 3: Rough (3 days); 4: Extreme (4 days).
+5. Roll a d100 for a rumor about the region, using the Rumors table from the “Journey to Horizon” campaign frame or a 100-rumor list you create. Decide how true it is and whether the PCs learn it.
+
+#### TRACKING THE PARTY'S LOCATION
+
+The party tracks movement with the player-facing map. This assumes the PCs are capable wayfinders and trailblazers: they know the contents of their current hex and every adjacent hex. If an adjacent hex has a non-hidden point of interest, such as a tower, the PCs are usually aware of it. The GM decides how much information to convey.
+
+#### TRAVEL DAYS
+
+On a full day of travel, the PCs:
+
+1. Break camp, eat breakfast, and pack shortly before sunrise.
+2. Travel overland for about 6-8 hours.
+3. Take a short midday break to eat and get their bearings.
+4. Travel another 6-8 hours until about sundown.
+5. Make camp, prepare and eat dinner, set a watch, and bed down.
+
+Party members can scout, forage, hunt, refill waterskins, repair gear, and keep watch as needed. You can narrate or roleplay these activities, but need not spend table time tracking them if the group doesn't find them engaging.
+
+#### RESOURCES & RESTING
+
+This procedure doesn't meticulously track rations or supplies. Travel moves at the story's pace and resources are tracked through rests. Outside a safe place such as a sanctuary or permanent settlement, the party can only take short rests, each representing a full day spent in one location. Inside a safe place, the party can take a long rest, representing multiple days recovering from hard travel and rough sleeping.
+
+“Rest” has a specific mechanical meaning. In the fiction, the party still rests most wilderness nights, but doesn't gain the mechanical benefits of a short rest every time it sleeps. When the party takes three short rests in a row, its next rest must be a long rest.
+
+#### ENCOUNTER ROLLS
+
+When the party enters a hex, roll d6s equal to its terrain rating. If any die shows 1, activate an encounter designed during region creation. Otherwise, you can spend Fear to activate an encounter. You can change die sizes for more dangerous (d4) or safer (d8) areas.
+
+The party can trigger more than one encounter in a region. If so, either roll on the Encounter table to generate a new encounter in the moment, or shift an encounter from a region the party seems unlikely to enter and modify it to suit the current situation.
+
+#### ENDURANCE COUNTDOWNS (OPTIONAL)
+
+To heighten wilderness-travel tension, give each PC an Endurance Countdown (6) at the end of a rest. When the party enters a wilderness hex, each player rolls their Hope Die. If the result is equal to or lower than their PC's Endurance Countdown, they mark a Stress. Otherwise, they tick down their Endurance Countdown. When it triggers, the PC becomes Vulnerable until their next rest. At the start of a rest, all Endurance Countdowns end.
+
+#### TRAVELING OVER WATER
+
+- **Rivers:** The party can travel across overland hexes with navigable rivers if it acquires an appropriate vehicle, usually a boat. Moving downstream reduces the entered hex's terrain rating by 1; traveling upstream increases it by 1.
+- **Ocean:** The party can travel through ocean hexes with an appropriate vehicle, usually a ship. When entering an ocean hex, roll a d4: 1, tailwind (1 day); 2, fair weather (2 days); 3, rough waters (3 days); 4, extreme weather (4 days).
+
+#### DOOM TRACKS
+
+You can use a Doom Track to represent growing disasters that may befall the setting if the party acts too slowly. You can make one using the example track in *Hope & Fear* or at daggerheart.com/downloads for inspiration.
+
+To use a Doom Track, mark a box in the party's tier or below at the end of each session. You can't mark a nested box until the box containing it is marked. As the story develops, you can adjust the number of boxes marked at a session's end.
+
+#### HABITAT-BASED FEATURES
+
+You can add the following features to an adversary:
+
+- **_Blighted - Passive:_** This adversary is corrupted by magic. When encountered within a similarly affected area, it critically succeeds on attacks with a die roll of 18-20.
+- **_Enviromancer - Passive:_** This adversary can draw upon wild magic from its surroundings to fuel effects. **Mark a Stress** to activate an effect based on its habitat. When an effect uses the adversary's tier for damage, roll the damage die a number of times equal to its tier and total the results:
+  - **Heat Spell (Desert, Salt Flats, Volcano):** Each target within Very Close range must succeed on an Instinct Reaction Roll. Targets who fail must **mark a Stress** and take **d6** direct magic damage.
+  - **Overgrowth Spell (Forest, Jungle):** Each target within Close range must make an Agility Reaction Roll. Targets who fail take **d8** physical damage and are Restrained until they break free with a successful Strength Roll.
+  - **Wind Spell (Cliffs, Plains, Steppe):** Each target within Close range must make a Strength Reaction Roll. Targets who fail take **d8** magic damage and are pushed up to Far range. Until this adversary takes damage, attacks against it have disadvantage.
+  - **Ice Spell (Alpine, Glacier, Tundra):** Make an attack against each PC in front of this adversary within Close range. Targets it succeeds against take **d10** magic damage and are Frostbitten until they spend a Hope to clear the condition. While Frostbitten, a PC has a -1 penalty to Proficiency.
+  - **Poison Spell (Moor, Swamp, Wetlands):** Each PC within Close range must succeed on a Strength Reaction Roll or take **d6** direct damage and become Nauseated until they clear an HP. While Nauseated, a PC can't gain Hope.
+  - **Stone Spell (Canyon, Mountain, Badlands):** This adversary gains a bonus to its damage thresholds equal to its tier until it takes Severe damage or uses this feature again.
+  - **Water Spell (Riverlands, Sea):** Make an attack against all targets within Very Close range. Targets it succeeds against are pushed to Close range of where they were and **mark Stress** equal to this adversary's tier.
+
 ## APPENDIX
 
 _This section contains additional information and reference sheets._
@@ -2749,9 +3789,9 @@ _This section contains additional information and reference sheets._
 - [Blade](domains/Blade.md)
 - [Bone](domains/Bone.md)
 - [Codex](domains/Codex.md)
+- [Dread](domains/Dread.md)
 - [Grace](domains/Grace.md)
 - [Midnight](domains/Midnight.md)
 - [Sage](domains/Sage.md)
 - [Splendor](domains/Splendor.md)
 - [Valor](domains/Valor.md)
-

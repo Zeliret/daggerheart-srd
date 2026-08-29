@@ -9,8 +9,8 @@
 
 ### FEATURES
 
-**_Just a Tree - Passive:_** Before they make their first attack in a fight or after they become _Hidden_, the Treant is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them.
+**_Just a Tree:_** Before they make their first attack in a fight or after they become _Hidden_, the Treant is indistinguishable from other trees until they next act or a PC succeeds on an **Instinct Roll** to identify them.
 
-**_Seed Barrage - Action:_** **Mark a Stress** and make an attack against up to three targets within Close range, pummeling them with giant acorns. Targets the Treant succeeds against take **2d10+5** physical damage.
+**_Seed Barrage:_** **Mark a Stress** and make an attack against up to three targets within Close range, pummeling them with giant acorns. Targets the Treant succeeds against take **2d10+5** physical damage.
 
-**_Take Root - Action:_** **Mark a Stress** to _Root_ the Treant in place. The Treant is _Restrained_ while _Rooted_, and can end this effect instead of moving while they are spotlighted. While Rooted, the Treant has resistance to physical damage.
+**_Take Root:_** **Mark a Stress** to Root the Treant in place. The Treant is _Restrained_ while Rooted, and can end this effect instead of moving while they are spotlighted. While Rooted, the Treant has resistance to physical damage.

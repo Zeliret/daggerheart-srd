@@ -4,4 +4,4 @@
 
 _Memory Delve:_ Make a **Spellcast Roll** against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.
 
-_Shared Clarity:_ Once per long rest, **spend a Hope** to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.
+_Shared Clarity:_ Once per long rest, **spend a Hope** to choose two willing creatures. When one of them would **mark Stress**, they can choose between the two of them who marks it. This spell lasts until their next rest.

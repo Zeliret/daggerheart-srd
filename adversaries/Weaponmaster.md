@@ -8,8 +8,8 @@
 
 ### FEATURES
 
-**_Goading Strike - Action:_** Make a standard attack against a target. On a success, **mark a Stress** to _Taunt_ the target until their next successful attack. The next time the _Taunted_ target attacks, they have disadvantage against targets other than the Weaponmaster.
+**_Goading Strike:_** Make a standard attack against a target. On a success, **mark a Stress** to Taunt the target until their next successful attack. The next time the Taunted target attacks, they have disadvantage against targets other than the Weaponmaster.
 
-**_Adrenaline Burst - Action:_** Once per scene, **spend a Fear** to clear 2 HP and 2 Stress.
+**_Adrenaline Burst:_** Once per scene, **spend a Fear** to clear 2 HP and 2 Stress.
 
-**_Momentum - Reaction:_** When the Weaponmaster makes a successful attack against a PC, you gain a Fear.
+**_Momentum:_** When the Weaponmaster makes a successful attack against a PC, you gain a Fear.

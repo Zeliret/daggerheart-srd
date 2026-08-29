@@ -1,5 +1,4 @@
 # Ranger
-
 Rangers are highly skilled hunters who, despite their martial abilities, rarely lend their skills to an army. Through mastery of the body and a deep understanding of the wilderness, rangers become sly tacticians, pursuing their quarry with cunning and patience. Many rangers track and fight alongside an animal companion with whom they’ve forged a powerful spiritual bond. By honing their skills in the wild, rangers become expert trackers, as likely to ensnare their foes in a trap as they are to assail them head-on.
 
 ---
@@ -26,7 +25,7 @@ Rangers are highly skilled hunters who, despite their martial abilities, rarely 
 **_Ranger's Focus:_** **Spend a Hope** and make an attack against a target. On a success, deal your attack's normal damage and temporarily make the attack's target your _Focus_. Until this feature ends or you make a different creature your _Focus_, you gain the following benefits against your _Focus:_
 
 - You know precisely what direction they are in.
-- When you deal damage to them, they must mark a Stress.
+- When you deal damage to them, they must **mark a Stress**.
 - When you fail an attack against them, you can end your Ranger's Focus feature to reroll your Duality Dice.
 
 ### SUBCLASSES

@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Slow - Passive:_** When you spotlight the Ooze and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the Ooze and they have a token on their stat block, clear the token and they can act.
+**_Slow:_** When you spotlight the Ooze and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Ooze and they have a token on their stat block, clear the token and they can act.
 
-**_Acidic Form - Passive:_** When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.
+**_Acidic Form:_** When the Ooze makes a successful attack, the target must **mark an Armor Slot** without receiving its benefits (they can still use armor to reduce the damage). If they can’t **mark an Armor Slot**, they must mark an additional HP.
 
-**_Envelop - Action:_** Make a standard attack against a target within Melee range. On a success, the Ooze envelops them and the target must mark 2 Stress. The target must mark an additional Stress when they make an action roll. If the Ooze takes Severe damage, the target is freed.
+**_Envelop:_** Make a standard attack against a target within Melee range. On a success, the Ooze envelops them and the target must **mark 2 Stress**. The target must mark an additional Stress when they make an action roll. If the Ooze takes Severe damage, the target is freed.
 
-**_Split - Reaction:_** When the Ooze has 3 or more HP marked, you can **spend a Fear** to split them into two Tiny Green Oozes (with no marked HP or Stress). Immediately spotlight both of them.
+**_Split:_** When the Ooze has 3 or more HP marked, you can **spend a Fear** to split them into two Tiny Green Oozes (with no marked HP or Stress). Immediately spotlight both of them.

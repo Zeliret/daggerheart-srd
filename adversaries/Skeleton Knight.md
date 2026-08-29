@@ -8,8 +8,8 @@
 
 ### FEATURES
 
-**_Terrifying - Passive:_** When the Knight makes a successful attack, all PCs within Close range lose a Hope and you gain a Fear.
+**_Terrifying:_** When the Knight makes a successful attack, all PCs within Close range lose a Hope and you gain a Fear.
 
-**_Cut to the Bone - Action:_** **Mark a Stress** to make an attack against all targets within Very Close range. Targets the Knight succeeds against take **1d8+2** physical damage and must mark a Stress.
+**_Cut to the Bone:_** **Mark a Stress** to make an attack against all targets within Very Close range. Targets the Knight succeeds against take **1d8+2** physical damage and must **mark a Stress**.
 
-**_Dig Two Graves - Reaction:_** When the Knight is defeated, they make an attack against a target within Very Close range (prioritizing the creature who killed them). On a success, the target takes **1d4+8** physical damage and loses **1d4** Hope.
+**_Dig Two Graves:_** When the Knight is defeated, they make an attack against a target within Very Close range (prioritizing the creature who killed them). On a success, the target takes **1d4+8** physical damage and loses **1d4** Hope.

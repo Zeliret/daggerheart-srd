@@ -4,5 +4,5 @@
 
 - **Trait:** Finesse
 - **Range:** Melee
-- **Damage:** d8+9 phy
+- **Damage:** d8+10 phy
 - **Burden:** One-Handed

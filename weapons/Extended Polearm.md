@@ -9,4 +9,4 @@
 
 ### FEATURE
 
-**_Long:_** This weapon's attack targets all adversaries in a line within range.
+**_Long:_** This weapon’s attack targets all adversaries in a line within range.

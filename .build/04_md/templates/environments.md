@@ -1,14 +1,14 @@
 # {{ .name }}
 
-**_Tier {{ .tier }} {{ .type }}._** _{{ .description }}_
+**_Tier {{ .tier }} {{ .type }}._**{{ if .description }} _{{ .description }}_{{ end }}
 
 - **Impulses:** {{ .impulses }}
 - **Difficulty:** {{ .difficulty }}
-- **Potential Adversaries:** {{ .potential_adversaries }}
+- **Potential Adversaries:** {{ environmentAdversaryLinks .potential_adversaries }}
 
 ### FEATURES
 
 {{- range .feature }}
 
-**_{{ .name }}:_** {{ .text }}{{ if .question }} _{{ .question }}_{{ end }}
+**_{{ .name }}:_** {{ environmentFeatureText .text }}{{ if .question }} {{ environmentQuestionText .question }}{{ end }}
 {{- end }}

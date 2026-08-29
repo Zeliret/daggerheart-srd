@@ -8,12 +8,12 @@
 
 ### FEATURES
 
-**_Slow - Passive:_** When you spotlight the Elemental and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the Elemental and they have a token on their stat block, clear the token and they can act.
+**_Slow:_** When you spotlight the Elemental and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Elemental and they have a token on their stat block, clear the token and they can act.
 
-**_Crushing Blows - Passive:_** When the Elemental makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.
+**_Crushing Blows:_** When the Elemental makes a successful attack, the target must **mark an Armor Slot** without receiving its benefits (they can still use armor to reduce the damage). If they can’t **mark an Armor Slot**, they must mark an additional HP.
 
-**_Immovable Object - Passive:_** An attack that would move the Elemental moves them two fewer ranges (for example, Far becomes Very Close). When the Elemental takes physical damage, reduce it by 7.
+**_Immovable Object:_** An attack that would move the Elemental moves them two fewer ranges (for example, Far becomes Very Close). When the Elemental takes physical damage, reduce it by 7.
 
-**_Rockslide - Action:_** **Mark a Stress** to create a rockslide that buries the land in front of Elemental within Close range with rockfall. All targets in this area must make an Agility Reaction Roll (19). Targets who fail take **2d12+5** physical damage and become _Vulnerable_ until their next roll with Hope. Targets who succeed take half damage.
+**_Rockslide:_** **Mark a Stress** to create a rockslide that buries the land in front of Elemental within Close range with rockfall. All targets in this area must make an **Agility Reaction Roll (19)**. Targets who fail take **2d12+5** physical damage and become _Vulnerable_ until their next roll with Hope. Targets who succeed take half damage.
 
-**_Momentum - Reaction:_** When the Elemental makes a successful attack against a PC, you gain a Fear.
+**_Momentum:_** When the Elemental makes a successful attack against a PC, you gain a Fear.

@@ -1,4 +1,4 @@
-# Homet's Secret Potion
+# Homet’s Secret Potion
 
 **_Consumable_**
 

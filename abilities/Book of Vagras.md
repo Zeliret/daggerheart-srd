@@ -6,4 +6,4 @@ _Runic Lock:_ Make a **Spellcast Roll (15)** on an object you're touching that c
 
 _Arcane Door:_ When you have no adversaries within Melee range, make a **Spellcast Roll (13)**. On a success, **spend a Hope** to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.
 
-_Reveal:_ Make a **Spellcast Roll**. If there is anything magically hidden within Close range, it is revealed.
+_Reveal:_ Make a **Spellcast Roll**. If there is anything magically _hidden_ within Close range, it is revealed.

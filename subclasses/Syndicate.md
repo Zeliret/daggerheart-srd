@@ -1,5 +1,4 @@
 # Syndicate
-
 Play the Syndicate if you want to have a web of contacts everywhere you go.
 
 ### SPELLCAST TRAIT
@@ -29,4 +28,4 @@ Finesse
 **_Reliable Backup:_** You can use your "Contacts Everywhere" feature three times per session. The following options are added to the list of benefits you can choose from when you use that feature:
 
 - When you mark 1 or more Hit Points, they can rush out to shield you, reducing the Hit Points marked by 1.
-- When you make a Presence Roll in conversation, they back you up. You can roll a **d20** as your Hope Die.
+- When you make a **Presence Roll** in conversation, they back you up. You can roll a **d20** as your Hope Die.

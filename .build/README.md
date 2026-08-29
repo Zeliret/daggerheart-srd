@@ -15,17 +15,30 @@
         --max_concurrency 1 \
         --output_format markdown \
         --output_dir out \
-        DH-SRD-2025-09-09.pdf
-    cp out/DH-SRD-2025-09-09.md ../../SRD.md
+        DH-SRD-2.0-2026-08-25.pdf
+    cp out/DH-SRD-2.0-2026-08-25.md ../../SRD.md
     npx --yes markdownlint-cli SRD.md
 
 And then a lot of manual markdown cleanup...
 
 ## 02_csv, 03_json, 04_md
 
-    go run .build/02_csv/extract_from_md.go
+    # Do not run extract_from_md.go directly for SRD 2.0. Its layout differs
+    # from the 1.0 Marker output. Run the SRD 2.0 importer first, then the
+    # normal CSV -> JSON -> Markdown stages.
+    go run .build/02_csv/import_srd_2.go
+    python3 .build/02_csv/import_srd_2_appendices.py
     go run .build/03_json/extract_from_csv.go
     go run .build/04_md/extract_from_json.go
+
+`README.md` is curated from the SRD 2.0 source because the retained Marker
+extraction is not publication-ready. The normal Markdown generator refreshes
+its adversary and environment catalogs, complete weapon and armor tables, and
+paired Core Set / Hope & Fear roll tables for loot and consumables while
+preserving the curated prose. Hope & Fear entries are marked with an asterisk;
+the source selection d6 preserves each table's original 1-60 rarity roll. Set
+`DAGGERHEART_REGENERATE_README=1` only when intentionally working on the
+README generation pipeline.
 
 ## Testing Static Site
 

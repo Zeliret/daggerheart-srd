@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_I've Got 'Em - Passive:_** Creatures _Restrained_ by the Kneebreaker take double damage from attacks by other adversaries.
+**_I’ve Got ’Em:_** Creatures _Restrained_ by the Kneebreaker take double damage from attacks by other adversaries.
 
-**_Hold Them Down - Action:_** Make an attack against a target within Melee range. On a success, the target takes no damage but is _Restrained_ and _Vulnerable_. The target can break free, clearing both conditions, with a successful Strength Roll or is freed automatically if the Kneebreaker takes Major or greater damage.
+**_Hold Them Down:_** Make an attack against a target within Melee range. On a success, the target takes no damage but is _Restrained_ and _Vulnerable_. The target can break free, clearing both conditions, with a successful **Strength Roll** or is freed automatically if the Kneebreaker takes Major or greater damage.

@@ -1,4 +1,4 @@
-# Monett's Cloak
+# Monett’s Cloak
 
 **_Tier 3_** _Armor_
 
@@ -7,4 +7,4 @@
 
 ### FEATURE
 
-**_Magic:_** You can't mark an Armor Slot to reduce physical damage.
+**_Magic:_** You can’t mark an Armor Slot to reduce physical damage.

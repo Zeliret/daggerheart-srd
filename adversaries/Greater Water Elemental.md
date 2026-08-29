@@ -8,8 +8,8 @@
 
 ### FEATURES
 
-**_Water Jet - Action:_** **Mark a Stress** to attack a target within Very Close range. On a success, deal **2d4+7** physical damage and the target's next action has disadvantage. On a failure, the target must mark a Stress.
+**_Water Jet:_** **Mark a Stress** to attack a target within Very Close range. On a success, deal **2d4+7** physical damage and the target’s next action has disadvantage. On a failure, the target must **mark a Stress**.
 
-**_Drowning Embrace - Action:_** **Spend a Fear** to make an attack against all targets within Very Close range. Targets the Elemental succeeds against become _Restrained_ and _Vulnerable_ as they begin drowning. A target can break free, ending both conditions, with a successful Strength or Instinct Roll.
+**_Drowning Embrace:_** **Spend a Fear** to make an attack against all targets within Very Close range. Targets the Elemental succeeds against become _Restrained_ and _Vulnerable_ as they begin drowning. A target can break free, ending both conditions, with a successful **Strength or Instinct Roll**.
 
-**_High Tide - Reaction:_** When the Elemental makes a successful standard attack, you can **mark a Stress** to knock the target back to Close range.
+**_High Tide:_** When the Elemental makes a successful standard attack, you can **mark a Stress** to knock the target back to Close range.

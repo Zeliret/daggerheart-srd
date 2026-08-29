@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Won't See It Coming - Passive:_** The Assassin deals direct damage while they're _Hidden_.
+**_Won’t See It Coming:_** The Assassin deals direct damage while they’re _Hidden_.
 
-**_Strike as One - Action:_** **Mark a Stress** to spotlight a number of other Assassins equal to the Assassin's unmarked Stress.
+**_Strike as One:_** **Mark a Stress** to spotlight a number of other Assassins equal to the Assassin’s unmarked Stress.
 
-**_The Subtle Blade - Reaction:_** When the Assassin successfully makes a standard attack against a _Vulnerable_ target, you can **spend a Fear** to deal Severe damage instead of their standard damage.
+**_The Subtle Blade:_** When the Assassin successfully makes a standard attack against a _Vulnerable_ target, you can **spend a Fear** to deal Severe damage instead of their standard damage.
 
-**_Momentum - Reaction:_** When the Assassin makes a successful attack against a PC, you gain a Fear.
+**_Momentum:_** When the Assassin makes a successful attack against a PC, you gain a Fear.

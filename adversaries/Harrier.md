@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Maintain Distance - Passive:_** After making a standard attack, the Harrier can move anywhere within Far range.
+**_Maintain Distance:_** After making a standard attack, the Harrier can move anywhere within Far range.
 
-**_Fall Back - Reaction:_** When a creature moves into Melee range to make an attack, you can **mark a Stress** before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal **1d10+2** physical damage.
+**_Fall Back:_** When a creature moves into Melee range to make an attack, you can **mark a Stress** before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal **1d10+2** physical damage.

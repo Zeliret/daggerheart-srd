@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Ghost - Passive:_** The Archer has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
+**_Ghost:_** The Archer has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
 
-**_Pick Your Target - Action:_** **Spend a Fear** to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes **2d8+12** physical damage.
+**_Pick Your Target:_** **Spend a Fear** to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes **2d8+12** physical damage.

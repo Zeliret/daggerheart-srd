@@ -1,4 +1,4 @@
-# Knight of the Realm
+# Knight Of The Realm
 
 **_Tier 2 Leader._** _A decorated soldier with heavy armor and a powerful steed._
 
@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Chevalier - Passive:_** While the Knight is on a mount, they gain a +2 bonus to their Difficulty. When they take Severe damage, they're knocked from their mount and lose this benefit until they're next spotlighted.
+**_Chevalier:_** While the Knight is on a mount, they gain a +2 bonus to their Difficulty. When they take Severe damage, they’re knocked from their mount and lose this benefit until they’re next spotlighted.
 
-**_Heavily Armored - Passive:_** When the Knight takes physical damage, reduce it by 3.
+**_Heavily Armored:_** When the Knight takes physical damage, reduce it by 3.
 
-**_Cavalry Charge - Action:_** If the Knight is mounted, move up to Far range and make a standard attack against a target. On a success, deal **2d8+4** physical damage and the target must mark a Stress.
+**_Cavalry Charge:_** If the Knight is mounted, move up to Far range and make a standard attack against a target. On a success, deal **2d8+4** physical damage and the target must **mark a Stress**.
 
-**_For the Realm! - Action:_** **Mark a Stress** to spotlight **1d4+1** allies. Attacks they make while spotlighted in this way deal half damage.
+**_For the Realm!:_** **Mark a Stress** to spotlight **1d4+1** allies. Attacks they make while spotlighted in this way deal half damage.

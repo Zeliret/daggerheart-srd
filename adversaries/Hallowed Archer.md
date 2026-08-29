@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Punish the Guilty - Passive:_** The Archer deals double damage to targets marked _Guilty_ by a High Seraph.
+**_Punish the Guilty:_** The Archer deals double damage to targets marked Guilty by a High Seraph.
 
-**_Divine Volley - Action:_** **Mark a Stress** to make a standard attack against up to three targets.
+**_Divine Volley:_** **Mark a Stress** to make a standard attack against up to three targets.

@@ -9,6 +9,6 @@
 
 ### FEATURES
 
-**_Ghost - Passive:_** The Guardian has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
+**_Ghost:_** The Guardian has resistance to physical damage. **Mark a Stress** to move up to Close range through solid objects.
 
-**_Grave Blade - Action:_** **Spend a Fear** to make an attack against a target within Very Close range. On a success, deal **2d10+6** physical damage and the target must mark a Stress.
+**_Grave Blade:_** **Spend a Fear** to make an attack against a target within Very Close range. On a success, deal **2d10+6** physical damage and the target must **mark a Stress**.

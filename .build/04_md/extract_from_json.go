@@ -6,6 +6,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"text/template"
@@ -15,8 +16,40 @@ func main() {
 	jsonDir := ".build/03_json"
 	templateDir := ".build/04_md/templates"
 	outputDir := ".build/04_md/docs"
-	srdBasePath := ".build/01_pdf/DH-SRD-2025-09-09.md"
+	srdBasePath := ".build/01_pdf/DH-SRD-2.0-2026-08-25.md"
 	srdPath := "README.md"
+	adversaryLinks := map[string]string{}
+	if adversaries, err := loadJSON(filepath.Join(jsonDir, "adversaries.json")); err == nil {
+		for _, adversary := range adversaries {
+			if name, ok := adversary["name"].(string); ok && strings.TrimSpace(name) != "" {
+				target := fmt.Sprintf("../adversaries/%s.md", url.PathEscape(sanitizeFilename(name)))
+				adversaryLinks[name] = target
+				if !strings.HasSuffix(name, "s") {
+					adversaryLinks[name+"s"] = target
+				}
+			}
+		}
+	}
+	// Retained legacy adversary documents are valid link targets too. Read their
+	// H1s so an environment can link any matching adversary in the repository,
+	// not only entries present in the current appendix CSV.
+	if files, err := os.ReadDir("adversaries"); err == nil {
+		for _, file := range files {
+			if file.IsDir() || !strings.HasSuffix(file.Name(), ".md") {
+				continue
+			}
+			if content, err := os.ReadFile(filepath.Join("adversaries", file.Name())); err == nil {
+				name := strings.TrimSpace(strings.TrimPrefix(strings.SplitN(string(content), "\n", 2)[0], "# "))
+				if name != "" {
+					target := "../adversaries/" + url.PathEscape(file.Name())
+					adversaryLinks[name] = target
+					if !strings.HasSuffix(name, "s") {
+						adversaryLinks[name+"s"] = target
+					}
+				}
+			}
+		}
+	}
 
 	entries, err := os.ReadDir(jsonDir)
 	if err != nil {
@@ -30,8 +63,19 @@ func main() {
 		"featureQuestions": featureQuestions,
 		"fileName":         sanitizeFilename,
 		"abilityLink":      abilityLink,
-		"optionAt":         optionAt,
-		"add1":             add1,
+		"environmentAdversaryLinks": func(value string) string {
+			return linkEnvironmentAdversaries(value, adversaryLinks)
+		},
+		"adversaryFeatureText": formatAdversaryFeatureText,
+		"mechanicsText":        mechanicsText,
+		"environmentFeatureText": func(value string) string {
+			return mechanicsText(formatAdversaryFeatureText(value))
+		},
+		"environmentQuestionText": formatEnvironmentQuestionText,
+		"optionAt":             optionAt,
+		"add1":                 add1,
+		"sourceMarkdown":       sourceMarkdown,
+		"classSourceMarkdown":  classSourceMarkdown,
 	}
 
 	var beastforms []map[string]any
@@ -86,9 +130,246 @@ func main() {
 		}
 	}
 
-	if err := generateSRD(srdBasePath, srdPath, jsonDir); err != nil {
-		fmt.Printf("Error generating %s: %v\n", srdPath, err)
+	// The README's catalog sections are generated from the current entity data.
+	// Its prose remains curated (rather than copied from Marker extraction).
+	if err := refreshReadmeIndexes(srdPath, jsonDir); err != nil {
+		fmt.Printf("Error refreshing README indexes: %v\n", err)
 	}
+	// README.md is a curated, readable presentation of the SRD. The Marker
+	// source remains intentionally unprocessed so it can be audited against
+	// the PDF, and is not safe to publish directly. Keep that prose intact
+	// during normal entity regeneration; explicitly opt in only when working
+	// on the README generation pipeline.
+	if os.Getenv("DAGGERHEART_REGENERATE_README") == "1" {
+		if err := generateSRD(srdBasePath, srdPath, jsonDir); err != nil {
+			fmt.Printf("Error generating %s: %v\n", srdPath, err)
+		}
+	} else {
+		fmt.Println("Preserving curated README.md prose (set DAGGERHEART_REGENERATE_README=1 to regenerate it).")
+	}
+}
+
+var sourceArtifact = regexp.MustCompile(`^(?:[0-9]+|Daggerheart SRD|<!-- PDF page [0-9]+ -->)$`)
+var sourceAllCaps = regexp.MustCompile(`^[A-Z0-9][A-Z0-9 '’&–—-]+$`)
+var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT POINTS|CLASS ITEMS)\s+–\s+(.+)$`)
+var sourceFeature = regexp.MustCompile(`^([A-Z][^:]{1,59}):\s+(.+)$`)
+var sourceSubclassHeading = regexp.MustCompile(`(?m)^([A-Z][A-Z '’&–—-]+) SUBCLASSES\n`)
+var classDomainLine = regexp.MustCompile(`(?m)^- \*\*DOMAINS —\*\* ([^&\n]+) & ([^\n]+)$`)
+var rollEffectRow = regexp.MustCompile(`(?:^|\s)(\d+(?:[–-]\d+)?)\s+`)
+var mechanicsResourceAction = regexp.MustCompile(`(?i)\b(?:spend|mark)\s+(?:(?:any|an?|one|two|three|four|five|six|\d+)\s+)?(?:(?:equal\s+)?(?:number|amount)\s+of\s+)?(?:Hope|Stress|Fear|Focus|Armor Slots?|Hit Points?)\b`)
+var mechanicsRoll = regexp.MustCompile(`\b[A-Z][a-z]+(?:\s+or\s+[A-Z][a-z]+)?\s+(?:Reaction\s+)?Roll(?:\s+\(\d+\))?`)
+var mechanicsDie = regexp.MustCompile(`\b(?:\d+)?d(?:4|6|8|10|12|20)s?(?:[+−-](?:(?:\d+)?d(?:4|6|8|10|12|20)s?|\d+))*\b`)
+var mechanicsCondition = regexp.MustCompile(`(?i)\b(?:Marked for Death|Vulnerable|Restrained|Hidden|Cloaked|Chained|Cursed|Dazed|Poisoned|Rattled|Sickened|Trapped|Stunned|Silenced|Horrified|Frostbitten|Nauseated|Hungover)\b`)
+var mechanicsMarkdownSpan = regexp.MustCompile(`\*\*[^*]+\*\*|_[^_]+_`)
+
+// sourceMarkdown turns the clean text extracted from the two-column SRD PDF
+// into readable Markdown. SRD 2.0 additions that do not yet have every legacy
+// CSV field parsed use this path, avoiding empty template placeholders.
+func sourceMarkdown(source string) string {
+	var out, paragraph []string
+	flush := func() {
+		if len(paragraph) > 0 {
+			out = append(out, mechanicsText(formatRollEffectTable(strings.Join(paragraph, " "))), "")
+			paragraph = nil
+		}
+	}
+	for _, raw := range strings.Split(source, "\n") {
+		line := strings.TrimSpace(raw)
+		if line == "" || sourceArtifact.MatchString(line) {
+			flush()
+			continue
+		}
+		if strings.HasPrefix(line, "•") {
+			flush()
+			out = append(out, "- "+mechanicsText(strings.TrimSpace(strings.TrimPrefix(line, "•"))))
+			continue
+		}
+		if match := sourceMetadata.FindStringSubmatch(line); match != nil {
+			flush()
+			out = append(out, fmt.Sprintf("- **%s —** %s", match[1], match[2]), "")
+			continue
+		}
+		if sourceAllCaps.MatchString(line) {
+			flush()
+			// The first line is the record title, which is already the document H1.
+			if len(out) == 0 {
+				continue
+			}
+			out = append(out, "### "+line, "")
+			continue
+		}
+		if match := sourceFeature.FindStringSubmatch(line); match != nil {
+			flush()
+			paragraph = append(paragraph, fmt.Sprintf("**_%s:_** %s", match[1], match[2]))
+			continue
+		}
+		paragraph = append(paragraph, line)
+	}
+	flush()
+	return strings.TrimSpace(normalizeMarkdown(strings.Join(out, "\n")))
+}
+
+// formatRollEffectTable restores the compact outcome tables embedded in the
+// tagged PDF text (for example, Witch's Commune feature).
+func formatRollEffectTable(value string) string {
+	marker := "Roll Effect"
+	at := strings.Index(value, marker)
+	if at < 0 {
+		return value
+	}
+	prefix, table := strings.TrimSpace(value[:at]), strings.TrimSpace(value[at+len(marker):])
+	matches := rollEffectRow.FindAllStringSubmatchIndex(table, -1)
+	if len(matches) < 2 {
+		return value
+	}
+	rows := make([]string, 0, len(matches))
+	for i, match := range matches {
+		end := len(table)
+		if i+1 < len(matches) {
+			end = matches[i+1][0]
+		}
+		effect := strings.TrimSpace(table[match[1]:end])
+		if effect == "" {
+			return value
+		}
+		rows = append(rows, fmt.Sprintf("| %s | %s |", table[match[2]:match[3]], effect))
+	}
+	return prefix + "\n\n| Roll | Effect |\n| --- | --- |\n" + strings.Join(rows, "\n")
+}
+
+// mechanicsText mirrors the PDF's selective emphasis in generated rules text:
+// explicit costs, named rolls, and dice are bold; named conditions are italic.
+// It operates on raw CSV/JSON content before Markdown is rendered.
+func mechanicsText(value string) string {
+	var out strings.Builder
+	last := 0
+	for _, match := range mechanicsMarkdownSpan.FindAllStringIndex(value, -1) {
+		out.WriteString(emphasizeMechanics(value[last:match[0]]))
+		out.WriteString(value[match[0]:match[1]])
+		last = match[1]
+	}
+	out.WriteString(emphasizeMechanics(value[last:]))
+	return out.String()
+}
+
+func emphasizeMechanics(value string) string {
+	value = mechanicsResourceAction.ReplaceAllStringFunc(value, func(match string) string {
+		return "**" + match + "**"
+	})
+	value = mechanicsRoll.ReplaceAllStringFunc(value, func(match string) string {
+		return "**" + match + "**"
+	})
+	value = mechanicsDie.ReplaceAllStringFunc(value, func(match string) string {
+		return "**" + match + "**"
+	})
+	return mechanicsCondition.ReplaceAllStringFunc(value, func(match string) string {
+		return "_" + match + "_"
+	})
+}
+
+// classSourceMarkdown keeps subclass rules in their canonical documents. The
+// PDF presents a class followed by both subclass cards; legacy class documents
+// instead link to those cards, so preserve that established repository shape.
+func classSourceMarkdown(source, subclass1, subclass2 string) string {
+	nameEnd := strings.Index(source, "\n")
+	className := source
+	if nameEnd >= 0 {
+		className = source[:nameEnd]
+		source = source[nameEnd+1:]
+	}
+	upper1, upper2 := strings.ToUpper(subclass1), strings.ToUpper(subclass2)
+	classEnd := strings.Index(source, "\n"+strings.ToUpper(className)+" SUBCLASSES\n")
+	if classEnd < 0 {
+		classEnd = strings.Index(source, "\n"+upper1+"\n")
+	}
+	if classEnd < 0 {
+		classEnd = strings.Index(source, "\n"+upper2+"\n")
+	}
+	backgroundAt := strings.Index(source, "\nBACKGROUND QUESTIONS\n")
+	connectionsAt := strings.Index(source, "\nCONNECTIONS\n")
+	classPart := source
+	if classEnd >= 0 {
+		classPart = source[:classEnd]
+	}
+	// The class-level source includes a transitional "SUBCLASSES" heading;
+	// remove it because the canonical link section is added below.
+	classPart = sourceSubclassHeading.ReplaceAllString(classPart, "")
+	classPart = joinClassItemContinuations(classPart)
+	classPart = formatSphereOfInfluenceExamples(classPart)
+	var out []string
+	if body := sourceMarkdown(classPart); body != "" {
+		body = linkClassDomains(body)
+		out = append(out, body)
+	}
+	out = append(out, "### SUBCLASSES", "", fmt.Sprintf("Choose either the **[%s](../subclasses/%s.md)** or **[%s](../subclasses/%s.md)** subclass.", subclass1, url.PathEscape(subclass1), subclass2, url.PathEscape(subclass2)))
+	if backgroundAt >= 0 {
+		end := len(source)
+		if connectionsAt > backgroundAt {
+			end = connectionsAt
+		}
+		questions := source[backgroundAt+len("\nBACKGROUND QUESTIONS\n") : end]
+		if bullet := strings.Index(questions, "\n•"); bullet >= 0 {
+			questions = questions[bullet:]
+		}
+		body := sourceMarkdown(questions)
+		out = append(out, "", "### BACKGROUND QUESTIONS", "", "_Answer any of the following background questions. You can also create your own questions._", "", body)
+	}
+	if connectionsAt >= 0 {
+		questions := source[connectionsAt+len("\nCONNECTIONS\n"):]
+		if bullet := strings.Index(questions, "\n•"); bullet >= 0 {
+			questions = questions[bullet:]
+		}
+		body := sourceMarkdown(questions)
+		out = append(out, "", "### CONNECTIONS", "", "_Ask your fellow players one of the following questions for their character to answer, or create your own questions._", "", body)
+	}
+	return normalizeMarkdown(strings.Join(out, "\n"))
+}
+
+// linkClassDomains preserves the domain order printed by the SRD while
+// matching the linked-domain presentation used by legacy class documents.
+func linkClassDomains(body string) string {
+	match := classDomainLine.FindStringSubmatchIndex(body)
+	if match == nil {
+		return body
+	}
+	first, second := strings.TrimSpace(body[match[2]:match[3]]), strings.TrimSpace(body[match[4]:match[5]])
+	linked := fmt.Sprintf("- **DOMAINS —** [%s](../domains/%s.md) & [%s](../domains/%s.md)", first, url.PathEscape(first), second, url.PathEscape(second))
+	return strings.TrimSpace(body[:match[0]]) + "\n\n---\n\n" + linked + body[match[1]:]
+}
+
+// joinClassItemContinuations repairs the one PDF layout case where a class's
+// item list wraps onto the next line. Keep the item sentence in its metadata
+// row so it renders like the established legacy class documents.
+func joinClassItemContinuations(source string) string {
+	lines := strings.Split(source, "\n")
+	for i := 0; i+1 < len(lines); i++ {
+		line := strings.TrimSpace(lines[i])
+		next := strings.TrimSpace(lines[i+1])
+		if !strings.HasPrefix(line, "CLASS ITEMS") || next == "" || sourceArtifact.MatchString(next) || sourceAllCaps.MatchString(next) {
+			continue
+		}
+		first := next[0]
+		if first >= 'a' && first <= 'z' {
+			lines[i] = line + " " + next
+			lines[i+1] = ""
+		}
+	}
+	return strings.Join(lines, "\n")
+}
+
+// formatSphereOfInfluenceExamples retains the Warlock source's one-entry-per-
+// line examples as a Markdown list. Without bullets, the general PDF-source
+// normalizer joins those short lines into one unreadable paragraph.
+func formatSphereOfInfluenceExamples(source string) string {
+	examples := []string{
+		"Ambition", "Artists", "Chaos", "Darkness", "Death", "Gamblers",
+		"Honor", "Justice", "Leaders", "Love", "Mercy", "Mischief",
+		"Nature", "Protectors", "Revenge", "Scholars", "Secrets", "Soldiers",
+		"Strength", "Travelers", "Tricksters", "Truth", "War", "Wisdom",
+	}
+	raw := strings.Join(examples, "\n")
+	bullets := "• " + strings.Join(examples, "\n• ")
+	return strings.Replace(source, raw, bullets, 1)
 }
 
 func loadJSON(path string) ([]map[string]any, error) {
@@ -125,6 +406,7 @@ func normalizeItem(item map[string]any) {
 	ensureSlice(item, "feature")
 	ensureSlice(item, "background")
 	ensureSlice(item, "connection")
+	ensureSlice(item, "question")
 	ensureSlice(item, "foundation")
 	ensureSlice(item, "specialization")
 	ensureSlice(item, "mastery")
@@ -186,6 +468,326 @@ type linkTarget struct {
 	name     string
 	path     string
 	category string
+}
+
+// refreshReadmeIndexes keeps the large GM-facing catalogs complete as
+// appendices grow. The PDF's printed lists are only a starting point; the JSON
+// data is the repository's complete, linkable SRD 2.0 inventory.
+func refreshReadmeIndexes(path, jsonDir string) error {
+	content, err := os.ReadFile(path)
+	if err != nil {
+		return err
+	}
+	adversaries, err := loadJSON(filepath.Join(jsonDir, "adversaries.json"))
+	if err != nil {
+		return err
+	}
+	environments, err := loadJSON(filepath.Join(jsonDir, "environments.json"))
+	if err != nil {
+		return err
+	}
+	weapons, err := loadJSON(filepath.Join(jsonDir, "weapons.json"))
+	if err != nil {
+		return err
+	}
+	armor, err := loadJSON(filepath.Join(jsonDir, "armor.json"))
+	if err != nil {
+		return err
+	}
+	items, err := loadJSON(filepath.Join(jsonDir, "items.json"))
+	if err != nil {
+		return err
+	}
+	consumables, err := loadJSON(filepath.Join(jsonDir, "consumables.json"))
+	if err != nil {
+		return err
+	}
+
+	// The original README tables identify the Core Set entries. Once this
+	// generator has run, H&F entries retain their escaped asterisk, so the same
+	// distinction remains stable on subsequent runs without adding new fields to
+	// the machine-facing catalogs.
+	weaponCore := readmeCoreCatalogKeys(string(content), "weapons")
+	for _, frame := range []string{"Light-Frame", "Heavy-Frame", "Arcane-Frame"} {
+		for _, prefix := range []string{"", "Improved ", "Advanced ", "Legendary "} {
+			weaponCore[catalogKey(prefix+frame+" Wheelchair")] = true
+		}
+	}
+	armorCore := readmeCoreCatalogKeys(string(content), "armor")
+
+	updated := string(content)
+	updated, err = replaceReadmeSection(updated, "#### PRIMARY WEAPON TABLES\n", "### COMBAT WHEELCHAIR\n", readmeWeaponTables(weapons, weaponCore))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "#### ARMOR TABLES\n", "### LOOT\n", readmeArmorTables(armor, armorCore))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "### LOOT\n", "### CONSUMABLES\n", readmePairedRollSection("LOOT", "item", "items", items))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "### CONSUMABLES\n", "### GOLD\n", readmePairedRollSection("CONSUMABLES", "consumable", "consumables", consumables))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "#### ADVERSARIES BY TIER\n", "### USING ENVIRONMENTS\n", readmeAdversaryIndex(adversaries))
+	if err != nil {
+		return err
+	}
+	updated, err = replaceReadmeSection(updated, "##### ENVIRONMENT STAT BLOCKS BY TIER\n", "### ADDITIONAL GM GUIDANCE\n", readmeEnvironmentIndex(environments))
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(path, []byte(updated), 0644)
+}
+
+func replaceReadmeSection(content, start, end, replacement string) (string, error) {
+	startAt := strings.Index(content, start)
+	if startAt < 0 {
+		return content, fmt.Errorf("missing README section %q", strings.TrimSpace(start))
+	}
+	endAt := strings.Index(content[startAt+len(start):], end)
+	if endAt < 0 {
+		return content, fmt.Errorf("missing README section terminator %q", strings.TrimSpace(end))
+	}
+	endAt += startAt + len(start)
+	return content[:startAt] + replacement + "\n" + content[endAt:], nil
+}
+
+// readmeCoreCatalogKeys obtains the Core Set identity from existing README
+// links. H&F entries are marked with a literal escaped asterisk immediately
+// after their link. This keeps the rendered asterisk out of the link itself.
+func readmeCoreCatalogKeys(content, category string) map[string]bool {
+	keys := map[string]bool{}
+	pattern := regexp.MustCompile(`\]\(` + regexp.QuoteMeta(category) + `/([^)]*?)\.md\)(\\\*)?`)
+	for _, match := range pattern.FindAllStringSubmatch(content, -1) {
+		if len(match) < 3 || match[2] != "" {
+			continue
+		}
+		path, err := url.PathUnescape(match[1])
+		if err == nil {
+			keys[catalogKey(path)] = true
+		}
+	}
+	return keys
+}
+
+func catalogKey(value string) string {
+	return strings.ToLower(sanitizeFilename(value))
+}
+
+func readmeCatalogLink(category, name string, core map[string]bool) string {
+	link := fmt.Sprintf("[%s](%s/%s.md)", name, category, url.PathEscape(sanitizeFilename(name)))
+	if !core[catalogKey(name)] {
+		return link + `\*`
+	}
+	return link
+}
+
+func readmeFeature(value any) string {
+	features, ok := value.([]any)
+	if !ok || len(features) == 0 {
+		return "—"
+	}
+	parts := make([]string, 0, len(features))
+	for _, entry := range features {
+		feature, ok := entry.(map[string]any)
+		if !ok {
+			continue
+		}
+		name, _ := feature["name"].(string)
+		text, _ := feature["text"].(string)
+		if name == "" && text == "" {
+			continue
+		}
+		if text == "" {
+			parts = append(parts, "**_"+name+":_**")
+		} else if name == "" {
+			parts = append(parts, text)
+		} else {
+			parts = append(parts, "**_"+name+":_** "+text)
+		}
+	}
+	if len(parts) == 0 {
+		return "—"
+	}
+	return strings.ReplaceAll(strings.Join(parts, " "), "|", "\\|")
+}
+
+func readmeWeaponTables(weapons []map[string]any, core map[string]bool) string {
+	var out []string
+	out = append(out, "#### PRIMARY WEAPON TABLES", "", "_Players can choose one Tier 1 primary weapon during character creation. The GM can make other weapons available throughout the campaign as the PCs level up._")
+	for tier := 1; tier <= 4; tier++ {
+		for _, kind := range []string{"Physical", "Magical"} {
+			rows := filterReadmeEquipment(weapons, tier, "Primary", kind)
+			if len(rows) == 0 {
+				continue
+			}
+			out = append(out, "", fmt.Sprintf("##### TIER %d (%s) %s Weapons", tier, readmeTierLevels(tier), kind))
+			if kind == "Magical" {
+				out = append(out, "", "> _All magic weapons require a Spellcast trait_")
+			}
+			out = append(out, "", "| Name | Trait | Range | Damage | Burden | Feature |", "| --- | --- | --- | --- | --- | --- |")
+			for _, item := range rows {
+				name, _ := item["name"].(string)
+				out = append(out, fmt.Sprintf("| %s | %s | %s | %s | %s | %s |", readmeCatalogLink("weapons", name, core), readmeString(item, "trait"), readmeString(item, "range"), readmeString(item, "damage"), readmeString(item, "burden"), readmeFeature(item["feature"])))
+			}
+			out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+		}
+	}
+	out = append(out, "", "#### SECONDARY WEAPON TABLES")
+	for tier := 1; tier <= 4; tier++ {
+		rows := filterReadmeEquipment(weapons, tier, "Secondary", "")
+		if len(rows) == 0 {
+			continue
+		}
+		out = append(out, "", fmt.Sprintf("##### TIER %d (%s) Secondary Weapons", tier, readmeTierLevels(tier)), "", "| Name | Trait | Range | Damage | Burden | Feature |", "| --- | --- | --- | --- | --- | --- |")
+		for _, item := range rows {
+			name, _ := item["name"].(string)
+			out = append(out, fmt.Sprintf("| %s | %s | %s | %s | %s | %s |", readmeCatalogLink("weapons", name, core), readmeString(item, "trait"), readmeString(item, "range"), readmeString(item, "damage"), readmeString(item, "burden"), readmeFeature(item["feature"])))
+		}
+		out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+	}
+	return strings.Join(out, "\n") + "\n"
+}
+
+func readmeArmorTables(armor []map[string]any, core map[string]bool) string {
+	var out []string
+	out = append(out, "#### ARMOR TABLES", "", "_Players can choose one Tier 1 armor during character creation. The GM can make other armor available throughout the campaign as the PCs level up._")
+	for tier := 1; tier <= 4; tier++ {
+		rows := filterReadmeEquipment(armor, tier, "", "")
+		if len(rows) == 0 {
+			continue
+		}
+		out = append(out, "", fmt.Sprintf("##### TIER %d (%s) Armor", tier, readmeTierLevels(tier)), "", "| Name | Base Score | Base Thresholds | Feature |", "| --- | --- | --- | --- |")
+		for _, item := range rows {
+			name, _ := item["name"].(string)
+			out = append(out, fmt.Sprintf("| %s | %s | %s | %s |", readmeCatalogLink("armor", name, core), readmeString(item, "base_score"), readmeString(item, "base_thresholds"), readmeFeature(item["feature"])))
+		}
+		out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+	}
+	return strings.Join(out, "\n") + "\n"
+}
+
+func filterReadmeEquipment(items []map[string]any, tier int, category, kind string) []map[string]any {
+	var rows []map[string]any
+	for _, item := range items {
+		if tierFromValue(item["tier"]) != tier {
+			continue
+		}
+		if category != "" && readmeString(item, "primary_or_secondary") != category {
+			continue
+		}
+		if kind != "" && readmeString(item, "physical_or_magical") != kind {
+			continue
+		}
+		rows = append(rows, item)
+	}
+	sort.SliceStable(rows, func(i, j int) bool { return strings.ToLower(readmeString(rows[i], "name")) < strings.ToLower(readmeString(rows[j], "name")) })
+	return rows
+}
+
+func readmeTierLevels(tier int) string {
+	return map[int]string{1: "LEVEL 1", 2: "LEVELS 2-4", 3: "LEVELS 5-7", 4: "LEVELS 8-10"}[tier]
+}
+
+func readmeString(item map[string]any, key string) string {
+	value, _ := item[key].(string)
+	return strings.ReplaceAll(value, "|", "\\|")
+}
+
+func readmePairedRollSection(title, singular, category string, entries []map[string]any) string {
+	if len(entries)%2 != 0 {
+		return title
+	}
+	half := len(entries) / 2
+	coreByRoll, expansionByRoll := map[string]map[string]any{}, map[string]map[string]any{}
+	for _, entry := range entries[:half] {
+		coreByRoll[readmeString(entry, "roll")] = entry
+	}
+	for _, entry := range entries[half:] {
+		expansionByRoll[readmeString(entry, "roll")] = entry
+	}
+	var out []string
+	out = append(out, "### "+title)
+	if title == "LOOT" {
+		out = append(out, "", "Loot comprises any consumables or reusable items the party acquires.", "", "#### ITEMS", "", "Items can be used until sold, discarded, or lost.")
+	} else {
+		out = append(out, "", "Consumables are pieces of loot that can be used only once. You can hold up to five of each consumable at a time. Using a consumable doesn't require a roll unless required by the GM or the demands of the fiction.")
+	}
+	out = append(out, "", fmt.Sprintf("You can use the tables below to generate %ss ahead of a game or during a session. Choose the desired rarity, roll the associated number of d12s, add their values together (if needed), and then reference the table for the %s that matches that value.", singular, singular), "")
+	if title == "LOOT" {
+		out = append(out,
+			"- **Common (1d12 or 2d12):** Common items might be found at an abandoned camp or readily available at a local shop.",
+			"- **Uncommon (2d12 or 3d12):** Uncommon items might be found in limited supply in a shop, kept in a protected place in a camp, or offered as part of a reward for a job.",
+			"- **Rare (3d12 or 4d12):** Rare items might be kept under lock and key in a shop, offered as the sole reward for a job, or discovered among a powerful NPC's possessions.",
+			"- **Legendary (4d12 or 5d12):** Legendary items might be the only item of their kind, a reward for an incredibly difficult or dangerous job, or a powerful adversary's most precious and guarded treasure.")
+	} else {
+		out = append(out,
+			"- **Common (1d12 or 2d12):** Common consumables might be found at an abandoned camp or readily available at a local store.",
+			"- **Uncommon (2d12 or 3d12):** Uncommon consumables might be found in limited supply in a shop, kept in a protected place in a camp, or offered as part of a reward for a job.",
+			"- **Rare (3d12 or 4d12):** Rare consumables might be kept under lock and key in a shop, offered as the sole reward for a job, or discovered in a powerful NPC's possessions.",
+			"- **Legendary (4d12 or 5d12):** Legendary consumables might be the only item of their kind, a reward for an incredibly difficult or dangerous job, or a powerful adversary's most precious and guarded treasure.")
+	}
+	out = append(out, "", fmt.Sprintf("#### CORE SET AND HOPE & FEAR EXPANSION %s", strings.ToUpper(singular)+"S"), "", fmt.Sprintf("The source tables are paired by roll result below. Roll a d6: on a 1-3, use the Core Set entry; on a 4-6, use the Hope & Fear Expansion Set entry in the same row."), "", fmt.Sprintf("| Roll | Core Set %s | Hope & Fear Expansion %s |", strings.Title(singular), strings.Title(singular)), "| --- | --- | --- |")
+	for roll := 1; roll <= half; roll++ {
+		rollText := fmt.Sprintf("%02d", roll)
+		core, coreOK := coreByRoll[rollText]
+		expansion, expansionOK := expansionByRoll[rollText]
+		if !coreOK || !expansionOK {
+			continue
+		}
+		coreName, _ := core["name"].(string)
+		expansionName, _ := expansion["name"].(string)
+		coreLink := fmt.Sprintf("[%s](%s/%s.md)", coreName, category, url.PathEscape(sanitizeFilename(coreName)))
+		expansionLink := fmt.Sprintf("[%s](%s/%s.md)\\*", expansionName, category, url.PathEscape(sanitizeFilename(expansionName)))
+		out = append(out, fmt.Sprintf("| %s | %s | %s |", rollText, coreLink, expansionLink))
+	}
+	out = append(out, "", `\* Hope & Fear Expansion Set entry.`)
+	return strings.Join(out, "\n") + "\n"
+}
+
+func readmeAdversaryIndex(adversaries []map[string]any) string {
+	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
+	return readmeTierIndex("#### ADVERSARIES BY TIER", "This section contains the following stat blocks:", "adversaries", adversaries, headings, false)
+}
+
+func readmeEnvironmentIndex(environments []map[string]any) string {
+	headings := map[int]string{1: "###### TIER 1 (LEVEL 1)", 2: "###### TIER 2 (LEVELS 2-4)", 3: "###### TIER 3 (LEVELS 5-7)", 4: "###### TIER 4 (LEVELS 8-10)"}
+	return readmeTierIndex("##### ENVIRONMENT STAT BLOCKS BY TIER", "This section contains the following stat blocks.", "environments", environments, headings, true)
+}
+
+func readmeTierIndex(title, description, category string, items []map[string]any, headings map[int]string, includeType bool) string {
+	buckets := map[int][]map[string]any{}
+	for _, item := range items {
+		name, _ := item["name"].(string)
+		tier := tierFromValue(item["tier"])
+		if name != "" && headings[tier] != "" {
+			buckets[tier] = append(buckets[tier], item)
+		}
+	}
+	var out []string
+	out = append(out, title, "", description)
+	for tier := 1; tier <= 4; tier++ {
+		items := buckets[tier]
+		sort.Slice(items, func(i, j int) bool {
+			return strings.ToLower(items[i]["name"].(string)) < strings.ToLower(items[j]["name"].(string))
+		})
+		out = append(out, "", headings[tier], "")
+		for _, item := range items {
+			name := item["name"].(string)
+			line := fmt.Sprintf("- [%s](%s/%s.md)", name, category, url.PathEscape(sanitizeFilename(name)))
+			if includeType {
+				if kind, _ := item["type"].(string); kind != "" {
+					line += " (" + kind + ")"
+				}
+			}
+			out = append(out, line)
+		}
+	}
+	return strings.Join(out, "\n")
 }
 
 func generateSRD(basePath, outPath, jsonDir string) error {
@@ -704,6 +1306,74 @@ func stripMarkdownEmphasis(value string) string {
 	out = strings.ReplaceAll(out, "*", "")
 	out = strings.ReplaceAll(out, "_", "")
 	return strings.TrimSpace(out)
+}
+
+// linkEnvironmentAdversaries preserves environment group labels while linking
+// every exact adversary name available in the generated adversary collection.
+func linkEnvironmentAdversaries(value string, adversaryLinks map[string]string) string {
+	names := make([]string, 0, len(adversaryLinks))
+	for name := range adversaryLinks {
+		names = append(names, name)
+	}
+	sort.Slice(names, func(i, j int) bool { return len(names[i]) > len(names[j]) })
+	patterns := make([]string, 0, len(names))
+	for _, name := range names {
+		patterns = append(patterns, regexp.QuoteMeta(name))
+	}
+	caseInsensitiveLinks := map[string]string{}
+	for name, target := range adversaryLinks {
+		caseInsensitiveLinks[strings.ToLower(name)] = target
+	}
+	matcher := regexp.MustCompile(`(?i)\b(?:` + strings.Join(patterns, "|") + `)\b`)
+	return matcher.ReplaceAllStringFunc(value, func(name string) string {
+		return fmt.Sprintf("[%s](%s)", name, caseInsensitiveLinks[strings.ToLower(name)])
+	})
+}
+
+// formatAdversaryFeatureText restores list semantics lost when the PDF's
+// wrapped feature copy is compacted into a CSV field.
+func formatAdversaryFeatureText(value string) string {
+	numbered := regexp.MustCompile(`(?:^|\s)([1-9][0-9]*)\.\s+`)
+	matches := numbered.FindAllStringSubmatchIndex(value, -1)
+	if len(matches) >= 2 && value[matches[0][2]:matches[0][3]] == "1" && value[matches[1][2]:matches[1][3]] == "2" {
+		items := make([]string, 0, len(matches))
+		for index, match := range matches {
+			end := len(value)
+			if index+1 < len(matches) {
+				end = matches[index+1][0]
+			}
+			items = append(items, value[match[2]:match[3]]+". "+strings.TrimSpace(value[match[1]:end]))
+		}
+		return strings.TrimSpace(value[:matches[0][0]]) + "\n\n" + strings.Join(items, "\n")
+	}
+
+	if strings.Contains(value, "• ") {
+		parts := strings.Split(value, "• ")
+		if len(parts) > 1 {
+			items := make([]string, 0, len(parts)-1)
+			for _, part := range parts[1:] {
+				if item := strings.TrimSpace(part); item != "" {
+					items = append(items, "- "+item)
+				}
+			}
+			return strings.TrimSpace(parts[0]) + "\n\n" + strings.Join(items, "\n")
+		}
+	}
+	return value
+}
+
+func formatEnvironmentQuestionText(value string) string {
+	if !strings.Contains(value, "• ") {
+		return "_" + value + "_"
+	}
+	parts := strings.Split(value, "• ")
+	items := make([]string, 0, len(parts)-1)
+	for _, part := range parts[1:] {
+		if item := strings.TrimSpace(part); item != "" {
+			items = append(items, "- _"+item+"_")
+		}
+	}
+	return "_" + strings.TrimSpace(parts[0]) + "_\n\n" + strings.Join(items, "\n")
 }
 
 func abilityLink(name string) string {

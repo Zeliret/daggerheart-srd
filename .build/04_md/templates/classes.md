@@ -1,5 +1,8 @@
 # {{ .name }}
 
+{{- if not .items }}
+{{ classSourceMarkdown .description .subclass_1 .subclass_2 }}
+{{- else }}
 {{ .description }}
 
 ---
@@ -22,13 +25,13 @@
 
 ### HOPE FEATURE
 
-**_{{ .hope_feature_name }}:_** {{ .hope_feature_text }}
+**_{{ .hope_feature_name }}:_** {{ mechanicsText .hope_feature_text }}
 
 ### CLASS FEATURE{{ if gt (len .feature) 1 }}S{{ end }}
 
 {{ range .feature }}
 
-**_{{ .name }}:_** {{ .text }}
+**_{{ .name }}:_** {{ mechanicsText .text }}
 {{ end }}
 
 {{- if and (eq .name "Druid") .beastform_tiers }}
@@ -79,3 +82,4 @@ _Ask your fellow players one of the following questions for their character to a
 
 - {{ .question }}
   {{- end }}
+{{- end }}

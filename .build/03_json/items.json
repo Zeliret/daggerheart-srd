@@ -15,8 +15,8 @@
     "roll": "03"
   },
   {
-    "description": "You can light this magic torch at will. The flame's light fills a much larger space than it should, enough to illuminate a cave bright as day.",
-    "name": "Alistair's Torch",
+    "description": "You can light this magic torch at will. The flame’s light fills a much larger space than it should, enough to illuminate a cave bright as day.",
+    "name": "Alistair’s Torch",
     "roll": "04"
   },
   {
@@ -45,7 +45,7 @@
     "roll": "09"
   },
   {
-    "description": "This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can't move, doesn't abide by the rules of gravity, and remains in place.",
+    "description": "This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can’t move, doesn’t abide by the rules of gravity, and remains in place.",
     "name": "Suspended Rod",
     "roll": "10"
   },
@@ -70,7 +70,7 @@
     "roll": "14"
   },
   {
-    "description": "You can attach this stone to armor that doesn't already have a feature. The armor gains the following feature. Resilient: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
+    "description": "You can attach this stone to armor that doesn’t already have a feature. The armor gains the following feature. Resilient: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
     "name": "Valorstone",
     "roll": "15"
   },
@@ -80,7 +80,7 @@
     "roll": "16"
   },
   {
-    "description": "Position this prism in a location of your choosing and activate it. All allies within Close range of it gain a +1 bonus to their Spellcast Rolls. While activated, the prism can't be moved. Once the prism is deactivated, it can't be activated again until your next long rest.",
+    "description": "Position this prism in a location of your choosing and activate it. All allies within Close range of it gain a +1 bonus to their Spellcast Rolls. While activated, the prism can’t be moved. Once the prism is deactivated, it can’t be activated again until your next long rest.",
     "name": "Arcane Prism",
     "roll": "17"
   },
@@ -165,7 +165,7 @@
     "roll": "33"
   },
   {
-    "description": "Once per long rest, you can open this small box and roll a d12. On a result of 1-6, it’s empty. On a result of 7-10, it contains one random common consumable. On a result of 11-12, it contains two random common consumables.",
+    "description": "Once per long rest, you can open this small box and roll a d12. On a result of 1–6, it’s empty. On a result of 7–10, it contains one random common consumable. On a result of 11–12, it contains two random common consumables.",
     "name": "Box of Many Goods",
     "roll": "34"
   },
@@ -175,7 +175,7 @@
     "roll": "35"
   },
   {
-    "description": "You can plant this seed in the ground to grow a portal in that spot. The portal is ready to use in 24 hours. You can use this portal to travel to any other location where you planted a portal seed. A portal can be destroyed by dealing any amount of Magic damage to it.",
+    "description": "You can plant this seed in the ground to grow a portal in that spot. The portal is ready to use in 24 hours. You can use this portal to travel to any other location where you planted a portal seed. A portal can be destroyed by dealing any amount of magic damage to it.",
     "name": "Portal Seed",
     "roll": "36"
   },
@@ -190,7 +190,7 @@
     "roll": "38"
   },
   {
-    "description": "During a long rest, if you have 6 Hope, you can spend a Hope to imbue this locket with your bountiful resolve. When you have 0 Hope, you can use the locket to immediately gain a Hope. The locket must be re‑imbued before it can be used this way again.",
+    "description": "During a long rest, if you have 6 Hope, you can spend a Hope to imbue this locket with your bountiful resolve. When you have 0 Hope, you can use the locket to immediately gain a Hope. The locket must be re-imbued before it can be used this way again.",
     "name": "Hopekeeper Locket",
     "roll": "39"
   },
@@ -297,6 +297,306 @@
   {
     "description": "Once per session, you can spend 5 Hope to lead a Tag Team Roll with three PCs instead of two.",
     "name": "Belt of Unity",
+    "roll": "60"
+  },
+  {
+    "description": "You can spread these caltrops in a Very Close area around you. A creature hastening through that area must mark a Stress.",
+    "name": "Caltrops",
+    "roll": "01"
+  },
+  {
+    "description": "You gain advantage on action rolls to climb sheer surfaces.",
+    "name": "Grapnel",
+    "roll": "02"
+  },
+  {
+    "description": "This pouch contains perfectly smooth metal spheres.",
+    "name": "Ball Bearings",
+    "roll": "03"
+  },
+  {
+    "description": "This snuffbox is filled with combustible powder.",
+    "name": "Box of Dragon Dust",
+    "roll": "04"
+  },
+  {
+    "description": "Spend a Hope to activate the gemstone in this ring until the end of the scene. While active, the gemstone changes color to indicate the wearer’s proximity to hidden treasure: warm colors for near, cool colors for far.",
+    "name": "Nighthawker’s Ring",
+    "roll": "05"
+  },
+  {
+    "description": "You can use this spyglass to magnify your vision a hundredfold.",
+    "name": "Elven Spyglass",
+    "roll": "06"
+  },
+  {
+    "description": "This savory powder makes any food it’s sprinkled on delicious and healthy, no matter how bland or rotten it is.",
+    "name": "Gourmet Granules",
+    "roll": "07"
+  },
+  {
+    "description": "You can break down this 18-foot pole into six interlinked 3-foot segments.",
+    "name": "Collapsible Pole",
+    "roll": "08"
+  },
+  {
+    "description": "This writing quill never runs out of ink or needs to be sharpened.",
+    "name": "Blackwing Quill",
+    "roll": "09"
+  },
+  {
+    "description": "This 3-inch blade has an edge that easily cuts through anything except the handle it’s stored in.",
+    "name": "Silee’s Folding Knife",
+    "roll": "10"
+  },
+  {
+    "description": "This small mechanical device is shaped like a strixwolf pup and can be programmed to perform simple tricks.",
+    "name": "Windup Toy",
+    "roll": "11"
+  },
+  {
+    "description": "You can choose what result this set of weighted dice rolls with a successful Finesse Roll (14). If you roll with Fear, anyone watching knows the dice are loaded.",
+    "name": "Loaded Dice",
+    "roll": "12"
+  },
+  {
+    "description": "You can blow this horn to summon a small woodland creature to perform a simple task.",
+    "name": "Hollowbark Horn",
+    "roll": "13"
+  },
+  {
+    "description": "You can command this rope to tie or untie itself.",
+    "name": "Self-Tying Rope",
+    "roll": "14"
+  },
+  {
+    "description": "This compass points the way toward the nearest exit while indoors and the closest entrance while outdoors.",
+    "name": "Thief’s Compass",
+    "roll": "15"
+  },
+  {
+    "description": "Once per long rest, you can ring this bell to magically open the shortest safe path through rough terrain for 1 hour.",
+    "name": "Traveler’s Bell",
+    "roll": "16"
+  },
+  {
+    "description": "This torch gives off light only the bearer can see.",
+    "name": "Mandragorian Torch",
+    "roll": "17"
+  },
+  {
+    "description": "While wearing these boots, you don’t leave tracks or footprints.",
+    "name": "Boots of Supple Mystique",
+    "roll": "18"
+  },
+  {
+    "description": "You can open this empty jar during inclement weather to capture the storm and leave behind clear skies. The storm remains inside until unleashed by reopening the jar.",
+    "name": "Zephyr’s Jar",
+    "roll": "19"
+  },
+  {
+    "description": "When you throw your primary weapon while wearing this ring, the weapon appears in your hand immediately after the attack.",
+    "name": "Returning Ring",
+    "roll": "20"
+  },
+  {
+    "description": "Once per long rest, you can use this net to scoop one live fish out of any amount of water, no matter how unlikely it is for that water to have fish in it.",
+    "name": "Kingfisher’s Net",
+    "roll": "21"
+  },
+  {
+    "description": "Once per scene, you can activate this girdle to gain a +1 bonus to your Proficiency for your next attack.",
+    "name": "Titan’s Girdle",
+    "roll": "22"
+  },
+  {
+    "description": "This chain-link head covering renders the wearer invisible to fey creatures.",
+    "name": "Iron Veil",
+    "roll": "23"
+  },
+  {
+    "description": "Once per rest, you can produce 2d20 harmless, cat-sized fur creatures of indeterminate origin and species from this bag.",
+    "name": "Furball Bag",
+    "roll": "24"
+  },
+  {
+    "description": "This anklet makes your steps silent as long as you don’t move faster than walking speed.",
+    "name": "Whisperstep Anklet",
+    "roll": "25"
+  },
+  {
+    "description": "You can use this loupe to see through illusions and enchantments.",
+    "name": "Enchanter’s Loupe",
+    "roll": "26"
+  },
+  {
+    "description": "Once per long rest, you can command this fist-sized silver orb to capture an omnidirectional image of its surroundings on its surface. This image lasts until your next long rest.",
+    "name": "Escher’s Mirrorball",
+    "roll": "27"
+  },
+  {
+    "description": "When you flip this coin, you can spend a Hope to determine which side it lands on.",
+    "name": "Cheater’s Coin",
+    "roll": "28"
+  },
+  {
+    "description": "This bell rings when a ghost or undead creature moves within Far range of it.",
+    "name": "Gravewarden’s Bell",
+    "roll": "29"
+  },
+  {
+    "description": "You gain a +1 bonus to your Hope Die when you make the Risk It All death move.",
+    "name": "Reliquary of the Sightless Saint",
+    "roll": "30"
+  },
+  {
+    "description": "You can attune this map to one creature at a time. The map always shows the attuned creature’s location.",
+    "name": "Map of Revelation",
+    "roll": "31"
+  },
+  {
+    "description": "This wafer-thin sheet of volcanic glass is used by archivists to keep notes. Any information etched onto its surface disappears but can be recalled via a command you set.",
+    "name": "Dagginae’s Obsidian Slate",
+    "roll": "32"
+  },
+  {
+    "description": "Once per rest, you can spend a Hope to conjure a mundane item up to a cubic foot in size inside this satchel.",
+    "name": "Gadiman’s Backpack",
+    "roll": "33"
+  },
+  {
+    "description": "Once per rest, flip a coin. On heads, you gain a +1 bonus to attack rolls until your next successful attack. On tails, you gain +1 to your Evasion until an attack fails against you.",
+    "name": "Eclipse Coin",
+    "roll": "34"
+  },
+  {
+    "description": "This conical blue hat is covered in silver stars. Once per rest, you can cast a spell from your vault with a Recall Cost equal to or less than your tier. This doesn’t work for permanently vaulted cards.",
+    "name": "Sorcerer’s Hat",
+    "roll": "35"
+  },
+  {
+    "description": "When you attack with a physical weapon while wearing these gloves, the damage is considered both physical and magic.",
+    "name": "Ghoulskin Gloves",
+    "roll": "36"
+  },
+  {
+    "description": "When you would mark a Stress to reload a weapon, you don’t mark it.",
+    "name": "Gloves of Alacrity",
+    "roll": "37"
+  },
+  {
+    "description": "When you take a rest without clearing Hit Points or Stress, you gain a +2 bonus to attack and damage rolls until your next rest.",
+    "name": "Insomniac’s Periapt",
+    "roll": "38"
+  },
+  {
+    "description": "This saddle grants any animal it’s strapped onto the ability to understand their rider’s commands.",
+    "name": "Wildrider’s Saddle",
+    "roll": "39"
+  },
+  {
+    "description": "Two creatures can wear this pair of circlets. You can spend a Hope to switch places with whoever is wearing the other circlet.",
+    "name": "Soul-Twin Circlets",
+    "roll": "40"
+  },
+  {
+    "description": "Once per session, you can roll this set of runic dice to reveal the full name of the last person you touched.",
+    "name": "Namer’s Oracle",
+    "roll": "41"
+  },
+  {
+    "description": "These eyeglasses reveal weak points in objects and creatures. Three times per rest, you can spend a Hope to gain advantage on an attack roll.",
+    "name": "Crucible Frames",
+    "roll": "42"
+  },
+  {
+    "description": "Once per rest, flip a coin. On heads, you become immune to the next physical damage you take. On tails, you become immune to the next magic damage you take.",
+    "name": "Two-Faced Aegis Brooch",
+    "roll": "43"
+  },
+  {
+    "description": "On a successful weapon attack, you can knock your target back up to Close range from their location.",
+    "name": "Knockback Bracelets",
+    "roll": "44"
+  },
+  {
+    "description": "This shimmering two-dimensional disc of magical force has a 4-foot diameter and is magically tethered to a pebble. The disc always floats 3 feet north of, and at the same elevation as, the pebble. The pebble has a mass equal to one-hundredth of the total mass carried by the disc.",
+    "name": "Force Disc",
+    "roll": "45"
+  },
+  {
+    "description": "Spend a Hope to swim through earth as if it were water for the next 10 minutes.",
+    "name": "Molepaw Mittens",
+    "roll": "46"
+  },
+  {
+    "description": "You can choose an additional downtime move each rest.",
+    "name": "Timekeeper’s Pendant",
+    "roll": "47"
+  },
+  {
+    "description": "Once per long rest, you can spend a Hope to tell the pendant a creature’s name. The pendant gently pulls you toward that creature’s current location until your next long rest.",
+    "name": "Iron Dagger Pendant",
+    "roll": "48"
+  },
+  {
+    "description": "An animal who wears this collar gains the ability to speak and understand common speech.",
+    "name": "Collar of Ascendancy",
+    "roll": "49"
+  },
+  {
+    "description": "A PC who takes a rest in the temporal sanctuary can choose an additional downtime move.",
+    "name": "Temporal Sanctuary",
+    "roll": "50"
+  },
+  {
+    "description": "When you critically succeed on an attack, all allies within Close range gain a Hope.",
+    "name": "Hero’s Helm",
+    "roll": "51"
+  },
+  {
+    "description": "Two creatures can wear this pair of rings shaped like coiled snakes. You can spend the Hope of whoever is wearing the other ring (with their permission) as if it were your own.",
+    "name": "Rings of Friendship",
+    "roll": "52"
+  },
+  {
+    "description": "Two creatures can wear this pair of wooden rings. You can mark the Stress of whoever is wearing the other ring (with their permission) as if it were your own.",
+    "name": "Rings of Camaraderie",
+    "roll": "53"
+  },
+  {
+    "description": "Two creatures can wear this pair of rose gold rings. Once per session, you can initiate a Tag Team Roll with whoever is wearing the other ring without spending Hope or counting against your session limit for Tag Team Rolls.",
+    "name": "Rings of Alliance",
+    "roll": "54"
+  },
+  {
+    "description": "When the GM spends a Fear, roll a d4. Once per scene on a result of 4, you clear a Stress.",
+    "name": "Phobophage’s Circlet",
+    "roll": "55"
+  },
+  {
+    "description": "If an adversary attacks you within Melee range, they must succeed on a Reaction Roll (12) or mark a Hit Point.",
+    "name": "Quillshawl",
+    "roll": "56"
+  },
+  {
+    "description": "Once per rest, mark a Stress to teleport to a location you can clearly see.",
+    "name": "Warp Pendant",
+    "roll": "57"
+  },
+  {
+    "description": "This pair of small ornate frames, one red and one blue, are connected. Anything that passes into one exits from the other.",
+    "name": "Portal Frames",
+    "roll": "58"
+  },
+  {
+    "description": "Once per rest, you can spend a Hope to use an ally’s Experience as if it were your own. You can carry only one relic.",
+    "name": "Communion Relic",
+    "roll": "59"
+  },
+  {
+    "description": "Once per long rest, you can activate your Hope feature without spending Hope. You can carry only one relic.",
+    "name": "Augur’s Relic",
     "roll": "60"
   }
 ]

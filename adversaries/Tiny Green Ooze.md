@@ -8,4 +8,4 @@
 
 ### FEATURES
 
-**_Acidic Form - Passive:_** When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.
+**_Acidic Form:_** When the Ooze makes a successful attack, the target must **mark an Armor Slot** without receiving its benefits (they can still use armor to reduce the damage). If they can’t **mark an Armor Slot**, they must mark an additional HP.

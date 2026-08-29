@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Conflagration - Action:_** **Spend a Fear** to unleash an all-consuming firestorm and make an attack against all targets within Close range. Targets the Sorcerer succeeds against take **2d10+6** direct magic damage.
+**_Conflagration:_** **Spend a Fear** to unleash an all-consuming firestorm and make an attack against all targets within Close range. Targets the Sorcerer succeeds against take **2d10+6** direct magic damage.
 
-**_Nightmare Tableau - Action:_** **Mark a Stress** to trap a target within Far range in a powerful illusion of their worst fears. While trapped, the target is _Restrained_ and _Vulnerable_ until they break free, ending both conditions, with a successful Instinct Roll.
+**_Nightmare Tableau:_** **Mark a Stress** to trap a target within Far range in a powerful illusion of their worst fears. While _trapped_, the target is _Restrained_ and _Vulnerable_ until they break free, ending both conditions, with a successful **Instinct Roll**.
 
-**_Slippery - Reaction:_** When the Sorcerer takes damage from an attack, they can teleport up to Far range.
+**_Slippery:_** When the Sorcerer takes damage from an attack, they can teleport up to Far range.
 
-**_Shackles of Guilt - Reaction: Countdown (Loop 2d6):_** When the Sorcerer is in the spotlight for the first time, activate the countdown. When it triggers, all targets within Far range become _Vulnerable_ and must mark a Stress as they relive their greatest regrets. A target can break free from their regret with a successful Presence or Strength Roll. When a PC fails to break free, they lose a Hope.
+**_Shackles of Guilt:_** Countdown (Loop **2d6**). When the Sorcerer is in the spotlight for the first time, activate the countdown. When it triggers, all targets within Far range become _Vulnerable_ and must **mark a Stress** as they relive their greatest regrets. A target can break free from their regret with a successful **Presence or Strength Roll**. When a PC fails to break free, they lose a Hope.

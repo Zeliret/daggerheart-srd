@@ -8,6 +8,6 @@
 
 ### FEATURES
 
-**_Only Bones - Passive:_** The Warrior is resistant to physical damage.
+**_Only Bones:_** The Warrior is resistant to physical damage.
 
-**_Won't Stay Dead - Reaction:_** When the Warrior is defeated, you can spotlight them and roll a **d6**. On a result of 6, if there are other adversaries on the battlefield, the Warrior re-forms with no marked HP.
+**_Won’t Stay Dead:_** When the Warrior is defeated, you can spotlight them and roll a **d6**. On a result of 6, if there are other adversaries on the battlefield, the Warrior re-forms with no marked HP.

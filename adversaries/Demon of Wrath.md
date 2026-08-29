@@ -1,4 +1,4 @@
-# Demon of Wrath
+# Demon Of Wrath
 
 **_Tier 3 Bruiser._** _A hulking demon with boulder-sized fists, driven by endless rage._
 
@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Anger Unrelenting - Passive:_** The Demon's attacks deal direct damage.
+**_Anger Unrelenting:_** The Demon’s attacks deal direct damage.
 
-**_Battle Lust - Action:_** **Spend a Fear** to boil the blood of all PCs within Far range. They use a d20 as their Fear Die until the end of the scene.
+**_Battle Lust:_** **Spend a Fear** to boil the blood of all PCs within Far range. They use a **d20** as their Fear Die until the end of the scene.
 
-**_Retaliation - Reaction:_** When the Demon takes damage from an attack within Close range, you can **mark a Stress** to make a standard attack against the attacker.
+**_Retaliation:_** When the Demon takes damage from an attack within Close range, you can **mark a Stress** to make a standard attack against the attacker.
 
-**_Blood and Souls - Reaction: Countdown (Loop 6):_** Activate the first time an attack is made within sight of the Demon. It ticks down when a PC takes a violent action. When it triggers, summon **1d4** Minor Demons, who appear at Close range.
+**_Blood and Souls:_** Countdown (Loop 6). Activate the first time an attack is made within sight of the Demon. It ticks down when a PC takes a violent action. When it triggers, summon **1d4** Minor Demons, who appear at Close range.

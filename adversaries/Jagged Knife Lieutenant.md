@@ -9,10 +9,10 @@
 
 ### FEATURES
 
-**_Tactician - Action:_** When you spotlight the Lieutenant, **mark a Stress** to also spotlight two allies within Close range.
+**_Tactician:_** When you spotlight the Lieutenant, **mark a Stress** to also spotlight two allies within Close range.
 
-**_More Where That Came From - Action:_** Summon three Jagged Knife Lackeys, who appear at Far range.
+**_More Where That Came From:_** Summon three Jagged Knife Lackeys, who appear at Far range.
 
-**_Coup de Grace - Action:_** **Spend a Fear** to make an attack against a _Vulnerable_ target within Close range. On a success, deal **2d6+12** physical damage and the target must mark a Stress.
+**_Coup de Grace:_** **Spend a Fear** to make an attack against a _Vulnerable_ target within Close range. On a success, deal **2d6+12** physical damage and the target must **mark a Stress**.
 
-**_Momentum - Reaction:_** When the Lieutenant makes a successful attack against a PC, you gain a Fear.
+**_Momentum:_** When the Lieutenant makes a successful attack against a PC, you gain a Fear.

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Ravenous Mockery
 
 **_Tier 2 Standard._** _A shapeshifting predator that assumes the appearance of inanimate objects to lure unwary prey into its threat range._

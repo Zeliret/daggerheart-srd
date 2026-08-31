@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Young Ice Dragon
 
 **_Tier 3 Solo._** _A glacier-blue dragon with four powerful limbs and frost-tinged wings._

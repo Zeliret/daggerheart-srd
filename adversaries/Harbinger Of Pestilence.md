@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Leader"
+---
+
 # Harbinger Of Pestilence
 
 **_Tier 4 Leader._** _A bloated and rotting agglomeration of wriggling insects and slugs formed into a single humanoid mass riding a worm-eaten horse._

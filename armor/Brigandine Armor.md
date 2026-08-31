@@ -1,3 +1,10 @@
+---
+Tier: 1
+Thresholds: "6 / 12"
+Score: 3
+Feature: "Lined: Mark a Stress to negate Minor damage."
+---
+
 # Brigandine Armor
 
 **_Tier 1_** _Armor_

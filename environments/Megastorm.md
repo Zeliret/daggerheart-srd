@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Event"
+---
+
 # Megastorm
 
 **_Tier 3 Event._** _An extreme weather event suddenly manifests, forcing the party to balance their own survival against the safety of others._

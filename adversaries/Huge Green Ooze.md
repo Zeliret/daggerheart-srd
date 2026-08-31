@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Huge Green Ooze
 
 **_Tier 3 Skulk._** _A translucent green mound of acid taller than most humans._

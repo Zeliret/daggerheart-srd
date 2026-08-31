@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Fungispunj Sporeling
 
 **_Tier 2 Minion._** _A halfling-sized mushroom creature that defends itself from attackers with tiny puff s of neurotoxic spores._

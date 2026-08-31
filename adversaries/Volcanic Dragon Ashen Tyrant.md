@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Volcanic Dragon: Ashen Tyrant
 
 **_Tier 4 Solo._** _No enemy has ever had the insolence to wound the dragon so. As the lava settles, it’s ground to ash like the dragon’s past foes._

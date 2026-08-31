@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Demon Of Despair
 
 **_Tier 3 Skulk._** _A cloaked demon-creature with long limbs, seeping shadows._

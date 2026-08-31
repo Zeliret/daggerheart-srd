@@ -1,4 +1,5 @@
 # Moon
+
 Play the Moon if you want to embody celestial power to amplify your magic.
 
 ### SPELLCAST TRAIT

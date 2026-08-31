@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Elephant
 
 **_Tier 2 Bruiser._** _A huge pachyderm that has large ears and a prehensile trunk._

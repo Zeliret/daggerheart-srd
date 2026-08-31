@@ -1,4 +1,5 @@
 # Pact of the Wrathful
+
 Play the Pact of the Wrathful if you want to destroy those who act against you.
 
 ### SPELLCAST TRAIT

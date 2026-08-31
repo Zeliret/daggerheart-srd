@@ -1,3 +1,10 @@
+---
+Tier: 4
+Thresholds: "15 / 39"
+Score: 6
+Feature: "Cumbersome: -1 to Finesse"
+---
+
 # Legendary Scale Mail Armor
 
 **_Tier 4_** _Armor_

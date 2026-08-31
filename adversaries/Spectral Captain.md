@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Spectral Captain
 
 **_Tier 2 Leader._** _A ghostly commander leading their troops beyond death._

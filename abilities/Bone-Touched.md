@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Bone-Touched
 
 **_Level 7_** _Bone Ability._ **_Recall Cost_** _2._

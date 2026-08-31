@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Reassurance
 
 **_Level 1_** _Splendor Ability._ **_Recall Cost_** _0._

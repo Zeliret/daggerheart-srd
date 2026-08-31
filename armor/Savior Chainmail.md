@@ -1,3 +1,10 @@
+---
+Tier: 4
+Thresholds: "18 / 48"
+Score: 8
+Feature: "Difficult: -1 to all character traits and Evasion"
+---
+
 # Savior Chainmail
 
 **_Tier 4_** _Armor_

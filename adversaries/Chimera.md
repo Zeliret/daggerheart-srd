@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Chimera
 
 **_Tier 3 Bruiser._** _A giant fire-breathing monster that has a lion’s head, a goat’s body, and a serpent’s tail._

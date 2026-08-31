@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Giant Octopus
 
 **_Tier 2 Solo._** _A monstrous, aquatic mollusk that has eight sucker-bearing arms and a hard, beaklike jaw._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 5
+Recall Cost: 0
+---
+
 # Vitality
 
 **_Level 5_** _Blade Ability._ **_Recall Cost_** _0._

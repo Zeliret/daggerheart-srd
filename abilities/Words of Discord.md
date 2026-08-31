@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Words of Discord
 
 **_Level 5_** _Grace Spell._ **_Recall Cost_** _1._

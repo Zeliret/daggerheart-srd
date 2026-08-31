@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "11 / 27"
+Score: 5
+Feature: "Stellar: Mark a Stress to gain advantage on a Spellcast roll."
+---
+
 # Astral Raiment
 
 **_Tier 3_** _Armor_

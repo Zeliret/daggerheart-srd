@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 9
+Recall Cost: 3
+---
+
 # Splintering Strike
 
 **_Level 9_** _Bone Ability._ **_Recall Cost_** _3._

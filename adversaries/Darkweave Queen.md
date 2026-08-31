@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Darkweave Queen
 
 **_Tier 1 Solo._** _A wagon-sized spider woven from shadow-silk by a long-forgotten god. Each of her many eyes bears the face of a different victim._

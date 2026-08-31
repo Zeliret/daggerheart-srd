@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Towering Stalk
 
 **_Level 3_** _Sage Spell._ **_Recall Cost_** _1._

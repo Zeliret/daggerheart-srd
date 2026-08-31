@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Support"
+---
+
 # Greater Water Elemental
 
 **_Tier 3 Support._** _A huge living wave that crashes down upon enemies._

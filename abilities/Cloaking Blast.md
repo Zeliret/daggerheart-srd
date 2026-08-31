@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Cloaking Blast
 
 **_Level 7_** _Arcana Spell._ **_Recall Cost_** _2._

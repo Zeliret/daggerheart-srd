@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 6
+Recall Cost: 0
+---
+
 # Dark Whispers
 
 **_Level 6_** _Midnight Spell._ **_Recall Cost_** _0._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Veil of Night
 
 **_Level 3_** _Midnight Spell._ **_Recall Cost_** _1._

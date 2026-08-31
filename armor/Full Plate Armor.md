@@ -1,3 +1,10 @@
+---
+Tier: 1
+Thresholds: "8 / 17"
+Score: 4
+Feature: "Very Heavy: -2 to Evasion; -1 to Agility"
+---
+
 # Full Plate Armor
 
 **_Tier 1_** _Armor_

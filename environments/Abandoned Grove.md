@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Exploration"
+---
+
 # Abandoned Grove
 
 **_Tier 1 Exploration._** _allow and fully reclaimed by nature._

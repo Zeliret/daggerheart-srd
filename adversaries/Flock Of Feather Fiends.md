@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Horde"
+---
+
 # Flock Of Feather Fiends
 
 **_Tier 2 Horde._** _A flock of undead crow corpses, eyes aglow with necroplasmic light._

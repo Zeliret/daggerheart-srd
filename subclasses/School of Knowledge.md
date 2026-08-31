@@ -1,4 +1,5 @@
 # School of Knowledge
+
 Play the School of Knowledge if you want a keen understanding of the world around you.
 
 ### SPELLCAST TRAIT

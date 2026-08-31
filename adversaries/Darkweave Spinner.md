@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Darkweave Spinner
 
 **_Tier 1 Standard._** _A boar-sized arachnid woven from primordial shadow-silk._

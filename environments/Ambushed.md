@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Event"
+---
+
 # Ambushed
 
 **_Tier 1 Event._**

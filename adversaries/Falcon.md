@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Falcon
 
 **_Tier 1 Skulk._** _A bird of prey that has long, pointed wings and a notched beak._

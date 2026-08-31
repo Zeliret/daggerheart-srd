@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Hallowed Soldier
 
 **_Tier 4 Minion._** _Souls of the faithful, lifted up with divine weaponry._

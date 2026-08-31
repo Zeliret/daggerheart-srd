@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 7
+Recall Cost: 1
+---
+
 # Cruel Precision
 
 **_Level 7_** _Bone Ability._ **_Recall Cost_** _1._

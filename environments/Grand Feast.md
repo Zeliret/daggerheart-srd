@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Grand Feast
 
 **_Tier 1 Social._** _A community-wide celebration featuring way too much drink, food, and fun._

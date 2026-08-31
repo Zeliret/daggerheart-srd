@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "16 / 39"
+Score: 6
+Feature: "Magic: You can’t mark an Armor Slot to reduce physical damage."
+---
+
 # Monett’s Cloak
 
 **_Tier 3_** _Armor_

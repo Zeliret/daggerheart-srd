@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Giant Scorpion
 
 **_Tier 1 Bruiser._** _A human-sized arachnid with tearing claws and a stinging tail._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Bruiser"
+---
+
 # Perfected Zombie
 
 **_Tier 4 Bruiser._** _A towering, muscular zombie with magically infused strength and skill._

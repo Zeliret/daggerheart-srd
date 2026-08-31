@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Social"
+---
+
 # Cloud Titan
 
 **_Tier 4 Social._** _A devastatingly attractive, blue-skinned goliath dressed in the finest silks and dripping with jewelry. They luxuriate in the finer things and dwell in a sky palace filled with treasure._

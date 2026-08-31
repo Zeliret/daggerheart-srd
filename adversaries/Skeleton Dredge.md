@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Skeleton Dredge
 
 **_Tier 1 Minion._** _A clattering pile of bones._

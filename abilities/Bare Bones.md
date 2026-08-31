@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Bare Bones
 
 **_Level 1_** _Valor Ability._ **_Recall Cost_** _0._

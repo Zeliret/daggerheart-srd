@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Deft Maneuvers
 
 **_Level 1_** _Bone Ability._ **_Recall Cost_** _0._

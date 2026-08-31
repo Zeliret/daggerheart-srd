@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Leader"
+---
+
 # Head Vampire
 
 **_Tier 3 Leader._** _A captivating undead dressed in aristocratic finery._

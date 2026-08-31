@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Skeleton Knight
 
 **_Tier 1 Bruiser._** _A large armored skeleton with a huge blade._

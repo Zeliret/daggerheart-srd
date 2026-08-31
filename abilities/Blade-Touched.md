@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 7
+Recall Cost: 1
+---
+
 # Blade-Touched
 
 **_Level 7_** _Blade Ability._ **_Recall Cost_** _1._

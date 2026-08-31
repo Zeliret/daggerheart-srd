@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Gargoyle
 
 **_Tier 2 Bruiser._** _A magically animated statue resembling a terrifying beast or demon._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Leader"
+---
+
 # Dryad
 
 **_Tier 3 Leader._** _A nature spirit in the form of a humanoid tree._

@@ -1,6 +1,6 @@
 # {{ .name }}
 
-{{- if not .foundation }}
+{{ if not .foundation }}
 {{ sourceMarkdown .description }}
 {{- else }}
 {{ .description }}

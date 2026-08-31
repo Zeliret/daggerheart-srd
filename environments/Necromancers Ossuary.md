@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Exploration"
+---
+
 # Necromancer’s Ossuary
 
 **_Tier 4 Exploration._** _A dusty crypt with a library, twisting corridors, and abundant sarcophagi, spattered with the blood of ill-fated invaders._

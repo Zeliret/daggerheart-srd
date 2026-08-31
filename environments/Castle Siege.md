@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Event"
+---
+
 # Castle Siege
 
 **_Tier 3 Event._** _An active siege with an attacking force fighting to gain entry to a fortified castle._

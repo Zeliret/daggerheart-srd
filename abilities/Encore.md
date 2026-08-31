@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 10
+Recall Cost: 1
+---
+
 # Encore
 
 **_Level 10_** _Grace Spell._ **_Recall Cost_** _1._

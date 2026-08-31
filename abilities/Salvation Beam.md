@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 9
+Recall Cost: 2
+---
+
 # Salvation Beam
 
 **_Level 9_** _Splendor Spell._ **_Recall Cost_** _2._

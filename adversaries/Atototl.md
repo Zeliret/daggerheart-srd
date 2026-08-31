@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Atototl
 
 **_Tier 1 Standard._** _A majestic green water bird that has a ten-foot wingspan and is hunted for the fortune-telling stone inside their stomach._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Dire Bat
 
 **_Tier 3 Skulk._** _A wide-winged pet endlessly loyal to their vampire owner._

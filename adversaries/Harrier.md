@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Harrier
 
 **_Tier 1 Standard._** _A nimble fighter armed with javelins._

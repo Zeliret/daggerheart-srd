@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 4
+Recall Cost: 2
+---
+
 # Deadly Focus
 
 **_Level 4_** _Blade Ability._ **_Recall Cost_** _2._

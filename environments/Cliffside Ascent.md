@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Traversal"
+---
+
 # Cliffside Ascent
 
 **_Tier 1 Traversal._** _A steep, rocky cliff side tall enough to make traversal dangerous._

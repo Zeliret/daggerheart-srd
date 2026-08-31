@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 6
+Recall Cost: 2
+---
+
 # Never Upstaged
 
 **_Level 6_** _Grace Ability._ **_Recall Cost_** _2._

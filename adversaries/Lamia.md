@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Lamia
 
 **_Tier 3 Skulk._** _A snake-tailed humanoid monster who stalks the night to absorb the life energy of sleeping people._

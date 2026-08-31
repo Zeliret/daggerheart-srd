@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Stone Titan
 
 **_Tier 2 Solo._** _A gray-skinned goliath who lives underground and specializes in crafting powerful items inlaid with magical runes._

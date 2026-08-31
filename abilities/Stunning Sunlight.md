@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 8
+Recall Cost: 2
+---
+
 # Stunning Sunlight
 
 **_Level 8_** _Splendor Spell._ **_Recall Cost_** _2._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 6
+Recall Cost: 0
+---
+
 # Rapid Riposte
 
 **_Level 6_** _Bone Ability._ **_Recall Cost_** _0._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Leader"
+---
+
 # Deep Dweller
 
 **_Tier 3 Leader._** _A huge psychic lamprey that has pitch-black eyes and toxic tentacles._

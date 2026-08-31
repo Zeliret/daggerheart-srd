@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Tangle Bramble Swarm
 
 **_Tier 1 Horde._** _A cluster of animate, blood-drinking tumbleweeds, each the size of a large gourd._

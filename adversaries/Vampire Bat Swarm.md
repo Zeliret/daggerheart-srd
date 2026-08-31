@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Horde"
+---
+
 # Vampire Bat Swarm
 
 **_Tier 3 Horde._** _A cloud of blood-sucking bats._

@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "15 / 34"
+Score: 6
+Feature: "Bulky: -1 to Evasion; when you take Severe damage, you must mark a Stress."
+---
+
 # Advanced Banded Armor
 
 **_Tier 3_** _Armor_

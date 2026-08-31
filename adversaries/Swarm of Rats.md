@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Swarm Of Rats
 
 **_Tier 1 Horde._** _A skittering mass of ordinary rodents moving as one like a ravenous wave._

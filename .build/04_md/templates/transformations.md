@@ -1,12 +1,12 @@
 # {{ .name }}
 
-{{ .description }}
+{{ sourceMarkdown .description }}
 
 ### TRANSFORMATION FEATURES
 
 {{- range .feature }}
 
-**_{{ .name }}:_** {{ mechanicsText .text }}
+**_{{ .name }}:_** {{ sourceMarkdown .text }}
 {{- end }}
 
 ### TRANSFORMATION QUESTIONS

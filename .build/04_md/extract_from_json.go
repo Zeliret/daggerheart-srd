@@ -72,10 +72,12 @@ func main() {
 			return mechanicsText(formatAdversaryFeatureText(value))
 		},
 		"environmentQuestionText": formatEnvironmentQuestionText,
-		"optionAt":             optionAt,
-		"add1":                 add1,
-		"sourceMarkdown":       sourceMarkdown,
-		"classSourceMarkdown":  classSourceMarkdown,
+		"yamlText":                yamlText,
+		"featureProperty":         featureProperty,
+		"optionAt":                optionAt,
+		"add1":                    add1,
+		"sourceMarkdown":          sourceMarkdown,
+		"classSourceMarkdown":     classSourceMarkdown,
 	}
 
 	var beastforms []map[string]any
@@ -149,6 +151,43 @@ func main() {
 	}
 }
 
+// yamlText emits a quoted YAML scalar. JSON string syntax is a valid YAML
+// scalar representation and safely preserves punctuation in SRD properties.
+func yamlText(value string) string {
+	encoded, err := json.Marshal(value)
+	if err != nil {
+		return `""`
+	}
+	return string(encoded)
+}
+
+// featureProperty returns the displayed feature name and text for an item.
+func featureProperty(value any) string {
+	var feature map[string]any
+	switch features := value.(type) {
+	case []map[string]any:
+		if len(features) > 0 {
+			feature = features[0]
+		}
+	case []any:
+		if len(features) > 0 {
+			feature, _ = features[0].(map[string]any)
+		}
+	}
+	if feature == nil {
+		return ""
+	}
+	name, _ := feature["name"].(string)
+	text, _ := feature["text"].(string)
+	if name == "" {
+		return text
+	}
+	if text == "" {
+		return name
+	}
+	return name + ": " + text
+}
+
 var sourceArtifact = regexp.MustCompile(`^(?:[0-9]+|Daggerheart SRD|<!-- PDF page [0-9]+ -->)$`)
 var sourceAllCaps = regexp.MustCompile(`^[A-Z0-9][A-Z0-9 '’&–—-]+$`)
 var sourceMetadata = regexp.MustCompile(`^(DOMAINS|STARTING EVASION|STARTING HIT POINTS|CLASS ITEMS)\s+–\s+(.+)$`)
@@ -166,6 +205,7 @@ var mechanicsMarkdownSpan = regexp.MustCompile(`\*\*[^*]+\*\*|_[^_]+_`)
 // into readable Markdown. SRD 2.0 additions that do not yet have every legacy
 // CSV field parsed use this path, avoiding empty template placeholders.
 func sourceMarkdown(source string) string {
+	source = joinSourceBulletContinuations(source)
 	var out, paragraph []string
 	flush := func() {
 		if len(paragraph) > 0 {
@@ -207,6 +247,39 @@ func sourceMarkdown(source string) string {
 	}
 	flush()
 	return strings.TrimSpace(normalizeMarkdown(strings.Join(out, "\n")))
+}
+
+// joinSourceBulletContinuations joins physical PDF line wraps inside bullet
+// items before sourceMarkdown turns them into Markdown list entries.
+func joinSourceBulletContinuations(source string) string {
+	lines := strings.Split(source, "\n")
+	for i := 0; i+1 < len(lines); i++ {
+		line := strings.TrimSpace(lines[i])
+		if !strings.HasPrefix(line, "•") {
+			continue
+		}
+		joined := false
+		for j := i + 1; j < len(lines); j++ {
+			next := strings.TrimSpace(lines[j])
+			if next == "" {
+				if joined {
+					continue
+				}
+				break
+			}
+			if strings.HasPrefix(next, "•") || sourceArtifact.MatchString(next) || sourceAllCaps.MatchString(next) {
+				break
+			}
+			first := next[0]
+			if first < 'a' || first > 'z' {
+				break
+			}
+			lines[i] = strings.TrimSpace(lines[i]) + " " + next
+			lines[j] = ""
+			joined = true
+		}
+	}
+	return strings.Join(lines, "\n")
 }
 
 // formatRollEffectTable restores the compact outcome tables embedded in the

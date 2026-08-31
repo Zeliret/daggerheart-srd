@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Oracle Of Doom
 
 **_Tier 4 Solo._** _A towering immortal and incarnation of fate, cursed to only see bad outcomes._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Demon Lord Berzug
 
 **_Tier 4 Solo._** _The ruler of a deep circle in the Circles Below and a huge hybrid beast with a serpent’s tail, a lizard’s hind legs, a crab’s claw arms, and a two-faced wolf’s head._

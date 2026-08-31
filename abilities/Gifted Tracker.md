@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Gifted Tracker
 
 **_Level 1_** _Sage Ability._ **_Recall Cost_** _0._

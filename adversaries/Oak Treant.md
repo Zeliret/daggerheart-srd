@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Oak Treant
 
 **_Tier 3 Bruiser._** _A sturdy animate old-growth tree._

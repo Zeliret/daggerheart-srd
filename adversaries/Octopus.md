@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Octopus
 
 **_Tier 1 Skulk._** _An aquatic, soft-bodied mollusk that has eight sucker-bearing arms and a hard, beaklike jaw._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Horde"
+---
+
 # Entombed Skin Beetles
 
 **_Tier 2 Horde._** _Flesh-eating beetles that burrow beneath the skin._

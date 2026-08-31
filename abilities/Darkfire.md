@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 6
+Recall Cost: 2
+---
+
 # Darkfire
 
 **_Level 6_** _Dread Spell._ **_Recall Cost_** _2._

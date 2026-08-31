@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Mountain Troll
 
 **_Tier 1 Solo._** _A hideous giant born out of a massive rock. They wear purloined armor and a belt of severed heads or skulls._

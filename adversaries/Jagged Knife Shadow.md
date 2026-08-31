@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Jagged Knife Shadow
 
 **_Tier 1 Skulk._** _A nimble scoundrel bearing a wicked knife and utilizing shadow magic to isolate targets._

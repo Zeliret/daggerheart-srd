@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 10
+Recall Cost: 3
+---
+
 # Invigoration
 
 **_Level 10_** _Splendor Spell._ **_Recall Cost_** _3._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 1
+Recall Cost: 1
+---
+
 # Umbral Veil
 
 **_Level 1_** _Dread Spell._ **_Recall Cost_** _1._

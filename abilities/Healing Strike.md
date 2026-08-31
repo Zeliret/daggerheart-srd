@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 7
+Recall Cost: 1
+---
+
 # Healing Strike
 
 **_Level 7_** _Splendor Spell._ **_Recall Cost_** _1._

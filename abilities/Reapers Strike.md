@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 9
+Recall Cost: 3
+---
+
 # Reaper's Strike
 
 **_Level 9_** _Blade Ability._ **_Recall Cost_** _3._

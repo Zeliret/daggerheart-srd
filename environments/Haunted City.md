@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Exploration"
+---
+
 # Haunted City
 
 **_Tier 2 Exploration._** _An abandoned city populated by the restless spirits of eras past._

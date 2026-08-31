@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Dread-Touched
 
 **_Level 7_** _Dread Ability._ **_Recall Cost_** _2._

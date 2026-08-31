@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Social"
+---
+
 # Beach Day
 
 **_Tier 2 Social._** _heir adventure for some rest and relaxation in a seaside settlement._

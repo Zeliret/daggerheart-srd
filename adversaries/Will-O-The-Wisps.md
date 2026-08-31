@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Will-O’-The-Wisps
 
 **_Tier 1 Horde._** _Lazily floating orbs of color-shifting werelight._

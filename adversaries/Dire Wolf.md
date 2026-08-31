@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Dire Wolf
 
 **_Tier 1 Skulk._** _A large wolf with menacing teeth, seldom encountered alone._

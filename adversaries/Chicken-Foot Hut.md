@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Chicken-Foot Hut
 
 **_Tier 2 Bruiser._** _A tall wooden shack that moves around on giant chicken legs._

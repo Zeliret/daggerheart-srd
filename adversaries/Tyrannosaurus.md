@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Tyrannosaurus
 
 **_Tier 2 Bruiser._** _A huge carnivorous dinosaur that walks on two legs._

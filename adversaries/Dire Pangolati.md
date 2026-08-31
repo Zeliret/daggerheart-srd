@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Dire Pangolati
 
 **_Tier 2 Bruiser._** _A carriage-sized pangolin-coati hybrid covered in armor plating. It has a bladed tail it uses to fling razor-sharp scales._

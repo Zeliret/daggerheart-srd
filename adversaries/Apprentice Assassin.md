@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Apprentice Assassin
 
 **_Tier 2 Minion._** _A young trainee eager to prove themselves._

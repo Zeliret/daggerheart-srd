@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Patchwork Zombie Hulk
 
 **_Tier 1 Solo._** _A towering gestalt of corpses moving as one, with torso-sized limbs and fists as large as a grown halfling._

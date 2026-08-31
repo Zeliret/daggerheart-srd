@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Fungispunj Sporophore
 
 **_Tier 2 Leader._** _A giant mushroom creature that can command the dead._

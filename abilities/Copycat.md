@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 9
+Recall Cost: 3
+---
+
 # Copycat
 
 **_Level 9_** _Grace Spell._ **_Recall Cost_** _3._

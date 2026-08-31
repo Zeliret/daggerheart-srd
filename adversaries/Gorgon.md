@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Gorgon
 
 **_Tier 2 Solo._** _A snake-headed, scaled humanoid with a gilded bow, enraged that their peace has been disturbed._

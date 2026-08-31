@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Minor Treant
 
 **_Tier 1 Minion._** _An ambulatory sapling rising up to defend their forest._

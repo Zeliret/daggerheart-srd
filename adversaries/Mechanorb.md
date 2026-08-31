@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Mechanorb
 
 **_Tier 1 Standard._** _A floating clockwork sphere that has telescoping limbs and comes from a realm of machines and metal._

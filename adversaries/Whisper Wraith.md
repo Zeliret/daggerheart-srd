@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Whisper Wraith
 
 **_Tier 3 Skulk._** _The echoes of broken promises and dreams unfulfilled, manifesting as a floating, translucent shroud of tattered black velvet in a vaguely humanoid shape._

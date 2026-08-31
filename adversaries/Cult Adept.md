@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Support"
+---
+
 # Cult Adept
 
 **_Tier 2 Support._** _An experienced mage wielding shadow and fear._

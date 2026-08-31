@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Conscript
 
 **_Tier 2 Minion._** _A poorly trained civilian pressed into war._

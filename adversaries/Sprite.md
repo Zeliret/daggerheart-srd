@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Sprite
 
 **_Tier 2 Minion._** _A tiny winged warrior that attacks trespassers with poison-tipped arrows._

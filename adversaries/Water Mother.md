@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Water Mother
 
 **_Tier 4 Solo._** _A colossal fur-covered snake that hunts in large bodies of water._

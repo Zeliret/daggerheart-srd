@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 10
+Recall Cost: 2
+---
+
 # Book of Yarrow
 
 **_Level 10_** _Codex Grimoire._ **_Recall Cost_** _2._

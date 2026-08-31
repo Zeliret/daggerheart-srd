@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 1
+Recall Cost: 1
+---
+
 # Vicious Entangle
 
 **_Level 1_** _Sage Spell._ **_Recall Cost_** _1._

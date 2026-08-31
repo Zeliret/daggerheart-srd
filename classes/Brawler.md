@@ -1,4 +1,16 @@
+---
+Domains:
+  - "[[Valor]]"
+  - "[[Bone]]"
+Subclasses:
+  - "[[Juggernaut]]"
+  - "[[Martial Artist]]"
+Evasion: 10
+Hit Points: 6
+---
+
 # Brawler
+
 Experts in unarmed combat, brawlers hone their bodies into lethal weapons. Whether they learned from formal training, studied with a mentor, or picked up their skills one fight at a time, the process is always rigorous as brawlers develop their body and mind to work as one. Brawlers are valued for their power and versatility and typically join a party or a cause when the need or desire arises. Because a brawler’s body is their strongest weapon, they typically seek out new challenges or consistent sparring partners so they can maintain their skills and add new techniques to their repertoire. Though they might appear unassuming to those accustomed to foes who are armed to the teeth, brawlers often accomplish more with bare knuckles than an average soldier with a sword.
 
 ---
@@ -25,22 +37,14 @@ Choose either the **[Juggernaut](../subclasses/Juggernaut.md)** or **[Martial Ar
 
 _Answer any of the following background questions. You can also create your own questions._
 
-- Where did you spend time during your formative
-years that taught you, directly or indirectly, how to fight in the style you use?
-
-- What organization has vowed to kill you on sight, and
-what did you do to invoke their ire?
-
-- Who did you recently lose a fight to that you’re
-desperate for a rematch against?
+- Where did you spend time during your formative years that taught you, directly or indirectly, how to fight in the style you use?
+- What organization has vowed to kill you on sight, and what did you do to invoke their ire?
+- Who did you recently lose a fight to that you’re desperate for a rematch against?
 
 ### CONNECTIONS
 
 _Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
 - What is one thing we’re both afraid of?
-- What do I rely on you for during our travels? How do
-you feel about it?
-
-- I still haven’t forgiven you for something you said to
-me. What was it, and why did you say it?
+- What do I rely on you for during our travels? How do you feel about it?
+- I still haven’t forgiven you for something you said to me. What was it, and why did you say it?

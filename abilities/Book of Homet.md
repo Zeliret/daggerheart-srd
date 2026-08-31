@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 7
+Recall Cost: 0
+---
+
 # Book of Homet
 
 **_Level 7_** _Codex Grimoire._ **_Recall Cost_** _0._

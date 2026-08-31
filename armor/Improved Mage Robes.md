@@ -1,3 +1,10 @@
+---
+Tier: 2
+Thresholds: "6 / 15"
+Score: 3
+Feature: "Enchanted: Gain a bonus to your damage thresholds equal to your Spellcast trait."
+---
+
 # Improved Mage Robes
 
 **_Tier 2_** _Armor_

@@ -1,3 +1,13 @@
+---
+Tier: 4
+Category: "Primary"
+Trait: "Finesse"
+Range: "Far"
+Damage: "d6+11 phy"
+Burden: "One-Handed"
+Feature: "Quick: When you make an attack, you can mark a Stress to target another creature within range."
+---
+
 # Clockwork Crossbow
 
 **_Tier 4_** _Primary_ _Physical_ _Weapon_

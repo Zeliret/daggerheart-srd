@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 6
+Recall Cost: 0
+---
+
 # Telekinesis
 
 **_Level 6_** _Arcana Spell._ **_Recall Cost_** _0._

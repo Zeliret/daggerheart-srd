@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Redcap Biters
 
 **_Tier 1 Horde._** _A troop of fist-sized fey creatures who have needle-sharp teeth and conical red caps sealed on their heads with candle wax._

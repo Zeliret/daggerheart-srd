@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Leader"
+---
+
 # Jagged Knife Lieutenant
 
 **_Tier 1 Leader._** _A seasoned bandit in quality leathers with a strong voice and cunning eyes._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 6
+Recall Cost: 1
+---
+
 # Jump Scare
 
 **_Level 6_** _Dread Spell._ **_Recall Cost_** _1._

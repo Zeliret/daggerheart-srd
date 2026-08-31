@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Assassin Poisoner
 
 **_Tier 2 Skulk._** _A cunning scoundrel skilled in both poisons and ambushing._

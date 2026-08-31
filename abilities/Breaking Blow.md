@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 8
+Recall Cost: 3
+---
+
 # Breaking Blow
 
 **_Level 8_** _Bone Ability._ **_Recall Cost_** _3._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 10
+Recall Cost: 1
+---
+
 # Unyielding Armor
 
 **_Level 10_** _Valor Ability._ **_Recall Cost_** _1._

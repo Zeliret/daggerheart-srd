@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 2
+Recall Cost: 1
+---
+
 # Siphon Essence
 
 **_Level 2_** _Dread Spell._ **_Recall Cost_** _1._

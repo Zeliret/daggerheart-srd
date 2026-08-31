@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Event"
+---
+
 # Pitched Battle
 
 **_Tier 3 Event._** _A massive combat between two large groups of armed combatants._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Cephilith Novitiate
 
 **_Tier 4 Minion._** _A luminary of the Mortal Realm who has given their mind to extradimensional entities in exchange for eldritch abilities._

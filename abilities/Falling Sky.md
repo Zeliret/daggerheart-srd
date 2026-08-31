@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 10
+Recall Cost: 1
+---
+
 # Falling Sky
 
 **_Level 10_** _Arcana Spell._ **_Recall Cost_** _1._

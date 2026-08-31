@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 10
+Recall Cost: 1
+---
+
 # Deathrun
 
 **_Level 10_** _Bone Ability._ **_Recall Cost_** _1._

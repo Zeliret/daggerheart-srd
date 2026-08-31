@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Landshark Behemoth
 
 **_Tier 2 Solo._** _A landshark that’s lived long enough to become a large burrowing monstrosity with steely hide and razor-sharp teeth._

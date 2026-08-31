@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Minor Demon
 
 **_Tier 1 Solo._** _A crimson-hued creature from the Circles Below, consumed by rage against all mortals._

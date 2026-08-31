@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Event"
+---
+
 # Cult Ritual
 
 **_Tier 2 Event._** _len cult assembles around a sigil of the defeated gods and a bonfire that burns a sickly shade of green._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Urco
 
 **_Tier 2 Standard._** _A black-furred hound from beyond the veil of death that portends death and feeds on fear._

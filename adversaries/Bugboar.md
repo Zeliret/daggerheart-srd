@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Bugboar
 
 **_Tier 1 Bruiser._** _A large bipedal creature that has a tusked snout and coarse fur._

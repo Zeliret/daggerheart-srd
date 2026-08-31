@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 1
+Recall Cost: 1
+---
+
 # I See It Coming
 
 **_Level 1_** _Bone Ability._ **_Recall Cost_** _1._

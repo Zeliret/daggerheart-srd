@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Demon Of Wrath
 
 **_Tier 3 Bruiser._** _A hulking demon with boulder-sized fists, driven by endless rage._

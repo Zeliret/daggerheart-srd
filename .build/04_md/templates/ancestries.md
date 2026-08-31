@@ -1,6 +1,6 @@
 # {{ .name }}
 
-{{- if not .feature }}
+{{ if not .feature }}
 {{ sourceMarkdown .description }}
 {{- else }}
 {{ .description }}

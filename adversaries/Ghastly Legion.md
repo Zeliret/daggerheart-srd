@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Horde"
+---
+
 # Ghastly Legion
 
 **_Tier 4 Horde._** _A teeming army of ghosts roused from dreamless slumber to fulfill their ancient oath._

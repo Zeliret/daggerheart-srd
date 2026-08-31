@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Social"
+---
+
 # Royal Advisor
 
 **_Tier 2 Social._** _A high-ranking courtier with the ear of the local nobility._

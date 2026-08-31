@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Skeleton Warrior
 
 **_Tier 1 Standard._** _A dirt-covered skeleton armed with a rusted blade._

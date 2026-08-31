@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Ranged"
+---
+
 # Hallowed Archer
 
 **_Tier 4 Ranged._** _Spirit soldiers with sanctified bows._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 6
+Recall Cost: 0
+---
+
 # Share the Burden
 
 **_Level 6_** _Grace Spell._ **_Recall Cost_** _0._

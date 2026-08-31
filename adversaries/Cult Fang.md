@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Cult Fang
 
 **_Tier 2 Skulk._** _A professional killer-turned-cultist._

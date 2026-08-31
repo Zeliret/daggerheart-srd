@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 4
+Recall Cost: 2
+---
+
 # Support Tank
 
 **_Level 4_** _Valor Ability._ **_Recall Cost_** _2._

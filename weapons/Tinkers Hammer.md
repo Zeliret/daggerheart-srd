@@ -1,3 +1,13 @@
+---
+Tier: 3
+Category: "Secondary"
+Trait: "Strength"
+Range: "Melee"
+Damage: "d8+4 phy"
+Burden: "One-Handed"
+Feature: "Trusty: +1 to attack rolls made with your primary weapon"
+---
+
 # Tinker’s Hammer
 
 **_Tier 3_** _Secondary_ _Physical_ _Weapon_

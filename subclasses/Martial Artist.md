@@ -1,4 +1,5 @@
 # Martial Artist
+
 Play the Martial Artist if you want to use a variety of fighting styles to eliminate your foes.
 
 ### FOUNDATION FEATURE

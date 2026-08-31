@@ -1,3 +1,10 @@
+---
+Tier: {{ .tier }}
+Thresholds: {{ yamlText .base_thresholds }}
+Score: {{ .base_score }}
+Feature: {{ yamlText (featureProperty .feature) }}
+---
+
 # {{ .name }}
 
 **_Tier {{ .tier }}_** _Armor_

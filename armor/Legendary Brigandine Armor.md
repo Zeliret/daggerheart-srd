@@ -1,3 +1,10 @@
+---
+Tier: 4
+Thresholds: "13 / 35"
+Score: 6
+Feature: "Lined: Mark a Stress to negate Minor damage."
+---
+
 # Legendary Brigandine Armor
 
 **_Tier 4_** _Armor_

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Fowlbear
 
 **_Tier 2 Bruiser._** _A grizzly bear with a feathery hide and the head of a giant goose._

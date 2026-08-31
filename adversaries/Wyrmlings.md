@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Horde"
+---
+
 # Wyrmlings
 
 **_Tier 4 Horde._** _A clutch of newly hatched dragons. As newborns, they’re furious, hungry, and stupid._

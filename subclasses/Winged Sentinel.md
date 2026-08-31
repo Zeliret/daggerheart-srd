@@ -1,4 +1,5 @@
 # Winged Sentinel
+
 Play the Winged Sentinel if you want to take flight and strike crushing blows from the sky.
 
 ### SPELLCAST TRAIT

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Traversal"
+---
+
 # Raging River
 
 **_Tier 1 Traversal._** _A swift-moving river without a bridge crossing, deep enough to sweep away most people._

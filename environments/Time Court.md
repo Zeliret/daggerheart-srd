@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Event"
+---
+
 # Time Court
 
 **_Tier 4 Event._** _One or more PCs are forcibly plucked from the timeline and put on trial for crimes against continuity._

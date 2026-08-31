@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 3
+Recall Cost: 2
+---
+
 # Counterspell
 
 **_Level 3_** _Arcana Spell._ **_Recall Cost_** _2._

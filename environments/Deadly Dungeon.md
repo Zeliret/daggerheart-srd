@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Exploration"
+---
+
 # Deadly Dungeon
 
 **_Tier 2 Exploration._** _A dimly lit subterranean network of tunnels and chambers filled with monsters, traps, and treasure._

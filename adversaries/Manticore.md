@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Manticore
 
 **_Tier 3 Solo._** _A legendary beast that has a human’s face, lion’s body, scorpion’s tail, and dragon’s wings._

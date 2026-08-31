@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 8
+Recall Cost: 2
+---
+
 # Book of Vyola
 
 **_Level 8_** _Codex Grimoire._ **_Recall Cost_** _2._

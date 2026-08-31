@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 10
+Recall Cost: 2
+---
+
 # Invoke Torment
 
 **_Level 10_** _Dread Ability._ **_Recall Cost_** _2._

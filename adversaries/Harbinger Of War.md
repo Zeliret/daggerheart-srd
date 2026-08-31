@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Bruiser"
+---
+
 # Harbinger Of War
 
 **_Tier 4 Bruiser._** _A warrior clad in black armor and a horned helmet and bearing a bloody banner._

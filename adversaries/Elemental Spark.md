@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Minion"
+---
+
 # Elemental Spark
 
 **_Tier 3 Minion._** _A blazing mote of elemental fire._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Berserker Alpha
 
 **_Tier 2 Leader._** _A veteran commander who quaff s magic elixirs to change into a beast and lead their packmates on a hunt._

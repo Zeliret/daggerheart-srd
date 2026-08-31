@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Ranged"
+---
+
 # War Wizard
 
 **_Tier 2 Ranged._** _A battle-hardened mage trained in destructive magic._

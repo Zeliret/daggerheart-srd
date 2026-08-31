@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Weaponmaster
 
 **_Tier 1 Bruiser._** _A master-at-arms wielding a sword twice their size._

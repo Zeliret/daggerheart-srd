@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Wild Surge
 
 **_Level 7_** _Sage Spell._ **_Recall Cost_** _2._

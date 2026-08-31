@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Glass Snake
 
 **_Tier 1 Standard._** _A clear serpent with a massive head that leaves behind a glass shard trail wherever they go._

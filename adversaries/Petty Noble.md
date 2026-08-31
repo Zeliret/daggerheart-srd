@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Petty Noble
 
 **_Tier 1 Social._** _A richly dressed and adorned aristocrat brimming with hubris._

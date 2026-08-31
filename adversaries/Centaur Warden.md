@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Ranged"
+---
+
 # Centaur Warden
 
 **_Tier 2 Ranged._** _A half-human, half-horse guardian who patrols the borders of idyllic lands uncorrupted by the touch of civilization._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 8
+Recall Cost: 3
+---
+
 # Safe Haven
 
 **_Level 8_** _Codex Spell._ **_Recall Cost_** _3._

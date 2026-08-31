@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 1
+Recall Cost: 2
+---
+
 # Book of Illiat
 
 **_Level 1_** _Codex Grimoire._ **_Recall Cost_** _2._

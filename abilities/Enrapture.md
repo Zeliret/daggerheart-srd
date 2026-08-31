@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Enrapture
 
 **_Level 1_** _Grace Spell._ **_Recall Cost_** _0._

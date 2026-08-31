@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Event"
+---
+
 # Duel
 
 **_Tier 2 Event._** _An adversary challenges one of the PCs to single combat as the rest of the party aids them from the sidelines._

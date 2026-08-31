@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Flight
 
 **_Level 3_** _Arcana Spell._ **_Recall Cost_** _1._

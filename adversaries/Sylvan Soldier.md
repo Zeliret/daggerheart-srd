@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Sylvan Soldier
 
 **_Tier 1 Standard._** _A faerie warrior adorned in armor made of leaves and bark._

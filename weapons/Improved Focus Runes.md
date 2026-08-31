@@ -1,3 +1,13 @@
+---
+Tier: 2
+Category: "Secondary"
+Trait: "Instinct"
+Range: "Very Close"
+Damage: "d6+2 mag"
+Burden: "One-Handed"
+Feature: "Focused: +1 to primary weapon damage to targets within Very Close range"
+---
+
 # Improved Focus Runes
 
 **_Tier 2_** _Secondary_ _Magical_ _Weapon_

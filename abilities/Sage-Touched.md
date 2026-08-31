@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Sage-Touched
 
 **_Level 7_** _Sage Ability._ **_Recall Cost_** _2._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 6
+Recall Cost: 2
+---
+
 # Rise Up
 
 **_Level 6_** _Valor Ability._ **_Recall Cost_** _2._

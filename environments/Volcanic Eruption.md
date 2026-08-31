@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Event"
+---
+
 # Volcanic Eruption
 
 **_Tier 3 Event._** _An explosion of heat and molten rock that leaves behind only charred desolation._

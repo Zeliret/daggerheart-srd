@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 2
+Recall Cost: 1
+---
+
 # Strategic Approach
 
 **_Level 2_** _Bone Ability._ **_Recall Cost_** _1._

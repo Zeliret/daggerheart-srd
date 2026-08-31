@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Ranged"
+---
+
 # Poltergeist
 
 **_Tier 1 Ranged._** _A baleful, translucent spirit that possesses inanimate objects._

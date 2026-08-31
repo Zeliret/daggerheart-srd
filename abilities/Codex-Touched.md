@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Codex-Touched
 
 **_Level 7_** _Codex Ability._ **_Recall Cost_** _2._

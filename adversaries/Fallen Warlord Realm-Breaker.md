@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Fallen Warlord: Realm-Breaker
 
 **_Tier 4 Solo._** _A Fallen God, wreathed in rage and resentment, bearing millennia of experience in breaking heroes' spirits._

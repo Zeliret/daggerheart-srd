@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Drake
 
 **_Tier 3 Skulk._** _A clawed quadruped that has a scaled, serpentine body and a willingness to serve its cousins, the dragons._

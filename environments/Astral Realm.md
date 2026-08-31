@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Traversal"
+---
+
 # Astral Realm
 
 **_Tier 3 Traversal._** _chic realm of energy and emotion, where the strong in spirit can reshape the rules of reality._

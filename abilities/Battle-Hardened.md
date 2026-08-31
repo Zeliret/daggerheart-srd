@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 6
+Recall Cost: 2
+---
+
 # Battle-Hardened
 
 **_Level 6_** _Blade Ability._ **_Recall Cost_** _2._

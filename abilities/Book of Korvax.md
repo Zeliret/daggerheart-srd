@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 3
+Recall Cost: 2
+---
+
 # Book of Korvax
 
 **_Level 3_** _Codex Grimoire._ **_Recall Cost_** _2._

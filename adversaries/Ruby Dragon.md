@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Standard"
+---
+
 # Ruby Dragon
 
 **_Tier 4 Standard._** _A huge winged dragon that has visible flames beneath its glittering, gem-encrusted scales. Its body heat melts stone._

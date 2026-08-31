@@ -1,4 +1,16 @@
+---
+Domains:
+  - "[[Dread]]"
+  - "[[Sage]]"
+Subclasses:
+  - "[[Hedge]]"
+  - "[[Moon]]"
+Evasion: 10
+Hit Points: 6
+---
+
 # Witch
+
 Witches are magical practitioners who commune with the forces of nature and entities from realms beyond. These spellcasters call forth power through craft, combining the tangible and ephemeral by casting spells, murmuring incantations, creating talismans, weaving illusions, and maintaining other personalized practices. They can protect their allies and harm their enemies by invoking powerful forces beyond themselves—supernatural beings such as ancestors, deities, or aspects of nature. Often, their magical knowledge is passed down from these entities or through many generations of practitioners who gather in small groups known as covens. Witches are frequently feared and misunderstood, as their methods can appear mysterious, strange, and even macabre to the uninitiated. Whichever path they walk, a witch treads the boundary between light and shadow without fear.
 
 ---
@@ -31,23 +43,14 @@ Choose either the **[Hedge](../subclasses/Hedge.md)** or **[Moon](../subclasses/
 
 _Answer any of the following background questions. You can also create your own questions._
 
-- Who from your community feared your magical
-craft? What rumor did they spread about you, and what truth did it contain?
-
-- You once used your power to help someone in a dire
-situation. Who were they, and why did they come to you?
-
-- Your magic once opened a door best left closed. Who
-or what was on the other side?
+- Who from your community feared your magical craft? What rumor did they spread about you, and what truth did it contain?
+- You once used your power to help someone in a dire situation. Who were they, and why did they come to you?
+- Your magic once opened a door best left closed. Who or what was on the other side?
 
 ### CONNECTIONS
 
 _Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
-- What unique ritual or practice have I taught you that
-we now perform together?
-
-- I once appeared to you in a dream and shared a vision
-of the future. What did I tell you?
-
+- What unique ritual or practice have I taught you that we now perform together?
+- I once appeared to you in a dream and shared a vision of the future. What did I tell you?
 - What do you typically come to me for advice about?

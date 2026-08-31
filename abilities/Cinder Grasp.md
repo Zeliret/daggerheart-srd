@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 2
+Recall Cost: 1
+---
+
 # Cinder Grasp
 
 **_Level 2_** _Arcana Spell._ **_Recall Cost_** _1._

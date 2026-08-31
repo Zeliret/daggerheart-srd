@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 7
+Recall Cost: 1
+---
+
 # Vanishing Dodge
 
 **_Level 7_** _Midnight Spell._ **_Recall Cost_** _1._

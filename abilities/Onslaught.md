@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 10
+Recall Cost: 3
+---
+
 # Onslaught
 
 **_Level 10_** _Blade Ability._ **_Recall Cost_** _3._

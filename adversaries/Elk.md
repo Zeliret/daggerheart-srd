@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Elk
 
 **_Tier 1 Skulk._** _A large deer._

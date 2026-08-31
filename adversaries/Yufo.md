@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Yufo
 
 **_Tier 1 Social._** _A large, interdimensional jellyfishlike creature that floats in and out of the timestream._

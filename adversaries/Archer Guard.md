@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Ranged"
+---
+
 # Archer Guard
 
 **_Tier 1 Ranged._** _A tall guard bearing a longbow and quiver with arrows fletched in the settlement’s colors._

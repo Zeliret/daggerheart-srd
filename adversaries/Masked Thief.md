@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Masked Thief
 
 **_Tier 2 Skulk._** _A cunning thief with acrobatic skill and a flair for the dramatic._

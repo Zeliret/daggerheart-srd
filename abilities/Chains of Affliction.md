@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 4
+Recall Cost: 2
+---
+
 # Chains of Affliction
 
 **_Level 4_** _Dread Spell._ **_Recall Cost_** _2._

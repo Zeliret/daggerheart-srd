@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Wall of Hunger
 
 **_Level 7_** _Dread Spell._ **_Recall Cost_** _2._

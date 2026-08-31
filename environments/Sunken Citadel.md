@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Exploration"
+---
+
 # Sunken Citadel
 
 **_Tier 3 Exploration._** _The sunken ruins of a long-lost civilization filled with ancient technology and dark magic._

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Minor Fire Elemental
 
 **_Tier 1 Solo._** _A living flame the size of a large bonfire._

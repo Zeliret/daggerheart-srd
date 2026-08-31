@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Exploration"
+---
+
 # Archmage’s Tower
 
 **_Tier 3 Exploration._** _pierces the heavens and resonates with immense power._

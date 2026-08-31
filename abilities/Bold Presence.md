@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 2
+Recall Cost: 0
+---
+
 # Bold Presence
 
 **_Level 2_** _Valor Ability._ **_Recall Cost_** _0._

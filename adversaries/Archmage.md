@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Archmage
 
 **_Tier 3 Solo._** _A seeker of secret knowledge hidden away in a tome-filled tower._

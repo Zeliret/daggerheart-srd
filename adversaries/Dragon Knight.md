@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Dragon Knight
 
 **_Tier 2 Bruiser._** _A knight clad in dragonplate armor and a helmet in the shape of a dragon’s head._

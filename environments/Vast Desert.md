@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Traversal"
+---
+
 # Vast Desert
 
 **_Tier 2 Traversal._** _A parched expanse of sandy dunes, desolate salt flats, and windblown rock formations._

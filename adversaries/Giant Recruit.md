@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Giant Recruit
 
 **_Tier 2 Minion._** _A giant fighter wearing borrowed armor._

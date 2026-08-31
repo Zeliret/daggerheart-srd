@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Event"
+---
+
 # Raiding Party
 
 **_Tier 1 Event._** _A pirate ship disgorges its crew into a port town or shoreline village to loot and plunder._

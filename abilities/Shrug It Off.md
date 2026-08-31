@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 7
+Recall Cost: 1
+---
+
 # Shrug It Off
 
 **_Level 7_** _Valor Ability._ **_Recall Cost_** _1._

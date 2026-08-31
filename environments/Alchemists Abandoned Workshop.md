@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Exploration"
+---
+
 # Alchemist’s Abandoned Workshop
 
 **_Tier 1 Exploration._** _A lightning-powered laboratory built by a scientist searching for the secret to immortality._

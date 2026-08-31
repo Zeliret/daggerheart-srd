@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Dullahan
 
 **_Tier 3 Bruiser._** _A horse-mounted specter holding their own severed head in one hand and wielding a whip fashioned from a human spine in the other._

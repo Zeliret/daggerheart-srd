@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 2
+Recall Cost: 2
+---
+
 # Troublemaker
 
 **_Level 2_** _Grace Ability._ **_Recall Cost_** _2._

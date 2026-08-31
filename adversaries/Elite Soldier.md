@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Elite Soldier
 
 **_Tier 2 Standard._** _An armored squire or experienced commoner looking to advance._

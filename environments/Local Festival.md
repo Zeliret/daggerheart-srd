@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Local Festival
 
 **_Tier 1 Social._** _Commoners and nobles alike gather from the surrounding area for a weeklong celebration._

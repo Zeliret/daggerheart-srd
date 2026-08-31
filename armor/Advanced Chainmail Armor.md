@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "13 / 31"
+Score: 6
+Feature: "Heavy: -1 to Evasion"
+---
+
 # Advanced Chainmail Armor
 
 **_Tier 3_** _Armor_

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Juvenile Flickerfly
 
 **_Tier 2 Solo._** _A horse-sized insect with iridescent scales and crystalline wings moving faster than the eye can see._

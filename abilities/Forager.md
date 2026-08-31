@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 6
+Recall Cost: 1
+---
+
 # Forager
 
 **_Level 6_** _Sage Ability._ **_Recall Cost_** _1._

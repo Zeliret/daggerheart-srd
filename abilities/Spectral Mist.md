@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 5
+Recall Cost: 0
+---
+
 # Spectral Mist
 
 **_Level 5_** _Dread Spell._ **_Recall Cost_** _0._

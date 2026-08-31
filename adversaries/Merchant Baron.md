@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Social"
+---
+
 # Merchant Baron
 
 **_Tier 2 Social._** _An accomplished merchant with a large operation under their command._

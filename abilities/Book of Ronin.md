@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 9
+Recall Cost: 4
+---
+
 # Book of Ronin
 
 **_Level 9_** _Codex Grimoire._ **_Recall Cost_** _4._

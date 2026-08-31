@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Rotted Zombie
 
 **_Tier 1 Minion._** _A decaying corpse ambling toward their prey._

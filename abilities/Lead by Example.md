@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 9
+Recall Cost: 3
+---
+
 # Lead by Example
 
 **_Level 9_** _Valor Ability._ **_Recall Cost_** _3._

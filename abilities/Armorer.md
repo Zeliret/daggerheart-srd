@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Armorer
 
 **_Level 5_** _Valor Ability._ **_Recall Cost_** _1._

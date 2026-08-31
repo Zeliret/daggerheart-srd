@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Bear
 
 **_Tier 1 Bruiser._** _A large bear with thick fur and powerful claws._

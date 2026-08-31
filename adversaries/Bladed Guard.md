@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Bladed Guard
 
 **_Tier 1 Standard._** _An armored guard bearing a sword and shield painted in the settlement’s colors._

@@ -1,3 +1,10 @@
+---
+Tier: 4
+Thresholds: "13 / 36"
+Score: 6
+Feature: "Burning: When an adversary attacks you within Melee range, they mark a Stress."
+---
+
 # Emberwoven Armor
 
 **_Tier 4_** _Armor_

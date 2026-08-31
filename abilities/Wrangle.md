@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 8
+Recall Cost: 1
+---
+
 # Wrangle
 
 **_Level 8_** _Bone Ability._ **_Recall Cost_** _1._

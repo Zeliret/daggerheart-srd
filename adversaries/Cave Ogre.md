@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Cave Ogre
 
 **_Tier 1 Solo._** _A massive humanoid who sees all sapient life as food._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Support"
+---
+
 # Harbinger Of Famine
 
 **_Tier 4 Support._** _A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming flies._

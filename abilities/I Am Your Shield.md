@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 1
+Recall Cost: 1
+---
+
 # I Am Your Shield
 
 **_Level 1_** _Valor Ability._ **_Recall Cost_** _1._

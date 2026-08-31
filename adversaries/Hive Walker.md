@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Hive Walker
 
 **_Tier 2 Standard._** _A corpse filled with and puppeted by a colony of carrion-eating bees._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 4
+Recall Cost: 0
+---
+
 # Stealth Expertise
 
 **_Level 4_** _Midnight Ability._ **_Recall Cost_** _0._

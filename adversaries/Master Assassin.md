@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Master Assassin
 
 **_Tier 2 Leader._** _A seasoned killer with a threatening voice and a deadly blade._

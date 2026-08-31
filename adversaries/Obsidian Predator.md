@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Obsidian Predator
 
 **_Tier 4 Solo._** _A massive winged creature with obsidian scales and impossibly sharp claws._

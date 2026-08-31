@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Construct
 
 **_Tier 1 Solo._** _A roughly humanoid being of stone and steel, assembled and animated by magic._

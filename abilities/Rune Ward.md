@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Rune Ward
 
 **_Level 1_** _Arcana Spell._ **_Recall Cost_** _0._

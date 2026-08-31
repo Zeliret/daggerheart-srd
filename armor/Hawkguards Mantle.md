@@ -1,3 +1,10 @@
+---
+Tier: 2
+Thresholds: "9 / 20"
+Score: 4
+Feature: "Gliding: You can glide up to Far range and are immune to damage from falling."
+---
+
 # Hawkguard’s Mantle
 
 **_Tier 2_** _Armor_

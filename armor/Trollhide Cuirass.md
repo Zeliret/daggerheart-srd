@@ -1,3 +1,10 @@
+---
+Tier: 2
+Thresholds: "11 / 23"
+Score: 5
+Feature: "Self-Healing: When you take a rest, clear an Armor Slot."
+---
+
 # Trollhide Cuirass
 
 **_Tier 2_** _Armor_

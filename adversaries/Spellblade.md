@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Leader"
+---
+
 # Spellblade
 
 **_Tier 1 Leader._** _A mercenary combining swordplay and magic to deadly effect._

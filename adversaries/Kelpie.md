@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Kelpie
 
 **_Tier 1 Skulk._** _A river-dwelling shapeshifter who prefers an enchanting equine form in and out of the water._

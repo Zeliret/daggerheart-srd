@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Ranged"
+---
+
 # Jagged Knife Sniper
 
 **_Tier 1 Ranged._** _A lanky bandit striking from cover with a shortbow._

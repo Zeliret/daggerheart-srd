@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Rust Eater
 
 **_Tier 2 Standard._** _A pony-sized cockroach coated in a corrosive chitin that turns metal into rust._

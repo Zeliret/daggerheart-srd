@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Masque Muerte
 
 **_Tier 1 Solo._** _The raging soul of a villainous masked wrestler._

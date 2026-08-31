@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Traversal"
+---
+
 # Abandoned Mine
 
 **_Tier 1 Traversal._** _A twisting warren of disused tunnels carved out of the bedrock by a doomed mining outfit._

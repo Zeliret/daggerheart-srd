@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Event"
+---
+
 # Heist
 
 **_Tier 2 Event._** _The party must gain access to a hidden or well-protected location to acquire the information or items secured within._

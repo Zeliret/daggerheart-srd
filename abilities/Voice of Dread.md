@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Voice of Dread
 
 **_Level 1_** _Dread Spell._ **_Recall Cost_** _0._

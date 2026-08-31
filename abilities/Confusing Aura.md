@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 8
+Recall Cost: 2
+---
+
 # Confusing Aura
 
 **_Level 8_** _Arcana Spell._ **_Recall Cost_** _2._

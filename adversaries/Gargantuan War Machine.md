@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Gargantuan War Machine
 
 **_Tier 4 Solo._** _A 100-foot-tall adamantine construct that has gemstone eyes, powered by a chest crucible of elemental flame._

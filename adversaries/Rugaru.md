@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Rugaru
 
 **_Tier 1 Solo._** _A wolf-headed humanoid cursed by the gods to prowl the swamps in search of blood._

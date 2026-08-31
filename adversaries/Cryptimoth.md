@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Cryptimoth
 
 **_Tier 3 Skulk._** _A large red-eyed moth creature that walks upright and portends mysterious or evil events._

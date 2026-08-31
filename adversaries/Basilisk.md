@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Basilisk
 
 **_Tier 2 Standard._** _A six-legged monitor lizard that has the head of a vulture, a spiked backbone, and a petrifying gaze._

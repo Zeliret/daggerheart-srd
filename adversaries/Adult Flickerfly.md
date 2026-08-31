@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Adult Flickerfly
 
 **_Tier 3 Solo._** _A winged insect the size of a large house with iridescent scales and wings that move too fast to track._

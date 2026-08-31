@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Minion"
+---
+
 # Treant Sapling
 
 **_Tier 3 Minion._** _A small, sentient tree sapling._

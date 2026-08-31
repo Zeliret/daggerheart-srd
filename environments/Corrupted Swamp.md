@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Traversal"
+---
+
 # Corrupted Swamp
 
 **_Tier 1 Traversal._** _A wretched stretch of slimy water, toxic creatures, and decay._

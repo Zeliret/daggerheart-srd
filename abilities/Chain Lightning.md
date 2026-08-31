@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Chain Lightning
 
 **_Level 5_** _Arcana Spell._ **_Recall Cost_** _1._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Crimson Lepus
 
 **_Tier 3 Solo._** _A red-eyed rabbit that thinks only of murder._

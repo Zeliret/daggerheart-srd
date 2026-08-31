@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 9
+Recall Cost: 1
+---
+
 # Twilight Toll
 
 **_Level 9_** _Midnight Ability._ **_Recall Cost_** _1._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Wyrmfiend
 
 **_Tier 4 Minion._** _A reptilian biped created by mysterious and ancient dragon magic. Wyrmfiends exist more as extensions of their draconic master’s will than as individual beings._

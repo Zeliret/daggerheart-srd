@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 4
+Recall Cost: 3
+---
+
 # Book of Exota
 
 **_Level 4_** _Codex Grimoire._ **_Recall Cost_** _3._

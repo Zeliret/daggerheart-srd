@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 3
+Recall Cost: 2
+---
+
 # Second Wind
 
 **_Level 3_** _Splendor Ability._ **_Recall Cost_** _2._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Severed Shadow
 
 **_Tier 4 Minion._** _A two-dimensional living shadow bound to flat planes and surfaces._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Social"
+---
+
 # Shapeshifting Fiend
 
 **_Tier 3 Social._** _An evil entity who impersonates a trusted figure._

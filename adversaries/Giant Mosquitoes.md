@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Giant Mosquitoes
 
 **_Tier 1 Horde._** _Dozens of fist-sized mosquitoes, flying together for protection._

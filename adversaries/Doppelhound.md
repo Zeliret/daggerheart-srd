@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Doppelhound
 
 **_Tier 2 Skulk._** _A vicious magical canid that has glowing eyes and two barbed, whiplike tails. It confuses enemies by conjuring an illusory duplicate of itself._

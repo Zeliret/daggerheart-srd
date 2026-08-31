@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Deeproot Defender
 
 **_Tier 1 Bruiser._** _A burly vegetable-person with grasping vines._

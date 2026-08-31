@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Leader"
+---
+
 # Head Guard
 
 **_Tier 1 Leader._** _A seasoned guard with a mace, a whistle, and a bellowing voice._

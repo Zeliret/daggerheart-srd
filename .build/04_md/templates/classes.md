@@ -11,7 +11,7 @@ Hit Points: {{ .hp }}
 
 # {{ .name }}
 
-{{- if not .items }}
+{{ if not .items }}
 {{ classSourceMarkdown .description .subclass_1 .subclass_2 }}
 {{- else }}
 {{ .description }}

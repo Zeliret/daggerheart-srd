@@ -1,4 +1,5 @@
 # Pact of the Endless
+
 Play the Pact of the Endless if you want to stand strong against enemies and avoid death.
 
 ### SPELLCAST TRAIT

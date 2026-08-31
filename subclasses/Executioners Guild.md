@@ -1,4 +1,5 @@
 # Executioners Guild
+
 Play the Executioners Guild if you want to strike down your targets with lethal precision.
 
 ### SPELLCAST TRAIT

@@ -1,4 +1,5 @@
 # Divine Wielder
+
 Play the Divine Wielder if you want to dominate the battlefield with a legendary weapon.
 
 ### SPELLCAST TRAIT

@@ -1,4 +1,5 @@
 # Hedge
+
 Play the Hedge if you want to use your craft to empower yourself and your party.
 
 ### SPELLCAST TRAIT

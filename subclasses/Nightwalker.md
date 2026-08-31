@@ -1,4 +1,5 @@
 # Nightwalker
+
 Play the Nightwalker if you want to manipulate shadows to maneuver through the environment.
 
 ### SPELLCAST TRAIT

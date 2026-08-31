@@ -2,6 +2,9 @@
 Domains:
   - "[[Sage]]"
   - "[[Arcana]]"
+Subclasses:
+  - "[[Warden of the Elements]]"
+  - "[[Warden of Renewal]]"
 Evasion: 10
 Hit Points: 6
 ---

@@ -2,6 +2,9 @@
 Domains:
   - "[[Splendor]]"
   - "[[Valor]]"
+Subclasses:
+  - "[[Divine Wielder]]"
+  - "[[Winged Sentinel]]"
 Evasion: 9
 Hit Points: 7
 ---

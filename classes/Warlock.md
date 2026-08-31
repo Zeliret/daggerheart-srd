@@ -2,6 +2,9 @@
 Domains:
   - "[[Dread]]"
   - "[[Grace]]"
+Subclasses:
+  - "[[Pact of the Endless]]"
+  - "[[Pact of the Wrathful]]"
 Evasion: 11
 Hit Points: 5
 ---

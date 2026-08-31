@@ -2,6 +2,9 @@
 Domains:
   - "[[Valor]]"
   - "[[Bone]]"
+Subclasses:
+  - "[[Juggernaut]]"
+  - "[[Martial Artist]]"
 Evasion: 10
 Hit Points: 6
 ---

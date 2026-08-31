@@ -2,6 +2,9 @@
 Domains:
   - "[[Arcana]]"
   - "[[Midnight]]"
+Subclasses:
+  - "[[Elemental Origin]]"
+  - "[[Primal Origin]]"
 Evasion: 10
 Hit Points: 6
 ---

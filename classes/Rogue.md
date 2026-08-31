@@ -2,6 +2,9 @@
 Domains:
   - "[[Midnight]]"
   - "[[Grace]]"
+Subclasses:
+  - "[[Nightwalker]]"
+  - "[[Syndicate]]"
 Evasion: 12
 Hit Points: 6
 ---

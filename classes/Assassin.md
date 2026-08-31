@@ -2,6 +2,9 @@
 Domains:
   - "[[Blade]]"
   - "[[Midnight]]"
+Subclasses:
+  - "[[Executioners Guild]]"
+  - "[[Poisoners Guild]]"
 Evasion: 12
 Hit Points: 5
 ---

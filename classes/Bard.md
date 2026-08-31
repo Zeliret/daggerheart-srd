@@ -2,6 +2,9 @@
 Domains:
   - "[[Grace]]"
   - "[[Codex]]"
+Subclasses:
+  - "[[Troubadour]]"
+  - "[[Wordsmith]]"
 Evasion: 10
 Hit Points: 5
 ---

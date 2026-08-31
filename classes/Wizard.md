@@ -2,6 +2,9 @@
 Domains:
   - "[[Codex]]"
   - "[[Splendor]]"
+Subclasses:
+  - "[[School of Knowledge]]"
+  - "[[School of War]]"
 Evasion: 11
 Hit Points: 5
 ---

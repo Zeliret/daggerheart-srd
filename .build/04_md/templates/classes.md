@@ -2,6 +2,9 @@
 Domains:
   - "[[{{ .domain_1 }}]]"
   - "[[{{ .domain_2 }}]]"
+Subclasses:
+  - "[[{{ .subclass_1 }}]]"
+  - "[[{{ .subclass_2 }}]]"
 Evasion: {{ .evasion }}
 Hit Points: {{ .hp }}
 ---

@@ -2,6 +2,9 @@
 Domains:
   - "[[Bone]]"
   - "[[Sage]]"
+Subclasses:
+  - "[[Beastbound]]"
+  - "[[Wayfinder]]"
 Evasion: 12
 Hit Points: 6
 ---

@@ -2,6 +2,9 @@
 Domains:
   - "[[Blade]]"
   - "[[Bone]]"
+Subclasses:
+  - "[[Call of the Brave]]"
+  - "[[Call of the Slayer]]"
 Evasion: 11
 Hit Points: 6
 ---

@@ -2,6 +2,9 @@
 Domains:
   - "[[Valor]]"
   - "[[Blade]]"
+Subclasses:
+  - "[[Stalwart]]"
+  - "[[Vengeance]]"
 Evasion: 9
 Hit Points: 7
 ---

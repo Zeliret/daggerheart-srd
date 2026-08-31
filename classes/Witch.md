@@ -2,6 +2,9 @@
 Domains:
   - "[[Dread]]"
   - "[[Sage]]"
+Subclasses:
+  - "[[Hedge]]"
+  - "[[Moon]]"
 Evasion: 10
 Hit Points: 6
 ---

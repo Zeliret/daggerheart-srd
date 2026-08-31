@@ -1,11 +1,6 @@
 # Dread
 
-Dread is the domain of nightmares and fear. Those who
-choose this path can call forth monstrosities, enfeeble their
-foes, and channel terrifying magic to destroy their enemies.
-Dread grants its adherents power over forces most are too
-afraid to employ. The Dread domain can be accessed by the
-Warlock and Witch classes.
+Dread is the domain of nightmares and fear. Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ. The Dread domain can be accessed by the Warlock and Witch classes.
 
 ### DOMAIN CARDS
 

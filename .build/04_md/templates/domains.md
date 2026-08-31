@@ -1,6 +1,6 @@
 # {{ .name }}
 
-{{ .description }}
+{{ sourceMarkdown .description }}
 
 ### DOMAIN CARDS
 

@@ -36,12 +36,8 @@ Choose either the **[Executioners Guild](../subclasses/Executioners%20Guild.md)*
 
 _Answer any of the following background questions. You can also create your own questions._
 
-- You once killed someone you were close to. What
-happened, and how did it change you?
-
-- What organization trained you in the art of killing, and
-how did you become a member?
-
+- You once killed someone you were close to. What happened, and how did it change you?
+- What organization trained you in the art of killing, and how did you become a member?
 - Throughout your career, one target has eluded you.
 Who are they, and how have they slipped through your fingers?
 
@@ -50,8 +46,5 @@ Who are they, and how have they slipped through your fingers?
 _Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
 - I’ve killed someone for you. Who were they?
-- How did you save me when I was on the brink of
-death? What have I promised you as repayment?
-
-- What secret about myself did I tell you, and how did
-it change your view of me?
+- How did you save me when I was on the brink of death? What have I promised you as repayment?
+- What secret about myself did I tell you, and how did it change your view of me?

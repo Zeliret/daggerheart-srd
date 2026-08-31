@@ -67,24 +67,14 @@ Choose either the **[Pact of the Endless](../subclasses/Pact%20of%20the%20Endles
 
 _Answer any of the following background questions. You can also create your own questions._
 
-- Who from your community shunned you after you
-made a pact with your patron?
-
-- What desperate situation led you to pledge your life
-to your patron?
-
-- Your patron has given you one task you must
-accomplish above all else. What is it, and why does it worry you?
+- Who from your community shunned you after you made a pact with your patron?
+- What desperate situation led you to pledge your life to your patron?
+- Your patron has given you one task you must accomplish above all else. What is it, and why does it worry you?
 
 ### CONNECTIONS
 
 _Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
-- Why do you think I confide in you about what my
-patron says and does?
-
-- Our relationship has changed since you saw me show
-tribute to my patron. What did you see, and how has it affected you?
-
-- I once did something very foolish, and you’ve never
-let me live it down. What was it?
+- Why do you think I confide in you about what my patron says and does?
+- Our relationship has changed since you saw me show tribute to my patron. What did you see, and how has it affected you?
+- I once did something very foolish, and you’ve never let me live it down. What was it?

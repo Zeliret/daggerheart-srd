@@ -42,23 +42,14 @@ Choose either the **[Hedge](../subclasses/Hedge.md)** or **[Moon](../subclasses/
 
 _Answer any of the following background questions. You can also create your own questions._
 
-- Who from your community feared your magical
-craft? What rumor did they spread about you, and what truth did it contain?
-
-- You once used your power to help someone in a dire
-situation. Who were they, and why did they come to you?
-
-- Your magic once opened a door best left closed. Who
-or what was on the other side?
+- Who from your community feared your magical craft? What rumor did they spread about you, and what truth did it contain?
+- You once used your power to help someone in a dire situation. Who were they, and why did they come to you?
+- Your magic once opened a door best left closed. Who or what was on the other side?
 
 ### CONNECTIONS
 
 _Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
-- What unique ritual or practice have I taught you that
-we now perform together?
-
-- I once appeared to you in a dream and shared a vision
-of the future. What did I tell you?
-
+- What unique ritual or practice have I taught you that we now perform together?
+- I once appeared to you in a dream and shared a vision of the future. What did I tell you?
 - What do you typically come to me for advice about?

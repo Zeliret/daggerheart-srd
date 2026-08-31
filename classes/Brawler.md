@@ -36,22 +36,14 @@ Choose either the **[Juggernaut](../subclasses/Juggernaut.md)** or **[Martial Ar
 
 _Answer any of the following background questions. You can also create your own questions._
 
-- Where did you spend time during your formative
-years that taught you, directly or indirectly, how to fight in the style you use?
-
-- What organization has vowed to kill you on sight, and
-what did you do to invoke their ire?
-
-- Who did you recently lose a fight to that you’re
-desperate for a rematch against?
+- Where did you spend time during your formative years that taught you, directly or indirectly, how to fight in the style you use?
+- What organization has vowed to kill you on sight, and what did you do to invoke their ire?
+- Who did you recently lose a fight to that you’re desperate for a rematch against?
 
 ### CONNECTIONS
 
 _Ask your fellow players one of the following questions for their character to answer, or create your own questions._
 
 - What is one thing we’re both afraid of?
-- What do I rely on you for during our travels? How do
-you feel about it?
-
-- I still haven’t forgiven you for something you said to
-me. What was it, and why did you say it?
+- What do I rely on you for during our travels? How do you feel about it?
+- I still haven’t forgiven you for something you said to me. What was it, and why did you say it?

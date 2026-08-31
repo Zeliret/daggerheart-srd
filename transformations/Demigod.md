@@ -1,27 +1,12 @@
 # Demigod
 
-Demigods are mortal creatures whose veins flow with the
-blood of the gods. They typically gain their power from divine
-parentage, accomplishing an incredible feat, or receiving a gift
-from a god. Many demigods appear as a typical member of
-their mortal ancestry, but all possess a subtle luminosity and
-a gleam in their eyes. They’re also known to have pearlescent
-or metallic skin, and they might grow in size or gain physical
-features related to their power when it reveals itself. Because
-they share the blood of a Faint Divinity, a Forgotten God, a
-New God, or any other deity, no two demigods look the same.
-Demigods are bestowed with a fragment of deific power, but
-not everything a demigod inherits is a blessing. Though they
-often excel at tasks they’re well suited for, the expectations
-set upon them are often difficult and costly to live up to.
+Demigods are mortal creatures whose veins flow with the blood of the gods. They typically gain their power from divine parentage, accomplishing an incredible feat, or receiving a gift from a god. Many demigods appear as a typical member of their mortal ancestry, but all possess a subtle luminosity and a gleam in their eyes. They’re also known to have pearlescent or metallic skin, and they might grow in size or gain physical features related to their power when it reveals itself. Because they share the blood of a Faint Divinity, a Forgotten God, a New God, or any other deity, no two demigods look the same. Demigods are bestowed with a fragment of deific power, but not everything a demigod inherits is a blessing. Though they often excel at tasks they’re well suited for, the expectations set upon them are often difficult and costly to live up to.
 
 ### TRANSFORMATION FEATURES
 
-**_Gifted:_** You gain a +1 bonus to action, reaction, and damage
-rolls.
+**_Gifted:_** You gain a +1 bonus to action, reaction, and damage rolls.
 
-**_Weight of Divinity:_** When you fail a roll, you must **mark a
-Stress** or the GM gains a Fear.
+**_Weight of Divinity:_** When you fail a roll, you must **mark a Stress** or the GM gains a Fear.
 
 ### TRANSFORMATION QUESTIONS
 

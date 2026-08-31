@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Young Fire Dragon
 
 **_Tier 3 Solo._** _A crimson dragon with four powerful limbs and smoldering wings._

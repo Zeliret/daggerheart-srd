@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Tiny Red Ooze
 
 **_Tier 1 Skulk._** _A small moving mound of translucent flaming red slime_

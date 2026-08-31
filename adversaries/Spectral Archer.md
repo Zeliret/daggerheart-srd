@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Ranged"
+---
+
 # Spectral Archer
 
 **_Tier 2 Ranged._** _A ghostly fighter with an ethereal bow, unable to move on while their charge is vulnerable._

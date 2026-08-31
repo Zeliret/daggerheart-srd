@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Ranged"
+---
+
 # Phoenix
 
 **_Tier 3 Ranged._** _A huge eagle that’s made of magical flame, impossible to kill, and hunted for its healing plumage._

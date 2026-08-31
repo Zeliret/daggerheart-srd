@@ -1,3 +1,13 @@
+---
+Tier: 4
+Category: "Primary"
+Trait: "Agility"
+Range: "Very Far"
+Damage: "d10+12 mag"
+Burden: "Two-Handed"
+Feature: "Aimed: Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty."
+---
+
 # Legendary Arcane Rifle
 
 **_Tier 4_** _Primary_ _Magical_ _Weapon_

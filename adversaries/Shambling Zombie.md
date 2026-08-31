@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Shambling Zombie
 
 **_Tier 1 Standard._** _An animated corpse that moves shakily, driven only by hunger._

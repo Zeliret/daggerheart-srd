@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Leader"
+---
+
 # Fire Titan Warlord
 
 **_Tier 4 Leader._** _A smoldering, battle-obsessed goliath wearing bespoke armor and wielding a massive maul._

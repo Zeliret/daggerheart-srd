@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "13 / 30"
+Score: 5
+Feature: "Cumbersome: -1 to Finesse"
+---
+
 # Advanced Scale Mail Armor
 
 **_Tier 3_** _Armor_

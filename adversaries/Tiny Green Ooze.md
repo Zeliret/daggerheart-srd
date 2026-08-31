@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Tiny Green Ooze
 
 **_Tier 1 Skulk._** _A small moving mound of translucent green slime._

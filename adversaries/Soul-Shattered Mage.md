@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Soul-Shattered Mage
 
 **_Tier 1 Solo._** _A spellcaster with a psyche broken by knowledge best left hidden._

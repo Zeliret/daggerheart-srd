@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Horde"
+---
+
 # Hallowed Choir
 
 **_Tier 4 Horde._** _A heavenly host of winged humanoids whose song calls forth tears of religious awe._

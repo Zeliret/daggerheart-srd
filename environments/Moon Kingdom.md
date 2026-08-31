@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Exploration"
+---
+
 # Moon Kingdom
 
 **_Tier 4 Exploration._** _The mysterious, luminous, and isolated ruins of a long-lost lunar kingdom that echoes with forgotten magic and ancient technology._

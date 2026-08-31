@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Social"
+---
+
 # Upscale Casino
 
 **_Tier 3 Social._** _A glittering gambling hall where well-heeled merchants and nobles come to fritter away their fortunes._

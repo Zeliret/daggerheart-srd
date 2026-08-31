@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Gargantuan Sea Turtle
 
 **_Tier 3 Solo._** _A monstrous sea turtle that has an adamantine shell and beak._

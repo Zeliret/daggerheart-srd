@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Giant Beastmaster
 
 **_Tier 2 Leader._** _A leather-clad warrior bearing a whip and massive bow._

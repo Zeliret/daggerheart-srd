@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Leader"
+---
+
 # Arch-Necromancer
 
 **_Tier 4 Leader._** _A decaying mage adorned in dark, tattered robes._

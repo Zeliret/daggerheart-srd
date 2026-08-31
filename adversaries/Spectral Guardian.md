@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Spectral Guardian
 
 **_Tier 2 Standard._** _A ghostly fighter with spears and swords, anchored by duty._

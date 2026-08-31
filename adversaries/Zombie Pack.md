@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Zombie Pack
 
 **_Tier 1 Horde._** _A group of shambling corpses instinctively moving together._

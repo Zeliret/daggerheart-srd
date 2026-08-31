@@ -1,3 +1,13 @@
+---
+Tier: 3
+Category: "Primary"
+Trait: "Knowledge"
+Range: "Close"
+Damage: "d8+7 phy"
+Burden: "One-Handed"
+Feature: "Rebounding: When you throw this weapon, it returns to your hand. On a failed attack, you can reroll your attack with disadvantage."
+---
+
 # Bladed Star
 
 **_Tier 3_** _Primary_ _Physical_ _Weapon_

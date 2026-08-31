@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Exploration"
+---
+
 # Cursed Graveyard
 
 **_Tier 1 Exploration._** _A sprawling cemetery filled with crumbling headstones, twisted trees possessed by the dead, and crypts overgrown with moss and ivy._

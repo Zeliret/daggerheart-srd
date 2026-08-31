@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Jagged Knife Lackey
 
 **_Tier 1 Minion._** _A thief with simple clothes and small daggers, eager to prove themselves._

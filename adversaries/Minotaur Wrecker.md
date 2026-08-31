@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Minotaur Wrecker
 
 **_Tier 2 Bruiser._** _A massive bull-headed firbolg with a quick temper._

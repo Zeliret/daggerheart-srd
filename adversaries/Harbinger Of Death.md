@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Skulk"
+---
+
 # Harbinger Of Death
 
 **_Tier 4 Skulk._** _A desiccated corpse riding atop a skeletal horse. Their eyes are sewn shut and their body is wrapped in a burial shroud of dust and ash._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Kraken
 
 **_Tier 4 Solo._** _A legendary beast of the sea, bigger than the largest galleon, with sucker-laden tentacles and a terrifying maw._

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Redcap Breaker
 
 **_Tier 1 Bruiser._** _A large, brutish fey creature who has a conical red cap sealed on their head with candle wax._

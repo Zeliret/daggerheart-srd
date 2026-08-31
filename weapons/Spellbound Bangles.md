@@ -1,3 +1,13 @@
+---
+Tier: 2
+Category: "Primary"
+Trait: "Knowledge"
+Range: "Melee"
+Damage: "d10+6 mag"
+Burden: "Two-Handed"
+Feature: ""
+---
+
 # Spellbound Bangles
 
 **_Tier 2_** _Primary_ _Magical_ _Weapon_

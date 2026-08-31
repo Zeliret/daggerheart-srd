@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Grimmling Warband
 
 **_Tier 1 Horde._** _A cluster of small, strange creatures wearing armor fashioned from trash and stolen housewares._

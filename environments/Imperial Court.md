@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Social"
+---
+
 # Imperial Court
 
 **_Tier 4 Social._** _The majestic domain of a powerful empire, lavishly appointed with stolen treasures._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Guahalan Spirit Beast
 
 **_Tier 2 Minion._** _A brightly colored spirit in the shape of an animal._

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Phantom
 
 **_Tier 1 Standard._** _The echo of a lost soul in the form of an ectoplasmic shadow._

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Panther
 
 **_Tier 1 Skulk._** _A large feline predator that stalks its prey from the shadows._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Frost Titan
 
 **_Tier 3 Bruiser._** _A blue-skinned goliath who has rimed hair and wears trophies of past battles._

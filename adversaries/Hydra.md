@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Hydra
 
 **_Tier 3 Solo._** _A quadrupedal scaled beast with multiple long-necked heads, each filled with menacing fangs._

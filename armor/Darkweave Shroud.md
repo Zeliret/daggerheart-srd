@@ -1,3 +1,10 @@
+---
+Tier: 4
+Thresholds: "13 / 36"
+Score: 5
+Feature: "Ghostwalker: Once per rest, mark a Stress to move up to Close range through solid objects."
+---
+
 # Darkweave Shroud
 
 **_Tier 4_** _Armor_

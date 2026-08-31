@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Dragon Mother Mitera
 
 **_Tier 4 Solo._** _A gargantuan seven-headed dragon with dazzling diamond scales that shine with every color of the rainbow._

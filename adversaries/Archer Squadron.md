@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Horde"
+---
+
 # Archer Squadron
 
 **_Tier 2 Horde._** _A group of trained archers bearing massive bows._

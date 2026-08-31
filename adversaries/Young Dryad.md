@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Leader"
+---
+
 # Young Dryad
 
 **_Tier 1 Leader._** _An imperious tree-person leading their forest’s defenses._

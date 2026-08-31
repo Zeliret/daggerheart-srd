@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Social"
+---
+
 # Monarch
 
 **_Tier 3 Social._** _The sovereign ruler of a nation, wreathed in the privilege of tradition and wielding unmatched power in their domain._

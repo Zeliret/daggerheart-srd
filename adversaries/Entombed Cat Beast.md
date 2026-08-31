@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Entombed Cat Beast
 
 **_Tier 2 Solo._** _A large undead humanoid skeleton with a panther’s skull for a head._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Knight Of The Realm
 
 **_Tier 2 Leader._** _A decorated soldier with heavy armor and a powerful steed._

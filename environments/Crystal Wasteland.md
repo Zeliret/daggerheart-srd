@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Traversal"
+---
+
 # Crystal Wasteland
 
 **_Tier 3 Traversal._** _A harsh and alien landscape that shines with towers of glittering crystal._

@@ -1,3 +1,13 @@
+---
+Tier: 3
+Category: "Primary"
+Trait: "Presence"
+Range: "Melee"
+Damage: "d8+6 phy/mag"
+Burden: "One-Handed"
+Feature: "Otherworldly: On a successful attack, you can deal physical or magic damage."
+---
+
 # Advanced Shadowblade
 
 **_Tier 3_** _Primary_ _Magical_ _Weapon_

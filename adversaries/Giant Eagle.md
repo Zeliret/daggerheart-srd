@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Giant Eagle
 
 **_Tier 2 Skulk._** _A giant bird of prey with blood-stained talons._

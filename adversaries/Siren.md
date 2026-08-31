@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Siren
 
 **_Tier 2 Skulk._** _A half-fish person with shimmering scales and an irresistible voice._

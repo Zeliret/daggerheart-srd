@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Exploration"
+---
+
 # Burning Heart of the Woods
 
 **_Tier 3 Exploration._** _Thick indigo ash fills the air around a towering moss-covered tree that burns eternally with flames a sickly shade of blue._

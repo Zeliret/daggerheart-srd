@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Jagged Knife Bandit
 
 **_Tier 1 Standard._** _A cunning criminal in a cloak bearing one of the gang’s iconic knives._

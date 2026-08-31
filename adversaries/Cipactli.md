@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Cipactli
 
 **_Tier 4 Solo._** _A gargantuan crocodile that has a body covered in a patchwork of fish scales, toad skin, and dozens of hungry mouths._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Standard"
+---
+
 # Plesiosaurus
 
 **_Tier 3 Standard._** _A canoe-length marine lizard that has a long neck and four flippers._

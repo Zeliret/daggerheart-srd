@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Rabble Mawb
 
 **_Tier 1 Horde._** _These cat-sized balls of hair, limbs, and teeth travel in a “mawb” of a dozen._

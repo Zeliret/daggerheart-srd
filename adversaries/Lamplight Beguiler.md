@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Skulk"
+---
+
 # Lamplight Beguiler
 
 **_Tier 3 Skulk._** _A huge aquatic creature that lures unwary prey into eating range with its dangling, shapeshifting head stalk._

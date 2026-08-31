@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Traversal"
+---
+
 # Ocean Voyage
 
 **_Tier 2 Traversal._** _The PCs gain passage to a far-off destination by offering their labor in exchange._

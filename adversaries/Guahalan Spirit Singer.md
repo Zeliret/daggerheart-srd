@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Support"
+---
+
 # Guahalan Spirit Singer
 
 **_Tier 2 Support._** _A shapeshifting summoner who has animalistic features._

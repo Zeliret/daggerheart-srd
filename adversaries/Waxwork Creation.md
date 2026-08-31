@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Waxwork Creation
 
 **_Tier 1 Solo._** _A ten-foot-tall, semisolid (and semisentient) candle wax construct._

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Darkweave Swarmlings
 
 **_Tier 1 Horde._** _A teeming swarm of tiny spiders woven out of shadow-silk._

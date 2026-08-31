@@ -72,10 +72,12 @@ func main() {
 			return mechanicsText(formatAdversaryFeatureText(value))
 		},
 		"environmentQuestionText": formatEnvironmentQuestionText,
-		"optionAt":             optionAt,
-		"add1":                 add1,
-		"sourceMarkdown":       sourceMarkdown,
-		"classSourceMarkdown":  classSourceMarkdown,
+		"yamlText":                yamlText,
+		"featureProperty":         featureProperty,
+		"optionAt":                optionAt,
+		"add1":                    add1,
+		"sourceMarkdown":          sourceMarkdown,
+		"classSourceMarkdown":     classSourceMarkdown,
 	}
 
 	var beastforms []map[string]any
@@ -147,6 +149,43 @@ func main() {
 	} else {
 		fmt.Println("Preserving curated README.md prose (set DAGGERHEART_REGENERATE_README=1 to regenerate it).")
 	}
+}
+
+// yamlText emits a quoted YAML scalar. JSON string syntax is a valid YAML
+// scalar representation and safely preserves punctuation in SRD properties.
+func yamlText(value string) string {
+	encoded, err := json.Marshal(value)
+	if err != nil {
+		return `""`
+	}
+	return string(encoded)
+}
+
+// featureProperty returns the displayed feature name and text for an item.
+func featureProperty(value any) string {
+	var feature map[string]any
+	switch features := value.(type) {
+	case []map[string]any:
+		if len(features) > 0 {
+			feature = features[0]
+		}
+	case []any:
+		if len(features) > 0 {
+			feature, _ = features[0].(map[string]any)
+		}
+	}
+	if feature == nil {
+		return ""
+	}
+	name, _ := feature["name"].(string)
+	text, _ := feature["text"].(string)
+	if name == "" {
+		return text
+	}
+	if text == "" {
+		return name
+	}
+	return name + ": " + text
 }
 
 var sourceArtifact = regexp.MustCompile(`^(?:[0-9]+|Daggerheart SRD|<!-- PDF page [0-9]+ -->)$`)

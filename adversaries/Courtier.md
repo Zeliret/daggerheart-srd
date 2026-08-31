@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Courtier
 
 **_Tier 1 Social._** _An ambitious and ostentatiously dressed socialite._

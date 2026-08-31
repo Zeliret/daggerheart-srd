@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Traversal"
+---
+
 # Realm of the Dead
 
 **_Tier 4 Traversal._** _A seemingly infinite expanse of still water without color or laughter._

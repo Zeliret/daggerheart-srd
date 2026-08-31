@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Social"
+---
+
 # Spy
 
 **_Tier 2 Social._** _A skilled espionage agent with a knack for being in the right place to overhear secrets._

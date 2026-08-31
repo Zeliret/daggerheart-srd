@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Traversal"
+---
+
 # Mountain Pass
 
 **_Tier 2 Traversal._** _Stony peaks that pierce the clouds, with a twisting path winding its way up and over through many switchbacks._

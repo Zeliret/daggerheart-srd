@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Ranged"
+---
+
 # Vault Guardian Turret
 
 **_Tier 3 Ranged._** _A massive living turret with reinforced armor and twelve piston- driven mechanical legs._

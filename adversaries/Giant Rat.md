@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Giant Rat
 
 **_Tier 1 Minion._** _A cat-sized rodent skilled at scavenging and survival._

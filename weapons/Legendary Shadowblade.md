@@ -1,3 +1,13 @@
+---
+Tier: 4
+Category: "Primary"
+Trait: "Presence"
+Range: "Melee"
+Damage: "d8+9 phy/mag"
+Burden: "One-Handed"
+Feature: "Otherworldly: On a successful attack, you can deal physical or magic damage."
+---
+
 # Legendary Shadowblade
 
 **_Tier 4_** _Primary_ _Magical_ _Weapon_

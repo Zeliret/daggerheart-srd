@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Guahalan Shifter
 
 **_Tier 2 Standard._** _A shapeshifting masked warrior who has animalistic features._

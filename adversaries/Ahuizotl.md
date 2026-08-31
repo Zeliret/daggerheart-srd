@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Ahuizotl
 
 **_Tier 1 Skulk._** _A doglike ambush predator that has a clawed hand on the end of a long prehensile tail and drags victims into rivers to drown them._

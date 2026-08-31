@@ -1,3 +1,13 @@
+---
+Tier: 2
+Category: "Secondary"
+Trait: "Presence"
+Range: "Melee"
+Damage: "d4+2 phy"
+Burden: "One-Handed"
+Feature: "Padded: +3 to damage thresholds"
+---
+
 # Improved Fighting Cloak
 
 **_Tier 2_** _Secondary_ _Physical_ _Weapon_

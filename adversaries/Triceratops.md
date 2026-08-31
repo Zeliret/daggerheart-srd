@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Triceratops
 
 **_Tier 2 Bruiser._** _A large dinosaur that has an armored frill and three horns._

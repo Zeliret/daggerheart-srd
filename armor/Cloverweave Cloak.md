@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "11 / 27"
+Score: 5
+Feature: "Fortune-Favored: Once per scene, you can change a failure with Hope into a success with Fear."
+---
+
 # Cloverweave Cloak
 
 **_Tier 3_** _Armor_

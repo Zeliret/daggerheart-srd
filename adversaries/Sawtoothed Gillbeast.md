@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Sawtoothed Gillbeast
 
 **_Tier 1 Standard._** _A stocky fish creature that has rows of razor-sharp teeth._

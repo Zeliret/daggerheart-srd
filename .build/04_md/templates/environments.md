@@ -1,3 +1,8 @@
+---
+Tier: {{ .tier }}
+Type: {{ yamlText .type }}
+---
+
 # {{ .name }}
 
 **_Tier {{ .tier }} {{ .type }}._**{{ if .description }} _{{ .description }}_{{ end }}

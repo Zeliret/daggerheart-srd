@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Outpost Town
 
 **_Tier 1 Social._** _A small town on the outskirts of a nation or region, close to a dungeon, tombs, or other adventuring destinations._

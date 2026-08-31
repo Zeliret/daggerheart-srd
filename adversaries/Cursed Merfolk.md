@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Standard"
+---
+
 # Cursed Merfolk
 
 **_Tier 3 Standard._** _A half-fish, half-human creature psychically bound to serve the Deep Dwellers._

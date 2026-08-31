@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Ranged"
+---
+
 # Skeleton Archer
 
 **_Tier 1 Ranged._** _A fragile skeleton with a shortbow and arrows._

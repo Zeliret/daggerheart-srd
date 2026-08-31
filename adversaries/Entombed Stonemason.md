@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Entombed Stonemason
 
 **_Tier 2 Minion._** _An unfortunate undead laborer chosen by lottery to wall up their empress’s tomb from the inside._

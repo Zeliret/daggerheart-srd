@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Banshee
 
 **_Tier 2 Skulk._** _A corrupted fey spirit that haunts the night in the form of a willowy specter wearing a luminous gossamer gown._

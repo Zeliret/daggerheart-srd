@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Traversal"
+---
+
 # Chaos Realm
 
 **_Tier 4 Traversal._** _ws of reality are unstable and dangerous._

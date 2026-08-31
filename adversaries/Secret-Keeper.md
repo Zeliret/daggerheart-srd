@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Secret-Keeper
 
 **_Tier 2 Leader._** _A clandestine leader with a direct channel to the Fallen Gods._

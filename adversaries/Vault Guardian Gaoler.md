@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Support"
+---
+
 # Vault Guardian Gaoler
 
 **_Tier 3 Support._** _A boxy, dust-covered construct with thick metallic swinging doors on their torso._

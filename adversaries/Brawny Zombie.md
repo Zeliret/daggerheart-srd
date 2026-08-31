@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Brawny Zombie
 
 **_Tier 1 Bruiser._** _A large corpse, decay-bloated and angry._

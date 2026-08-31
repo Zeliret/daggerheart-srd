@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Standard"
+---
+
 # Griffin
 
 **_Tier 4 Standard._** _A large leonine creature that has the head, talons, and wings of an eagle._

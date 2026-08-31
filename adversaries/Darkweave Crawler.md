@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Darkweave Crawler
 
 **_Tier 1 Minion._** _A spider the size of a human head, woven out of shadow-silk._

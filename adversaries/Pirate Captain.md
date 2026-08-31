@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Leader"
+---
+
 # Pirate Captain
 
 **_Tier 1 Leader._** _A charismatic sea dog with an impressive hat, eager to raid and plunder._

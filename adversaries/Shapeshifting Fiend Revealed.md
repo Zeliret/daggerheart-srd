@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Shapeshifting Fiend Revealed
 
 **_Tier 3 Solo._** _A towering humanoid who has an insectile head and multiple sets of glowing red eyes._

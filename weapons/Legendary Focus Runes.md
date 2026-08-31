@@ -1,3 +1,13 @@
+---
+Tier: 4
+Category: "Secondary"
+Trait: "Instinct"
+Range: "Very Close"
+Damage: "d6+6 mag"
+Burden: "One-Handed"
+Feature: "Focused: +1 to primary weapon damage to targets within Very Close range"
+---
+
 # Legendary Focus Runes
 
 **_Tier 4_** _Secondary_ _Magical_ _Weapon_

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Xero The Castle Killer
 
 **_Tier 4 Solo._** _A castle-sized, bipedal reptile._

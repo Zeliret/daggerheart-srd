@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Leader"
+---
+
 # Demon Of Hubris
 
 **_Tier 3 Leader._** _A perfectly beautiful and infinitely cruel demon with a gleaming spear and elegant robes._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Leader"
+---
+
 # High Seraph
 
 **_Tier 4 Leader._** _A divine champion, head of a hallowed host of warriors who enforce their god’s will._

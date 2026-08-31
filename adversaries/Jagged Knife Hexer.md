@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Support"
+---
+
 # Jagged Knife Hexer
 
 **_Tier 1 Support._** _A staff -wielding bandit in a cloak adorned with magical paraphernalia, using curses to vex their foes._

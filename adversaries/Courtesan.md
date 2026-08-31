@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Social"
+---
+
 # Courtesan
 
 **_Tier 2 Social._** _An accomplished manipulator and master of the social arts._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Exploration"
+---
+
 # Dragon’s Lair
 
 **_Tier 3 Exploration._** _A collection of gold, jewels, and artifacts in the heart of an active volcano._

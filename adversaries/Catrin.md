@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Social"
+---
+
 # Catrin
 
 **_Tier 3 Social._** _A lavishly adorned skeleton that has an endless appetite for gold._

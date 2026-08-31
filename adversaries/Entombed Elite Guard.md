@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Entombed Elite Guard
 
 **_Tier 2 Standard._** _An elite undead soldier buried with their empress to defend the tomb from theft and desecration._

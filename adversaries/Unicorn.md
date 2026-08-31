@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Standard"
+---
+
 # Unicorn
 
 **_Tier 3 Standard._** _A celestial avatar of goodness in the form of a preternaturally beautiful horse with a long, spiraled horn emerging from its head._

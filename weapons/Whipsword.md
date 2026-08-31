@@ -1,3 +1,13 @@
+---
+Tier: 1
+Category: "Primary"
+Trait: "Finesse"
+Range: "Very Close"
+Damage: "d8 phy"
+Burden: "One-Handed"
+Feature: "Versatile: This weapon can also be used with these statistics—Finesse, Melee, d10."
+---
+
 # Whipsword
 
 **_Tier 1_** _Primary_ _Physical_ _Weapon_

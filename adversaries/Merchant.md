@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Merchant
 
 **_Tier 1 Social._** _A finely dressed trader with a keen eye for financial gain._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Fallen Shock Troop
 
 **_Tier 4 Minion._** _A cursed soul bound to the Fallen’s will._

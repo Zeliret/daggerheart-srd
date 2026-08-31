@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Guahalan Alebrujo
 
 **_Tier 2 Solo._** _A huge, colorful, chimeric beast formed from many animals._

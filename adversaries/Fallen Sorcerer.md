@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Support"
+---
+
 # Fallen Sorcerer
 
 **_Tier 4 Support._** _A powerful mage bound by the bargains they made in life._

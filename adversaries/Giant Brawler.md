@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Giant Brawler
 
 **_Tier 2 Bruiser._** _An especially muscular giant wielding a warhammer larger than a human._

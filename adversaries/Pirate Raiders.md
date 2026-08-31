@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Horde"
+---
+
 # Pirate Raiders
 
 **_Tier 1 Horde._** _Seafaring scoundrels moving in a ravaging pack._

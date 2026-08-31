@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Jack-O’-Lantern
 
 **_Tier 2 Minion._** _A floating pumpkin or other gourd that has a face carved into it. The soul trapped within it emits an eerie glow._

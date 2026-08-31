@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Viper
 
 **_Tier 1 Minion._** _A small serpent that envenomates its prey with hinged fangs._

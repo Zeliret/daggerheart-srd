@@ -1,3 +1,13 @@
+---
+Tier: 1
+Category: "Primary"
+Trait: "Knowledge"
+Range: "Melee"
+Damage: "d8 phy"
+Burden: "One-Handed"
+Feature: "Piercing: Damage dealt with this weapon treats the target’s Major threshold as having a -2 penalty."
+---
+
 # Twisted Dagger
 
 **_Tier 1_** _Primary_ _Physical_ _Weapon_

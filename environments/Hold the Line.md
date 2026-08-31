@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Event"
+---
+
 # Hold the Line
 
 **_Tier 1 Event._** _The party must fend off multiple waves of enemies long enough for an ally to complete an important objective._

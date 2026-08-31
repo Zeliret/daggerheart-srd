@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Standard"
+---
+
 # Wyvern
 
 **_Tier 3 Standard._** _A two-legged dragon that flies from its mountaintop aerie to devour livestock._

@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Tangle Bramble
 
 **_Tier 1 Minion._** _An animate, blood-drinking tumbleweed._

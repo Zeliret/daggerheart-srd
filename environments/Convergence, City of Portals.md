@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Social"
+---
+
 # Convergence, City of Portals
 
 **_Tier 4 Social._** _A sprawling metropolis at the nexus of creation, where influential figures from across the realms gather._

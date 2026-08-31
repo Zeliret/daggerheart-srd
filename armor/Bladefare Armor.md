@@ -1,3 +1,10 @@
+---
+Tier: 3
+Thresholds: "16 / 39"
+Score: 6
+Feature: "Physical: You can’t mark an Armor Slot to reduce magic damage."
+---
+
 # Bladefare Armor
 
 **_Tier 3_** _Armor_

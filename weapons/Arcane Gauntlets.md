@@ -1,3 +1,13 @@
+---
+Tier: 1
+Category: "Primary"
+Trait: "Strength"
+Range: "Melee"
+Damage: "d10+3 mag"
+Burden: "Two-Handed"
+Feature: ""
+---
+
 # Arcane Gauntlets
 
 **_Tier 1_** _Primary_ _Magical_ _Weapon_

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Social"
+---
+
 # Pain Priest
 
 **_Tier 3 Social._** _A member of an other-dimensional religious order devoted to exploring the boundaries of mortal suffering and ecstasy._

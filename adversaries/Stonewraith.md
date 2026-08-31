@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Skulk"
+---
+
 # Stonewraith
 
 **_Tier 2 Skulk._** _A prowling hunter, like a slinking mountain lion, with a slate-gray stone body._

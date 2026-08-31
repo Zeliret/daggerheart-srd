@@ -1,3 +1,13 @@
+---
+Tier: 2
+Category: "Primary"
+Trait: "Strength"
+Range: "Melee"
+Damage: "d12+6 phy"
+Burden: "Two-Handed"
+Feature: "Heavy: -1 to Evasion"
+---
+
 # Improved Heavy-Frame Wheelchair
 
 **_Tier 2_** _Primary_ _Physical_ _Weapon_

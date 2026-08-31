@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Horde"
+---
+
 # Demonic Hound Pack
 
 **_Tier 2 Horde._** _Unnatural hounds lit from within by hellfire._

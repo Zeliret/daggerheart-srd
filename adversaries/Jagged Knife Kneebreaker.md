@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Jagged Knife Kneebreaker
 
 **_Tier 1 Bruiser._** _An imposing brawler carrying a large club._

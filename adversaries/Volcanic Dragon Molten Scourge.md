@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Volcanic Dragon: Molten Scourge
 
 **_Tier 4 Solo._** _Enraged by their wounds, the dragon bursts into molten lava._

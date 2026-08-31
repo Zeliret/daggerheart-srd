@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Greater Earth Elemental
 
 **_Tier 3 Bruiser._** _A living landslide of boulders and dust, as large as a house._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Exploration"
+---
+
 # Witch’s Hut
 
 **_Tier 2 Exploration._** _A rustic, windowless hut sitting atop two huge chicken legs._

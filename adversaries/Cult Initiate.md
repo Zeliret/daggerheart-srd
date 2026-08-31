@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Minion"
+---
+
 # Cult Initiate
 
 **_Tier 2 Minion._** _A low-ranking cultist in simple robes, eager to gain power._

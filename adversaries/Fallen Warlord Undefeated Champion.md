@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Solo"
+---
+
 # Fallen Warlord: Undefeated Champion
 
 **_Tier 4 Solo._** _That which only the most feared have a chance to fear._

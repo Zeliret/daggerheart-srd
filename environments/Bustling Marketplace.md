@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Social"
+---
+
 # Bustling Marketplace
 
 **_Tier 1 Social._**

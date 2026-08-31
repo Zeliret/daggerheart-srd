@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Sellsword
 
 **_Tier 1 Minion._** _An armed mercenary testing their luck._

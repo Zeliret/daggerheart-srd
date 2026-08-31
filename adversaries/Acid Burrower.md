@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Solo"
+---
+
 # Acid Burrower
 
 **_Tier 1 Solo._** _A horse-sized insect with digging claws and acidic blood._

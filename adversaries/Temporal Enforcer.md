@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Bruiser"
+---
+
 # Temporal Enforcer
 
 **_Tier 4 Bruiser._** _A giant mechanical being from a dimension outside time, built by the Time Keepers to preserve the Holy Continuum._

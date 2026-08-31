@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Horde"
+---
+
 # Night Children
 
 **_Tier 3 Horde._** _A teeming assortment of nocturnal fiends under the thrall of an ancient evil._

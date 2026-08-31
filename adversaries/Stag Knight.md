@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Standard"
+---
+
 # Stag Knight
 
 **_Tier 3 Standard._** _A knight with huge, majestic antlers wearing armor made of dangerous thorns._

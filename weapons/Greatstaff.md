@@ -1,3 +1,13 @@
+---
+Tier: 1
+Category: "Primary"
+Trait: "Knowledge"
+Range: "Very Far"
+Damage: "d6 mag"
+Burden: "Two-Handed"
+Feature: "Powerful: On a successful attack, roll an additional damage die and discard the lowest result."
+---
+
 # Greatstaff
 
 **_Tier 1_** _Primary_ _Magical_ _Weapon_

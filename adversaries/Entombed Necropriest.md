@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Support"
+---
+
 # Entombed Necropriest
 
 **_Tier 2 Support._** _A necromancer charged with preserving the empress’s life beyond death._

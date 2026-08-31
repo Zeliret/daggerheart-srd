@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Guahalan Fang Lord
 
 **_Tier 2 Leader._** _A shapeshifting warlord who leads a group of warriors into battle._

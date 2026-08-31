@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Valdenhax
 
 **_Tier 2 Leader._** _A malevolent forest hag who has long, mossy hair and flies through the air with an oversized mortar and pestle._

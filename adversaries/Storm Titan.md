@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Storm Titan
 
 **_Tier 3 Solo._** _An ancient, wise, and temperamental goliath who has hair made of mist and electricity crackling across their skin._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Shark
 
 **_Tier 2 Bruiser._** _A large aquatic predator, always on the move._

@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Leader"
+---
+
 # Cephilith Priest
 
 **_Tier 4 Leader._** _A perpetually moist, faceless humanoid from the Outer Realms who has elongated fingers and translucent skin, under which one can see wriggling worms._

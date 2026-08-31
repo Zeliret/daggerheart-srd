@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Bruiser"
+---
+
 # Outer Realms Abomination
 
 **_Tier 4 Bruiser._** _A chaotic mockery of life, constantly in flux._

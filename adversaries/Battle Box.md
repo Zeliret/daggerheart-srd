@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Battle Box
 
 **_Tier 2 Solo._** _A cube-shaped construct with a different rune on each of their six sides._

@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Standard"
+---
+
 # Vampire
 
 **_Tier 3 Standard._** _An intelligent undead with blood-stained lips and a predator’s smile._

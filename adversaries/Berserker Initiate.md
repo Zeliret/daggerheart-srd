@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Berserker Initiate
 
 **_Tier 2 Standard._** _A raging warrior who imbibes ritualistic concoctions to enhance their form with aspects of a predatory beast._

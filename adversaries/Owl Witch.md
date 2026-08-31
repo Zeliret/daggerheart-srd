@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Support"
+---
+
 # Owl Witch
 
 **_Tier 4 Support._** _A giant, vengeful barn owl that has a 15-foot wingspan and a human face._

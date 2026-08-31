@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Bruiser"
+---
+
 # Vault Guardian Sentinel
 
 **_Tier 3 Bruiser._** _A dust-covered golden construct with boxy limbs and a huge mace for a hand._

@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Bruiser"
+---
+
 # Landshark
 
 **_Tier 2 Bruiser._** _A quadrupedal shark that swims through the ground._

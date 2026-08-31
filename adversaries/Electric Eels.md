@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Horde"
+---
+
 # Electric Eels
 
 **_Tier 2 Horde._** _A swarm of eels that encircle and electrocute._

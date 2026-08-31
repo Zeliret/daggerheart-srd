@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Vampire Lord
 
 **_Tier 3 Solo._** _A cruel vampire lord from a long-lost age, cursed with immortality._

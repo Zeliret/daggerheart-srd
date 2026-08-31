@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Scarecrow
 
 **_Tier 2 Standard._** _A bundle of straw bound into a humanoid shape, clothed in rags, and animated by a trapped soul._

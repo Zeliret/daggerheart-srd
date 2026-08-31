@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Standard"
+---
+
 # Failed Experiment
 
 **_Tier 2 Standard._** _A magical necromantic experiment gone wrong, leaving them warped and ungainly._

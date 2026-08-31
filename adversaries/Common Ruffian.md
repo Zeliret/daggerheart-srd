@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Standard"
+---
+
 # Common Ruffian
 
 **_Tier 1 Standard._** _A local laborer or artisan pushed by circumstances to assail others._

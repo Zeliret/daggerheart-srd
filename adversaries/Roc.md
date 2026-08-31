@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Solo"
+---
+
 # Roc
 
 **_Tier 3 Solo._** _A giant falcon that nests in the mountains and unleashes storms._

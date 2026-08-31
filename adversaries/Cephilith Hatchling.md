@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Cephilith Hatchling
 
 **_Tier 4 Minion._** _A squidlike parasite that latches onto their prey’s skull, bathing the victim’s brain in extradimensional neurotoxins._

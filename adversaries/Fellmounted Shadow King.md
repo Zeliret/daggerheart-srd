@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Support"
+---
+
 # Fellmounted Shadow King
 
 **_Tier 3 Support._** _The shade of a forgotten ruler, cursed to patrol the skies atop a winged eel in the service of an even greater evil._

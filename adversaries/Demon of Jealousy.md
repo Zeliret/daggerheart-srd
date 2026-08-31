@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Ranged"
+---
+
 # Demon Of Jealousy
 
 **_Tier 3 Ranged._** _A fickle creature of spindly limbs and insatiable desires._

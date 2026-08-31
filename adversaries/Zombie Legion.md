@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Horde"
+---
+
 # Zombie Legion
 
 **_Tier 4 Horde._** _A large pack of undead, still powerful despite their rotting flesh._

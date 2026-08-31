@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Bruiser"
+---
+
 # Cephilith Abomination
 
 **_Tier 4 Bruiser._** _A lumbering, bog-grown frog beast that has tadpolelike leeches visibly wriggling underneath their translucent skin._

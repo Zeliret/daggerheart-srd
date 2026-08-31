@@ -1,3 +1,8 @@
+---
+Tier: 4
+Type: "Minion"
+---
+
 # Outer Realms Thrall
 
 **_Tier 4 Minion._** _A vaguely humanoid form stripped of memory and identity._

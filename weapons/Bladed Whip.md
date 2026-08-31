@@ -1,3 +1,13 @@
+---
+Tier: 2
+Category: "Primary"
+Trait: "Agility"
+Range: "Very Close"
+Damage: "d8+3 phy"
+Burden: "One-Handed"
+Feature: "Quick: When you make an attack, you can mark a Stress to target another creature within range."
+---
+
 # Bladed Whip
 
 **_Tier 2_** _Primary_ _Physical_ _Weapon_

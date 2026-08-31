@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Social"
+---
+
 # Masquerade Ball
 
 **_Tier 2 Social._** _A high society gala where masked revelers trade secrets and favors._

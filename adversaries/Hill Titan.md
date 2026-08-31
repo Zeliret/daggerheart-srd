@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Solo"
+---
+
 # Hill Titan
 
 **_Tier 2 Solo._** _A goliath clad in animal skins and surrounded by a swarm of insects._

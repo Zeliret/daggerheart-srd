@@ -1,3 +1,8 @@
+---
+Tier: 2
+Type: "Leader"
+---
+
 # Entombed Empress
 
 **_Tier 2 Leader._** _The undead ruler of a forgotten realm. She’s been given blasphemous funeral rites to prevent her soul from moving on._

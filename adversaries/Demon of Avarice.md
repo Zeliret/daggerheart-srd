@@ -1,3 +1,8 @@
+---
+Tier: 3
+Type: "Support"
+---
+
 # Demon Of Avarice
 
 **_Tier 3 Support._** _A regal cloaked monstrosity with circular horns adorned with treasure._

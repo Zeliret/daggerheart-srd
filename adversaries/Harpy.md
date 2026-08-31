@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Skulk"
+---
+
 # Harpy
 
 **_Tier 1 Skulk._** _A fierce and foul-smelling bird with an eight-foot wingspan and the upper body and face of a human._

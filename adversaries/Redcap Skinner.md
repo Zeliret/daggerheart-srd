@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Minion"
+---
+
 # Redcap Skinner
 
 **_Tier 1 Minion._** _A cat-sized fey creature wielding a straight razor and wearing a conical red cap sealed on their head with candle wax._

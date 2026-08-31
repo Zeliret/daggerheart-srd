@@ -1,3 +1,8 @@
+---
+Tier: 1
+Type: "Bruiser"
+---
+
 # Spellbound Armor
 
 **_Tier 1 Bruiser._** _An empty suit of full plate armor that glows with a faint corona of ghostly light._

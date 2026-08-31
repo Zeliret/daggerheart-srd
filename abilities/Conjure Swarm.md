@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 2
+Recall Cost: 1
+---
+
 # Conjure Swarm
 
 **_Level 2_** _Sage Spell._ **_Recall Cost_** _1._

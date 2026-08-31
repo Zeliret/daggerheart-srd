@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 6
+Recall Cost: 2
+---
+
 # Rift Walker
 
 **_Level 6_** _Arcana Spell._ **_Recall Cost_** _2._

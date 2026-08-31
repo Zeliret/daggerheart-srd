@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 4
+Recall Cost: 1
+---
+
 # Goad Them on
 
 **_Level 4_** _Valor Ability._ **_Recall Cost_** _1._

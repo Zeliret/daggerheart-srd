@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Hush
 
 **_Level 5_** _Midnight Spell._ **_Recall Cost_** _1._

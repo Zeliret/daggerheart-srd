@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 9
+Recall Cost: 1
+---
+
 # Plant Dominion
 
 **_Level 9_** _Sage Spell._ **_Recall Cost_** _1._

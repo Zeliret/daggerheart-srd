@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Shared Trauma
 
 **_Level 3_** _Dread Spell._ **_Recall Cost_** _1._

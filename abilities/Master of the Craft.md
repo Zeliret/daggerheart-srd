@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 9
+Recall Cost: 0
+---
+
 # Master of the Craft
 
 **_Level 9_** _Grace Ability._ **_Recall Cost_** _0._

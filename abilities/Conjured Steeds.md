@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 6
+Recall Cost: 0
+---
+
 # Conjured Steeds
 
 **_Level 6_** _Sage Spell._ **_Recall Cost_** _0._

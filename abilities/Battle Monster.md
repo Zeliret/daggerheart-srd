@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 10
+Recall Cost: 0
+---
+
 # Battle Monster
 
 **_Level 10_** _Blade Ability._ **_Recall Cost_** _0._

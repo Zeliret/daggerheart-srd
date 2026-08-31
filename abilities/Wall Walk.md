@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 1
+Recall Cost: 1
+---
+
 # Wall Walk
 
 **_Level 1_** _Arcana Spell._ **_Recall Cost_** _1._

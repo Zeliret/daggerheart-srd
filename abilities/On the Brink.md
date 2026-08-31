@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 9
+Recall Cost: 1
+---
+
 # On the Brink
 
 **_Level 9_** _Bone Ability._ **_Recall Cost_** _1._

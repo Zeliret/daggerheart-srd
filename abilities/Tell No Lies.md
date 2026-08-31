@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 2
+Recall Cost: 1
+---
+
 # Tell No Lies
 
 **_Level 2_** _Grace Spell._ **_Recall Cost_** _1._

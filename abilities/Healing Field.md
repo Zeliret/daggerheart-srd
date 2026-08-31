@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 4
+Recall Cost: 2
+---
+
 # Healing Field
 
 **_Level 4_** _Sage Spell._ **_Recall Cost_** _2._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 10
+Recall Cost: 2
+---
+
 # Avatar of Terror
 
 **_Level 10_** _Dread Spell._ **_Recall Cost_** _2._

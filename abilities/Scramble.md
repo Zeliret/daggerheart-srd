@@ -1,3 +1,9 @@
+---
+Domain: "[[Blade]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Scramble
 
 **_Level 3_** _Blade Ability._ **_Recall Cost_** _1._

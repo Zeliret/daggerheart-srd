@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 9
+Recall Cost: 2
+---
+
 # Earthquake
 
 **_Level 9_** _Arcana Spell._ **_Recall Cost_** _2._

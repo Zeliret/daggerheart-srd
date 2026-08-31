@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 10
+Recall Cost: 1
+---
+
 # Specter of the Dark
 
 **_Level 10_** _Midnight Spell._ **_Recall Cost_** _1._

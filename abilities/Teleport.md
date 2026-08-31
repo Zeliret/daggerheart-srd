@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 5
+Recall Cost: 2
+---
+
 # Teleport
 
 **_Level 5_** _Codex Spell._ **_Recall Cost_** _2._

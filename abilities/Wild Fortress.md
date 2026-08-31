@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Wild Fortress
 
 **_Level 5_** _Sage Spell._ **_Recall Cost_** _1._

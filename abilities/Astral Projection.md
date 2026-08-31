@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 8
+Recall Cost: 0
+---
+
 # Astral Projection
 
 **_Level 8_** _Grace Spell._ **_Recall Cost_** _0._

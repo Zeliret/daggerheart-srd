@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 9
+Recall Cost: 2
+---
+
 # Overwhelming Aura
 
 **_Level 9_** _Splendor Spell._ **_Recall Cost_** _2._

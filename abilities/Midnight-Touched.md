@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 7
+Recall Cost: 2
+---
+
 # Midnight-Touched
 
 **_Level 7_** _Midnight Ability._ **_Recall Cost_** _2._

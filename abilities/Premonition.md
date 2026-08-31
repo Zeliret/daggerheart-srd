@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 5
+Recall Cost: 2
+---
+
 # Premonition
 
 **_Level 5_** _Arcana Spell._ **_Recall Cost_** _2._

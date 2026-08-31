@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Voice of Reason
 
 **_Level 3_** _Splendor Ability._ **_Recall Cost_** _1._

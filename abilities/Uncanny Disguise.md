@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 1
+Recall Cost: 0
+---
+
 # Uncanny Disguise
 
 **_Level 1_** _Midnight Spell._ **_Recall Cost_** _0._

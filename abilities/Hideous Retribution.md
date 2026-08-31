@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 2
+Recall Cost: 2
+---
+
 # Hideous Retribution
 
 **_Level 2_** _Dread Spell._ **_Recall Cost_** _2._

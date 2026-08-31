@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 9
+Recall Cost: 1
+---
+
 # Savor the Anguish
 
 **_Level 9_** _Dread Ability._ **_Recall Cost_** _1._

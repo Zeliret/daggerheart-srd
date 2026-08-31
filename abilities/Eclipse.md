@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 10
+Recall Cost: 2
+---
+
 # Eclipse
 
 **_Level 10_** _Midnight Spell._ **_Recall Cost_** _2._

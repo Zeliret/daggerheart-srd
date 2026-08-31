@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 9
+Recall Cost: 2
+---
+
 # Damnation
 
 **_Level 9_** _Dread Spell._ **_Recall Cost_** _2._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 8
+Recall Cost: 1
+---
+
 # Spellcharge
 
 **_Level 8_** _Midnight Spell._ **_Recall Cost_** _1._

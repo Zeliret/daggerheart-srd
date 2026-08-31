@@ -1,3 +1,9 @@
+---
+Domain: "[[Valor]]"
+Level: 8
+Recall Cost: 2
+---
+
 # Ground Pound
 
 **_Level 8_** _Valor Ability._ **_Recall Cost_** _2._

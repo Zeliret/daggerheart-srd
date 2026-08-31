@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Signature Move
 
 **_Level 5_** _Bone Ability._ **_Recall Cost_** _1._

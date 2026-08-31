@@ -1,3 +1,9 @@
+---
+Domain: "[[Bone]]"
+Level: 4
+Recall Cost: 1
+---
+
 # Boost
 
 **_Level 4_** _Bone Ability._ **_Recall Cost_** _1._

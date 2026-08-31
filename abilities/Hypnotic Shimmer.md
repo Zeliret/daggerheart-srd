@@ -1,3 +1,9 @@
+---
+Domain: "[[Grace]]"
+Level: 3
+Recall Cost: 1
+---
+
 # Hypnotic Shimmer
 
 **_Level 3_** _Grace Spell._ **_Recall Cost_** _1._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 4
+Recall Cost: 1
+---
+
 # Glyph of Nightfall
 
 **_Level 4_** _Midnight Spell._ **_Recall Cost_** _1._

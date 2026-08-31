@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 5
+Recall Cost: 1
+---
+
 # Shape Material
 
 **_Level 5_** _Splendor Spell._ **_Recall Cost_** _1._

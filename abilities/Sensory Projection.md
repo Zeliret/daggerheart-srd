@@ -1,3 +1,9 @@
+---
+Domain: "[[Arcana]]"
+Level: 9
+Recall Cost: 0
+---
+
 # Sensory Projection
 
 **_Level 9_** _Arcana Spell._ **_Recall Cost_** _0._

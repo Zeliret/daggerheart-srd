@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 8
+Recall Cost: 2
+---
+
 # Shadowhunter
 
 **_Level 8_** _Midnight Ability._ **_Recall Cost_** _2._

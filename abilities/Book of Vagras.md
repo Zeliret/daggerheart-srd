@@ -1,3 +1,9 @@
+---
+Domain: "[[Codex]]"
+Level: 2
+Recall Cost: 2
+---
+
 # Book of Vagras
 
 **_Level 2_** _Codex Grimoire._ **_Recall Cost_** _2._

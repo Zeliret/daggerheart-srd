@@ -1,3 +1,9 @@
+---
+Domain: "[[Dread]]"
+Level: 8
+Recall Cost: 2
+---
+
 # Dark Army
 
 **_Level 8_** _Dread Spell._ **_Recall Cost_** _2._

@@ -1,3 +1,9 @@
+---
+Domain: "[[Sage]]"
+Level: 8
+Recall Cost: 1
+---
+
 # Rejuvenation Barrier
 
 **_Level 8_** _Sage Spell._ **_Recall Cost_** _1._

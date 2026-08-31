@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 2
+Recall Cost: 1
+---
+
 # Healing Hands
 
 **_Level 2_** _Splendor Spell._ **_Recall Cost_** _1._

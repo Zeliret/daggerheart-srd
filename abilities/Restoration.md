@@ -1,3 +1,9 @@
+---
+Domain: "[[Splendor]]"
+Level: 6
+Recall Cost: 2
+---
+
 # Restoration
 
 **_Level 6_** _Splendor Spell._ **_Recall Cost_** _2._

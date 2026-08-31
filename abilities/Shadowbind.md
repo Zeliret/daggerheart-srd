@@ -1,3 +1,9 @@
+---
+Domain: "[[Midnight]]"
+Level: 2
+Recall Cost: 0
+---
+
 # Shadowbind
 
 **_Level 2_** _Midnight Spell._ **_Recall Cost_** _0._

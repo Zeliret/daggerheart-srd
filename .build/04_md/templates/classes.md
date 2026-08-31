@@ -1,3 +1,11 @@
+---
+Domains:
+  - "[[{{ .domain_1 }}]]"
+  - "[[{{ .domain_2 }}]]"
+Evasion: {{ .evasion }}
+Hit Points: {{ .hp }}
+---
+
 # {{ .name }}
 
 {{- if not .items }}

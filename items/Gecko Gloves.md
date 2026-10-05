@@ -1,3 +1,7 @@
+---
+Description: "You can climb up vertical surfaces and across ceilings."
+---
+
 # Gecko Gloves
 
 **_Item_**

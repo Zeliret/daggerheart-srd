@@ -1,3 +1,7 @@
+---
+Description: "You can swallow this bezoar to become immune to poisons until your next long rest."
+---
+
 # Cupbearer’s Bezoar
 
 **_Consumable_**

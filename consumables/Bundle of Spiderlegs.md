@@ -1,3 +1,7 @@
+---
+Description: "You can eat these spiderlegs to walk on walls until your next rest."
+---
+
 # Bundle of Spiderlegs
 
 **_Consumable_**

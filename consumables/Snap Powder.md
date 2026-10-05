@@ -1,3 +1,7 @@
+---
+Description: "Mark a Stress and clear a HP."
+---
+
 # Snap Powder
 
 **_Consumable_**

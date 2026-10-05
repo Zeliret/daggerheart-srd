@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.inFolder(this.file.folder)
+properties:
+  file.name:
+    displayName: Ability
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Domain
+      direction: ASC
+    order:
+      - file.name
+      - Level
+      - Recall Cost
+    sort:
+      - property: Level
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 208
+    cardSize: 190
+    indentProperties: false

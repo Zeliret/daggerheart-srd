@@ -1,3 +1,7 @@
+---
+Description: "This torch gives off light only the bearer can see."
+---
+
 # Mandragorian Torch
 
 **_Item_**

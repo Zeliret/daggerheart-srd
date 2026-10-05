@@ -1,3 +1,7 @@
+---
+Description: "You can drink this tea to refresh your features as if you had taken a long rest."
+---
+
 # Cockerel Claw Tea
 
 **_Consumable_**

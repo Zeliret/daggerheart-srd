@@ -1,3 +1,7 @@
+---
+Description: "This writing quill never runs out of ink or needs to be sharpened."
+---
+
 # Blackwing Quill
 
 **_Item_**

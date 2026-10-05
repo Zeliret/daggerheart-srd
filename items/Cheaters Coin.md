@@ -1,3 +1,7 @@
+---
+Description: "When you flip this coin, you can spend a Hope to determine which side it lands on."
+---
+
 # Cheater’s Coin
 
 **_Item_**

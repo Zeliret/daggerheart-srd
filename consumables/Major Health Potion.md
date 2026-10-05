@@ -1,3 +1,7 @@
+---
+Description: "Clear 1d4+2 HP."
+---
+
 # Major Health Potion
 
 **_Consumable_**

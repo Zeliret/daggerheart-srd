@@ -1,3 +1,7 @@
+---
+Description: "This snuffbox is filled with combustible powder."
+---
+
 # Box of Dragon Dust
 
 **_Item_**

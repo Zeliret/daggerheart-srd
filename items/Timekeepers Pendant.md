@@ -1,3 +1,7 @@
+---
+Description: "You can choose an additional downtime move each rest."
+---
+
 # Timekeeper’s Pendant
 
 **_Item_**

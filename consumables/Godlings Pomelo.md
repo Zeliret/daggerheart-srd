@@ -1,3 +1,7 @@
+---
+Description: "You can eat this citrus fruit to clear all Hit Points and Stress."
+---
+
 # Godling’s Pomelo
 
 **_Consumable_**

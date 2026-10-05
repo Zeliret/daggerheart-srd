@@ -1,3 +1,7 @@
+---
+Description: "You can command this rope to tie or untie itself."
+---
+
 # Self-Tying Rope
 
 **_Item_**

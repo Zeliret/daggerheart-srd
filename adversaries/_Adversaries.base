@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.inFolder(this.file.folder)
+properties:
+  file.name:
+    displayName: Adversary
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Tier
+      direction: ASC
+    order:
+      - file.name
+      - Type
+    columnSize:
+      file.name: 208
+    cardSize: 170

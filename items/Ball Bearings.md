@@ -1,3 +1,7 @@
+---
+Description: "This pouch contains perfectly smooth metal spheres."
+---
+
 # Ball Bearings
 
 **_Item_**

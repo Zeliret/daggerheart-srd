@@ -1,3 +1,7 @@
+---
+Description: "You can apply this venom to a weapon that deals physical damage to add a d8 to your next damage roll with that weapon."
+---
+
 # Improved Grindletooth Venom
 
 **_Consumable_**

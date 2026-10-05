@@ -1,3 +1,7 @@
+---
+Description: "You can use this loupe to see through illusions and enchantments."
+---
+
 # Enchanter’s Loupe
 
 **_Item_**

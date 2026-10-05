@@ -1,3 +1,7 @@
+---
+Description: "Once per rest, mark a Stress to teleport to a location you can clearly see."
+---
+
 # Warp Pendant
 
 **_Item_**

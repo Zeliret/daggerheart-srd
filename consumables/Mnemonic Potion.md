@@ -1,3 +1,7 @@
+---
+Description: "You can drink this potion to Utilize an Experience without spending a Hope."
+---
+
 # Mnemonic Potion
 
 **_Consumable_**

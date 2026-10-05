@@ -1,3 +1,7 @@
+---
+Description: "After drinking this potion, the next successful attack you make critically succeeds."
+---
+
 # Homet’s Secret Potion
 
 **_Consumable_**

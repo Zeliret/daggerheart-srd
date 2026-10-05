@@ -1,3 +1,7 @@
+---
+Description: "You can blow this dust in an adversary’s face to prevent them from clearing Stress until your next long rest."
+---
+
 # Night Hag’s Dust
 
 **_Consumable_**

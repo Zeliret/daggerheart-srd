@@ -1,3 +1,7 @@
+---
+Description: "You can apply this salve to your skin to make yourself immune to heat until your next rest."
+---
+
 # Salamander Salve
 
 **_Consumable_**

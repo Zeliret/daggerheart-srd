@@ -1,3 +1,7 @@
+---
+Description: "When you critically succeed on an attack, all allies within Close range gain a Hope."
+---
+
 # Hero’s Helm
 
 **_Item_**

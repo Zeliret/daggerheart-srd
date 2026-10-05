@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.inFolder(this.file.folder)
+    - Category == "Primary"
+properties:
+  file.name:
+    displayName: Weapon
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Tier
+      direction: ASC
+    order:
+      - file.name
+      - Trait
+      - Range
+      - Damage
+      - Burden
+      - Feature

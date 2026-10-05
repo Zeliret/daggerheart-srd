@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.inFolder(this.file.folder)
+properties:
+  file.name:
+    displayName: Class
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Domains
+      - Subclasses
+      - Evasion
+      - Hit Points
+    columnSize:
+      file.name: 100
+    cardSize: 250

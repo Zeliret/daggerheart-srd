@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.inFolder(this.file.folder)
+properties:
+  file.name:
+    displayName: Armor
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Tier
+      direction: ASC
+    order:
+      - file.name
+      - Thresholds
+      - Score
+      - Feature
+    columnSize:
+      file.name: 208

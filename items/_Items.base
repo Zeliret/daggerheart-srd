@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.inFolder(this.file.folder)
+properties:
+  file.name:
+    displayName: Item
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Description
+    columnSize:
+      file.name: 208
+      Description: 520
+    cardSize: 190
